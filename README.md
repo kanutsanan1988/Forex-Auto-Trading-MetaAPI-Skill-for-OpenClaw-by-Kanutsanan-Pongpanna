@@ -2,16 +2,22 @@
 
 เมื่อคุณมีและใช้งาน OpenClaw ได้แล้ว
 ให้สมัครและใช้งาน MetaAPI เพื่อเชื่อมต่อกับ MT5 ของคุณ
+
 https://metaapi.cloud/ 
 
 จากนั้นก็ส่ง URL นี้
+
 https://github.com/kanutsanan1988/Forex-Auto-Trading-MetaAPI-Skill-for-OpenClaw-by-Kanutsanan-Pongpanna/blob/main/iris-forex-trading-skill-complete.zip 
+
 ไปยังหน้าแชทของ OpenClaw
 พร้อมพิมพ์สั่งงานว่า “อัพเดท Skill นี้ให้ด้วย”
 
 จากนั้นก็ส่งข้อมูลของ MetaAPI ให้ OpenClaw มีอยู่ด้วยกัน 2 ก้อนข้อมูลคือ
+
 Account ID:..........................................................
+
 API Key:..............................................................
+
 
 หลักจากนั้นคุณก็ถาม OpenClaw 
 ใช้งาน Skill อย่างไร อธิบายโดยละเอียด ประมาณนี้
