@@ -3,7 +3,8 @@
 https://www.facebook.com/story.php?story_fbid=830612982817153&id=100076053767601&rdid=lhrCYOl8WTxCQIsc#
 
 
-การเทรดเงินเทรด Forex ด้วย OpenClaw ผ่าน API Key ของ MetaAPI
+การเทรดเงินเทรด Forex (AI Trading)
+ด้วย OpenClaw ผ่าน API Key ของ MetaAPI
 
 เมื่อคุณมีและใช้งาน OpenClaw ได้แล้ว
 ให้สมัครและใช้งาน MetaAPI เพื่อเชื่อมต่อกับ MT5 ของคุณ
