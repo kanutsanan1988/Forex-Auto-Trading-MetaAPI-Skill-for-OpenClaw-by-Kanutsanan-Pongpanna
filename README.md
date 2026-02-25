@@ -16,6 +16,11 @@ https://metaapi.cloud/
 
 https://github.com/kanutsanan1988/Forex-Auto-Trading-MetaAPI-Skill-for-OpenClaw-by-Kanutsanan-Pongpanna/blob/main/iris-forex-trading-skill-complete.zip 
 
+และ
+
+https://github.com/kanutsanan1988/Forex-Auto-Trading-MetaAPI-Skill-for-OpenClaw-by-Kanutsanan-Pongpanna/blob/main/code-sample.zip
+
+
 ไปยังหน้าแชทของ OpenClaw
 พร้อมพิมพ์สั่งงานว่า “อัพเดท Skill นี้ให้ด้วย”
 
