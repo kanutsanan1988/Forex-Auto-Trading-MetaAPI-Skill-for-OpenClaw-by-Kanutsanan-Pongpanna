@@ -1,0 +1,51 @@
+{
+  "name": "Kanutsanan-Pongpanna-Agentic-AI-Auto-Trading-for-MT5",
+  "version": "2.0.0",
+  "description": "Complete agentic automated forex trading system for XAU/USD (gold) with real-time M15 analysis, intelligent position management with profit thresholds, full-auto execution, and 30-second CRON scheduling.",
+  "author": "Kanutsanan Pongpanna",
+  "license": "MIT",
+  "keywords": [
+    "forex",
+    "trading",
+    "automation",
+    "metaapi",
+    "xauusd",
+    "gold",
+    "ai",
+    "agentic",
+    "position-management",
+    "profit-threshold"
+  ],
+  "features": [
+    "Real-time M15 chart analysis (100 candles)",
+    "Dynamic SL/TP calculation based on volatility",
+    "Balance vs Equity optimization for 2% risk rule",
+    "9-step intelligent trade check (STEP 0-9)",
+    "Smart position management with profit thresholds (±2%)",
+    "8 safety conditions validation",
+    "Full automation every 30 seconds",
+    "20,160 weekly trading cycles (+25% improvement)",
+    "-20% daily loss circuit breaker",
+    "Position scaling with profit lock"
+  ],
+  "requirements": [
+    "Node.js >= 14.0.0",
+    "metaapi.cloud-sdk",
+    "MetaApi account with API key",
+    "MT5 connected account"
+  ],
+  "files": [
+    "scripts/kanutsanan-pongpanna-trade-check-template.js",
+    "scripts/kanutsanan-pongpanna-full-auto-template.js",
+    "scripts/cron-setup.sh",
+    "references/STEP-0-10-GUIDE.md",
+    "references/CRON-SCHEDULING.md",
+    "SKILL.md",
+    "_meta.json"
+  ],
+  "command": {
+    "tradeCheck": "source .env && node scripts/kanutsanan-pongpanna-trade-check-template.js",
+    "fullAuto": "source .env && node scripts/kanutsanan-pongpanna-full-auto-template.js",
+    "schedule": "bash scripts/cron-setup.sh"
+  }
+}

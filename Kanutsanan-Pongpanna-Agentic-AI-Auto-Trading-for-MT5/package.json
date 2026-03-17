@@ -1,0 +1,51 @@
+{
+  "name": "kanutsanan-pongpanna-agentic-ai-auto-trading-for-mt5",
+  "version": "2.0.0",
+  "description": "Complete agentic automated forex trading system for XAU/USD (gold) with real-time M15 analysis, intelligent position management with profit thresholds, full-auto execution, and 30-second CRON scheduling.",
+  "main": "scripts/kanutsanan-pongpanna-full-auto-template.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check": "source .env && node scripts/kanutsanan-pongpanna-trade-check-template.js",
+    "auto": "source .env && node scripts/kanutsanan-pongpanna-full-auto-template.js",
+    "schedule": "bash scripts/cron-setup.sh",
+    "logs": "tail -f logs/trade-$(date +%Y%m%d).log"
+  },
+  "keywords": [
+    "forex",
+    "trading",
+    "automation",
+    "metaapi",
+    "xauusd",
+    "gold",
+    "ai",
+    "agentic",
+    "position-management",
+    "profit-threshold",
+    "cron",
+    "30-seconds"
+  ],
+  "author": "Kanutsanan Pongpanna",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kanutsanan1988/Forex-Auto-Trading-MetaAPI-Skill-for-OpenClaw-by-Kanutsanan-Pongpanna"
+  },
+  "dependencies": {
+    "metaapi.cloud-sdk": "^20.0.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "preferGlobal": false,
+  "bin": {},
+  "files": [
+    "scripts/",
+    "references/",
+    "assets/",
+    "SKILL.md",
+    "README.md",
+    "_meta.json",
+    ".gitignore"
+  ]
+}
