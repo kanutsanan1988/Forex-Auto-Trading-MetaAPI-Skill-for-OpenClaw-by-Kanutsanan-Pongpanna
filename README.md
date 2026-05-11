@@ -2,29 +2,31 @@
 
 https://www.facebook.com/story.php?story_fbid=830612982817153&id=100076053767601&rdid=lhrCYOl8WTxCQIsc#
 
+ระบบเทรดทองคำอัตโนมัติด้วย AI 
 
-การเทรดเงินเทรด Forex (AI Trading)
+เมื่อติดตั้งสกิลเสร็จเรียบร้อยแล้ว
+และ Prompt แรกที่ต้องทำเลยก็คือ
+“ปรับสคริปใหม่ ทุกครั้งเมื่อคำนวณ SL ได้เท่าไหร่ คำนวณ TP ได้เท่าไหร่ ถ้า TP มีจำนวนจุด pts มากกว่า SL ก็ให้ปรับใหม่ตั้งจำนวนจุด pts ของ TP ให้เท่ากันกับ SL เสมอ 
+ปรับการตั้งเวลาเทรดอัตโนมัติเป็นทุกๆ 10 นาที
+ทุกครั้งที่ทำการเช็คเทรดและทำการเทรดอัตโนมัติเวลาทำการดึงข้อมูลจาก API โดยตรงได้เท่านั้น และเวลาดึงข้อมูลกราฟมาประมวลผลให้เริ่มใช้ข้อมูลจาก API ก่อน หากไม่สามารถดึงข้อมูลกราฟจาก API ได้ ให้ค้นหากราฟการเทรดใน Trading View ที่ตรงกับคู่เทรดและโบรกเกอร์ของคุณ หากหากราฟเทรดที่ตรงกับคู่เทรดและโบรกเกอร์ของตนเองไม่เจอ ให้ AI เลือกกราฟเทรดที่ตรงกับคู่เทรดของคุณให้โดยอัตโนมัติ และบันทึก URL คู่เทรดนั้นไว้ใช้งานในครั้งต่อๆไป ตามลอจิกการเทรดที่วางไว้ดีแล้วและสมบูรณ์แบบดีแล้วทั้งหมด ถ้าอ่านกราฟไม่ได้ก็ไม่ต้องเทรด (คู่เทรดเริ่มต้นของสกิลคือทองคำ หรือ XAU/USD ส่วนข้อมูลโบรกเกอร์สามารถตรวจสอบได้โดยอัตโนมัติผ่าน API)” 
 
+การเทรดเงินเทรดทองคำเทรด Forex (AI Trading)
 ด้วย OpenClaw ผ่าน API Key ของ MetaAPI
+
+Skill สร้างโดย Kanutsanan Pongpanna 
 
 เมื่อคุณมีและใช้งาน OpenClaw ได้แล้ว
 ให้สมัครและใช้งาน MetaAPI เพื่อเชื่อมต่อกับ MT5 ของคุณ
+https://metaapi.cloud/ 
 
 จากนั้นก็ส่ง URL นี้
-
 https://github.com/kanutsanan1988/Forex-Auto-Trading-MetaAPI-Skill-for-OpenClaw-by-Kanutsanan-Pongpanna 
-
 ไปยังหน้าแชทของ OpenClaw
-
 พร้อมพิมพ์สั่งงานว่า “ดาวน์โหลด URL Skill นี้ แตกไฟล์ และบันทึกข้อมูลเข้าในระบบไว้ด้วย” 
 
-
 จากนั้นก็ส่งข้อมูลของ MetaAPI ให้ OpenClaw มีอยู่ด้วยกัน 2 ก้อนข้อมูลคือ
-
 Account ID:..........................................................
-
 API Key:..............................................................
-
 
 หลักจากนั้นคุณก็ถาม OpenClaw 
 ใช้งาน Skill อย่างไร อธิบายโดยละเอียด ประมาณนี้
@@ -35,21 +37,75 @@ API Key:..............................................................
 1. คำสั่ง “เช็คเทรด” ระบบจะเช็คข้อมูลเพื่อให้คำแนะนำในการเทรด
 2. คำสั่ง “อนุมัติเทรด” ระบบจะส่งคำสั่ง(ซื้อขาย)เทรดตามคำแนะนำเทรด
 3. คำสั่ง “ตั้งเวลาเทรดอัตโนมัติ” ระบบจะตั้งเวลาเทรดแบบอัตโนมัติ (เช็คเทรดทุกๆ 30 วินาที ถ้าเงื่อนไขได้ก็ส่งคำสั่งซื้อขายอัตโนมัติ)
-4. คำสั่ง “ยกเลิกการตั้งเวลาเทรด” ระบบจะยกเลิกการตั้งเวลาเทรดแบบอัตโนมัติ
+4. คำสั่ง “ยกเลิกการตั้งเวลาเทรด” ระบบจะยกเลิกการตั้งเวลาเทรดแบบอัตโนมัติ 
 
 ที่เหลือถาม OpenClaw เอาเองจ้า
 
 ……………………………………………………………………………………
 
+View Code:
+https://github.com/kanutsanan1988/Forex-Auto-Trading-MetaAPI-Skill-for-OpenClaw-by-Kanutsanan-Pongpanna
+
 ท่านที่อยากใช้ OpenClaw 
 ศึกษารายละเอียดการใช้งานในอินเตอร์เน็ต
 แล้วก็มีบริการบนอินเตอร์เน็ตให้เลือกใช้
-1. https://zenclaw.ai/ 
-2. https://openclaw.co.com/
-
+1.https://zenclaw.ai/ 
+2.https://openclaw.co.com/ 
+3.https://clowd.bot/ 
+4.https://myclaw.ai/ 
+5.https://www.hostinger.com/th/vps/openclaw-hosting/1 
 และสามารถเลือกซื้อความฉลาดให้ OpenClaw 
+ได้ที่ https://openrouter.ai/ 
 
-ได้ที่ https://openrouter.ai/
+……………………………………………………………………………………
+ธนาคารในต่างประเทศมีรหัส SWIFT Code 
+ที่สามารถเปิดบัญชีออนไลน์และใช้บัตรเดบิตออนไลน์ได้จากทุกๆที่ทั่วโลก 
+1. Wise 
+https://wise.com/ 
+2. Zenus Bank
+https://zenus.com/en/
+3.Payoneer 
+https://www.payoneer.com 
+4.Revolut 
+https://www.revolut.com 
+5.Airwallex 
+https://www.airwallex.com 
+6.Rapyd 
+https://www.rapyd.net 
+7.OpenPayd 
+https://www.openpayd.com 
+8.Payset 
+https://payset.io 
+9.Paysera 
+https://www.paysera.com 
+10.Monese
+https://monese.com 
+11.iCard 
+https://icard.com 
+12.Bankera 
+https://bankera.com 
+13.MyGuava 
+https://guavapay.com 
+14.PayDo 
+https://paydo.com 
+15.Multipass 
+https://multipass.co 
+16.Treezor 
+https://treezor.com 
+17.Transferra 
+https://transferra.uk 
+18.Reap Technologies 
+https://reap.co 
+19.Flutterwave 
+https://flutterwave.com 
+20.Aspire 
+https://aspireapp.com 
+21.N26 
+https://n26.com
+
+ตัวอย่างการทดสอบระบบ
+Kanutsanan Pongpanna Auto Trading 
+https://www.facebook.com/reel/1456840385595538 
 
 ……………………………………………………………………………………
 
