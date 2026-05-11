@@ -19,8 +19,10 @@ Skill สร้างโดย Kanutsanan Pongpanna
 ให้สมัครและใช้งาน MetaAPI เพื่อเชื่อมต่อกับ MT5 ของคุณ
 https://metaapi.cloud/ 
 
-จากนั้นก็ส่ง URL นี้
+จากนั้นก็ส่ง URL นี้ 
+
 https://github.com/kanutsanan1988/Forex-Auto-Trading-MetaAPI-Skill-for-OpenClaw-by-Kanutsanan-Pongpanna 
+
 ไปยังหน้าแชทของ OpenClaw
 พร้อมพิมพ์สั่งงานว่า “ดาวน์โหลด URL Skill นี้ แตกไฟล์ และบันทึกข้อมูลเข้าในระบบไว้ด้วย” 
 
@@ -34,77 +36,108 @@ API Key:..............................................................
 ……………………………………………………………………………………
 
 คำสั่งในการใช้งาน
-1. คำสั่ง “เช็คเทรด” ระบบจะเช็คข้อมูลเพื่อให้คำแนะนำในการเทรด
-2. คำสั่ง “อนุมัติเทรด” ระบบจะส่งคำสั่ง(ซื้อขาย)เทรดตามคำแนะนำเทรด
-3. คำสั่ง “ตั้งเวลาเทรดอัตโนมัติ” ระบบจะตั้งเวลาเทรดแบบอัตโนมัติ (เช็คเทรดทุกๆ 30 วินาที ถ้าเงื่อนไขได้ก็ส่งคำสั่งซื้อขายอัตโนมัติ)
-4. คำสั่ง “ยกเลิกการตั้งเวลาเทรด” ระบบจะยกเลิกการตั้งเวลาเทรดแบบอัตโนมัติ 
+1. คำสั่ง “เช็คเทรด” ระบบจะเช็คข้อมูลเพื่อให้คำแนะนำในการเทรด 
+2. คำสั่ง “อนุมัติเทรด” ระบบจะส่งคำสั่ง(ซื้อขาย)เทรดตามคำแนะนำเทรด 
+3. คำสั่ง “ตั้งเวลาเทรดอัตโนมัติ” ระบบจะตั้งเวลาเทรดแบบอัตโนมัติ (เช็คเทรดทุกๆ 30 วินาที ถ้าเงื่อนไขได้ก็ส่งคำสั่งซื้อขายอัตโนมัติ) 
+4. คำสั่ง “ยกเลิกการตั้งเวลาเทรด” ระบบจะยกเลิกการตั้งเวลาเทรดแบบอัตโนมัติ  
 
 ที่เหลือถาม OpenClaw เอาเองจ้า
 
 ……………………………………………………………………………………
 
 View Code:
+
 https://github.com/kanutsanan1988/Forex-Auto-Trading-MetaAPI-Skill-for-OpenClaw-by-Kanutsanan-Pongpanna
+
 
 ท่านที่อยากใช้ OpenClaw 
 ศึกษารายละเอียดการใช้งานในอินเตอร์เน็ต
 แล้วก็มีบริการบนอินเตอร์เน็ตให้เลือกใช้
+
 1.https://zenclaw.ai/ 
+
 2.https://openclaw.co.com/ 
+
 3.https://clowd.bot/ 
+
 4.https://myclaw.ai/ 
+
 5.https://www.hostinger.com/th/vps/openclaw-hosting/1 
+
 และสามารถเลือกซื้อความฉลาดให้ OpenClaw 
 ได้ที่ https://openrouter.ai/ 
 
 ……………………………………………………………………………………
 ธนาคารในต่างประเทศมีรหัส SWIFT Code 
 ที่สามารถเปิดบัญชีออนไลน์และใช้บัตรเดบิตออนไลน์ได้จากทุกๆที่ทั่วโลก 
+
 1. Wise 
 https://wise.com/ 
+
 2. Zenus Bank
 https://zenus.com/en/
+
 3.Payoneer 
 https://www.payoneer.com 
+
 4.Revolut 
 https://www.revolut.com 
+
 5.Airwallex 
 https://www.airwallex.com 
+
 6.Rapyd 
 https://www.rapyd.net 
+
 7.OpenPayd 
 https://www.openpayd.com 
+
 8.Payset 
 https://payset.io 
+
 9.Paysera 
 https://www.paysera.com 
+
 10.Monese
 https://monese.com 
+
 11.iCard 
 https://icard.com 
+
 12.Bankera 
 https://bankera.com 
+
 13.MyGuava 
 https://guavapay.com 
+
 14.PayDo 
 https://paydo.com 
+
 15.Multipass 
 https://multipass.co 
+
 16.Treezor 
 https://treezor.com 
+
 17.Transferra 
 https://transferra.uk 
+
 18.Reap Technologies 
 https://reap.co 
+
 19.Flutterwave 
 https://flutterwave.com 
+
 20.Aspire 
 https://aspireapp.com 
+
 21.N26 
 https://n26.com
 
+
 ตัวอย่างการทดสอบระบบ
 Kanutsanan Pongpanna Auto Trading 
+
 https://www.facebook.com/reel/1456840385595538 
 
 ……………………………………………………………………………………
