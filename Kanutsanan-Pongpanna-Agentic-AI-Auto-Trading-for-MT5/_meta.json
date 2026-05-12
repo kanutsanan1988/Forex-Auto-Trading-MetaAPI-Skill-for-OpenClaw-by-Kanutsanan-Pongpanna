@@ -1,0 +1,48 @@
+{
+  "name": "Kanutsanan-Pongpanna-Agentic-AI-Auto-Trading-for-MT5",
+  "version": "3.0.0",
+  "description": "Complete agentic automated forex trading system for XAU/USD (gold) powered by OpenRouter AI (Gemini 2.5 Flash) and MetaAPI REST API. Features 3 data sources fallback, smart lot sizing, and full-auto execution via systemd timer.",
+  "author": "Kanutsanan Pongpanna",
+  "license": "MIT",
+  "keywords": [
+    "forex",
+    "trading",
+    "automation",
+    "metaapi",
+    "xauusd",
+    "gold",
+    "ai",
+    "agentic",
+    "openrouter",
+    "python"
+  ],
+  "features": [
+    "OpenRouter AI (Gemini 2.5 Flash) for full market analysis and decision making",
+    "MetaAPI REST API integration (no SDK required)",
+    "3 Data Sources Fallback (MetaAPI candles, TradingView Scanner, TradingView Web)",
+    "Strict rule: NO REAL-TIME CHART DATA = NO TRADE",
+    "Dynamic Lot Size calculation based on free margin (max 50%)",
+    "AI Strength threshold (>= 6/10 to trade)",
+    "Full automation via systemd timer (every 10 minutes)",
+    "Cloud Computer Standalone support"
+  ],
+  "requirements": [
+    "Python 3",
+    "OpenRouter API Key",
+    "MetaApi account with API key",
+    "MT5 connected account"
+  ],
+  "files": [
+    "scripts/auto_trade.py",
+    "scripts/trade_log.py",
+    "scripts/setup.sh",
+    "assets/config-template.env",
+    "SKILL.md",
+    "_meta.json"
+  ],
+  "command": {
+    "tradeCheck": "source .env && python3 scripts/auto_trade.py",
+    "schedule": "bash scripts/setup.sh",
+    "logs": "python3 scripts/trade_log.py"
+  }
+}
