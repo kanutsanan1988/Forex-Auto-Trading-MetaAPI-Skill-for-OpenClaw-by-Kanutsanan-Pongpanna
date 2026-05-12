@@ -1,7 +1,7 @@
 {
   "name": "Kanutsanan-Pongpanna-Agentic-AI-Auto-Trading-for-MT5",
-  "version": "3.0.0",
-  "description": "Complete agentic automated forex trading system for XAU/USD (gold) powered by OpenRouter AI (Gemini 2.5 Flash) and MetaAPI REST API. Features 3 data sources fallback, smart lot sizing, and full-auto execution via systemd timer.",
+  "version": "3.1.0",
+  "description": "Complete agentic automated forex trading system for XAU/USD (gold) powered by OpenRouter AI (Gemini 2.5 Flash) and MetaAPI REST API. Features 3 data sources fallback, smart lot sizing, manual trade check, and full-auto execution via systemd timer.",
   "author": "Kanutsanan Pongpanna",
   "license": "MIT",
   "keywords": [
@@ -24,6 +24,7 @@
     "Dynamic Lot Size calculation based on free margin (max 50%)",
     "AI Strength threshold (>= 6/10 to trade)",
     "Full automation via systemd timer (every 10 minutes)",
+    "Manual Trade Check (trade_check.py) - analyze without executing",
     "Cloud Computer Standalone support"
   ],
   "requirements": [
@@ -34,14 +35,18 @@
   ],
   "files": [
     "scripts/auto_trade.py",
+    "scripts/trade_check.py",
     "scripts/trade_log.py",
     "scripts/setup.sh",
     "assets/config-template.env",
+    "references/TRADING-CONDITIONS.md",
+    "references/CLOUD-COMPUTER-GUIDE.md",
     "SKILL.md",
     "_meta.json"
   ],
   "command": {
-    "tradeCheck": "source .env && python3 scripts/auto_trade.py",
+    "autoTrade": "source .env && python3 scripts/auto_trade.py",
+    "manualCheck": "source .env && python3 scripts/trade_check.py",
     "schedule": "bash scripts/setup.sh",
     "logs": "python3 scripts/trade_log.py"
   }

@@ -57,10 +57,49 @@ python3 scripts/trade_log.py
 
 ---
 
-## System Architecture
+## 🔍 Manual Trade Check (New Feature)
+
+You can now run a manual check to see what the AI would do **without actually executing a trade**. This is useful for testing the AI's logic, checking current market conditions, and verifying your API keys.
+
+```bash
+# Run the manual trade check
+python3 scripts/trade_check.py
+```
+
+The script will output the AI's analysis, including:
+- Current Balance, Equity, and Free Margin
+- Real-time price and spread
+- AI Decision (BUY/SELL/SKIP)
+- Signal Strength (1-10)
+- Suggested Stop Loss (SL) and Take Profit (TP)
+- The reason for the decision
+
+---
+
+## 🛡️ Approval & Safety Conditions
+
+Before any trade is executed, the system strictly checks the following conditions:
+
+1. **Market Hours:** Must be Monday 12:00 PM to Friday 24:00 PM (UTC+7).
+2. **Data Availability:** Real-time chart data MUST be successfully fetched from at least one of the 3 sources (MetaAPI, TV Scanner, TV Web). **No data = No trade.**
+3. **AI Strength:** The AI's confidence score must be **>= 6/10**.
+4. **Margin Check:** The calculated lot size must require less than 50% of the available free margin.
+5. **Valid Price:** Bid and Ask prices must be > 0, and spread must be > 0.
+
+---
+
+## 📊 Position Management Rules
+
+- **Maximum Open Positions:** The system allows a maximum of **1 open position** at any given time.
+- **Existing Positions:** If a position is already open, the system will **SKIP** trading until the current position is closed (either by hitting SL/TP or manual closure).
+- **Risk/Reward:** The AI is instructed to ensure that Take Profit (TP) is never greater than Stop Loss (SL) in terms of points, enforcing a minimum 1:1 risk-to-reward ratio.
+
+---
+
+## 🏗️ Architecture Overview
 
 ### 🔴 System 1: Data Fetching & Analysis
-**Time:** Every 10 minutes
+**Time:** Every 10 minutes (via systemd timer)
 **Flow:**
 1. Check Market Open (Mon-Fri)
 2. Fetch Account Info (Balance, Equity, Free Margin)
@@ -75,7 +114,7 @@ python3 scripts/trade_log.py
 2. Validate Strength (>= 6/10)
 3. Calculate Lot Size based on Free Margin
 4. Execute Trade via MetaAPI REST API
-5. Log results
+5. Log results to `/var/log/auto_trade.log`
 
 ---
 
@@ -99,15 +138,16 @@ python3 scripts/trade_log.py
 Each file contains detailed comments explaining every step. 
 Start with:
 1. `scripts/auto_trade.py` - Main trading logic and AI integration
-2. `scripts/setup.sh` - Environment setup and scheduling
-3. `scripts/trade_log.py` - Log viewer and summarizer
+2. `scripts/trade_check.py` - Manual check without trading
+3. `scripts/setup.sh` - Environment setup and scheduling
+4. `scripts/trade_log.py` - Log viewer and summarizer
 
 ---
 
 ## Version History
 | Version | Date | Changes |
 |---------|------|---------|
-| **3.0.0** | 2026-05-12 | ✨ Python rewrite, OpenRouter AI integration, 3 data sources, Cloud Computer support |
+| **3.0.0** | 2026-05-12 | ✨ Python rewrite, OpenRouter AI integration, 3 data sources, Cloud Computer support, Manual Trade Check |
 | **2.0.0** | 2025-03-07 | ✨ Profit thresholds, Balance/Equity logic, 30-sec scheduling (Node.js) |
 
 ---
