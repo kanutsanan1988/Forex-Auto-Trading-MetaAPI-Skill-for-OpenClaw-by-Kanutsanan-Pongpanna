@@ -68,6 +68,7 @@ https://github.com/kanutsanan1988/Forex-Auto-Trading-MetaAPI-Skill-for-OpenClaw-
 ได้ที่ https://openrouter.ai/ 
 
 ……………………………………………………………………………………
+
 ธนาคารในต่างประเทศมีรหัส SWIFT Code 
 ที่สามารถเปิดบัญชีออนไลน์และใช้บัตรเดบิตออนไลน์ได้จากทุกๆที่ทั่วโลก 
 
