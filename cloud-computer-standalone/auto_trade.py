@@ -334,15 +334,19 @@ ACCOUNT:
 YOUR TASK:
 1. Analyze all indicators and price action
 5. CHECK FOR FALSE BREAKOUT before entering any trade
-2. Determine M15 trend direction and H1 trend alignment
-3. Check for high-probability scalping entry
-4. Set appropriate SL/TP (SL = ~20% of M15 ATR, TP <= SL)
+2. Use H1 as DIRECTIONAL FILTER only (not strict alignment):
+   - H1 Bullish -> only allow BUY (no SELL)
+   - H1 Bearish -> only allow SELL (no BUY)
+   - H1 Neutral/Ranging -> allow both BUY and SELL based on M15
+3. Use M15 as the PRIMARY decision timeframe for entry timing
+4. Check for high-probability scalping entry
+5. Set appropriate SL/TP (SL = ~20% of M15 ATR, TP <= SL)
 
 RULES:
 1. SL = approximately 20% of M15 ATR
 2. TP cannot exceed SL (risk:reward minimum 1:1)
 3. Only trade if signal strength >= 6/10
-4. Both M15 and H1 must align
+4. H1 is a directional FILTER only - use M15 for entry decisions. If H1 is neutral, M15 alone can decide
 5. SKIP if market is ranging/choppy/no clear direction
 6. FALSE BREAKOUT CHECK (CRITICAL - must verify before any BUY/SELL):
    - If price just broke a key level (support/resistance/round number like 4700, 4750), wait for confirmation
@@ -455,8 +459,50 @@ def check_and_trade():
         
         if positions:
             for p in positions:
-                log(f"  -> {p.get('symbol')} {p.get('type')} Vol:{p.get('volume')} P/L:{p.get('profit')}")
-            return "SKIP: Position already open"
+                pos_type = p.get('type', '')
+                pos_profit = p.get('profit', 0)
+                pos_open = p.get('openPrice', 0)
+                pos_sl = p.get('stopLoss', 0)
+                pos_tp = p.get('takeProfit', 0)
+                pos_id = p.get('id', '')
+                log(f"  -> {p.get('symbol')} {pos_type} Vol:{p.get('volume')} P/L:{pos_profit} Open:{pos_open} SL:{pos_sl} TP:{pos_tp}")
+                
+                # Break-Even Logic: move SL to entry when profit >= 50% of TP distance
+                if pos_open and pos_tp and pos_sl:
+                    if pos_type == 'POSITION_TYPE_BUY':
+                        tp_distance = pos_tp - pos_open
+                        current_sl_distance = pos_open - pos_sl
+                    else:  # SELL
+                        tp_distance = pos_open - pos_tp
+                        current_sl_distance = pos_sl - pos_open
+                    
+                    # Only move SL if not already at break-even and profit >= 50% of TP
+                    if tp_distance > 0 and current_sl_distance > 0.01:
+                        half_tp = tp_distance * 0.5
+                        if pos_profit > 0 and pos_profit >= half_tp * 0.001 * 100:
+                            # Move SL to entry price (break-even)
+                            new_sl = pos_open
+                            log(f"  [Break-Even] Profit {pos_profit} >= 50% TP distance. Moving SL to entry {new_sl}")
+                            try:
+                                modify_payload = {
+                                    "actionType": "POSITION_MODIFY",
+                                    "positionId": str(pos_id),
+                                    "stopLoss": new_sl,
+                                    "takeProfit": pos_tp
+                                }
+                                resp_mod = requests.post(
+                                    f"{BASE_URL}/users/current/accounts/{ACCOUNT_ID}/trade",
+                                    headers=headers, json=modify_payload, verify=False, timeout=15
+                                )
+                                if resp_mod.status_code == 200:
+                                    log(f"  [Break-Even] SL moved to {new_sl} (break-even) SUCCESS")
+                                else:
+                                    log(f"  [Break-Even] FAILED: {resp_mod.status_code} - {resp_mod.text[:200]}")
+                            except Exception as be_err:
+                                log(f"  [Break-Even] ERROR: {be_err}")
+                        else:
+                            log(f"  [Break-Even] Profit {pos_profit} < 50% TP distance. Waiting...")
+            return "SKIP: Position already open (break-even checked)"
     except Exception as e:
         log(f"  [Positions] ERROR: {e}")
         # Continue anyway, might be able to trade
