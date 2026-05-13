@@ -83,52 +83,88 @@ def check_market_open():
 # =============================================================================
 
 def get_candles_from_metaapi():
-    """Source 1: ดึง M15 และ H1 candles จาก MetaAPI"""
-    log("  [Source 1: MetaAPI] Fetching candles...")
-    candles_m15 = None
-    candles_h1 = None
+    """Source 1: ดึง candles ทุก timeframe จาก MetaAPI ให้ AI วิเคราะห์เอง"""
+    log("  [Source 1: MetaAPI] Fetching all timeframes...")
     
-    try:
-        resp = requests.get(
-            f"{MARKET_DATA_URL}/users/current/accounts/{ACCOUNT_ID}/historical-market-data/symbols/XAUUSD.sml/timeframes/15m/candles",
-            headers=headers, verify=False, timeout=10,
-            params={"limit": 100}
-        )
-        if resp.status_code == 200:
-            data = resp.json()
-            if isinstance(data, list) and len(data) > 10:
-                candles_m15 = data
-                log(f"  [MetaAPI] Got {len(candles_m15)} M15 candles")
-    except Exception as e:
-        log(f"  [MetaAPI] M15 error: {e}")
+    timeframes = {
+        "1m": {"limit": 60, "label": "M1"},
+        "5m": {"limit": 50, "label": "M5"},
+        "15m": {"limit": 40, "label": "M15"},
+        "1h": {"limit": 24, "label": "H1"}
+    }
     
-    try:
-        resp = requests.get(
-            f"{MARKET_DATA_URL}/users/current/accounts/{ACCOUNT_ID}/historical-market-data/symbols/XAUUSD.sml/timeframes/1h/candles",
-            headers=headers, verify=False, timeout=10,
-            params={"limit": 50}
-        )
-        if resp.status_code == 200:
-            data = resp.json()
-            if isinstance(data, list) and len(data) > 5:
-                candles_h1 = data
-                log(f"  [MetaAPI] Got {len(candles_h1)} H1 candles")
-    except Exception as e:
-        log(f"  [MetaAPI] H1 error: {e}")
+    all_data = {}
+    for tf, config in timeframes.items():
+        try:
+            resp = requests.get(
+                f"{MARKET_DATA_URL}/users/current/accounts/{ACCOUNT_ID}/historical-market-data/symbols/XAUUSD.sml/timeframes/{tf}/candles",
+                headers=headers, verify=False, timeout=10,
+                params={"limit": config["limit"]}
+            )
+            if resp.status_code == 200:
+                data = resp.json()
+                if isinstance(data, list) and len(data) > 3:
+                    all_data[config["label"]] = data
+                    log(f"  [MetaAPI] Got {len(data)} {config['label']} candles")
+        except Exception as e:
+            log(f"  [MetaAPI] {config['label']} error: {e}")
     
-    if candles_m15 and len(candles_m15) > 10:
-        text = "RAW CANDLE DATA (from MetaAPI broker - REAL-TIME):\n\n"
-        text += "M15 Candles (last 30):\n"
+    if not all_data:
+        return None
+    
+    text = "RAW CANDLE DATA (from MetaAPI broker - REAL-TIME):\n\n"
+    for label, candles in all_data.items():
+        text += f"{label} Candles (last {len(candles)}):\n"
         text += "Time | Open | High | Low | Close | Volume\n"
-        for c in candles_m15[-30:]:
+        for c in candles:
             text += f"{c.get('time','')} | {c.get('open',0)} | {c.get('high',0)} | {c.get('low',0)} | {c.get('close',0)} | {c.get('tickVolume',0)}\n"
-        if candles_h1:
-            text += "\nH1 Candles (last 20):\n"
-            text += "Time | Open | High | Low | Close | Volume\n"
-            for c in candles_h1[-20:]:
-                text += f"{c.get('time','')} | {c.get('open',0)} | {c.get('high',0)} | {c.get('low',0)} | {c.get('close',0)} | {c.get('tickVolume',0)}\n"
-        return text
-    return None
+        text += "\n"
+    return text
+
+def get_trade_history():
+    """ดึงประวัติการเทรดล่าสุดจาก MetaAPI"""
+    log("  Fetching trade history...")
+    try:
+        from datetime import timedelta
+        now = datetime.now(timezone.utc)
+        start_time = (now - timedelta(hours=24)).strftime("%Y-%m-%dT%H:%M:%S.000Z")
+        
+        resp = requests.get(
+            f"{BASE_URL}/users/current/accounts/{ACCOUNT_ID}/history-deals",
+            headers=headers, verify=False, timeout=10,
+            params={"startTime": start_time}
+        )
+        if resp.status_code == 200:
+            deals = resp.json()
+            if isinstance(deals, list) and len(deals) > 0:
+                text = "TRADE HISTORY (last 24 hours):\n"
+                text += "Time | Type | Volume | Price | Profit | Comment\n"
+                for d in deals[-30:]:
+                    text += f"{d.get('time','')} | {d.get('type','')} | {d.get('volume','')} | {d.get('price','')} | {d.get('profit','')} | {d.get('comment','')}\n"
+                log(f"  Got {len(deals)} deals from history")
+                return text
+        
+        # Fallback: try history-orders
+        resp2 = requests.get(
+            f"{BASE_URL}/users/current/accounts/{ACCOUNT_ID}/history-orders",
+            headers=headers, verify=False, timeout=10,
+            params={"startTime": start_time}
+        )
+        if resp2.status_code == 200:
+            orders = resp2.json()
+            if isinstance(orders, list) and len(orders) > 0:
+                text = "ORDER HISTORY (last 24 hours):\n"
+                text += "Time | Type | Volume | Price | State\n"
+                for o in orders[-30:]:
+                    text += f"{o.get('doneTime', o.get('time',''))} | {o.get('type','')} | {o.get('volume','')} | {o.get('openPrice', o.get('currentPrice',''))} | {o.get('state','')}\n"
+                log(f"  Got {len(orders)} orders from history")
+                return text
+        
+        log("  No trade history found")
+        return None
+    except Exception as e:
+        log(f"  Trade history error: {e}")
+        return None
 
 def get_tradingview_scanner_data():
     """Source 2: ดึง technical indicators จาก TradingView scanner API"""
@@ -316,80 +352,24 @@ def ask_openrouter_ai(market_data_text, bid, ask, balance, free_margin):
     
     log("  [OpenRouter] Sending data to AI for full analysis...")
     
-    prompt = f"""You are an expert XAUUSD (Gold) scalping trader. Analyze ALL market data below and give a trading decision.
+    prompt = f"""You are an expert XAUUSD trader. Here is all the chart data across multiple timeframes and your recent trade history. Analyze everything yourself and decide whether to BUY, SELL, or SKIP.
 
-CURRENT PRICE:
-- Bid: {bid}
-- Ask: {ask}
-- Spread: {round(ask - bid, 3)}
-
-ACCOUNT:
-- Balance: {balance} USD
-- Free Margin: {free_margin} USD
-- Lot: Auto-calculated (50% of free margin max)
-- Leverage: 1:100
+CURRENT PRICE: Bid: {bid} | Ask: {ask} | Spread: {round(ask - bid, 3)}
 
 {market_data_text}
 
-ANALYSIS STEPS (follow in order):
-1. Calculate key indicators from the candle data: RSI(14), MACD, EMA20, EMA50, ATR(14) for M15
-2. Determine H1 direction: Bullish / Bearish / Neutral
-3. Identify current market structure: trending, ranging, or at extreme
+You have full freedom to analyze the data however you want. Use whichever timeframes and methods you think are best to determine the current trend direction.
 
-ENTRY DECISION FRAMEWORK:
-Apply these checks IN ORDER. Stop at the first match:
+Also review the trade history above. Learn from past wins and losses - avoid repeating the same mistakes (e.g. if recent trades in one direction kept losing, reconsider that direction).
 
-A) LATE ENTRY CHECK (do this FIRST):
-   - If price is MORE than 1.5x ATR away from EMA20 on M15 -> SKIP (too extended, wait for pullback)
-   - This prevents chasing moves that are about to reverse
-
-B) RSI EXTREME + DIVERGENCE CHECK:
-   - Calculate RSI from M15 candles
-   - If RSI > 70 and you're considering BUY -> check for bearish divergence (price higher high, RSI lower high)
-     * If divergence found -> consider REVERSAL SELL instead (see section D)
-     * If no divergence but RSI > 70 -> SKIP (overbought, don't chase)
-   - If RSI < 30 and you're considering SELL -> check for bullish divergence (price lower low, RSI higher low)
-     * If divergence found -> consider REVERSAL BUY instead (see section D)
-     * If no divergence but RSI < 30 -> SKIP (oversold, don't chase)
-
-C) TREND-FOLLOWING ENTRY (preferred - Pullback method):
-   - H1 DIRECTIONAL FILTER applies here:
-     * H1 Bullish -> only BUY
-     * H1 Bearish -> only SELL
-     * H1 Neutral -> BUY or SELL based on M15
-   - IDEAL: Price has pulled back to near EMA20/EMA50 on M15
-   - RSI should be between 35-65 (not at extremes)
-   - Look for: bounce candle off EMA + momentum resuming in trend direction
-   - FALSE BREAKOUT CHECK: If price just broke a key level, verify with:
-     * No long rejection wick on breakout candle
-     * Volume not declining on breakout
-     * Next candle confirms (closes beyond the level)
-
-D) REVERSAL ENTRY (when trend is exhausted):
-   - H1 DIRECTIONAL FILTER DOES NOT APPLY to reversal trades
-   - ONLY enter reversal when AT LEAST 2 of these 3 conditions are met:
-     1. RSI divergence (bearish or bullish)
-     2. Reversal candlestick pattern (hammer, shooting star, engulfing, pin bar)
-     3. Price at key support/resistance level with rejection wick
-   - Reversal trades use TIGHTER SL (closer to the extreme point)
-   - Example: H1 is Bullish but M15 shows bearish divergence + shooting star at resistance -> SELL is allowed as reversal
-
-ENTRY PRIORITY (best to worst):
-1. Pullback to EMA + trend continuation (BEST - lowest risk)
-2. Reversal at extreme with 2+ confirmations (GOOD - H1 filter exempt)
-3. Breakout with follow-through confirmation (OK)
-4. Chasing extended move far from EMA (NEVER - always SKIP)
-
-RULES:
-1. SL = approximately 20% of M15 ATR
-2. TP will be capped by the system: TP>10->5, TP>5->2.5, TP>2.5->1. Set your ideal TP but know it will be reduced
-3. TP cannot exceed SL (risk:reward minimum 1:1)
-4. Only trade if signal strength >= 6/10
-5. SKIP if market is ranging/choppy/no clear direction
-6. For reversal trades: mark reason as "REVERSAL: ..." so the system knows
+Your only job: figure out the trend and trade with it.
+- If the trend is UP -> BUY
+- If the trend is DOWN -> SELL  
+- If no clear trend or you are unsure -> SKIP
+- SL and TP are fixed by the system. Just set sl_points=100 and tp_points=5
 
 Respond ONLY in this exact JSON format (no markdown, no explanation):
-{{"action": "BUY" or "SELL" or "SKIP", "strength": 1-10, "sl_points": number, "tp_points": number, "reason": "brief reason in English"}}"""
+{{"action": "BUY" or "SELL" or "SKIP", "strength": 1-10, "sl_points": 100, "tp_points": 5, "reason": "brief reason"}}"""
 
     try:
         resp = requests.post(
@@ -489,7 +469,7 @@ def check_and_trade():
                                headers=headers, verify=False, timeout=10)
         positions = resp_pos.json() if resp_pos.status_code == 200 else []
         
-        MAX_POSITIONS = 5
+        MAX_POSITIONS = 10
         
         if positions:
             log(f"  Open positions: {len(positions)}/{MAX_POSITIONS}")
@@ -603,6 +583,11 @@ def check_and_trade():
     
     log(f"  Data source: {data_source}")
     
+    # Step 4.5: Get trade history
+    trade_history = get_trade_history()
+    if trade_history:
+        market_data += "\n" + trade_history
+    
     # Step 5: OpenRouter AI analyzes and decides (ALL processing here)
     log("Step 5: OpenRouter AI analysis...")
     ai_decision = ask_openrouter_ai(market_data, bid, ask, balance, free_margin)
@@ -612,26 +597,15 @@ def check_and_trade():
     
     signal = ai_decision['signal']
     strength = ai_decision['strength']
-    sl_pts = ai_decision['sl_pts']
-    tp_pts = ai_decision['tp_pts']
-    
-    # Enforce TP <= SL
-    if tp_pts > sl_pts:
-        tp_pts = sl_pts
-    
-    # Enforce TP tiered cap
-    if tp_pts > 10:
-        tp_pts = 5
-    elif tp_pts > 5:
-        tp_pts = 2.5
-    elif tp_pts > 2.5:
-        tp_pts = 1
+    # Fixed SL/TP: SL = 100 pts, TP = 1 pt (ignore AI values)
+    sl_pts = 100
+    tp_pts = 5
     
     # Check signal
     if signal == "SKIP" or signal is None:
         return f"SKIP: AI says SKIP - {ai_decision.get('reason', '')}"
     
-    if strength < 6:
+    if strength < 5:
         return f"SKIP: Weak {signal} ({strength}/10) - {ai_decision.get('reason', '')}"
     
     # Step 6: Calculate SL/TP prices

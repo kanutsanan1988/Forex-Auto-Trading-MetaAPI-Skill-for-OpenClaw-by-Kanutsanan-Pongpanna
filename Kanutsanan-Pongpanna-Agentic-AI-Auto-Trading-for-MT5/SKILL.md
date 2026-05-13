@@ -12,24 +12,22 @@ description: "AI-driven Forex Auto Trading System for XAUUSD using OpenRouter (G
 ระบบทำงานโดยใช้ Python script (`auto_trade.py`) เป็นแกนหลัก ซึ่งจะถูกเรียกใช้งานทุกๆ 5 นาทีผ่าน systemd timer หรือ cron job กระบวนการทำงานมีดังนี้:
 
 1. **ตรวจสอบสถานะบัญชีและตลาด**: ตรวจสอบว่าตลาดเปิดหรือไม่ และดึงข้อมูล Balance, Equity, Free Margin
-2. **ตรวจสอบ Position**: ระบบเปิดได้สูงสุด 5 positions พร้อมกัน หากเต็ม 5 แล้วจะข้ามการทำงาน แต่ยังตรวจสอบ Break-Even ทุก position ทุกรอบ
+2. **ตรวจสอบ Position**: ระบบเปิดได้สูงสุด 10 positions พร้อมกัน หากเต็ม 10 แล้วจะข้ามการทำงาน แต่ยังตรวจสอบ Break-Even ทุก position ทุกรอบ
 3. **ดึงข้อมูลราคาและกราฟ (Real-time)**: ระบบมี 3 แหล่งข้อมูล (Fallback mechanism):
-   - **Source 1**: MetaAPI candles (M15 + H1) - ข้อมูลดิบจากโบรกเกอร์
+   - **Source 1**: MetaAPI candles (**M1, M5, M15, H1**) - ข้อมูลดิบจากโบรกเกอร์ทุก timeframe
    - **Source 2**: TradingView Scanner API
    - **Source 3**: TradingView Web
    *กฎเหล็ก: หากไม่สามารถดึงข้อมูลจากทั้ง 3 แหล่งได้ ระบบจะหยุดทำงานและไม่เทรดเด็ดขาด*
-4. **AI Analysis**: ส่งข้อมูลทั้งหมดให้ OpenRouter AI วิเคราะห์เพื่อตัดสินใจ (BUY/SELL/SKIP) พร้อมกำหนดความมั่นใจ (Strength) และจุดตัดขาดทุน/ทำกำไร (SL/TP)
+4. **AI Analysis**: ส่งข้อมูลกราฟทุก timeframe + ประวัติการเทรดล่าสุด ให้ OpenRouter AI วิเคราะห์แนวโน้มเองอิสระทั้งหมด เรียนรู้จากประวัติการเทรด แล้วตัดสินใจ (BUY/SELL/SKIP)
 5. **Risk Management**: 
    - คำนวณ Lot size อัตโนมัติ (สูงสุด 50% ของ Free Margin, ขั้นต่ำ 0.001, สูงสุด 0.1)
-   - บังคับ TP แบบขั้นบันได: TP>10pts→5, TP>5pts→2.5, TP>2.5pts→1
-   - บังคับ TP ต้องไม่เกิน SL (Risk:Reward ขั้นต่ำ 1:1)
-   - เทรดเมื่อ AI ให้คะแนนความมั่นใจ (Strength) $\ge$ 6/10 เท่านั้น
-6. **Entry Decision Framework (ตรวจสอบตามลำดับ)**:
-   - **A) Late Entry Check**: ถ้าราคาห่างจาก EMA20 เกิน 1.5x ATR → SKIP (ป้องกันไล่ราคา)
-   - **B) RSI Extreme + Divergence**: RSI > 70 + bearish divergence → พิจารณา Reversal SELL, RSI < 30 + bullish divergence → พิจารณา Reversal BUY, ไม่มี divergence → SKIP
-   - **C) Trend-Following (Pullback)**: H1 Filter ใช้ที่นี่, รอราคา pullback มาหา EMA20, RSI 35-65
-   - **D) Reversal Entry**: ไม่ต้องผ่าน H1 Filter, ต้องมีอย่างน้อย 2/3 สัญญาณ (RSI divergence, reversal candle, key level rejection)
-   - **Entry Priority**: Pullback (ดีสุด) > Reversal (ดี) > Breakout (พอได้) > ไล่ราคา (ห้ามทำ)
+   - **SL คงที่ 100 pts, TP คงที่ 5 pts** (ไม่ใช้ค่าจาก AI)
+   - เทรดเมื่อ AI ให้คะแนนความมั่นใจ (Strength) $\ge$ 5/10 เท่านั้น
+6. **AI Decision (Simple M1 Trend Following)**:
+   - ดูแค่กราฟ M1 10-20 แท่งล่าสุด
+   - ถ้าแนวโน้มขึ้น → BUY
+   - ถ้าแนวโน้มลง → SELL
+   - ถ้าไม่ชัดเจน → SKIP
 7. **Break-Even Logic**: เมื่อกำไร >= 50% ของระยะ TP จะย้าย SL มาที่จุดเข้า (break-even) เพื่อป้องกันไม่ให้ออเดอร์ที่เคยกำไรกลับมาขาดทุน
 8. **Execution**: ส่งคำสั่งซื้อขายผ่าน MetaAPI
 
@@ -86,21 +84,20 @@ description: "AI-driven Forex Auto Trading System for XAUUSD using OpenRouter (G
 2. **Market Closed**: ระบบจะไม่ทำงานในวันเสาร์-อาทิตย์
 3. **Insufficient Margin**: หาก Free Margin ไม่เพียงพอสำหรับการเปิด Lot ขั้นต่ำ (0.001) ระบบจะข้ามการเทรด
 4. **AI Confidence**: AI ต้องมีความมั่นใจระดับ 6/10 ขึ้นไปจึงจะเปิดออเดอร์
-5. **H1 Directional Filter**: ใช้กับ Trend-Following เท่านั้น (H1 Bullish → BUY only, H1 Bearish → SELL only, H1 Neutral → ตาม M15) ไม่ใช้กับ Reversal trades
-6. **Entry Decision Framework**: Late Entry Check → RSI/Divergence → Trend-Following (Pullback) → Reversal Entry ตรวจสอบตามลำดับ ไม่มีเงื่อนไขซ้ำซ้อน
+5. **AI Full Freedom**: AI มีอิสระเต็มที่ในการเลือก timeframe และวิธีวิเคราะห์ ดูแนวโน้มแล้วเทรดตามแนวโน้ม พร้อมเรียนรู้จากประวัติการเทรดที่ผ่านมา
 7. **Break-Even**: ย้าย SL มาจุดเข้าเมื่อกำไร >= 50% ของ TP distance
 
 ## Position Management Rules
 
-1. **Max Positions**: เปิดได้สูงสุด 5 positions พร้อมกัน ระบบจะตรวจสอบ Break-Even ทุก position ทุกรอบ
+1. **Max Positions**: เปิดได้สูงสุด 10 positions พร้อมกัน ระบบจะตรวจสอบ Break-Even ทุก position ทุกรอบ
 2. **Lot Sizing**: 
    - คำนวณอัตโนมัติจาก Free Margin (ใช้สูงสุด 50%)
    - Lot ขั้นต่ำ: 0.001
    - Lot สูงสุด: 0.1
 3. **Take Profit (TP) & Stop Loss (SL)**:
-   - SL ถูกกำหนดโดย AI (ประมาณ 20% ของ M15 ATR)
-   - TP ถูกจำกัดแบบขั้นบันได: TP>10pts ปรับเป็น 5 pts, TP>5pts ปรับเป็น 2.5 pts, TP>2.5pts ปรับเป็น 1 pt
-   - TP ต้องน้อยกว่าหรือเท่ากับ SL เสมอ (เพื่อรักษาสัดส่วน Risk:Reward)
+   - **SL คงที่ 100 pts** (ให้พื้นที่กว้างสำหรับการเคลื่อนตัวของราคา)
+   - **TP คงที่ 5 pts** (ทำกำไรเร็วและบ่อย)
+   - ค่า SL/TP ถูกกำหนดตายตัวใน Python code ไม่ใช้ค่าจาก AI
 
 ## Files in this Skill
 
