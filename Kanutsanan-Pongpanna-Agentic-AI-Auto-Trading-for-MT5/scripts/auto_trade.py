@@ -331,30 +331,62 @@ ACCOUNT:
 
 {market_data_text}
 
-YOUR TASK:
-1. Analyze all indicators and price action
-5. CHECK FOR FALSE BREAKOUT before entering any trade
-2. Use H1 as DIRECTIONAL FILTER only (not strict alignment):
-   - H1 Bullish -> only allow BUY (no SELL)
-   - H1 Bearish -> only allow SELL (no BUY)
-   - H1 Neutral/Ranging -> allow both BUY and SELL based on M15
-3. Use M15 as the PRIMARY decision timeframe for entry timing
-4. Check for high-probability scalping entry
-5. Set appropriate SL/TP (SL = ~20% of M15 ATR, TP <= SL)
+ANALYSIS STEPS (follow in order):
+1. Calculate key indicators from the candle data: RSI(14), MACD, EMA20, EMA50, ATR(14) for M15
+2. Determine H1 direction: Bullish / Bearish / Neutral
+3. Identify current market structure: trending, ranging, or at extreme
+
+ENTRY DECISION FRAMEWORK:
+Apply these checks IN ORDER. Stop at the first match:
+
+A) LATE ENTRY CHECK (do this FIRST):
+   - If price is MORE than 1.5x ATR away from EMA20 on M15 -> SKIP (too extended, wait for pullback)
+   - This prevents chasing moves that are about to reverse
+
+B) RSI EXTREME + DIVERGENCE CHECK:
+   - Calculate RSI from M15 candles
+   - If RSI > 70 and you're considering BUY -> check for bearish divergence (price higher high, RSI lower high)
+     * If divergence found -> consider REVERSAL SELL instead (see section D)
+     * If no divergence but RSI > 70 -> SKIP (overbought, don't chase)
+   - If RSI < 30 and you're considering SELL -> check for bullish divergence (price lower low, RSI higher low)
+     * If divergence found -> consider REVERSAL BUY instead (see section D)
+     * If no divergence but RSI < 30 -> SKIP (oversold, don't chase)
+
+C) TREND-FOLLOWING ENTRY (preferred - Pullback method):
+   - H1 DIRECTIONAL FILTER applies here:
+     * H1 Bullish -> only BUY
+     * H1 Bearish -> only SELL
+     * H1 Neutral -> BUY or SELL based on M15
+   - IDEAL: Price has pulled back to near EMA20/EMA50 on M15
+   - RSI should be between 35-65 (not at extremes)
+   - Look for: bounce candle off EMA + momentum resuming in trend direction
+   - FALSE BREAKOUT CHECK: If price just broke a key level, verify with:
+     * No long rejection wick on breakout candle
+     * Volume not declining on breakout
+     * Next candle confirms (closes beyond the level)
+
+D) REVERSAL ENTRY (when trend is exhausted):
+   - H1 DIRECTIONAL FILTER DOES NOT APPLY to reversal trades
+   - ONLY enter reversal when AT LEAST 2 of these 3 conditions are met:
+     1. RSI divergence (bearish or bullish)
+     2. Reversal candlestick pattern (hammer, shooting star, engulfing, pin bar)
+     3. Price at key support/resistance level with rejection wick
+   - Reversal trades use TIGHTER SL (closer to the extreme point)
+   - Example: H1 is Bullish but M15 shows bearish divergence + shooting star at resistance -> SELL is allowed as reversal
+
+ENTRY PRIORITY (best to worst):
+1. Pullback to EMA + trend continuation (BEST - lowest risk)
+2. Reversal at extreme with 2+ confirmations (GOOD - H1 filter exempt)
+3. Breakout with follow-through confirmation (OK)
+4. Chasing extended move far from EMA (NEVER - always SKIP)
 
 RULES:
 1. SL = approximately 20% of M15 ATR
-2. TP cannot exceed SL (risk:reward minimum 1:1)
-3. Only trade if signal strength >= 6/10
-4. H1 is a directional FILTER only - use M15 for entry decisions. If H1 is neutral, M15 alone can decide
+2. TP will be capped by the system: TP>10->5, TP>5->2.5, TP>2.5->1. Set your ideal TP but know it will be reduced
+3. TP cannot exceed SL (risk:reward minimum 1:1)
+4. Only trade if signal strength >= 6/10
 5. SKIP if market is ranging/choppy/no clear direction
-6. FALSE BREAKOUT CHECK (CRITICAL - must verify before any BUY/SELL):
-   - If price just broke a key level (support/resistance/round number like 4700, 4750), wait for confirmation
-   - Check if the breakout candle has a long wick (rejection signal) = likely false breakout -> SKIP
-   - Check if volume on breakout candle is lower than previous candles = weak breakout -> SKIP
-   - Check if RSI is overbought (>70) for BUY breakout or oversold (<30) for SELL breakout = exhaustion -> SKIP
-   - Check if the candle after breakout failed to close above/below the broken level = false breakout -> SKIP
-   - Only enter if breakout candle closed strongly beyond the level WITH follow-through on next candle
+6. For reversal trades: mark reason as "REVERSAL: ..." so the system knows
 
 Respond ONLY in this exact JSON format (no markdown, no explanation):
 {{"action": "BUY" or "SELL" or "SKIP", "strength": 1-10, "sl_points": number, "tp_points": number, "reason": "brief reason in English"}}"""
@@ -457,7 +489,10 @@ def check_and_trade():
                                headers=headers, verify=False, timeout=10)
         positions = resp_pos.json() if resp_pos.status_code == 200 else []
         
+        MAX_POSITIONS = 5
+        
         if positions:
+            log(f"  Open positions: {len(positions)}/{MAX_POSITIONS}")
             for p in positions:
                 pos_type = p.get('type', '')
                 pos_profit = p.get('profit', 0)
@@ -502,7 +537,14 @@ def check_and_trade():
                                 log(f"  [Break-Even] ERROR: {be_err}")
                         else:
                             log(f"  [Break-Even] Profit {pos_profit} < 50% TP distance. Waiting...")
-            return "SKIP: Position already open (break-even checked)"
+            
+            # Check if max positions reached
+            if len(positions) >= MAX_POSITIONS:
+                return f"SKIP: Max positions reached ({len(positions)}/{MAX_POSITIONS}) (break-even checked)"
+            else:
+                log(f"  Can open {MAX_POSITIONS - len(positions)} more position(s)")
+        else:
+            log(f"  No open positions (0/{MAX_POSITIONS})")
     except Exception as e:
         log(f"  [Positions] ERROR: {e}")
         # Continue anyway, might be able to trade

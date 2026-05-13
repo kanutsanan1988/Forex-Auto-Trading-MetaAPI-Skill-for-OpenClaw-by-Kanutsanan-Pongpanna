@@ -12,7 +12,7 @@ description: "AI-driven Forex Auto Trading System for XAUUSD using OpenRouter (G
 ระบบทำงานโดยใช้ Python script (`auto_trade.py`) เป็นแกนหลัก ซึ่งจะถูกเรียกใช้งานทุกๆ 5 นาทีผ่าน systemd timer หรือ cron job กระบวนการทำงานมีดังนี้:
 
 1. **ตรวจสอบสถานะบัญชีและตลาด**: ตรวจสอบว่าตลาดเปิดหรือไม่ และดึงข้อมูล Balance, Equity, Free Margin
-2. **ตรวจสอบ Position**: ระบบจะเปิดได้สูงสุดเพียง 1 position ในเวลาเดียวกัน หากมี position เปิดอยู่แล้วจะข้ามการทำงาน
+2. **ตรวจสอบ Position**: ระบบเปิดได้สูงสุด 5 positions พร้อมกัน หากเต็ม 5 แล้วจะข้ามการทำงาน แต่ยังตรวจสอบ Break-Even ทุก position ทุกรอบ
 3. **ดึงข้อมูลราคาและกราฟ (Real-time)**: ระบบมี 3 แหล่งข้อมูล (Fallback mechanism):
    - **Source 1**: MetaAPI candles (M15 + H1) - ข้อมูลดิบจากโบรกเกอร์
    - **Source 2**: TradingView Scanner API
@@ -24,7 +24,14 @@ description: "AI-driven Forex Auto Trading System for XAUUSD using OpenRouter (G
    - บังคับ TP แบบขั้นบันได: TP>10pts→5, TP>5pts→2.5, TP>2.5pts→1
    - บังคับ TP ต้องไม่เกิน SL (Risk:Reward ขั้นต่ำ 1:1)
    - เทรดเมื่อ AI ให้คะแนนความมั่นใจ (Strength) $\ge$ 6/10 เท่านั้น
-6. **Execution**: ส่งคำสั่งซื้อขายผ่าน MetaAPI
+6. **Entry Decision Framework (ตรวจสอบตามลำดับ)**:
+   - **A) Late Entry Check**: ถ้าราคาห่างจาก EMA20 เกิน 1.5x ATR → SKIP (ป้องกันไล่ราคา)
+   - **B) RSI Extreme + Divergence**: RSI > 70 + bearish divergence → พิจารณา Reversal SELL, RSI < 30 + bullish divergence → พิจารณา Reversal BUY, ไม่มี divergence → SKIP
+   - **C) Trend-Following (Pullback)**: H1 Filter ใช้ที่นี่, รอราคา pullback มาหา EMA20, RSI 35-65
+   - **D) Reversal Entry**: ไม่ต้องผ่าน H1 Filter, ต้องมีอย่างน้อย 2/3 สัญญาณ (RSI divergence, reversal candle, key level rejection)
+   - **Entry Priority**: Pullback (ดีสุด) > Reversal (ดี) > Breakout (พอได้) > ไล่ราคา (ห้ามทำ)
+7. **Break-Even Logic**: เมื่อกำไร >= 50% ของระยะ TP จะย้าย SL มาที่จุดเข้า (break-even) เพื่อป้องกันไม่ให้ออเดอร์ที่เคยกำไรกลับมาขาดทุน
+8. **Execution**: ส่งคำสั่งซื้อขายผ่าน MetaAPI
 
 ## Prerequisites & Installation
 
@@ -50,7 +57,7 @@ description: "AI-driven Forex Auto Trading System for XAUUSD using OpenRouter (G
    METAAPI_ACCOUNT_ID=YOUR_METAAPI_ACCOUNT_ID_HERE
    OPENROUTER_API_KEY=YOUR_OPENROUTER_API_KEY_HERE
    ```
-4. ระบบจะเริ่มทำงานอัตโนมัติตาม Cron job ที่ตั้งไว้ (ทุก 5 นาทีตามค่าเริ่มต้นใน `setup.sh`)
+4. ระบบจะเริ่มทำงานอัตโนมัติตาม Cron job ที่ตั้งไว้ (ทุก 10 นาทีตามค่าเริ่มต้นใน `setup.sh` แต่สามารถปรับเป็น 5 นาทีได้)
 
 ### คำแนะนำ Cloud Computer
 
@@ -79,11 +86,13 @@ description: "AI-driven Forex Auto Trading System for XAUUSD using OpenRouter (G
 2. **Market Closed**: ระบบจะไม่ทำงานในวันเสาร์-อาทิตย์
 3. **Insufficient Margin**: หาก Free Margin ไม่เพียงพอสำหรับการเปิด Lot ขั้นต่ำ (0.001) ระบบจะข้ามการเทรด
 4. **AI Confidence**: AI ต้องมีความมั่นใจระดับ 6/10 ขึ้นไปจึงจะเปิดออเดอร์
-5. **Timeframe Alignment**: ทั้ง M15 และ H1 ต้องมีทิศทางที่สอดคล้องกัน
+5. **H1 Directional Filter**: ใช้กับ Trend-Following เท่านั้น (H1 Bullish → BUY only, H1 Bearish → SELL only, H1 Neutral → ตาม M15) ไม่ใช้กับ Reversal trades
+6. **Entry Decision Framework**: Late Entry Check → RSI/Divergence → Trend-Following (Pullback) → Reversal Entry ตรวจสอบตามลำดับ ไม่มีเงื่อนไขซ้ำซ้อน
+7. **Break-Even**: ย้าย SL มาจุดเข้าเมื่อกำไร >= 50% ของ TP distance
 
 ## Position Management Rules
 
-1. **Max Positions**: เปิดได้สูงสุดเพียง 1 position ในเวลาเดียวกัน
+1. **Max Positions**: เปิดได้สูงสุด 5 positions พร้อมกัน ระบบจะตรวจสอบ Break-Even ทุก position ทุกรอบ
 2. **Lot Sizing**: 
    - คำนวณอัตโนมัติจาก Free Margin (ใช้สูงสุด 50%)
    - Lot ขั้นต่ำ: 0.001
