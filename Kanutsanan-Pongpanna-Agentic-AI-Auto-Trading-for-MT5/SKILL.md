@@ -14,7 +14,7 @@ description: "AI-driven Forex Auto Trading System for XAUUSD using OpenRouter (G
 1. **ตรวจสอบสถานะบัญชีและตลาด**: ตรวจสอบว่าตลาดเปิดหรือไม่ และดึงข้อมูล Balance, Equity, Free Margin
 2. **ตรวจสอบ Position**: ระบบจะเปิดได้สูงสุดเพียง 1 position ในเวลาเดียวกัน หากมี position เปิดอยู่แล้วจะข้ามการทำงาน
 3. **ดึงข้อมูลราคาและกราฟ (Real-time)**: ระบบมี 3 แหล่งข้อมูล (Fallback mechanism):
-   - **Source 1**: MetaAPI candles (M15 + M5) - ข้อมูลดิบจากโบรกเกอร์
+   - **Source 1**: MetaAPI candles (M15 + H1) - ข้อมูลดิบจากโบรกเกอร์
    - **Source 2**: TradingView Scanner API
    - **Source 3**: TradingView Web
    *กฎเหล็ก: หากไม่สามารถดึงข้อมูลจากทั้ง 3 แหล่งได้ ระบบจะหยุดทำงานและไม่เทรดเด็ดขาด*
@@ -79,7 +79,7 @@ description: "AI-driven Forex Auto Trading System for XAUUSD using OpenRouter (G
 2. **Market Closed**: ระบบจะไม่ทำงานในวันเสาร์-อาทิตย์
 3. **Insufficient Margin**: หาก Free Margin ไม่เพียงพอสำหรับการเปิด Lot ขั้นต่ำ (0.001) ระบบจะข้ามการเทรด
 4. **AI Confidence**: AI ต้องมีความมั่นใจระดับ 6/10 ขึ้นไปจึงจะเปิดออเดอร์
-5. **Timeframe Alignment**: ทั้ง M15 และ M5 ต้องมีทิศทางที่สอดคล้องกัน
+5. **Timeframe Alignment**: ทั้ง M15 และ H1 ต้องมีทิศทางที่สอดคล้องกัน
 
 ## Position Management Rules
 

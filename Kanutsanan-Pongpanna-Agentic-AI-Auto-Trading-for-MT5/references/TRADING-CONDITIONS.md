@@ -11,8 +11,8 @@ The system will only trade during specific hours to avoid weekend gaps and low l
 
 ## 2. Data Availability (The "No Data = No Trade" Rule)
 The system relies on real-time data to make informed decisions. It uses a 3-tier fallback system to fetch data:
-1. **MetaAPI Candles:** M15 and M5 timeframes directly from the broker.
-2. **TradingView Scanner API:** Technical indicators and recommendations for M15 and M5.
+1. **MetaAPI Candles:** M15 and H1 timeframes directly from the broker.
+2. **TradingView Scanner API:** Technical indicators and recommendations for M15 and H1.
 3. **TradingView Web:** Fallback scraping of TradingView's web interface.
 
 **CRITICAL RULE:** If the system fails to fetch data from **ALL 3 sources**, it will abort the trading cycle and log a `NO_REALTIME_DATA` error. It will **never** trade blind.
@@ -24,11 +24,11 @@ The OpenRouter AI (Gemini 3.1 Flash Lite) analyzes the market data and returns a
 
 ## 4. Timeframe Alignment
 
-The system uses **M15 (15-minute) and M5 (5-minute)** timeframes for analysis. Both timeframes must show aligned signals before a trade is executed.
+The system uses **M15 (15-minute) and H1 (5-minute)** timeframes for analysis. Both timeframes must show aligned signals before a trade is executed.
 
 - M15 provides the primary trend direction.
-- M5 provides precise entry timing confirmation.
-- If M15 and M5 signals conflict, the system will **SKIP**.
+- H1 provides precise entry timing confirmation.
+- If M15 and H1 signals conflict, the system will **SKIP**.
 
 ## 5. Position Management
 To prevent over-exposure, the system strictly limits the number of concurrent trades.

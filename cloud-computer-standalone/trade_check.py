@@ -27,7 +27,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 # ต้องรายงานปัญหาและพยายามแก้ไขให้ดึงกราฟ real-time ได้
 #
 # แหล่งข้อมูลกราฟ (ได้จากแหล่งใดแหล่งหนึ่งก็เทรดได้):
-#   1. MetaAPI candles (M15 + M5) - ข้อมูลดิบจากโบรกเกอร์
+#   1. MetaAPI candles (M15 + H1) - ข้อมูลดิบจากโบรกเกอร์
 #   2. TradingView scanner API (https://scanner.tradingview.com/cfd/scan)
 #   3. TradingView web page (https://www.tradingview.com/symbols/XAUUSD/?exchange=OANDA&utm_source=androidapp&utm_medium=share)
 # ถ้าทั้ง 3 แหล่งไม่ทำงาน -> SKIP + รายงานปัญหา + แก้ไข
@@ -40,6 +40,7 @@ OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "")
 
 REGION = "london"
 BASE_URL = f"https://mt-client-api-v1.{REGION}.agiliumtrade.ai"
+MARKET_DATA_URL = f"https://mt-market-data-client-api-v1.{REGION}.agiliumtrade.ai"
 headers = {"auth-token": API_KEY, "Content-Type": "application/json"}
 
 TRADINGVIEW_WEB_URL = "https://www.tradingview.com/symbols/XAUUSD/?exchange=OANDA&utm_source=androidapp&utm_medium=share"
@@ -82,14 +83,14 @@ def check_market_open():
 # =============================================================================
 
 def get_candles_from_metaapi():
-    """Source 1: ดึง M15 และ M5 candles จาก MetaAPI"""
+    """Source 1: ดึง M15 และ H1 candles จาก MetaAPI"""
     log("  [Source 1: MetaAPI] Fetching candles...")
     candles_m15 = None
-    candles_m5 = None
+    candles_h1 = None
     
     try:
         resp = requests.get(
-            f"{BASE_URL}/users/current/accounts/{ACCOUNT_ID}/historical-market-data/symbols/XAUUSD.sml/timeframes/15m/candles",
+            f"{MARKET_DATA_URL}/users/current/accounts/{ACCOUNT_ID}/historical-market-data/symbols/XAUUSD.sml/timeframes/15m/candles",
             headers=headers, verify=False, timeout=10,
             params={"limit": 100}
         )
@@ -103,17 +104,17 @@ def get_candles_from_metaapi():
     
     try:
         resp = requests.get(
-            f"{BASE_URL}/users/current/accounts/{ACCOUNT_ID}/historical-market-data/symbols/XAUUSD.sml/timeframes/5m/candles",
+            f"{MARKET_DATA_URL}/users/current/accounts/{ACCOUNT_ID}/historical-market-data/symbols/XAUUSD.sml/timeframes/1h/candles",
             headers=headers, verify=False, timeout=10,
             params={"limit": 50}
         )
         if resp.status_code == 200:
             data = resp.json()
             if isinstance(data, list) and len(data) > 5:
-                candles_m5 = data
-                log(f"  [MetaAPI] Got {len(candles_m5)} M5 candles")
+                candles_h1 = data
+                log(f"  [MetaAPI] Got {len(candles_h1)} H1 candles")
     except Exception as e:
-        log(f"  [MetaAPI] M5 error: {e}")
+        log(f"  [MetaAPI] H1 error: {e}")
     
     if candles_m15 and len(candles_m15) > 10:
         text = "RAW CANDLE DATA (from MetaAPI broker - REAL-TIME):\n\n"
@@ -121,10 +122,10 @@ def get_candles_from_metaapi():
         text += "Time | Open | High | Low | Close | Volume\n"
         for c in candles_m15[-30:]:
             text += f"{c.get('time','')} | {c.get('open',0)} | {c.get('high',0)} | {c.get('low',0)} | {c.get('close',0)} | {c.get('tickVolume',0)}\n"
-        if candles_m5:
-            text += "\nM5 Candles (last 20):\n"
+        if candles_h1:
+            text += "\nH1 Candles (last 20):\n"
             text += "Time | Open | High | Low | Close | Volume\n"
-            for c in candles_m5[-20:]:
+            for c in candles_h1[-20:]:
                 text += f"{c.get('time','')} | {c.get('open',0)} | {c.get('high',0)} | {c.get('low',0)} | {c.get('close',0)} | {c.get('tickVolume',0)}\n"
         return text
     return None
@@ -145,7 +146,7 @@ def get_tradingview_scanner_data():
         ]
     }
     
-    payload_m5 = {
+    payload_h1 = {
         'symbols': {'tickers': ['OANDA:XAUUSD']},
         'columns': [
             'Recommend.All|60', 'Recommend.MA|60', 'Recommend.Other|60',
@@ -159,21 +160,21 @@ def get_tradingview_scanner_data():
     
     try:
         resp_m15 = requests.post(TRADINGVIEW_SCANNER_URL, json=payload_m15, timeout=10)
-        resp_m5 = requests.post(TRADINGVIEW_SCANNER_URL, json=payload_m5, timeout=10)
+        resp_h1 = requests.post(TRADINGVIEW_SCANNER_URL, json=payload_h1, timeout=10)
         
-        if resp_m15.status_code != 200 or resp_m5.status_code != 200:
-            log(f"  [TradingView Scanner] ERROR: M15={resp_m15.status_code}, H1={resp_m5.status_code}")
+        if resp_m15.status_code != 200 or resp_h1.status_code != 200:
+            log(f"  [TradingView Scanner] ERROR: M15={resp_m15.status_code}, H1={resp_h1.status_code}")
             return None
         
         data_m15 = resp_m15.json()
-        data_m5 = resp_m5.json()
+        data_h1 = resp_h1.json()
         
-        if data_m15.get('totalCount', 0) == 0 or data_m5.get('totalCount', 0) == 0:
+        if data_m15.get('totalCount', 0) == 0 or data_h1.get('totalCount', 0) == 0:
             log("  [TradingView Scanner] ERROR: No data returned")
             return None
         
         m15 = data_m15['data'][0]['d']
-        m5 = data_m5['data'][0]['d']
+        h1 = data_h1['data'][0]['d']
         
         tv_summary = f"""TradingView Scanner Data (OANDA:XAUUSD - REAL-TIME):
 
@@ -198,7 +199,7 @@ M15 Timeframe:
 - CCI(20): {m15[17]:.2f}
 - ATR(14): {m15[18]:.4f}
 
-M5 Timeframe:
+H1 Timeframe:
 - Recommend.All: {h1[0]:.4f}
 - Recommend.MA: {h1[1]:.4f}
 - Recommend.Oscillators: {h1[2]:.4f}
@@ -332,7 +333,7 @@ ACCOUNT:
 
 YOUR TASK:
 1. Analyze all indicators and price action
-2. Determine M15 trend direction and M5 trend alignment
+2. Determine M15 trend direction and H1 trend alignment
 3. Check for high-probability scalping entry
 4. Set appropriate SL/TP (SL = ~20% of M15 ATR, TP <= SL)
 
@@ -340,7 +341,7 @@ RULES:
 1. SL = approximately 20% of M15 ATR
 2. TP cannot exceed SL (risk:reward minimum 1:1)
 3. Only trade if signal strength >= 6/10
-4. Both M15 and M5 must align
+4. Both M15 and H1 must align
 5. SKIP if market is ranging/choppy/no clear direction
 
 Respond ONLY in this exact JSON format (no markdown, no explanation):
