@@ -49,15 +49,15 @@ if [ ! -f "$SCRIPT_DIR/.env" ]; then
     fi
 fi
 
-# 8. Setup Cron Job (Run every 10 minutes)
+# 8. Setup Cron Job (Run every 5 minutes)
 echo "Setting up cron job..."
-CRON_CMD="*/10 * * * * cd $SCRIPT_DIR && $SCRIPT_DIR/venv/bin/python $SCRIPT_DIR/auto_trade.py >> /var/log/auto_trade_cron.log 2>&1"
+CRON_CMD="*/5 * * * * cd $SCRIPT_DIR && $SCRIPT_DIR/venv/bin/python $SCRIPT_DIR/auto_trade.py >> /var/log/auto_trade_cron.log 2>&1"
 
 # Check if cron job already exists
 (crontab -l 2>/dev/null | grep -v "auto_trade.py") | crontab -
 (crontab -l 2>/dev/null; echo "$CRON_CMD") | crontab -
 
-echo "Cron job installed. The script will run every 10 minutes."
+echo "Cron job installed. The script will run every 5 minutes."
 echo "You can check the cron logs at: /var/log/auto_trade_cron.log"
 echo "You can check the application logs at: /var/log/auto_trade.log"
 

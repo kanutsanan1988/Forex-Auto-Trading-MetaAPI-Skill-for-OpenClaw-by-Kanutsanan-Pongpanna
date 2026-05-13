@@ -27,13 +27,15 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 # ต้องรายงานปัญหาและพยายามแก้ไขให้ดึงกราฟ real-time ได้
 #
 # แหล่งข้อมูลกราฟ (ได้จากแหล่งใดแหล่งหนึ่งก็เทรดได้):
-#   1. MetaAPI candles (M15 + H1) - ข้อมูลดิบจากโบรกเกอร์
+#   1. MetaAPI candles (M15 + M5) - ข้อมูลดิบจากโบรกเกอร์
 #   2. TradingView scanner API (https://scanner.tradingview.com/cfd/scan)
 #   3. TradingView web page (https://www.tradingview.com/symbols/XAUUSD/?exchange=OANDA&utm_source=androidapp&utm_medium=share)
 # ถ้าทั้ง 3 แหล่งไม่ทำงาน -> SKIP + รายงานปัญหา + แก้ไข
 # =============================================================================
 
 # Configuration from Environment Variables
+# IMPORTANT: API keys are loaded from .env file. NEVER hardcode them in this script!
+# DO NOT commit .env file to version control.
 ACCOUNT_ID = os.environ.get("METAAPI_ACCOUNT_ID", "")
 API_KEY = os.environ.get("METAAPI_TOKEN", "")
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "")
@@ -82,10 +84,10 @@ def check_market_open():
 # =============================================================================
 
 def get_candles_from_metaapi():
-    """Source 1: ดึง M15 และ H1 candles จาก MetaAPI"""
+    """Source 1: ดึง M15 และ M5 candles จาก MetaAPI"""
     log("  [Source 1: MetaAPI] Fetching candles...")
     candles_m15 = None
-    candles_h1 = None
+    candles_m5 = None
     
     try:
         resp = requests.get(
@@ -103,17 +105,17 @@ def get_candles_from_metaapi():
     
     try:
         resp = requests.get(
-            f"{BASE_URL}/users/current/accounts/{ACCOUNT_ID}/historical-market-data/symbols/XAUUSD.sml/timeframes/1h/candles",
+            f"{BASE_URL}/users/current/accounts/{ACCOUNT_ID}/historical-market-data/symbols/XAUUSD.sml/timeframes/5m/candles",
             headers=headers, verify=False, timeout=10,
             params={"limit": 50}
         )
         if resp.status_code == 200:
             data = resp.json()
             if isinstance(data, list) and len(data) > 5:
-                candles_h1 = data
-                log(f"  [MetaAPI] Got {len(candles_h1)} H1 candles")
+                candles_m5 = data
+                log(f"  [MetaAPI] Got {len(candles_m5)} M5 candles")
     except Exception as e:
-        log(f"  [MetaAPI] H1 error: {e}")
+        log(f"  [MetaAPI] M5 error: {e}")
     
     if candles_m15 and len(candles_m15) > 10:
         text = "RAW CANDLE DATA (from MetaAPI broker - REAL-TIME):\n\n"
@@ -121,10 +123,10 @@ def get_candles_from_metaapi():
         text += "Time | Open | High | Low | Close | Volume\n"
         for c in candles_m15[-30:]:
             text += f"{c.get('time','')} | {c.get('open',0)} | {c.get('high',0)} | {c.get('low',0)} | {c.get('close',0)} | {c.get('tickVolume',0)}\n"
-        if candles_h1:
-            text += "\nH1 Candles (last 20):\n"
+        if candles_m5:
+            text += "\nM5 Candles (last 20):\n"
             text += "Time | Open | High | Low | Close | Volume\n"
-            for c in candles_h1[-20:]:
+            for c in candles_m5[-20:]:
                 text += f"{c.get('time','')} | {c.get('open',0)} | {c.get('high',0)} | {c.get('low',0)} | {c.get('close',0)} | {c.get('tickVolume',0)}\n"
         return text
     return None
@@ -145,35 +147,35 @@ def get_tradingview_scanner_data():
         ]
     }
     
-    payload_h1 = {
+    payload_m5 = {
         'symbols': {'tickers': ['OANDA:XAUUSD']},
         'columns': [
-            'Recommend.All|60', 'Recommend.MA|60', 'Recommend.Other|60',
-            'RSI|60', 'Stoch.K|60', 'Stoch.D|60',
-            'MACD.macd|60', 'MACD.signal|60',
-            'EMA20|60', 'SMA20|60', 'EMA50|60', 'SMA50|60',
-            'close|60', 'high|60', 'low|60',
-            'ADX|60', 'AO|60', 'CCI20|60', 'ATR|60'
+            'Recommend.All|5', 'Recommend.MA|5', 'Recommend.Other|5',
+            'RSI|5', 'Stoch.K|5', 'Stoch.D|5',
+            'MACD.macd|5', 'MACD.signal|5',
+            'EMA20|5', 'SMA20|5', 'EMA50|5', 'SMA50|5',
+            'close|5', 'high|5', 'low|5',
+            'ADX|5', 'AO|5', 'CCI20|5', 'ATR|5'
         ]
     }
     
     try:
         resp_m15 = requests.post(TRADINGVIEW_SCANNER_URL, json=payload_m15, timeout=10)
-        resp_h1 = requests.post(TRADINGVIEW_SCANNER_URL, json=payload_h1, timeout=10)
+        resp_m5 = requests.post(TRADINGVIEW_SCANNER_URL, json=payload_m5, timeout=10)
         
-        if resp_m15.status_code != 200 or resp_h1.status_code != 200:
-            log(f"  [TradingView Scanner] ERROR: M15={resp_m15.status_code}, H1={resp_h1.status_code}")
+        if resp_m15.status_code != 200 or resp_m5.status_code != 200:
+            log(f"  [TradingView Scanner] ERROR: M15={resp_m15.status_code}, M5={resp_m5.status_code}")
             return None
         
         data_m15 = resp_m15.json()
-        data_h1 = resp_h1.json()
+        data_m5 = resp_m5.json()
         
-        if data_m15.get('totalCount', 0) == 0 or data_h1.get('totalCount', 0) == 0:
+        if data_m15.get('totalCount', 0) == 0 or data_m5.get('totalCount', 0) == 0:
             log("  [TradingView Scanner] ERROR: No data returned")
             return None
         
         m15 = data_m15['data'][0]['d']
-        h1 = data_h1['data'][0]['d']
+        m5 = data_m5['data'][0]['d']
         
         tv_summary = f"""TradingView Scanner Data (OANDA:XAUUSD - REAL-TIME):
 
@@ -198,26 +200,26 @@ M15 Timeframe:
 - CCI(20): {m15[17]:.2f}
 - ATR(14): {m15[18]:.4f}
 
-H1 Timeframe:
-- Recommend.All: {h1[0]:.4f}
-- Recommend.MA: {h1[1]:.4f}
-- Recommend.Oscillators: {h1[2]:.4f}
-- RSI(14): {h1[3]:.2f}
-- Stochastic K: {h1[4]:.2f}
-- Stochastic D: {h1[5]:.2f}
-- MACD: {h1[6]:.4f}
-- MACD Signal: {h1[7]:.4f}
-- EMA20: {h1[8]:.3f}
-- SMA20: {h1[9]:.3f}
-- EMA50: {h1[10]:.3f}
-- SMA50: {h1[11]:.3f}
-- Close: {h1[12]}
-- High: {h1[13]}
-- Low: {h1[14]}
-- ADX: {h1[15]:.2f}
-- Awesome Oscillator: {h1[16]:.4f}
-- CCI(20): {h1[17]:.2f}
-- ATR(14): {h1[18]:.4f}"""
+M5 Timeframe:
+- Recommend.All: {m5[0]:.4f}
+- Recommend.MA: {m5[1]:.4f}
+- Recommend.Oscillators: {m5[2]:.4f}
+- RSI(14): {m5[3]:.2f}
+- Stochastic K: {m5[4]:.2f}
+- Stochastic D: {m5[5]:.2f}
+- MACD: {m5[6]:.4f}
+- MACD Signal: {m5[7]:.4f}
+- EMA20: {m5[8]:.3f}
+- SMA20: {m5[9]:.3f}
+- EMA50: {m5[10]:.3f}
+- SMA50: {m5[11]:.3f}
+- Close: {m5[12]}
+- High: {m5[13]}
+- Low: {m5[14]}
+- ADX: {m5[15]:.2f}
+- Awesome Oscillator: {m5[16]:.4f}
+- CCI(20): {m5[17]:.2f}
+- ATR(14): {m5[18]:.4f}"""
         
         log("  [TradingView Scanner] Data fetched successfully")
         return tv_summary
@@ -244,9 +246,9 @@ def get_tradingview_web_data():
                 'close', 'high', 'low', 'open',
                 'ADX', 'AO', 'CCI20', 'ATR',
                 'BB.upper', 'BB.lower',
-                'Recommend.All|15', 'Recommend.All|60',
-                'RSI|15', 'RSI|60',
-                'ATR|15', 'ATR|60'
+                'Recommend.All|15', 'Recommend.All|5',
+                'RSI|15', 'RSI|5',
+                'ATR|15', 'ATR|5'
             ]
         }
         
@@ -285,7 +287,7 @@ Daily/Default Timeframe:
 - Bollinger Lower: {d[21]:.3f}
 
 M15 Summary: Recommend.All={d[22]:.4f}, RSI={d[24]:.2f}, ATR={d[26]:.4f}
-H1 Summary: Recommend.All={d[23]:.4f}, RSI={d[25]:.2f}, ATR={d[27]:.4f}"""
+M5 Summary: Recommend.All={d[23]:.4f}, RSI={d[25]:.2f}, ATR={d[27]:.4f}"""
                 
                 log("  [TradingView Web] Data fetched successfully")
                 return text
@@ -332,7 +334,7 @@ ACCOUNT:
 
 YOUR TASK:
 1. Analyze all indicators and price action
-2. Determine M15 trend direction and H1 trend alignment
+2. Determine M15 trend direction and M5 trend alignment
 3. Check for high-probability scalping entry
 4. Set appropriate SL/TP (SL = ~20% of M15 ATR, TP <= SL)
 
@@ -340,7 +342,7 @@ RULES:
 1. SL = approximately 20% of M15 ATR
 2. TP cannot exceed SL (risk:reward minimum 1:1)
 3. Only trade if signal strength >= 6/10
-4. Both M15 and H1 must align
+4. Both M15 and M5 must align
 5. SKIP if market is ranging/choppy/no clear direction
 
 Respond ONLY in this exact JSON format (no markdown, no explanation):
@@ -354,7 +356,7 @@ Respond ONLY in this exact JSON format (no markdown, no explanation):
                 "Content-Type": "application/json"
             },
             json={
-                "model": "google/gemini-2.5-flash",
+                "model": "google/gemini-3.1-flash-lite",
                 "messages": [{"role": "user", "content": prompt}],
                 "temperature": 0.1,
                 "max_tokens": 300
@@ -521,6 +523,14 @@ def check_and_trade():
     # Enforce TP <= SL
     if tp_pts > sl_pts:
         tp_pts = sl_pts
+    
+    # Enforce TP tiered cap
+    if tp_pts > 10:
+        tp_pts = 5
+    elif tp_pts > 5:
+        tp_pts = 2.5
+    elif tp_pts > 2.5:
+        tp_pts = 1
     
     # Check signal
     if signal == "SKIP" or signal is None:

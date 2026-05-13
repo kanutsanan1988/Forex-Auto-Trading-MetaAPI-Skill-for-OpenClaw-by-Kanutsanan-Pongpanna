@@ -1,9 +1,9 @@
 [Unit]
-Description=Run Auto Trade XAUUSD System every 10 minutes
+Description=Run Auto Trade XAUUSD System every 5 minutes
 
 [Timer]
-OnBootSec=5min
-OnUnitActiveSec=10min
+OnBootSec=2min
+OnUnitActiveSec=5min
 Unit=auto-trade.service
 
 [Install]

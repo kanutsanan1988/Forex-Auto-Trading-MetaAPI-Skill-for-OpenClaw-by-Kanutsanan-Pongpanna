@@ -1,156 +1,101 @@
 ---
-name: Kanutsanan-Pongpanna-Agentic-AI-Auto-Trading-for-MT5
-description: Complete agentic automated forex trading system for XAU/USD (gold) powered by OpenRouter AI (Gemini 2.5 Flash) and MetaAPI REST API. Features 3 data sources fallback, smart lot sizing, and full-auto execution via systemd timer. Created by Kanutsanan Pongpanna.
+name: forex-auto-trading
+description: "AI-driven Forex Auto Trading System for XAUUSD using OpenRouter (Gemini 3.1 Flash Lite) and MetaAPI"
 ---
 
-# Kanutsanan-Pongpanna-Agentic-AI-Auto-Trading-for-MT5
+# Forex Auto Trading System
 
-**Complete agentic automated trading system for MetaApi** — Python + OpenRouter AI + MetaAPI REST API + TradingView data sources.
+ระบบเทรดอัตโนมัติสำหรับคู่เงิน XAUUSD (Gold) ที่ขับเคลื่อนด้วย AI ผ่าน OpenRouter (ใช้โมเดล `google/gemini-3.1-flash-lite`) โดยทำงานร่วมกับ MetaAPI เพื่อดึงข้อมูลและส่งคำสั่งซื้อขาย ระบบนี้ออกแบบมาเพื่อการเทรดแบบ Scalping โดยเฉพาะ
 
-## 🎯 What's New (Python + OpenRouter AI Version)
+## Architecture Overview
 
-### ✨ Key Improvements
-1. **AI-Powered Decision Making**
-   - Uses OpenRouter API (model: `google/gemini-2.5-flash`) as the primary processor.
-   - AI analyzes market data, calculates indicators, decides BUY/SELL/SKIP, and sets SL/TP.
-   - AI Strength threshold: >= 6/10 to trade.
-2. **Robust Data Sources (3 Fallbacks)**
-   - MetaAPI candles (M15 + H1)
-   - TradingView Scanner API
-   - TradingView Web
-   - **CRITICAL RULE:** If real-time chart data cannot be fetched from all sources, the system will NOT trade.
-3. **Smart Lot Sizing**
-   - Automatically calculated from free margin (max 50% usage).
-   - Minimum lot: 0.001, Maximum lot: 0.1.
-4. **Cloud Computer Standalone Support**
-   - 💡 **PRO TIP TO SAVE CREDITS:** Users can purchase a Cloud Computer from Manus and have the Manus AI Agent write the entire system script to run independently on the Cloud Computer. This allows users to use API Keys from other, more cost-effective AI providers or from OpenRouter, giving you more choices and saving credits!
-5. **Systemd Timer Scheduling**
-   - Runs every 10 minutes automatically.
-   - Trading hours: Monday 12:00 PM - Friday 24:00 PM (UTC+7).
+ระบบทำงานโดยใช้ Python script (`auto_trade.py`) เป็นแกนหลัก ซึ่งจะถูกเรียกใช้งานทุกๆ 5 นาทีผ่าน systemd timer หรือ cron job กระบวนการทำงานมีดังนี้:
 
----
+1. **ตรวจสอบสถานะบัญชีและตลาด**: ตรวจสอบว่าตลาดเปิดหรือไม่ และดึงข้อมูล Balance, Equity, Free Margin
+2. **ตรวจสอบ Position**: ระบบจะเปิดได้สูงสุดเพียง 1 position ในเวลาเดียวกัน หากมี position เปิดอยู่แล้วจะข้ามการทำงาน
+3. **ดึงข้อมูลราคาและกราฟ (Real-time)**: ระบบมี 3 แหล่งข้อมูล (Fallback mechanism):
+   - **Source 1**: MetaAPI candles (M15 + M5) - ข้อมูลดิบจากโบรกเกอร์
+   - **Source 2**: TradingView Scanner API
+   - **Source 3**: TradingView Web
+   *กฎเหล็ก: หากไม่สามารถดึงข้อมูลจากทั้ง 3 แหล่งได้ ระบบจะหยุดทำงานและไม่เทรดเด็ดขาด*
+4. **AI Analysis**: ส่งข้อมูลทั้งหมดให้ OpenRouter AI วิเคราะห์เพื่อตัดสินใจ (BUY/SELL/SKIP) พร้อมกำหนดความมั่นใจ (Strength) และจุดตัดขาดทุน/ทำกำไร (SL/TP)
+5. **Risk Management**: 
+   - คำนวณ Lot size อัตโนมัติ (สูงสุด 50% ของ Free Margin, ขั้นต่ำ 0.001, สูงสุด 0.1)
+   - บังคับ TP แบบขั้นบันได: TP>10pts→5, TP>5pts→2.5, TP>2.5pts→1
+   - บังคับ TP ต้องไม่เกิน SL (Risk:Reward ขั้นต่ำ 1:1)
+   - เทรดเมื่อ AI ให้คะแนนความมั่นใจ (Strength) $\ge$ 6/10 เท่านั้น
+6. **Execution**: ส่งคำสั่งซื้อขายผ่าน MetaAPI
 
-## Quick Start (5 minutes)
+## Prerequisites & Installation
 
-### 1. Configure Environment Variables
-Create `.env` file (see `assets/config-template.env`):
-```bash
-export METAAPI_TOKEN="YOUR_METAAPI_TOKEN_HERE"
-export METAAPI_ACCOUNT_ID="YOUR_METAAPI_ACCOUNT_ID_HERE"
-export OPENROUTER_API_KEY="YOUR_OPENROUTER_API_KEY_HERE"
-```
+### สิ่งที่ต้องเตรียม
+1. **METAAPI_TOKEN**: API Key จาก MetaAPI
+2. **METAAPI_ACCOUNT_ID**: Account ID ของบัญชีเทรดใน MetaAPI
+3. **OPENROUTER_API_KEY**: API Key จาก OpenRouter
 
-**⚠️ IMPORTANT:** 
-- Get your **MetaAPI Token** and **Account ID** from: https://app.metaapi.cloud
-- Get your **OpenRouter API Key** from: https://openrouter.ai
-- NEVER share your credentials
-- NEVER commit `.env` to git
+### วิธีติดตั้งและใช้งาน
 
-### 2. Setup and Run
-```bash
-# Run the setup script to install dependencies and configure cron/systemd
-sudo bash scripts/setup.sh
+1. คัดลอกไฟล์ทั้งหมดในโฟลเดอร์ `scripts/` ไปยังเครื่องที่ต้องการรัน
+2. รันสคริปต์ติดตั้ง:
+   ```bash
+   sudo ./setup.sh
+   ```
+3. แก้ไขไฟล์ `.env` เพื่อใส่ API Keys:
+   ```bash
+   nano .env
+   ```
+   ใส่ข้อมูลดังนี้:
+   ```env
+   METAAPI_TOKEN=YOUR_METAAPI_TOKEN_HERE
+   METAAPI_ACCOUNT_ID=YOUR_METAAPI_ACCOUNT_ID_HERE
+   OPENROUTER_API_KEY=YOUR_OPENROUTER_API_KEY_HERE
+   ```
+4. ระบบจะเริ่มทำงานอัตโนมัติตาม Cron job ที่ตั้งไว้ (ทุก 5 นาทีตามค่าเริ่มต้นใน `setup.sh`)
 
-# To check logs
-python3 scripts/trade_log.py
-```
+### คำแนะนำ Cloud Computer
 
----
+เพื่อประหยัดเครดิต Manus ผู้ใช้สามารถซื้อ **Cloud Computer ของ Manus** แล้วให้ Manus AI Agent เขียนสคริปต์ระบบทั้งหมดเพื่อรันบน Cloud Computer โดยสามารถใช้ API Key จาก AI ตัวอื่นๆ ที่ประหยัดกว่า หรือจาก OpenRouter ก็ได้ วิธีนี้จะช่วยให้ระบบทำงานได้ตลอด 24 ชั่วโมงโดยไม่ต้องเปิดเครื่องคอมพิวเตอร์ส่วนตัวทิ้งไว้ และประหยัดค่าใช้จ่ายในระยะยาว
 
-## 🔍 Manual Trade Check (New Feature)
+## Manual Trade Check (ดูผลวิเคราะห์โดยไม่เทรดจริง)
 
-You can now run a manual check to see what the AI would do **without actually executing a trade**. This is useful for testing the AI's logic, checking current market conditions, and verifying your API keys.
+หากต้องการดูผลการวิเคราะห์ของ AI โดยที่ยังไม่ต้องการให้ระบบส่งคำสั่งซื้อขายจริง สามารถทำได้โดย:
 
-```bash
-# Run the manual trade check
-python3 scripts/trade_check.py
-```
+1. รันสคริปต์ด้วยตนเอง:
+   ```bash
+   cd /path/to/scripts
+   ./venv/bin/python auto_trade.py
+   ```
+2. ตรวจสอบผลการวิเคราะห์ใน Terminal หรือดูจากไฟล์ Log:
+   ```bash
+   python3 trade_log.py 50
+   ```
+   *(หมายเหตุ: หากต้องการให้เป็นโหมด "ดูอย่างเดียว" อย่างแท้จริง ควรคอมเมนต์ส่วน `requests.post` ในขั้นตอน "Step 8: Execute trade" ของไฟล์ `auto_trade.py` ออกก่อน)*
 
-The script will output the AI's analysis, including:
-- Current Balance, Equity, and Free Margin
-- Real-time price and spread
-- AI Decision (BUY/SELL/SKIP)
-- Signal Strength (1-10)
-- Suggested Stop Loss (SL) and Take Profit (TP)
-- The reason for the decision
+## Approval / Safety Conditions
 
----
+ระบบมีเงื่อนไขความปลอดภัยที่เข้มงวดเพื่อป้องกันความเสียหาย:
 
-## 🛡️ Approval & Safety Conditions
+1. **No Data = No Trade**: หากไม่สามารถดึงข้อมูลกราฟแบบ Real-time ได้จากทั้ง 3 แหล่ง ระบบจะปฏิเสธการเทรดทันที
+2. **Market Closed**: ระบบจะไม่ทำงานในวันเสาร์-อาทิตย์
+3. **Insufficient Margin**: หาก Free Margin ไม่เพียงพอสำหรับการเปิด Lot ขั้นต่ำ (0.001) ระบบจะข้ามการเทรด
+4. **AI Confidence**: AI ต้องมีความมั่นใจระดับ 6/10 ขึ้นไปจึงจะเปิดออเดอร์
+5. **Timeframe Alignment**: ทั้ง M15 และ M5 ต้องมีทิศทางที่สอดคล้องกัน
 
-Before any trade is executed, the system strictly checks the following conditions:
+## Position Management Rules
 
-1. **Market Hours:** Must be Monday 12:00 PM to Friday 24:00 PM (UTC+7).
-2. **Data Availability:** Real-time chart data MUST be successfully fetched from at least one of the 3 sources (MetaAPI, TV Scanner, TV Web). **No data = No trade.**
-3. **AI Strength:** The AI's confidence score must be **>= 6/10**.
-4. **Margin Check:** The calculated lot size must require less than 50% of the available free margin.
-5. **Valid Price:** Bid and Ask prices must be > 0, and spread must be > 0.
+1. **Max Positions**: เปิดได้สูงสุดเพียง 1 position ในเวลาเดียวกัน
+2. **Lot Sizing**: 
+   - คำนวณอัตโนมัติจาก Free Margin (ใช้สูงสุด 50%)
+   - Lot ขั้นต่ำ: 0.001
+   - Lot สูงสุด: 0.1
+3. **Take Profit (TP) & Stop Loss (SL)**:
+   - SL ถูกกำหนดโดย AI (ประมาณ 20% ของ M15 ATR)
+   - TP ถูกจำกัดแบบขั้นบันได: TP>10pts ปรับเป็น 5 pts, TP>5pts ปรับเป็น 2.5 pts, TP>2.5pts ปรับเป็น 1 pt
+   - TP ต้องน้อยกว่าหรือเท่ากับ SL เสมอ (เพื่อรักษาสัดส่วน Risk:Reward)
 
----
+## Files in this Skill
 
-## 📊 Position Management Rules
-
-- **Maximum Open Positions:** The system allows a maximum of **1 open position** at any given time.
-- **Existing Positions:** If a position is already open, the system will **SKIP** trading until the current position is closed (either by hitting SL/TP or manual closure).
-- **Risk/Reward:** The AI is instructed to ensure that Take Profit (TP) is never greater than Stop Loss (SL) in terms of points, enforcing a minimum 1:1 risk-to-reward ratio.
-
----
-
-## 🏗️ Architecture Overview
-
-### 🔴 System 1: Data Fetching & Analysis
-**Time:** Every 10 minutes (via systemd timer)
-**Flow:**
-1. Check Market Open (Mon-Fri)
-2. Fetch Account Info (Balance, Equity, Free Margin)
-3. Check Existing Positions (Max 1 open position)
-4. Fetch Current Price (Bid/Ask/Spread)
-5. Fetch Real-time Chart Data (MetaAPI -> TV Scanner -> TV Web)
-6. Send data to OpenRouter AI for analysis
-
-### 🟢 System 2: AI Decision & Execution
-**Flow:**
-1. AI returns JSON decision (Action, Strength, SL, TP, Reason)
-2. Validate Strength (>= 6/10)
-3. Calculate Lot Size based on Free Margin
-4. Execute Trade via MetaAPI REST API
-5. Log results to `/var/log/auto_trade.log`
-
----
-
-## Important Notes
-
-### ✅ DO:
-- Use environment variables for credentials (`.env` file)
-- Monitor trading activity regularly via `trade_log.py`
-- Keep account funded
-- Review logs for errors
-
-### ❌ DON'T:
-- Hardcode credentials in scripts
-- Share your API Keys or Account ID
-- Commit `.env` to version control
-- Run multiple instances simultaneously
-
----
-
-## Support & Questions
-Each file contains detailed comments explaining every step. 
-Start with:
-1. `scripts/auto_trade.py` - Main trading logic and AI integration
-2. `scripts/trade_check.py` - Manual check without trading
-3. `scripts/setup.sh` - Environment setup and scheduling
-4. `scripts/trade_log.py` - Log viewer and summarizer
-
----
-
-## Version History
-| Version | Date | Changes |
-|---------|------|---------|
-| **3.0.0** | 2026-05-12 | ✨ Python rewrite, OpenRouter AI integration, 3 data sources, Cloud Computer support, Manual Trade Check |
-| **2.0.0** | 2025-03-07 | ✨ Profit thresholds, Balance/Equity logic, 30-sec scheduling (Node.js) |
-
----
-**Created by:** Kanutsanan Pongpanna
-**Version:** Agentic AI Auto Trading for MT5 (Python + OpenRouter)
-**Status:** Production Ready ✅
+- `scripts/auto_trade.py`: สคริปต์หลักสำหรับรันระบบเทรด
+- `scripts/trade_log.py`: สคริปต์สำหรับดูและสรุปผลการเทรดจาก Log
+- `scripts/setup.sh`: สคริปต์สำหรับติดตั้ง Environment และ Cron job
+- `.env.example`: ไฟล์ตัวอย่างสำหรับตั้งค่า Environment Variables

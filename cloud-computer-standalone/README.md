@@ -23,7 +23,7 @@ Fill in your details:
 - `OPENROUTER_API_KEY`: Your OpenRouter API Key
 
 ### 2. Run the Setup Script
-The setup script will install Python, required packages, and configure a cron job to run the script every 10 minutes.
+The setup script will install Python, required packages, and configure a cron job to run the script every 5 minutes.
 ```bash
 sudo bash setup.sh
 ```

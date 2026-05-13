@@ -53,7 +53,7 @@ The system requires your API keys to function. These are stored securely in a `.
 4. Save and exit (Press `Ctrl+O`, `Enter`, then `Ctrl+X`).
 
 ### Step 4: Run the Setup Script
-The provided `setup.sh` script will automatically install Python, set up a virtual environment, install required packages, and configure systemd timers to run the script every 10 minutes.
+The provided `setup.sh` script will automatically install Python, set up a virtual environment, install required packages, and configure systemd timers to run the script every 5 minutes.
 
 ```bash
 sudo bash setup.sh
