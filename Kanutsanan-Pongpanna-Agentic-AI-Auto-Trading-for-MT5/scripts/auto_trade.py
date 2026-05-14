@@ -362,11 +362,21 @@ You have full freedom to analyze the data however you want. Use whichever timefr
 
 Also review the trade history above. Learn from past wins and losses - avoid repeating the same mistakes (e.g. if recent trades in one direction kept losing, reconsider that direction).
 
-Your only job: figure out the trend and trade with it.
-- If the trend is UP -> BUY
-- If the trend is DOWN -> SELL  
-- If no clear trend or you are unsure -> SKIP
+IMPORTANT: Before deciding, you MUST identify key Support and Resistance levels from H1 and M15 data (recent highs, lows, and consolidation zones).
+
+RULES:
+1. Identify at least 2 Support levels and 2 Resistance levels from the chart data
+2. If price is NEAR a Resistance level (within 3 pts) -> Do NOT BUY (price likely to reverse down)
+3. If price is NEAR a Support level (within 3 pts) -> Do NOT SELL (price likely to reverse up)
+4. Only BUY when trend is UP and price has room to move up before hitting Resistance
+5. Only SELL when trend is DOWN and price has room to move down before hitting Support
+6. If price is stuck between tight S/R (range < 10 pts) -> SKIP (ranging market)
+7. If no clear trend or you are unsure -> SKIP
 - SL and TP are fixed by the system. Just set sl_points=100 and tp_points=5
+
+WARNING: High momentum near S/R levels is a TRAP signal! When momentum is very strong (fast price movement, large candles) AND price is approaching a Support or Resistance level, it is MORE likely to reverse, NOT break through. The stronger the momentum near S/R, the MORE cautious you should be. Do NOT chase strong moves into S/R zones - this is the #1 cause of losing trades.
+
+In your reason, ALWAYS mention the S/R levels you identified and why you chose your action.
 
 Respond ONLY in this exact JSON format (no markdown, no explanation):
 {{"action": "BUY" or "SELL" or "SKIP", "strength": 1-10, "sl_points": 100, "tp_points": 5, "reason": "brief reason"}}"""
