@@ -1,3 +1,26 @@
+#!/usr/bin/env python3
+"""
+=============================================================================
+Kanutsanan Pongpanna AI Auto Trading v3.0 - XAUUSD
+=============================================================================
+Dual Calculation System + Agentic AI Parallel Processing
+ใช้ OpenRouter เป็นตัวประมวลผลหลักเพื่อประหยัดเครดิต Manus
+
+คำสั่งในการใช้งาน:
+  1. "เช็คเทรด" - เช็คข้อมูลเพื่อให้คำแนะนำในการเทรด
+  2. "อนุมัติเทรด" - ส่งคำสั่งซื้อขายตามคำแนะนำเทรด
+  3. "ตั้งเวลาเทรดอัตโนมัติ" - ตั้งเวลาเทรดแบบอัตโนมัติ
+  4. "ยกเลิกการตั้งเวลาเทรด" - ยกเลิกการตั้งเวลาเทรดแบบอัตโนมัติ
+
+โครงสร้าง:
+  - Dual Calculation System (ชุดที่ 1: Mean-Reversion, ชุดที่ 2: Trend-Following)
+  - Agentic AI Parallel Processing (AI Agent หลายตัวทำงานพร้อมกัน)
+  - OpenRouter เป็นตัวประมวลผลหลัก
+  - Break-Even Logic
+  - Auto Lot Sizing
+=============================================================================
+"""
+
 import requests
 import json
 import urllib3
@@ -5,75 +28,64 @@ import time
 import os
 import re
 import sys
-from datetime import datetime, timezone
+import signal
+import threading
+from datetime import datetime, timezone, timedelta
 from dotenv import load_dotenv
 
-# Load environment variables from .env file if it exists
+# Load environment variables
 load_dotenv()
-
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # =============================================================================
-# AUTO TRADE SYSTEM - OpenRouter AI Full Control
+# CONFIGURATION
 # =============================================================================
-# OpenRouter AI ทำหน้าที่หลักทั้งหมด:
-#   - วิเคราะห์ข้อมูลกราฟ
-#   - คำนวณ indicators
-#   - ตัดสินใจ BUY/SELL/SKIP
-#   - กำหนด SL/TP
-#
-# CRITICAL RULE: NO REAL-TIME CHART DATA = NO TRADE
-# ถ้าดึงข้อมูลกราฟ real-time ไม่ได้จากทุกแหล่ง -> ห้ามเทรดเด็ดขาด
-# ต้องรายงานปัญหาและพยายามแก้ไขให้ดึงกราฟ real-time ได้
-#
-# แหล่งข้อมูลกราฟ (ได้จากแหล่งใดแหล่งหนึ่งก็เทรดได้):
-#   1. MetaAPI candles (M15 + H1) - ข้อมูลดิบจากโบรกเกอร์
-#   2. TradingView scanner API (https://scanner.tradingview.com/cfd/scan)
-#   3. TradingView web page (https://www.tradingview.com/symbols/XAUUSD/?exchange=OANDA&utm_source=androidapp&utm_medium=share)
-# ถ้าทั้ง 3 แหล่งไม่ทำงาน -> SKIP + รายงานปัญหา + แก้ไข
-# =============================================================================
-
-# Configuration from Environment Variables
 ACCOUNT_ID = os.environ.get("METAAPI_ACCOUNT_ID", "")
 API_KEY = os.environ.get("METAAPI_TOKEN", "")
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "")
+AI_MODEL = os.environ.get("AI_MODEL", "google/gemini-2.5-flash")
 
 REGION = "london"
 BASE_URL = f"https://mt-client-api-v1.{REGION}.agiliumtrade.ai"
 MARKET_DATA_URL = f"https://mt-market-data-client-api-v1.{REGION}.agiliumtrade.ai"
 headers = {"auth-token": API_KEY, "Content-Type": "application/json"}
 
-TRADINGVIEW_WEB_URL = "https://www.tradingview.com/symbols/XAUUSD/?exchange=OANDA&utm_source=androidapp&utm_medium=share"
+TRADINGVIEW_WEB_URL = "https://www.tradingview.com/symbols/XAUUSD/?exchange=OANDA"
 TRADINGVIEW_SCANNER_URL = "https://scanner.tradingview.com/cfd/scan"
 
-LOG_FILE = "/var/log/auto_trade.log"
+MAX_POSITIONS = 10
+MAX_LOT = 0.1
+MIN_LOT = 0.001
+MAX_MARGIN_PERCENT = 50
+TP_MAX = 5  # Maximum TP in points
+SL_FIXED = 100  # Fixed SL in points
 
+LOG_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "auto_trade.log")
+
+# Global state for auto-trade timer
+auto_trade_running = False
+auto_trade_thread = None
+last_recommendation = None  # Store last trade recommendation for approval
+
+# =============================================================================
+# LOGGING
+# =============================================================================
 def log(msg):
-    global LOG_FILE
     timestamp = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC')
     log_msg = f"[{timestamp}] {msg}"
     print(log_msg)
-    
-    # Also write to log file if possible
     try:
-        # Create directory if it doesn't exist (might need sudo, so we fallback to local if it fails)
-        log_dir = os.path.dirname(LOG_FILE)
-        if not os.path.exists(log_dir):
-            try:
-                os.makedirs(log_dir, exist_ok=True)
-            except PermissionError:
-                # Fallback to local directory if no permission for /var/log
-                LOG_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "auto_trade.log")
-        
         with open(LOG_FILE, "a") as f:
             f.write(log_msg + "\n")
-    except Exception as e:
-        print(f"[{timestamp}] Warning: Could not write to log file {LOG_FILE}: {e}")
+    except Exception:
+        pass
 
+# =============================================================================
+# MARKET CHECK
+# =============================================================================
 def check_market_open():
     """Check if market is open (Not Saturday/Sunday)"""
     now = datetime.now(timezone.utc)
-    # 5 = Saturday, 6 = Sunday
     if now.weekday() >= 5:
         return False
     return True
@@ -83,7 +95,7 @@ def check_market_open():
 # =============================================================================
 
 def get_candles_from_metaapi():
-    """Source 1: ดึง candles ทุก timeframe จาก MetaAPI ให้ AI วิเคราะห์เอง"""
+    """Source 1: ดึง candles ทุก timeframe จาก MetaAPI"""
     log("  [Source 1: MetaAPI] Fetching all timeframes...")
     
     timeframes = {
@@ -105,9 +117,9 @@ def get_candles_from_metaapi():
                 data = resp.json()
                 if isinstance(data, list) and len(data) > 3:
                     all_data[config["label"]] = data
-                    log(f"  [MetaAPI] Got {len(data)} {config['label']} candles")
+                    log(f"    [MetaAPI] Got {len(data)} {config['label']} candles")
         except Exception as e:
-            log(f"  [MetaAPI] {config['label']} error: {e}")
+            log(f"    [MetaAPI] {config['label']} error: {e}")
     
     if not all_data:
         return None
@@ -120,51 +132,6 @@ def get_candles_from_metaapi():
             text += f"{c.get('time','')} | {c.get('open',0)} | {c.get('high',0)} | {c.get('low',0)} | {c.get('close',0)} | {c.get('tickVolume',0)}\n"
         text += "\n"
     return text
-
-def get_trade_history():
-    """ดึงประวัติการเทรดล่าสุดจาก MetaAPI"""
-    log("  Fetching trade history...")
-    try:
-        from datetime import timedelta
-        now = datetime.now(timezone.utc)
-        start_time = (now - timedelta(hours=24)).strftime("%Y-%m-%dT%H:%M:%S.000Z")
-        
-        resp = requests.get(
-            f"{BASE_URL}/users/current/accounts/{ACCOUNT_ID}/history-deals",
-            headers=headers, verify=False, timeout=10,
-            params={"startTime": start_time}
-        )
-        if resp.status_code == 200:
-            deals = resp.json()
-            if isinstance(deals, list) and len(deals) > 0:
-                text = "TRADE HISTORY (last 24 hours):\n"
-                text += "Time | Type | Volume | Price | Profit | Comment\n"
-                for d in deals[-30:]:
-                    text += f"{d.get('time','')} | {d.get('type','')} | {d.get('volume','')} | {d.get('price','')} | {d.get('profit','')} | {d.get('comment','')}\n"
-                log(f"  Got {len(deals)} deals from history")
-                return text
-        
-        # Fallback: try history-orders
-        resp2 = requests.get(
-            f"{BASE_URL}/users/current/accounts/{ACCOUNT_ID}/history-orders",
-            headers=headers, verify=False, timeout=10,
-            params={"startTime": start_time}
-        )
-        if resp2.status_code == 200:
-            orders = resp2.json()
-            if isinstance(orders, list) and len(orders) > 0:
-                text = "ORDER HISTORY (last 24 hours):\n"
-                text += "Time | Type | Volume | Price | State\n"
-                for o in orders[-30:]:
-                    text += f"{o.get('doneTime', o.get('time',''))} | {o.get('type','')} | {o.get('volume','')} | {o.get('openPrice', o.get('currentPrice',''))} | {o.get('state','')}\n"
-                log(f"  Got {len(orders)} orders from history")
-                return text
-        
-        log("  No trade history found")
-        return None
-    except Exception as e:
-        log(f"  Trade history error: {e}")
-        return None
 
 def get_tradingview_scanner_data():
     """Source 2: ดึง technical indicators จาก TradingView scanner API"""
@@ -194,67 +161,67 @@ def get_tradingview_scanner_data():
         ]
     }
     
+    payload_m5 = {
+        'symbols': {'tickers': ['OANDA:XAUUSD']},
+        'columns': [
+            'Recommend.All|5', 'Recommend.MA|5', 'Recommend.Other|5',
+            'RSI|5', 'Stoch.K|5', 'Stoch.D|5',
+            'MACD.macd|5', 'MACD.signal|5',
+            'EMA20|5', 'SMA20|5', 'EMA50|5', 'SMA50|5',
+            'close|5', 'high|5', 'low|5',
+            'ADX|5', 'AO|5', 'CCI20|5', 'ATR|5'
+        ]
+    }
+    
     try:
+        resp_m5 = requests.post(TRADINGVIEW_SCANNER_URL, json=payload_m5, timeout=10)
         resp_m15 = requests.post(TRADINGVIEW_SCANNER_URL, json=payload_m15, timeout=10)
         resp_h1 = requests.post(TRADINGVIEW_SCANNER_URL, json=payload_h1, timeout=10)
         
-        if resp_m15.status_code != 200 or resp_h1.status_code != 200:
-            log(f"  [TradingView Scanner] ERROR: M15={resp_m15.status_code}, H1={resp_h1.status_code}")
-            return None
+        results = {}
         
-        data_m15 = resp_m15.json()
-        data_h1 = resp_h1.json()
+        if resp_m5.status_code == 200:
+            data_m5 = resp_m5.json()
+            if data_m5.get('totalCount', 0) > 0:
+                results['M5'] = data_m5['data'][0]['d']
         
-        if data_m15.get('totalCount', 0) == 0 or data_h1.get('totalCount', 0) == 0:
+        if resp_m15.status_code == 200:
+            data_m15 = resp_m15.json()
+            if data_m15.get('totalCount', 0) > 0:
+                results['M15'] = data_m15['data'][0]['d']
+        
+        if resp_h1.status_code == 200:
+            data_h1 = resp_h1.json()
+            if data_h1.get('totalCount', 0) > 0:
+                results['H1'] = data_h1['data'][0]['d']
+        
+        if not results:
             log("  [TradingView Scanner] ERROR: No data returned")
             return None
         
-        m15 = data_m15['data'][0]['d']
-        h1 = data_h1['data'][0]['d']
+        tv_summary = "TradingView Scanner Data (OANDA:XAUUSD - REAL-TIME):\n\n"
         
-        tv_summary = f"""TradingView Scanner Data (OANDA:XAUUSD - REAL-TIME):
-
-M15 Timeframe:
-- Recommend.All: {m15[0]:.4f} (range -1 to +1, positive=BUY)
-- Recommend.MA: {m15[1]:.4f}
-- Recommend.Oscillators: {m15[2]:.4f}
-- RSI(14): {m15[3]:.2f}
-- Stochastic K: {m15[4]:.2f}
-- Stochastic D: {m15[5]:.2f}
-- MACD: {m15[6]:.4f}
-- MACD Signal: {m15[7]:.4f}
-- EMA20: {m15[8]:.3f}
-- SMA20: {m15[9]:.3f}
-- EMA50: {m15[10]:.3f}
-- SMA50: {m15[11]:.3f}
-- Close: {m15[12]}
-- High: {m15[13]}
-- Low: {m15[14]}
-- ADX: {m15[15]:.2f}
-- Awesome Oscillator: {m15[16]:.4f}
-- CCI(20): {m15[17]:.2f}
-- ATR(14): {m15[18]:.4f}
-
-H1 Timeframe:
-- Recommend.All: {h1[0]:.4f}
-- Recommend.MA: {h1[1]:.4f}
-- Recommend.Oscillators: {h1[2]:.4f}
-- RSI(14): {h1[3]:.2f}
-- Stochastic K: {h1[4]:.2f}
-- Stochastic D: {h1[5]:.2f}
-- MACD: {h1[6]:.4f}
-- MACD Signal: {h1[7]:.4f}
-- EMA20: {h1[8]:.3f}
-- SMA20: {h1[9]:.3f}
-- EMA50: {h1[10]:.3f}
-- SMA50: {h1[11]:.3f}
-- Close: {h1[12]}
-- High: {h1[13]}
-- Low: {h1[14]}
-- ADX: {h1[15]:.2f}
-- Awesome Oscillator: {h1[16]:.4f}
-- CCI(20): {h1[17]:.2f}
-- ATR(14): {h1[18]:.4f}"""
+        for tf, d in results.items():
+            tv_summary += f"{tf} Timeframe:\n"
+            tv_summary += f"- Recommend.All: {d[0]:.4f} (range -1 to +1, positive=BUY)\n"
+            tv_summary += f"- Recommend.MA: {d[1]:.4f}\n"
+            tv_summary += f"- Recommend.Oscillators: {d[2]:.4f}\n"
+            tv_summary += f"- RSI(14): {d[3]:.2f}\n"
+            tv_summary += f"- Stochastic K: {d[4]:.2f}\n"
+            tv_summary += f"- Stochastic D: {d[5]:.2f}\n"
+            tv_summary += f"- MACD: {d[6]:.4f}\n"
+            tv_summary += f"- MACD Signal: {d[7]:.4f}\n"
+            tv_summary += f"- EMA20: {d[8]:.3f}\n"
+            tv_summary += f"- SMA20: {d[9]:.3f}\n"
+            tv_summary += f"- EMA50: {d[10]:.3f}\n"
+            tv_summary += f"- SMA50: {d[11]:.3f}\n"
+            tv_summary += f"- Close: {d[12]}\n"
+            tv_summary += f"- High: {d[13]}\n"
+            tv_summary += f"- Low: {d[14]}\n"
+            tv_summary += f"- ADX: {d[15]:.2f}\n"
+            tv_summary += f"- Awesome Oscillator: {d[16]:.4f}\n"
+            tv_summary += f"- CCI(20): {d[17]:.2f}\n"
+            tv_summary += f"- ATR(14): {d[18]:.4f}\n\n"
         
         log("  [TradingView Scanner] Data fetched successfully")
         return tv_summary
@@ -264,13 +231,10 @@ H1 Timeframe:
         return None
 
 def get_tradingview_web_data():
-    """Source 3: ดึงข้อมูลจากหน้าเว็บ TradingView โดยตรง"""
-    log(f"  [Source 3: TradingView Web] Fetching from {TRADINGVIEW_WEB_URL}...")
+    """Source 3: ดึงข้อมูลจากหน้าเว็บ TradingView"""
+    log("  [Source 3: TradingView Web] Fetching...")
     
     try:
-        # ใช้ TradingView mini API ที่ embed ในหน้าเว็บ
-        ta_url = "https://scanner.tradingview.com/cfd/scan"
-        
         payload = {
             'symbols': {'tickers': ['OANDA:XAUUSD']},
             'columns': [
@@ -287,7 +251,7 @@ def get_tradingview_web_data():
             ]
         }
         
-        resp = requests.post(ta_url, json=payload, timeout=10,
+        resp = requests.post(TRADINGVIEW_SCANNER_URL, json=payload, timeout=10,
                            headers={'User-Agent': 'Mozilla/5.0'})
         
         if resp.status_code == 200:
@@ -334,53 +298,146 @@ H1 Summary: Recommend.All={d[23]:.4f}, RSI={d[25]:.2f}, ATR={d[27]:.4f}"""
         log(f"  [TradingView Web] ERROR: {e}")
         return None
 
-# =============================================================================
-# OpenRouter AI - ตัวประมวลผลหลัก (ทำทุกอย่าง)
-# =============================================================================
-
-def ask_openrouter_ai(market_data_text, bid, ask, balance, free_margin):
-    """
-    OpenRouter AI ทำทุกอย่าง:
-    - วิเคราะห์ข้อมูลกราฟ
-    - คำนวณ/ยืนยัน indicators
-    - ตัดสินใจ BUY/SELL/SKIP
-    - กำหนด SL/TP
-    """
-    if not OPENROUTER_API_KEY:
-        log("  [OpenRouter] ERROR: No API key!")
+def get_trade_history():
+    """ดึงประวัติการเทรดล่าสุดจาก MetaAPI"""
+    log("  Fetching trade history...")
+    try:
+        now = datetime.now(timezone.utc)
+        start_time = (now - timedelta(hours=24)).strftime("%Y-%m-%dT%H:%M:%S.000Z")
+        
+        resp = requests.get(
+            f"{BASE_URL}/users/current/accounts/{ACCOUNT_ID}/history-deals",
+            headers=headers, verify=False, timeout=10,
+            params={"startTime": start_time}
+        )
+        if resp.status_code == 200:
+            deals = resp.json()
+            if isinstance(deals, list) and len(deals) > 0:
+                text = "\nTRADE HISTORY (last 24 hours):\n"
+                text += "Time | Type | Volume | Price | Profit | Comment\n"
+                for d in deals[-30:]:
+                    text += f"{d.get('time','')} | {d.get('type','')} | {d.get('volume','')} | {d.get('price','')} | {d.get('profit','')} | {d.get('comment','')}\n"
+                log(f"  Got {len(deals)} deals from history")
+                return text
+        
+        resp2 = requests.get(
+            f"{BASE_URL}/users/current/accounts/{ACCOUNT_ID}/history-orders",
+            headers=headers, verify=False, timeout=10,
+            params={"startTime": start_time}
+        )
+        if resp2.status_code == 200:
+            orders = resp2.json()
+            if isinstance(orders, list) and len(orders) > 0:
+                text = "\nORDER HISTORY (last 24 hours):\n"
+                text += "Time | Type | Volume | Price | State\n"
+                for o in orders[-30:]:
+                    text += f"{o.get('doneTime', o.get('time',''))} | {o.get('type','')} | {o.get('volume','')} | {o.get('openPrice', o.get('currentPrice',''))} | {o.get('state','')}\n"
+                log(f"  Got {len(orders)} orders from history")
+                return text
+        
         return None
-    
-    log("  [OpenRouter] Sending data to AI for full analysis...")
-    
-    prompt = f"""You are an expert XAUUSD trader. Here is all the chart data across multiple timeframes and your recent trade history. Analyze everything yourself and decide whether to BUY, SELL, or SKIP.
+    except Exception as e:
+        log(f"  Trade history error: {e}")
+        return None
 
-CURRENT PRICE: Bid: {bid} | Ask: {ask} | Spread: {round(ask - bid, 3)}
+# =============================================================================
+# AGENTIC AI PARALLEL PROCESSING
+# =============================================================================
+# ใช้ OpenRouter AI เป็นตัวประมวลผลแบบขนาน (Parallel Processing)
+# - Agent 1: วิเคราะห์ชุดคำนวณที่ 1 (Mean-Reversion)
+# - Agent 2: วิเคราะห์ชุดคำนวณที่ 2 (Trend-Following)
+# - Agent 3 (Coordinator): รวมผลลัพธ์จาก Agent 1 & 2 แล้วตัดสินใจ
+# =============================================================================
+
+def ai_agent_mean_reversion(market_data_text, bid, ask):
+    """Agent 1: คำนวณชุดที่ 1 - Mean-Reversion (เทรดเข้าหาจุดกลาง)"""
+    prompt = f"""You are Agent 1: Mean-Reversion Analyst for XAUUSD.
+
+CURRENT PRICE: Bid={bid}, Ask={ask}, Entry={(bid+ask)/2:.3f}
 
 {market_data_text}
 
-You have full freedom to analyze the data however you want. Use whichever timeframes and methods you think are best to determine the current trend direction.
+YOUR TASK (Calculation Set 1 - Mean-Reversion):
+1. Identify the BEST Support (S) and Resistance (R) levels from the chart data
+2. Calculate MIDPOINT = (S + R) / 2
+3. Determine direction:
+   - If entry price > midpoint → SELL (price should revert down toward midpoint)
+   - If entry price < midpoint → BUY (price should revert up toward midpoint)
+4. Calculate TP = distance from entry to midpoint (cap at max 5 pts)
+5. Calculate SL based on your analysis (consider volatility, ATR, nearby levels)
+6. Check trend/momentum:
+   - Rate trend strength 1-10
+   - If your trade direction is OPPOSITE to the trend AND trend > 8/10 → DO NOT TRADE
+7. This strategy works best during SWING/SIDEWAYS markets
 
-Also review the trade history above. Learn from past wins and losses - avoid repeating the same mistakes (e.g. if recent trades in one direction kept losing, reconsider that direction).
+Respond ONLY in this exact JSON format:
+{{"can_trade": true/false, "action": "BUY"/"SELL"/"SKIP", "support": price, "resistance": price, "midpoint": price, "tp_points": 1-5, "sl_points": number, "trend_strength": 1-10, "trend_direction": "UP"/"DOWN"/"NEUTRAL", "confidence": 1-10, "reason": "brief explanation"}}"""
 
-IMPORTANT: Before deciding, you MUST identify key Support and Resistance levels from H1 and M15 data (recent highs, lows, and consolidation zones).
+    return call_openrouter(prompt, "Agent1-MeanReversion")
 
-RULES:
-1. Identify at least 2 Support levels and 2 Resistance levels from the chart data
-2. If price is NEAR a Resistance level (within 3 pts) -> Do NOT BUY (price likely to reverse down)
-3. If price is NEAR a Support level (within 3 pts) -> Do NOT SELL (price likely to reverse up)
-4. Only BUY when trend is UP and price has room to move up before hitting Resistance
-5. Only SELL when trend is DOWN and price has room to move down before hitting Support
-6. If price is stuck between tight S/R (range < 10 pts) -> SKIP (ranging market)
-7. If no clear trend or you are unsure -> SKIP
-- SL and TP are fixed by the system. Just set sl_points=100 and tp_points=5
+def ai_agent_trend_following(market_data_text, bid, ask):
+    """Agent 2: คำนวณชุดที่ 2 - Trend-Following (เทรดตามเทรนด์)"""
+    prompt = f"""You are Agent 2: Trend-Following Analyst for XAUUSD.
 
-WARNING: High momentum near S/R levels is a TRAP signal! When momentum is very strong (fast price movement, large candles) AND price is approaching a Support or Resistance level, it is MORE likely to reverse, NOT break through. The stronger the momentum near S/R, the MORE cautious you should be. Do NOT chase strong moves into S/R zones - this is the #1 cause of losing trades.
+CURRENT PRICE: Bid={bid}, Ask={ask}, Entry={(bid+ask)/2:.3f}
 
-In your reason, ALWAYS mention the S/R levels you identified and why you chose your action.
+{market_data_text}
 
-Respond ONLY in this exact JSON format (no markdown, no explanation):
-{{"action": "BUY" or "SELL" or "SKIP", "strength": 1-10, "sl_points": 100, "tp_points": 5, "reason": "brief reason"}}"""
+YOUR TASK (Calculation Set 2 - Trend-Following):
+1. Identify the BEST Support (S) and Resistance (R) levels from the chart data
+2. Check trend and momentum strength (rate 1-10)
+3. If strong uptrend → BUY with TP = 5 pts
+   If strong downtrend → SELL with TP = 5 pts
+4. CRITICAL CHECK: Will the TP level be too close to S/R?
+   - For BUY: if (entry + 5) is within 3 pts of Resistance → DO NOT TRADE
+   - For SELL: if (entry - 5) is within 3 pts of Support → DO NOT TRADE
+   - If TP level is far from S/R → OK to trade
+5. Calculate SL based on your analysis (consider volatility, ATR, nearby levels)
+6. This strategy works best when there's a CLEAR TREND with strong momentum
 
+Respond ONLY in this exact JSON format:
+{{"can_trade": true/false, "action": "BUY"/"SELL"/"SKIP", "support": price, "resistance": price, "tp_points": 5, "sl_points": number, "trend_strength": 1-10, "trend_direction": "UP"/"DOWN"/"NEUTRAL", "tp_near_sr": true/false, "confidence": 1-10, "reason": "brief explanation"}}"""
+
+    return call_openrouter(prompt, "Agent2-TrendFollowing")
+
+def ai_agent_coordinator(agent1_result, agent2_result, market_data_text, bid, ask):
+    """Agent 3 (Coordinator): รวมผลลัพธ์จาก Agent 1 & 2 แล้วตัดสินใจสุดท้าย"""
+    prompt = f"""You are the Coordinator Agent for XAUUSD trading. You received results from 2 parallel analysis agents.
+
+CURRENT PRICE: Bid={bid}, Ask={ask}, Entry={(bid+ask)/2:.3f}
+
+=== AGENT 1 RESULT (Mean-Reversion - trade toward midpoint) ===
+{json.dumps(agent1_result, indent=2) if agent1_result else "FAILED - No result"}
+
+=== AGENT 2 RESULT (Trend-Following - trade with momentum) ===
+{json.dumps(agent2_result, indent=2) if agent2_result else "FAILED - No result"}
+
+YOUR DECISION RULES:
+1. If Set 1 can trade but Set 2 cannot → Use Set 1
+2. If Set 1 cannot trade but Set 2 can → Use Set 2
+3. If BOTH cannot trade → SKIP (do not trade)
+4. If BOTH can trade:
+   - If trend/momentum < 6/10 → You choose which set gives best quick profit
+   - If trend/momentum >= 6/10 → Prefer Set 2 (trend-following)
+   
+IMPORTANT:
+- Goal: Maximum profit with minimum loss risk
+- TP must be 1-5 points (never exceed 5)
+- SL: Use the value from the chosen agent's analysis
+- Consider which setup has higher probability of hitting TP quickly
+- Think deeply about market conditions before deciding
+
+Respond ONLY in this exact JSON format:
+{{"action": "BUY"/"SELL"/"SKIP", "chosen_set": 1/2, "tp_points": 1-5, "sl_points": number, "strength": 1-10, "reason": "which set chosen and why, S/R levels, midpoint"}}"""
+
+    return call_openrouter(prompt, "Agent3-Coordinator")
+
+def call_openrouter(prompt, agent_name):
+    """Call OpenRouter API"""
+    if not OPENROUTER_API_KEY:
+        log(f"  [{agent_name}] ERROR: No API key!")
+        return None
+    
     try:
         resp = requests.post(
             "https://openrouter.ai/api/v1/chat/completions",
@@ -389,16 +446,16 @@ Respond ONLY in this exact JSON format (no markdown, no explanation):
                 "Content-Type": "application/json"
             },
             json={
-                "model": "google/gemini-3.1-flash-lite",
+                "model": AI_MODEL,
                 "messages": [{"role": "user", "content": prompt}],
                 "temperature": 0.1,
-                "max_tokens": 300
+                "max_tokens": 500
             },
-            timeout=30
+            timeout=45
         )
         
         if resp.status_code != 200:
-            log(f"  [OpenRouter] ERROR: {resp.status_code} - {resp.text[:200]}")
+            log(f"  [{agent_name}] ERROR: {resp.status_code} - {resp.text[:200]}")
             return None
         
         ai_response = resp.json()
@@ -408,53 +465,130 @@ Respond ONLY in this exact JSON format (no markdown, no explanation):
         if content.startswith("```"):
             content = content.split("\n", 1)[1].rsplit("```", 1)[0].strip()
         
-        ai_decision = json.loads(content)
+        # Try to extract JSON from content
+        json_match = re.search(r'\{[^{}]*\}', content, re.DOTALL)
+        if json_match:
+            content = json_match.group(0)
         
-        # Handle both old and new format
-        signal = ai_decision.get('action', ai_decision.get('signal', 'SKIP'))
-        strength = ai_decision.get('strength', 0)
-        sl_pts = ai_decision.get('sl_points', ai_decision.get('sl_pts', 0))
-        tp_pts = ai_decision.get('tp_points', ai_decision.get('tp_pts', 0))
-        reason = ai_decision.get('reason', '')
-        
-        log(f"  [AI] Decision: {signal} | Strength: {strength}/10")
-        log(f"  [AI] SL: {sl_pts} pts | TP: {tp_pts} pts")
-        log(f"  [AI] Reason: {reason}")
-        
-        return {
-            "signal": signal,
-            "strength": strength,
-            "sl_pts": sl_pts,
-            "tp_pts": tp_pts,
-            "reason": reason
-        }
+        result = json.loads(content)
+        log(f"  [{agent_name}] Result: {result.get('action', 'N/A')} | Confidence: {result.get('confidence', result.get('strength', 'N/A'))}")
+        return result
         
     except json.JSONDecodeError:
-        log(f"  [OpenRouter] ERROR: Cannot parse response: {content[:200]}")
+        log(f"  [{agent_name}] ERROR: Cannot parse JSON response")
         return None
     except Exception as e:
-        log(f"  [OpenRouter] ERROR: {e}")
+        log(f"  [{agent_name}] ERROR: {e}")
         return None
+
+# =============================================================================
+# PARALLEL EXECUTION
+# =============================================================================
+
+def run_parallel_analysis(market_data_text, bid, ask):
+    """Run Agent 1 and Agent 2 in parallel using threads"""
+    log("  [Parallel Processing] Starting Agent 1 (Mean-Reversion) and Agent 2 (Trend-Following)...")
+    
+    results = {}
+    
+    def run_agent1():
+        results['agent1'] = ai_agent_mean_reversion(market_data_text, bid, ask)
+    
+    def run_agent2():
+        results['agent2'] = ai_agent_trend_following(market_data_text, bid, ask)
+    
+    # Run both agents in parallel
+    t1 = threading.Thread(target=run_agent1)
+    t2 = threading.Thread(target=run_agent2)
+    
+    t1.start()
+    t2.start()
+    
+    t1.join(timeout=60)
+    t2.join(timeout=60)
+    
+    agent1_result = results.get('agent1')
+    agent2_result = results.get('agent2')
+    
+    log(f"  [Parallel Processing] Agent 1: {'OK' if agent1_result else 'FAILED'}")
+    log(f"  [Parallel Processing] Agent 2: {'OK' if agent2_result else 'FAILED'}")
+    
+    # Agent 3: Coordinator makes final decision
+    log("  [Parallel Processing] Agent 3 (Coordinator) making final decision...")
+    final_decision = ai_agent_coordinator(agent1_result, agent2_result, market_data_text, bid, ask)
+    
+    return final_decision
+
+# =============================================================================
+# BREAK-EVEN LOGIC
+# =============================================================================
+
+def check_and_apply_breakeven(positions):
+    """Check all positions and apply break-even if profit >= 50% of TP distance"""
+    for p in positions:
+        pos_type = p.get('type', '')
+        pos_profit = p.get('profit', 0)
+        pos_open = p.get('openPrice', 0)
+        pos_sl = p.get('stopLoss', 0)
+        pos_tp = p.get('takeProfit', 0)
+        pos_id = p.get('id', '')
+        
+        if not (pos_open and pos_tp and pos_sl):
+            continue
+        
+        if pos_type == 'POSITION_TYPE_BUY':
+            tp_distance = pos_tp - pos_open
+            current_sl_distance = pos_open - pos_sl
+        else:  # SELL
+            tp_distance = pos_open - pos_tp
+            current_sl_distance = pos_sl - pos_open
+        
+        # Only move SL if not already at break-even and profit >= 50% of TP
+        if tp_distance > 0 and current_sl_distance > 0.01:
+            half_tp = tp_distance * 0.5
+            if pos_profit > 0 and pos_profit >= half_tp * 0.001 * 100:
+                new_sl = pos_open
+                log(f"  [Break-Even] Position {pos_id}: Profit {pos_profit} >= 50% TP. Moving SL to {new_sl}")
+                try:
+                    modify_payload = {
+                        "actionType": "POSITION_MODIFY",
+                        "positionId": str(pos_id),
+                        "stopLoss": new_sl,
+                        "takeProfit": pos_tp
+                    }
+                    resp_mod = requests.post(
+                        f"{BASE_URL}/users/current/accounts/{ACCOUNT_ID}/trade",
+                        headers=headers, json=modify_payload, verify=False, timeout=15
+                    )
+                    if resp_mod.status_code == 200:
+                        log(f"  [Break-Even] SUCCESS: SL moved to {new_sl}")
+                    else:
+                        log(f"  [Break-Even] FAILED: {resp_mod.status_code}")
+                except Exception as be_err:
+                    log(f"  [Break-Even] ERROR: {be_err}")
 
 # =============================================================================
 # MAIN TRADING LOGIC
 # =============================================================================
 
-def check_and_trade():
+def check_trade():
+    """
+    เช็คเทรด - วิเคราะห์ตลาดและให้คำแนะนำ
+    Returns: dict with recommendation details
+    """
+    global last_recommendation
+    
     log("=" * 60)
-    log("AUTO TRADE (OpenRouter AI - Full Control)")
+    log("CHECK TRADE - Kanutsanan Pongpanna AI Auto Trading (Dual Calculation + Agentic AI Parallel Processing)")
     log("=" * 60)
     
-    # Check if credentials are set
+    # Validate credentials
     if not ACCOUNT_ID or not API_KEY or not OPENROUTER_API_KEY:
-        error_msg = "ERROR: Missing required environment variables (METAAPI_ACCOUNT_ID, METAAPI_TOKEN, OPENROUTER_API_KEY)"
-        log(error_msg)
-        return error_msg
-        
-    # Check if market is open
+        return {"status": "ERROR", "message": "Missing API keys (METAAPI_ACCOUNT_ID, METAAPI_TOKEN, OPENROUTER_API_KEY)"}
+    
+    # Check market
     if not check_market_open():
-        log("Market is closed (Weekend). Skipping trade.")
-        return "SKIP: Market closed (Weekend)"
+        return {"status": "SKIP", "message": "Market closed (Weekend)"}
     
     # Step 1: Account info
     log("Step 1: Account info...")
@@ -462,90 +596,45 @@ def check_and_trade():
         resp_acc = requests.get(f"{BASE_URL}/users/current/accounts/{ACCOUNT_ID}/account-information",
                                headers=headers, verify=False, timeout=10)
         if resp_acc.status_code != 200:
-            return f"ERROR: Account API {resp_acc.status_code}"
+            return {"status": "ERROR", "message": f"Account API error: {resp_acc.status_code}"}
         acc = resp_acc.json()
     except Exception as e:
-        return f"ERROR: Connection failed - {e}"
+        return {"status": "ERROR", "message": f"Connection failed: {e}"}
     
     balance = acc.get('balance', 0)
     equity = acc.get('equity', 0)
     free_margin = acc.get('freeMargin', 0)
     log(f"  Balance: {balance} | Equity: {equity} | Free Margin: {free_margin}")
     
-    # Step 2: Check positions
-    log("Step 2: Positions...")
+    # Step 2: Check positions & Break-Even
+    log("Step 2: Checking positions & Break-Even...")
     try:
         resp_pos = requests.get(f"{BASE_URL}/users/current/accounts/{ACCOUNT_ID}/positions",
                                headers=headers, verify=False, timeout=10)
         positions = resp_pos.json() if resp_pos.status_code == 200 else []
         
-        MAX_POSITIONS = 10
-        
         if positions:
             log(f"  Open positions: {len(positions)}/{MAX_POSITIONS}")
             for p in positions:
-                pos_type = p.get('type', '')
-                pos_profit = p.get('profit', 0)
-                pos_open = p.get('openPrice', 0)
-                pos_sl = p.get('stopLoss', 0)
-                pos_tp = p.get('takeProfit', 0)
-                pos_id = p.get('id', '')
-                log(f"  -> {p.get('symbol')} {pos_type} Vol:{p.get('volume')} P/L:{pos_profit} Open:{pos_open} SL:{pos_sl} TP:{pos_tp}")
-                
-                # Break-Even Logic: move SL to entry when profit >= 50% of TP distance
-                if pos_open and pos_tp and pos_sl:
-                    if pos_type == 'POSITION_TYPE_BUY':
-                        tp_distance = pos_tp - pos_open
-                        current_sl_distance = pos_open - pos_sl
-                    else:  # SELL
-                        tp_distance = pos_open - pos_tp
-                        current_sl_distance = pos_sl - pos_open
-                    
-                    # Only move SL if not already at break-even and profit >= 50% of TP
-                    if tp_distance > 0 and current_sl_distance > 0.01:
-                        half_tp = tp_distance * 0.5
-                        if pos_profit > 0 and pos_profit >= half_tp * 0.001 * 100:
-                            # Move SL to entry price (break-even)
-                            new_sl = pos_open
-                            log(f"  [Break-Even] Profit {pos_profit} >= 50% TP distance. Moving SL to entry {new_sl}")
-                            try:
-                                modify_payload = {
-                                    "actionType": "POSITION_MODIFY",
-                                    "positionId": str(pos_id),
-                                    "stopLoss": new_sl,
-                                    "takeProfit": pos_tp
-                                }
-                                resp_mod = requests.post(
-                                    f"{BASE_URL}/users/current/accounts/{ACCOUNT_ID}/trade",
-                                    headers=headers, json=modify_payload, verify=False, timeout=15
-                                )
-                                if resp_mod.status_code == 200:
-                                    log(f"  [Break-Even] SL moved to {new_sl} (break-even) SUCCESS")
-                                else:
-                                    log(f"  [Break-Even] FAILED: {resp_mod.status_code} - {resp_mod.text[:200]}")
-                            except Exception as be_err:
-                                log(f"  [Break-Even] ERROR: {be_err}")
-                        else:
-                            log(f"  [Break-Even] Profit {pos_profit} < 50% TP distance. Waiting...")
+                log(f"    -> {p.get('symbol')} {p.get('type','')} Vol:{p.get('volume')} P/L:{p.get('profit',0)} Open:{p.get('openPrice',0)} SL:{p.get('stopLoss',0)} TP:{p.get('takeProfit',0)}")
             
-            # Check if max positions reached
+            # Apply break-even
+            check_and_apply_breakeven(positions)
+            
             if len(positions) >= MAX_POSITIONS:
-                return f"SKIP: Max positions reached ({len(positions)}/{MAX_POSITIONS}) (break-even checked)"
-            else:
-                log(f"  Can open {MAX_POSITIONS - len(positions)} more position(s)")
+                return {"status": "SKIP", "message": f"Max positions reached ({len(positions)}/{MAX_POSITIONS}). Break-even checked."}
         else:
             log(f"  No open positions (0/{MAX_POSITIONS})")
     except Exception as e:
         log(f"  [Positions] ERROR: {e}")
-        # Continue anyway, might be able to trade
     
     # Step 3: Current price
-    log("Step 3: Price...")
+    log("Step 3: Getting current price...")
     try:
         resp_price = requests.get(f"{BASE_URL}/users/current/accounts/{ACCOUNT_ID}/symbols/XAUUSD.sml/current-price",
                                  headers=headers, verify=False, timeout=10)
         if resp_price.status_code != 200:
-            return f"ERROR: Price API {resp_price.status_code}"
+            return {"status": "ERROR", "message": f"Price API error: {resp_price.status_code}"}
         
         price = resp_price.json()
         bid = price.get('bid', 0)
@@ -555,101 +644,145 @@ def check_and_trade():
         log(f"  Bid: {bid} | Ask: {ask} | Spread: {spread}")
         
         if spread <= 0 or bid <= 0:
-            return "SKIP: Market closed or invalid price"
+            return {"status": "SKIP", "message": "Market closed or invalid price"}
     except Exception as e:
-        return f"ERROR: Price fetch failed - {e}"
+        return {"status": "ERROR", "message": f"Price fetch failed: {e}"}
     
     # Step 4: Get real-time chart data (try 3 sources)
     log("Step 4: Fetching real-time chart data...")
     market_data = None
     data_source = None
     
-    # Source 1: MetaAPI candles
     market_data = get_candles_from_metaapi()
     if market_data:
         data_source = "MetaAPI"
     
-    # Source 2: TradingView scanner API
     if not market_data:
         market_data = get_tradingview_scanner_data()
         if market_data:
             data_source = "TradingView Scanner"
     
-    # Source 3: TradingView web page
     if not market_data:
         market_data = get_tradingview_web_data()
         if market_data:
             data_source = "TradingView Web"
     
-    # CRITICAL: No data = No trade
     if not market_data:
-        error = ("NO_REALTIME_DATA: All 3 sources failed!\n"
-                 "  1. MetaAPI candles: FAILED\n"
-                 "  2. TradingView Scanner (https://scanner.tradingview.com/cfd/scan): FAILED\n"
-                 f"  3. TradingView Web ({TRADINGVIEW_WEB_URL}): FAILED\n"
-                 "  FIX NEEDED: Check network, API keys, and endpoints")
-        log(f"  CRITICAL: {error}")
-        return f"SKIP: {error}"
+        return {"status": "SKIP", "message": "NO REALTIME DATA: All 3 sources failed! Cannot trade without data."}
     
     log(f"  Data source: {data_source}")
     
-    # Step 4.5: Get trade history
+    # Add trade history
     trade_history = get_trade_history()
     if trade_history:
         market_data += "\n" + trade_history
     
-    # Step 5: OpenRouter AI analyzes and decides (ALL processing here)
-    log("Step 5: OpenRouter AI analysis...")
-    ai_decision = ask_openrouter_ai(market_data, bid, ask, balance, free_margin)
+    # Step 5: Agentic AI Parallel Processing
+    log("Step 5: Agentic AI Parallel Processing (3 Agents)...")
+    ai_decision = run_parallel_analysis(market_data, bid, ask)
     
     if not ai_decision:
-        return "SKIP: AI unavailable"
+        return {"status": "SKIP", "message": "AI analysis failed (all agents)"}
     
-    signal = ai_decision['signal']
-    strength = ai_decision['strength']
-    # Fixed SL/TP: SL = 100 pts, TP = 1 pt (ignore AI values)
-    sl_pts = 100
-    tp_pts = 5
+    signal = ai_decision.get('action', 'SKIP')
+    strength = ai_decision.get('strength', 0)
+    tp_pts = ai_decision.get('tp_points', 5)
+    sl_pts = ai_decision.get('sl_points', SL_FIXED)
+    chosen_set = ai_decision.get('chosen_set', 0)
+    reason = ai_decision.get('reason', '')
     
-    # Check signal
+    # Validate TP
+    tp_pts = max(1, min(TP_MAX, int(tp_pts))) if isinstance(tp_pts, (int, float)) else TP_MAX
+    
     if signal == "SKIP" or signal is None:
-        return f"SKIP: AI says SKIP - {ai_decision.get('reason', '')}"
+        return {"status": "SKIP", "message": f"AI says SKIP - {reason}", "ai_decision": ai_decision}
     
-    if strength < 5:
-        return f"SKIP: Weak {signal} ({strength}/10) - {ai_decision.get('reason', '')}"
+    if strength < 2:
+        return {"status": "SKIP", "message": f"Very weak {signal} ({strength}/10) - {reason}", "ai_decision": ai_decision}
     
-    # Step 6: Calculate SL/TP prices
+    # Calculate trade parameters
     if signal == "SELL":
-        sl = round(entry + sl_pts, 3)
-        tp = round(entry - tp_pts, 3)
+        sl_price = round(entry + sl_pts, 3)
+        tp_price = round(entry - tp_pts, 3)
         action_type = "ORDER_TYPE_SELL"
     else:
-        sl = round(entry - sl_pts, 3)
-        tp = round(entry + tp_pts, 3)
+        sl_price = round(entry - sl_pts, 3)
+        tp_price = round(entry + tp_pts, 3)
         action_type = "ORDER_TYPE_BUY"
     
-    # Step 7: Auto lot size
+    # Auto lot size
     leverage = 100
-    max_margin_use = free_margin * 0.5
+    max_margin_use = free_margin * (MAX_MARGIN_PERCENT / 100)
     raw_lot = max_margin_use / (entry / leverage * 1000)
-    lot = max(0.001, round(int(raw_lot * 1000) * 0.001, 3))
-    lot = min(lot, 0.1)
+    lot = max(MIN_LOT, round(int(raw_lot * 1000) * 0.001, 3))
+    lot = min(lot, MAX_LOT)
     margin_needed = round(entry * lot / leverage, 2)
     
-    if free_margin < margin_needed or lot < 0.001:
-        return f"SKIP: Insufficient margin (need {margin_needed}, have {free_margin})"
+    if free_margin < margin_needed or lot < MIN_LOT:
+        return {"status": "SKIP", "message": f"Insufficient margin (need {margin_needed}, have {free_margin})"}
     
-    log(f"  {signal} {lot} lot | SL:{sl} TP:{tp} | Margin:{margin_needed}")
+    # Build recommendation
+    recommendation = {
+        "status": "READY",
+        "signal": signal,
+        "action_type": action_type,
+        "lot": lot,
+        "entry": round(entry, 3),
+        "sl": sl_price,
+        "tp": tp_price,
+        "sl_pts": sl_pts,
+        "tp_pts": tp_pts,
+        "strength": strength,
+        "chosen_set": chosen_set,
+        "reason": reason,
+        "data_source": data_source,
+        "balance": balance,
+        "equity": equity,
+        "free_margin": free_margin,
+        "margin_needed": margin_needed,
+        "bid": bid,
+        "ask": ask,
+        "spread": spread,
+        "timestamp": datetime.now(timezone.utc).isoformat()
+    }
     
-    # Step 8: Execute trade
-    log(f"Step 6: Executing {signal}...")
+    last_recommendation = recommendation
+    
+    log(f"  RECOMMENDATION: {signal} {lot}lot @{entry:.3f} SL:{sl_price} TP:{tp_price} (Set {chosen_set}, Str:{strength}/10)")
+    log(f"  REASON: {reason}")
+    
+    return recommendation
+
+def approve_trade(recommendation=None):
+    """
+    อนุมัติเทรด - ส่งคำสั่งซื้อขายตามคำแนะนำ
+    """
+    global last_recommendation
+    
+    if recommendation is None:
+        recommendation = last_recommendation
+    
+    if not recommendation or recommendation.get('status') != 'READY':
+        return {"status": "ERROR", "message": "No valid recommendation to approve. Please run 'check_trade' first."}
+    
+    log("=" * 60)
+    log("APPROVE TRADE - Executing order...")
+    log("=" * 60)
+    
+    signal = recommendation['signal']
+    action_type = recommendation['action_type']
+    lot = recommendation['lot']
+    sl = recommendation['sl']
+    tp = recommendation['tp']
+    entry = recommendation['entry']
+    
     trade_payload = {
         "actionType": action_type,
         "symbol": "XAUUSD.sml",
         "volume": lot,
         "stopLoss": sl,
         "takeProfit": tp,
-        "comment": "OpenRouter AI Trade"
+        "comment": f"Kanutsanan Pongpanna AI Auto Trading Set{recommendation.get('chosen_set',0)} Str{recommendation.get('strength',0)}"
     }
     
     try:
@@ -664,30 +797,222 @@ def check_and_trade():
             status = result.get('stringCode', 'UNKNOWN')
             log(f"  RESULT: {status} | Order: {order_id}")
             
-            time.sleep(2)
-            resp_acc2 = requests.get(f"{BASE_URL}/users/current/accounts/{ACCOUNT_ID}/account-information",
-                                    headers=headers, verify=False, timeout=10)
-            if resp_acc2.status_code == 200:
-                acc2 = resp_acc2.json()
-                log(f"  Balance: {acc2.get('balance')} | Equity: {acc2.get('equity')} | Free: {acc2.get('freeMargin')}")
+            # Clear recommendation after successful trade
+            last_recommendation = None
             
-            return f"TRADED: {signal} {lot}lot @{entry:.3f} SL:{sl} TP:{tp} Order:{order_id} Str:{strength}/10 Src:{data_source}"
+            # Get updated account info
+            time.sleep(2)
+            try:
+                resp_acc2 = requests.get(f"{BASE_URL}/users/current/accounts/{ACCOUNT_ID}/account-information",
+                                        headers=headers, verify=False, timeout=10)
+                if resp_acc2.status_code == 200:
+                    acc2 = resp_acc2.json()
+                    log(f"  Updated - Balance: {acc2.get('balance')} | Equity: {acc2.get('equity')} | Free: {acc2.get('freeMargin')}")
+            except:
+                pass
+            
+            return {
+                "status": "TRADED",
+                "message": f"{signal} {lot}lot @{entry:.3f} SL:{sl} TP:{tp}",
+                "order_id": order_id,
+                "string_code": status,
+                "signal": signal,
+                "lot": lot,
+                "entry": entry,
+                "sl": sl,
+                "tp": tp,
+                "chosen_set": recommendation.get('chosen_set', 0),
+                "strength": recommendation.get('strength', 0),
+                "data_source": recommendation.get('data_source', '')
+            }
         else:
             log(f"  FAILED: {resp_trade.status_code} - {resp_trade.text[:200]}")
-            return f"FAILED: {resp_trade.status_code} - {resp_trade.text[:100]}"
+            return {"status": "FAILED", "message": f"Trade rejected: {resp_trade.status_code} - {resp_trade.text[:100]}"}
     except Exception as e:
         log(f"  [Trade] ERROR: {e}")
-        return f"FAILED: Exception during trade execution - {e}"
+        return {"status": "FAILED", "message": f"Exception: {e}"}
 
 # =============================================================================
-# RUN
+# AUTO TRADE TIMER
 # =============================================================================
+
+def auto_trade_loop(interval_minutes=5):
+    """
+    ตั้งเวลาเทรดอัตโนมัติ
+    - เช็คเทรดทุกๆ interval_minutes นาที
+    - ถ้าเงื่อนไขผ่านก็ส่งคำสั่งซื้อขายอัตโนมัติ
+    """
+    global auto_trade_running
+    
+    log(f"[AUTO TRADE] Started - Checking every {interval_minutes} minutes")
+    
+    while auto_trade_running:
+        try:
+            # Check trade
+            recommendation = check_trade()
+            
+            if recommendation.get('status') == 'READY':
+                # Auto approve if conditions met
+                log("[AUTO TRADE] Conditions met! Auto-approving trade...")
+                result = approve_trade(recommendation)
+                log(f"[AUTO TRADE] Result: {result.get('status')} - {result.get('message', '')}")
+            else:
+                log(f"[AUTO TRADE] {recommendation.get('status')}: {recommendation.get('message', '')}")
+            
+        except Exception as e:
+            log(f"[AUTO TRADE] ERROR: {e}")
+        
+        # Wait for next interval
+        for i in range(int(interval_minutes * 60)):
+            if not auto_trade_running:
+                break
+            time.sleep(1)
+    
+    log("[AUTO TRADE] Stopped")
+
+def start_auto_trade(interval_minutes=5):
+    """เริ่มระบบเทรดอัตโนมัติ"""
+    global auto_trade_running, auto_trade_thread
+    
+    if auto_trade_running:
+        return {"status": "INFO", "message": f"Auto trade is already running (interval: {interval_minutes} min)"}
+    
+    auto_trade_running = True
+    auto_trade_thread = threading.Thread(target=auto_trade_loop, args=(interval_minutes,), daemon=True)
+    auto_trade_thread.start()
+    
+    return {"status": "STARTED", "message": f"Auto trade started! Checking every {interval_minutes} minutes. Use 'stop_auto_trade()' to stop."}
+
+def stop_auto_trade():
+    """หยุดระบบเทรดอัตโนมัติ"""
+    global auto_trade_running, auto_trade_thread
+    
+    if not auto_trade_running:
+        return {"status": "INFO", "message": "Auto trade is not running"}
+    
+    auto_trade_running = False
+    if auto_trade_thread:
+        auto_trade_thread.join(timeout=10)
+        auto_trade_thread = None
+    
+    return {"status": "STOPPED", "message": "Auto trade stopped successfully"}
+
+# =============================================================================
+# COMMAND LINE INTERFACE
+# =============================================================================
+
+def print_recommendation(rec):
+    """Pretty print a trade recommendation"""
+    print("\n" + "=" * 60)
+    
+    if rec.get('status') == 'READY':
+        print("  📊 TRADE RECOMMENDATION")
+        print("=" * 60)
+        print(f"  Signal:      {rec['signal']}")
+        print(f"  Entry:       {rec['entry']}")
+        print(f"  Stop Loss:   {rec['sl']} ({rec['sl_pts']} pts)")
+        print(f"  Take Profit: {rec['tp']} ({rec['tp_pts']} pts)")
+        print(f"  Lot Size:    {rec['lot']}")
+        print(f"  Margin:      {rec['margin_needed']}")
+        print(f"  Strength:    {rec['strength']}/10")
+        print(f"  Calc Set:    {rec['chosen_set']}")
+        print(f"  Data Source: {rec['data_source']}")
+        print(f"  Reason:      {rec['reason']}")
+        print("-" * 60)
+        print(f"  Balance: {rec['balance']} | Equity: {rec['equity']} | Free: {rec['free_margin']}")
+        print(f"  Bid: {rec['bid']} | Ask: {rec['ask']} | Spread: {rec['spread']}")
+        print("=" * 60)
+        print("\n  To execute this trade, run: python3 auto_trade.py approve")
+    
+    elif rec.get('status') == 'TRADED':
+        print("  ✅ TRADE EXECUTED")
+        print("=" * 60)
+        print(f"  {rec['message']}")
+        print(f"  Order ID: {rec.get('order_id', 'N/A')}")
+        print(f"  Status:   {rec.get('string_code', 'N/A')}")
+    
+    elif rec.get('status') == 'SKIP':
+        print("  ⏭️  SKIP")
+        print("=" * 60)
+        print(f"  Reason: {rec['message']}")
+    
+    elif rec.get('status') == 'ERROR':
+        print("  ❌ ERROR")
+        print("=" * 60)
+        print(f"  {rec['message']}")
+    
+    else:
+        print(f"  Status: {rec.get('status', 'UNKNOWN')}")
+        print(f"  Message: {rec.get('message', '')}")
+    
+    print()
+
+def main():
+    """Main entry point with command line interface"""
+    if len(sys.argv) < 2:
+        # Default: check trade (for systemd timer / cron compatibility)
+        # In auto mode (called by timer), check and auto-approve
+        rec = check_trade()
+        if rec.get('status') == 'READY':
+            result = approve_trade(rec)
+            print_recommendation(result)
+        else:
+            print_recommendation(rec)
+        return
+    
+    command = sys.argv[1].lower()
+    
+    if command in ['check', 'เช็คเทรด', 'เช็ค']:
+        rec = check_trade()
+        print_recommendation(rec)
+    
+    elif command in ['approve', 'อนุมัติเทรด', 'อนุมัติ']:
+        if last_recommendation and last_recommendation.get('status') == 'READY':
+            result = approve_trade()
+            print_recommendation(result)
+        else:
+            print("\n  ❌ No pending recommendation. Run 'check' first.\n")
+    
+    elif command in ['auto', 'ตั้งเวลาเทรดอัตโนมัติ', 'ตั้งเวลา']:
+        interval = int(sys.argv[2]) if len(sys.argv) > 2 else 5
+        result = start_auto_trade(interval)
+        print(f"\n  {result['message']}\n")
+        
+        # Keep running until interrupted
+        try:
+            while auto_trade_running:
+                time.sleep(1)
+        except KeyboardInterrupt:
+            stop_auto_trade()
+            print("\n  Auto trade stopped by user.\n")
+    
+    elif command in ['stop', 'ยกเลิกการตั้งเวลาเทรด', 'ยกเลิก', 'หยุด']:
+        result = stop_auto_trade()
+        print(f"\n  {result['message']}\n")
+    
+    elif command in ['status', 'สถานะ']:
+        print(f"\n  Auto trade running: {auto_trade_running}")
+        if last_recommendation:
+            print(f"  Last recommendation: {last_recommendation.get('signal', 'N/A')} (Set {last_recommendation.get('chosen_set', 'N/A')})")
+        print()
+    
+    else:
+        print("""
+  Usage: python3 auto_trade.py [command] [options]
+  
+  Commands:
+    check              เช็คเทรด - วิเคราะห์ตลาดและให้คำแนะนำ
+    approve            อนุมัติเทรด - ส่งคำสั่งซื้อขายตามคำแนะนำ
+    auto [minutes]     ตั้งเวลาเทรดอัตโนมัติ (default: 5 min)
+    stop               ยกเลิกการตั้งเวลาเทรด
+    status             ดูสถานะระบบ
+    
+  Examples:
+    python3 auto_trade.py check
+    python3 auto_trade.py approve
+    python3 auto_trade.py auto 10
+    python3 auto_trade.py stop
+        """)
+
 if __name__ == "__main__":
-    try:
-        result = check_and_trade()
-        log(f"\nRESULT: {result}")
-        log("=" * 60)
-    except Exception as e:
-        log(f"CRITICAL ERROR: {e}")
-        log("=" * 60)
-        sys.exit(1)
+    main()
