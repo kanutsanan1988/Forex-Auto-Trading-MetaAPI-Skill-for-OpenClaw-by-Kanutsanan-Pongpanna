@@ -43,7 +43,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 ACCOUNT_ID = os.environ.get("METAAPI_ACCOUNT_ID", "")
 API_KEY = os.environ.get("METAAPI_TOKEN", "")
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "")
-AI_MODEL = os.environ.get("AI_MODEL", "google/gemini-2.5-flash")
+AI_MODEL = os.environ.get("AI_MODEL", "google/gemini-3.5-flash")
 
 REGION = "london"
 BASE_URL = f"https://mt-client-api-v1.{REGION}.agiliumtrade.ai"
