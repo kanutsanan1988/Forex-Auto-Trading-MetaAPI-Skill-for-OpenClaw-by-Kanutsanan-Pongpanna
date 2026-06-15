@@ -1,683 +1,227 @@
 #!/usr/bin/env python3
 """
 =============================================================================
-Kanutsanan Pongpanna AI Auto Trading - Trade Log & Manual Check v3.0
+Kanutsanan Pongpanna AI Auto Trading v5.0 - Trade Log
 =============================================================================
-ระบบเช็คเทรดแบบ Manual + ดูประวัติการเทรด + จัดการ Positions
-
 คำสั่ง:
-  python3 trade_log.py                   - สรุปผลการเทรดวันนี้ + บัญชี + positions
-  python3 trade_log.py check             - เช็คเทรด (ให้คำแนะนำ)
-  python3 trade_log.py approve           - อนุมัติเทรดตามคำแนะนำ
-  python3 trade_log.py auto [minutes]    - ตั้งเวลาเทรดอัตโนมัติ
-  python3 trade_log.py stop              - ยกเลิกการตั้งเวลาเทรด
-  python3 trade_log.py log [N]           - ดู log ล่าสุด N บรรทัด
-  python3 trade_log.py positions         - ดู positions ที่เปิดอยู่
-  python3 trade_log.py account           - ดูข้อมูลบัญชี
-  python3 trade_log.py history [hours]   - ดูประวัติเทรด (default: 24h)
-  python3 trade_log.py performance       - สรุปผลงานทั้งหมด
-=============================================================================
-Trade Comment: "Kanutsanan Pongpanna AI Auto Trading"
+  python3 trade_log.py               - ดูประวัติการเทรด
+  python3 trade_log.py positions     - ดู positions ปัจจุบัน
+  python3 trade_log.py account       - ดูข้อมูลบัญชี
+  python3 trade_log.py history [N]   - ดูประวัติ N รายการล่าสุด (default 20)
+  python3 trade_log.py update        - อัพเดทผลเทรดลง Self-Evolution
 =============================================================================
 """
-
 import os
 import sys
-import re
 import json
 import requests
 import urllib3
 from datetime import datetime, timezone, timedelta
-from dotenv import load_dotenv
 
-# Load env
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-load_dotenv(os.path.join(SCRIPT_DIR, '.env'))
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-# Config
-ACCOUNT_ID = os.environ.get("METAAPI_ACCOUNT_ID", "")
-API_KEY = os.environ.get("METAAPI_TOKEN", "")
-OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "")
+# Configuration
+ACCOUNT_ID = os.environ.get("METAAPI_ACCOUNT_ID", "eaf88ee0-bc4f-4f70-86e6-e6333d6c4e4f")
+API_KEY = os.environ.get("METAAPI_TOKEN", "eyJhbGciOiJSUzUxMiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiJkMWExYjVjYzZjZDNmOGIzY2ViOTNjMTQxNGMwM2FmZCIsImFjY2Vzc1J1bGVzIjpbeyJpZCI6InRyYWRpbmctYWNjb3VudC1tYW5hZ2VtZW50LWFwaSIsIm1ldGhvZHMiOlsidHJhZGluZy1hY2NvdW50LW1hbmFnZW1lbnQtYXBpOnJlc3Q6cHVibGljOio6KiJdLCJyb2xlcyI6WyJyZWFkZXIiLCJ3cml0ZXIiXSwicmVzb3VyY2VzIjpbIio6JFVTRVJfSUQkOioiXX0seyJpZCI6Im1ldGFhcGktcmVzdC1hcGkiLCJtZXRob2RzIjpbIm1ldGFhcGktYXBpOnJlc3Q6cHVibGljOio6KiJdLCJyb2xlcyI6WyJyZWFkZXIiLCJ3cml0ZXIiXSwicmVzb3VyY2VzIjpbIio6JFVTRVJfSUQkOioiXX0seyJpZCI6Im1ldGFhcGktcnBjLWFwaSIsIm1ldGhvZHMiOlsibWV0YWFwaS1hcGk6d3M6cHVibGljOio6KiJdLCJyb2xlcyI6WyJyZWFkZXIiLCJ3cml0ZXIiXSwicmVzb3VyY2VzIjpbIio6JFVTRVJfSUQkOioiXX0seyJpZCI6Im1ldGFhcGktcmVhbC10aW1lLXN0cmVhbWluZy1hcGkiLCJtZXRob2RzIjpbIm1ldGFhcGktYXBpOndzOnB1YmxpYzoqOioiXSwicm9sZXMiOlsicmVhZGVyIiwid3JpdGVyIl0sInJlc291cmNlcyI6WyIqOiRVU0VSX0lEJDoqIl19LHsiaWQiOiJtZXRhc3RhdHMtYXBpIiwibWV0aG9kcyI6WyJtZXRhc3RhdHMtYXBpOnJlc3Q6cHVibGljOio6KiJdLCJyb2xlcyI6WyJyZWFkZXIiLCJ3cml0ZXIiXSwicmVzb3VyY2VzIjpbIio6JFVTRVJfSUQkOioiXX0seyJpZCI6InJpc2stbWFuYWdlbWVudC1hcGkiLCJtZXRob2RzIjpbInJpc2stbWFuYWdlbWVudC1hcGk6cmVzdDpwdWJsaWM6KjoqIl0sInJvbGVzIjpbInJlYWRlciIsIndyaXRlciJdLCJyZXNvdXJjZXMiOlsiKjokVVNFUl9JRCQ6KiJdfSx7ImlkIjoiY29weWZhY3RvcnktYXBpIiwibWV0aG9kcyI6WyJjb3B5ZmFjdG9yeS1hcGk6cmVzdDpwdWJsaWM6KjoqIl0sInJvbGVzIjpbInJlYWRlciIsIndyaXRlciJdLCJyZXNvdXJjZXMiOlsiKjokVVNFUl9JRCQ6KiJdfSx7ImlkIjoibXQtbWFuYWdlci1hcGkiLCJtZXRob2RzIjpbIm10LW1hbmFnZXItYXBpOnJlc3Q6ZGVhbGluZzoqOioiLCJtdC1tYW5hZ2VyLWFwaTpyZXN0OnB1YmxpYzoqOioiXSwicm9sZXMiOlsicmVhZGVyIiwid3JpdGVyIl0sInJlc291cmNlcyI6WyIqOiRVU0VSX0lEJDoqIl19LHsiaWQiOiJiaWxsaW5nLWFwaSIsIm1ldGhvZHMiOlsiYmlsbGluZy1hcGk6cmVzdDpwdWJsaWM6KjoqIl0sInJvbGVzIjpbInJlYWRlciJdLCJyZXNvdXJjZXMiOlsiKjokVVNFUl9JRCQ6KiJdfV0sImlnbm9yZVJhdGVMaW1pdHMiOmZhbHNlLCJ0b2tlbklkIjoiMjAyMTAyMTMiLCJpbXBlcnNvbmF0ZWQiOmZhbHNlLCJyZWFsVXNlcklkIjoiZDFhMWI1Y2M2Y2QzZjhiM2NlYjkzYzE0MTRjMDNhZmQiLCJpYXQiOjE3NzgyMzU0ODF9.b_WWWKQoH2lUWMwpnFdlcU-qePQgcPfpR1t0F4w2drUe8h80n2awJGHR6sQglNU4IJoVz7Ec2RqKHuYLDIUyDwdLwNV_zwanlUYsmo2x_OLmLNBSw1Xzkdd7T9V-DHKE8bU6ams1VkTWhse_q_LlUSdqMG8RJYJpxaHmNynOvA1PCLTwsrVi4_JFnTPf3MKMLmO95bE9MkOyuAZ1d2282fdls9CsBcRhEUwddoANxCpHg0AcXcCotUrpyQgQfmaOkzpAFgjounx5ZzvoKGVjCmzD3gxnecaG4azZbNIJwlfbofcA7fqvL_1GU06fPxvWM5c7CrLnvIvdoNbTCrAP-9Fy3LNHiK1AtnmddMh3t0lzdyPpulyZL_DSAfk7ymTAdLqJf68knJIN7p33WImjJgcs9e8rPdZLOHmXwP-PYaPy7Qv4lG5iF7P73LwtQhQ_QCCGJIrClW6A04oCtM9v7iIHcnm8YZtNKNlBQTvJuC0TgwoKuu5rzy7Y5IoZLu0tiz_NF6AHcVCWcONfeLUg6voFPW-cQuxtf1jvD9jBEPnd3fAZyY1dWwArM5syT8zNu73_3mfoC249Q_45QEG45zmUVCaOJQ9h19Ax8nu8QOsERu5uLzvMrrHJwKGjOC6zpNMhnNxcyPH1inbqjCUw1loqWKzZEPLoQnF1I9oc9XQ")
 
 REGION = "london"
 BASE_URL = f"https://mt-client-api-v1.{REGION}.agiliumtrade.ai"
 headers = {"auth-token": API_KEY, "Content-Type": "application/json"}
 
-LOG_FILE = os.path.join(SCRIPT_DIR, "auto_trade.log")
-TRADE_COMMENT = "Kanutsanan Pongpanna AI Auto Trading"
+MEMORY_FILE = os.path.join(SCRIPT_DIR, "trade_memory.json")
 
-# =============================================================================
-# DISPLAY HELPERS
-# =============================================================================
-
-def print_header(title):
-    print("\n" + "=" * 70)
-    print(f"  {title}")
-    print("=" * 70)
-
-def print_section(title):
-    print(f"\n  --- {title} ---")
-
-def print_divider():
-    print(f"  {'─' * 50}")
-
-# =============================================================================
-# LOG VIEWING
-# =============================================================================
-
-def view_logs(lines=50):
-    """View the most recent log lines"""
-    if not os.path.exists(LOG_FILE):
-        print(f"  ⚠️  Log file not found: {LOG_FILE}")
-        print(f"     ระบบยังไม่เคยทำงาน หรือ log ถูกลบไปแล้ว")
-        return
-    
-    print_header(f"📋 Recent Logs (Last {lines} lines)")
-    
+def load_trade_memory():
     try:
-        with open(LOG_FILE, 'r') as f:
-            all_lines = f.readlines()
-            if not all_lines:
-                print("  (empty log)")
-                return
-            for line in all_lines[-lines:]:
-                print(f"  {line.strip()}")
-    except PermissionError:
-        print(f"  ❌ Permission denied: {LOG_FILE}")
+        if os.path.exists(MEMORY_FILE):
+            with open(MEMORY_FILE, 'r') as f:
+                return json.load(f)
+    except:
+        pass
+    return {"total_trades": 0, "wins": 0, "losses": 0, "win_rate": 0,
+            "total_profit": 0, "recent_trades": [], "market_regime_stats": {},
+            "preferred_style": "AUTO", "preferred_direction": "NEUTRAL"}
 
-def summarize_today():
-    """Summarize today's trading activity from logs"""
-    if not os.path.exists(LOG_FILE):
-        print_header("📊 Trading Summary (Today)")
-        print("  ⚠️  No log file found. System hasn't run yet.")
-        return
-    
-    today = datetime.now().strftime('%Y-%m-%d')
-    print_header(f"📊 Trading Summary ({today})")
-    
-    trades = []
-    errors = []
-    skips = 0
-    checks = 0
-    
+def save_trade_memory(memory):
     try:
-        with open(LOG_FILE, 'r') as f:
-            for line in f:
-                if today in line:
-                    if "TRADED:" in line or "TRADE EXECUTED" in line or "RESULT:" in line:
-                        trades.append(line.strip())
-                    elif "CRITICAL:" in line or "ERROR:" in line or "FAILED:" in line:
-                        errors.append(line.strip())
-                    elif "SKIP:" in line or "says SKIP" in line:
-                        skips += 1
-                    elif "CHECK TRADE" in line:
-                        checks += 1
-        
-        print(f"  📈 Total Checks:  {checks}")
-        print(f"  ✅ Total Trades:  {len(trades)}")
-        print(f"  ⏭️  Total Skips:   {skips}")
-        print(f"  ❌ Total Errors:  {len(errors)}")
-        
-        if trades:
-            print_section("Executed Trades Today")
-            for trade in trades[-10:]:
-                # Extract meaningful part
-                match = re.search(r'TRADED: (.*)', trade)
-                if match:
-                    print(f"    ✅ {match.group(1)}")
-                elif "RESULT:" in trade:
-                    match2 = re.search(r'RESULT: (.*)', trade)
-                    if match2:
-                        print(f"    ✅ {match2.group(1)}")
-                elif "TRADE EXECUTED" in trade:
-                    print(f"    ✅ {trade.split('] ')[-1] if '] ' in trade else trade}")
-                else:
-                    print(f"    ✅ {trade[-80:]}")
-        
-        if errors:
-            print_section("Recent Errors (last 5)")
-            for error in errors[-5:]:
-                err_msg = error.split('] ')[-1] if '] ' in error else error
-                print(f"    ❌ {err_msg[:80]}")
-        
-        if checks == 0 and len(trades) == 0:
-            print("\n  💤 ไม่มีกิจกรรมใดๆ ในวันนี้")
-        
-    except PermissionError:
-        print(f"  ❌ Permission denied: {LOG_FILE}")
-
-# =============================================================================
-# ACCOUNT & POSITIONS
-# =============================================================================
+        memory["last_updated"] = datetime.now(timezone.utc).isoformat()
+        with open(MEMORY_FILE, 'w') as f:
+            json.dump(memory, f, indent=2)
+    except:
+        pass
 
 def show_account():
-    """Show account information"""
-    print_header("💰 Account Information")
-    
+    print("\n" + "=" * 60)
+    print("  ACCOUNT INFO")
+    print("=" * 60)
     try:
         resp = requests.get(f"{BASE_URL}/users/current/accounts/{ACCOUNT_ID}/account-information",
-                           headers=headers, verify=False, timeout=15)
-        if resp.status_code != 200:
-            error_msg = ""
-            try:
-                err = resp.json()
-                error_msg = err.get('message', '')[:100]
-            except:
-                pass
-            print(f"  ❌ API returned {resp.status_code}")
-            if error_msg:
-                print(f"     {error_msg}")
-            if resp.status_code == 504:
-                print("     💡 Account อาจยังไม่เชื่อมต่อกับ broker (ปกติสำหรับวันหยุด)")
-            return None
-        
-        acc = resp.json()
-        balance = acc.get('balance', 0)
-        equity = acc.get('equity', 0)
-        free_margin = acc.get('freeMargin', 0)
-        margin = acc.get('margin', 0)
-        leverage = acc.get('leverage', 0)
-        pl = equity - balance
-        
-        print(f"  💵 Balance:     ${balance:.2f}")
-        print(f"  📊 Equity:      ${equity:.2f}")
-        print(f"  🆓 Free Margin: ${free_margin:.2f}")
-        print(f"  🔒 Margin Used: ${margin:.2f}")
-        print(f"  ⚡ Leverage:    1:{leverage}")
-        print_divider()
-        
-        pl_emoji = "🟢" if pl >= 0 else "🔴"
-        print(f"  {pl_emoji} Unrealized P/L: ${pl:.2f} ({pl/balance*100:.2f}%)" if balance > 0 else f"  {pl_emoji} Unrealized P/L: ${pl:.2f}")
-        
-        # Margin level
-        if margin > 0:
-            margin_level = (equity / margin) * 100
-            ml_emoji = "🟢" if margin_level > 200 else ("🟡" if margin_level > 100 else "🔴")
-            print(f"  {ml_emoji} Margin Level:   {margin_level:.1f}%")
-        
-        return acc
-        
-    except requests.exceptions.Timeout:
-        print("  ❌ Connection timeout - broker อาจไม่ตอบสนอง")
-        return None
+                           headers=headers, verify=False, timeout=10)
+        if resp.status_code == 200:
+            acc = resp.json()
+            print(f"  Balance:     ${acc.get('balance', 0)}")
+            print(f"  Equity:      ${acc.get('equity', 0)}")
+            print(f"  Free Margin: ${acc.get('freeMargin', 0)}")
+            print(f"  Margin:      ${acc.get('margin', 0)}")
+            print(f"  Leverage:    1:{acc.get('leverage', 0)}")
+            print(f"  Currency:    {acc.get('currency', 'USD')}")
+        else:
+            print(f"  ERROR: {resp.status_code}")
     except Exception as e:
-        print(f"  ❌ ERROR: {e}")
-        return None
+        print(f"  ERROR: {e}")
+    print("=" * 60 + "\n")
 
 def show_positions():
-    """Show open positions with detailed info"""
-    print_header("📈 Open Positions")
-    
+    print("\n" + "=" * 60)
+    print("  OPEN POSITIONS")
+    print("=" * 60)
     try:
         resp = requests.get(f"{BASE_URL}/users/current/accounts/{ACCOUNT_ID}/positions",
-                           headers=headers, verify=False, timeout=15)
-        if resp.status_code != 200:
-            print(f"  ❌ API returned {resp.status_code}")
-            if resp.status_code == 504:
-                print("     💡 Account อาจยังไม่เชื่อมต่อกับ broker")
-            return None
-        
-        positions = resp.json()
-        
-        if not positions:
-            print("  📭 No open positions")
-            return []
-        
-        print(f"  Total: {len(positions)} position(s)\n")
-        
-        total_profit = 0
-        total_volume = 0
-        buys = 0
-        sells = 0
-        
-        for i, p in enumerate(positions, 1):
-            pos_type = "BUY" if "BUY" in p.get('type', '').upper() else "SELL"
-            profit = p.get('profit', 0) or 0
-            volume = p.get('volume', 0) or 0
-            total_profit += profit
-            total_volume += volume
-            
-            if pos_type == "BUY":
-                buys += 1
-            else:
-                sells += 1
-            
-            emoji = "🟢" if profit >= 0 else "🔴"
-            type_emoji = "📈" if pos_type == "BUY" else "📉"
-            
-            open_price = p.get('openPrice', 0)
-            current_price = p.get('currentPrice', 0)
-            sl = p.get('stopLoss', 0)
-            tp = p.get('takeProfit', 0)
-            comment = p.get('comment', '')
-            open_time = p.get('time', '')
-            
-            print(f"  {emoji} #{i} {p.get('symbol','')} {type_emoji} {pos_type}")
-            print(f"     Volume: {volume} | Open: {open_price} | Current: {current_price}")
-            print(f"     SL: {sl} | TP: {tp}")
-            print(f"     P/L: ${profit:.2f}")
-            if comment:
-                print(f"     Comment: {comment}")
-            if open_time:
-                print(f"     Opened: {open_time}")
-            print()
-        
-        print_divider()
-        total_emoji = "🟢" if total_profit >= 0 else "🔴"
-        print(f"  {total_emoji} Total P/L: ${total_profit:.2f}")
-        print(f"  📊 Total Volume: {total_volume:.3f}")
-        print(f"  📈 Buys: {buys} | 📉 Sells: {sells}")
-        
-        return positions
-        
-    except requests.exceptions.Timeout:
-        print("  ❌ Connection timeout")
-        return None
-    except Exception as e:
-        print(f"  ❌ ERROR: {e}")
-        return None
-
-# =============================================================================
-# TRADE HISTORY FROM API
-# =============================================================================
-
-def show_history(hours=24):
-    """Show trade history from MetaAPI"""
-    print_header(f"📜 Trade History (Last {hours} hours)")
-    
-    try:
-        now = datetime.now(timezone.utc)
-        start_time = (now - timedelta(hours=hours)).strftime("%Y-%m-%dT%H:%M:%S.000Z")
-        
-        resp = requests.get(
-            f"{BASE_URL}/users/current/accounts/{ACCOUNT_ID}/history-deals",
-            headers=headers, verify=False, timeout=15,
-            params={"startTime": start_time}
-        )
-        
-        if resp.status_code != 200:
-            print(f"  ❌ API returned {resp.status_code}")
-            if resp.status_code == 504:
-                print("     💡 Account อาจยังไม่เชื่อมต่อกับ broker")
-            return
-        
-        deals = resp.json()
-        if not isinstance(deals, list) or len(deals) == 0:
-            print("  📭 No deals found in this period")
-            return
-        
-        total_profit = 0
-        wins = 0
-        losses = 0
-        breakeven = 0
-        
-        for d in deals:
-            profit = d.get('profit', 0) or 0
-            if profit > 0:
-                wins += 1
-            elif profit < 0:
-                losses += 1
-            else:
-                breakeven += 1
-            total_profit += profit
-        
-        total_trades = wins + losses
-        win_rate = (wins / total_trades * 100) if total_trades > 0 else 0
-        
-        print(f"  📊 Total Deals: {len(deals)}")
-        print(f"  ✅ Wins: {wins} | ❌ Losses: {losses} | ➖ Break-even: {breakeven}")
-        print(f"  🎯 Win Rate: {win_rate:.1f}%")
-        
-        pl_emoji = "🟢" if total_profit >= 0 else "🔴"
-        print(f"  {pl_emoji} Total P/L: ${total_profit:.2f}")
-        
-        if wins > 0:
-            avg_win = sum(d.get('profit', 0) for d in deals if d.get('profit', 0) > 0) / wins
-            print(f"  📈 Avg Win: ${avg_win:.2f}")
-        if losses > 0:
-            avg_loss = sum(d.get('profit', 0) for d in deals if d.get('profit', 0) < 0) / losses
-            print(f"  📉 Avg Loss: ${avg_loss:.2f}")
-        
-        print_section("Recent Deals (last 15)")
-        for d in deals[-15:]:
-            profit = d.get('profit', 0) or 0
-            emoji = "🟢" if profit > 0 else ("🔴" if profit < 0 else "➖")
-            deal_type = d.get('type', '')
-            symbol = d.get('symbol', '')
-            volume = d.get('volume', '')
-            price = d.get('price', '')
-            deal_time = d.get('time', '')[:19] if d.get('time') else ''
-            comment = d.get('comment', '')
-            
-            print(f"    {emoji} {deal_time} | {symbol} {deal_type} | Vol:{volume} | Price:{price} | P/L:${profit:.2f}")
-            if comment and TRADE_COMMENT[:10] in comment:
-                print(f"       🤖 {comment}")
-            
-    except requests.exceptions.Timeout:
-        print("  ❌ Connection timeout")
-    except Exception as e:
-        print(f"  ❌ ERROR: {e}")
-
-# =============================================================================
-# PERFORMANCE REPORT
-# =============================================================================
-
-def show_performance():
-    """Show overall performance report from log file"""
-    print_header("🏆 Performance Report - Kanutsanan Pongpanna AI Auto Trading")
-    
-    if not os.path.exists(LOG_FILE):
-        print("  ⚠️  No log file found")
-        return
-    
-    total_trades = 0
-    total_skips = 0
-    total_checks = 0
-    total_errors = 0
-    trade_results = []
-    daily_stats = {}
-    
-    try:
-        with open(LOG_FILE, 'r') as f:
-            for line in f:
-                if "CHECK TRADE" in line:
-                    total_checks += 1
-                    # Extract date
-                    match = re.match(r'\[(\d{4}-\d{2}-\d{2})', line)
-                    if match:
-                        date = match.group(1)
-                        if date not in daily_stats:
-                            daily_stats[date] = {'checks': 0, 'trades': 0, 'skips': 0}
-                        daily_stats[date]['checks'] += 1
-                
-                elif "TRADED:" in line or "TRADE EXECUTED" in line or ("RESULT:" in line and "TRADE_DONE" in line):
-                    total_trades += 1
-                    match = re.match(r'\[(\d{4}-\d{2}-\d{2})', line)
-                    if match:
-                        date = match.group(1)
-                        if date not in daily_stats:
-                            daily_stats[date] = {'checks': 0, 'trades': 0, 'skips': 0}
-                        daily_stats[date]['trades'] += 1
-                
-                elif "SKIP:" in line or "says SKIP" in line:
-                    total_skips += 1
-                    match = re.match(r'\[(\d{4}-\d{2}-\d{2})', line)
-                    if match:
-                        date = match.group(1)
-                        if date not in daily_stats:
-                            daily_stats[date] = {'checks': 0, 'trades': 0, 'skips': 0}
-                        daily_stats[date]['skips'] += 1
-                
-                elif "ERROR:" in line or "FAILED:" in line:
-                    total_errors += 1
-        
-        print(f"  📊 Total Checks:    {total_checks}")
-        print(f"  ✅ Total Trades:    {total_trades}")
-        print(f"  ⏭️  Total Skips:     {total_skips}")
-        print(f"  ❌ Total Errors:    {total_errors}")
-        
-        if total_checks > 0:
-            trade_rate = (total_trades / total_checks) * 100
-            print(f"  🎯 Trade Rate:      {trade_rate:.1f}% (trades/checks)")
-        
-        if daily_stats:
-            print_section("Daily Breakdown (last 7 days)")
-            sorted_dates = sorted(daily_stats.keys(), reverse=True)[:7]
-            print(f"    {'Date':<12} {'Checks':<8} {'Trades':<8} {'Skips':<8}")
-            print(f"    {'─'*12} {'─'*8} {'─'*8} {'─'*8}")
-            for date in sorted_dates:
-                d = daily_stats[date]
-                print(f"    {date:<12} {d['checks']:<8} {d['trades']:<8} {d['skips']:<8}")
-        
-    except Exception as e:
-        print(f"  ❌ ERROR: {e}")
-
-# =============================================================================
-# MANUAL TRADE CHECK (uses auto_trade module)
-# =============================================================================
-
-def manual_check():
-    """Run manual trade check using the auto_trade module"""
-    print_header("🔍 Manual Trade Check - Kanutsanan Pongpanna AI Auto Trading")
-    print("  🔄 Running Dual Calculation + Agentic AI Parallel Processing...")
-    print("  ⏳ กรุณารอสักครู่ (กำลังวิเคราะห์ข้อมูลจาก 3 แหล่ง + AI 3 ตัว)...")
-    print()
-    
-    try:
-        # Import from auto_trade
-        sys.path.insert(0, SCRIPT_DIR)
-        from auto_trade import check_trade, print_recommendation
-        
-        rec = check_trade()
-        print_recommendation(rec)
-        
-        if rec.get('status') == 'READY':
-            print("  💡 คำสั่งถัดไป:")
-            print("     python3 trade_log.py approve    (อนุมัติเทรดนี้)")
-            print("     python3 auto_trade.py approve   (อนุมัติเทรดนี้)")
-            print()
-        
-        return rec
-        
-    except ImportError as e:
-        print(f"  ❌ Cannot import auto_trade module: {e}")
-        print(f"  💡 Make sure auto_trade.py is in: {SCRIPT_DIR}")
-        return None
-    except Exception as e:
-        print(f"  ❌ ERROR: {e}")
-        return None
-
-def manual_approve():
-    """Approve the last trade recommendation"""
-    print_header("✅ Approve Trade - Kanutsanan Pongpanna AI Auto Trading")
-    
-    try:
-        sys.path.insert(0, SCRIPT_DIR)
-        from auto_trade import approve_trade, last_recommendation, print_recommendation
-        
-        if not last_recommendation or last_recommendation.get('status') != 'READY':
-            print("  ❌ ไม่มีคำแนะนำที่รอการอนุมัติ")
-            print("  💡 กรุณารัน 'python3 trade_log.py check' ก่อน")
-            print()
-            return None
-        
-        print(f"  📋 กำลังอนุมัติ:")
-        print(f"     Signal: {last_recommendation['signal']}")
-        print(f"     Lot:    {last_recommendation['lot']}")
-        print(f"     Entry:  {last_recommendation['entry']}")
-        print(f"     SL:     {last_recommendation['sl']}")
-        print(f"     TP:     {last_recommendation['tp']}")
-        print()
-        
-        result = approve_trade()
-        print_recommendation(result)
-        return result
-        
-    except ImportError as e:
-        print(f"  ❌ Cannot import auto_trade module: {e}")
-        return None
-    except Exception as e:
-        print(f"  ❌ ERROR: {e}")
-        return None
-
-def manual_auto_trade(interval_minutes=5):
-    """Start auto trade from trade_log"""
-    print_header(f"🤖 Auto Trade - Every {interval_minutes} minutes")
-    
-    try:
-        sys.path.insert(0, SCRIPT_DIR)
-        from auto_trade import start_auto_trade, auto_trade_running
-        import time as time_module
-        
-        result = start_auto_trade(interval_minutes)
-        print(f"  {result['message']}")
-        print()
-        print("  กด Ctrl+C เพื่อหยุด")
-        print()
-        
-        try:
-            while True:
-                time_module.sleep(1)
-        except KeyboardInterrupt:
-            from auto_trade import stop_auto_trade
-            stop_auto_trade()
-            print("\n  ⏹️  Auto trade stopped by user.\n")
-    
-    except ImportError as e:
-        print(f"  ❌ Cannot import auto_trade module: {e}")
-    except Exception as e:
-        print(f"  ❌ ERROR: {e}")
-
-def manual_stop():
-    """Stop auto trade"""
-    print_header("⏹️  Stop Auto Trade")
-    
-    try:
-        sys.path.insert(0, SCRIPT_DIR)
-        from auto_trade import stop_auto_trade
-        
-        result = stop_auto_trade()
-        print(f"  {result['message']}")
-        print()
-    except ImportError as e:
-        print(f"  ❌ Cannot import auto_trade module: {e}")
-    except Exception as e:
-        print(f"  ❌ ERROR: {e}")
-
-# =============================================================================
-# QUICK STATUS
-# =============================================================================
-
-def quick_status():
-    """Show quick system status"""
-    print_header("⚡ Quick Status - Kanutsanan Pongpanna AI Auto Trading")
-    
-    # Check if auto-trade timer is active
-    import subprocess
-    try:
-        result = subprocess.run(['systemctl', 'is-active', 'auto-trade.timer'], 
-                              capture_output=True, text=True, timeout=5)
-        timer_status = result.stdout.strip()
-        timer_emoji = "🟢" if timer_status == "active" else "🔴"
-        print(f"  {timer_emoji} Auto-Trade Timer: {timer_status}")
-    except:
-        print(f"  ⚪ Auto-Trade Timer: unknown")
-    
-    # Check API connectivity
-    try:
-        resp = requests.get(f"{BASE_URL}/users/current/accounts/{ACCOUNT_ID}/account-information",
-                           headers=headers, verify=False, timeout=5)
+                           headers=headers, verify=False, timeout=10)
         if resp.status_code == 200:
-            print(f"  🟢 MetaAPI Connection: OK")
-            acc = resp.json()
-            print(f"     Balance: ${acc.get('balance', 0):.2f} | Equity: ${acc.get('equity', 0):.2f}")
+            positions = resp.json()
+            if not positions:
+                print("  No open positions.")
+            else:
+                total_profit = 0
+                for p in positions:
+                    profit = p.get('profit', 0)
+                    total_profit += profit
+                    ptype = "BUY" if "BUY" in p.get('type', '') else "SELL"
+                    print(f"  {p.get('symbol','')} {ptype} {p.get('volume',0)}lot")
+                    print(f"    Open: {p.get('openPrice',0)} | SL: {p.get('stopLoss',0)} | TP: {p.get('takeProfit',0)}")
+                    print(f"    P/L: ${profit:.2f} | Comment: {p.get('comment','')}")
+                    print()
+                print(f"  Total P/L: ${total_profit:.2f}")
+                print(f"  Positions: {len(positions)}")
         else:
-            print(f"  🔴 MetaAPI Connection: Error {resp.status_code}")
-    except:
-        print(f"  🔴 MetaAPI Connection: Timeout/Failed")
+            print(f"  ERROR: {resp.status_code}")
+    except Exception as e:
+        print(f"  ERROR: {e}")
+    print("=" * 60 + "\n")
+
+def show_history(limit=20):
+    print("\n" + "=" * 60)
+    print(f"  TRADE HISTORY (last {limit})")
+    print("=" * 60)
+    try:
+        # Get deals from MetaAPI
+        start_time = (datetime.now(timezone.utc) - timedelta(days=30)).strftime('%Y-%m-%d %H:%M:%S.000')
+        resp = requests.get(
+            f"{BASE_URL}/users/current/accounts/{ACCOUNT_ID}/history-deals/time/{start_time}/{datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S.000')}",
+            headers=headers, verify=False, timeout=15
+        )
+        if resp.status_code == 200:
+            deals = resp.json()
+            if not deals:
+                print("  No deals in last 30 days.")
+            else:
+                # Filter trade deals only
+                trade_deals = [d for d in deals if d.get('type') in ['DEAL_TYPE_BUY', 'DEAL_TYPE_SELL'] and d.get('entryType') == 'DEAL_ENTRY_OUT']
+                if not trade_deals:
+                    trade_deals = [d for d in deals if d.get('profit', 0) != 0]
+                
+                trade_deals = trade_deals[-limit:]
+                total_profit = 0
+                wins = 0
+                losses = 0
+                
+                for d in trade_deals:
+                    profit = d.get('profit', 0) + d.get('commission', 0) + d.get('swap', 0)
+                    total_profit += profit
+                    if profit > 0:
+                        wins += 1
+                    elif profit < 0:
+                        losses += 1
+                    
+                    deal_type = "BUY" if "BUY" in d.get('type', '') else "SELL"
+                    time_str = d.get('time', '')[:19]
+                    print(f"  {time_str} | {d.get('symbol','')} {deal_type} {d.get('volume',0)}lot | P/L: ${profit:.2f}")
+                
+                print(f"\n  Summary: {len(trade_deals)} trades | {wins}W/{losses}L | Total: ${total_profit:.2f}")
+                if wins + losses > 0:
+                    print(f"  Win Rate: {wins/(wins+losses)*100:.1f}%")
+        else:
+            print(f"  ERROR: {resp.status_code} - {resp.text[:100]}")
+    except Exception as e:
+        print(f"  ERROR: {e}")
     
-    # Check OpenRouter
-    if OPENROUTER_API_KEY:
-        print(f"  🟢 OpenRouter API Key: Configured")
-    else:
-        print(f"  🔴 OpenRouter API Key: Missing!")
+    # Also show Self-Evolution memory
+    memory = load_trade_memory()
+    if memory["total_trades"] > 0:
+        print(f"\n  Self-Evolution Memory:")
+        print(f"  Total: {memory['total_trades']} | Win: {memory['win_rate']}% | Profit: {memory['total_profit']:.2f}")
+        print(f"  Style: {memory['preferred_style']} | Direction: {memory['preferred_direction']}")
     
-    # Last log entry
-    if os.path.exists(LOG_FILE):
-        try:
-            with open(LOG_FILE, 'r') as f:
-                lines = f.readlines()
-                if lines:
-                    last_line = lines[-1].strip()
-                    print(f"\n  📋 Last log: {last_line[:80]}")
-        except:
-            pass
+    print("=" * 60 + "\n")
+
+def update_results():
+    """อัพเดทผลเทรดจาก MetaAPI ลง Self-Evolution memory"""
+    print("\n  Updating trade results for Self-Evolution...")
+    memory = load_trade_memory()
     
+    try:
+        start_time = (datetime.now(timezone.utc) - timedelta(days=7)).strftime('%Y-%m-%d %H:%M:%S.000')
+        resp = requests.get(
+            f"{BASE_URL}/users/current/accounts/{ACCOUNT_ID}/history-deals/time/{start_time}/{datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S.000')}",
+            headers=headers, verify=False, timeout=15
+        )
+        if resp.status_code == 200:
+            deals = resp.json()
+            closed_deals = [d for d in deals if d.get('profit', 0) != 0 and d.get('entryType') == 'DEAL_ENTRY_OUT']
+            
+            updated = 0
+            for deal in closed_deals[-20:]:
+                profit = deal.get('profit', 0) + deal.get('commission', 0) + deal.get('swap', 0)
+                deal_time = deal.get('time', '')
+                
+                # Find matching pending trade in memory
+                for t in memory["recent_trades"]:
+                    if t.get("result") == "pending":
+                        t["result"] = "win" if profit > 0 else "loss"
+                        t["profit"] = profit
+                        if profit > 0:
+                            memory["wins"] += 1
+                        else:
+                            memory["losses"] += 1
+                        memory["total_profit"] += profit
+                        updated += 1
+                        break
+            
+            if memory["wins"] + memory["losses"] > 0:
+                memory["win_rate"] = round(memory["wins"] / (memory["wins"] + memory["losses"]) * 100, 1)
+            
+            save_trade_memory(memory)
+            print(f"  Updated {updated} trade results.")
+            print(f"  Win Rate: {memory['win_rate']}% | Total Profit: {memory['total_profit']:.2f}")
+        else:
+            print(f"  ERROR: {resp.status_code}")
+    except Exception as e:
+        print(f"  ERROR: {e}")
     print()
 
 # =============================================================================
 # MAIN
 # =============================================================================
-
-def main():
-    if len(sys.argv) < 2:
-        # Default: show summary + account + positions + quick status
-        quick_status()
-        summarize_today()
-        show_account()
-        show_positions()
-        print("\n  ─── คำสั่งที่ใช้ได้ ───")
-        print()
-        print("    python3 trade_log.py check        - เช็คเทรด (คำแนะนำ)")
-        print("    python3 trade_log.py approve       - อนุมัติเทรด")
-        print("    python3 trade_log.py auto [N]      - ตั้งเวลาเทรดอัตโนมัติ (N นาที)")
-        print("    python3 trade_log.py stop           - ยกเลิกการตั้งเวลาเทรด")
-        print("    python3 trade_log.py log [N]        - ดู log (default: 50 lines)")
-        print("    python3 trade_log.py positions      - ดู positions")
-        print("    python3 trade_log.py account        - ดูข้อมูลบัญชี")
-        print("    python3 trade_log.py history [H]    - ดูประวัติ (default: 24 hours)")
-        print("    python3 trade_log.py performance    - สรุปผลงาน")
-        print("    python3 trade_log.py status         - สถานะระบบ")
-        print()
-        return
-    
-    command = sys.argv[1].lower()
-    
-    # เช็คเทรด
-    if command in ['check', 'เช็คเทรด', 'เช็ค', 'c']:
-        manual_check()
-    
-    # อนุมัติเทรด
-    elif command in ['approve', 'อนุมัติเทรด', 'อนุมัติ', 'a']:
-        manual_approve()
-    
-    # ตั้งเวลาเทรดอัตโนมัติ
-    elif command in ['auto', 'ตั้งเวลาเทรดอัตโนมัติ', 'ตั้งเวลา']:
-        interval = int(sys.argv[2]) if len(sys.argv) > 2 else 5
-        manual_auto_trade(interval)
-    
-    # ยกเลิกการตั้งเวลาเทรด
-    elif command in ['stop', 'ยกเลิกการตั้งเวลาเทรด', 'ยกเลิก', 'หยุด']:
-        manual_stop()
-    
-    # ดู log
-    elif command in ['log', 'logs', 'l']:
-        lines = int(sys.argv[2]) if len(sys.argv) > 2 else 50
-        view_logs(lines)
-    
-    # ดู positions
-    elif command in ['positions', 'pos', 'p']:
-        show_positions()
-    
-    # ดูข้อมูลบัญชี
-    elif command in ['account', 'acc']:
-        show_account()
-    
-    # ดูประวัติเทรด
-    elif command in ['history', 'hist', 'h']:
-        hours = int(sys.argv[2]) if len(sys.argv) > 2 else 24
-        show_history(hours)
-    
-    # สรุปผลงาน
-    elif command in ['performance', 'perf', 'report']:
-        show_performance()
-    
-    # สถานะระบบ
-    elif command in ['status', 'สถานะ']:
-        quick_status()
-    
-    # สรุปวันนี้
-    elif command in ['summary', 's', '--summary', '-s', 'today']:
-        summarize_today()
-    
-    # ถ้าเป็นตัวเลข = ดู log N บรรทัด
-    elif command.isdigit():
-        view_logs(int(command))
-    
-    else:
-        print(f"\n  ❓ Unknown command: {command}")
-        print("  💡 Run without arguments for help.\n")
-
 if __name__ == "__main__":
-    main()
+    cmd = sys.argv[1].lower() if len(sys.argv) > 1 else "history"
+    
+    if cmd in ['history', 'ประวัติ', 'เช็คประวัติ', 'เช็คประวัติการเทรด', 'log']:
+        limit = int(sys.argv[2]) if len(sys.argv) > 2 else 20
+        show_history(limit)
+    elif cmd in ['positions', 'pos', 'ตำแหน่ง']:
+        show_positions()
+    elif cmd in ['account', 'acc', 'บัญชี']:
+        show_account()
+    elif cmd in ['update', 'อัพเดท']:
+        update_results()
+    else:
+        print("""
+  Kanutsanan Pongpanna AI Auto Trading v5.0 - Trade Log
+  
+  Commands:
+    history [N]  ดูประวัติ N รายการ (default 20)
+    positions    ดู positions ปัจจุบัน
+    account      ดูข้อมูลบัญชี
+    update       อัพเดทผลเทรดลง Self-Evolution
+        """)
