@@ -1,9 +1,14 @@
 #!/usr/bin/env python3
 """
 =============================================================================
-Kanutsanan Pongpanna AI Auto Trading v5.0 - XAUUSD
+Kanutsanan Pongpanna AI Auto Trading v5.1 - XAUUSD
 =============================================================================
 Self-Evolution + Dual Calculation + Agentic AI Parallel Processing
+
+Changes v5.1:
+  - Model: deepseek/deepseek-v3.2-exp (10x cheaper than Gemini, same quality)
+  - Network: wget-based API calls (fix SSL timeout on Cloud Computer)
+  - Fallback models: qwen/qwen3-next-80b-a3b-instruct, deepseek/deepseek-chat-v3.1
 
 Features:
   - Dual Calculation: Mean-Reversion + Trend-Following
@@ -27,17 +32,15 @@ CLI:
 Trade Comment: "Kanutsanan Pongpanna AI Auto Trading"
 =============================================================================
 """
-import requests
 import json
-import urllib3
 import time
 import os
 import re
 import sys
 import threading
+import subprocess
+import tempfile
 from datetime import datetime, timezone, timedelta
-
-urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # =============================================================================
 # CONFIGURATION
@@ -47,12 +50,15 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 ACCOUNT_ID = os.environ.get("METAAPI_ACCOUNT_ID", "eaf88ee0-bc4f-4f70-86e6-e6333d6c4e4f")
 API_KEY = os.environ.get("METAAPI_TOKEN", "eyJhbGciOiJSUzUxMiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiJkMWExYjVjYzZjZDNmOGIzY2ViOTNjMTQxNGMwM2FmZCIsImFjY2Vzc1J1bGVzIjpbeyJpZCI6InRyYWRpbmctYWNjb3VudC1tYW5hZ2VtZW50LWFwaSIsIm1ldGhvZHMiOlsidHJhZGluZy1hY2NvdW50LW1hbmFnZW1lbnQtYXBpOnJlc3Q6cHVibGljOio6KiJdLCJyb2xlcyI6WyJyZWFkZXIiLCJ3cml0ZXIiXSwicmVzb3VyY2VzIjpbIio6JFVTRVJfSUQkOioiXX0seyJpZCI6Im1ldGFhcGktcmVzdC1hcGkiLCJtZXRob2RzIjpbIm1ldGFhcGktYXBpOnJlc3Q6cHVibGljOio6KiJdLCJyb2xlcyI6WyJyZWFkZXIiLCJ3cml0ZXIiXSwicmVzb3VyY2VzIjpbIio6JFVTRVJfSUQkOioiXX0seyJpZCI6Im1ldGFhcGktcnBjLWFwaSIsIm1ldGhvZHMiOlsibWV0YWFwaS1hcGk6d3M6cHVibGljOio6KiJdLCJyb2xlcyI6WyJyZWFkZXIiLCJ3cml0ZXIiXSwicmVzb3VyY2VzIjpbIio6JFVTRVJfSUQkOioiXX0seyJpZCI6Im1ldGFhcGktcmVhbC10aW1lLXN0cmVhbWluZy1hcGkiLCJtZXRob2RzIjpbIm1ldGFhcGktYXBpOndzOnB1YmxpYzoqOioiXSwicm9sZXMiOlsicmVhZGVyIiwid3JpdGVyIl0sInJlc291cmNlcyI6WyIqOiRVU0VSX0lEJDoqIl19LHsiaWQiOiJtZXRhc3RhdHMtYXBpIiwibWV0aG9kcyI6WyJtZXRhc3RhdHMtYXBpOnJlc3Q6cHVibGljOio6KiJdLCJyb2xlcyI6WyJyZWFkZXIiLCJ3cml0ZXIiXSwicmVzb3VyY2VzIjpbIio6JFVTRVJfSUQkOioiXX0seyJpZCI6InJpc2stbWFuYWdlbWVudC1hcGkiLCJtZXRob2RzIjpbInJpc2stbWFuYWdlbWVudC1hcGk6cmVzdDpwdWJsaWM6KjoqIl0sInJvbGVzIjpbInJlYWRlciIsIndyaXRlciJdLCJyZXNvdXJjZXMiOlsiKjokVVNFUl9JRCQ6KiJdfSx7ImlkIjoiY29weWZhY3RvcnktYXBpIiwibWV0aG9kcyI6WyJjb3B5ZmFjdG9yeS1hcGk6cmVzdDpwdWJsaWM6KjoqIl0sInJvbGVzIjpbInJlYWRlciIsIndyaXRlciJdLCJyZXNvdXJjZXMiOlsiKjokVVNFUl9JRCQ6KiJdfSx7ImlkIjoibXQtbWFuYWdlci1hcGkiLCJtZXRob2RzIjpbIm10LW1hbmFnZXItYXBpOnJlc3Q6ZGVhbGluZzoqOioiLCJtdC1tYW5hZ2VyLWFwaTpyZXN0OnB1YmxpYzoqOioiXSwicm9sZXMiOlsicmVhZGVyIiwid3JpdGVyIl0sInJlc291cmNlcyI6WyIqOiRVU0VSX0lEJDoqIl19LHsiaWQiOiJiaWxsaW5nLWFwaSIsIm1ldGhvZHMiOlsiYmlsbGluZy1hcGk6cmVzdDpwdWJsaWM6KjoqIl0sInJvbGVzIjpbInJlYWRlciJdLCJyZXNvdXJjZXMiOlsiKjokVVNFUl9JRCQ6KiJdfV0sImlnbm9yZVJhdGVMaW1pdHMiOmZhbHNlLCJ0b2tlbklkIjoiMjAyMTAyMTMiLCJpbXBlcnNvbmF0ZWQiOmZhbHNlLCJyZWFsVXNlcklkIjoiZDFhMWI1Y2M2Y2QzZjhiM2NlYjkzYzE0MTRjMDNhZmQiLCJpYXQiOjE3NzgyMzU0ODF9.b_WWWKQoH2lUWMwpnFdlcU-qePQgcPfpR1t0F4w2drUe8h80n2awJGHR6sQglNU4IJoVz7Ec2RqKHuYLDIUyDwdLwNV_zwanlUYsmo2x_OLmLNBSw1Xzkdd7T9V-DHKE8bU6ams1VkTWhse_q_LlUSdqMG8RJYJpxaHmNynOvA1PCLTwsrVi4_JFnTPf3MKMLmO95bE9MkOyuAZ1d2282fdls9CsBcRhEUwddoANxCpHg0AcXcCotUrpyQgQfmaOkzpAFgjounx5ZzvoKGVjCmzD3gxnecaG4azZbNIJwlfbofcA7fqvL_1GU06fPxvWM5c7CrLnvIvdoNbTCrAP-9Fy3LNHiK1AtnmddMh3t0lzdyPpulyZL_DSAfk7ymTAdLqJf68knJIN7p33WImjJgcs9e8rPdZLOHmXwP-PYaPy7Qv4lG5iF7P73LwtQhQ_QCCGJIrClW6A04oCtM9v7iIHcnm8YZtNKNlBQTvJuC0TgwoKuu5rzy7Y5IoZLu0tiz_NF6AHcVCWcONfeLUg6voFPW-cQuxtf1jvD9jBEPnd3fAZyY1dWwArM5syT8zNu73_3mfoC249Q_45QEG45zmUVCaOJQ9h19Ax8nu8QOsERu5uLzvMrrHJwKGjOC6zpNMhnNxcyPH1inbqjCUw1loqWKzZEPLoQnF1I9oc9XQ")
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "")
-AI_MODEL = os.environ.get("AI_MODEL", "google/gemini-3.5-flash")
+
+# AI Models (Chinese models - 10x cheaper, same quality as Gemini 3.5 Flash)
+AI_MODEL = os.environ.get("AI_MODEL", "deepseek/deepseek-v3.2-exp")
+AI_MODEL_FALLBACK = "qwen/qwen3-next-80b-a3b-instruct"
+AI_MODEL_FALLBACK2 = "deepseek/deepseek-chat-v3.1"
 
 REGION = "london"
 BASE_URL = f"https://mt-client-api-v1.{REGION}.agiliumtrade.ai"
 MARKET_DATA_URL = f"https://mt-market-data-client-api-v1.{REGION}.agiliumtrade.ai"
-headers = {"auth-token": API_KEY, "Content-Type": "application/json"}
 
 TRADINGVIEW_SCANNER_URL = "https://scanner.tradingview.com/cfd/scan"
 TRADE_COMMENT = "Kanutsanan Pongpanna AI Auto Trading"
@@ -88,6 +94,57 @@ def log(msg):
         pass
 
 # =============================================================================
+# WGET-BASED HTTP CLIENT (fixes SSL timeout on Cloud Computer)
+# =============================================================================
+def wget_get(url, extra_headers=None, timeout=15):
+    """HTTP GET using wget subprocess (bypasses Python SSL issues)"""
+    cmd = ['wget', f'--timeout={timeout}', '--content-on-error', '-qO-']
+    
+    # Add auth-token header for MetaAPI
+    if extra_headers:
+        for k, v in extra_headers.items():
+            cmd.append(f'--header={k}: {v}')
+    
+    cmd.append(url)
+    
+    try:
+        result = subprocess.run(cmd, capture_output=True, text=True, timeout=timeout+5)
+        if result.stdout:
+            return json.loads(result.stdout)
+        return None
+    except json.JSONDecodeError:
+        return None
+    except Exception as e:
+        log(f"  [wget_get] ERROR: {e}")
+        return None
+
+def wget_post(url, data, extra_headers=None, timeout=15):
+    """HTTP POST using wget subprocess"""
+    cmd = ['wget', f'--timeout={timeout}', '--content-on-error', '-qO-']
+    
+    if extra_headers:
+        for k, v in extra_headers.items():
+            cmd.append(f'--header={k}: {v}')
+    
+    cmd.append(f'--header=Content-Type: application/json')
+    cmd.append(f'--post-data={json.dumps(data)}')
+    cmd.append(url)
+    
+    try:
+        result = subprocess.run(cmd, capture_output=True, text=True, timeout=timeout+5)
+        if result.stdout:
+            return json.loads(result.stdout)
+        return None
+    except json.JSONDecodeError:
+        # Return raw text for debugging
+        if result.stdout:
+            log(f"  [wget_post] Non-JSON response: {result.stdout[:100]}")
+        return None
+    except Exception as e:
+        log(f"  [wget_post] ERROR: {e}")
+        return None
+
+# =============================================================================
 # SELF-EVOLUTION SYSTEM (Trading Memory)
 # =============================================================================
 def load_trade_memory():
@@ -99,7 +156,7 @@ def load_trade_memory():
     except:
         pass
     return {
-        "version": "5.0",
+        "version": "5.1",
         "total_trades": 0,
         "wins": 0,
         "losses": 0,
@@ -149,9 +206,9 @@ def record_trade(signal, tp_pts, sl_pts, reason, data_source, market_regime="unk
     save_trade_memory(memory)
 
 def record_trade_result(profit):
-    """บันทึกผลเทรด (เรียกจาก trade_log.py หรือ manual)"""
+    """บันทึกผลเทรด"""
     memory = load_trade_memory()
-    # Update last pending trade
+    t = {}
     for t in reversed(memory["recent_trades"]):
         if t.get("result") == "pending":
             t["result"] = "win" if profit > 0 else "loss"
@@ -178,7 +235,6 @@ def record_trade_result(profit):
         })
         memory["worst_patterns"] = memory["worst_patterns"][-30:]
     
-    # Update stats
     total = memory["wins"] + memory["losses"]
     memory["win_rate"] = round(memory["wins"] / total * 100, 1) if total > 0 else 0
     
@@ -215,7 +271,7 @@ def record_trade_result(profit):
             memory["preferred_direction"] = "NEUTRAL"
     
     save_trade_memory(memory)
-    log(f"  [Evolution] Recorded result: profit={profit} | Win rate: {memory['win_rate']}%")
+    log(f"  [Evolution] Recorded: profit={profit} | Win rate: {memory['win_rate']}%")
 
 def get_evolution_context():
     """สร้าง context จาก trading memory สำหรับส่งให้ AI"""
@@ -258,7 +314,7 @@ SELF-EVOLUTION DATA ({memory['total_trades']} trades, {memory['win_rate']}% win 
     return ctx
 
 def run_evolution_analysis():
-    """รัน Self-Evolution analysis - วิเคราะห์ประวัติและปรับกลยุทธ์"""
+    """รัน Self-Evolution analysis"""
     memory = load_trade_memory()
     if memory["total_trades"] < 5:
         print("\n  Need at least 5 trades for evolution analysis.\n")
@@ -278,7 +334,6 @@ def run_evolution_analysis():
             wr = round(stats["wins"] / stats["trades"] * 100, 1)
             print(f"    {regime}: {stats['trades']} trades, {wr}% win, profit={stats['profit']:.2f}")
     
-    # Ask AI for evolution insights
     if OPENROUTER_API_KEY:
         prompt = f"""Analyze this trading history and give 3 specific improvement suggestions:
 {json.dumps(memory['recent_trades'][-20:], indent=2)}
@@ -312,17 +367,14 @@ def check_market_open():
     now = datetime.now(timezone.utc)
     weekday = now.weekday()
     hour = now.hour
-    
-    # Saturday (5) and Sunday (6) = closed
     if weekday >= 5:
         return False
-    # Friday after 22:00 UTC = closed
     if weekday == 4 and hour >= 22:
         return False
     return True
 
 # =============================================================================
-# DATA SOURCES
+# DATA SOURCES (using wget)
 # =============================================================================
 def get_candles_from_metaapi():
     """Source 1: MetaAPI candles (M5 + M15 + H1)"""
@@ -333,21 +385,14 @@ def get_candles_from_metaapi():
         "1h": {"limit": 24, "label": "H1"}
     }
     all_data = {}
+    meta_headers = {"auth-token": API_KEY}
     
     for tf, config in timeframes.items():
-        try:
-            resp = requests.get(
-                f"{MARKET_DATA_URL}/users/current/accounts/{ACCOUNT_ID}/historical-market-data/symbols/XAUUSD.sml/timeframes/{tf}/candles",
-                headers=headers, verify=False, timeout=10,
-                params={"limit": config["limit"]}
-            )
-            if resp.status_code == 200:
-                data = resp.json()
-                if isinstance(data, list) and len(data) > 3:
-                    all_data[config["label"]] = data
-                    log(f"    Got {len(data)} {config['label']} candles")
-        except Exception as e:
-            log(f"    {config['label']} error: {e}")
+        url = f"{MARKET_DATA_URL}/users/current/accounts/{ACCOUNT_ID}/historical-market-data/symbols/XAUUSD.sml/timeframes/{tf}/candles?limit={config['limit']}"
+        data = wget_get(url, extra_headers=meta_headers, timeout=10)
+        if data and isinstance(data, list) and len(data) > 3:
+            all_data[config["label"]] = data
+            log(f"    Got {len(data)} {config['label']} candles")
     
     if not all_data:
         return None
@@ -388,11 +433,9 @@ def get_tradingview_data():
     try:
         results = {}
         for label, payload in payloads.items():
-            resp = requests.post(TRADINGVIEW_SCANNER_URL, json=payload, timeout=10)
-            if resp.status_code == 200:
-                data = resp.json()
-                if data.get('totalCount', 0) > 0:
-                    results[label] = data['data'][0]['d']
+            data = wget_post(TRADINGVIEW_SCANNER_URL, payload, timeout=10)
+            if data and data.get('totalCount', 0) > 0:
+                results[label] = data['data'][0]['d']
         
         if not results:
             return None
@@ -414,39 +457,49 @@ def get_tradingview_data():
         return None
 
 # =============================================================================
-# OPENROUTER AI CALL (No max_tokens!)
+# OPENROUTER AI CALL (wget-based, No max_tokens!)
 # =============================================================================
-def call_openrouter(prompt, agent_name):
-    """Call OpenRouter API - NO max_tokens limit"""
+def call_openrouter(prompt, agent_name, model=None):
+    """Call OpenRouter API via wget - NO max_tokens limit"""
     if not OPENROUTER_API_KEY:
         log(f"  [{agent_name}] ERROR: No API key!")
         return None
     
+    if model is None:
+        model = AI_MODEL
+    
+    payload = {
+        "model": model,
+        "messages": [{"role": "user", "content": prompt}],
+        "temperature": 0.1
+    }
+    
+    ai_headers = {"Authorization": f"Bearer {OPENROUTER_API_KEY}"}
+    
     try:
-        resp = requests.post(
-            "https://openrouter.ai/api/v1/chat/completions",
-            headers={
-                "Authorization": f"Bearer {OPENROUTER_API_KEY}",
-                "Content-Type": "application/json"
-            },
-            json={
-                "model": AI_MODEL,
-                "messages": [{"role": "user", "content": prompt}],
-                "temperature": 0.1
-            },
-            timeout=120
-        )
+        data = wget_post("https://openrouter.ai/api/v1/chat/completions", 
+                        payload, extra_headers=ai_headers, timeout=120)
         
-        if resp.status_code != 200:
-            log(f"  [{agent_name}] ERROR: {resp.status_code} - {resp.text[:150]}")
+        if not data:
+            # Try fallback model
+            if model != AI_MODEL_FALLBACK:
+                log(f"  [{agent_name}] Primary failed, trying fallback...")
+                return call_openrouter(prompt, agent_name, model=AI_MODEL_FALLBACK)
             return None
         
-        ai_response = resp.json()
-        message = ai_response['choices'][0]['message']
+        # Check for errors
+        if 'error' in data:
+            error_msg = data['error'].get('message', 'Unknown error')
+            log(f"  [{agent_name}] API Error: {error_msg[:100]}")
+            if model != AI_MODEL_FALLBACK and '402' not in str(data['error'].get('code', '')):
+                return call_openrouter(prompt, agent_name, model=AI_MODEL_FALLBACK)
+            return None
+        
+        message = data['choices'][0]['message']
         content = message.get('content') or ''
         content = content.strip()
         
-        # Handle reasoning models (Gemini 3.5 Flash may put answer in reasoning)
+        # Handle reasoning models
         if not content and message.get('reasoning'):
             reasoning = message.get('reasoning', '')
             json_match = re.search(r'\{[^{}]*\}', reasoning, re.DOTALL)
@@ -471,7 +524,7 @@ def call_openrouter(prompt, agent_name):
         return result
         
     except json.JSONDecodeError:
-        log(f"  [{agent_name}] JSON parse error from: {content[:100] if 'content' in dir() else 'N/A'}")
+        log(f"  [{agent_name}] JSON parse error")
         return None
     except Exception as e:
         log(f"  [{agent_name}] ERROR: {e}")
@@ -581,8 +634,8 @@ def run_parallel_analysis(market_data, bid, ask):
     t2 = threading.Thread(target=run_a2)
     t1.start()
     t2.start()
-    t1.join(timeout=90)
-    t2.join(timeout=90)
+    t1.join(timeout=130)
+    t2.join(timeout=130)
     
     a1 = results.get('a1')
     a2 = results.get('a2')
@@ -624,6 +677,8 @@ def run_parallel_analysis(market_data, bid, ask):
 # =============================================================================
 def check_and_apply_breakeven(positions):
     """Apply break-even when profit >= 50% of TP distance"""
+    meta_headers = {"auth-token": API_KEY}
+    
     for p in positions:
         pos_type = p.get('type', '')
         pos_open = p.get('openPrice', 0)
@@ -635,7 +690,6 @@ def check_and_apply_breakeven(positions):
         if not (pos_open and pos_tp and pos_id):
             continue
         
-        # Already at break-even?
         if pos_type == 'POSITION_TYPE_BUY' and pos_sl >= pos_open:
             continue
         if pos_type == 'POSITION_TYPE_SELL' and pos_sl > 0 and pos_sl <= pos_open:
@@ -645,38 +699,25 @@ def check_and_apply_breakeven(positions):
             tp_distance = pos_tp - pos_open
             current_profit = current_price - pos_open if current_price else 0
             if tp_distance > 0 and current_profit >= tp_distance * 0.5:
-                # Move SL to entry
-                try:
-                    requests.post(
-                        f"{BASE_URL}/users/current/accounts/{ACCOUNT_ID}/trade",
-                        headers=headers, json={
-                            "actionType": "POSITION_MODIFY",
-                            "positionId": pos_id,
-                            "stopLoss": pos_open,
-                            "takeProfit": pos_tp
-                        }, verify=False, timeout=10
-                    )
-                    log(f"  [BE] BUY position {pos_id}: SL moved to {pos_open}")
-                except:
-                    pass
+                wget_post(
+                    f"{BASE_URL}/users/current/accounts/{ACCOUNT_ID}/trade",
+                    {"actionType": "POSITION_MODIFY", "positionId": pos_id,
+                     "stopLoss": pos_open, "takeProfit": pos_tp},
+                    extra_headers=meta_headers, timeout=10
+                )
+                log(f"  [BE] BUY {pos_id}: SL moved to {pos_open}")
         
         elif pos_type == 'POSITION_TYPE_SELL':
             tp_distance = pos_open - pos_tp
             current_profit = pos_open - current_price if current_price else 0
             if tp_distance > 0 and current_profit >= tp_distance * 0.5:
-                try:
-                    requests.post(
-                        f"{BASE_URL}/users/current/accounts/{ACCOUNT_ID}/trade",
-                        headers=headers, json={
-                            "actionType": "POSITION_MODIFY",
-                            "positionId": pos_id,
-                            "stopLoss": pos_open,
-                            "takeProfit": pos_tp
-                        }, verify=False, timeout=10
-                    )
-                    log(f"  [BE] SELL position {pos_id}: SL moved to {pos_open}")
-                except:
-                    pass
+                wget_post(
+                    f"{BASE_URL}/users/current/accounts/{ACCOUNT_ID}/trade",
+                    {"actionType": "POSITION_MODIFY", "positionId": pos_id,
+                     "stopLoss": pos_open, "takeProfit": pos_tp},
+                    extra_headers=meta_headers, timeout=10
+                )
+                log(f"  [BE] SELL {pos_id}: SL moved to {pos_open}")
 
 # =============================================================================
 # MAIN TRADE CHECK
@@ -686,26 +727,22 @@ def check_trade():
     global last_recommendation
     
     log("=" * 60)
-    log("TRADE CHECK - Kanutsanan Pongpanna AI v5.0 (Self-Evolution)")
+    log(f"TRADE CHECK - Kanutsanan Pongpanna AI v5.1 (DeepSeek V3.2)")
     log("=" * 60)
     
-    # Market open?
     if not check_market_open():
         return {"status": "SKIP", "message": "Market closed (Weekend/Holiday)"}
     
-    # API keys?
     if not ACCOUNT_ID or not API_KEY or not OPENROUTER_API_KEY:
         return {"status": "ERROR", "message": "Missing API keys"}
     
+    meta_headers = {"auth-token": API_KEY}
+    
     # Account info
-    try:
-        resp = requests.get(f"{BASE_URL}/users/current/accounts/{ACCOUNT_ID}/account-information",
-                           headers=headers, verify=False, timeout=10)
-        if resp.status_code != 200:
-            return {"status": "ERROR", "message": f"Account API: {resp.status_code}"}
-        acc = resp.json()
-    except Exception as e:
-        return {"status": "ERROR", "message": f"Connection: {e}"}
+    acc = wget_get(f"{BASE_URL}/users/current/accounts/{ACCOUNT_ID}/account-information",
+                   extra_headers=meta_headers, timeout=10)
+    if not acc:
+        return {"status": "ERROR", "message": "Cannot connect to MetaAPI"}
     
     balance = acc.get('balance', 0)
     equity = acc.get('equity', 0)
@@ -713,36 +750,32 @@ def check_trade():
     log(f"  Balance:{balance} Equity:{equity} Free:{free_margin}")
     
     # Positions & Break-Even
-    try:
-        resp = requests.get(f"{BASE_URL}/users/current/accounts/{ACCOUNT_ID}/positions",
-                           headers=headers, verify=False, timeout=10)
-        positions = resp.json() if resp.status_code == 200 else []
-        if positions:
-            log(f"  Positions: {len(positions)}/{MAX_POSITIONS}")
-            check_and_apply_breakeven(positions)
-            if len(positions) >= MAX_POSITIONS:
-                return {"status": "SKIP", "message": f"Max positions reached ({MAX_POSITIONS})"}
-    except:
+    positions = wget_get(f"{BASE_URL}/users/current/accounts/{ACCOUNT_ID}/positions",
+                        extra_headers=meta_headers, timeout=10)
+    if positions and isinstance(positions, list):
+        log(f"  Positions: {len(positions)}/{MAX_POSITIONS}")
+        check_and_apply_breakeven(positions)
+        if len(positions) >= MAX_POSITIONS:
+            return {"status": "SKIP", "message": f"Max positions reached ({MAX_POSITIONS})"}
+    else:
         positions = []
     
     # Current price
-    try:
-        resp = requests.get(f"{BASE_URL}/users/current/accounts/{ACCOUNT_ID}/symbols/XAUUSD.sml/current-price",
-                           headers=headers, verify=False, timeout=10)
-        if resp.status_code != 200:
-            return {"status": "ERROR", "message": f"Price API: {resp.status_code}"}
-        price = resp.json()
-        bid = price.get('bid', 0)
-        ask = price.get('ask', 0)
-        spread = round(ask - bid, 3)
-        entry = (bid + ask) / 2
-        log(f"  Bid:{bid} Ask:{ask} Spread:{spread}")
-        if spread <= 0 or bid <= 0:
-            return {"status": "SKIP", "message": "Market closed (invalid price)"}
-    except Exception as e:
-        return {"status": "ERROR", "message": f"Price: {e}"}
+    price = wget_get(f"{BASE_URL}/users/current/accounts/{ACCOUNT_ID}/symbols/XAUUSD.sml/current-price",
+                    extra_headers=meta_headers, timeout=10)
+    if not price:
+        return {"status": "ERROR", "message": "Cannot get price"}
     
-    # Get market data (try MetaAPI first, then TradingView)
+    bid = price.get('bid', 0)
+    ask = price.get('ask', 0)
+    spread = round(ask - bid, 3)
+    entry = (bid + ask) / 2
+    log(f"  Bid:{bid} Ask:{ask} Spread:{spread}")
+    
+    if spread <= 0 or bid <= 0:
+        return {"status": "SKIP", "message": "Market closed (invalid price)"}
+    
+    # Get market data
     log("  Fetching market data...")
     market_data = get_candles_from_metaapi()
     data_source = "MetaAPI"
@@ -841,47 +874,43 @@ def approve_trade(rec=None):
         return {"status": "ERROR", "message": "No pending recommendation"}
     
     comment = f"{TRADE_COMMENT} Set{rec.get('chosen_set',0)} Str{rec.get('strength',0)}"
+    meta_headers = {"auth-token": API_KEY}
     
-    try:
-        resp = requests.post(
-            f"{BASE_URL}/users/current/accounts/{ACCOUNT_ID}/trade",
-            headers=headers,
-            json={
-                "actionType": rec['action_type'],
-                "symbol": "XAUUSD.sml",
-                "volume": rec['lot'],
-                "stopLoss": rec['sl'],
-                "takeProfit": rec['tp'],
-                "comment": comment
-            },
-            verify=False, timeout=15
+    result = wget_post(
+        f"{BASE_URL}/users/current/accounts/{ACCOUNT_ID}/trade",
+        {
+            "actionType": rec['action_type'],
+            "symbol": "XAUUSD.sml",
+            "volume": rec['lot'],
+            "stopLoss": rec['sl'],
+            "takeProfit": rec['tp'],
+            "comment": comment
+        },
+        extra_headers=meta_headers, timeout=15
+    )
+    
+    if result and 'error' not in result:
+        order_id = result.get('orderId', 'N/A')
+        status = result.get('stringCode', 'OK')
+        
+        record_trade(
+            rec['signal'], rec['tp_pts'], rec['sl_pts'],
+            rec['reason'], rec['data_source'], rec.get('market_regime', 'unknown')
         )
         
-        if resp.status_code == 200:
-            result = resp.json()
-            order_id = result.get('orderId', 'N/A')
-            status = result.get('stringCode', 'OK')
-            
-            # Record trade in memory
-            record_trade(
-                rec['signal'], rec['tp_pts'], rec['sl_pts'],
-                rec['reason'], rec['data_source'], rec.get('market_regime', 'unknown')
-            )
-            
-            last_recommendation = None
-            log(f"  TRADED! {rec['signal']} {rec['lot']}lot Order:{order_id} Status:{status}")
-            
-            return {
-                "status": "TRADED",
-                "message": f"{rec['signal']} {rec['lot']}lot @{rec['entry']:.3f} SL:{rec['sl']} TP:{rec['tp']}",
-                "order_id": order_id,
-                "string_code": status
-            }
-        else:
-            log(f"  FAILED: {resp.status_code} - {resp.text[:150]}")
-            return {"status": "FAILED", "message": f"Broker rejected: {resp.status_code} - {resp.text[:100]}"}
-    except Exception as e:
-        return {"status": "FAILED", "message": f"Error: {e}"}
+        last_recommendation = None
+        log(f"  TRADED! {rec['signal']} {rec['lot']}lot Order:{order_id} Status:{status}")
+        
+        return {
+            "status": "TRADED",
+            "message": f"{rec['signal']} {rec['lot']}lot @{rec['entry']:.3f} SL:{rec['sl']} TP:{rec['tp']}",
+            "order_id": order_id,
+            "string_code": status
+        }
+    else:
+        error_msg = result.get('error', {}).get('message', 'Unknown') if result else 'No response'
+        log(f"  FAILED: {error_msg}")
+        return {"status": "FAILED", "message": f"Broker rejected: {error_msg}"}
 
 # =============================================================================
 # AUTO TRADE LOOP
@@ -889,7 +918,7 @@ def approve_trade(rec=None):
 def auto_trade_loop(interval_minutes=5):
     """เทรดอัตโนมัติ"""
     global auto_trade_running
-    log(f"[AUTO] Started - every {interval_minutes} min")
+    log(f"[AUTO] Started - every {interval_minutes} min | Model: {AI_MODEL}")
     
     while auto_trade_running:
         try:
@@ -903,7 +932,6 @@ def auto_trade_loop(interval_minutes=5):
         except Exception as e:
             log(f"[AUTO] ERROR: {e}")
         
-        # Wait interval (check every second for stop signal)
         for _ in range(int(interval_minutes * 60)):
             if not auto_trade_running:
                 break
@@ -960,7 +988,8 @@ def print_result(rec):
 def show_performance():
     memory = load_trade_memory()
     print("\n" + "=" * 55)
-    print("  PERFORMANCE - Self-Evolution System v5.0")
+    print("  PERFORMANCE - Self-Evolution System v5.1")
+    print(f"  Model: {AI_MODEL}")
     print("=" * 55)
     print(f"  Total Trades: {memory['total_trades']}")
     print(f"  Win Rate: {memory['win_rate']}% ({memory['wins']}W / {memory['losses']}L)")
@@ -1024,8 +1053,9 @@ def main():
         run_evolution_analysis()
     
     else:
-        print("""
-  Kanutsanan Pongpanna AI Auto Trading v5.0
+        print(f"""
+  Kanutsanan Pongpanna AI Auto Trading v5.1
+  Model: {AI_MODEL} (10x cheaper than Gemini)
   
   Usage: python3 auto_trade.py [command]
   
