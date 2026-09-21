@@ -1,0 +1,32 @@
+{
+  "schema": "hermes-trading-recommendation-v1",
+  "llm_provider": "configured-llm",
+  "mode": "internal_llm_join",
+  "mode_epoch": "687d31d0d98f4b7cb991538b288dcf09",
+  "uses_llm": true,
+  "summary": "สองเสียง (LLM ซื้อ 80%) → รวม ซื้อ 80% → ปรับน้ำหนักซื้อ/ขายต่อกลยุทธ์",
+  "auto_apply": true,
+  "restart_after_apply": false,
+  "research_reference": "research/2026-09-11-live-research-log.md",
+  "source": "signal_bridge (cron output: 2026-09-14_21-06-53.md)",
+  "changes": [
+    {
+      "action": "set_directional_weights",
+      "directional_weights": {
+        "trend_buy": 1.06,
+        "trend_sell": 0.94,
+        "range_buy": 1.06,
+        "range_sell": 0.94,
+        "mean_reversion_buy": 1.06,
+        "mean_reversion_sell": 0.94,
+        "counter_trend_buy": 1.06,
+        "counter_trend_sell": 0.94,
+        "breakout_buy": 1.06,
+        "breakout_sell": 0.94,
+        "breakout_reversal_buy": 1.06,
+        "breakout_reversal_sell": 0.94
+      },
+      "reason": "รวมสองเสียงน้ำหนักเท่ากัน (ภายใน + LLM): [โหมด ภายใน + LLM ร่วม] LLM ซื้อ 80% → รวม ซื้อ 80% (avg +30.0) · ดูดวง(LLM) bullish:0.55 · LLM: เหตุผลสั้น 1 บรรทัด"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "_credit": "Python Qaunt Trading + AI(LLM) Live Research อัพเดทใหญ่เพิ่มความฉลาดและความรอบคอบเข้าสู่ระดับผู้ทรงภูมิปัญญา เทรดในไทยมีกฎหมายรองรับ 100% Settrade e-Open Account · MTS Gold Futures + MT5 https://oacc.settrade.com/e-open-account/landing?brokerId=060&openExternalBrowser=1&utm_source=chatgpt.com ผู้สร้างระบบ (Creator): Kanutsanan Pongpanna — facebook.com/LoveMoneyTH / youtube.com/@lovemoneythofficial โปรดเก็บเครดิตผู้สร้างไว้ในทุกไฟล์และทุกส่วนของระบบ — ห้ามลบ",
+  "schema": "hermes-trading-recommendation-v1",
+  "llm_provider": "test-local",
+  "summary": "TEST: tighten trend band ตามงานวิจัยกลไก↔P/L (trend ขาดทุน)",
+  "auto_apply": true,
+  "restart_after_apply": true,
+  "research_reference": "research/2026-09-12-mechanism-profit-analysis.md",
+  "changes": [
+    {
+      "action": "set_gate",
+      "strategy": "trend",
+      "side": "sell",
+      "raw_low": 0.55,
+      "raw_high": 0.85,
+      "reason": "trend_sell ขาดทุน ควรกรองเฉพาะคะแนนสูง"
+    }
+  ]
+}

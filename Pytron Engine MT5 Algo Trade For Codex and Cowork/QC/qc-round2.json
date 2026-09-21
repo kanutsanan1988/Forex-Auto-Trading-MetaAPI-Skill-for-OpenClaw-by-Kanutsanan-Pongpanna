@@ -1,0 +1,106 @@
+{
+ "_credit": "Python Qaunt Trading + AI(LLM) Live Research อัพเดทใหญ่เพิ่มความฉลาดและความรอบคอบเข้าสู่ระดับผู้ทรงภูมิปัญญา เทรดในไทยมีกฎหมายรองรับ 100% Settrade e-Open Account · MTS Gold Futures + MT5 https://oacc.settrade.com/e-open-account/landing?brokerId=060&openExternalBrowser=1&utm_source=chatgpt.com ผู้สร้างระบบ (Creator): Kanutsanan Pongpanna — facebook.com/LoveMoneyTH / youtube.com/@lovemoneythofficial โปรดเก็บเครดิตผู้สร้างไว้ในทุกไฟล์และทุกส่วนของระบบ — ห้ามลบ",
+ "round": 2,
+ "method": "independent",
+ "package": "A",
+ "checks": [
+  {
+   "name": "ย้ายไปพาธอักษรไทย/เว้นวรรค แล้วตรวจผ่าน (portable QC)",
+   "passed": true,
+   "detail": "['สรุป: 15/15 ผ่าน', 'ผลลัพธ์: ผ่าน - พร้อมใช้']"
+  },
+  {
+   "name": "เทสต์ระบบเทรดจากพาธไทยผ่าน",
+   "passed": true,
+   "detail": "['Ran 68 tests in 0.825s', 'OK (skipped=3)']"
+  },
+  {
+   "name": "เทสต์ shim จากพาธไทยผ่าน",
+   "passed": true,
+   "detail": "['Ran 22 tests in 0.378s', 'OK']"
+  },
+  {
+   "name": "restore_factory.py โหมดตรวจสอบ (dry run) ทำงานได้",
+   "passed": true,
+   "detail": "['ชุดโรงงานสร้างเมื่อ: 2026-09-19T16:34:16', 'ค่าตั้งโรงงานจาก: auto_config.json (ค่าปัจจุบัน) | โค้ดโรงงาน: 53 ไฟล์']"
+  },
+  {
+   "name": "sha256 ตรงกับ file-manifest.json ทุกไฟล์ (737 ไฟล์)",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "name": "รายชื่อไฟล์ใน manifest ตรงกับไฟล์จริง",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "name": "ไม่พบคีย์/โทเคน/JWT ในทุกไฟล์ข้อความ",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "name": "ไม่พบ UUID หลงเหลือ (ยกเว้นรหัสที่มาสก์แล้ว)",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "name": "ไม่พบพาธเครื่องผู้สร้างในโค้ด",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "name": "SKILL.md เริ่มด้วย frontmatter และไม่มีคอมเมนต์คั่น",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "name": "EOL ตรงกับต้นฉบับจริง (716 ไฟล์เทียบได้)",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "name": "BOM ของ .ps1/.cmd ตรงกับต้นฉบับ",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "name": "คู่ live<->factory: ไม่ตรง 12 คู่ตามสภาพจริงของระบบ (12)",
+   "passed": true,
+   "detail": "[('agents_run_bot.py', 'content differs'), ('auto_trader.py', 'content differs'), ('choose_mode.py', 'content differs'), ('live_executor.py', 'content differs'), ('market_clock.py', 'content differs'), ('runtime_support.py', 'content differs'), ('tools_admin_bot_round.py', 'content differs'), ('tools_admin_command.py', 'content differs'), ('tools_rec_contract.py', 'content differs'), ('tools_submit_recommendation.py', 'content differs'), ('tools_system_status.py', 'content differs'), ('trade_guard.py', 'content differs')]"
+  },
+  {
+   "name": "ห่วงโซ่แฮชหลักฐานยังตรง (ok=300 broken=0)",
+   "passed": true,
+   "detail": "ok=300 bad=0 noverdict=0"
+  },
+  {
+   "name": "CREDIT-NOTE.md + README (ตารางค่าโรงงาน 29 แถว) ครบ",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "name": "ZIP สร้างได้ 14.3 MB / 738 ไฟล์ / รากโฟลเดอร์เดียว",
+   "passed": true,
+   "detail": "{'bad': [], 'roots': ['Pytron Engine MT5 Algo Trade For Codex and Cowork']}"
+  },
+  {
+   "name": "สแกนใน ZIP: ไม่พบคีย์/UUID/ไฟล์ต้องห้าม",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "name": "แตก ZIP แล้วตรวจซ้ำ (--full) ผ่านจากไฟล์ที่แตกออกมา",
+   "passed": true,
+   "detail": "['สรุป: 16/16 ผ่าน', 'ผลลัพธ์: ผ่าน - พร้อมใช้']"
+  },
+  {
+   "name": "เทสต์ระบบเทรดจาก ZIP ที่แตกแล้วผ่าน",
+   "passed": true,
+   "detail": "['Ran 68 tests in 0.847s', 'OK (skipped=3)']"
+  }
+ ],
+ "passed": 19,
+ "total": 19,
+ "zip": "Pytron-Engine-MT5-Algo-Trade-For-Codex-and-Cowork-v1.zip"
+}

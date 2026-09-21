@@ -1,0 +1,38 @@
+{
+  "schema": "hermes-trading-recommendation-v1",
+  "auto_apply": true,
+  "restart_after_apply": false,
+  "mode": "internal_llm_join",
+  "mode_epoch": "687d31d0d98f4b7cb991538b288dcf09",
+  "uses_llm": false,
+  "llm_provider": "band-search-sim",
+  "round_plan": false,
+  "summary": "band search จากหลักฐานการขาดทุน + ตรวจด้วยการจำลอง: counter_trend_buy [0.4,0.42]; range_buy [0.189,0.231]; mean_reversion_sell [0.067,0.127]",
+  "generated_at": "2026-09-14 20:02",
+  "changes": [
+    {
+      "action": "set_gate",
+      "strategy": "counter_trend",
+      "side": "buy",
+      "raw_low": 0.4,
+      "raw_high": 0.42,
+      "reason": "band search (จำลองผ่าน): total_r 5.859463814993661 vs เดิม 0.5"
+    },
+    {
+      "action": "set_gate",
+      "strategy": "range",
+      "side": "buy",
+      "raw_low": 0.189,
+      "raw_high": 0.231,
+      "reason": "band search (จำลองผ่าน): total_r 0.5 vs เดิม 0.5"
+    },
+    {
+      "action": "set_gate",
+      "strategy": "mean_reversion",
+      "side": "sell",
+      "raw_low": 0.067,
+      "raw_high": 0.127,
+      "reason": "band search (จำลองผ่าน): total_r 0.5 vs เดิม 0.5"
+    }
+  ]
+}

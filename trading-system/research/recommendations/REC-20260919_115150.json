@@ -1,0 +1,24 @@
+{
+  "_credit": "Python Qaunt Trading + AI(LLM) Live Research อัพเดทใหญ่เพิ่มความฉลาดและความรอบคอบเข้าสู่ระดับผู้ทรงภูมิปัญญา เทรดในไทยมีกฎหมายรองรับ 100% Settrade e-Open Account · MTS Gold Futures + MT5 https://oacc.settrade.com/e-open-account/landing?brokerId=060&openExternalBrowser=1&utm_source=chatgpt.com ผู้สร้างระบบ (Creator): Kanutsanan Pongpanna — facebook.com/LoveMoneyTH / youtube.com/@lovemoneythofficial โปรดเก็บเครดิตผู้สร้างไว้ในทุกไฟล์และทุกส่วนของระบบ — ห้ามลบ",
+  "schema": "hermes-trading-recommendation-v1",
+  "creator": "Kanutsanan Pongpanna · facebook.com/LoveMoneyTH · youtube.com/@lovemoneythofficial",
+  "mode": "internal_only",
+  "mode_epoch": "7a556a4576d8478eb9ed06e78a86b278",
+  "uses_llm": true,
+  "llm_provider": "openrouter/deepseek-v4.1-flash (hermes cron: trading-research-bot)",
+  "auto_apply": false,
+  "restart_after_apply": false,
+  "hold": true,
+  "generated_at": "2026-09-19 11:51",
+  "research_reference": "work/llm_research/inbox/packet_20260919_042421.json",
+  "summary": "HOLD: รอบนี้ไม่เสนอปรับค่าใดๆ — ตลาดปิดเสาร์ · 0 ไม้ 24 ชม. · ระบบเทรดเพิ่งกลับมา 19 ก.ย. 11:05 หลังหยุด 16–19 ก.ย.; รอตลาดเปิด จ. 05:00 ไทย แล้วประเมินจากไม้จริง",
+  "observations": [
+    "3 ค่าในกรอบปลอดภัยยังไม่ขยับ: ปิดกำไร 0.8 (กรอบ 0.5–0.95) · ด่านเน็ตอายุ 12 ชม. (4–24) · พักกันแก้แค้น 15 นาที (5–45) — เหตุผล: ไม่มีหลักฐานสด (0 ไม้/24 ชม.) และค่าถูกประเมิน/ตั้งจากข้อมูลจริงแล้ว (ด่านเน็ต 19 ก.ย. · ปิดกำไร 15 ก.ย.)",
+    "หลักฐานจริงล่าสุด (เซสชัน 15–16 ก.ย.): ปิด 108 ไม้ · net -$4.08 · ชนะ 64.8% · เฉลี่ยชนะ $0.168 / แพ้ $0.417 → ทิศทาง 'ให้ไม้ชนะวิ่งยาวขึ้น' สอดคล้องข้อมูลภายใน แต่ยังไม่ถึงเกณฑ์หลักฐานสด (ต้อง ≥5 ไม้/24 ชม.) และยังไม่มีผลจำลอง → ยังไม่เสนอปรับ",
+    "แผน TP/SL ค้าง 6 รายการ (breakout 1.5→1.4 · อื่นๆ 1.3→1.2 · global 1.3→1.2) ถูกกั้นด้วยผลจำลองชุดเดียวกัน (ล้ม: -4.6R→-5.4R) — ยังไม่ apply; ระบบกั้นไว้ถูกต้อง",
+    "ออเดอร์ 0/24 ชม. · ≤2/72 ชม. (สัญญาณ AT-vs-Trade เตือน 'band แน่น/ล็อกเอาท์'): ต้นเหตุจริง = ระบบเทรดหยุด 16 ก.ย. ~18:20 → 19 ก.ย. ~10:40 ไทย (audit: no_trade สุดท้าย 16 ก.ย. 10:56 UTC · MT5 IPC timeout 93 ครั้ง 10:58–11:20 UTC) + ตลาดปิดเสาร์ — ไม่ใช่ band ตึง → ยังไม่ต้อง relax",
+    "ผ่านเกณฑ์คะแนน (snapshot 11:19): br_rev_buy 89.23% · br_rev_sell 94.12% · ct_sell 33.04% · mr_sell 16.59% · bo_buy 13.14% · range_buy 10.37% · range_sell 10.13% · bo_sell 7.14% — trend_buy/trend_sell 0.00% (แผน band รอบนี้ 0 รายการ · คงไว้)",
+    "ด่าน 1 (net gate) เปลี่ยนเป็นอายุ 12 ชม. วันนี้ → ไม้เก่า 15–16 ก.ย. จะหมดอายุที่ตลาดเปิด (สมุดล่าสุด: 6 คีย์ถูกชะลอ / 6 ผ่าน) — เฝ้าผลรอบแรกหลังเปิด"
+  ],
+  "changes": []
+}

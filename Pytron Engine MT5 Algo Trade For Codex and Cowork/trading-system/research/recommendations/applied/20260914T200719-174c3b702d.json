@@ -1,0 +1,30 @@
+{
+  "schema": "hermes-trading-recommendation-v1",
+  "auto_apply": true,
+  "restart_after_apply": false,
+  "mode": "internal_llm_join",
+  "mode_epoch": "687d31d0d98f4b7cb991538b288dcf09",
+  "uses_llm": false,
+  "llm_provider": "band-focus-sim",
+  "round_plan": false,
+  "summary": "ตัดช่วงคะแนนที่ขาดทุน (หลักฐานไม้จริง + จำลองผ่าน): counter_trend_buy [0.45,0.47]; breakout_reversal_buy [0.6,0.9]",
+  "generated_at": "2026-09-14 20:06",
+  "changes": [
+    {
+      "action": "set_gate",
+      "strategy": "counter_trend",
+      "side": "buy",
+      "raw_low": 0.45,
+      "raw_high": 0.47,
+      "reason": "ตัดช่วงขาดทุน (จำลองผ่าน): total_r 7.0 vs เดิม 2.5"
+    },
+    {
+      "action": "set_gate",
+      "strategy": "breakout_reversal",
+      "side": "buy",
+      "raw_low": 0.6,
+      "raw_high": 0.9,
+      "reason": "ตัดช่วงขาดทุน (จำลองผ่าน): total_r 2.5 vs เดิม 2.5"
+    }
+  ]
+}

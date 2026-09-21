@@ -1,0 +1,233 @@
+{
+  "_credit": "Python Qaunt Trading + AI(LLM) Live Research อัพเดทใหญ่เพิ่มความฉลาดและความรอบคอบเข้าสู่ระดับผู้ทรงภูมิปัญญา เทรดในไทยมีกฎหมายรองรับ 100% Settrade e-Open Account · MTS Gold Futures + MT5 https://oacc.settrade.com/e-open-account/landing?brokerId=060&openExternalBrowser=1&utm_source=chatgpt.com ผู้สร้างระบบ (Creator): Kanutsanan Pongpanna — facebook.com/LoveMoneyTH / youtube.com/@lovemoneythofficial โปรดเก็บเครดิตผู้สร้างไว้ในทุกไฟล์และทุกส่วนของระบบ — ห้ามลบ",
+  "_comment": "ทะเบียน 'สมอง' (agentic AI) ที่ระบบเทรดทองคำรองรับ — เพิ่มตัวใหม่ได้โดยไม่ต้องแก้โค้ดระบบเทรด",
+  "_principle": "ระบบเทรดเป็น 'ตัวถัง' ส่วน agent เป็น 'สมอง' — เปลี่ยนสมองได้ทุกเมื่อ (file + shell = สัญญากลางที่ทุกตัวทำได้)",
+  "_contract": "agent ต้องทำได้แค่ 2 อย่าง: (1) รันคำสั่ง shell (2) อ่าน/เขียนไฟล์ — แค่นี้ก็เป็นบอทของระบบได้",
+  "_headless": "ทุกตัวต้องเรียกแบบไม่ต้องโต้ตอบ (non-interactive/headless) — ค่า {{brief}} คือไฟล์คำสั่งงาน ค่า {{brief_text}} คือข้อความในไฟล์",
+  "agents": [
+    {
+      "id": "hermes",
+      "name": "Hermes Agent (Nous Research)",
+      "status": "default",
+      "detect": [
+        "hermes",
+        "hermes.exe"
+      ],
+      "run": [
+        "hermes",
+        "-z",
+        "{{brief_text}}"
+      ],
+      "notes": "ค่าเริ่มต้นของระบบนี้ — ใช้ cron ของ Hermes ตั้งเวลางานวิจัย/แอดมินบอท",
+      "install": "ติดตั้งแล้วในเครื่องนี้"
+    },
+    {
+      "id": "openclaw",
+      "name": "OpenClaw",
+      "status": "supported",
+      "detect": [
+        "openclaw"
+      ],
+      "run": [
+        "openclaw",
+        "{{brief_text}}"
+      ],
+      "notes": "ผู้ช่วย AI ส่วนตัว รันบนเครื่องตัวเอง ต่อ LLM ที่เลือกได้ — ใช้เป็นสมองของรอบวิจัยได้",
+      "install": "https://github.com/openclaw/openclaw"
+    },
+    {
+      "id": "manus",
+      "name": "Manus AI",
+      "status": "supported",
+      "detect": [
+        "manus-cli",
+        "manus"
+      ],
+      "run": [
+        "manus-cli",
+        "task",
+        "create",
+        "--prompt",
+        "{{brief_text}}"
+      ],
+      "notes": "ทำงานผ่าน API (REST v2) — เหมาะกับงานวิจัยระยะยาว/มีไฟล์แนบ",
+      "install": "pip install manus-cli · ตั้ง MANUS_API_KEY"
+    },
+    {
+      "id": "codex",
+      "name": "OpenAI Codex CLI",
+      "status": "supported",
+      "detect": [
+        "codex"
+      ],
+      "run": [
+        "codex",
+        "exec",
+        "{{brief_text}}"
+      ],
+      "notes": "โหมด headless คือ `codex exec` — รันจบแล้วคืนผลเป็นข้อความ",
+      "install": "npm i -g @openai/codex"
+    },
+    {
+      "id": "claude-code",
+      "name": "Claude Code",
+      "status": "supported",
+      "detect": [
+        "claude"
+      ],
+      "run": [
+        "claude",
+        "-p",
+        "{{brief_text}}"
+      ],
+      "notes": "โหมด headless คือ `claude -p` (--print) — เพิ่ม --output-format json ได้ถ้าต้องการผลเป็น JSON",
+      "install": "npm i -g @anthropic-ai/claude-code"
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor CLI (cursor-agent)",
+      "status": "supported",
+      "detect": [
+        "cursor-agent",
+        "cursor"
+      ],
+      "run": [
+        "cursor-agent",
+        "-p",
+        "{{brief_text}}"
+      ],
+      "notes": "print mode สำหรับสคริปต์ — เลือกโหมดได้ด้วย --mode",
+      "install": "https://cursor.com/cli"
+    },
+    {
+      "id": "cowork",
+      "name": "Claude Cowork (Anthropic)",
+      "status": "desktop",
+      "detect": [
+        "cowork"
+      ],
+      "run": [],
+      "notes": "ทำงานในโฟลเดอร์ที่ผู้ใช้เลือก (desktop) — ใช้วิธี: ชี้โฟลเดอร์ระบบเทรด แล้วสั่งงานด้วยไฟล์ agents/brief_admin.md / brief_mode2.md",
+      "install": "https://claude.com/product/cowork"
+    },
+    {
+      "id": "gemini-cli",
+      "name": "Gemini CLI",
+      "status": "supported",
+      "detect": [
+        "gemini"
+      ],
+      "run": [
+        "gemini",
+        "-p",
+        "{{brief_text}}"
+      ],
+      "notes": "ทางเลือกฟรี/โควต้าสูง",
+      "install": "npm i -g @google/gemini-cli"
+    },
+    {
+      "id": "aider",
+      "name": "Aider",
+      "status": "supported",
+      "detect": [
+        "aider"
+      ],
+      "run": [
+        "aider",
+        "--message",
+        "{{brief_text}}",
+        "--yes"
+      ],
+      "notes": "โหมดสั่งครั้งเดียวจบ (--message) + ไม่ถามยืนยัน (--yes)",
+      "install": "pip install aider-chat"
+    },
+    {
+      "id": "goose",
+      "name": "Goose (Block)",
+      "status": "supported",
+      "detect": [
+        "goose"
+      ],
+      "run": [
+        "goose",
+        "run",
+        "-t",
+        "{{brief_text}}"
+      ],
+      "notes": "รันงานแบบ text-only ได้",
+      "install": "https://block.github.io/goose/"
+    },
+    {
+      "id": "copilot-cli",
+      "name": "GitHub Copilot CLI",
+      "status": "supported",
+      "detect": [
+        "copilot"
+      ],
+      "run": [
+        "copilot",
+        "-p",
+        "{{brief_text}}"
+      ],
+      "notes": "ใช้โควต้า Copilot ที่มีอยู่",
+      "install": "npm i -g @github/copilot"
+    },
+    {
+      "id": "cline",
+      "name": "Cline (CLI)",
+      "status": "supported",
+      "detect": [
+        "cline"
+      ],
+      "run": [
+        "cline",
+        "-p",
+        "{{brief_text}}"
+      ],
+      "notes": "ตัวแทน open-source ยอดนิยม",
+      "install": "https://github.com/cline/cline"
+    },
+    {
+      "id": "kiro",
+      "name": "Kiro CLI (AWS)",
+      "status": "supported",
+      "detect": [
+        "kiro"
+      ],
+      "run": [
+        "kiro",
+        "-p",
+        "{{brief_text}}"
+      ],
+      "notes": "โหมด spec-driven",
+      "install": "https://kiro.dev"
+    },
+    {
+      "id": "openhands",
+      "name": "OpenHands",
+      "status": "supported",
+      "detect": [
+        "openhands"
+      ],
+      "run": [
+        "openhands",
+        "--task",
+        "{{brief_text}}"
+      ],
+      "notes": "agent open-source รันใน container ได้",
+      "install": "pip install openhands-ai"
+    },
+    {
+      "id": "custom",
+      "name": "ตัวอื่น ๆ ในตลาด (120+ CLI agents)",
+      "status": "extensible",
+      "detect": [],
+      "run": [
+        "<คำสั่งของคุณ>",
+        "{{brief_text}}"
+      ],
+      "notes": "เพิ่มเองได้: ก็อปบล็อกนี้ ใส่ id/detect/run — ระบบจะรู้จักทันทีโดยไม่ต้องแก้โค้ดระบบเทรด",
+      "install": "ดูรายการ: github.com/bradAGI/awesome-cli-coding-agents"
+    }
+  ]
+}

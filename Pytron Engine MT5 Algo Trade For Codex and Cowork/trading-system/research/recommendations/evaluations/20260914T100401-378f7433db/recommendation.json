@@ -1,0 +1,144 @@
+{
+  "mode": "internal_only",
+  "mode_epoch": "2d1df2fa7d7f478c954773afb5c970e8",
+  "uses_llm": false,
+  "schema": "hermes-trading-recommendation-v1",
+  "auto_apply": true,
+  "restart_after_apply": false,
+  "llm_provider": "round-plan-10m5m",
+  "summary": "แผนจากรอบ 10/5 นาที: trend_buy band 0.236->0.236 / 0.38->0.404; trend_sell band 0.486->0.456 / 0.53->0.53; trend_sell probability 0.55->0.54; range_buy band 0.23->0.29 / 0.31->0.31; range_buy probability 0.56->0.57; range_sell band 0.217->0.277 / 0.315->0.29700000000000004",
+  "round_plan": true,
+  "generated_at": "2026-09-14 09:58",
+  "changes": [
+    {
+      "action": "set_gate",
+      "strategy": "trend",
+      "side": "sell",
+      "raw_low": 0.456,
+      "raw_high": 0.53,
+      "reason": "band plan: low 0.486->0.456 high 0.53->0.53 net=$+0.059(n=22)"
+    },
+    {
+      "action": "set_probability_gate",
+      "strategy": "trend",
+      "side": "sell",
+      "probability_low": 0.54,
+      "probability_high": 0.85,
+      "reason": "probability band 0.55->0.54 / 0.85->0.85"
+    },
+    {
+      "action": "set_gate",
+      "strategy": "range",
+      "side": "buy",
+      "raw_low": 0.29,
+      "raw_high": 0.31,
+      "reason": "band plan: low 0.23->0.29 high 0.31->0.31 net=$-0.144(n=17)"
+    },
+    {
+      "action": "set_probability_gate",
+      "strategy": "range",
+      "side": "buy",
+      "probability_low": 0.57,
+      "probability_high": 0.75,
+      "reason": "probability band 0.56->0.57 / 0.75->0.75"
+    },
+    {
+      "action": "set_gate",
+      "strategy": "range",
+      "side": "sell",
+      "raw_low": 0.277,
+      "raw_high": 0.29700000000000004,
+      "reason": "band plan: low 0.217->0.277 high 0.315->0.29700000000000004 net=$-0.011(n=38)"
+    },
+    {
+      "action": "set_probability_gate",
+      "strategy": "range",
+      "side": "sell",
+      "probability_low": 0.57,
+      "probability_high": 0.75,
+      "reason": "probability band 0.56->0.57 / 0.75->0.75"
+    },
+    {
+      "action": "set_gate",
+      "strategy": "mean_reversion",
+      "side": "buy",
+      "raw_low": 0.18,
+      "raw_high": 0.19999999999999998,
+      "reason": "band plan: low 0.12->0.18 high 0.2->0.19999999999999998 net=$-0.107(n=39)"
+    },
+    {
+      "action": "set_probability_gate",
+      "strategy": "mean_reversion",
+      "side": "buy",
+      "probability_low": 0.6,
+      "probability_high": 0.75,
+      "reason": "probability band 0.59->0.6 / 0.75->0.75"
+    },
+    {
+      "action": "set_gate",
+      "strategy": "mean_reversion",
+      "side": "sell",
+      "raw_low": 0.096,
+      "raw_high": 0.232,
+      "reason": "band plan: low 0.126->0.096 high 0.232->0.232 net=$+0.199(n=19)"
+    },
+    {
+      "action": "set_probability_gate",
+      "strategy": "mean_reversion",
+      "side": "sell",
+      "probability_low": 0.52,
+      "probability_high": 0.75,
+      "reason": "probability band 0.53->0.52 / 0.75->0.75"
+    },
+    {
+      "action": "set_tpsl",
+      "strategy": "breakout",
+      "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.39R < 55% ของเป้า 1.80R)",
+      "evidence": "n=12 wr=0.67 avg_win=0.39R avg_loss=0.69R",
+      "reward_risk": 1.7
+    },
+    {
+      "action": "set_tpsl",
+      "strategy": "counter_trend",
+      "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.50R < 55% ของเป้า 1.60R)",
+      "evidence": "n=20 wr=0.45 avg_win=0.50R avg_loss=0.97R",
+      "reward_risk": 1.5
+    },
+    {
+      "action": "set_tpsl",
+      "strategy": "mean_reversion",
+      "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.61R < 55% ของเป้า 1.60R)",
+      "evidence": "n=73 wr=0.68 avg_win=0.61R avg_loss=1.00R",
+      "reward_risk": 1.5
+    },
+    {
+      "action": "set_tpsl",
+      "strategy": "range",
+      "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.70R < 55% ของเป้า 1.60R)",
+      "evidence": "n=48 wr=0.56 avg_win=0.70R avg_loss=1.02R",
+      "reward_risk": 1.5
+    },
+    {
+      "action": "set_tpsl",
+      "strategy": "trend",
+      "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.41R < 55% ของเป้า 1.60R)",
+      "evidence": "n=28 wr=0.61 avg_win=0.41R avg_loss=0.92R",
+      "reward_risk": 1.5
+    },
+    {
+      "action": "set_tpsl",
+      "strategy": "global",
+      "reason": "TP ระดับระบบไกลเกิน (ไม้ชนะเฉลี่ย 0.59R < 55% ของ 1.60R)",
+      "evidence": "n=183",
+      "min_reward_risk": 1.5
+    },
+    {
+      "action": "set_gate",
+      "strategy": "trend",
+      "side": "buy",
+      "raw_low": 0.236,
+      "raw_high": 0.404,
+      "reason": "band plan: low 0.236->0.236 high 0.38->0.404 net=$-1.090(n=1)"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "mode": "internal_only",
+  "mode_epoch": "7a556a4576d8478eb9ed06e78a86b278",
+  "uses_llm": false,
+  "schema": "hermes-trading-recommendation-v1",
+  "auto_apply": true,
+  "restart_after_apply": false,
+  "llm_provider": "round-plan-10m5m",
+  "summary": "แผนจากรอบ 10/5 นาที: trend_sell band 0.301->0.321 / 0.401->0.421; TP/SL breakout_reversal: reward_risk=1.2",
+  "round_plan": true,
+  "generated_at": "2026-09-16 16:03",
+  "changes": [
+    {
+      "action": "set_gate",
+      "strategy": "trend",
+      "side": "sell",
+      "raw_low": 0.321,
+      "raw_high": 0.421,
+      "reason": "band plan: low 0.301->0.321 high 0.401->0.421 net=$+0.011(n=43)"
+    },
+    {
+      "action": "set_tpsl",
+      "strategy": "breakout_reversal",
+      "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.29R < 55% ของเป้า 1.30R)",
+      "evidence": "n=9 wr=1.00 avg_win=0.29R avg_loss=0.00R",
+      "reward_risk": 1.2
+    }
+  ]
+}

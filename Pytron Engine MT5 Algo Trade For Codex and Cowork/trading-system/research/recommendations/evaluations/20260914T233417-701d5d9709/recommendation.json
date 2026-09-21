@@ -1,0 +1,56 @@
+{
+  "mode": "internal_only",
+  "mode_epoch": "b4b45c2ad39b4d37ac45b0d26321b8eb",
+  "uses_llm": false,
+  "schema": "hermes-trading-recommendation-v1",
+  "auto_apply": true,
+  "restart_after_apply": false,
+  "llm_provider": "round-plan-10m5m",
+  "summary": "แผนจากรอบ 10/5 นาที: TP/SL breakout: reward_risk=1.6; TP/SL counter_trend: reward_risk=1.4; TP/SL mean_reversion: reward_risk=1.4; TP/SL range: reward_risk=1.4; TP/SL trend: reward_risk=1.4; TP/SL global: min_reward_risk=1.4",
+  "round_plan": true,
+  "generated_at": "2026-09-14 23:34",
+  "changes": [
+    {
+      "action": "set_tpsl",
+      "strategy": "breakout",
+      "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.70R)",
+      "evidence": "n=14 wr=0.71 avg_win=0.35R avg_loss=0.69R",
+      "reward_risk": 1.6
+    },
+    {
+      "action": "set_tpsl",
+      "strategy": "counter_trend",
+      "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.50R < 55% ของเป้า 1.50R)",
+      "evidence": "n=20 wr=0.45 avg_win=0.50R avg_loss=0.97R",
+      "reward_risk": 1.4
+    },
+    {
+      "action": "set_tpsl",
+      "strategy": "mean_reversion",
+      "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.62R < 55% ของเป้า 1.50R)",
+      "evidence": "n=80 wr=0.70 avg_win=0.62R avg_loss=0.99R",
+      "reward_risk": 1.4
+    },
+    {
+      "action": "set_tpsl",
+      "strategy": "range",
+      "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.66R < 55% ของเป้า 1.50R)",
+      "evidence": "n=54 wr=0.54 avg_win=0.66R avg_loss=0.97R",
+      "reward_risk": 1.4
+    },
+    {
+      "action": "set_tpsl",
+      "strategy": "trend",
+      "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.41R < 55% ของเป้า 1.50R)",
+      "evidence": "n=28 wr=0.61 avg_win=0.41R avg_loss=0.92R",
+      "reward_risk": 1.4
+    },
+    {
+      "action": "set_tpsl",
+      "strategy": "global",
+      "reason": "TP ระดับระบบไกลเกิน (ไม้ชนะเฉลี่ย 0.58R < 55% ของ 1.50R)",
+      "evidence": "n=198",
+      "min_reward_risk": 1.4
+    }
+  ]
+}

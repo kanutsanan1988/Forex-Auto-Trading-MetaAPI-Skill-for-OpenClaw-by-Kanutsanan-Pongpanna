@@ -1,0 +1,70 @@
+{
+  "_credit": "Python Qaunt Trading + AI(LLM) Live Research อัพเดทใหญ่เพิ่มความฉลาดและความรอบคอบเข้าสู่ระดับผู้ทรงภูมิปัญญา เทรดในไทยมีกฎหมายรองรับ 100% Settrade e-Open Account · MTS Gold Futures + MT5 https://oacc.settrade.com/e-open-account/landing?brokerId=060&openExternalBrowser=1&utm_source=chatgpt.com ผู้สร้างระบบ (Creator): Kanutsanan Pongpanna — facebook.com/LoveMoneyTH / youtube.com/@lovemoneythofficial โปรดเก็บเครดิตผู้สร้างไว้ในทุกไฟล์และทุกส่วนของระบบ — ห้ามลบ",
+  "status": "superseded_by_adaptive_bootstrap_state.json",
+  "generated_at_utc": "2026-08-26T11:00:00Z",
+  "symbol": "XAUUSD.sml",
+  "timeframe": "M5 signals with M15 and H1 confirmation",
+  "period_start_utc": "2026-04-24T17:10:00Z",
+  "period_end_utc": "2026-08-26T11:00:00Z",
+  "bars": 24000,
+  "assumptions": {
+    "spread": 0.4,
+    "entry": "next M5 open",
+    "same_bar_sl_and_tp": "SL first",
+    "maximum_holding_m5_bars": 72
+  },
+  "validation_policy": {
+    "minimum_total_trades": 60,
+    "minimum_first_70_profit_factor": 1.1,
+    "minimum_last_30_trades": 20,
+    "minimum_last_30_profit_factor": 1.1
+  },
+  "strategies": {
+    "trend": {
+      "total_trades": 89,
+      "total_r": -3.8580307366,
+      "total_profit_factor": 0.9334822287,
+      "first_70_profit_factor": 1.0363636364,
+      "last_30_trades": 37,
+      "last_30_r": -5.0580307366,
+      "last_30_profit_factor": 0.7976787705,
+      "passed": false
+    },
+    "range": {
+      "total_trades": 1,
+      "total_r": -1.0,
+      "total_profit_factor": 0.0,
+      "first_70_profit_factor": 0.0,
+      "last_30_trades": 0,
+      "last_30_r": 0.0,
+      "last_30_profit_factor": null,
+      "passed": false
+    },
+    "mean_reversion": {
+      "total_trades": 0,
+      "total_r": 0.0,
+      "total_profit_factor": null,
+      "first_70_profit_factor": null,
+      "last_30_trades": 0,
+      "last_30_r": 0.0,
+      "last_30_profit_factor": null,
+      "passed": false
+    },
+    "breakout": {
+      "total_trades": 99,
+      "total_r": 6.0,
+      "total_profit_factor": 1.09375,
+      "first_70_profit_factor": 0.9302325581,
+      "last_30_trades": 36,
+      "last_30_r": 9.0,
+      "last_30_profit_factor": 1.4285714286,
+      "passed": false
+    }
+  },
+  "deployment": {
+    "router_execution_enabled": false,
+    "shadow_analysis_enabled": true,
+    "reason": "No strategy passed every train/out-of-sample policy threshold."
+  },
+  "warning": "Historical bar simulation is approximate and cannot guarantee future profit."
+}

@@ -1,0 +1,38 @@
+{
+  "mode": "internal_only",
+  "mode_epoch": "b4b45c2ad39b4d37ac45b0d26321b8eb",
+  "uses_llm": false,
+  "schema": "hermes-trading-recommendation-v1",
+  "auto_apply": true,
+  "restart_after_apply": false,
+  "llm_provider": "round-plan-10m5m",
+  "summary": "แผนจากรอบ 10/5 นาที: range_buy band 0.163->0.193 / 0.223->0.213; range_sell band 0.13->0.16 / 0.19->0.18; mean_reversion_buy band 0.132->0.162 / 0.192->0.182",
+  "round_plan": true,
+  "generated_at": "2026-09-14 23:40",
+  "changes": [
+    {
+      "action": "set_gate",
+      "strategy": "range",
+      "side": "buy",
+      "raw_low": 0.193,
+      "raw_high": 0.213,
+      "reason": "band plan: low 0.163->0.193 high 0.223->0.213 net=$-0.144(n=17)"
+    },
+    {
+      "action": "set_gate",
+      "strategy": "range",
+      "side": "sell",
+      "raw_low": 0.16,
+      "raw_high": 0.18,
+      "reason": "band plan: low 0.13->0.16 high 0.19->0.18 net=$-0.011(n=38)"
+    },
+    {
+      "action": "set_gate",
+      "strategy": "mean_reversion",
+      "side": "buy",
+      "raw_low": 0.162,
+      "raw_high": 0.182,
+      "reason": "band plan: low 0.132->0.162 high 0.192->0.182 net=$-0.107(n=39)"
+    }
+  ]
+}

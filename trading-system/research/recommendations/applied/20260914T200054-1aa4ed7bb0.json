@@ -1,0 +1,22 @@
+{
+  "mode": "internal_llm_join",
+  "mode_epoch": "687d31d0d98f4b7cb991538b288dcf09",
+  "uses_llm": true,
+  "schema": "hermes-trading-recommendation-v1",
+  "auto_apply": true,
+  "restart_after_apply": false,
+  "llm_provider": "round-plan-10m5m",
+  "summary": "แผนจากรอบ 10/5 นาที: trend_sell band 0.806->0.776 / 0.947->0.922; trend_sell probability 0.54->0.53; range_buy band 0.164->0.224 / 0.231->0.259; range_buy probability 0.57->0.58; range_sell band 0.134->0.194 / 0.22->0.214; range_sell probability 0.57->0.58",
+  "round_plan": true,
+  "generated_at": "2026-09-14 20:00",
+  "changes": [
+    {
+      "action": "set_gate",
+      "strategy": "trend",
+      "side": "sell",
+      "raw_low": 0.769,
+      "raw_high": 0.884,
+      "reason": "band plan: low 0.806->0.769 high 0.922->0.884 net=$+0.059(n=22)"
+    }
+  ]
+}

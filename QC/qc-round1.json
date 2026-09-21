@@ -1,0 +1,115 @@
+{
+ "_credit": "Python Qaunt Trading + AI(LLM) Live Research อัพเดทใหญ่เพิ่มความฉลาดและความรอบคอบเข้าสู่ระดับผู้ทรงภูมิปัญญา เทรดในไทยมีกฎหมายรองรับ 100% Settrade e-Open Account · MTS Gold Futures + MT5 https://oacc.settrade.com/e-open-account/landing?brokerId=060&openExternalBrowser=1&utm_source=chatgpt.com ผู้สร้างระบบ (Creator): Kanutsanan Pongpanna — facebook.com/LoveMoneyTH / youtube.com/@lovemoneythofficial โปรดเก็บเครดิตผู้สร้างไว้ในทุกไฟล์และทุกส่วนของระบบ — ห้ามลบ",
+ "round": 1,
+ "revision": 1,
+ "package": "B",
+ "passed": 21,
+ "total": 21,
+ "checks": [
+  {
+   "name": "โครงสร้างไฟล์บังคับครบ (แพ็ก B)",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "name": "ไม่มีความลับ/รหัส/UUID ค้างในแพ็ก",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "name": "ไม่มีไฟล์สถานะสด/ความลับ",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "name": "live_enabled ปิดในแพ็กแจกจ่าย",
+   "passed": true,
+   "detail": "False"
+  },
+  {
+   "name": "ค่าโรงงานเก็บครบ 29 คีย์",
+   "passed": true,
+   "detail": "29 คีย์"
+  },
+  {
+   "name": "ไม่มี path ตายตัวของผู้สร้างในโค้ด",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "name": "เทสต์ shim ออฟไลน์ 22 ตัว (รันในสำเนาแจกจ่าย)",
+   "passed": true,
+   "detail": "['Ran 22 tests in 0.304s', 'OK']"
+  },
+  {
+   "name": "เทสต์ระบบเดิม 68 ตัว (รันในสำเนาแจกจ่าย)",
+   "passed": true,
+   "detail": "['Ran 68 tests in 0.504s', 'OK (skipped=3)']"
+  },
+  {
+   "name": "โมดูลหลัก import ได้ + ชื่อโหมดถูกต้อง",
+   "passed": true,
+   "detail": "default_mode=internal_llm_join\nmode1_title=เทรดด้วยสัญญาณภายใน\nmode2_title=เทรดร่วมสัญญาณ AI"
+  },
+  {
+   "name": "คลังงานวิจัยครบ (>=550 ไฟล์)",
+   "passed": true,
+   "detail": "560 ไฟล์"
+  },
+  {
+   "name": "สคริปต์ทั้ง 5 ของแพ็ก compile ผ่าน",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "name": "นิยามรุ่นใหม่ + เครดิต ครบในไฟล์สำคัญแพ็ก B",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "name": "คำชี้แจงแจกจ่ายครบใน README + SKILL",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "name": "ไม่มีไฟล์สำรอง/แคช ค้างในแพ็ก",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "name": "LICENSE + THIRD-PARTY-NOTICES อยู่ในแพ็ก",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "name": "manifest ครอบทุกไฟล์จริง + ชื่อแพ็กถูก",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "name": "SKILL.md frontmatter ผ่าน YAML จริง + คีย์ clawhub ครบ",
+   "passed": true,
+   "detail": "frontmatter_ok\nkeys: ['emoji', 'envVars', 'homepage', 'install', 'primaryEnv', 'requires']"
+  },
+  {
+   "name": ".clawhubignore: เก็บของสำคัญ / กันความลับ ถูกต้อง",
+   "passed": true,
+   "detail": "{'keep_fail': [], 'drop_fail': []}"
+  },
+  {
+   "name": "README: ตารางค่าโรงงาน 29 แถว + หัวข้อครบ",
+   "passed": true,
+   "detail": "{'rows': 29, 'sections': True}"
+  },
+  {
+   "name": "สคริปต์ MetaAPI อ่านคีย์จาก environment + มีการอ้าง order_send",
+   "passed": true,
+   "detail": "[]"
+  },
+  {
+   "name": "หลักฐานมาสก์เลขบัญชีโบรกเกอร์",
+   "passed": true,
+   "detail": "****798 present"
+  }
+ ]
+}

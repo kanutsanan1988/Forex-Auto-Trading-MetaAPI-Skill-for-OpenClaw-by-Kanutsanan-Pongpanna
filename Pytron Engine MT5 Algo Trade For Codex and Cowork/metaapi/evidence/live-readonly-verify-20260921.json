@@ -1,0 +1,86 @@
+{
+  "_credit": "Python Qaunt Trading + AI(LLM) Live Research อัพเดทใหญ่เพิ่มความฉลาดและความรอบคอบเข้าสู่ระดับผู้ทรงภูมิปัญญา เทรดในไทยมีกฎหมายรองรับ 100% Settrade e-Open Account · MTS Gold Futures + MT5 https://oacc.settrade.com/e-open-account/landing?brokerId=060&openExternalBrowser=1&utm_source=chatgpt.com ผู้สร้างระบบ (Creator): Kanutsanan Pongpanna — facebook.com/LoveMoneyTH / youtube.com/@lovemoneythofficial โปรดเก็บเครดิตผู้สร้างไว้ในทุกไฟล์และทุกส่วนของระบบ — ห้ามลบ",
+  "status": "connected_read_only",
+  "credential_source": "sample-file(runtime-only)",
+  "order_send_called": false,
+  "read_only": true,
+  "checks": {
+    "terminal_info": {
+      "connected": true,
+      "trade_allowed": true
+    },
+    "account_info": {
+      "login_masked": "****798",
+      "server": "OANDA_Global-Live-1",
+      "currency": "USD",
+      "balance": 10.44,
+      "equity": 10.44,
+      "margin_free": 10.44,
+      "trade_allowed": true,
+      "leverage": 100
+    },
+    "symbol_info": {
+      "name": "XAUUSD.sml",
+      "digits": 3,
+      "point": 0.001,
+      "volume_min": 0.001,
+      "volume_max": 30.0,
+      "volume_step": 0.001,
+      "trade_tick_value": 0.1,
+      "trade_tick_size": 0.001,
+      "spread": 0,
+      "trade_contract_size": 100.0
+    },
+    "tick": {
+      "bid": 4348.12,
+      "ask": 4348.275,
+      "time": 1789982925,
+      "utc_now": 1789972126,
+      "offset_seconds": 10800
+    },
+    "rates_M1": {
+      "bars": 300,
+      "first": 1789964940,
+      "last": 1789982880,
+      "last_close_before_now": true,
+      "high_ge_low": true,
+      "numpy_ok": true
+    },
+    "rates_M5": {
+      "bars": 300,
+      "first": 1789716300,
+      "last": 1789982700,
+      "last_close_before_now": true,
+      "high_ge_low": true,
+      "numpy_ok": true
+    },
+    "rates_H1": {
+      "bars": 300,
+      "first": 1788332400,
+      "last": 1789981200,
+      "last_close_before_now": true,
+      "high_ge_low": true,
+      "numpy_ok": true
+    },
+    "positions_get": {
+      "count": 0,
+      "detail": []
+    },
+    "order_calc_margin": 4.35,
+    "order_calc_profit": -0.02349999999996726,
+    "order_check_simulated": {
+      "retcode": 0,
+      "balance": 10.44,
+      "equity": 10.44,
+      "margin": 4.35,
+      "margin_free": 6.09,
+      "comment": "Done"
+    },
+    "order_send_blocked_in_read_only": {
+      "retcode": 10017,
+      "blocked": true
+    }
+  },
+  "errors": [],
+  "generated_utc": "2026-09-21T06:28:58.200437+00:00"
+}

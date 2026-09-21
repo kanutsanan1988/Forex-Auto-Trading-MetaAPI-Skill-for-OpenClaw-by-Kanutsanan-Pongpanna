@@ -1,0 +1,87 @@
+{
+  "_credit": "Python Qaunt Trading + AI(LLM) Live Research อัพเดทใหญ่เพิ่มความฉลาดและความรอบคอบเข้าสู่ระดับผู้ทรงภูมิปัญญา เทรดในไทยมีกฎหมายรองรับ 100% Settrade e-Open Account · MTS Gold Futures + MT5 https://oacc.settrade.com/e-open-account/landing?brokerId=060&openExternalBrowser=1&utm_source=chatgpt.com ผู้สร้างระบบ (Creator): Kanutsanan Pongpanna — facebook.com/LoveMoneyTH / youtube.com/@lovemoneythofficial โปรดเก็บเครดิตผู้สร้างไว้ในทุกไฟล์และทุกส่วนของระบบ — ห้ามลบ",
+  "schema": "hermes-trading-recommendation-v1",
+  "llm_provider": "quant-analysis (Hermes)",
+  "summary": "Auto-apply quant: tighten trend/mean_reversion bands, widen range, เอียง weight เข้า range/breakout (จากงานวิจัยกลไก↔P/L: range +$1.57 vs trend -$2.74)",
+  "auto_apply": true,
+  "restart_after_apply": true,
+  "research_reference": "research/2026-09-12-mechanism-profit-analysis.md",
+  "changes": [
+    {
+      "action": "set_gate",
+      "strategy": "trend",
+      "side": "buy",
+      "raw_low": 0.52,
+      "raw_high": 0.78,
+      "reason": "trend ขาดทุน รวม — กรองเฉพาะสัญญาณแข็ง"
+    },
+    {
+      "action": "set_gate",
+      "strategy": "trend",
+      "side": "sell",
+      "raw_low": 0.52,
+      "raw_high": 0.78,
+      "reason": "trend ขาดทุน รวม — กรองเฉพาะสัญญาณแข็ง"
+    },
+    {
+      "action": "set_gate",
+      "strategy": "mean_reversion",
+      "side": "buy",
+      "raw_low": 0.3,
+      "raw_high": 0.48,
+      "reason": "MR ขาดทุน -$0.56 กรอง band ให้แคบขึ้น"
+    },
+    {
+      "action": "set_gate",
+      "strategy": "mean_reversion",
+      "side": "sell",
+      "raw_low": 0.3,
+      "raw_high": 0.48,
+      "reason": "MR ขาดทุน -$0.56 กรอง band ให้แคบขึ้น"
+    },
+    {
+      "action": "set_gate",
+      "strategy": "range",
+      "side": "buy",
+      "raw_low": 0.22,
+      "raw_high": 0.4,
+      "reason": "range กำไรสุด +$1.57 wr65% — ขยาย band เพิ่มโอกาส"
+    },
+    {
+      "action": "set_gate",
+      "strategy": "range",
+      "side": "sell",
+      "raw_low": 0.22,
+      "raw_high": 0.4,
+      "reason": "range กำไรสุด +$1.57 wr65% — ขยาย band เพิ่มโอกาส"
+    },
+    {
+      "action": "set_gate",
+      "strategy": "breakout",
+      "side": "buy",
+      "raw_low": 0.68,
+      "raw_high": 0.95,
+      "reason": "breakout กำไร +$0.48 เปิด band กว้างหน่อย"
+    },
+    {
+      "action": "set_gate",
+      "strategy": "breakout",
+      "side": "sell",
+      "raw_low": 0.68,
+      "raw_high": 0.95,
+      "reason": "breakout กำไร +$0.48 เปิด band กว้างหน่อย"
+    },
+    {
+      "action": "set_weights",
+      "strategy_weights": {
+        "range": 1.2,
+        "breakout": 1.1,
+        "trend": 0.85,
+        "mean_reversion": 0.85,
+        "counter_trend": 0.95,
+        "breakout_reversal": 1.0
+      },
+      "reason": "เอียงน้ำหนักตามกำไรจริง"
+    }
+  ]
+}

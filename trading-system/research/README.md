@@ -1,0 +1,66 @@
+<!--
+  Python Qaunt Trading + AI(LLM) Live Research
+  อัพเดทใหญ่เพิ่มความฉลาดและความรอบคอบเข้าสู่ระดับผู้ทรงภูมิปัญญา
+  เทรดในไทยมีกฎหมายรองรับ 100%
+  Settrade e-Open Account · MTS Gold Futures + MT5
+  https://oacc.settrade.com/e-open-account/landing?brokerId=060&openExternalBrowser=1&utm_source=chatgpt.com
+  ผู้สร้างระบบ (Creator): Kanutsanan Pongpanna — facebook.com/LoveMoneyTH / youtube.com/@lovemoneythofficial
+  โปรดเก็บเครดิตผู้สร้างไว้ในทุกไฟล์และทุกส่วนของระบบ — ห้ามลบ
+-->
+
+<!--
+  ระบบเทรดทองคำอัตโนมัติ (Gold Auto Trading System)
+  ผู้สร้างระบบ (Creator): Kanutsanan Pongpanna
+    Facebook: https://www.facebook.com/LoveMoneyTH
+    YouTube:  https://youtube.com/@lovemoneythofficial
+  โปรดเก็บเครดิตผู้สร้างไว้ในทุกไฟล์และทุกส่วนของระบบ — ห้ามลบ
+-->
+# งานวิจัยระบบเทรดทองคำ — ดัชนีหลัก (MAIN INDEX)
+
+สถานะงานวิจัย: กำลังดำเนินการต่อเนื่อง (loop autopilot: เช็คเทรดд → วิจัย → เขียนวิจัย)
+อัปเดตล่าสุด: 2026-09-11
+
+## โฟลเดอร์/ไฟล์ใน research/
+
+| ไฟล์ | เนื้อหา |
+|---|---|
+| **`2026-09-14-stage-order-and-band-flexibility.md`** | ★ **งานวิจัยวันนี้**: (1) **ลำดับด่าน — ประตู net เป็นด่าน 1** (คำสั่งเจ้าองระบบ) + การจำลองจาก 970 รอบจริง + โค้ด `side_net_deferred_keys` · (2) **ความจริงของ weighted ≠ raw** (เท่ากับ raw เพียง 22.9% → แก้บั๊ก band mirror) · (3) กติกาการรายงาน (ด่าน 1 ก่อนเสมอ) · (4) วิจัยความยืดหยุ่นด่าน 2 (สรุป: คงเกณฑ์เดิม — ผ่อนกว้างขาดทุน −59 USD) · (5) ตรวจยืนยันกลไกถือกำไร 3 ข้อ |
+| **`2026-09-13-trading-modes-internal-vs-llm.md`** | ★ **โหมดการเทรด 2 โหมด (เลือกได้เองตอนเริ่มใช้งาน)**: (1) เทรดด้วยสัญญาณภายใน (ไม่ใช้/ไม่เรียก LLM) · (2) เทรดร่วมสัญญาณ AI (LLM) รวมสองเสียง 50:50 — กลไก `trading_mode()` ใน `llm_signal_parser.py`, เมนู `choose_mode.cmd`, การตั้ง cron ตามโหมด, หลักฐานทดสอบ, pitfalls, แนวทางพัฒนา (โหมดที่ 3/P veto, ปรับสัดส่วนเสียง, GUI) |
+| **`2026-09-13-structural-tuning-from-rounds.md`** | ★ **งานวิจัย (จุดเริ่มต้นสำหรับผู้พัฒนาต่อ)**: ให้รอบ 10/5 นาทีปรับ **โครงสร้างการตั้งค่า** = 36 ค่า (band raw/probability/weighted) + **เกณฑ์การสร้าง TP/SL** อัตโนมัติ ผ่าน REC + Testing Gate + **hot reload (ไม่ต้องรีสตาร์ท)** · มีกติกาก้าวปรับ, ขอบเขตปลอดภัย, pitfalls, คำสั่งตรวจซ้ำ, แนวทางพัฒนาต่อ, ผลตรวจสุขภาพระบบ |
+| `2026-09-12-architecture-llm-agnostic.md` | สถาปัตยกรรม 3 ชั้น (python เทรด → python บันทึก → LLM วิจัย) |
+| `2026-09-12-auto-threshold-design.md` | **งานวิจัย**: Auto-Threshold 36 ค่า + Market Hours XAUUSD |
+| `2026-09-12-auto-threshold-v2-reversal-safe.md` | band บน (raw_max) กันสกอร์สุดขั้ว = เสี่ยงกลับตัว |
+| `2026-09-12-auto-threshold-vs-trading.md` | AT vs การเทรดจริง (ความถี่ + net) |
+| `2026-09-12-mechanism-profit-analysis.md` | กลไก ↔ P/L (range ดีสุด / trend แย่สุด) |
+| `2026-09-12-ranking-prob-vs-weight.md` | ranking prob vs weight |
+| `2026-09-12-do-prob-weight-need-bands.md` | prob/weight ต้องมี band ไหม |
+| `2026-09-12-live-reload-and-lifecycle.md` | lifecycle + live-reload ของระบบ |
+| `2026-09-11-threshold-research.md` | งานวิจัย Threshold (raw/probability/weighted) + root cause "เทรดдยาก" |
+| `2026-09-08-threshold-study/` | งานวิจัยเดิม (ก่อนปรับปรุง) |
+| `live/` | บันทึก monitoring รายนาที + สถิติผลเทรดдจริง |
+| `proposals/` | ข้อเสนอปรับปรุงระบบ (รออนุมัติ) |
+| `collaboration-history.md` | ประวัติการทำงานร่วมกัน (user + agent) |
+
+## บันทึกงานวิจัยรายวัน (daily/)
+- `research/daily/YYYY-MM-DD.md` — สรุปอัตโนมัติจากข้อมูลจริง (ไม้/net · 🚦 ด่าน 1 · 🎯 ด่าน 2 · ค่าที่ระบบปรับเอง · กลไกถือกำไร)
+  + ส่วน `NOTES` ที่บันทึกหัวข้อที่คุยกัน/ตัดสินใจในวันนั้น
+- สร้าง/อัปเดตด้วย `hermes/scripts/daily_research_log.py` (cron รายวัน 23:50) — รันซ้ำได้ ไม่ทับส่วน NOTES
+- ข้อกำหนด: **ทุกวันที่มีการคุย/แก้/ปรับระบบ ต้องมีบันทึกของวันนั้น** (ดู `AGENTS.md` หัวข้อ "Daily research log")
+
+## ผู้สร้างระบบ (Creator)
+**Kanutsanan Pongpanna** · Facebook: https://www.facebook.com/LoveMoneyTH · YouTube: https://youtube.com/@lovemoneythofficial
+(เครดิตนี้อยู่ในทุกไฟล์ของระบบ — ไฟล์ใหม่ทุกไฟล์ต้องใส่ด้วย ตามข้อกำหนดใน `AGENTS.md`)
+
+## หลักการ (จากที่ผู้ใช้ตั้ง)
+1. ผู้ใช้ให้สิทธิ์ผมเปิด/ปิดระบบเทรดдอัตโนมัติ และแก้ไขระบบเทรดдทั้งหมดใน `D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ` ได้เต็มที่
+2. กฎเดิม: ใช้ข้อมูล MT5 จริงเท่านั้น ห้ามสมมติ/เดา; ซื้อขายเงินจริงควรยืนยันก่อน
+3. Loop: อ่านงานวิจัย → เช็คเทรดд (ทุกนาที) → วิจัย → เขียนงานวิจัยลง research/ → วนลูป
+4. เป้าหมาย: ทำระบบ python นี้ให้สมบูรณ์แบบที่สุดเท่าที่จะทำได้ (quant trading) ตามกระบวนการที่วางไว้
+5. ผู้ใช้สั่งเปลี่ยนโมเดล OpenRouter ในโปรเจกต์นี้ได้เองตาม AGENTS.md (deepseek-v4-flash-0731)
+6. **สไตล์การเทรดเป็นของใครของมัน — คิดแทนกันไม่ได้** (เจ้าของระบบกำหนดไว้): "สไตล์การเทรดมันคิดแทนกันไม่ได้ มันชอบแทนกันไม่ได้ รูปแบบของใครของมันอยู่แล้ว เป็นอุปนิสัยของใครของมัน ผมก็เลยออกแบบมาให้ปรับแต่งได้ตามสไตล์ของตนเองต่อไปได้" → ระบบนี้ส่งมอบเป็น **จุดเริ่มต้น** ผู้รับช่วง **ปรับแต่งได้ตลอดเวลาตามจินตนาการของตนเอง** (แผนที่จุดปรับแต่งทั้งหมด: `README.md` หัวข้อ "สารถึงผู้ที่จะนำระบบไปใช้ต่อ" · เจตนารมณ์ฉบับเต็ม: `collaboration-history.md`)
+- [2026-09-15 ด่าน 3 สองฝั่ง + ประตู net แบบมีอายุ + ความกว้างขั้นต่ำมาตรฐาน](2026-09-15-stage3-two-sides-and-net-gate-age.md)
+
+## ประวัติการพัฒนา (Development History)
+- **[สารบัญประวัติการพัฒนา](ประวัติการพัฒนา-สารบัญ.md)** — จุดเริ่มต้นสำหรับผู้พัฒนารุ่นต่อไป
+- **19 ก.ย. 2026:** [ส่วนที่ 1 — โครงสร้างและกลไก](2026-09-19-ประวัติการพัฒนา-ส่วนที่-1-โครงสร้างและกลไก.md) ·
+  [ส่วนที่ 2 — บทเรียนและแนวทางพัฒนาต่อ](2026-09-19-ประวัติการพัฒนา-ส่วนที่-2-บทเรียนและแนวทาง.md)

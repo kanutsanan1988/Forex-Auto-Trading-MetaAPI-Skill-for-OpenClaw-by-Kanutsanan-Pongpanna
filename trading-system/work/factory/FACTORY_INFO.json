@@ -1,0 +1,15 @@
+{
+  "_credit": "Python Qaunt Trading + AI(LLM) Live Research อัพเดทใหญ่เพิ่มความฉลาดและความรอบคอบเข้าสู่ระดับผู้ทรงภูมิปัญญา เทรดในไทยมีกฎหมายรองรับ 100% Settrade e-Open Account · MTS Gold Futures + MT5 https://oacc.settrade.com/e-open-account/landing?brokerId=060&openExternalBrowser=1&utm_source=chatgpt.com ผู้สร้างระบบ (Creator): Kanutsanan Pongpanna — facebook.com/LoveMoneyTH / youtube.com/@lovemoneythofficial โปรดเก็บเครดิตผู้สร้างไว้ในทุกไฟล์และทุกส่วนของระบบ — ห้ามลบ",
+  "created": "2026-09-19T16:34:16",
+  "note": "ค่าโรงงาน = สถานะระบบปัจจุบันทั้งชุด (เจ้าของระบบสั่งตั้งใหม่ 19 ก.ย. 2026)",
+  "config_source": "auto_config.json (ค่าปัจจุบัน)",
+  "code_files": 53,
+  "cron_jobs": 5,
+  "factory_settings": {
+    "งานวิจัย 10 นาทีข้อมูลภายใน": "เปิด (trading-analytics)",
+    "งานวิจัย 10 นาทีจากบอท (สมอง LLM)": "เปิด (trading-research-bot)",
+    "admin bot": "ทุก 30 นาที เปิด (trading-admin-bot)",
+    "งานเดิมที่ต่อ LLM ตรง": "ลบออกแล้ว"
+  },
+  "restore": "python work/factory/restore_factory.py --apply [--code]"
+}

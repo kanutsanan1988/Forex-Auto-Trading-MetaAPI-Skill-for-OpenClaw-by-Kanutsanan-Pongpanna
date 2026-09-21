@@ -1,0 +1,30 @@
+{
+  "_credit": "Python Qaunt Trading + AI(LLM) Live Research อัพเดทใหญ่เพิ่มความฉลาดและความรอบคอบเข้าสู่ระดับผู้ทรงภูมิปัญญา เทรดในไทยมีกฎหมายรองรับ 100% Settrade e-Open Account · MTS Gold Futures + MT5 https://oacc.settrade.com/e-open-account/landing?brokerId=060&openExternalBrowser=1&utm_source=chatgpt.com ผู้สร้างระบบ (Creator): Kanutsanan Pongpanna — facebook.com/LoveMoneyTH / youtube.com/@lovemoneythofficial โปรดเก็บเครดิตผู้สร้างไว้ในทุกไฟล์และทุกส่วนของระบบ — ห้ามลบ",
+  "status": "passed",
+  "reason": "same-snapshot bar simulation comparison",
+  "base": {
+    "trades": 49,
+    "wins": 17,
+    "losses": 32,
+    "win_rate_pct": 34.69387755102041,
+    "total_r": -6.5,
+    "average_r": -0.1326530612244898,
+    "profit_factor": 0.796875,
+    "max_drawdown_r": 13.0
+  },
+  "proposed": {
+    "trades": 49,
+    "wins": 17,
+    "losses": 32,
+    "win_rate_pct": 34.69387755102041,
+    "total_r": -6.5,
+    "average_r": -0.1326530612244898,
+    "profit_factor": 0.796875,
+    "max_drawdown_r": 13.0
+  },
+  "improved": false,
+  "limitations": "Approximate M5 simulation; not a full M1/position lifecycle replay or a guarantee of future profit",
+  "stage": "performance",
+  "rec_hash": "f107a5ad19181c5a5a9d3f65381cef56f021b42f0a93622f307e0f8210e4ff64",
+  "config_hash": "76967a37d151904bd928cac3bc50643e82855a4e063fd873fce9fe50c58d212a"
+}

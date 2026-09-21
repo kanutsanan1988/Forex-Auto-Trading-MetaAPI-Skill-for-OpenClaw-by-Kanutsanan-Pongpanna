@@ -1,0 +1,72 @@
+# ########################################################################
+# Python Qaunt Trading + AI(LLM) Live Research
+# อัพเดทใหญ่เพิ่มความฉลาดและความรอบคอบเข้าสู่ระดับผู้ทรงภูมิปัญญา
+# เทรดในไทยมีกฎหมายรองรับ 100%
+# Settrade e-Open Account · MTS Gold Futures + MT5
+# https://oacc.settrade.com/e-open-account/landing?brokerId=060&openExternalBrowser=1&utm_source=chatgpt.com
+# ผู้สร้างระบบ (Creator): Kanutsanan Pongpanna — facebook.com/LoveMoneyTH / youtube.com/@lovemoneythofficial
+# โปรดเก็บเครดิตผู้สร้างไว้ในทุกไฟล์และทุกส่วนของระบบ — ห้ามลบ
+# ########################################################################
+
+# Pytron Engine MT5 Algo Trade — กติกาการเผยแพร่ขึ้น clawhub.ai
+# Python Qaunt Trading + AI(LLM) Live Research — ผู้สร้างระบบ: Kanutsanan Pongpanna
+#
+# หลักคิด: กัน "ความลับ" และ "สถานะสด" ออก แต่ต้องเก็บ "สิ่งที่ทำให้ระบบยังทำงานได้"
+#
+# ⚠️ สองข้อที่ห้ามพลาด
+#   1) ห้ามใช้กฎ `work/` ลอย ๆ — จะลบ trading-system/work/factory/ (ค่าโรงงาน)
+#      และ trading-system/work/AUTO_TRADER_STOP (ไฟล์หยุด) จนสกิลที่เผยแพร่พัง
+#   2) ห้ามใช้ glob กว้างแบบ trading-system/work/*.json — ตัวจับคู่แบบ glob ทั่วไป
+#      ให้ `*` คร่อมเครื่องหมาย `/` ได้ จึงลบไฟล์ใน work/factory/config/ ไปด้วย
+#      ให้ระบุชื่อไฟล์สถานะตรง ๆ แทน
+
+# ---- ไบต์โค้ด/แคช ----
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---- ความลับ (ห้ามขึ้นเด็ดขาด) ----
+.env
+.env.*
+*.pem
+*.key
+*.token
+*.dpapi
+secrets/
+secrets*/
+*_api_key*
+*credential*
+
+# ---- ไฟล์ชั่วคราว/สำรอง ----
+*.tmp
+*.bak
+*.bak_*
+*_patch*
+*.orig
+*.rej
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# ---- สถานะการเทรดสด: ระบุชื่อไฟล์ตรง ๆ (ไม่ใช้ glob กว้าง) ----
+trading-system/work/AUTO_TRADER_STATE.json
+trading-system/work/auto_trader_state.json
+trading-system/work/auto_trader_audit.jsonl
+trading-system/work/agent_runs.jsonl
+trading-system/work/admin_bot_log.jsonl
+trading-system/work/auto_trader.lock
+trading-system/work/consumer.lock
+trading-system/work/research-cycle.lock
+trading-system/work/auto_trader_supervisor.lock
+trading-system/work/openrouter_api_key.machine.dpapi
+trading-system/outputs/mt5_python_bridge/auto_config.json.lock
+
+# ---- สภาพแวดล้อมจำลอง (ห้ามเผยแพร่) ----
+.venv/
+venv/
+env/

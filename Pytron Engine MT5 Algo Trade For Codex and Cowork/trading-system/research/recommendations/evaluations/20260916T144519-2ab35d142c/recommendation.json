@@ -1,0 +1,62 @@
+{
+  "mode": "internal_only",
+  "mode_epoch": "7a556a4576d8478eb9ed06e78a86b278",
+  "uses_llm": false,
+  "schema": "hermes-trading-recommendation-v1",
+  "auto_apply": true,
+  "restart_after_apply": false,
+  "llm_provider": "round-plan-10m5m",
+  "summary": "แผนจากรอบ 10/5 นาที: trend_buy band 0.719->0.742 / 0.819->0.842; range_buy band 0.09->0.128 / 0.19->0.228; range_sell band 0.291->0.321 / 0.391->0.421; mean_reversion_buy band 0.073->0.086 / 0.173->0.186; mean_reversion_sell band 0.236->0.224 / 0.336->0.324; counter_trend_sell band 0.365->0.401 / 0.468->0.501",
+  "round_plan": true,
+  "generated_at": "2026-09-16 14:45",
+  "changes": [
+    {
+      "action": "set_gate",
+      "strategy": "trend",
+      "side": "buy",
+      "raw_low": 0.742,
+      "raw_high": 0.842,
+      "reason": "band plan: low 0.719->0.742 high 0.819->0.842 net=$-0.217(n=9)"
+    },
+    {
+      "action": "set_gate",
+      "strategy": "range",
+      "side": "buy",
+      "raw_low": 0.128,
+      "raw_high": 0.228,
+      "reason": "band plan: low 0.09->0.128 high 0.19->0.228 net=$-0.111(n=21)"
+    },
+    {
+      "action": "set_gate",
+      "strategy": "range",
+      "side": "sell",
+      "raw_low": 0.321,
+      "raw_high": 0.421,
+      "reason": "band plan: low 0.291->0.321 high 0.391->0.421 net=$-0.034(n=75)"
+    },
+    {
+      "action": "set_gate",
+      "strategy": "mean_reversion",
+      "side": "buy",
+      "raw_low": 0.086,
+      "raw_high": 0.186,
+      "reason": "band plan: low 0.073->0.086 high 0.173->0.186 net=$-0.069(n=54)"
+    },
+    {
+      "action": "set_gate",
+      "strategy": "mean_reversion",
+      "side": "sell",
+      "raw_low": 0.224,
+      "raw_high": 0.324,
+      "reason": "band plan: low 0.236->0.224 high 0.336->0.324 net=$+0.154(n=38)"
+    },
+    {
+      "action": "set_gate",
+      "strategy": "counter_trend",
+      "side": "sell",
+      "raw_low": 0.401,
+      "raw_high": 0.501,
+      "reason": "band plan: low 0.365->0.401 high 0.468->0.501 net=$-0.060(n=13)"
+    }
+  ]
+}

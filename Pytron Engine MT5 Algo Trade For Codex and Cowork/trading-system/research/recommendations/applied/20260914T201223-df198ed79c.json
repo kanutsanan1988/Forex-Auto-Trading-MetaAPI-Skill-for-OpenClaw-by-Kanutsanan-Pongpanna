@@ -1,0 +1,86 @@
+{
+  "schema": "hermes-trading-recommendation-v1",
+  "auto_apply": true,
+  "restart_after_apply": false,
+  "mode": "internal_llm_join",
+  "mode_epoch": "687d31d0d98f4b7cb991538b288dcf09",
+  "uses_llm": false,
+  "llm_provider": "fill-bands-36",
+  "round_plan": false,
+  "summary": "เติม band ให้ครบ 36 ค่า (ค่ากลางเดิม → ต่อฝั่ง ไม่เปลี่ยนพฤติกรรม): trend_buy probability -> [0.58,0.85]; counter_trend_buy probability -> [0.58,0.78]; counter_trend_sell raw/weighted -> [0.35,0.58]; counter_trend_sell probability -> [0.58,0.78]; breakout_buy probability -> [0.6,0.88]; breakout_sell probability -> [0.6,0.88]",
+  "generated_at": "2026-09-14 20:12",
+  "changes": [
+    {
+      "action": "set_probability_gate",
+      "strategy": "trend",
+      "side": "buy",
+      "probability_low": 0.58,
+      "probability_high": 0.85,
+      "reason": "เติม probability band ต่อฝั่ง (ค่ากลางเดิม 0.58-0.85)"
+    },
+    {
+      "action": "set_probability_gate",
+      "strategy": "counter_trend",
+      "side": "buy",
+      "probability_low": 0.58,
+      "probability_high": 0.78,
+      "reason": "เติม probability band ต่อฝั่ง (ค่ากลางเดิม 0.58-0.78)"
+    },
+    {
+      "action": "set_gate",
+      "strategy": "counter_trend",
+      "side": "sell",
+      "raw_low": 0.35,
+      "raw_high": 0.58,
+      "reason": "เติม band ต่อฝั่งให้ครบ 36 ค่า (ค่ากลางเดิม 0.35-0.58 — พฤติกรรมไม่เปลี่ยน)"
+    },
+    {
+      "action": "set_probability_gate",
+      "strategy": "counter_trend",
+      "side": "sell",
+      "probability_low": 0.58,
+      "probability_high": 0.78,
+      "reason": "เติม probability band ต่อฝั่ง (ค่ากลางเดิม 0.58-0.78)"
+    },
+    {
+      "action": "set_probability_gate",
+      "strategy": "breakout",
+      "side": "buy",
+      "probability_low": 0.6,
+      "probability_high": 0.88,
+      "reason": "เติม probability band ต่อฝั่ง (ค่ากลางเดิม 0.6-0.88)"
+    },
+    {
+      "action": "set_probability_gate",
+      "strategy": "breakout",
+      "side": "sell",
+      "probability_low": 0.6,
+      "probability_high": 0.88,
+      "reason": "เติม probability band ต่อฝั่ง (ค่ากลางเดิม 0.6-0.88)"
+    },
+    {
+      "action": "set_probability_gate",
+      "strategy": "breakout_reversal",
+      "side": "buy",
+      "probability_low": 0.6,
+      "probability_high": 0.85,
+      "reason": "เติม probability band ต่อฝั่ง (ค่ากลางเดิม 0.6-0.85)"
+    },
+    {
+      "action": "set_gate",
+      "strategy": "breakout_reversal",
+      "side": "sell",
+      "raw_low": 0.6,
+      "raw_high": 0.9,
+      "reason": "เติม band ต่อฝั่งให้ครบ 36 ค่า (ค่ากลางเดิม 0.6-0.9 — พฤติกรรมไม่เปลี่ยน)"
+    },
+    {
+      "action": "set_probability_gate",
+      "strategy": "breakout_reversal",
+      "side": "sell",
+      "probability_low": 0.6,
+      "probability_high": 0.85,
+      "reason": "เติม probability band ต่อฝั่ง (ค่ากลางเดิม 0.6-0.85)"
+    }
+  ]
+}
