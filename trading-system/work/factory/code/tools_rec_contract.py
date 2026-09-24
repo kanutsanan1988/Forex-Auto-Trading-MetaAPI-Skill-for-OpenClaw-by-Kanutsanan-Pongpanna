@@ -1,12 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # Python Qaunt Trading + AI(LLM) Live Research
-# อัพเดทใหญ่เพิ่มความฉลาดและความรอบคอบเข้าสู่ระดับผู้ทรงภูมิปัญญา
-# เทรดในไทยมีกฎหมายรองรับ 100%
-# Settrade e-Open Account · MTS Gold Futures + MT5
-# https://oacc.settrade.com/e-open-account/landing?brokerId=060&openExternalBrowser=1&utm_source=chatgpt.com
-# ผู้สร้างระบบ (Creator): Kanutsanan Pongpanna — facebook.com/LoveMoneyTH / youtube.com/@lovemoneythofficial
-# โปรดเก็บเครดิตผู้สร้างไว้ในทุกไฟล์และทุกส่วนของระบบ — ห้ามลบ
+# ผู้สร้างระบบ (Creator): Kanutsanan Pongpanna — facebook.com/LoveMoneyTH
 """สัญญาการสื่อสารระหว่าง 'บอท (agent)' กับ 'สคริปต์ Python' — สร้างจากโค้ดจริง
 
 เจ้าของระบบกำหนด (19 ก.ย. 2026):
@@ -62,7 +57,7 @@ def build_contract():
         "| `changes` | **ลิสต์ที่ไม่ว่าง** | ถ้าไม่มีอะไรจะปรับ = **อย่าส่ง** (ไม่ใช่ส่งลิสต์ว่าง) |",
         "| `mode` | `\"{}\"` | โหมดปัจจุบัน |".format(mode.get("mode")),
         "| `mode_epoch` | `\"{}\"` | ⚠️ epoch ปัจจุบัน — ถ้าไม่ตรง consumer จะปฏิเสธ (กันคำแนะนำเก่าปน) |".format(mode.get("epoch")),
-        "| `uses_llm` | `true` (โหมด 2) | โหมด 1 ต้องเป็น false |",
+        "| `uses_llm` | บอท = `true`; Python ภายใน = `false` | บอทใช้ submit_recommendation ได้เฉพาะโหมด 2; งาน Python ยังทำงานทั้งสองโหมด |",
         "| `summary` | ข้อความสั้น | สรุปคำแนะนำ 1-2 ประโยค |",
         "| `generated_at` | เวลา ISO | ใช้ตรวจย้อน |",
         "",
@@ -77,10 +72,10 @@ def build_contract():
             lim["min_reward_risk"][0], lim["min_reward_risk"][1],
             lim["_stop_atr"][0], lim["_stop_atr"][1],
             lim["_reward_risk"][0], lim["_reward_risk"][1]),
-        "| `set_weights` | `weights` (dict: strategy → 0.5–1.5) | ปรับน้ำหนักกลยุทธ์ (ไม่ปิดกลยุทธ์) |",
+        "| `set_weights` | `strategy_weights` (dict: strategy → 0.5–1.5) | ปรับน้ำหนักกลยุทธ์ (ไม่ปิดกลยุทธ์) |",
         "| `toggle_strategy` | `strategy` · `enabled` | ⚠️ `enabled=false` ถูกห้าม (ห้ามปิดกั้นการเทรด) — ใช้ `set_weights` แทน |",
         "| `set_risk` | `max_risk_pct` | ปรับความเสี่ยงรวม (ในกรอบของระบบ) |",
-        "| `set_directional_weights` | `weights` (dict: strategy_side → 0.5–1.5) | ปรับน้ำหนักรายทิศทาง |",
+        "| `set_directional_weights` | `directional_weights` (dict: strategy_side → 0.5–1.5) | validator รับช่วงนี้; engine อาจจำกัดน้ำหนักที่ใช้จริงเพิ่มอีก |",
         "",
         "## 4) ห้ามทำ",
         "- ห้ามแตะคีย์ที่ระบบสงวนไว้: " + ", ".join(sorted(C.PROTECTED)),

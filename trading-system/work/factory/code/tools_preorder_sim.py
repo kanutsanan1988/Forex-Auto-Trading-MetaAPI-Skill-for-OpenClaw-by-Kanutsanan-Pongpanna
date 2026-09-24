@@ -1,11 +1,4 @@
 # -*- coding: utf-8 -*-
-# Python Qaunt Trading + AI(LLM) Live Research
-# อัพเดทใหญ่เพิ่มความฉลาดและความรอบคอบเข้าสู่ระดับผู้ทรงภูมิปัญญา
-# เทรดในไทยมีกฎหมายรองรับ 100%
-# Settrade e-Open Account · MTS Gold Futures + MT5
-# https://oacc.settrade.com/e-open-account/landing?brokerId=060&openExternalBrowser=1&utm_source=chatgpt.com
-# ผู้สร้างระบบ (Creator): Kanutsanan Pongpanna — facebook.com/LoveMoneyTH / youtube.com/@lovemoneythofficial
-# โปรดเก็บเครดิตผู้สร้างไว้ในทุกไฟล์และทุกส่วนของระบบ — ห้ามลบ
 """ประเมิน "ออเดอร์ล่วงหน้า": ถ้าไม่ยิง market ทันที แต่ตั้ง limit ที่ราคาดีกว่า แล้วรอ
 วัด 3 อย่าง: (1) ได้ไม้จริงกี่ % (2) ผล R เมื่อได้ (3) ไม้ที่พลาดไป (opportunity cost)
 อ้างอิงออเดอร์จริง + SL/TP จริง + ราคา M1

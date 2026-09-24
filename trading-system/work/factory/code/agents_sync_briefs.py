@@ -21,9 +21,7 @@ JOBS = os.path.expanduser("~/AppData/Local/hermes/cron/jobs.json")
 MAP = [("trading-research-bot", "brief_mode2.md", "งานวิจัยโหมด 2 (บอทเป็นสมอง LLM)"),
        ("trading-admin-bot", "brief_admin.md", "แอดมินบอท (agent — วิวัฒน์ค่าต่างๆ + วิจัยข่าว + สั่งคำสั่งได้)")]
 
-HEADER = """# อัพเดทใหญ่เพิ่มความฉลาดและความรอบคอบเข้าสู่ระดับผู้ทรงภูมิปัญญา
-# ผู้สร้างระบบ (Creator): Kanutsanan Pongpanna — facebook.com/LoveMoneyTH / youtube.com/@lovemoneythofficial
-<!-- สร้างอัตโนมัติจากงาน cron ของ Hermes — ห้ามแก้ไฟล์นี้โดยตรง
+HEADER = """<!-- สร้างอัตโนมัติจากงาน cron ของ Hermes — ห้ามแก้ไฟล์นี้โดยตรง
      แก้ที่คำสั่งงาน (cron) แล้วรัน: python agents/sync_briefs.py
      ไฟล์นี้ใช้โดย agentic AI ตัวอื่น (OpenClaw · Manus · Codex · Claude Code · Cursor · Goose ฯลฯ)
 -->

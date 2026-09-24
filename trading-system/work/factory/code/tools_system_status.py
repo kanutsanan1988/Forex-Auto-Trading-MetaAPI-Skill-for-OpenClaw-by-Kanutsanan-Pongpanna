@@ -8,12 +8,15 @@
 """สถานะระบบเทรดทองคำ — อ่านปั๊บเข้าใจปั๊บ (สำหรับผู้ดูแลระบบ)
 ผู้สร้างระบบ: Kanutsanan Pongpanna — https://www.facebook.com/LoveMoneyTH
 """
-import json, os, subprocess, datetime
+import json, os, subprocess, datetime, sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[3]          # ...\เทรดทองคำ
 BR = ROOT / 'outputs' / 'mt5_python_bridge'
 WORK = ROOT / 'work'
+sys.path.insert(0, str(BR))
+from runtime_support import MODE_TITLES
+from choose_mode import JOBS, RESEARCH_JOB, ADMIN_JOB
 
 def th(x): return x
 
@@ -21,8 +24,10 @@ def mode_info():
     try:
         d = json.loads((WORK / 'trading_mode.json').read_text(encoding='utf-8'))
         m = d.get('mode')
+        if m not in MODE_TITLES:
+            return 'โหมด: ไม่ถูกต้อง ต้องเลือกใหม่ (ไม่ถือเป็นโหมด 2 อัตโนมัติ)'
         n = '1' if m == 'internal_only' else '2'
-        t = 'เทรดด้วยสัญญาณภายใน (ไม่ใช้ LLM)' if m == 'internal_only' else 'เทรดร่วมสัญญาณ AI(LLM)'
+        t = MODE_TITLES[m]
         return f"โหมด {n}: {t}"
     except Exception as exc:
         return f"โหมด: อ่านไม่ได้ ({exc})"
@@ -53,10 +58,12 @@ def jobs():
             state = s[s.index('[') + 1:s.index(']')]
         elif s.startswith('Name:'):
             cur = s.split(':', 1)[1].strip()
-            if cur in ('trading-research', 'llm-recommendation-consumer', 'trading-analytics'):
-                label = {'trading-research': 'งานวิจัย LLM (10 นาที)',
-                         'llm-recommendation-consumer': 'ตัวรับคำแนะนำ LLM (5 นาที)',
-                         'trading-analytics': 'วิเคราะห์/วิจัยภายใน (10 นาที)'}[cur]
+            if cur in JOBS:
+                label = {RESEARCH_JOB: 'AI Signal Bot (10 นาที)',
+                         ADMIN_JOB: 'AI Admin Bot (30 นาที)',
+                         'llm-recommendation-consumer': 'ตัวรับคำแนะนำ Python/AI (5 นาที)',
+                         'trading-daily-research-log': 'Python บันทึกงานวิจัยรายวัน',
+                         'trading-analytics': 'Python วิเคราะห์/วิจัยภายใน (10 นาที)'}[cur]
                 mark = '🟢 ทำงาน' if state == 'active' else '⏸️ หยุด'
                 lines.append(f"    {label:<32} {mark}")
             cur = None; state = None

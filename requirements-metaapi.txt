@@ -1,0 +1,5 @@
+# Python Qaunt Trading + AI(LLM) Live Research — Creator: Kanutsanan Pongpanna
+# Settrade e-Open Account · MTS Gold Futures + MT5
+# https://oacc.settrade.com/e-open-account/landing?brokerId=060&openExternalBrowser=1&utm_source=chatgpt.com
+# MetaAPI compatibility layer uses NumPy to return MT5-compatible structured bars.
+numpy>=1.24,<3

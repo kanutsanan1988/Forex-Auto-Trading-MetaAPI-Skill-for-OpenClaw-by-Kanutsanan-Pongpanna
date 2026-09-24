@@ -1,12 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # Python Qaunt Trading + AI(LLM) Live Research
-# อัพเดทใหญ่เพิ่มความฉลาดและความรอบคอบเข้าสู่ระดับผู้ทรงภูมิปัญญา
-# เทรดในไทยมีกฎหมายรองรับ 100%
-# Settrade e-Open Account · MTS Gold Futures + MT5
-# https://oacc.settrade.com/e-open-account/landing?brokerId=060&openExternalBrowser=1&utm_source=chatgpt.com
-# ผู้สร้างระบบ (Creator): Kanutsanan Pongpanna — facebook.com/LoveMoneyTH / youtube.com/@lovemoneythofficial
-# โปรดเก็บเครดิตผู้สร้างไว้ในทุกไฟล์และทุกส่วนของระบบ — ห้ามลบ
+# ผู้สร้างระบบ (Creator): Kanutsanan Pongpanna — facebook.com/LoveMoneyTH
 """ตรวจสุขภาพระบบเทรดทองคำทั้งระบบ (รอบครอบทุกมุมมอง) — รันซ้ำได้ทุกครั้ง
 
 ใช้:
@@ -211,9 +206,9 @@ def main():
     try:
         jobs = json.loads(io.open(os.path.expanduser("~/AppData/Local/hermes/cron/jobs.json"),
                                   encoding="utf-8").read())["jobs"]
-        check("งาน cron ครบ 5 งาน", len(jobs) == 5)
+        check("งาน cron ครบ 7 งาน", len(jobs) == 7)
         agents_jobs = [j for j in jobs if not j.get("no_agent")]
-        check("งานแบบ agent 2 งาน (โหมด 2 + แอดมินบอท)", len(agents_jobs) == 2)
+        check("งานแบบ agent 3 งาน (โหมด 2 + แอดมินบอท + ที่ปรึกษาสมองหลัก)", len(agents_jobs) == 3)
     except Exception as exc:
         check("อ่านงาน cron", False, str(exc)[:60])
     rc, out = run([PY, os.path.join(BR, "tools", "system_status.py")], cwd=ROOT)

@@ -1,12 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # Python Qaunt Trading + AI(LLM) Live Research
-# อัพเดทใหญ่เพิ่มความฉลาดและความรอบคอบเข้าสู่ระดับผู้ทรงภูมิปัญญา
-# เทรดในไทยมีกฎหมายรองรับ 100%
-# Settrade e-Open Account · MTS Gold Futures + MT5
-# https://oacc.settrade.com/e-open-account/landing?brokerId=060&openExternalBrowser=1&utm_source=chatgpt.com
-# ผู้สร้างระบบ (Creator): Kanutsanan Pongpanna — facebook.com/LoveMoneyTH / youtube.com/@lovemoneythofficial
-# โปรดเก็บเครดิตผู้สร้างไว้ในทุกไฟล์และทุกส่วนของระบบ — ห้ามลบ
+# ผู้สร้างระบบ (Creator): Kanutsanan Pongpanna — facebook.com/LoveMoneyTH
 """คำสั่งที่ 'แอดมินบอท (agent)' สั่งระบบได้ — จุดเดียวที่บอทคุยกับสคริปต์ Python
 
 เจ้าของระบบกำหนด (19 ก.ย. 2026):
@@ -34,7 +29,6 @@ import glob
 import io
 import json
 import os
-import shutil
 import subprocess
 import sys
 
@@ -70,9 +64,9 @@ COMMANDS = {
         "writes": "auto_config.json",
     },
     "restore_factory": {
-        "desc": "คืนค่าโรงงานทั้งชุด (config + โค้ด + cron) — ใช้เมื่อระบบเพี้ยน",
+        "desc": "คืนเฉพาะค่าที่ Admin Bot มีสิทธิ์ปรับจากค่าโรงงาน (ไม่คืนโค้ด/cron/สิทธิ์ Live)",
         "args": {"--why": "เหตุผล (บังคับ)"},
-        "writes": "config + โค้ด (ตามค่าโรงงาน)",
+        "writes": "เฉพาะ config keys ในกรอบ Admin Bot",
     },
     "simulation": {
         "desc": "รันสคริปต์จำลอง (อ่านอย่างเดียว) เพื่อหาหลักฐานก่อนเสนอ",
@@ -174,17 +168,10 @@ def cmd_set_value(key, value, why):
     if not (lo <= v <= hi):
         print("ปฏิเสธ: ค่า %s อยู่นอกกรอบ [%s, %s]" % (v, lo, hi))
         return 6
-    from runtime_support import atomic_json
-    cfg = json.loads(io.open(CFG, encoding="utf-8").read())
-    cur = get_path(cfg, key)
-    if cur is not None and abs(float(cur) - v) < 1e-9:
-        print("ไม่มีการเปลี่ยนแปลง (ค่าเดิม = %s)" % cur)
-        return 0
-    shutil.copy(CFG, CFG + ".bak_admincmd_" + datetime.datetime.now().strftime("%Y%m%d_%H%M%S"))
-    set_path(cfg, key, v)
-    atomic_json(CFG, cfg)
-    log("admin_command_set_value", key=key, **{"from": cur, "to": v}, why=why)
-    print("ปรับแล้ว: %s : %s -> %s (กรอบ %s..%s)" % (key, cur, v, lo, hi))
+    from admin_config import apply_values
+    _, changes = apply_values(CFG, {key: v}, b, root=ROOT)
+    log("admin_command_set_value", changes=changes, why=why)
+    print("ผลการปรับค่า:", changes)
     return 0
 
 
@@ -199,14 +186,16 @@ def cmd_admin_round(apply_):
 
 
 def cmd_rollback_last():
-    baks = sorted(glob.glob(CFG + ".bak_adminbot_*") + glob.glob(CFG + ".bak_admincmd_*"))
+    baks = sorted(glob.glob(CFG + ".bak_adminbot_*") + glob.glob(CFG + ".bak_admincmd_*"), key=os.path.getmtime)
     if not baks:
         print("ไม่มีไฟล์สำรองให้คืนค่า")
         return 2
-    shutil.copy(CFG, CFG + ".bak_before_rollback_" + datetime.datetime.now().strftime("%Y%m%d_%H%M%S"))
-    shutil.copy(baks[-1], CFG)
-    log("admin_command_rollback", restored_from=os.path.basename(baks[-1]))
-    print("คืนค่า config จากสำรองล่าสุดแล้ว:", os.path.basename(baks[-1]))
+    from admin_config import restore_values
+    with io.open(baks[-1], encoding='utf-8') as fh:
+        snapshot = json.load(fh)
+    _, changes = restore_values(CFG, snapshot, bounds(), root=ROOT)
+    log("admin_command_rollback", restored_from=os.path.basename(baks[-1]), changes=changes)
+    print("คืนเฉพาะค่าที่อนุญาตแล้ว:", os.path.basename(baks[-1]), changes)
     return 0
 
 
@@ -214,16 +203,21 @@ def cmd_restore_factory(why):
     if not why:
         print("ปฏิเสธ: restore_factory ต้องระบุ --why")
         return 2
-    r = subprocess.run([PY, os.path.join(ROOT, "work", "factory", "restore_factory.py")],
-                       capture_output=True, text=True, encoding="utf-8", errors="replace", timeout=600)
-    print((r.stdout or "") + (r.stderr or ""))
-    log("admin_command_restore_factory", why=why, rc=r.returncode)
-    return r.returncode
+    from admin_config import restore_values
+    with io.open(os.path.join(ROOT, 'work', 'factory', 'config', 'auto_config.factory.json'), encoding='utf-8') as fh:
+        snapshot = json.load(fh)
+    _, changes = restore_values(CFG, snapshot, bounds(), root=ROOT)
+    log("admin_command_restore_factory", why=why, changes=changes)
+    print('คืนเฉพาะค่าที่อนุญาตจากโรงงาน:', changes)
+    return 0
 
 
 def cmd_simulation(tool):
     if not tool or not tool.endswith("_sim.py"):
         print("ปฏิเสธ: อนุญาตเฉพาะไฟล์ *_sim.py ใน tools/")
+        return 2
+    if os.path.basename(tool) != tool or '/' in tool or '\\' in tool:
+        print('ปฏิเสธ: ต้องเป็นชื่อไฟล์ภายใน tools เท่านั้น')
         return 2
     path = os.path.join(HERE, tool)
     if not os.path.exists(path):
@@ -249,7 +243,11 @@ def cmd_job(action, name):
     if "admin" in name.lower() and action == "pause":
         print("ปฏิเสธ: ห้ามพักงานแอดมินบอทเอง")
         return 5
-    hermes = os.path.expanduser("~/AppData/Local/hermes/hermes-agent/venv/Scripts/hermes.exe")
+    from choose_mode import JOBS, hermes_executable
+    if name not in JOBS:
+        print('ปฏิเสธ: ไม่ใช่งานของระบบเทรดที่อนุญาต')
+        return 6
+    hermes = hermes_executable()
     r = subprocess.run([hermes, "cron", action, name], capture_output=True, text=True,
                        encoding="utf-8", errors="replace", timeout=120)
     print((r.stdout or r.stderr or "").strip()[:300])
@@ -299,6 +297,18 @@ def main():
             print("  ✗ " + f)
         print("\nหมายเหตุ: ทุกคำสั่งถูกบันทึกที่ work/admin_bot_log.jsonl")
         return 0
+
+    # Reading documentation/statistics remains available in either mode. Commands
+    # made by the AI admin may not mutate the system in Python-only mode or STOP.
+    mutating = (a.run in ('set_value', 'rollback_last', 'restore_factory', 'job')
+                or (a.run == 'admin_round' and a.apply))
+    if mutating:
+        from runtime_support import require_ai_mode
+        try:
+            require_ai_mode(ROOT)
+        except (ValueError, OSError) as exc:
+            print('ปฏิเสธคำสั่ง Admin Bot: %s' % exc)
+            return 10
 
     if a.run == "set_value":
         return cmd_set_value(a.key, a.value, a.why)

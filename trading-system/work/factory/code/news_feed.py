@@ -1,11 +1,6 @@
 # -*- coding: utf-8 -*-
 # Python Qaunt Trading + AI(LLM) Live Research
-# อัพเดทใหญ่เพิ่มความฉลาดและความรอบคอบเข้าสู่ระดับผู้ทรงภูมิปัญญา
-# เทรดในไทยมีกฎหมายรองรับ 100%
-# Settrade e-Open Account · MTS Gold Futures + MT5
-# https://oacc.settrade.com/e-open-account/landing?brokerId=060&openExternalBrowser=1&utm_source=chatgpt.com
-# ผู้สร้างระบบ (Creator): Kanutsanan Pongpanna — facebook.com/LoveMoneyTH / youtube.com/@lovemoneythofficial
-# โปรดเก็บเครดิตผู้สร้างไว้ในทุกไฟล์และทุกส่วนของระบบ — ห้ามลบ
+# ผู้สร้างระบบ (Creator): Kanutsanan Pongpanna — facebook.com/LoveMoneyTH
 """งานวิจัยข่าวทองคำ (News Research) — **โมดูลกลางของโปรเจกต์** (19 ก.ย. 2026)
 
 ออกแบบตามที่เจ้าของระบบกำหนด:
@@ -32,6 +27,7 @@ import os
 import re
 import ssl
 import sys
+import time
 import urllib.request
 
 BR = os.path.dirname(os.path.abspath(__file__))
@@ -221,7 +217,84 @@ def bias_summary(items):
                     f"(สัดส่วน {ratio:+.2f} · คะแนนหนุน {bull} / กด {bear})"}
 
 
-def _build_note(items, errors, hours=DIGEST_HOURS):
+
+# ──────────────── Jev (TypeSafe System One) — โมเดลตัดสินใจแบบพิมพ์ (23 ก.ย. 2026) ────────────────
+# ★ เจ้าของระบบกำหนด: "ส่วนไหนที่สามารถใช้ jev ai ช่วยงานได้ก็ใช้ได้"
+#   ใช้คีย์ OpenRouter ตัวเดียวกับสมองบอท · ถ้าเรียกไม่ได้ = ระบบเดิมทำงานต่อ (fail-safe ทุกทาง)
+JEV_CACHE_SECONDS = 600          # ไม่ยิงซ้ำถี่กว่านี้ (ค่าถูกมาก ~$0.00007/ครั้ง · กันไว้ให้ราบรื่น)
+_JEV_CACHE = {"ts": 0.0, "key": "", "data": None}
+
+
+def _jev_module():
+    """โหลดเครื่องมือ Jev (fail-safe: ไม่มีก็คืน None — ระบบเดิมทำงานต่อได้เสมอ)"""
+    try:
+        tools_dir = os.path.join(BR, "tools")
+        if tools_dir not in sys.path:
+            sys.path.insert(0, tools_dir)
+        import jev
+        return jev
+    except Exception:
+        return None
+
+
+def jev_analysis(items=None, force=False, context=None):
+    """ประเมินข่าวแบบสอบเทียบด้วย Jev → dict หรือ None ถ้าใช้ไม่ได้
+
+    ★ เจ้าของระบบกำหนด: "Jev จะทำงานพร้อมกันเพียงกับบอทของโหมด 2 และ admin bot เท่านั้น"
+      → ต้องส่ง context='mode2' หรือ 'admin' (สคริปต์ส่วนกลางเรียกเองไม่ได้)
+
+          คืน: news_score (-1..+1) · direction · conviction · already_priced · catalyst_today ·
+         theme · low_confidence  (ตัวเลขเป็น 'ความน่าจะเป็นที่สอบเทียบแล้ว' จาก Jev)
+    """
+    jev = _jev_module()
+    if jev is None:
+        return None
+    if context not in ("mode2", "admin"):
+        return None                     # ★ นอกบริบทบอท = ไม่เรียก Jev
+    try:
+        if not jev.load_config().get("use_in_news", True):
+            return None
+    except Exception:
+        pass
+    items = items if items is not None else recent(max_items=10)
+    if not items:
+        return None
+    key = "|".join(str(it.get("title"))[:60] for it in items[:8])
+    now = time.time()
+    if (not force) and _JEV_CACHE["data"] is not None and _JEV_CACHE["key"] == key \
+            and (now - _JEV_CACHE["ts"]) < JEV_CACHE_SECONDS:
+        return _JEV_CACHE["data"]
+    state = {
+        "news": [{"headline": it.get("title"), "source": it.get("source"),
+                  "keyword_score": it.get("score"), "keyword_bias": it.get("bias")}
+                 for it in items[:10]],
+        "note": "คะแนนจากคีย์เวิร์ดเป็นข้อมูลประกอบเท่านั้น — ให้ตัดสินจากเนื้อข่าวเป็นหลัก",
+    }
+    try:
+        r = jev.ask_preset("news", state, context=context)
+    except Exception:
+        return None
+    if not r.get("ok"):
+        return None
+    d = dict(r.get("derived") or {})
+    d["latency_ms"] = r.get("latency_ms")
+    d["cost_usd"] = round(int((r.get("usage") or {}).get("input_tokens") or 0) * 0.042 / 1e6, 8)
+    _JEV_CACHE.update({"ts": now, "key": key, "data": d})
+    return d
+
+
+def jev_line(items=None, context=None):
+    """บรรทัดสรุป Jev สำหรับป้อนบอท (ใช้ไม่ได้ → คืนสตริงว่าง)"""
+    jv = jev_analysis(items, context=context)
+    if not jv:
+        return ""
+    warn = " ⚠️ ความมั่นใจต่ำ" if jv.get("low_confidence") else ""
+    return ("  Jev (สอบเทียบแล้ว): ทิศทาง %s · คะแนน %+.2f · หนักแน่น %.2f · price-in แล้ว %.2f · ธีม %s%s"
+            % (jv.get("direction"), float(jv.get("news_score") or 0), float(jv.get("conviction") or 0),
+               float(jv.get("already_priced") or 0), jv.get("theme"), warn))
+
+
+def _build_note(items, errors, hours=DIGEST_HOURS, context=None):
     stamp = _now().astimezone().strftime("%Y-%m-%d %H:%M")
     lines = [f"## {stamp} — งานวิจัยข่าวทองคำ (investing.com RSS · {hours} ชม.)", ""]
     if not items:
@@ -231,6 +304,13 @@ def _build_note(items, errors, hours=DIGEST_HOURS):
         return "\n".join(lines)
     summ = bias_summary(items)
     lines.append(f"**สรุปทิศทาง:** {summ['text']} → ระดับความระวัง: **{summ['caution']}**")
+    jv = jev_analysis(items, context=context)
+    if jv:
+        lines.append("**การประเมินแบบสอบเทียบ (Jev · TypeSafe System One):** ทิศทาง **%s** · คะแนน %+.2f · "
+                     "ความหนักแน่น %.2f · ถูก price-in แล้ว %.2f · ธีมหลัก %s%s"
+                     % (jv.get("direction"), float(jv.get("news_score") or 0),
+                        float(jv.get("conviction") or 0), float(jv.get("already_priced") or 0),
+                        jv.get("theme"), "  ⚠️ ความมั่นใจต่ำ" if jv.get("low_confidence") else ""))
     lines.append("")
     lines.append("**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**")
     for name, info in themes(items).items():
@@ -246,7 +326,7 @@ def _build_note(items, errors, hours=DIGEST_HOURS):
     return "\n".join(lines)
 
 
-def _append_history(summary, themes_map, items, errors):
+def _append_history(summary, themes_map, items, errors, context=None):
     """บันทึกงานวิจัยข่าวลงประวัติ (JSONL) — หนึ่งบรรทัด = หนึ่งรอบวิจัย"""
     rec = {
         "ts": _now().isoformat(timespec="seconds"),
@@ -255,6 +335,8 @@ def _append_history(summary, themes_map, items, errors):
         "items": [{"title": it.get("title"), "score": it.get("score"),
                    "bias": it.get("bias"), "source": it.get("source")} for it in items],
         "errors": errors or [],
+        # ★ Jev: ความน่าจะเป็นที่สอบเทียบแล้ว (บอทดึงประวัติไปใช้ต่อได้)
+        "jev": (jev_analysis(items, context=context) if context else None),
     }
     try:
         os.makedirs(os.path.dirname(HISTORY), exist_ok=True)
@@ -412,7 +494,7 @@ def _write_note(note):
 
 # ────────────────────────────── จุดเรียกใช้หลัก (ครบวงจร) ──────────────────────────────
 
-def refresh(force=False, hours=DIGEST_HOURS, timeout=20):
+def refresh(force=False, hours=DIGEST_HOURS, timeout=20, jev_context=None):
     """**เรียกฟังก์ชันนี้ = ทำงานวิจัยข่าวครบวงจร**
 
     ดึงข่าว → ให้คะแนน → เก็บคลัง → วิเคราะห์ → เขียนไฟล์วิจัย
@@ -427,25 +509,25 @@ def refresh(force=False, hours=DIGEST_HOURS, timeout=20):
             items = recent(max_items=10, hours=hours)
             return {"ok": True, "skipped": True, "age_seconds": round(age, 1),
                     "new_items": 0, "items": items,
-                    "note": _build_note(items, [], hours), "errors": []}
+                    "note": _build_note(items, [], hours, context=jev_context), "errors": []}
     fresh, errors = _fetch_new(timeout=timeout)
     items = recent(max_items=10, hours=hours)
-    note = _build_note(items, errors, hours)
+    note = _build_note(items, errors, hours, context=jev_context)
     _write_note(note)
     # ★ บันทึกเป็นประวัติงานวิจัย (ให้บอทดึงไปประมวลผลภายหลังได้)
-    _append_history(bias_summary(items), themes(items), items, errors)
+    _append_history(bias_summary(items), themes(items), items, errors, context=jev_context)
     return {"ok": True, "skipped": False, "new_items": len(fresh), "items": items,
             "note": note, "errors": errors}
 
 
-def digest(max_items=12, hours=DIGEST_HOURS, timeout=20):
+def digest(max_items=12, hours=DIGEST_HOURS, timeout=20, jev_context=None):
     """**ข้อมูลข่าวสำหรับป้อนบอท** (วัตถุดิบ + สถิติตั้งต้น — ไม่ใช่บทสรุปวิจัย)
 
     เจ้าของระบบกำหนด: บอท (สมอง LLM) เป็นผู้ 'วิจัยและสรุปเอง' — ฟังก์ชันนี้จึงให้
     ข้อมูลดิบ + สถิติเชิงกล (ธีม/สัดส่วน) เพื่อให้บอทใช้ประกอบการคิด แล้วบอทเขียน
     งานวิจัยของตัวเองผ่าน save_research()
     """
-    state = refresh(hours=hours, timeout=timeout)
+    state = refresh(hours=hours, timeout=timeout, jev_context=jev_context)
     items = state["items"][:max_items]
     if not items:
         line = f"ข่าว: ยังไม่มีข่าวกระทบทองในช่วง {hours} ชม. (หรือดึงข่าวไม่ได้)"
@@ -455,6 +537,9 @@ def digest(max_items=12, hours=DIGEST_HOURS, timeout=20):
     th = themes(items)
     if th:
         lines.append("  ธีมเด่น: " + " · ".join(f"{k}({v['count']})" for k, v in list(th.items())[:3]))
+    _jl = jev_line(items, context=jev_context)
+    if _jl:
+        lines.append(_jl)
     for it in items:
         mark = {"BULL": "🟢", "BEAR": "🔴"}.get(str(it.get("bias")), "⚪")
         lines.append(f"  {mark} [{it.get('score')}] ({it.get('source')}) {it.get('title')}")
@@ -463,9 +548,9 @@ def digest(max_items=12, hours=DIGEST_HOURS, timeout=20):
     return "\n".join(lines)
 
 
-def note(hours=DIGEST_HOURS, timeout=20):
+def note(hours=DIGEST_HOURS, timeout=20, jev_context=None):
     """บันทึกวิจัยฉบับเต็ม (เรียกแล้วได้งานวิจัยข่าวด้วยในตัว)"""
-    return refresh(hours=hours, timeout=timeout)["note"]
+    return refresh(hours=hours, timeout=timeout, jev_context=jev_context)["note"]
 
 
 def run_once(hours=DIGEST_HOURS):

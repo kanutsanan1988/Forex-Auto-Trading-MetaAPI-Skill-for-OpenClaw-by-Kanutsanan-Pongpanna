@@ -1,27 +1,19 @@
-<!--
-  Python Qaunt Trading + AI(LLM) Live Research
-  อัพเดทใหญ่เพิ่มความฉลาดและความรอบคอบเข้าสู่ระดับผู้ทรงภูมิปัญญา
-  เทรดในไทยมีกฎหมายรองรับ 100%
-  Settrade e-Open Account · MTS Gold Futures + MT5
-  https://oacc.settrade.com/e-open-account/landing?brokerId=060&openExternalBrowser=1&utm_source=chatgpt.com
-  ผู้สร้างระบบ (Creator): Kanutsanan Pongpanna — facebook.com/LoveMoneyTH / youtube.com/@lovemoneythofficial
-  โปรดเก็บเครดิตผู้สร้างไว้ในทุกไฟล์และทุกส่วนของระบบ — ห้ามลบ
--->
+<!-- Python Qaunt Trading + AI(LLM) Live Research — Creator: Kanutsanan Pongpanna. Settrade e-Open Account · MTS Gold Futures + MT5. https://oacc.settrade.com/e-open-account/landing?brokerId=060&openExternalBrowser=1&utm_source=chatgpt.com -->
 
-# ขอบเขตสิทธิ์และเครดิตภายนอก
+# License and attribution boundaries
 
-เจ้าของระบบ Kanutsanan Pongpanna เลือก MIT License วันที่ 20 กันยายน 2026
-สำหรับซอร์สโค้ดและเอกสารต้นฉบับที่เจ้าของระบบมีสิทธิ์ให้อนุญาต ดู `LICENSE`
+## Project-owned material
 
-MIT นี้ไม่เปลี่ยนสิทธิ์ของ MetaTrader 5, MetaTrader5 Python package, MetaAPI,
-Hermes, Codex, Cursor, Claude/Cowork, โมเดล AI, API หรือไลบรารีอื่น
-ผู้รับต้องติดตั้งและใช้บริการเหล่านั้นภายใต้เงื่อนไขของเจ้าของแต่ละราย
-ชุดแจกจ่ายไม่รวมโปรแกรม MT5, virtual environment หรือ credentials
+- The skill wrapper, manifests, and packaging scripts use **MIT-0**, as requested for ClawHub compatibility; see the root `LICENSE`.
+- The project-owned trading source, documentation, and research use **MIT**; see `trading-system/LICENSE`.
+- Preserve the creator name and attribution in both scopes.
 
-ประวัติวิจัยอาจมีข่าว ลิงก์ ข้อมูลตลาด หรือข้อความอ้างอิงจากบุคคลภายนอก
-การแนบเพื่อบันทึกที่มาไม่ได้ให้สิทธิ์ผูกขาดหรืออนุญาตช่วงต่อแก่เนื้อหาเหล่านั้น
-โปรดรักษาที่มาและตรวจสิทธิ์ข้อมูลก่อนนำออกเผยแพร่ต่อ
+## Bundled MetaAPI SDK
 
-ข้อความชื่อรุ่น/วิสัยทัศน์ของเจ้าของไม่ใช่การรับประกันกำไรหรือข้อสรุปทางกฎหมาย
-XAUUSD ของโบรกเกอร์ต่างประเทศไม่ใช่สินค้าตัวเดียวกับ Gold Futures ใน TFEX โดยอัตโนมัติ
-ต้องตรวจใบอนุญาตโบรกเกอร์ ผลิตภัณฑ์ สัญญา ภาษี และข้อกำหนดปัจจุบันแยกกัน
+The wheel `vendor/metaapi_cloud_sdk-29.1.1-py3-none-any.whl` is the official Python client from MetaApi DMCC, distributed under the license/terms included in `metaapi/METAAPI-SDK-LICENSE.txt`. It is **not** MIT or MIT-0. Its included terms allow use for implementing applications that use the MetaAPI service and restrict competing/non-MetaAPI use absent written approval. Keep the SDK license with the wheel and verify current MetaAPI terms before redistribution or use.
+
+## Other third-party material
+
+This package does not grant rights to MetaTrader 5, brokers, market data, OpenRouter, Jev, AI platforms, or other third-party services. Research documents may cite or summarize third-party publications; retaining their sources does not grant rights to republish their content. Check each upstream license/terms before further distribution.
+
+The owner's product identity and Thailand account-opening link are not independent legal advice, regulatory verification, or a guarantee of profit. XAUUSD on a foreign MT5 broker is not automatically the same instrument as Thai TFEX Gold Futures.

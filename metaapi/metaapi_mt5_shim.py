@@ -953,7 +953,10 @@ class MetaApiMt5Shim:
             raise ValueError(f"unsupported timeframe: {timeframe}")
         broker_symbol = self._symbol_for_broker(symbol)
         collected = []
-        cursor = start_utc
+        # MetaAPI historical-candle queries require a time anchor; unlike the
+        # tick-history API, `None` does not mean "latest candles". For MT5's
+        # copy_rates_from_pos contract, anchor at now and page backward.
+        cursor = start_utc or _dt.datetime.now(_dt.timezone.utc)
         while len(collected) < limit:
             want = min(_MAX_CANDLES_PER_REQUEST, limit - len(collected))
             batch = self._rail.run(

@@ -1,5 +1,5 @@
 {
-  "live_enabled": true,
+  "live_enabled": false,
   "symbol": "XAUUSD.sml",
   "volume": 0.001,
   "max_risk_pct": 8.0,
@@ -354,7 +354,7 @@
   "openrouter": {
     "enabled": false,
     "api_key_env": "OPENROUTER_API_KEY",
-    "api_key_file": "work/openrouter_api_key.machine.dpapi",
+    "api_key_file": "work/openrouter_api_key.txt",
     "timeout_seconds": 30,
     "max_attempts": 1,
     "retry_delay_seconds": 1.0,
@@ -386,8 +386,7 @@
     "name": "Kanutsanan Pongpanna",
     "facebook": "https://www.facebook.com/LoveMoneyTH",
     "youtube": "https://youtube.com/@lovemoneythofficial",
-    "note": "ผู้สร้างระบบ — โปรดเก็บเครดิตไว้ในทุกส่วนของระบบ",
-    "definition": "Python Qaunt Trading + AI(LLM) Live Research\nอัพเดทใหญ่เพิ่มความฉลาดและความรอบคอบเข้าสู่ระดับผู้ทรงภูมิปัญญา\nเทรดในไทยมีกฎหมายรองรับ 100%\nSettrade e-Open Account · MTS Gold Futures + MT5\nhttps://oacc.settrade.com/e-open-account/landing?brokerId=060&openExternalBrowser=1&utm_source=chatgpt.com\nผู้สร้างระบบ (Creator): Kanutsanan Pongpanna — facebook.com/LoveMoneyTH / youtube.com/@lovemoneythofficial\nโปรดเก็บเครดิตผู้สร้างไว้ในทุกไฟล์และทุกส่วนของระบบ — ห้ามลบ"
+    "note": "ผู้สร้างระบบ — โปรดเก็บเครดิตไว้ในทุกส่วนของระบบ"
   },
   "stage3": {
     "enabled": true,

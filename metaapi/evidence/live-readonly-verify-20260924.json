@@ -1,0 +1,24 @@
+{
+  "checked_on": "2026-09-24",
+  "sdk": "metaapi-cloud-sdk 29.1.1",
+  "status": "connected_read_only",
+  "account_lookup_succeeded": true,
+  "deployed_state_confirmed": true,
+  "rpc_synchronized": true,
+  "account_positions_orders_read_succeeded": true,
+  "symbol_spec_received": true,
+  "history_bars_received": {
+    "M1": 320,
+    "M5": 320,
+    "M15": 320,
+    "H1": 320
+  },
+  "engine_market_frames_and_decision_path_smoked": true,
+  "read_only_guard_probe_called": true,
+  "broker_order_send_called": false,
+  "deploy_called": false,
+  "undeploy_called": false,
+  "close_or_modify_rpc_called": false,
+  "integration_certified": false,
+  "account_identifier_credentials_balances_equity_quotes_raw_bars_included": false
+}

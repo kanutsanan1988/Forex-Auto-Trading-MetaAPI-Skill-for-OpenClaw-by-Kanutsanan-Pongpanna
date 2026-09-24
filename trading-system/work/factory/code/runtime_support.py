@@ -16,7 +16,14 @@ import json
 import os
 import tempfile
 import time
+import uuid
 from pathlib import Path
+
+DEFAULT_MODE = 'internal_llm_join'
+MODE_TITLES = {
+    'internal_only': 'เทรดด้วยสัญญาณภายใน',
+    'internal_llm_join': 'เทรดร่วมสัญญาณ AI',
+}
 
 def project_root():
     return Path(os.environ.get('TRADING_PROJECT_ROOT', Path(__file__).resolve().parents[2])).resolve()
@@ -66,7 +73,7 @@ def file_lock(path, timeout=10):
     finally:
         stream.close()
 
-def write_recommendation(path, rec, source='unknown'):
+def write_recommendation(path, rec, source='unknown', defer_if_pending_llm=False):
     """เขียนคำแนะนำลง 'กล่องจดหมายไฟล์เดียว' อย่างปลอดภัย (19 ก.ย. 2026)
 
     กติกาเจ้าของระบบ: consumer อ่าน `latest_recommendation.json` **ไฟล์นี้ไฟล์เดียว**
@@ -82,7 +89,9 @@ def write_recommendation(path, rec, source='unknown'):
     if isinstance(rec, dict) and source:
         rec = dict(rec)
         rec.setdefault('source', source)
-    try:
+    # Serialize read/archive/replace, not merely the final write. A failed archive
+    # must leave the previous recommendation intact, never silently discard it.
+    with file_lock(str(path) + '.lock'):
         if path.exists():
             cur = json.loads(path.read_text(encoding='utf-8'))
             applied = path.parent / 'last_applied.json'
@@ -92,14 +101,27 @@ def write_recommendation(path, rec, source='unknown'):
                     applied_hash = json.loads(applied.read_text(encoding='utf-8')).get('rec_hash')
                 except Exception:
                     applied_hash = None
+            # The internal signal bridge runs immediately before the consumer.
+            # Do not erase a bot's unprocessed proposal before it can be tested.
+            if (defer_if_pending_llm and isinstance(rec, dict) and isinstance(cur, dict)
+                    and cur.get('uses_llm') is True
+                    and cur.get('mode_epoch') == rec.get('mode_epoch')
+                    and cur.get('mode') == rec.get('mode')):
+                failed_hash = None
+                failed = path.parent / 'last_failed.json'
+                if failed.exists():
+                    try:
+                        failed_hash = json.loads(failed.read_text(encoding='utf-8')).get('rec_hash')
+                    except (ValueError, OSError):
+                        pass
+                if digest(cur) not in (applied_hash, failed_hash):
+                    return None  # Caller must not mark its signal as submitted.
             if applied_hash != digest(cur):          # ยังไม่ถูกประมวลผล → สำรองก่อนทับ
                 superseded = path.parent / 'superseded'
                 superseded.mkdir(parents=True, exist_ok=True)
-                stamp = time.strftime('%Y%m%dT%H%M%S')
+                stamp = time.strftime('%Y%m%dT%H%M%S') + '-' + uuid.uuid4().hex
                 atomic_json(superseded / ('superseded-' + stamp + '.json'), cur)
-    except Exception:
-        pass
-    atomic_json(path, rec)
+        atomic_json(path, rec)
     return rec
 
 
@@ -116,6 +138,17 @@ def update_json(path, mutate, expected_hash=None):
 def current_mode(root=None):
     root = Path(root or project_root())
     data = json.loads((root / 'work/trading_mode.json').read_text(encoding='utf-8'))
-    if data.get('mode') not in ('internal_only', 'internal_llm_join'):
+    if data.get('mode') not in MODE_TITLES:
         raise ValueError('Choose a trading mode explicitly before starting research')
     return data
+
+
+def require_ai_mode(root=None):
+    """AI bot entry points may run only in mode 2 and while not stopped."""
+    root = Path(root or project_root())
+    mode = current_mode(root)
+    if mode['mode'] != DEFAULT_MODE:
+        raise ValueError('AI Agent Bots are disabled in mode 1')
+    if (root / 'work/AUTO_TRADER_STOP').exists():
+        raise ValueError('Kill switch present; AI Agent Bots remain stopped')
+    return mode

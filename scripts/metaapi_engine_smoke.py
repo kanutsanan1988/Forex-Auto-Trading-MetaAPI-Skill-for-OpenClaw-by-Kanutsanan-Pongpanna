@@ -38,6 +38,11 @@ import sys
 from contextlib import redirect_stdout
 from datetime import datetime, timezone
 
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 PACKAGE = os.path.dirname(HERE)
 DEFAULT_PROJECT = os.path.join(PACKAGE, "trading-system")
@@ -46,6 +51,21 @@ DEFAULT_PROJECT = os.path.join(PACKAGE, "trading-system")
 def _prepare_env() -> None:
     """บังคับโหมดอ่านอย่างเดียว "ก่อน" import สะพาน — กันออเดอร์หลุดเกินคาดคิด"""
     os.environ["METAAPI_SHIM_READ_ONLY"] = "1"
+
+
+def _safe_error_kind(value) -> str:
+    """Map adapter errors to a small allowlist; never echo raw SDK text."""
+    text = str(value or "").lower()
+    for kind in ("TimeoutError", "NotFoundException", "UnauthorizedException",
+                 "ValidationException", "InvalidArgumentException", "ConnectionError",
+                 "TypeError", "AttributeError", "RuntimeError"):
+        if kind.lower() in text:
+            return kind
+    if "no candles" in text or "no history" in text:
+        return "NoHistoryAvailable"
+    if "only " in text and " candles available" in text:
+        return "InsufficientHistory"
+    return "UnclassifiedAdapterError"
 
 
 def main() -> int:
@@ -58,8 +78,10 @@ def main() -> int:
     report: dict = {
         "checked_at_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "read_only": True,
-        "order_send_called": False,
+        "broker_order_send_called": False,
+        "read_only_guard_probe_called": False,
         "deploy_called": False,
+        "undeploy_called": False,
     }
 
     bridge = os.path.join(PACKAGE, "metaapi")
@@ -82,6 +104,7 @@ def main() -> int:
     _prepare_env()
 
     stderr_note = io.StringIO()
+    current_stage = "import_bridge"
     try:
         import metaapi_mt5_shim as mt5
     except Exception as exc:
@@ -101,6 +124,7 @@ def main() -> int:
     mt5.install_as_mt5()
 
     try:
+        current_stage = "initialize"
         if not mt5.initialize():
             err = mt5.last_error()
             print(json.dumps({"status": "failed", "stage": "initialize",
@@ -108,6 +132,7 @@ def main() -> int:
             return 2
         report["initialize"] = True
 
+        current_stage = "read_snapshot"
         account = mt5.account_info()
         symbol_name = os.environ.get("METAAPI_SYMBOL") or "XAUUSD.sml"
         symbol = mt5.symbol_info(symbol_name)
@@ -122,56 +147,34 @@ def main() -> int:
             }, ensure_ascii=False, indent=2))
             return 2
 
-        report["account"] = {
-            "currency": getattr(account, "currency", None),
-            "equity": getattr(account, "equity", None),
-            "leverage": getattr(account, "leverage", None),
-            "trade_allowed": bool(getattr(account, "trade_allowed", False)),
-        }
-        report["symbol"] = {
-            "name": getattr(symbol, "name", None),
-            "digits": getattr(symbol, "digits", None),
-            "point": getattr(symbol, "point", None),
-            "volume_min": getattr(symbol, "volume_min", None),
-            "volume_step": getattr(symbol, "volume_step", None),
-            "trade_tick_value": getattr(symbol, "trade_tick_value", None),
-        }
-        report["tick"] = {
-            "bid": getattr(tick, "bid", None),
-            "ask": getattr(tick, "ask", None),
-            "spread_points": (
-                round((float(getattr(tick, "ask", 0)) - float(getattr(tick, "bid", 0)))
-                      / float(getattr(symbol, "point", 0.001) or 0.001), 2)
-                if tick and symbol else None
-            ),
-        }
-        report["server_utc_offset_seconds"] = mt5.server_utc_offset_seconds()
+        # Output only presence checks. Do not print private account values or live quotes.
+        report["account_info_received"] = account is not None
+        report["symbol_info_received"] = symbol is not None
+        report["tick_received"] = tick is not None
 
         # ---- 1) ระบบเทรดเดิมอ่านแท่งเอง (เส้นทางจริง) ----
+        current_stage = "market_frames"
+        timeframes = {
+            "M1": mt5.TIMEFRAME_M1, "M5": mt5.TIMEFRAME_M5,
+            "M15": mt5.TIMEFRAME_M15, "H1": mt5.TIMEFRAME_H1,
+        }
+        report["history_bar_counts"] = {}
+        report["history_error_kinds"] = {}
+        for label, timeframe in timeframes.items():
+            rows = mt5.copy_rates_from_pos(symbol_name, timeframe, 0, 261)
+            report["history_bar_counts"][label] = len(rows) if rows is not None else 0
+            if rows is None:
+                report["history_error_kinds"][label] = _safe_error_kind(mt5.last_error())
         buf = io.StringIO()
         with redirect_stdout(buf):
             import market_analyzer
             frames = market_analyzer.market_frames(symbol_name)
         report["frames_built"] = sorted(frames.keys())
         # summarize_rows() คืน "ผลสรุป" ของแท่งสุดท้าย ไม่ได้คืนลิสต์ราคาทั้งหมด
-        report["frame_last_close"] = {
-            k: (round(float(v["close"]), 5) if isinstance(v, dict) and "close" in v else None)
-            for k, v in frames.items()
-        }
-        report["frame_last_bar_utc"] = {
-            k: (datetime.fromtimestamp(int(v["time"]), timezone.utc).isoformat()
-                if isinstance(v, dict) and "time" in v else None)
-            for k, v in frames.items()
-        }
-        report["frame_trend"] = {
-            k: (v.get("trend") if isinstance(v, dict) else None) for k, v in frames.items()
-        }
-        report["frame_atr14"] = {
-            k: (round(float(v["atr14"]), 5) if isinstance(v, dict) and "atr14" in v else None)
-            for k, v in frames.items()
-        }
+        report["frames_received"] = len(frames)
 
         # ---- 2) ระบบเทรดเดิมตัดสินใจเอง ----
+        current_stage = "strategy_decision"
         import strategy_engine
         config_path = os.path.join(engine, "auto_config.json")
         config = json.loads(io.open(config_path, encoding="utf-8").read())
@@ -184,35 +187,27 @@ def main() -> int:
         #   ไม่เทรด  → {"side": None, "strategy": None/ชื่อที่ถูกสกัด, "confidence": 0.0,
         #               "reason": ...}  ← การ "ไม่เทรด" เป็นผลลัพธ์ที่ถูกต้อง ไม่ใช่ความล้มเหลว
         side = decision.get("side")
-        report["decision"] = {
-            "side": side,
-            "strategy": decision.get("strategy"),
-            "confidence": decision.get("confidence"),
-            "stop_distance": decision.get("stop_distance"),
-            "reward_risk": decision.get("reward_risk"),
-            "reason": decision.get("reason"),
-            "regime_label": (decision.get("regime") or {}).get("label")
-            if isinstance(decision.get("regime"), dict) else None,
-            "entered": side is not None,
-            "abstained": side is None,
-            "candidates_scored": len(decision.get("candidates") or []),
-        }
-        report["probability_top_four"] = decision.get("probability_top_four")
+        report["decision_evaluated"] = isinstance(decision, dict)
+        report["decision_has_direction"] = side is not None
+        report["candidates_scored"] = len(decision.get("candidates") or [])
         report["live_enabled_in_config"] = config.get("live_enabled")
         report["strategy_router_enabled"] = bool(
             (config.get("strategy_router") or {}).get("enabled", True))
 
         # ---- 3) ยังอ่านอย่างเดียวอยู่ไหม ----
+        current_stage = "read_only_guard_probe"
         report["still_read_only"] = bool(mt5.is_read_only())
+        # Probe only the local shim's guard. In read-only mode this returns before any trade RPC.
+        report["read_only_guard_probe_called"] = True
         blocked = mt5.order_send({"action": mt5.TRADE_ACTION_DEAL, "symbol": symbol_name,
                                   "volume": 0.001, "type": mt5.ORDER_TYPE_BUY})
         report["order_send_blocked"] = bool(blocked is None
                                            or getattr(blocked, "retcode", 0) != 0)
-        report["order_send_retcode"] = getattr(blocked, "retcode", None)
 
         # เกณฑ์ผ่าน: ระบบเดิมอ่านข้อมูลจริงได้ครบ 4 กรอบเวลา + ตัดสินใจได้ + ยังถูกบล็อกคำสั่ง
         ok = bool(report.get("frames_built") == ["H1", "M1", "M15", "M5"]
-                  and report.get("decision", {}).get("candidates_scored", 0) > 0
+                  and report.get("decision_evaluated") is True
+                  and report.get("candidates_scored", 0) > 0
                   and report.get("still_read_only") is True
                   and report.get("order_send_blocked") is True)
         report["status"] = "engine_ok_read_only" if ok else "partial"
@@ -229,27 +224,22 @@ def main() -> int:
             print("MetaAPI + engine smoke test (read-only)")
             print("=" * 68)
             print("status          :", report["status"])
-            print("symbol          :", report["symbol"]["name"],
-                  "| digits", report["symbol"]["digits"],
-                  "| min vol", report["symbol"]["volume_min"])
-            print("equity          :", report["account"]["equity"], report["account"]["currency"])
-            print("server offset   :", report["server_utc_offset_seconds"], "seconds")
             print("frames          :", ", ".join(report["frames_built"]))
-            print("frame closes    :", report["frame_last_close"])
-            print("frame trends    :", report["frame_trend"])
-            print("frame ATR14     :", report["frame_atr14"])
-            print("last bar (UTC)  :", report["frame_last_bar_utc"])
-            print("engine decision :", json.dumps(report["decision"], ensure_ascii=False))
-            print("  -> ระบบตัดสินใจได้จริง (จะเข้าเทรดหรือไม่เทรดก็ได้ตามด่านของมัน)")
-            print("order_send      : blocked (read-only) retcode =",
-                  report["order_send_retcode"])
+            print("candidates scored:", report["candidates_scored"])
+            print("decision evaluated; directional result withheld from this report")
+            print("read-only guard probe: blocked locally; no broker order RPC was called")
             print("No file was written. No account was deployed. No order was sent.")
             print("=" * 68)
         return 0 if ok else 2
     except Exception as exc:
+        last_error = mt5.last_error()
         print(json.dumps({
-            "status": "failed", "stage": "runtime",
+            "status": "failed", "stage": current_stage,
             "error_type": type(exc).__name__,
+            "history_bar_counts": report.get("history_bar_counts"),
+            "history_error_kinds": report.get("history_error_kinds"),
+            "last_error_code": (last_error[0]
+                                if isinstance(last_error, tuple) and last_error else None),
             "hint": "error text is deliberately not echoed verbatim",
         }, ensure_ascii=False, indent=2))
         return 2

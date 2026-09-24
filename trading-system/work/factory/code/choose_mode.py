@@ -12,9 +12,10 @@
 """User-selected signal mode; internal research remains active in both modes."""
 import argparse, os, shutil, subprocess, uuid
 from pathlib import Path
-from runtime_support import atomic_json, current_mode, file_lock, project_root, update_json
+from runtime_support import (atomic_json, current_mode, file_lock, project_root,
+                             update_json, DEFAULT_MODE, MODE_TITLES)
 MODES = {'1': 'internal_only', '2': 'internal_llm_join'}
-TITLES = {'internal_only': 'เทรดด้วยสัญญาณภายใน', 'internal_llm_join': 'เทรดร่วมสัญญาณ AI(LLM)'}
+TITLES = MODE_TITLES
 JOBS = (
     'trading-analytics',
     'trading-research-bot (10 นาที · บอทดูแล LLM)',
@@ -23,6 +24,7 @@ JOBS = (
     'trading-daily-research-log',
 )
 RESEARCH_JOB = 'trading-research-bot (10 นาที · บอทดูแล LLM)'
+ADMIN_JOB = 'trading-admin-bot (30 นาที)'
 
 def hermes_executable():
     home = Path(os.environ.get('HERMES_HOME', Path(os.environ.get('LOCALAPPDATA', str(Path.home()))) / 'hermes'))
@@ -42,17 +44,32 @@ def pause_all():
     if errors: raise RuntimeError('; '.join(errors))
 
 def resume_selected(mode):
-    cron('pause', RESEARCH_JOB if mode == 'internal_only' else 'trading-analytics')
-    cron('resume', 'trading-analytics' if mode == 'internal_only' else RESEARCH_JOB)
-    cron('resume', 'llm-recommendation-consumer')
-    cron('resume', 'trading-admin-bot (30 นาที)')
-    cron('resume', 'trading-daily-research-log')
+    if mode not in TITLES:
+        raise ValueError('Unknown trading mode; no jobs changed')
+    try:
+        # Both modes retain ALL Python research. Only these two AI jobs differ.
+        for name in (RESEARCH_JOB, ADMIN_JOB):
+            cron('pause', name)
+        for name in ('trading-analytics', 'llm-recommendation-consumer',
+                     'trading-daily-research-log'):
+            cron('resume', name)
+        if mode == DEFAULT_MODE:
+            for name in (RESEARCH_JOB, ADMIN_JOB):
+                cron('resume', name)
+    except Exception as exc:
+        try:
+            pause_all()
+        except Exception as cleanup:
+            raise RuntimeError(f'Mode activation failed: {exc}; pause failed: {cleanup}') from exc
+        raise
 
 def select_mode(mode, root=None):
+    if mode not in TITLES:
+        raise ValueError('Unknown trading mode; no state changed')
     root = Path(root or project_root())
-    try: previous = current_mode(root)
-    except (ValueError, OSError): previous = {}
     with file_lock(root / 'work/research-cycle.lock'):
+        try: previous = current_mode(root)
+        except (ValueError, OSError): previous = {}
         pause_all()
         if previous.get('mode') != mode:
             # A merged historical multiplier cannot be decomposed. Reset ONLY these
@@ -89,8 +106,10 @@ def main():
         return 0
     value = a.set
     if not value:
-        print('1. เทรดด้วยสัญญาณภายใน\n2. เทรดร่วมสัญญาณ AI(LLM)\n0. ยกเลิก')
-        try: value = input('เลือก 1 หรือ 2: ').strip()
+        print('1. เทรดด้วยสัญญาณภายใน (Python เท่านั้น)\n'
+              '2. เทรดร่วมสัญญาณ AI (Python + AI Signal Bot + Admin Bot; ค่าเริ่มต้น)\n'
+              '0. ยกเลิก')
+        try: value = input('เลือก 1 หรือ 2 [Enter = 2]: ').strip() or DEFAULT_MODE
         except EOFError: return 2
         if value == '0': return 2
     mode = MODES.get(value, value)

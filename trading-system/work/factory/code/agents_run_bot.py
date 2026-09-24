@@ -1,12 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # Python Qaunt Trading + AI(LLM) Live Research
-# อัพเดทใหญ่เพิ่มความฉลาดและความรอบคอบเข้าสู่ระดับผู้ทรงภูมิปัญญา
-# เทรดในไทยมีกฎหมายรองรับ 100%
-# Settrade e-Open Account · MTS Gold Futures + MT5
-# https://oacc.settrade.com/e-open-account/landing?brokerId=060&openExternalBrowser=1&utm_source=chatgpt.com
-# ผู้สร้างระบบ (Creator): Kanutsanan Pongpanna — facebook.com/LoveMoneyTH / youtube.com/@lovemoneythofficial
-# โปรดเก็บเครดิตผู้สร้างไว้ในทุกไฟล์และทุกส่วนของระบบ — ห้ามลบ
+# ผู้สร้างระบบ (Creator): Kanutsanan Pongpanna — facebook.com/LoveMoneyTH
 """รัน 'สมอง' (agentic AI ตัวไหนก็ได้) ให้ทำงานบอทของระบบเทรดทองคำ
 
 แนวคิดของเจ้าของระบบ (19 ก.ย. 2026):
@@ -35,6 +30,8 @@ import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
+sys.path.insert(0, os.path.join(ROOT, 'outputs', 'mt5_python_bridge'))
+from runtime_support import require_ai_mode
 REG = os.path.join(HERE, "registry.json")
 LOG = os.path.join(ROOT, "work", "agent_runs.jsonl")
 BRIEFS = {"mode2": os.path.join(HERE, "brief_mode2.md"),
@@ -98,6 +95,12 @@ def build_brief_text(role):
 
 
 def run(role, brain_id, dry):
+    if not dry:
+        try:
+            require_ai_mode(ROOT)
+        except (ValueError, OSError) as exc:
+            print('ไม่เรียก AI Agent Bot: %s' % exc)
+            return 9
     reg = load_registry()
     if not brain_id:
         # เลือกตัวแรกที่ติดตั้ง + สถานะ default ก่อน

@@ -24,6 +24,11 @@ import os
 import re
 import sys
 
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 PACKAGE = os.path.dirname(HERE)
 
@@ -42,6 +47,7 @@ FORBIDDEN = {".env", ".env.local", "auto_trader.lock", "consumer.lock",
              "research-cycle.lock", "auto_trader_supervisor.lock",
              "openrouter_api_key.machine.dpapi", "auto_trader_audit.jsonl",
              "auto_trader_state.json", "auto_config.json.lock"}
+HISTORICAL_RESEARCH_INPUTS = {"auto_trader_audit.jsonl", "auto_trader_state.json"}
 # นามสกุล/รูปแบบไฟล์ที่ไม่ควรติดไปกับชุดแจกจ่าย (สำรองค่า/ไฟล์ชั่วคราว/ไบต์โค้ด)
 FORBIDDEN_SUFFIX = (".pyc", ".pyo", ".pyd", ".bak", ".tmp", ".orig", ".rej", ".swp")
 FORBIDDEN_RE = re.compile(r"(?i)^(auto_config\.json\.bak.*|.*\.bak_.*|.*_patch.*|.*_debug.*|.*_fix.*)$")
@@ -73,10 +79,7 @@ def main() -> int:
             problems.append(f"missing required entry: {name}")
 
     for root, dirs, files in os.walk(PACKAGE):
-        for d in list(dirs):
-            if d in FORBIDDEN_DIRS:
-                problems.append(f"forbidden directory present: "
-                                f"{os.path.relpath(os.path.join(root, d), PACKAGE)}")
+        # Runtime bytecode caches are ignored and excluded from manifests/packages.
         dirs[:] = [d for d in dirs if d not in FORBIDDEN_DIRS]
         for fn in files:
             path = os.path.join(root, fn)
@@ -87,7 +90,12 @@ def main() -> int:
             except OSError:
                 pass
 
-            if fn in FORBIDDEN:
+            rel_posix = rel.replace(os.sep, "/")
+            is_archived_research_input = (
+                fn in HISTORICAL_RESEARCH_INPUTS
+                and rel_posix.startswith("trading-system/research/")
+            )
+            if fn in FORBIDDEN and not is_archived_research_input:
                 problems.append(f"forbidden file present: {rel}")
             if fn.lower().endswith(FORBIDDEN_SUFFIX) or FORBIDDEN_RE.match(fn):
                 problems.append(f"forbidden file kind (backup/junk/temp): {rel}")

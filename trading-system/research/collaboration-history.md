@@ -1,13 +1,3 @@
-<!--
-  Python Qaunt Trading + AI(LLM) Live Research
-  อัพเดทใหญ่เพิ่มความฉลาดและความรอบคอบเข้าสู่ระดับผู้ทรงภูมิปัญญา
-  เทรดในไทยมีกฎหมายรองรับ 100%
-  Settrade e-Open Account · MTS Gold Futures + MT5
-  https://oacc.settrade.com/e-open-account/landing?brokerId=060&openExternalBrowser=1&utm_source=chatgpt.com
-  ผู้สร้างระบบ (Creator): Kanutsanan Pongpanna — facebook.com/LoveMoneyTH / youtube.com/@lovemoneythofficial
-  โปรดเก็บเครดิตผู้สร้างไว้ในทุกไฟล์และทุกส่วนของระบบ — ห้ามลบ
--->
-
 # 📒 บันทึกประวัติการทำงานร่วมกัน (Collaboration History)
 
 โฟลเดอร์นี้: `D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research` (ตามที่ผู้ใช้กำหนด — งานวิจัยทั้งหมดต้องอยู่ภายในนี้)

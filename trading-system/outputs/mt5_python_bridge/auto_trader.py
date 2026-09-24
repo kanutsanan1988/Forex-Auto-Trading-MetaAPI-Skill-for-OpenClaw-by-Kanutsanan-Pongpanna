@@ -15,7 +15,6 @@ import argparse
 import copy
 import hashlib
 import json
-import msvcrt
 import os
 import sys
 import time
@@ -55,6 +54,7 @@ from market_clock import market_open as clock_market_open, next_open_delta  # no
 import side_net  # noqa: E402  (ประตู net ต่อฝ่าย — โมดูลกลาง)
 from auto_threshold import apply_auto_threshold_side as apply_auto_threshold  # noqa: E402
 from bounded_adaptive_research import evaluate_shadow, validate_settings  # noqa: E402
+from platform_lock import lock_nonblocking, unlock  # noqa: E402
 
 
 def now_utc() -> str:
@@ -107,7 +107,7 @@ def acquire_singleton():
         handle.flush()
     handle.seek(0)
     try:
-        msvcrt.locking(handle.fileno(), msvcrt.LK_NBLCK, 1)
+        lock_nonblocking(handle)
     except OSError as exc:
         handle.close()
         raise RuntimeError("Another auto_trader process is already running") from exc
@@ -122,7 +122,7 @@ def release_singleton(handle) -> None:
     finally:
         try:
             handle.seek(0)
-            msvcrt.locking(handle.fileno(), msvcrt.LK_UNLCK, 1)
+            unlock(handle)
         finally:
             handle.close()
 

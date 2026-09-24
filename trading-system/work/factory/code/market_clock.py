@@ -1,11 +1,6 @@
 # -*- coding: utf-8 -*-
 # Python Qaunt Trading + AI(LLM) Live Research
-# อัพเดทใหญ่เพิ่มความฉลาดและความรอบคอบเข้าสู่ระดับผู้ทรงภูมิปัญญา
-# เทรดในไทยมีกฎหมายรองรับ 100%
-# Settrade e-Open Account · MTS Gold Futures + MT5
-# https://oacc.settrade.com/e-open-account/landing?brokerId=060&openExternalBrowser=1&utm_source=chatgpt.com
-# ผู้สร้างระบบ (Creator): Kanutsanan Pongpanna — facebook.com/LoveMoneyTH / youtube.com/@lovemoneythofficial
-# โปรดเก็บเครดิตผู้สร้างไว้ในทุกไฟล์และทุกส่วนของระบบ — ห้ามลบ
+# ผู้สร้างระบบ (Creator): Kanutsanan Pongpanna — facebook.com/LoveMoneyTH
 """Market Clock for XAUUSD (gold) — ห้ามเทรดตอนตลาดปิด
 
 ★ แก้ 19 ก.ย. 2026 (เจ้าของระบบอนุมัติ): เดิมใช้ตารางเวลาเดียวตลอดปี = เวลามาตรฐานสหรัฐฯ
@@ -74,7 +69,9 @@ def next_open_delta(now_utc: datetime.datetime | None = None) -> float:
     now = now_utc or datetime.datetime.now(datetime.timezone.utc)
     if market_open(now):
         return 0.0
-    n = now
+    # Session boundaries are on whole hours. Preserve neither the current minute
+    # nor seconds, otherwise e.g. 21:37 incorrectly waits until 22:37, not 22:00.
+    n = now.replace(minute=0, second=0, microsecond=0)
     for _ in range(8 * 24):  # มองไปสูงสุด 8 วัน
         n = n + datetime.timedelta(hours=1)
         if market_open(n):

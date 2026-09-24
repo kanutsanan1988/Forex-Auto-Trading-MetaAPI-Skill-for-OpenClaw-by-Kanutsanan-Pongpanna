@@ -1,11 +1,4 @@
 # -*- coding: utf-8 -*-
-# Python Qaunt Trading + AI(LLM) Live Research
-# อัพเดทใหญ่เพิ่มความฉลาดและความรอบคอบเข้าสู่ระดับผู้ทรงภูมิปัญญา
-# เทรดในไทยมีกฎหมายรองรับ 100%
-# Settrade e-Open Account · MTS Gold Futures + MT5
-# https://oacc.settrade.com/e-open-account/landing?brokerId=060&openExternalBrowser=1&utm_source=chatgpt.com
-# ผู้สร้างระบบ (Creator): Kanutsanan Pongpanna — facebook.com/LoveMoneyTH / youtube.com/@lovemoneythofficial
-# โปรดเก็บเครดิตผู้สร้างไว้ในทุกไฟล์และทุกส่วนของระบบ — ห้ามลบ
 """ระบบ "admin bot agent intelligence automate skill" — รอบแอดมินวิวัฒน์ตัวเอง
 
 เจ้าของระบบกำหนด (19 ก.ย. 2026):
@@ -19,7 +12,7 @@
   python admin_bot_round.py --apply --allow-structure   → ปรับได้ทั้งค่าและโครงสร้าง
   python admin_bot_round.py --interval 30        → ตั้งรอบดูแล 30 นาที
 """
-import io, os, sys, json, glob, shutil, datetime
+import io, os, sys, json, glob, datetime, subprocess
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
@@ -38,6 +31,51 @@ try:
     import news_feed
 except Exception:
     news_feed = None
+
+
+def interbot_box(role='admin'):
+    """★ เพิ่ม 23 ก.ย. 2026: กล่องปรึกษาระหว่างบอท (ฝากคำถาม–ตอบข้ามรอบ)"""
+    try:
+        import interbot
+        return {'text': interbot.digest(role), 'stats': interbot.stats()}
+    except Exception as exc:
+        return {'text': 'กล่องปรึกษาใช้งานไม่ได้: %s' % exc}
+
+
+def other_bot_state():
+    """★ เพิ่ม 23 ก.ย. 2026: บอทอีกตัว (โหมด 2) — สิ่งที่เพิ่งเสนอ/ถูกนำไปใช้ (ให้ 2 บอท 'รู้เห็นกัน')"""
+    out = {}
+    base = os.path.join(ROOT, 'research', 'recommendations')
+    for name, key in (('latest_recommendation.json', 'latest'),
+                      ('last_applied.json', 'applied'),
+                      ('last_failed.json', 'failed')):
+        try:
+            out[key] = json.load(io.open(os.path.join(base, name), encoding='utf-8'))
+        except Exception:
+            out[key] = None
+    return out
+
+
+def recent_rounds(limit=3):
+    """★ เพิ่ม 23 ก.ย. 2026: ความจำข้ามรอบของแอดมินบอท — รอบก่อน ๆ ทำอะไรไปแล้ว
+    (อ่านจาก log ของตัวเอง ไม่ใช่จากบทสนทนา)"""
+    out = []
+    try:
+        rows = [json.loads(l) for l in io.open(LOG, encoding='utf-8') if l.strip()]
+    except Exception:
+        return out
+    for r in rows[-int(limit):]:
+        ch = r.get('changes') or []
+        jev = (r.get('jev') or {})
+        dv = (jev.get('values') or {}).get('derived') or {}
+        ds = (jev.get('structure') or {}).get('derived') or {}
+        out.append({
+            'time': r.get('time'), 'mode': r.get('mode'),
+            'changes': [{'key': c.get('key'), 'from': c.get('from'), 'to': c.get('to')} for c in ch],
+            'jev_values': ('ผ่าน' if dv.get('safe') else 'ทบทวน') if dv else None,
+            'jev_structure': ('ผ่าน' if ds.get('safe') else 'ทบทวน') if ds else None,
+        })
+    return out
 
 
 def _write_json(path, value):
@@ -268,9 +306,22 @@ def recommend(cfg, stats, news_summary=None):
     return out
 
 
+def _jp_level():
+    try:
+        import jev_power
+        return jev_power.level()
+    except Exception:
+        return None
+
+
 def main():
     args = sys.argv[1:]
     apply_ = '--apply' in args
+    # Guard the direct entry point too, before broker/news calls or any rollback.
+    from runtime_support import require_ai_mode, digest
+    from admin_config import apply_values, restore_values
+    if apply_:
+        require_ai_mode(ROOT)
     allow_structure = '--allow-structure' in args
     interval = 60
     if '--interval' in args:
@@ -301,15 +352,17 @@ def main():
     # ---- คืนค่าเดิมอัตโนมัติ ถ้าผลหลังปรับครั้งล่าสุดแย่ลงเกินเพดาน ----
     try:
         prev_apply, prev_eq = prev.get('last_apply'), prev.get('equity_at_apply')
-        if prev_apply and prev_eq:
+        if apply_ and prev_apply and prev_eq and prev.get('config_hash') == digest(cfg):
             t_prev = datetime.datetime.fromisoformat(prev_apply)
             if (now_utc() - t_prev).total_seconds() < 6 * 3600:
                 eq = equity_now()
                 if eq is not None and (eq - float(prev_eq)) < -ROLLBACK_DRAWDOWN_USD:
-                    baks = sorted(glob.glob(CFG + '.bak_adminbot_*'))
+                    baks = sorted(glob.glob(CFG + '.bak_adminbot_*'), key=os.path.getmtime)
                     if baks:
-                        shutil.copy(CFG, CFG + '.bak_before_rollback_' + datetime.datetime.now().strftime('%Y%m%d_%H%M%S'))
-                        shutil.copy(baks[-1], CFG)
+                        with io.open(baks[-1], encoding='utf-8') as fh:
+                            previous_config = json.load(fh)
+                        cfg, _ = restore_values(CFG, previous_config, bounds,
+                                                root=ROOT, expected_hash=digest(cfg))
                         rolled = os.path.basename(baks[-1])
                         io.open(LOG, 'a', encoding='utf-8').write(json.dumps(
                             {'time': now_utc().isoformat(timespec='seconds'), 'mode': 'rollback',
@@ -318,8 +371,8 @@ def main():
                             ensure_ascii=False) + '\n')
                         cfg = load_json(CFG, {})
                         prev = {}
-    except Exception:
-        rolled = None
+    except Exception as exc:
+        raise RuntimeError('Admin rollback failed; no further apply attempted') from exc
 
     plan = recommend(cfg, stats, news_summary=news_summary)
     safe = []
@@ -337,32 +390,139 @@ def main():
             continue
         safe.append((key, val, float(cur), why))
 
+    # ★ Jev (TypeSafe System One) — ทำงาน 'พร้อมกับบอท' เท่านั้น (เจ้าของระบบกำหนด 23 ก.ย. 2026)
+    #   ดูแลครบ 4 ด้าน: ข้อมูลสัญญาณภายใน · ข่าวภายนอก · ค่าต่างๆ · โครงสร้างต่างๆ
+    #   เป็นคำแนะนำให้บอทตัดสินใจ — กรอบปลอดภัย + คืนค่าเดิมอัตโนมัติยังเป็นตัวบังคับจริง
+    jev_all = None
+    try:
+        import jev as _jev
+        if _jev.load_config().get('use_in_admin', True):
+            jctx = 'admin'
+            jev_all = {}
+            news_txt = (news_summary.get('text') if isinstance(news_summary, dict)
+                        else str(news_summary or ''))
+            # (1) ข่าวภายนอก
+            if news_feed is not None:
+                try:
+                    jn = news_feed.jev_analysis(context=jctx)
+                    if jn:
+                        jev_all['news'] = jn
+                except Exception:
+                    pass
+            # (2) ข้อมูลสัญญาณภายใน
+            try:
+                st_in = {'performance': stats, 'news_digest': news_txt,
+                         'equity': {'equity': equity_now()}}
+                ri = _jev.ask_preset('internal', st_in, context=jctx)
+                if ri.get('ok'):
+                    jev_all['internal'] = {'derived': ri.get('derived') or {},
+                                           'summary': _jev._summary(ri.get('answers') or {}),
+                                           'latency_ms': ri.get('latency_ms')}
+            except Exception:
+                pass
+            # (3) ค่าต่างๆ (เฉพาะเมื่อมีข้อเสนอปรับ)
+            if safe:
+                changed = [k for k, _v, _c, _w in safe]
+                st_v = {
+                    'proposal': [{'param': k, 'from': c, 'to': v, 'reason': w} for k, v, c, w in safe],
+                    'other_bot': other_bot_state(),
+                    'envelope': {'allowed': sorted(bounds.keys()),
+                                 'note': 'กรอบปลอดภัยของแอดมินบอท (ห้ามออกนอกกรอบนี้)',
+                                 'reserved_note': 'คีย์สงวน/โครงสร้างโค้ด/ตัวเทรด/kill switch = ห้ามแตะ'},
+                    'performance': stats,
+                    'news_digest': news_txt,
+                    'candidates': [{'name': k, 'note': 'ค่าที่อยู่ในกรอบและยังไม่ถูกปรับรอบนี้'}
+                                   for k in sorted(bounds.keys()) if k not in changed][:8],
+                }
+                r = _jev.ask_preset('admin-safety', st_v, context=jctx)
+                jev_all['values'] = {'ok': bool(r.get('ok')), 'derived': r.get('derived') or {},
+                                     'latency_ms': r.get('latency_ms'), 'error': r.get('error'),
+                                     'summary': _jev._summary(r.get('answers') or {})}
+            # (4) โครงสร้างต่างๆ (เมื่อเปิดให้วิวัฒน์โครงสร้าง)
+            if allow_structure:
+                st_s = {
+                    'proposal': [{'param': k, 'from': c, 'to': v, 'reason': w} for k, v, c, w in safe]
+                                or [{'param': '(ยังไม่มีข้อเสนอรอบนี้)', 'reason': 'ประเมินกรอบโครงสร้างรวม'}],
+                    'structure_envelope': {'allowed': sorted(STRUCTURE_BOUNDS.keys()),
+                                           'factory_backup': 'work/factory/ (restore_factory.py)'},
+                    'design': {'gates': ['ด่าน 1 ประตู net ต่อกลยุทธ์-ทิศทาง (ฝั่งตรงข้ามกลยุทธ์เดิมไม่ต้องผ่าน)',
+                                         'ด่าน 2 คะแนน 36 ค่า (p25-p90 · ความกว้างขั้นต่ำ raw/probability/weighted)',
+                                         'ด่าน 3 เทียบสองฝั่ง (ไม่เกี่ยวกับประตู net)'],
+                               'rules': ['งานที่ใช้ LLM ต้องให้บอทเป็นผู้ดูแล ไม่ต่อ LLM ตรง',
+                                         'ห้ามแตะคีย์สงวน/ตัวเทรด/kill switch/โครงสร้างโค้ด',
+                                         'ต้องคืนค่าโรงงานได้เสมอ']},
+                    'performance': stats,
+                    'news_digest': news_txt,
+                    'history': {'note': 'ใช้ตัวเลขจริงจาก audit — ไม่มีข้อมูลหลายช่วงให้ดู'},
+                    'areas': [{'name': 'auto_threshold (36 ค่า)', 'note': 'หน้าต่างเรียนรู้ · ความกว้าง band ขั้นต่ำ'},
+                              {'name': 'strategy_router (เราเตอร์กลยุทธ์)', 'note': 'เกณฑ์เลือกกลยุทธ์/น้ำหนัก'},
+                              {'name': 'gate (ประตู net · เทียบสองฝั่ง)', 'note': 'ด่าน 1 และด่าน 3'},
+                              {'name': 'guards (กันแก้แค้น/ตัดขาดทุน)', 'note': 'ความไวของกลไกป้องกัน'},
+                              {'name': 'exits (TP/SL/profit_exit)', 'note': 'เกณฑ์ออกทำกำไร/ตัดขาดทุน'}],
+                }
+                rs = _jev.ask_preset('admin-structure', st_s, context=jctx)
+                jev_all['structure'] = {'ok': bool(rs.get('ok')), 'derived': rs.get('derived') or {},
+                                        'latency_ms': rs.get('latency_ms'), 'error': rs.get('error'),
+                                        'summary': _jev._summary(rs.get('answers') or {})}
+    except Exception as exc:
+        jev_all = {'error': str(exc)[:200]}
+
     stamp = now_utc().isoformat(timespec='seconds')
+    prev_rounds = recent_rounds(3)
+    other_bot = other_bot_state()
+    # ★ บันไดอำนาจ Jev (23 ก.ย. 2026 · เจ้าของระบบอนุมัติ "เส้นทางสู่อำนาจเต็ม"):
+    #   ระดับ ≥1 = Jev มีสิทธิ์เบรก (ลดความเสี่ยงได้เท่านั้น · ห้ามเพิ่ม)
+    veto = None
+    try:
+        import jev_power as _jp
+        if apply_ and safe and _jp.can('veto'):
+            _dv = ((jev_all or {}).get('values') or {}).get('derived') or {}
+            _ds = ((jev_all or {}).get('structure') or {}).get('derived') or {}
+            _bad = []
+            if _dv and _dv.get('safe') is False:
+                _bad.append('ค่าต่างๆ')
+            if _ds and _ds.get('safe') is False:
+                _bad.append('โครงสร้าง')
+            if _bad:
+                veto = _bad
+                _jp.log('veto', scope=_bad,
+                        jev_values={k: _dv.get(k) for k in
+                                    ('within_intent', 'raises_drawdown_risk', 'driven_by_noise', 'risk_level')},
+                        jev_structure={k: _ds.get(k) for k in
+                                       ('within_bounds', 'within_intent', 'restorable', 'evidence_enough', 'risk_level')})
+                print('⛔ Jev ใช้สิทธิ์เบรก (ระดับ %d): %s ไม่ผ่านการตรวจ → งดปรับรอบนี้'
+                      % (_jp.level(), ' + '.join(_bad)))
+    except Exception as _vexc:
+        veto = None
+        print('   (บันไดอำนาจ Jev ใช้งานไม่ได้: %s)' % str(_vexc)[:60])
+
     record = {'time': stamp, 'mode': 'apply' if apply_ else 'advisory',
               'interval_minutes': interval, 'structure_allowed': allow_structure,
               'stats': stats,
               'news': {'summary': news_summary, 'items': (news_state or {}).get('items') or [],
                        'history_24h': news_history_text,
                        'errors': (news_state or {}).get('errors') or []},
-              'changes': [{'key': k, 'from': c, 'to': v, 'why': w} for k, v, c, w in safe if k != '__news_note__']}
+              'changes': [{'key': k, 'from': c, 'to': v, 'why': w} for k, v, c, w in safe if k != '__news_note__'],
+              'jev': jev_all,
+              # ★ ความจำข้ามรอบ: รอบก่อน ๆ ของตัวเอง (ทำอะไรไป · Jev ว่าอย่างไร)
+              'previous_rounds': prev_rounds,
+              'other_bot': other_bot,
+              'interbot': interbot_box('admin'), 'jev_veto': veto, 'jev_power_level': _jp_level()}
     io.open(LOG, 'a', encoding='utf-8').write(json.dumps(record, ensure_ascii=False) + '\n')
     io.open(PLAN, 'w', encoding='utf-8').write(json.dumps(record, ensure_ascii=False, indent=2))
 
     eq_now = equity_now()
     keep = {'interval_minutes': interval, 'last_round': stamp, 'mode': record['mode']}
-    if apply_ and safe:
-        shutil.copy(CFG, CFG + '.bak_adminbot_' + datetime.datetime.now().strftime('%Y%m%d_%H%M%S'))
-        for k, v, _c, _w in safe:
-            set_path(cfg, k, v)
-        cfg.setdefault('admin_bot', {})['last_apply'] = stamp
-        cfg['admin_bot']['interval_minutes'] = interval
-        cfg['admin_bot']['allow_structure'] = bool(allow_structure)
-        _write_json(CFG, cfg)
+    if apply_ and safe and not veto:
+        cfg, committed = apply_values(CFG, {k: v for k, v, _c, _w in safe}, bounds,
+                                      root=ROOT, expected_hash=digest(cfg), label='adminbot')
         keep['last_apply'] = stamp
         keep['equity_at_apply'] = eq_now
+        keep['config_hash'] = digest(cfg)
     else:
         keep['last_apply'] = prev.get('last_apply')
         keep['equity_at_apply'] = prev.get('equity_at_apply')
+        keep['config_hash'] = prev.get('config_hash')
     _write_json(STATE, keep)
 
     print('=== รอบแอดมิน (%s) รอบละ %d นาที | โครงสร้าง: %s ===' % (
@@ -375,6 +535,84 @@ def main():
         print('ข่าวล่าสุด: %s → ระวัง: %s' % (news_summary.get('text'), news_summary.get('caution')))
     if rolled:
         print('⚠️ คืนค่าเดิมอัตโนมัติ (ผลแย่ลงเกินเพดาน): %s' % rolled)
+    if jev_all and not jev_all.get('error'):
+        print('── Jev (ทำงานกับบอทเท่านั้น · ครบ 4 ด้าน) ──')
+        di = (jev_all.get('internal') or {}).get('derived') or {}
+        if di:
+            print('   ข้อมูลภายใน: %s | net โซนกำไร %.2f · ความถี่เหมาะ %.2f · ขอบยั่งยืน %.2f · '
+                  'คุณภาพการตั้งค่า %.2f · ควรทำ: %s'
+                  % ('✅ สุขภาพดี' if di.get('healthy') else '⚠️ ต้องจับตา',
+                     float(di.get('in_profit_zone') or 0), float(di.get('frequency_ok') or 0),
+                     float(di.get('edge_durable') or 0), float(di.get('setup_quality') or 0),
+                     di.get('next_action')))
+            if di.get('watch'):
+                print('      จับตา: %s' % ' · '.join(di['watch']))
+            if di.get('main_leak'):
+                print('      ซึมรั่วหลัก: %s' % di['main_leak'])
+        dn = jev_all.get('news') or {}
+        if dn:
+            print('   ข่าวภายนอก: ทิศทาง %s · คะแนน %+.2f · หนักแน่น %.2f · price-in %.2f'
+                  % (dn.get('direction'), float(dn.get('news_score') or 0),
+                     float(dn.get('conviction') or 0), float(dn.get('already_priced') or 0)))
+        dv = (jev_all.get('values') or {}).get('derived') or {}
+        if dv:
+            print('   ค่าต่างๆ: %s | ในเจตนาระบบ %.2f · เสี่ยงขาดทุนต่อเนื่อง %.2f · จากสัญญาณรบกวน %.2f · ระดับเสี่ยง %.2f'
+                  % ('✅ ปลอดภัย' if dv.get('safe') else '⚠️ ควรทบทวน',
+                     float(dv.get('within_intent') or 0), float(dv.get('raises_drawdown_risk') or 0),
+                     float(dv.get('driven_by_noise') or 0), float(dv.get('risk_level') or 0)))
+            if dv.get('reasons'):
+                print('      เหตุผล: %s' % ' · '.join(dv['reasons']))
+            if dv.get('next_lever'):
+                print('      คันโยกที่ควรดูก่อน: %s' % dv['next_lever'])
+        ds = (jev_all.get('structure') or {}).get('derived') or {}
+        if ds:
+            print('   โครงสร้าง: %s | ในกรอบ %.2f · คงเจตนาระบบ %.2f · คืนค่าได้ %.2f · หลักฐานพอ %.2f · เสี่ยง %.2f'
+                  % ('✅ ปลอดภัย' if ds.get('safe') else '⚠️ ควรทบทวน',
+                     float(ds.get('within_structure_envelope') or 0),
+                     float(ds.get('preserves_design') or 0), float(ds.get('reversible') or 0),
+                     float(ds.get('evidence_enough') or 0), float(ds.get('structure_risk') or 0)))
+            if ds.get('reasons'):
+                print('      เหตุผล: %s' % ' · '.join(ds['reasons']))
+            if ds.get('evolve_area'):
+                print('      ส่วนที่ควรพิจารณาก่อน: %s' % ds['evolve_area'])
+    _ib = interbot_box('admin')
+    if _ib.get('text'):
+        print('── กล่องปรึกษาระหว่างบอท ──')
+        for _ln in str(_ib['text']).splitlines()[:6]:
+            print('   %s' % _ln)
+    _ob = (other_bot or {}).get('latest') or (other_bot or {}).get('applied')
+    if _ob:
+        _ch = _ob.get('changes') or []
+        print('── บอทอีกตัว (โหมด 2) เพิ่งเสนอ: %s | %s' % (
+            str(_ob.get('created') or _ob.get('time') or '')[:16],
+            ', '.join('%s=%s' % (c.get('key'), c.get('to')) for c in _ch[:3]) or 'ไม่มีการเปลี่ยน'))
+    if prev_rounds:
+        # ★ เพิ่ม 23 ก.ย. 2026: กระดานคะแนนกลยุทธ์ — วัดว่าการปรับตัว/วิวัฒนาการ 'ได้ผลจริง' ไหม
+        #   (เจ้าของระบบ: กำไรที่ราบรื่นและยั่งยืนขึ้นกับความสามารถปรับตัว/วิวัฒนาการของระบบ)
+        try:
+            _sc = os.path.join(BR, 'tools', 'strategy_scoreboard.py')
+            _r = subprocess.run([sys.executable, _sc], capture_output=True, text=True,
+                                encoding='utf-8', errors='replace', timeout=180, cwd=ROOT)
+            _txt = (_r.stdout or '').strip()
+            if _txt:
+                print('── กระดานคะแนนกลยุทธ์ (กำไรจริง — ใช้ตัดสินวิวัฒนาการ) ──')
+                for _ln in _txt.splitlines()[:16]:
+                    print('   %s' % _ln)
+                print('   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓')
+        except Exception as _exc:
+            print('── กระดานคะแนนกลยุทธ์: ใช้งานไม่ได้ (%s)' % str(_exc)[:70])
+        print('── รอบก่อน ๆ ของตัวเอง (ความจำข้ามรอบ) ──')
+        for r in prev_rounds:
+            ch = r.get('changes') or []
+            txt = ('ปรับ %d ค่า: %s' % (len(ch), ', '.join('%s→%s' % (c['key'], c['to']) for c in ch[:3]))) if ch \
+                else 'ไม่มีการปรับค่า'
+            jv = []
+            if r.get('jev_values'):
+                jv.append('ค่า:' + r['jev_values'])
+            if r.get('jev_structure'):
+                jv.append('โครงสร้าง:' + r['jev_structure'])
+            print('   %s [%s] %s%s' % (r.get('time', '')[:16], r.get('mode'), txt,
+                                       (' | Jev ' + ' · '.join(jv)) if jv else ''))
     if not safe:
         print('ไม่มีการปรับค่า (ค่าปัจจุบันอยู่ในเกณฑ์ดีแล้ว)')
     for n in news_notes:

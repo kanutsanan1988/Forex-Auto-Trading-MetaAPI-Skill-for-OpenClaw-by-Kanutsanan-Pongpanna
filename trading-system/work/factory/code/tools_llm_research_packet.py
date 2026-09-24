@@ -1,11 +1,4 @@
 # -*- coding: utf-8 -*-
-# Python Qaunt Trading + AI(LLM) Live Research
-# อัพเดทใหญ่เพิ่มความฉลาดและความรอบคอบเข้าสู่ระดับผู้ทรงภูมิปัญญา
-# เทรดในไทยมีกฎหมายรองรับ 100%
-# Settrade e-Open Account · MTS Gold Futures + MT5
-# https://oacc.settrade.com/e-open-account/landing?brokerId=060&openExternalBrowser=1&utm_source=chatgpt.com
-# ผู้สร้างระบบ (Creator): Kanutsanan Pongpanna — facebook.com/LoveMoneyTH / youtube.com/@lovemoneythofficial
-# โปรดเก็บเครดิตผู้สร้างไว้ในทุกไฟล์และทุกส่วนของระบบ — ห้ามลบ
 """ชุดข้อมูลวิจัย 10 นาที (ส่วน LLM) — แบบ "บอทดูแล LLM เป็นสมองอีกชั้น"
 
 แนวคิด (เจ้าของระบบกำหนด 19 ก.ย. 2026):
@@ -36,6 +29,52 @@ try:
     import news_feed
 except Exception:
     news_feed = None
+
+
+
+def jev_marks(recent=None, internal=None, cfg=None):
+    """★ Jev (TypeSafe System One · 23 ก.ย. 2026): ประเมินแบบสอบเทียบให้บอทโหมด 2 ใช้ประกอบดุลยพินิจ
+
+    Jev = โมเดลตัดสินใจแบบพิมพ์ (ไม่สร้างข้อความ) — ตอบเป็นความน่าจะเป็นที่สอบเทียบแล้ว
+    เจ้าของระบบกำหนด: "ส่วนไหนที่สามารถใช้ jev ai ช่วยงานได้ก็ใช้ได้"
+    """
+    try:
+        tools_dir = os.path.join(BR, 'tools')
+        if tools_dir not in sys.path:
+            sys.path.insert(0, tools_dir)
+        import jev
+        out = {'model': jev.load_config().get('model'), 'context': 'mode2'}
+        # (1) ข่าวภายนอก
+        if news_feed is not None:
+            d = news_feed.jev_analysis(context='mode2')
+            if d:
+                out['news'] = d
+        # (2) ข้อมูลสัญญาณภายใน — เจ้าของระบบกำหนด: Jev ดูแล 'ข้อมูลภายใน' ด้วย ไม่ใช่แค่ข่าว
+        ats = (internal or {}).get('auto_threshold_stats') or {}
+        mechs = ats.get('mechanisms') or ats.get('by_mechanism') or ats.get('mechanism_stats') or {}
+        state = {
+            'performance': dict(recent or {}),
+            'settings': current_values(cfg or {}),
+            'mechanisms': [{'name': k, 'note': 'กลไกในระบบ (จากสถิติภายใน)'} for k in list(mechs)[:8]],
+            'news_digest': (out.get('news') or {}).get('direction') or '',
+            'other_bot': other_bot(3),
+        }
+        r = jev.ask_preset('internal', state, context='mode2')
+        if r.get('ok'):
+            out['internal'] = {'derived': r.get('derived'),
+                               'summary': jev._summary(r.get('answers') or {}),
+                               'latency_ms': r.get('latency_ms')}
+        out['how_to_use'] = (
+            "Jev ใช้เพิ่มได้เองตามดุลยพินิจของบอท (พรีเซ็ต: news · rec-check · admin-safety · regime)\n"
+            "  .venv\\Scripts\\python.exe outputs\\mt5_python_bridge\\tools\\jev.py --preset rec-check --state <state.json>\n"
+            "  .venv\\Scripts\\python.exe outputs\\mt5_python_bridge\\tools\\jev.py --selftest\n"
+            "  -> ใช้ตรวจคำแนะนำก่อนส่ง: 'ตรงหลักฐานไหม · เป็นการไล่ราคาไหม · ตัวเลขตรงไหม' (derived.pass/warnings)\n"
+            "  -> ข้อมูลภายใน (derived.healthy/watch/next_action) · ข่าว (derived.news_score/direction)\n"
+            "  (Jev ทำงานเฉพาะกับบอทโหมด 2 และแอดมินบอท — สคริปต์อื่นเรียกไม่ได้)"
+        )
+        return out
+    except Exception as exc:
+        return 'Jev ใช้งานไม่ได้: %s' % exc
 
 
 def now_utc():
@@ -139,6 +178,54 @@ def internal_research():
     return out
 
 
+def interbot_digest(role='mode2'):
+    """★ เพิ่ม 23 ก.ย. 2026: กล่องปรึกษาระหว่างบอท 2 ตัว (ฝากคำถาม–ตอบข้ามรอบ)
+
+    เจ้าของระบบกำหนด: "บอททั้ง 2 ตัวคุยกันปรึกษากันได้"
+    ออกแบบเป็น async + มีโครงสร้าง เพราะรอบของ 2 บอทไม่พร้อมกัน (10 นาที / 30 นาที)
+    """
+    try:
+        tools_dir = os.path.join(BR, 'tools')
+        if tools_dir not in sys.path:
+            sys.path.insert(0, tools_dir)
+        import interbot
+        exe = '.venv\\Scripts\\python.exe outputs\\mt5_python_bridge\\tools\\interbot.py'
+        return {
+            'text': interbot.digest(role),
+            'stats': interbot.stats(),
+            'how_to_use': (
+                'ถามบอทอีกตัว (ฝากไว้ — รอบถัดไปของอีกฝ่ายจะเห็น):\n  ' + exe +
+                ' ask --from mode2 --to admin --topic <หัวข้อ> --question <คำถาม> [--payload {...}]\n'
+                'ตอบคำถามที่ค้างอยู่:\n  ' + exe +
+                ' answer --from mode2 --ask-id <id> --stance agree|disagree|unsure|need_more_data '
+                '--answer <เหตุผล + ตัวเลขจริง>\n'
+                'กติกา: คำตอบ = ข้อมูลประกอบเท่านั้น · ใช้ตัวเลขจริงตัดสินเอง · ห้ามแตะคีย์สงวน/ตัวเทรด/kill switch'
+            ),
+        }
+    except Exception as exc:
+        return {'text': 'กล่องปรึกษาใช้งานไม่ได้: %s' % exc}
+
+
+def other_bot(limit=3):
+    """★ เพิ่ม 23 ก.ย. 2026: บอทอีกตัว (แอดมินบอท) — รอบหลัง ๆ ที่ปรับค่าจริง (ให้ 2 บอท 'รู้เห็นกัน')"""
+    out = {'rounds': [], 'note': 'รอบของแอดมินบอท (ผู้วิวัฒน์ค่า/โครงสร้าง) — ดูไม่ให้เสนอสวนกันเอง'}
+    try:
+        rows = [json.loads(l) for l in io.open(os.path.join(WORK, 'admin_bot_log.jsonl'),
+                                               encoding='utf-8') if l.strip()]
+    except Exception:
+        rows = []
+    for r in rows[-int(limit):]:
+        jev = r.get('jev') or {}
+        out['rounds'].append({
+            'time': r.get('time'), 'mode': r.get('mode'),
+            'changes': [{'key': c.get('key'), 'from': c.get('from'), 'to': c.get('to')}
+                        for c in (r.get('changes') or [])],
+            'jev_values_safe': ((jev.get('values') or {}).get('derived') or {}).get('safe'),
+            'jev_structure_safe': ((jev.get('structure') or {}).get('derived') or {}).get('safe'),
+        })
+    return out
+
+
 def last_recommendation():
     """คำแนะนำล่าสุดจากบอท (ปิดวงจร: บอทเห็นสิ่งที่ตัวเองเพิ่งเสนอ + สิ่งที่ถูกนำไปใช้จริง)"""
     out = {}
@@ -165,16 +252,39 @@ def main():
     except Exception:
         pass
     eq, bal, npos = equity()
+    recent_stats = scan(3)
+    internal_block = internal_research()
     packet = {
         'schema': 'hermes-trading-research-packet-v1',
         'created': now_utc().isoformat(timespec='seconds'),
         'system': {'equity': eq, 'balance': bal, 'open_positions': npos},
-        'recent': scan(3),
+        'recent': recent_stats,
         'settings_now': current_values(cfg),
         # ★ ทำงานร่วมกัน: ผลงานวิจัย 10 นาทีจาก 'ข้อมูลภายใน' ต้องอยู่ในชุดข้อมูลของบอทเสมอ
-        'internal_research': internal_research(),
+        'internal_research': internal_block,
+        # ★ เพิ่ม 23 ก.ย. 2026 (เจ้าของระบบถามเรื่อง 'ความจำข้ามรอบ'): ปิดวงจร —
+        #   บอทต้องเห็น 'สิ่งที่ตัวเองเสนอรอบก่อน' + 'ผลที่เกิดขึ้นจริง' ก่อนเสนอรอบใหม่
+        #   (latest = รอบล่าสุดที่เขียน · applied = ที่ระบบนำไปใช้แล้ว · failed = ที่ใช้ไม่ได้)
+        'last_recommendation': last_recommendation(),
+        # ★ เพิ่ม 23 ก.ย. 2026: กล่องปรึกษาระหว่างบอท (เจ้าของระบบ: "บอททั้ง 2 ตัวคุยกันปรึกษากันได้")
+        'interbot': interbot_digest('mode2'),
+        'other_bot': other_bot(3),
+        'round_memory': {
+            'ไฟล์ความจำข้ามรอบ (อ่านเพิ่มได้เอง)': {
+                'คำแนะนำล่าสุด/ผลการใช้งาน': 'research/recommendations/latest_recommendation.json · last_applied.json · last_failed.json',
+                'ประวัติงานวิจัยข่าว': 'work/news_research_history.jsonl',
+                'ชุดข้อมูลรอบก่อน ๆ ของบอท': 'work/llm_research/inbox/packet_*.json (40 รอบล่าสุด)',
+                'บันทึกการร่วมงาน Jev': 'work/jev_audit.jsonl',
+            },
+            'หลักการ': ('บอทแต่ละรอบเป็น "รอบใหม่" ที่จำได้จาก (1) ผลรอบก่อนของตัวเอง '
+                        '(ความต่อเนื่องข้ามรอบของงาน cron) (2) ไฟล์ความจำในระบบ (3) ตัวเลขจริงจาก audit — '
+                        'ไม่ใช่จากบทสนทนา'),
+        },
         # ★ เพิ่ม 19 ก.ย. 2026 (เจ้าของระบบกำหนด): งานวิจัย 10 นาทีโหมด 2 ต้องประมวลผล 'ข่าวล่าสุด' ด้วย
-        'news': (news_feed.digest(max_items=8, hours=12) if news_feed else 'ข่าว: โมดูล news_feed ใช้งานไม่ได้'),
+        'news': (news_feed.digest(max_items=8, hours=12, jev_context='mode2')
+                 if news_feed else 'ข่าว: โมดูล news_feed ใช้งานไม่ได้'),
+        # ★ เพิ่ม 23 ก.ย. 2026: ผลประเมินแบบสอบเทียบด้วย Jev (ข่าว) ให้บอทใช้ประกอบดุลยพินิจ
+        'jev': jev_marks(recent_stats, internal_block, cfg),
         # ★ ประวัติงานวิจัยข่าว: บอทเป็นผู้เลือกว่าจะดึงช่วงใดมาประมวลผลร่วมกับข่าวปัจจุบัน
         'news_history_hint': (
             """ประวัติงานวิจัยข่าวเก็บที่ work/news_research_history.jsonl (JSONL · 1 บรรทัด = 1 รอบวิจัย)
