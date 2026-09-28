@@ -1,4 +1,4 @@
-﻿# ระบบเทรดทองคำอัตโนมัติ (Gold Auto Trading System)
+# ระบบเทรดทองคำอัตโนมัติ (Gold Auto Trading System)
 # ผู้สร้างระบบ (Creator): Kanutsanan Pongpanna
 #   Facebook: https://www.facebook.com/LoveMoneyTH
 #   YouTube:  https://youtube.com/@lovemoneythofficial
@@ -7,6 +7,23 @@
 #   Start/Stop          = ทั้งระบบ (เดิม)
 #   TraderStart/Stop    = เฉพาะตัวเทรด + audit (ไม่แตะงานวิจัย/LLM)
 #   ResearchPause/Resume= เฉพาะงานวิจัย/LLM (ไม่แตะตัวเทรด)
+
+function Set-CreditWatchdog([string]$Action) {
+    # 28 ก.ย. 2026 (เจ้าของระบบ): ระบบเทรดเปิด → ตัวเฝ้าเครดิต OpenRouter เปิดตาม · ปิด → ปิดตาม
+    $cgName = 'credit-guard-openrouter'
+    $cgExe = $env:HERMES_EXE
+    if (-not $cgExe) {
+        $cgBase = $env:HERMES_HOME
+        if (-not $cgBase) { $cgBase = Join-Path $env:LOCALAPPDATA 'hermes' }
+        $cgExe = Join-Path (Join-Path (Join-Path (Join-Path $cgBase 'hermes-agent') 'venv') 'Scripts') 'hermes.exe'
+    }
+    try {
+        & $cgExe cron $Action $cgName | Out-Null
+        Write-Output ("Credit watchdog: " + $Action)
+    } catch {
+        Write-Output ("Credit watchdog: " + $Action + " failed - " + $_.Exception.Message)
+    }
+}
 param([ValidateSet('Start','Stop','TraderStart','TraderStop','ResearchPause','ResearchResume')][string]$Action)
 $ErrorActionPreference = 'Stop'
 $env:PYTHONUTF8 = '1'
@@ -45,6 +62,7 @@ if ($Action -eq 'Stop') {
     & $taskPython $taskMode --pause-all
     if ($LASTEXITCODE -ne 0) { $taskErrors += 'Could not pause all research and AI bot jobs.' }
     if ($taskErrors.Count) { throw ($taskErrors -join '; ') }
+    Set-CreditWatchdog 'pause'
     Write-Output 'Trader stopped; all research and AI bot jobs paused.'
     exit 0
 }
@@ -73,4 +91,5 @@ try {
     & (Join-Path $PSScriptRoot 'stop_auto_trader.ps1')
     throw
 }
+Set-CreditWatchdog 'resume'
 Write-Output 'Trader and research started successfully in the selected mode.'

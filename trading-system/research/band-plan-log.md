@@ -9994,3 +9994,662 @@
 - mean_reversion_buy: raw_low 0.43→0.37 · raw_high 0.53→0.47
 - mean_reversion_sell: raw_low 0.43→0.37 · raw_high 0.53→0.47
 - counter_trend_sell: raw_low 0.43→0.49 · raw_high 0.53→0.59
+
+## 2026-09-28 11:47 — แผนปรับ 36 ค่า (7 strategy-side)
+- net trend_buy: $-0.217/trade (n=9)
+- net range_buy: $-0.111/trade (n=21)
+- net mean_reversion_buy: $-0.069/trade (n=54)
+- net breakout_reversal_sell: $-0.068/trade (n=12)
+- net counter_trend_sell: $-0.060/trade (n=13)
+- net range_sell: $-0.034/trade (n=75)
+- net breakout_sell: $+0.005/trade (n=6)
+- net trend_sell: $+0.011/trade (n=43)
+- net counter_trend_buy: $+0.052/trade (n=27)
+- net breakout_buy: $+0.140/trade (n=5)
+- net mean_reversion_sell: $+0.154/trade (n=38)
+- net breakout_reversal_buy: $+0.160/trade (n=2)
+- net trend_legacy_sell: $+0.163/trade (n=4)
+- trend_buy: raw_low 0.422→0.482 · raw_high 0.522→0.582
+- trend_sell: raw_low 0.43→0.37 · raw_high 0.53→0.47
+- range_buy: raw_low 0.43→0.37 · raw_high 0.53→0.47
+- range_sell: raw_low 0.439→0.379 · raw_high 0.539→0.479
+- mean_reversion_buy: raw_low 0.43→0.37 · raw_high 0.53→0.47
+- mean_reversion_sell: raw_low 0.43→0.37 · raw_high 0.53→0.47
+- counter_trend_sell: raw_low 0.43→0.49 · raw_high 0.53→0.59
+
+## 2026-09-28 11:52 — แผนปรับ 36 ค่า (7 strategy-side)
+- net trend_buy: $-0.217/trade (n=9)
+- net range_buy: $-0.111/trade (n=21)
+- net mean_reversion_buy: $-0.069/trade (n=54)
+- net breakout_reversal_sell: $-0.068/trade (n=12)
+- net counter_trend_sell: $-0.060/trade (n=13)
+- net range_sell: $-0.034/trade (n=75)
+- net breakout_sell: $+0.005/trade (n=6)
+- net trend_sell: $+0.011/trade (n=43)
+- net counter_trend_buy: $+0.052/trade (n=27)
+- net breakout_buy: $+0.140/trade (n=5)
+- net mean_reversion_sell: $+0.154/trade (n=38)
+- net breakout_reversal_buy: $+0.160/trade (n=2)
+- net trend_legacy_sell: $+0.163/trade (n=4)
+- trend_buy: raw_low 0.422→0.482 · raw_high 0.522→0.582
+- trend_sell: raw_low 0.43→0.37 · raw_high 0.53→0.47
+- range_buy: raw_low 0.43→0.37 · raw_high 0.53→0.47
+- range_sell: raw_low 0.439→0.379 · raw_high 0.539→0.479
+- mean_reversion_buy: raw_low 0.43→0.37 · raw_high 0.53→0.47
+- mean_reversion_sell: raw_low 0.43→0.37 · raw_high 0.53→0.47
+- counter_trend_sell: raw_low 0.43→0.49 · raw_high 0.53→0.59
+
+## 2026-09-28 11:57 — แผนปรับ 36 ค่า (7 strategy-side)
+- net trend_buy: $-0.217/trade (n=9)
+- net range_buy: $-0.111/trade (n=21)
+- net mean_reversion_buy: $-0.069/trade (n=54)
+- net breakout_reversal_sell: $-0.068/trade (n=12)
+- net counter_trend_sell: $-0.060/trade (n=13)
+- net range_sell: $-0.034/trade (n=75)
+- net breakout_sell: $+0.005/trade (n=6)
+- net trend_sell: $+0.011/trade (n=43)
+- net counter_trend_buy: $+0.052/trade (n=27)
+- net breakout_buy: $+0.140/trade (n=5)
+- net mean_reversion_sell: $+0.154/trade (n=38)
+- net breakout_reversal_buy: $+0.160/trade (n=2)
+- net trend_legacy_sell: $+0.163/trade (n=4)
+- trend_buy: raw_low 0.422→0.482 · raw_high 0.522→0.582
+- trend_sell: raw_low 0.43→0.37 · raw_high 0.53→0.47
+- range_buy: raw_low 0.43→0.37 · raw_high 0.53→0.47
+- range_sell: raw_low 0.439→0.379 · raw_high 0.539→0.479
+- mean_reversion_buy: raw_low 0.43→0.37 · raw_high 0.53→0.47
+- mean_reversion_sell: raw_low 0.43→0.37 · raw_high 0.53→0.47
+- counter_trend_sell: raw_low 0.43→0.49 · raw_high 0.53→0.59
+
+## 2026-09-28 11:57 — แผนปรับ 36 ค่า (7 strategy-side)
+- net trend_buy: $-0.217/trade (n=9)
+- net range_buy: $-0.111/trade (n=21)
+- net mean_reversion_buy: $-0.069/trade (n=54)
+- net breakout_reversal_sell: $-0.068/trade (n=12)
+- net counter_trend_sell: $-0.060/trade (n=13)
+- net range_sell: $-0.034/trade (n=75)
+- net breakout_sell: $+0.005/trade (n=6)
+- net trend_sell: $+0.011/trade (n=43)
+- net counter_trend_buy: $+0.052/trade (n=27)
+- net breakout_buy: $+0.140/trade (n=5)
+- net mean_reversion_sell: $+0.154/trade (n=38)
+- net breakout_reversal_buy: $+0.160/trade (n=2)
+- net trend_legacy_sell: $+0.163/trade (n=4)
+- trend_buy: raw_low 0.422→0.482 · raw_high 0.522→0.582
+- trend_sell: raw_low 0.43→0.37 · raw_high 0.53→0.47
+- range_buy: raw_low 0.43→0.37 · raw_high 0.53→0.47
+- range_sell: raw_low 0.439→0.379 · raw_high 0.539→0.479
+- mean_reversion_buy: raw_low 0.43→0.37 · raw_high 0.53→0.47
+- mean_reversion_sell: raw_low 0.43→0.37 · raw_high 0.53→0.47
+- counter_trend_sell: raw_low 0.43→0.49 · raw_high 0.53→0.59
+
+## 2026-09-28 12:09 — แผนปรับ 36 ค่า (7 strategy-side)
+- net trend_buy: $-0.217/trade (n=9)
+- net range_buy: $-0.111/trade (n=21)
+- net mean_reversion_buy: $-0.069/trade (n=54)
+- net breakout_reversal_sell: $-0.068/trade (n=12)
+- net counter_trend_sell: $-0.060/trade (n=13)
+- net range_sell: $-0.034/trade (n=75)
+- net breakout_sell: $+0.005/trade (n=6)
+- net trend_sell: $+0.011/trade (n=43)
+- net counter_trend_buy: $+0.052/trade (n=27)
+- net breakout_buy: $+0.140/trade (n=5)
+- net mean_reversion_sell: $+0.154/trade (n=38)
+- net breakout_reversal_buy: $+0.160/trade (n=2)
+- net trend_legacy_sell: $+0.163/trade (n=4)
+- trend_buy: raw_low 0.422→0.482 · raw_high 0.522→0.582
+- trend_sell: raw_low 0.43→0.37 · raw_high 0.53→0.47
+- range_buy: raw_low 0.43→0.37 · raw_high 0.53→0.47
+- range_sell: raw_low 0.439→0.379 · raw_high 0.539→0.479
+- mean_reversion_buy: raw_low 0.43→0.37 · raw_high 0.53→0.47
+- mean_reversion_sell: raw_low 0.43→0.37 · raw_high 0.53→0.47
+- counter_trend_sell: raw_low 0.43→0.49 · raw_high 0.53→0.59
+
+## 2026-09-28 12:18 — แผนปรับ 36 ค่า (0 strategy-side)
+- net trend_buy: $-0.217/trade (n=9)
+- net range_buy: $-0.111/trade (n=21)
+- net mean_reversion_buy: $-0.069/trade (n=54)
+- net breakout_reversal_sell: $-0.068/trade (n=12)
+- net counter_trend_sell: $-0.060/trade (n=13)
+- net range_sell: $-0.034/trade (n=75)
+- net breakout_sell: $+0.005/trade (n=6)
+- net trend_sell: $+0.011/trade (n=43)
+- net counter_trend_buy: $+0.052/trade (n=27)
+- net breakout_buy: $+0.140/trade (n=5)
+- net mean_reversion_sell: $+0.154/trade (n=38)
+- net breakout_reversal_buy: $+0.160/trade (n=2)
+- net trend_legacy_sell: $+0.163/trade (n=4)
+- ไม่มีค่าที่ต้องขยับ (อยู่ใน band ที่ข้อมูลแนะนำแล้ว / ข้อมูลไม่พอ)
+
+## 2026-09-28 12:19 — แผนปรับ 36 ค่า (0 strategy-side)
+- net trend_buy: $-0.217/trade (n=9)
+- net range_buy: $-0.111/trade (n=21)
+- net mean_reversion_buy: $-0.069/trade (n=54)
+- net breakout_reversal_sell: $-0.068/trade (n=12)
+- net counter_trend_sell: $-0.060/trade (n=13)
+- net range_sell: $-0.034/trade (n=75)
+- net breakout_sell: $+0.005/trade (n=6)
+- net trend_sell: $+0.011/trade (n=43)
+- net counter_trend_buy: $+0.052/trade (n=27)
+- net breakout_buy: $+0.140/trade (n=5)
+- net mean_reversion_sell: $+0.154/trade (n=38)
+- net breakout_reversal_buy: $+0.160/trade (n=2)
+- net trend_legacy_sell: $+0.163/trade (n=4)
+- ไม่มีค่าที่ต้องขยับ (อยู่ใน band ที่ข้อมูลแนะนำแล้ว / ข้อมูลไม่พอ)
+
+## 2026-09-28 12:21 — แผนปรับ 36 ค่า (0 strategy-side)
+- net trend_buy: $-0.217/trade (n=9)
+- net range_buy: $-0.111/trade (n=21)
+- net mean_reversion_buy: $-0.069/trade (n=54)
+- net breakout_reversal_sell: $-0.068/trade (n=12)
+- net counter_trend_sell: $-0.060/trade (n=13)
+- net range_sell: $-0.034/trade (n=75)
+- net breakout_sell: $+0.005/trade (n=6)
+- net trend_sell: $+0.011/trade (n=43)
+- net counter_trend_buy: $+0.052/trade (n=27)
+- net breakout_buy: $+0.140/trade (n=5)
+- net mean_reversion_sell: $+0.154/trade (n=38)
+- net breakout_reversal_buy: $+0.160/trade (n=2)
+- net trend_legacy_sell: $+0.163/trade (n=4)
+- ไม่มีค่าที่ต้องขยับ (อยู่ใน band ที่ข้อมูลแนะนำแล้ว / ข้อมูลไม่พอ)
+
+## 2026-09-28 12:23 — แผนปรับ 36 ค่า (0 strategy-side)
+- net trend_buy: $-0.217/trade (n=9)
+- net range_buy: $-0.111/trade (n=21)
+- net mean_reversion_buy: $-0.069/trade (n=54)
+- net breakout_reversal_sell: $-0.068/trade (n=12)
+- net counter_trend_sell: $-0.060/trade (n=13)
+- net range_sell: $-0.034/trade (n=75)
+- net breakout_sell: $+0.005/trade (n=6)
+- net trend_sell: $+0.011/trade (n=43)
+- net counter_trend_buy: $+0.052/trade (n=27)
+- net breakout_buy: $+0.140/trade (n=5)
+- net mean_reversion_sell: $+0.154/trade (n=38)
+- net breakout_reversal_buy: $+0.160/trade (n=2)
+- net trend_legacy_sell: $+0.163/trade (n=4)
+- ไม่มีค่าที่ต้องขยับ (อยู่ใน band ที่ข้อมูลแนะนำแล้ว / ข้อมูลไม่พอ)
+
+## 2026-09-28 12:30 — แผนปรับ 36 ค่า (0 strategy-side)
+- net trend_buy: $-0.217/trade (n=9)
+- net range_buy: $-0.111/trade (n=21)
+- net mean_reversion_buy: $-0.069/trade (n=54)
+- net breakout_reversal_sell: $-0.068/trade (n=12)
+- net counter_trend_sell: $-0.060/trade (n=13)
+- net range_sell: $-0.034/trade (n=75)
+- net breakout_sell: $+0.005/trade (n=6)
+- net trend_sell: $+0.011/trade (n=43)
+- net counter_trend_buy: $+0.052/trade (n=27)
+- net breakout_buy: $+0.140/trade (n=5)
+- net mean_reversion_sell: $+0.154/trade (n=38)
+- net breakout_reversal_buy: $+0.160/trade (n=2)
+- net trend_legacy_sell: $+0.163/trade (n=4)
+- ไม่มีค่าที่ต้องขยับ (อยู่ใน band ที่ข้อมูลแนะนำแล้ว / ข้อมูลไม่พอ)
+
+## 2026-09-28 12:35 — แผนปรับ 36 ค่า (0 strategy-side)
+- net trend_buy: $-0.217/trade (n=9)
+- net range_buy: $-0.111/trade (n=21)
+- net mean_reversion_buy: $-0.069/trade (n=54)
+- net breakout_reversal_sell: $-0.068/trade (n=12)
+- net counter_trend_sell: $-0.060/trade (n=13)
+- net range_sell: $-0.034/trade (n=75)
+- net breakout_sell: $+0.005/trade (n=6)
+- net trend_sell: $+0.011/trade (n=43)
+- net counter_trend_buy: $+0.052/trade (n=27)
+- net breakout_buy: $+0.140/trade (n=5)
+- net mean_reversion_sell: $+0.154/trade (n=38)
+- net breakout_reversal_buy: $+0.160/trade (n=2)
+- net trend_legacy_sell: $+0.163/trade (n=4)
+- ไม่มีค่าที่ต้องขยับ (อยู่ใน band ที่ข้อมูลแนะนำแล้ว / ข้อมูลไม่พอ)
+
+## 2026-09-28 12:41 — แผนปรับ 36 ค่า (0 strategy-side)
+- net trend_buy: $-0.217/trade (n=9)
+- net range_buy: $-0.111/trade (n=21)
+- net mean_reversion_buy: $-0.069/trade (n=54)
+- net breakout_reversal_sell: $-0.068/trade (n=12)
+- net counter_trend_sell: $-0.060/trade (n=13)
+- net range_sell: $-0.034/trade (n=75)
+- net breakout_sell: $+0.005/trade (n=6)
+- net trend_sell: $+0.011/trade (n=43)
+- net counter_trend_buy: $+0.052/trade (n=27)
+- net breakout_buy: $+0.140/trade (n=5)
+- net mean_reversion_sell: $+0.154/trade (n=38)
+- net breakout_reversal_buy: $+0.160/trade (n=2)
+- net trend_legacy_sell: $+0.163/trade (n=4)
+- ไม่มีค่าที่ต้องขยับ (อยู่ใน band ที่ข้อมูลแนะนำแล้ว / ข้อมูลไม่พอ)
+
+## 2026-09-28 12:42 — แผนปรับ 36 ค่า (0 strategy-side)
+- net trend_buy: $-0.217/trade (n=9)
+- net range_buy: $-0.111/trade (n=21)
+- net mean_reversion_buy: $-0.069/trade (n=54)
+- net breakout_reversal_sell: $-0.068/trade (n=12)
+- net counter_trend_sell: $-0.060/trade (n=13)
+- net range_sell: $-0.034/trade (n=75)
+- net breakout_sell: $+0.005/trade (n=6)
+- net trend_sell: $+0.011/trade (n=43)
+- net counter_trend_buy: $+0.052/trade (n=27)
+- net breakout_buy: $+0.140/trade (n=5)
+- net mean_reversion_sell: $+0.154/trade (n=38)
+- net breakout_reversal_buy: $+0.160/trade (n=2)
+- net trend_legacy_sell: $+0.163/trade (n=4)
+- ไม่มีค่าที่ต้องขยับ (อยู่ใน band ที่ข้อมูลแนะนำแล้ว / ข้อมูลไม่พอ)
+
+## 2026-09-28 12:47 — แผนปรับ 36 ค่า (0 strategy-side)
+- net trend_buy: $-0.217/trade (n=9)
+- net range_buy: $-0.111/trade (n=21)
+- net mean_reversion_buy: $-0.069/trade (n=54)
+- net breakout_reversal_sell: $-0.068/trade (n=12)
+- net counter_trend_sell: $-0.060/trade (n=13)
+- net range_sell: $-0.034/trade (n=75)
+- net breakout_sell: $+0.005/trade (n=6)
+- net trend_sell: $+0.011/trade (n=43)
+- net counter_trend_buy: $+0.052/trade (n=27)
+- net breakout_buy: $+0.140/trade (n=5)
+- net mean_reversion_sell: $+0.154/trade (n=38)
+- net breakout_reversal_buy: $+0.160/trade (n=2)
+- net trend_legacy_sell: $+0.163/trade (n=4)
+- ไม่มีค่าที่ต้องขยับ (อยู่ใน band ที่ข้อมูลแนะนำแล้ว / ข้อมูลไม่พอ)
+
+## 2026-09-28 12:50 — แผนปรับ 36 ค่า (0 strategy-side)
+- net trend_buy: $-0.217/trade (n=9)
+- net range_buy: $-0.111/trade (n=21)
+- net mean_reversion_buy: $-0.069/trade (n=54)
+- net breakout_reversal_sell: $-0.068/trade (n=12)
+- net counter_trend_sell: $-0.060/trade (n=13)
+- net range_sell: $-0.034/trade (n=75)
+- net breakout_sell: $+0.005/trade (n=6)
+- net trend_sell: $+0.011/trade (n=43)
+- net counter_trend_buy: $+0.052/trade (n=27)
+- net breakout_buy: $+0.140/trade (n=5)
+- net mean_reversion_sell: $+0.154/trade (n=38)
+- net breakout_reversal_buy: $+0.160/trade (n=2)
+- net trend_legacy_sell: $+0.163/trade (n=4)
+- ไม่มีค่าที่ต้องขยับ (อยู่ใน band ที่ข้อมูลแนะนำแล้ว / ข้อมูลไม่พอ)
+
+## 2026-09-28 12:53 — แผนปรับ 36 ค่า (0 strategy-side)
+- net trend_buy: $-0.217/trade (n=9)
+- net range_buy: $-0.111/trade (n=21)
+- net mean_reversion_buy: $-0.069/trade (n=54)
+- net breakout_reversal_sell: $-0.068/trade (n=12)
+- net counter_trend_sell: $-0.060/trade (n=13)
+- net range_sell: $-0.034/trade (n=75)
+- net breakout_sell: $+0.005/trade (n=6)
+- net trend_sell: $+0.011/trade (n=43)
+- net counter_trend_buy: $+0.052/trade (n=27)
+- net breakout_buy: $+0.140/trade (n=5)
+- net mean_reversion_sell: $+0.154/trade (n=38)
+- net breakout_reversal_buy: $+0.160/trade (n=2)
+- net trend_legacy_sell: $+0.163/trade (n=4)
+- ไม่มีค่าที่ต้องขยับ (อยู่ใน band ที่ข้อมูลแนะนำแล้ว / ข้อมูลไม่พอ)
+
+## 2026-09-28 13:05 — แผนปรับ 36 ค่า (0 strategy-side)
+- net trend_buy: $-0.217/trade (n=9)
+- net range_buy: $-0.111/trade (n=21)
+- net mean_reversion_buy: $-0.069/trade (n=54)
+- net breakout_reversal_sell: $-0.068/trade (n=12)
+- net counter_trend_sell: $-0.060/trade (n=13)
+- net range_sell: $-0.034/trade (n=75)
+- net breakout_sell: $+0.005/trade (n=6)
+- net trend_sell: $+0.011/trade (n=43)
+- net counter_trend_buy: $+0.052/trade (n=27)
+- net breakout_buy: $+0.140/trade (n=5)
+- net mean_reversion_sell: $+0.154/trade (n=38)
+- net breakout_reversal_buy: $+0.160/trade (n=2)
+- net trend_legacy_sell: $+0.163/trade (n=4)
+- ไม่มีค่าที่ต้องขยับ (อยู่ใน band ที่ข้อมูลแนะนำแล้ว / ข้อมูลไม่พอ)
+
+## 2026-09-28 13:21 — แผนปรับ 36 ค่า (0 strategy-side)
+- net trend_buy: $-0.217/trade (n=9)
+- net range_buy: $-0.111/trade (n=21)
+- net mean_reversion_buy: $-0.069/trade (n=54)
+- net breakout_reversal_sell: $-0.068/trade (n=12)
+- net counter_trend_sell: $-0.060/trade (n=13)
+- net range_sell: $-0.034/trade (n=75)
+- net breakout_sell: $+0.005/trade (n=6)
+- net trend_sell: $+0.011/trade (n=43)
+- net counter_trend_buy: $+0.052/trade (n=27)
+- net breakout_buy: $+0.140/trade (n=5)
+- net mean_reversion_sell: $+0.154/trade (n=38)
+- net breakout_reversal_buy: $+0.160/trade (n=2)
+- net trend_legacy_sell: $+0.163/trade (n=4)
+- ไม่มีค่าที่ต้องขยับ (อยู่ใน band ที่ข้อมูลแนะนำแล้ว / ข้อมูลไม่พอ)
+
+## 2026-09-28 13:31 — แผนปรับ 36 ค่า (0 strategy-side)
+- net trend_buy: $-0.217/trade (n=9)
+- net range_buy: $-0.111/trade (n=21)
+- net mean_reversion_buy: $-0.069/trade (n=54)
+- net breakout_reversal_sell: $-0.068/trade (n=12)
+- net counter_trend_sell: $-0.060/trade (n=13)
+- net range_sell: $-0.034/trade (n=75)
+- net breakout_sell: $+0.005/trade (n=6)
+- net trend_sell: $+0.011/trade (n=43)
+- net counter_trend_buy: $+0.052/trade (n=27)
+- net breakout_buy: $+0.140/trade (n=5)
+- net mean_reversion_sell: $+0.154/trade (n=38)
+- net breakout_reversal_buy: $+0.160/trade (n=2)
+- net trend_legacy_sell: $+0.163/trade (n=4)
+- ไม่มีค่าที่ต้องขยับ (อยู่ใน band ที่ข้อมูลแนะนำแล้ว / ข้อมูลไม่พอ)
+
+## 2026-09-28 13:42 — แผนปรับ 36 ค่า (0 strategy-side)
+- net trend_buy: $-0.217/trade (n=9)
+- net range_buy: $-0.111/trade (n=21)
+- net mean_reversion_buy: $-0.069/trade (n=54)
+- net breakout_reversal_sell: $-0.068/trade (n=12)
+- net counter_trend_sell: $-0.060/trade (n=13)
+- net range_sell: $-0.034/trade (n=75)
+- net breakout_sell: $+0.005/trade (n=6)
+- net trend_sell: $+0.011/trade (n=43)
+- net counter_trend_buy: $+0.052/trade (n=27)
+- net breakout_buy: $+0.140/trade (n=5)
+- net mean_reversion_sell: $+0.154/trade (n=38)
+- net breakout_reversal_buy: $+0.160/trade (n=2)
+- net trend_legacy_sell: $+0.163/trade (n=4)
+- ไม่มีค่าที่ต้องขยับ (อยู่ใน band ที่ข้อมูลแนะนำแล้ว / ข้อมูลไม่พอ)
+
+## 2026-09-28 13:53 — แผนปรับ 36 ค่า (8 strategy-side)
+- net trend_buy: $-0.217/trade (n=9)
+- net range_buy: $-0.111/trade (n=21)
+- net mean_reversion_buy: $-0.069/trade (n=54)
+- net breakout_reversal_sell: $-0.068/trade (n=12)
+- net counter_trend_sell: $-0.060/trade (n=13)
+- net range_sell: $-0.034/trade (n=75)
+- net breakout_sell: $+0.005/trade (n=6)
+- net trend_sell: $+0.011/trade (n=43)
+- net counter_trend_buy: $+0.052/trade (n=27)
+- net breakout_buy: $+0.140/trade (n=5)
+- net mean_reversion_sell: $+0.154/trade (n=38)
+- net breakout_reversal_buy: $+0.160/trade (n=2)
+- net trend_legacy_sell: $+0.163/trade (n=4)
+- trend_buy: raw_low 0.3→0.36 · raw_high 0.814→0.774
+- trend_sell: raw_low 0.3→0.348 · raw_high 0.897→0.897
+- range_buy: raw_low 0.208→0.258 · raw_high 0.75→0.69
+- range_sell: raw_low 0.231→0.281 · raw_high 0.75→0.69
+- mean_reversion_buy: raw_low 0.12→0.153 · raw_high 0.75→0.69
+- mean_reversion_sell: raw_low 0.132→0.102 · raw_high 0.75→0.69
+- counter_trend_buy: raw_low 0.3→0.36 · raw_high 0.75→0.69
+- counter_trend_sell: raw_low 0.3→0.36 · raw_high 0.75→0.69
+
+## 2026-09-28 14:05 — แผนปรับ 36 ค่า (7 strategy-side)
+- net trend_buy: $-0.217/trade (n=9)
+- net range_buy: $-0.111/trade (n=21)
+- net mean_reversion_buy: $-0.069/trade (n=54)
+- net breakout_reversal_sell: $-0.068/trade (n=12)
+- net counter_trend_sell: $-0.060/trade (n=13)
+- net range_sell: $-0.034/trade (n=75)
+- net breakout_sell: $+0.005/trade (n=6)
+- net trend_sell: $+0.011/trade (n=43)
+- net counter_trend_buy: $+0.052/trade (n=27)
+- net breakout_buy: $+0.140/trade (n=5)
+- net mean_reversion_sell: $+0.154/trade (n=38)
+- net breakout_reversal_buy: $+0.160/trade (n=2)
+- net trend_legacy_sell: $+0.163/trade (n=4)
+- trend_buy: raw_low 0.54→0.6 · raw_high 0.814→0.774
+- range_buy: raw_low 0.208→0.258 · raw_high 0.344→0.358
+- range_sell: raw_low 0.231→0.281 · raw_high 0.405→0.405
+- mean_reversion_buy: raw_low 0.12→0.153 · raw_high 0.277→0.277
+- mean_reversion_sell: raw_low 0.132→0.102 · raw_high 0.348→0.348
+- counter_trend_buy: raw_low 0.581→0.551 · raw_high 0.681→0.681
+- counter_trend_sell: raw_low 0.511→0.541 · raw_high 0.636→0.641
+
+## 2026-09-28 14:15 — แผนปรับ 36 ค่า (7 strategy-side)
+- net trend_buy: $-0.217/trade (n=9)
+- net range_buy: $-0.111/trade (n=21)
+- net mean_reversion_buy: $-0.069/trade (n=54)
+- net breakout_reversal_sell: $-0.068/trade (n=12)
+- net counter_trend_sell: $-0.060/trade (n=13)
+- net range_sell: $-0.034/trade (n=75)
+- net breakout_sell: $+0.005/trade (n=6)
+- net trend_sell: $+0.011/trade (n=43)
+- net counter_trend_buy: $+0.052/trade (n=27)
+- net breakout_buy: $+0.140/trade (n=5)
+- net mean_reversion_sell: $+0.154/trade (n=38)
+- net breakout_reversal_buy: $+0.160/trade (n=2)
+- net trend_legacy_sell: $+0.163/trade (n=4)
+- trend_buy: raw_low 0.54→0.6 · raw_high 0.814→0.774
+- range_buy: raw_low 0.208→0.258 · raw_high 0.344→0.358
+- range_sell: raw_low 0.231→0.281 · raw_high 0.405→0.405
+- mean_reversion_buy: raw_low 0.12→0.153 · raw_high 0.277→0.277
+- mean_reversion_sell: raw_low 0.132→0.102 · raw_high 0.348→0.348
+- counter_trend_buy: raw_low 0.581→0.551 · raw_high 0.681→0.681
+- counter_trend_sell: raw_low 0.511→0.541 · raw_high 0.636→0.641
+
+## 2026-09-28 14:26 — แผนปรับ 36 ค่า (7 strategy-side)
+- net trend_buy: $-0.217/trade (n=9)
+- net range_buy: $-0.111/trade (n=21)
+- net mean_reversion_buy: $-0.069/trade (n=54)
+- net breakout_reversal_sell: $-0.068/trade (n=12)
+- net counter_trend_sell: $-0.060/trade (n=13)
+- net range_sell: $-0.034/trade (n=75)
+- net breakout_sell: $+0.005/trade (n=6)
+- net trend_sell: $+0.011/trade (n=43)
+- net counter_trend_buy: $+0.052/trade (n=27)
+- net breakout_buy: $+0.140/trade (n=5)
+- net mean_reversion_sell: $+0.154/trade (n=38)
+- net breakout_reversal_buy: $+0.160/trade (n=2)
+- net trend_legacy_sell: $+0.163/trade (n=4)
+- trend_buy: raw_low 0.54→0.6 · raw_high 0.814→0.774
+- range_buy: raw_low 0.208→0.258 · raw_high 0.344→0.358
+- range_sell: raw_low 0.231→0.281 · raw_high 0.405→0.405
+- mean_reversion_buy: raw_low 0.12→0.153 · raw_high 0.277→0.277
+- mean_reversion_sell: raw_low 0.132→0.102 · raw_high 0.348→0.348
+- counter_trend_buy: raw_low 0.581→0.551 · raw_high 0.681→0.681
+- counter_trend_sell: raw_low 0.511→0.541 · raw_high 0.636→0.641
+
+## 2026-09-28 14:37 — แผนปรับ 36 ค่า (7 strategy-side)
+- net trend_buy: $-0.217/trade (n=9)
+- net range_buy: $-0.111/trade (n=21)
+- net mean_reversion_buy: $-0.069/trade (n=54)
+- net breakout_reversal_sell: $-0.068/trade (n=12)
+- net counter_trend_sell: $-0.060/trade (n=13)
+- net range_sell: $-0.034/trade (n=75)
+- net breakout_sell: $+0.005/trade (n=6)
+- net trend_sell: $+0.011/trade (n=43)
+- net counter_trend_buy: $+0.052/trade (n=27)
+- net breakout_buy: $+0.140/trade (n=5)
+- net mean_reversion_sell: $+0.154/trade (n=38)
+- net breakout_reversal_buy: $+0.160/trade (n=2)
+- net trend_legacy_sell: $+0.163/trade (n=4)
+- trend_buy: raw_low 0.54→0.6 · raw_high 0.814→0.774
+- range_buy: raw_low 0.208→0.258 · raw_high 0.344→0.358
+- range_sell: raw_low 0.231→0.281 · raw_high 0.405→0.405
+- mean_reversion_buy: raw_low 0.12→0.153 · raw_high 0.277→0.277
+- mean_reversion_sell: raw_low 0.132→0.102 · raw_high 0.348→0.348
+- counter_trend_buy: raw_low 0.581→0.551 · raw_high 0.681→0.681
+- counter_trend_sell: raw_low 0.511→0.541 · raw_high 0.636→0.641
+
+## 2026-09-28 14:48 — แผนปรับ 36 ค่า (7 strategy-side)
+- net trend_buy: $-0.217/trade (n=9)
+- net range_buy: $-0.111/trade (n=21)
+- net mean_reversion_buy: $-0.069/trade (n=54)
+- net breakout_reversal_sell: $-0.068/trade (n=12)
+- net counter_trend_sell: $-0.060/trade (n=13)
+- net range_sell: $-0.034/trade (n=75)
+- net breakout_sell: $+0.005/trade (n=6)
+- net trend_sell: $+0.011/trade (n=43)
+- net counter_trend_buy: $+0.052/trade (n=27)
+- net breakout_buy: $+0.140/trade (n=5)
+- net mean_reversion_sell: $+0.154/trade (n=38)
+- net breakout_reversal_buy: $+0.160/trade (n=2)
+- net trend_legacy_sell: $+0.163/trade (n=4)
+- trend_buy: raw_low 0.54→0.6 · raw_high 0.814→0.774
+- range_buy: raw_low 0.208→0.258 · raw_high 0.344→0.358
+- range_sell: raw_low 0.231→0.281 · raw_high 0.405→0.405
+- mean_reversion_buy: raw_low 0.12→0.153 · raw_high 0.277→0.277
+- mean_reversion_sell: raw_low 0.132→0.102 · raw_high 0.348→0.348
+- counter_trend_buy: raw_low 0.581→0.551 · raw_high 0.681→0.681
+- counter_trend_sell: raw_low 0.511→0.541 · raw_high 0.636→0.641
+
+## 2026-09-28 15:00 — แผนปรับ 36 ค่า (7 strategy-side)
+- net trend_buy: $-0.217/trade (n=9)
+- net range_buy: $-0.111/trade (n=21)
+- net mean_reversion_buy: $-0.069/trade (n=54)
+- net breakout_reversal_sell: $-0.068/trade (n=12)
+- net counter_trend_sell: $-0.060/trade (n=13)
+- net range_sell: $-0.034/trade (n=75)
+- net breakout_sell: $+0.005/trade (n=6)
+- net trend_sell: $+0.011/trade (n=43)
+- net counter_trend_buy: $+0.052/trade (n=27)
+- net breakout_buy: $+0.140/trade (n=5)
+- net mean_reversion_sell: $+0.154/trade (n=38)
+- net breakout_reversal_buy: $+0.160/trade (n=2)
+- net trend_legacy_sell: $+0.163/trade (n=4)
+- trend_buy: raw_low 0.54→0.6 · raw_high 0.814→0.774
+- range_buy: raw_low 0.208→0.258 · raw_high 0.344→0.358
+- range_sell: raw_low 0.231→0.281 · raw_high 0.405→0.405
+- mean_reversion_buy: raw_low 0.12→0.153 · raw_high 0.277→0.277
+- mean_reversion_sell: raw_low 0.132→0.102 · raw_high 0.348→0.348
+- counter_trend_buy: raw_low 0.581→0.551 · raw_high 0.681→0.681
+- counter_trend_sell: raw_low 0.511→0.541 · raw_high 0.636→0.641
+
+## 2026-09-28 15:11 — แผนปรับ 36 ค่า (7 strategy-side)
+- net trend_buy: $-0.217/trade (n=9)
+- net range_buy: $-0.111/trade (n=21)
+- net mean_reversion_buy: $-0.069/trade (n=54)
+- net breakout_reversal_sell: $-0.068/trade (n=12)
+- net counter_trend_sell: $-0.060/trade (n=13)
+- net range_sell: $-0.034/trade (n=75)
+- net breakout_sell: $+0.005/trade (n=6)
+- net trend_sell: $+0.011/trade (n=43)
+- net counter_trend_buy: $+0.052/trade (n=27)
+- net breakout_buy: $+0.140/trade (n=5)
+- net mean_reversion_sell: $+0.154/trade (n=38)
+- net breakout_reversal_buy: $+0.160/trade (n=2)
+- net trend_legacy_sell: $+0.163/trade (n=4)
+- trend_buy: raw_low 0.54→0.6 · raw_high 0.814→0.774
+- range_buy: raw_low 0.208→0.258 · raw_high 0.344→0.358
+- range_sell: raw_low 0.231→0.281 · raw_high 0.405→0.405
+- mean_reversion_buy: raw_low 0.12→0.153 · raw_high 0.277→0.277
+- mean_reversion_sell: raw_low 0.132→0.102 · raw_high 0.348→0.348
+- counter_trend_buy: raw_low 0.581→0.551 · raw_high 0.681→0.681
+- counter_trend_sell: raw_low 0.511→0.541 · raw_high 0.636→0.641
+
+## 2026-09-28 15:21 — แผนปรับ 36 ค่า (7 strategy-side)
+- net trend_buy: $-0.217/trade (n=9)
+- net range_buy: $-0.111/trade (n=21)
+- net mean_reversion_buy: $-0.069/trade (n=54)
+- net breakout_reversal_sell: $-0.068/trade (n=12)
+- net counter_trend_sell: $-0.060/trade (n=13)
+- net range_sell: $-0.034/trade (n=75)
+- net breakout_sell: $+0.005/trade (n=6)
+- net trend_sell: $+0.011/trade (n=43)
+- net counter_trend_buy: $+0.052/trade (n=27)
+- net breakout_buy: $+0.140/trade (n=5)
+- net mean_reversion_sell: $+0.154/trade (n=38)
+- net breakout_reversal_buy: $+0.160/trade (n=2)
+- net trend_legacy_sell: $+0.163/trade (n=4)
+- trend_buy: raw_low 0.556→0.606 · raw_high 0.814→0.774
+- range_buy: raw_low 0.208→0.258 · raw_high 0.358→0.358
+- range_sell: raw_low 0.231→0.281 · raw_high 0.405→0.405
+- mean_reversion_buy: raw_low 0.103→0.153 · raw_high 0.277→0.277
+- mean_reversion_sell: raw_low 0.132→0.102 · raw_high 0.348→0.348
+- counter_trend_buy: raw_low 0.581→0.551 · raw_high 0.681→0.681
+- counter_trend_sell: raw_low 0.511→0.541 · raw_high 0.641→0.641
+
+## 2026-09-28 15:32 — แผนปรับ 36 ค่า (7 strategy-side)
+- net trend_buy: $-0.217/trade (n=9)
+- net range_buy: $-0.111/trade (n=21)
+- net mean_reversion_buy: $-0.069/trade (n=54)
+- net breakout_reversal_sell: $-0.068/trade (n=12)
+- net counter_trend_sell: $-0.060/trade (n=13)
+- net range_sell: $-0.034/trade (n=75)
+- net breakout_sell: $+0.005/trade (n=6)
+- net trend_sell: $+0.011/trade (n=43)
+- net counter_trend_buy: $+0.052/trade (n=27)
+- net breakout_buy: $+0.140/trade (n=5)
+- net mean_reversion_sell: $+0.154/trade (n=38)
+- net breakout_reversal_buy: $+0.160/trade (n=2)
+- net trend_legacy_sell: $+0.163/trade (n=4)
+- trend_buy: raw_low 0.556→0.606 · raw_high 0.814→0.774
+- range_buy: raw_low 0.208→0.243 · raw_high 0.358→0.358
+- range_sell: raw_low 0.231→0.281 · raw_high 0.405→0.405
+- mean_reversion_buy: raw_low 0.103→0.153 · raw_high 0.277→0.277
+- mean_reversion_sell: raw_low 0.132→0.102 · raw_high 0.348→0.348
+- counter_trend_buy: raw_low 0.581→0.551 · raw_high 0.681→0.681
+- counter_trend_sell: raw_low 0.511→0.541 · raw_high 0.641→0.641
+
+## 2026-09-28 15:43 — แผนปรับ 36 ค่า (7 strategy-side)
+- net trend_buy: $-0.217/trade (n=9)
+- net range_buy: $-0.111/trade (n=21)
+- net mean_reversion_buy: $-0.069/trade (n=54)
+- net breakout_reversal_sell: $-0.068/trade (n=12)
+- net counter_trend_sell: $-0.060/trade (n=13)
+- net range_sell: $-0.034/trade (n=75)
+- net breakout_sell: $+0.005/trade (n=6)
+- net trend_sell: $+0.011/trade (n=43)
+- net counter_trend_buy: $+0.052/trade (n=27)
+- net breakout_buy: $+0.140/trade (n=5)
+- net mean_reversion_sell: $+0.154/trade (n=38)
+- net breakout_reversal_buy: $+0.160/trade (n=2)
+- net trend_legacy_sell: $+0.163/trade (n=4)
+- trend_buy: raw_low 0.556→0.606 · raw_high 0.814→0.774
+- range_buy: raw_low 0.208→0.243 · raw_high 0.358→0.358
+- range_sell: raw_low 0.231→0.281 · raw_high 0.405→0.405
+- mean_reversion_buy: raw_low 0.103→0.153 · raw_high 0.277→0.277
+- mean_reversion_sell: raw_low 0.132→0.102 · raw_high 0.348→0.348
+- counter_trend_buy: raw_low 0.581→0.551 · raw_high 0.681→0.681
+- counter_trend_sell: raw_low 0.511→0.541 · raw_high 0.641→0.641
+
+## 2026-09-28 15:54 — แผนปรับ 36 ค่า (7 strategy-side)
+- net trend_buy: $-0.217/trade (n=9)
+- net range_buy: $-0.111/trade (n=21)
+- net mean_reversion_buy: $-0.069/trade (n=54)
+- net breakout_reversal_sell: $-0.068/trade (n=12)
+- net counter_trend_sell: $-0.060/trade (n=13)
+- net range_sell: $-0.034/trade (n=75)
+- net breakout_sell: $+0.005/trade (n=6)
+- net trend_sell: $+0.011/trade (n=43)
+- net counter_trend_buy: $+0.052/trade (n=27)
+- net breakout_buy: $+0.140/trade (n=5)
+- net mean_reversion_sell: $+0.154/trade (n=38)
+- net breakout_reversal_buy: $+0.160/trade (n=2)
+- net trend_legacy_sell: $+0.163/trade (n=4)
+- trend_buy: raw_low 0.556→0.606 · raw_high 0.814→0.774
+- range_buy: raw_low 0.208→0.243 · raw_high 0.358→0.358
+- range_sell: raw_low 0.231→0.281 · raw_high 0.405→0.405
+- mean_reversion_buy: raw_low 0.103→0.153 · raw_high 0.277→0.277
+- mean_reversion_sell: raw_low 0.132→0.102 · raw_high 0.348→0.348
+- counter_trend_buy: raw_low 0.581→0.551 · raw_high 0.681→0.681
+- counter_trend_sell: raw_low 0.511→0.541 · raw_high 0.641→0.641
+
+## 2026-09-28 16:06 — แผนปรับ 36 ค่า (7 strategy-side)
+- net trend_buy: $-0.217/trade (n=9)
+- net range_buy: $-0.111/trade (n=21)
+- net mean_reversion_buy: $-0.069/trade (n=54)
+- net breakout_reversal_sell: $-0.068/trade (n=12)
+- net counter_trend_sell: $-0.060/trade (n=13)
+- net range_sell: $-0.034/trade (n=75)
+- net breakout_sell: $+0.005/trade (n=6)
+- net trend_sell: $+0.011/trade (n=43)
+- net counter_trend_buy: $+0.052/trade (n=27)
+- net breakout_buy: $+0.140/trade (n=5)
+- net mean_reversion_sell: $+0.154/trade (n=38)
+- net breakout_reversal_buy: $+0.160/trade (n=2)
+- net trend_legacy_sell: $+0.163/trade (n=4)
+- trend_buy: raw_low 0.556→0.606 · raw_high 0.814→0.774
+- range_buy: raw_low 0.208→0.243 · raw_high 0.358→0.358
+- range_sell: raw_low 0.231→0.281 · raw_high 0.405→0.405
+- mean_reversion_buy: raw_low 0.103→0.153 · raw_high 0.277→0.277
+- mean_reversion_sell: raw_low 0.132→0.102 · raw_high 0.348→0.348
+- counter_trend_buy: raw_low 0.581→0.551 · raw_high 0.681→0.681
+- counter_trend_sell: raw_low 0.511→0.541 · raw_high 0.641→0.641
+
+## 2026-09-28 16:18 — แผนปรับ 36 ค่า (7 strategy-side)
+- net trend_buy: $-0.217/trade (n=9)
+- net range_buy: $-0.111/trade (n=21)
+- net mean_reversion_buy: $-0.069/trade (n=54)
+- net breakout_reversal_sell: $-0.068/trade (n=12)
+- net counter_trend_sell: $-0.060/trade (n=13)
+- net range_sell: $-0.034/trade (n=75)
+- net breakout_sell: $+0.005/trade (n=6)
+- net trend_sell: $+0.011/trade (n=43)
+- net counter_trend_buy: $+0.052/trade (n=27)
+- net breakout_buy: $+0.140/trade (n=5)
+- net mean_reversion_sell: $+0.154/trade (n=38)
+- net breakout_reversal_buy: $+0.160/trade (n=2)
+- net trend_legacy_sell: $+0.163/trade (n=4)
+- trend_buy: raw_low 0.556→0.636 · raw_high 0.814→0.744
+- range_buy: raw_low 0.208→0.273 · raw_high 0.358→0.373
+- range_sell: raw_low 0.231→0.311 · raw_high 0.405→0.411
+- mean_reversion_buy: raw_low 0.103→0.183 · raw_high 0.277→0.283
+- mean_reversion_sell: raw_low 0.132→0.102 · raw_high 0.348→0.348
+- counter_trend_buy: raw_low 0.581→0.551 · raw_high 0.681→0.681
+- counter_trend_sell: raw_low 0.511→0.591 · raw_high 0.641→0.691

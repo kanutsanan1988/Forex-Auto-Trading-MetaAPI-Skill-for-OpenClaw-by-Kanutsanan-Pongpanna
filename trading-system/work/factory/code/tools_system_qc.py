@@ -114,9 +114,14 @@ def q_safety():
     live = os.path.exists(os.path.join(WORK, "live_enabled"))
     cfg = json.load(io.open(os.path.join(BR, "auto_config.json"), encoding="utf-8"))
     risk = cfg.get("max_risk_pct")
-    ok = kill and (not str(cfg.get("live_trading", "")).lower() in ("true", "1", "yes"))
-    return ok, "kill switch=%s · live flag=%s · live_trading=%s · max_risk_pct=%s" % (
-        kill, live, cfg.get("live_trading", "-"), risk)
+    # 28 ก.ย. 2026: เปิด-ปิดระบบเป็นอำนาจเจ้าของระบบ → ตรวจความสอดคล้องของสถานะความปลอดภัย
+    sup = os.path.exists(os.path.join(WORK, "auto_trader_supervisor.pid"))
+    consistent = (kill or (sup and bool(cfg.get("live_enabled"))))
+    ok = consistent and (not str(cfg.get("live_trading", "")).lower() in ("true", "1", "yes"))
+    return ok, "สถานะ=%s · supervisor=%s · live_enabled=%s · ไฟล์ marker=%s · live_trading=%s · max_risk_pct=%s" % (
+        "ปิดระบบ (kill switch)" if kill else "เปิดระบบอยู่",
+        "ทำงาน" if sup else "ไม่ทำงาน ✗", cfg.get("live_enabled"), live,
+        cfg.get("live_trading", "-"), risk)
 
 
 def q_cron():
@@ -220,6 +225,15 @@ item(2, "กระดานคะแนนกลยุทธ์", q_scoreboard)
 item(2, "กล่องปรึกษาระหว่างบอท", q_interbot)
 item(2, "รอบแอดมินบอท (advisory)", q_admin_round)
 item(2, "แพ็กเกจวิจัยโหมด 2", q_packet)
+def q_credit_guard():
+    """ตัวเฝ้าเครดิต OpenRouter — ต้องเช็คได้ (ฟรี) และคุมทุกจุดที่ใช้ AI"""
+    rc, out = run([os.path.join(T, "credit_guard.py"), "--apply"], timeout=200)
+    line = [l for l in out.splitlines() if ("เครดิต" in l and "$" in l) or "ปิดตาม" in l]
+    ok = rc == 0 and bool(line)
+    return ok, (line[0].strip()[:78] if ok else out.strip()[-90:])
+
+
+item(2, "ตัวเฝ้าเครดิต OpenRouter", q_credit_guard)
 item(2, "วิเคราะห์ข้อมูลภายใน", q_analytics)
 
 

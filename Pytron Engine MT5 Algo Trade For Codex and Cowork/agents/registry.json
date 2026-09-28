@@ -7,10 +7,10 @@
     {
       "id": "hermes",
       "name": "Hermes Agent (Nous Research)",
-      "status": "supported",
+      "status": "default",
       "detect": ["hermes", "hermes.exe"],
       "run": ["hermes", "-z", "{{brief_text}}"],
-      "notes": "Hermes CLI เป็น adapter เสริมเท่านั้น ไม่ใช่ข้อบังคับของ role 'Hermes'; Agent หลักบนแพลตฟอร์มใดก็ทำบทบาท coordinator, Mode 2 และ Admin Bot ได้",
+      "notes": "ค่าเริ่มต้นของระบบนี้ — ใช้ cron ของ Hermes ตั้งเวลางานวิจัย/แอดมินบอท",
       "install": "ติดตั้งแล้วในเครื่องนี้"
     },
     {

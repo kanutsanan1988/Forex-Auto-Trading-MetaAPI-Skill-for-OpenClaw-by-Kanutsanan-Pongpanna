@@ -14,6 +14,7 @@ import contextlib
 import hashlib
 import json
 import os
+import sys
 import tempfile
 import time
 import uuid
@@ -24,6 +25,21 @@ MODE_TITLES = {
     'internal_only': 'เทรดด้วยสัญญาณภายใน',
     'internal_llm_join': 'เทรดร่วมสัญญาณ AI',
 }
+
+def configure_utf8_stdio(streams=None):
+    """Keep project Python console I/O in UTF-8, including direct CLI runs."""
+    if streams is None:
+        streams = (sys.stdin, sys.stdout, sys.stderr)
+    for stream in streams:
+        reconfigure = getattr(stream, 'reconfigure', None)
+        if callable(reconfigure):
+            try:
+                reconfigure(encoding='utf-8', errors='replace')
+            except (OSError, ValueError):
+                # Some redirected/test streams are already consumed or immutable.
+                pass
+
+configure_utf8_stdio()
 
 def project_root():
     return Path(os.environ.get('TRADING_PROJECT_ROOT', Path(__file__).resolve().parents[2])).resolve()
@@ -148,7 +164,7 @@ def require_ai_mode(root=None):
     root = Path(root or project_root())
     mode = current_mode(root)
     if mode['mode'] != DEFAULT_MODE:
-        raise ValueError('AI Agent Bots are disabled in mode 1')
+        raise ValueError('AI integrations are disabled in mode 1')
     if (root / 'work/AUTO_TRADER_STOP').exists():
-        raise ValueError('Kill switch present; AI Agent Bots remain stopped')
+        raise ValueError('Kill switch present; AI integrations remain stopped')
     return mode

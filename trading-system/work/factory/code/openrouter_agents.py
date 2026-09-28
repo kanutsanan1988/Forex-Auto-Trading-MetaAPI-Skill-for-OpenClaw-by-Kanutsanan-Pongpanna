@@ -40,6 +40,16 @@ class OpenRouterError(RuntimeError):
     pass
 
 
+def _ai_mode_allowed() -> tuple[bool, str | None]:
+    """Fail closed unless the trading system explicitly permits AI in mode 2."""
+    try:
+        from runtime_support import require_ai_mode
+        require_ai_mode()
+        return True, None
+    except Exception as exc:
+        return False, str(exc)
+
+
 def _key_from_machine_dpapi(path: Path) -> str | None:
     """Read either supported DPAPI file representation on Windows.
 
@@ -307,6 +317,10 @@ def run_dual_agents(config: dict, frames: dict, python_decision: dict) -> dict:
     """Run signal agent then judge; return a complete auditable comparison."""
     if not bool(config.get("openrouter", {}).get("enabled", False)):
         return {"enabled": False, "status": "disabled", "trade_decision": python_decision}
+    ai_allowed, blocked_reason = _ai_mode_allowed()
+    if not ai_allowed:
+        return {"enabled": False, "status": "blocked_by_mode", "reason": blocked_reason,
+                "trade_decision": python_decision}
     python_signal = {
         "side": python_decision.get("side") or "no_trade",
         "strategy": python_decision.get("strategy"),

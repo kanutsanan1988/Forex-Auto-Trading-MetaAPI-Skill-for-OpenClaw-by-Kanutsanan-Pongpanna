@@ -56,6 +56,7 @@ import asyncio
 import datetime as _dt
 import math
 import os
+import re
 import sys
 import threading
 import time
@@ -446,6 +447,16 @@ def _route_sdk_logs_to_stderr() -> None:
                     text = f"{text} {args}"
         except Exception:
             text = "<metaapi log>"
+        # SDK diagnostics can echo the account UUID or an authorization token.
+        # Keep useful diagnostics while ensuring identifiers never reach logs.
+        for env_name in ("METAAPI_TOKEN", "METAAPI_ACCOUNT_ID", "OPENROUTER_API_KEY",
+                         "OPENROUTER_API_KEY_FILE", "JEV_API_KEY", "JEV_KEY"):
+            secret = os.environ.get(env_name, "").strip()
+            if len(secret) >= 8:
+                text = text.replace(secret, "<REDACTED_SECRET>")
+        text = re.sub(
+            r"(?i)\b[0-9a-f]{8}-(?:[0-9a-f]{4}-){3}[0-9a-f]{12}\b",
+            "<REDACTED_ID>", text)
         try:
             sys.stderr.write(f"[metaapi] {level} {text}\n")
             sys.stderr.flush()

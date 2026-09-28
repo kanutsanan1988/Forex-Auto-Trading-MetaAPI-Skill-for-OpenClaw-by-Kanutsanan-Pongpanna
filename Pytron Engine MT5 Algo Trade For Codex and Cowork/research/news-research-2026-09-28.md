@@ -1,0 +1,1561 @@
+# งานวิจัยข่าวทองคำ — 2026-09-28
+
+> ระบบเทรดทองคำอัตโนมัติ · เขียนอัตโนมัติโดย `outputs/mt5_python_bridge/news_feed.py`
+
+## 2026-09-28 11:47 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.65 · คะแนนหนุน 4 / กด 19) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 10 (หนุน 1 / กด 1) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 2 ข่าว · คะแนนรวม 9 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated need for faster rate hikes, July minutes show
+- ⚪ [2] (commodities) Australia’s Northern Star rejects $27 billion takeover approach from Gold Fields
+- ⚪ [2] (markets) Yen jumps as Trump shows concern over its weakness, dollar halts daily win streak
+- ⚪ [2] (markets) Canadian dollar faces near-term pressure as rate gap and trade risks widen
+- ⚪ [2] (markets) Canadian dollar holds near recent lows as U.S. dollar rally keeps pressure
+- ⚪ [2] (markets) Sterling today: Pound steadies as bond sell-off powers dollar gains
+
+## 2026-09-28 11:52 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.65 · คะแนนหนุน 4 / กด 19) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 10 (หนุน 1 / กด 1) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 2 ข่าว · คะแนนรวม 9 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated need for faster rate hikes, July minutes show
+- ⚪ [2] (commodities) Australia’s Northern Star rejects $27 billion takeover approach from Gold Fields
+- ⚪ [2] (markets) Yen jumps as Trump shows concern over its weakness, dollar halts daily win streak
+- ⚪ [2] (markets) Canadian dollar faces near-term pressure as rate gap and trade risks widen
+- ⚪ [2] (markets) Canadian dollar holds near recent lows as U.S. dollar rally keeps pressure
+- ⚪ [2] (markets) Sterling today: Pound steadies as bond sell-off powers dollar gains
+
+## 2026-09-28 11:53 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.65 · คะแนนหนุน 4 / กด 19) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 10 (หนุน 1 / กด 1) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 2 ข่าว · คะแนนรวม 9 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated need for faster rate hikes, July minutes show
+- ⚪ [2] (commodities) Australia’s Northern Star rejects $27 billion takeover approach from Gold Fields
+- ⚪ [2] (markets) Yen jumps as Trump shows concern over its weakness, dollar halts daily win streak
+- ⚪ [2] (markets) Canadian dollar faces near-term pressure as rate gap and trade risks widen
+- ⚪ [2] (markets) Canadian dollar holds near recent lows as U.S. dollar rally keeps pressure
+- ⚪ [2] (markets) Sterling today: Pound steadies as bond sell-off powers dollar gains
+
+## 2026-09-28 11:58 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.65 · คะแนนหนุน 4 / กด 19) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 10 (หนุน 1 / กด 1) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 2 ข่าว · คะแนนรวม 9 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated need for faster rate hikes, July minutes show
+- ⚪ [2] (commodities) Australia’s Northern Star rejects $27 billion takeover approach from Gold Fields
+- ⚪ [2] (markets) Yen jumps as Trump shows concern over its weakness, dollar halts daily win streak
+- ⚪ [2] (markets) Canadian dollar faces near-term pressure as rate gap and trade risks widen
+- ⚪ [2] (markets) Canadian dollar holds near recent lows as U.S. dollar rally keeps pressure
+- ⚪ [2] (markets) Sterling today: Pound steadies as bond sell-off powers dollar gains
+
+## 2026-09-28 11:58 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.65 · คะแนนหนุน 4 / กด 19) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 10 (หนุน 1 / กด 1) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 2 ข่าว · คะแนนรวม 9 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated need for faster rate hikes, July minutes show
+- ⚪ [2] (commodities) Australia’s Northern Star rejects $27 billion takeover approach from Gold Fields
+- ⚪ [2] (markets) Yen jumps as Trump shows concern over its weakness, dollar halts daily win streak
+- ⚪ [2] (markets) Canadian dollar faces near-term pressure as rate gap and trade risks widen
+- ⚪ [2] (markets) Canadian dollar holds near recent lows as U.S. dollar rally keeps pressure
+- ⚪ [2] (markets) Sterling today: Pound steadies as bond sell-off powers dollar gains
+
+## 2026-09-28 12:10 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.65 · คะแนนหนุน 4 / กด 19) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 10 (หนุน 1 / กด 1) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 2 ข่าว · คะแนนรวม 9 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated need for faster rate hikes, July minutes show
+- ⚪ [2] (commodities) Australia’s Northern Star rejects $27 billion takeover approach from Gold Fields
+- ⚪ [2] (markets) Yen jumps as Trump shows concern over its weakness, dollar halts daily win streak
+- ⚪ [2] (markets) Canadian dollar faces near-term pressure as rate gap and trade risks widen
+- ⚪ [2] (markets) Canadian dollar holds near recent lows as U.S. dollar rally keeps pressure
+- ⚪ [2] (markets) Sterling today: Pound steadies as bond sell-off powers dollar gains
+
+## 2026-09-28 12:17 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.65 · คะแนนหนุน 4 / กด 19) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 10 (หนุน 1 / กด 1) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 2 ข่าว · คะแนนรวม 9 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated need for faster rate hikes, July minutes show
+- ⚪ [2] (commodities) Australia’s Northern Star rejects $27 billion takeover approach from Gold Fields
+- ⚪ [2] (markets) Yen jumps as Trump shows concern over its weakness, dollar halts daily win streak
+- ⚪ [2] (markets) Canadian dollar faces near-term pressure as rate gap and trade risks widen
+- ⚪ [2] (markets) Canadian dollar holds near recent lows as U.S. dollar rally keeps pressure
+- ⚪ [2] (markets) Sterling today: Pound steadies as bond sell-off powers dollar gains
+
+## 2026-09-28 12:18 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.65 · คะแนนหนุน 4 / กด 19) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 10 (หนุน 1 / กด 1) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 2 ข่าว · คะแนนรวม 9 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated need for faster rate hikes, July minutes show
+- ⚪ [2] (commodities) Australia’s Northern Star rejects $27 billion takeover approach from Gold Fields
+- ⚪ [2] (markets) Yen jumps as Trump shows concern over its weakness, dollar halts daily win streak
+- ⚪ [2] (markets) Canadian dollar faces near-term pressure as rate gap and trade risks widen
+- ⚪ [2] (markets) Canadian dollar holds near recent lows as U.S. dollar rally keeps pressure
+- ⚪ [2] (markets) Sterling today: Pound steadies as bond sell-off powers dollar gains
+
+## 2026-09-28 12:20 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.65 · คะแนนหนุน 4 / กด 19) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 10 (หนุน 1 / กด 1) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 2 ข่าว · คะแนนรวม 9 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated need for faster rate hikes, July minutes show
+- ⚪ [2] (commodities) Australia’s Northern Star rejects $27 billion takeover approach from Gold Fields
+- ⚪ [2] (markets) Yen jumps as Trump shows concern over its weakness, dollar halts daily win streak
+- ⚪ [2] (markets) Canadian dollar faces near-term pressure as rate gap and trade risks widen
+- ⚪ [2] (markets) Canadian dollar holds near recent lows as U.S. dollar rally keeps pressure
+- ⚪ [2] (markets) Sterling today: Pound steadies as bond sell-off powers dollar gains
+
+## 2026-09-28 12:21 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.65 · คะแนนหนุน 4 / กด 19) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 10 (หนุน 1 / กด 1) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 2 ข่าว · คะแนนรวม 9 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated need for faster rate hikes, July minutes show
+- ⚪ [2] (commodities) Australia’s Northern Star rejects $27 billion takeover approach from Gold Fields
+- ⚪ [2] (markets) Yen jumps as Trump shows concern over its weakness, dollar halts daily win streak
+- ⚪ [2] (markets) Canadian dollar faces near-term pressure as rate gap and trade risks widen
+- ⚪ [2] (markets) Canadian dollar holds near recent lows as U.S. dollar rally keeps pressure
+- ⚪ [2] (markets) Sterling today: Pound steadies as bond sell-off powers dollar gains
+
+## 2026-09-28 12:23 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.65 · คะแนนหนุน 4 / กด 19) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 10 (หนุน 1 / กด 1) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 2 ข่าว · คะแนนรวม 9 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated need for faster rate hikes, July minutes show
+- ⚪ [2] (commodities) Australia’s Northern Star rejects $27 billion takeover approach from Gold Fields
+- ⚪ [2] (markets) Yen jumps as Trump shows concern over its weakness, dollar halts daily win streak
+- ⚪ [2] (markets) Canadian dollar faces near-term pressure as rate gap and trade risks widen
+- ⚪ [2] (markets) Canadian dollar holds near recent lows as U.S. dollar rally keeps pressure
+- ⚪ [2] (markets) Sterling today: Pound steadies as bond sell-off powers dollar gains
+
+## 2026-09-28 12:30 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.65 · คะแนนหนุน 4 / กด 19) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 10 (หนุน 1 / กด 1) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 2 ข่าว · คะแนนรวม 9 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated need for faster rate hikes, July minutes show
+- ⚪ [2] (commodities) Australia’s Northern Star rejects $27 billion takeover approach from Gold Fields
+- ⚪ [2] (markets) Yen jumps as Trump shows concern over its weakness, dollar halts daily win streak
+- ⚪ [2] (markets) Canadian dollar faces near-term pressure as rate gap and trade risks widen
+- ⚪ [2] (markets) Canadian dollar holds near recent lows as U.S. dollar rally keeps pressure
+- ⚪ [2] (markets) Sterling today: Pound steadies as bond sell-off powers dollar gains
+
+## 2026-09-28 12:35 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.65 · คะแนนหนุน 4 / กด 19) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 10 (หนุน 1 / กด 1) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 2 ข่าว · คะแนนรวม 9 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated need for faster rate hikes, July minutes show
+- ⚪ [2] (commodities) Australia’s Northern Star rejects $27 billion takeover approach from Gold Fields
+- ⚪ [2] (markets) Yen jumps as Trump shows concern over its weakness, dollar halts daily win streak
+- ⚪ [2] (markets) Canadian dollar faces near-term pressure as rate gap and trade risks widen
+- ⚪ [2] (markets) Canadian dollar holds near recent lows as U.S. dollar rally keeps pressure
+- ⚪ [2] (markets) Sterling today: Pound steadies as bond sell-off powers dollar gains
+
+## 2026-09-28 12:41 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.65 · คะแนนหนุน 4 / กด 19) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 10 (หนุน 1 / กด 1) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 2 ข่าว · คะแนนรวม 9 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated need for faster rate hikes, July minutes show
+- ⚪ [2] (commodities) Australia’s Northern Star rejects $27 billion takeover approach from Gold Fields
+- ⚪ [2] (markets) Yen jumps as Trump shows concern over its weakness, dollar halts daily win streak
+- ⚪ [2] (markets) Canadian dollar faces near-term pressure as rate gap and trade risks widen
+- ⚪ [2] (markets) Canadian dollar holds near recent lows as U.S. dollar rally keeps pressure
+- ⚪ [2] (markets) Sterling today: Pound steadies as bond sell-off powers dollar gains
+
+## 2026-09-28 12:41 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.65 · คะแนนหนุน 4 / กด 19) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 10 (หนุน 1 / กด 1) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 2 ข่าว · คะแนนรวม 9 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated need for faster rate hikes, July minutes show
+- ⚪ [2] (commodities) Australia’s Northern Star rejects $27 billion takeover approach from Gold Fields
+- ⚪ [2] (markets) Yen jumps as Trump shows concern over its weakness, dollar halts daily win streak
+- ⚪ [2] (markets) Canadian dollar faces near-term pressure as rate gap and trade risks widen
+- ⚪ [2] (markets) Canadian dollar holds near recent lows as U.S. dollar rally keeps pressure
+- ⚪ [2] (markets) Sterling today: Pound steadies as bond sell-off powers dollar gains
+
+## 2026-09-28 12:42 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.65 · คะแนนหนุน 4 / กด 19) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 10 (หนุน 1 / กด 1) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 2 ข่าว · คะแนนรวม 9 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated need for faster rate hikes, July minutes show
+- ⚪ [2] (commodities) Australia’s Northern Star rejects $27 billion takeover approach from Gold Fields
+- ⚪ [2] (markets) Yen jumps as Trump shows concern over its weakness, dollar halts daily win streak
+- ⚪ [2] (markets) Canadian dollar faces near-term pressure as rate gap and trade risks widen
+- ⚪ [2] (markets) Canadian dollar holds near recent lows as U.S. dollar rally keeps pressure
+- ⚪ [2] (markets) Sterling today: Pound steadies as bond sell-off powers dollar gains
+
+### 2026-09-28 12:43 — งานวิจัยข่าวโดยบอท (mode2)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.65 · คะแนนหนุน 4 / กด 19) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+ชุดข่าวเดิมจากแคช — ไม่มีรายการใหม่ (เทียบกับรอบ 12:30 / 12:35 เป็นชุดเดียวกัน · investing.com RSS)
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนน):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว/19 · ดอลล์แข็ง = กดทอง (UBS dollar-franc, เยนดีด/dollar หยุด win streak)
+- **พันธบัตร/ยีลด์** — 2 ข่าว/10 · ยีลด์ 30 ปีสูงสุดตั้งแต่ 2004 + bond rout = กดทองตรง
+- **พลังงาน** — 2 ข่าว/10 · น้ำมันขึ้นจากตึงเครียด US-Iran = หนุนเงินเฟ้อ (gold ทางอ้อม)
+- **ดอกเบี้ย/Fed** — 2 ข่าว/9 · hawkish bets build = กดทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว/4 · US-Iran ตึงเครียด = หนุน gold (แต่ถูกน้ำหนักดอลล์กลบ)
+
+**ผลต่อทองคำ:** โน้มกด/ลงระยะสั้น — Jev(ข่าว): ทิศทาง down · คะแนน -0.29 · conviction 0.69 · already_priced 0.38 (ตลาดซึมซับข่าวกดไปบางส่วนแล้ว) · ปัจจัยกลับทิศเร็ว: น้ำมัน/สงคราม (Trump: น้ำมันจะร่วงหลังสงครามจบ 'เร็ว ๆ นี้')
+
+**เชื่อมกับตัวเลขระบบ:** ระบบมีสัญญาณ breakout sell ยืนยันครบ (raw 0.9935 · structural confirmed · ทิศทางตรงกับข่าวกดทอง) แต่ถูกประตู band [0.44,0.54] ตัดทิ้ง → **0 ออเดอร์มา 12 วัน** (ไม้ปิดล่าสุด 16 ก.ย. 12:54) · รอบนี้บอททดสอบปลดล็อก breakout ผ่านประตูจำลอง (same-snapshot) 3 รูปแบบ — **ผลจำลองแย่ลงทุกแบบ** (ไม้ที่เพิ่มเฉลี่ย -0.36R ถึง -0.53R/ไม้) จึงยังไม่ส่งข้อเสนอ + ผลจริงสะสม -$2.58 จาก 311 ไม้ (ล่าสุด 8-16 ก.ย. = -$0.51) สอดคล้องกันว่าโหมดตลาดช่วงนี้ edge ติดลบ · ระบบถูก **หยุดโดยเจ้าของระบบ 12:28** (kill switch) — สัญญาณรอบล่าสุดไม่ได้ถูกใช้
+
+**ข้อควรระวัง:** ① ฝั่ง buy สวนแนวโน้ม H1 โดน margin +0.05 อยู่แล้ว (อย่าไปฝืน) ② ผันผวนยีลด์/bond rout อาจแตะ SL ตื้น ③ ห้ามไล่ราคาตามข่าว — รอสัญญาณยืนยันครบจากระบบ
+
+## 2026-09-28 12:47 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.65 · คะแนนหนุน 4 / กด 19) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 10 (หนุน 1 / กด 1) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 2 ข่าว · คะแนนรวม 9 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated need for faster rate hikes, July minutes show
+- ⚪ [2] (commodities) Australia’s Northern Star rejects $27 billion takeover approach from Gold Fields
+- ⚪ [2] (markets) Yen jumps as Trump shows concern over its weakness, dollar halts daily win streak
+- ⚪ [2] (markets) Canadian dollar faces near-term pressure as rate gap and trade risks widen
+- ⚪ [2] (markets) Canadian dollar holds near recent lows as U.S. dollar rally keeps pressure
+- ⚪ [2] (markets) Sterling today: Pound steadies as bond sell-off powers dollar gains
+
+## 2026-09-28 12:48 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.65 · คะแนนหนุน 4 / กด 19) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 10 (หนุน 1 / กด 1) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 2 ข่าว · คะแนนรวม 9 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated need for faster rate hikes, July minutes show
+- ⚪ [2] (commodities) Australia’s Northern Star rejects $27 billion takeover approach from Gold Fields
+- ⚪ [2] (markets) Yen jumps as Trump shows concern over its weakness, dollar halts daily win streak
+- ⚪ [2] (markets) Canadian dollar faces near-term pressure as rate gap and trade risks widen
+- ⚪ [2] (markets) Canadian dollar holds near recent lows as U.S. dollar rally keeps pressure
+- ⚪ [2] (markets) Sterling today: Pound steadies as bond sell-off powers dollar gains
+
+## 2026-09-28 12:50 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.65 · คะแนนหนุน 4 / กด 19) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 10 (หนุน 1 / กด 1) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 2 ข่าว · คะแนนรวม 9 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated need for faster rate hikes, July minutes show
+- ⚪ [2] (commodities) Australia’s Northern Star rejects $27 billion takeover approach from Gold Fields
+- ⚪ [2] (markets) Yen jumps as Trump shows concern over its weakness, dollar halts daily win streak
+- ⚪ [2] (markets) Canadian dollar faces near-term pressure as rate gap and trade risks widen
+- ⚪ [2] (markets) Canadian dollar holds near recent lows as U.S. dollar rally keeps pressure
+- ⚪ [2] (markets) Sterling today: Pound steadies as bond sell-off powers dollar gains
+
+## 2026-09-28 12:54 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.65 · คะแนนหนุน 4 / กด 19) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 10 (หนุน 1 / กด 1) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 2 ข่าว · คะแนนรวม 9 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated need for faster rate hikes, July minutes show
+- ⚪ [2] (commodities) Australia’s Northern Star rejects $27 billion takeover approach from Gold Fields
+- ⚪ [2] (markets) Yen jumps as Trump shows concern over its weakness, dollar halts daily win streak
+- ⚪ [2] (markets) Canadian dollar faces near-term pressure as rate gap and trade risks widen
+- ⚪ [2] (markets) Canadian dollar holds near recent lows as U.S. dollar rally keeps pressure
+- ⚪ [2] (markets) Sterling today: Pound steadies as bond sell-off powers dollar gains
+
+## 2026-09-28 13:05 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.65 · คะแนนหนุน 4 / กด 19) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 10 (หนุน 1 / กด 1) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 2 ข่าว · คะแนนรวม 9 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated need for faster rate hikes, July minutes show
+- ⚪ [2] (commodities) Australia’s Northern Star rejects $27 billion takeover approach from Gold Fields
+- ⚪ [2] (markets) Yen jumps as Trump shows concern over its weakness, dollar halts daily win streak
+- ⚪ [2] (markets) Canadian dollar faces near-term pressure as rate gap and trade risks widen
+- ⚪ [2] (markets) Canadian dollar holds near recent lows as U.S. dollar rally keeps pressure
+- ⚪ [2] (markets) Sterling today: Pound steadies as bond sell-off powers dollar gains
+
+## 2026-09-28 13:21 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.72 · คะแนนหนุน 4 / กด 25) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 23 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 3 ข่าว · คะแนนรวม 16 (หนุน 1 / กด 2) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 3 ข่าว · คะแนนรวม 15 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated need for faster rate hikes, July minutes show
+- ⚪ [2] (commodities) Australia’s Northern Star rejects $27 billion takeover approach from Gold Fields
+- ⚪ [2] (markets) Yen jumps as Trump shows concern over its weakness, dollar halts daily win streak
+- ⚪ [2] (markets) Canadian dollar faces near-term pressure as rate gap and trade risks widen
+- ⚪ [2] (markets) Canadian dollar holds near recent lows as U.S. dollar rally keeps pressure
+
+## 2026-09-28 13:27 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.75 · คะแนนหนุน 4 / กด 28) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+**การประเมินแบบสอบเทียบ (Jev · TypeSafe System One):** ทิศทาง **down** · คะแนน -0.19 · ความหนักแน่น 0.73 · ถูก price-in แล้ว 0.36 · ธีมหลัก usd
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 5 ข่าว · คะแนนรวม 21 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 3 ข่าว · คะแนนรวม 16 (หนุน 1 / กด 2) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 3 ข่าว · คะแนนรวม 15 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 13 (หนุน 0 / กด 3) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated need for faster rate hikes, July minutes show
+- 🔴 [3] (commodities) Evercore sees yield-curve inversiaion risk rising as AI bull market holds firm
+- ⚪ [2] (commodities) Australia’s Northern Star rejects $27 billion takeover approach from Gold Fields
+- ⚪ [2] (markets) Yen jumps as Trump shows concern over its weakness, dollar halts daily win streak
+- ⚪ [2] (markets) Canadian dollar faces near-term pressure as rate gap and trade risks widen
+
+## 2026-09-28 13:32 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.75 · คะแนนหนุน 4 / กด 28) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 5 ข่าว · คะแนนรวม 21 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 3 ข่าว · คะแนนรวม 16 (หนุน 1 / กด 2) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 3 ข่าว · คะแนนรวม 15 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 13 (หนุน 0 / กด 3) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated need for faster rate hikes, July minutes show
+- 🔴 [3] (commodities) Evercore sees yield-curve inversiaion risk rising as AI bull market holds firm
+- ⚪ [2] (commodities) Australia’s Northern Star rejects $27 billion takeover approach from Gold Fields
+- ⚪ [2] (markets) Yen jumps as Trump shows concern over its weakness, dollar halts daily win streak
+- ⚪ [2] (markets) Canadian dollar faces near-term pressure as rate gap and trade risks widen
+
+### 2026-09-28 13:39 — งานวิจัยข่าวโดยบอท (mode2)
+
+<!-- ระบบเทรดทองคำอัตโนมัติ · ผู้สร้างระบบ: Kanutsanan Pongpanna — facebook.com/LoveMoneyTH -->
+# งานวิจัยข่าว Mode 2 (รอบ 10 นาที) — 2026-09-28 ~13:40 (+07)
+ผู้วิจัย: บอทสมอง LLM (mode2) · ข้อมูล: ข่าว investing.com RSS (24 ชม.) + สถิติระบบจริง (audit / internals)
+
+## สรุปทิศทาง
+- ข่าวเอียง "กดทอง" — สัดส่วน -0.75 (คะแนนหนุน 4 / กด 28) · ธีมเด่น: ค่าเงินดอลลาร์(5) · พลังงาน(3) · ดอกเบี้ย/Fed(3) · พันธบัตร/ยีลด์(3)
+- Jev (สอบเทียบแล้ว): ทิศทาง down · คะแนน -0.19 · หนักแน่น 0.73 · price-in 0.36 · ไม่มี catalyst วันนี้ · ธีม usd
+
+## ธีมมหภาค ↔ ทองคำ
+1. **ดอลลาร์แข็ง** — US-Iran ตึงเครียดดันราคาน้ำมัน + ตลาดเดิมพัน Fed เข้มขึ้น → กดทอง (น้ำหนักสูงสุด)
+2. **พันธบัตร/ยีลด์** — yield 30 ปีสหรัฐฯ สูงสุดตั้งแต่ปี 2004 (bond rout ลึกขึ้น) → ต้นทุนถือทองสูงขึ้น = กดทอง
+3. **พลังงาน** — น้ำมันขึ้น = แรงกดเงินเฟ้อ = หนุนทองทางอ้อม (ปัจจัยรอง)
+4. **ดอกเบี้ย/Fed/BoJ** — BoJ ส่งสัญญาณอาจขึ้นดอกเบี้ยเร็วขึ้น · ตลาดยังเดิมพัน Fed เข้ม → กระแสเงินไหลหาดอลลาร์
+
+## ข้อควรระวัง
+- ชุดข่าวเดิม ไม่มีรายการใหม่ (ข่าวถูกแคชหลายชั่วโมง) — ไม่ตีความเกินข้อมูล
+- ภูมิรัฐศาสตร์เป็นสองคม (ตึงเครียด = หนุนทองในฐานะสินทรัพย์ปลอดภัย) แต่ตลาดปัจจุบันโฟกัส "ดอลลาร์/ยีลด์" เป็นหลัก
+- ตัวเทรดใช้สัญญาณภายในเท่านั้น (ชั้น AI ไม่อยู่ในตัวเทรด) — ข่าว/LLM เป็นบริบทของชั้นวิจัย
+
+## เชื่อมกับตัวเลขระบบ (ตัวเลขจริง)
+- ไม้ปิด 0 (24 ชม. และ 72 ชม.) · equity $14.44 · ไม้เปิด 0 · spread ล่าสุด 0.29 · ผลจริงสะสม 311 ไม้ net -$2.58 (ไม้ปิดล่าสุด 16 ก.ย.)
+- ระบบถูกเปิดใช้งานอีกครั้งวันนี้ ~13:04–13:10 (gateway → MT5 terminal 13:08 → supervisor/เทรดเดอร์ 13:09:52)
+- LOCKOUT 286.6 ชม. ถูกผ่อนกลับ baseline (7 คีย์) + trend band ถูกคำนวณใหม่ (auto_threshold_update count 14)
+- รอบ 13:25–13:34: มีรอบที่สัญญาณผ่านด่านและพยายามส่งออเดอร์ แต่ถูกบล็อกที่ MT5: terminal_trade_allowed=false (AutoTrading ปิด) — ฝั่งบัญชีอนุญาต (account_trade_allowed=true)
+- Jev ข้อมูลภายใน: ยังไม่เข้าโซนกำไร (in_profit_zone 0.04 · frequency_ok 0.23 · edge_durable 0.17) → next_action = hold
+
+## ข้อเสนอ/ข้อควรทำ (รอบนี้)
+- ต่อจากรอบ 12:43: การทดสอบ "ปลดล็อกเพิ่มไม้" (breakout) แย่ลงทุกแบบ (เพิ่มไม้เฉลี่ย -0.36R ถึง -0.53R/ไม้) → ยืนยันไม่ฝืนเพิ่มไม้ จนกว่าจะมีไม้จริงให้วัด
+- ไม่มีข้อเสนอปรับค่ารอบนี้ (รอบแรกหลังรีสตาร์ท · ยังไม่มีหลักฐานไม้ใหม่ · ตรงกับผลวิจัยข้อมูลภายในที่ให้ "hold")
+- ถ้าต้องการให้เทรดจริงทันที: เปิดปุ่ม Algo Trading ในเทอร์มินัล MT5 (C:\Program Files\MetaTrader 5) — ไม่งั้นทุกออเดอร์จะถูกบล็อกต่อเนื่อง
+
+## 2026-09-28 13:42 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.75 · คะแนนหนุน 4 / กด 28) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 5 ข่าว · คะแนนรวม 21 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 3 ข่าว · คะแนนรวม 16 (หนุน 1 / กด 2) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 3 ข่าว · คะแนนรวม 15 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 13 (หนุน 0 / กด 3) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated need for faster rate hikes, July minutes show
+- 🔴 [3] (commodities) Evercore sees yield-curve inversiaion risk rising as AI bull market holds firm
+- ⚪ [2] (commodities) Australia’s Northern Star rejects $27 billion takeover approach from Gold Fields
+- ⚪ [2] (markets) Yen jumps as Trump shows concern over its weakness, dollar halts daily win streak
+- ⚪ [2] (markets) Canadian dollar faces near-term pressure as rate gap and trade risks widen
+
+## 2026-09-28 13:43 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.75 · คะแนนหนุน 4 / กด 28) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 5 ข่าว · คะแนนรวม 21 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 3 ข่าว · คะแนนรวม 16 (หนุน 1 / กด 2) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 3 ข่าว · คะแนนรวม 15 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 13 (หนุน 0 / กด 3) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated need for faster rate hikes, July minutes show
+- 🔴 [3] (commodities) Evercore sees yield-curve inversiaion risk rising as AI bull market holds firm
+- ⚪ [2] (commodities) Australia’s Northern Star rejects $27 billion takeover approach from Gold Fields
+- ⚪ [2] (markets) Yen jumps as Trump shows concern over its weakness, dollar halts daily win streak
+- ⚪ [2] (markets) Canadian dollar faces near-term pressure as rate gap and trade risks widen
+
+### 2026-09-28 13:49 — งานวิจัยข่าวโดยบอท (admin_bot)
+
+<!-- ระบบเทรดทองคำอัตโนมัติ · ผู้สร้างระบบ: Kanutsanan Pongpanna — facebook.com/LoveMoneyTH -->
+# งานวิจัยข่าวทองคำ — โดยบอทแอดมิน (admin_bot)
+รอบ: 30 นาที · เวลา: 2026-09-28 ~13:48 (Asia/Bangkok) · แหล่งข่าว: investing.com (24 ชม. · ชุดข่าวเดิม ~11:47 — ไม่มีรายการใหม่ที่มีนัยสำคัญ)
+
+## 1) สรุปทิศทางข่าว
+- ภาพรวม: ข่าวเอียงกดทองชัด — สัดส่วน **-0.75** (คะแนนหนุน 4 / กด 28) · ระดับระวัง: ระวัง (ข่าวกดทอง) — ต่อเนื่องจากรอบก่อน
+- ธีมเด่น: ① ค่าเงินดอลลาร์ ② พันธบัตร/ยีลด์ (yield 30 ปีสหรัฐฯ สูงสุดตั้งแต่ปี 2004 — bond rout ลึกขึ้น) ③ ดอกเบี้ย/Fed (เดิมพัน Fed เข้มขึ้น) + พลังงาน (US-Iran ดันน้ำมันขึ้น)
+- Jev (สอบเทียบแล้ว): ทิศทาง down · คะแนน -0.20 · หนักแน่น 0.72 · price-in 0.38 → ตลาดรับข่าวไปบางส่วนแล้ว แต่แรงกดยังอยู่ฝั่งดอลลาร์/ยีลด์
+
+## 2) ผลต่อทองคำ
+- แรงกดหลัก: ดอลลาร์แข็ง + ยีลด์พุ่ง → ต้นทุนโอกาสถือครองทองสูงขึ้น = กดราคาระยะสั้น
+- ตัวหนุนรอง: น้ำมันขึ้น (แรงกดเงินเฟ้อ = บวกทองทางอ้อม) · US-Iran เป็นสองคม (สินทรัพย์ปลอดภัย vs ดอลลาร์) — น้ำหนักรอง
+- สุทธิ: ฝั่งลบระยะสั้น แต่ไม่มี catalyst ใหม่สด — ระวังการแกว่งตัว
+- สถิติระบบ (จริง): ไม้ปิด 24 ชม. = **0 ไม้ · win 0.0% · net $0.00** (ไม้ปิดล่าสุด 16 ก.ย.) · ผลสะสม 311 ไม้ net -$2.58 · PF 0.95 · equity $14.44 · ไม้เปิด 0 — ยังไม่มีผลของรุ่นใหม่ให้ยืนยัน
+
+## 3) ข้อควรระวัง (สำคัญสุดของรอบนี้)
+- ⚠️ MT5 terminal ยังปิดสวิตช์ **Algo Trading** (terminal.trade_allowed=false · ฝั่งบัญชีอนุญาต) → ตัวเทรดพยายามส่งไม้แล้วถูกบล็อก 14 ครั้ง + รอบไม่ผ่านด่าน 22 รอบ ตั้งแต่รีสตาร์ท 13:09 (ตรวจ 13:45) → **ยิงไม้จริงไม่ได้จนกว่าจะเปิดปุ่ม** (เปิดได้เฉพาะคนหน้าเครื่อง — บอทห้ามแตะ)
+- ถ้าเปิดแล้ว ระบบจะยิงตามสัญญาณรอบถัดไปที่ผ่านด่าน — ในภาวะข่าวกดทองเช่นนี้ ควรเฝ้าดูไม้ชุดแรกของวันอย่างใกล้ชิด
+- ยังไม่มีไม้ปิดใหม่ (0 ไม้ใน 24 ชม.) → ทุกการวิวัฒน์ต้องรอหลักฐาน ≥5-8 ไม้ตามกติกา · รอบนี้ระบบ "งดผ่อนความระวัง 4 ข้อเสนอ" เพราะข่าวกดทอง — เห็นด้วยกับกลไกนี้
+- Jev ข้อมูลภายใน: ยังไม่เข้าโซนกำไร (net โซนกำไร 0.05 · ความถี่เหมาะ 0.24 · ขอบยั่งยืน 0.15 · คุณภาพการตั้งค่า 0.17) → next_action = hold
+
+## 4) ข้อเสนอ
+1. **ไม่ปรับค่าใดๆ รอบนี้** — แอดมินรอบยืนยัน "ค่าอยู่ในเกณฑ์ดี" · Jev hold · บอทโหมด 2 ไม่มีข้อเสนอ · ไม่ฝืนเพิ่มไม้ (ผลทดสอบปลดล็อกเพิ่มไม้รอบ 12:43 แย่ลง −0.36R ถึง −0.53R/ไม้)
+2. ฝั่งเจ้าของระบบ: ① เปิดปุ่ม Algo Trading ใน MT5 (C:\Program Files\MetaTrader 5) ถ้าต้องการให้เทรดจริงวันนี้ ② แจ้งเมื่อเปิดแล้ว เพื่อเฝ้าดูไม้ชุดแรก
+3. หลังมีไม้ปิด ≥5 ไม้: ค่อยประเมิน band/ประตูใหม่จากข้อมูลจริง (โหมดตลาด + ทิศทางดอลลาร์/ยีลด์ เป็นตัวแปรหลัก)
+
+— สรุปรอบนี้: ระบบเดินครบวงจรหลังรีสตาร์ท (adaptive/threshold/hot-reload ทำงานปกติ) แต่ **ติดสวิตช์ MT5** — ยังไม่มีไม้จริง; ไม่ดีขึ้นไม่แย่ลงจนกว่าจะเริ่มเทรดได้
+— ผู้วิเคราะห์: admin_bot (Hermes) · อ้างอิง: audit จริง + news cache + admin round + MT5 probe
+
+## 2026-09-28 13:51 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.75 · คะแนนหนุน 4 / กด 28) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+**การประเมินแบบสอบเทียบ (Jev · TypeSafe System One):** ทิศทาง **down** · คะแนน -0.18 · ความหนักแน่น 0.71 · ถูก price-in แล้ว 0.38 · ธีมหลัก usd
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 5 ข่าว · คะแนนรวม 21 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 3 ข่าว · คะแนนรวม 16 (หนุน 1 / กด 2) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 3 ข่าว · คะแนนรวม 15 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 13 (หนุน 0 / กด 3) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated need for faster rate hikes, July minutes show
+- 🔴 [3] (commodities) Evercore sees yield-curve inversiaion risk rising as AI bull market holds firm
+- ⚪ [2] (commodities) Australia’s Northern Star rejects $27 billion takeover approach from Gold Fields
+- ⚪ [2] (markets) Yen jumps as Trump shows concern over its weakness, dollar halts daily win streak
+- ⚪ [2] (markets) Canadian dollar faces near-term pressure as rate gap and trade risks widen
+
+## 2026-09-28 13:54 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.75 · คะแนนหนุน 4 / กด 28) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 5 ข่าว · คะแนนรวม 21 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 3 ข่าว · คะแนนรวม 16 (หนุน 1 / กด 2) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 3 ข่าว · คะแนนรวม 15 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 13 (หนุน 0 / กด 3) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated need for faster rate hikes, July minutes show
+- 🔴 [3] (commodities) Evercore sees yield-curve inversiaion risk rising as AI bull market holds firm
+- ⚪ [2] (commodities) Australia’s Northern Star rejects $27 billion takeover approach from Gold Fields
+- ⚪ [2] (markets) Yen jumps as Trump shows concern over its weakness, dollar halts daily win streak
+- ⚪ [2] (markets) Canadian dollar faces near-term pressure as rate gap and trade risks widen
+
+### 2026-09-28 13:54 — งานวิจัยข่าวโดยบอท (mode2)
+
+<!-- ระบบเทรดทองคำอัตโนมัติ · ผู้สร้างระบบ: Kanutsanan Pongpanna — facebook.com/LoveMoneyTH -->
+# งานวิจัยข่าว Mode 2 (รอบ 10 นาที) — 2026-09-28 ~14:05 (+07)
+ผู้วิจัย: บอทสมอง LLM (mode2) · ข้อมูล: ข่าว investing.com RSS (24 ชม.) + สถิติระบบจริง (audit / internals / Jev)
+
+## สรุปทิศทาง
+- ข่าวเอียง "กดทอง" สัดส่วน **-0.75** (คะแนนหนุน 4 / กด 28) · **ชุดข่าวเดิม ไม่มีรายการใหม่** (แคชต่อเนื่องจากรอบ 11:47–13:48)
+- Jev (ข่าว): ทิศทาง **down** · คะแนน **-0.184** · หนักแน่น 0.71 · price-in 0.38 · ไม่มี catalyst วันนี้ · ธีม usd
+- Jev (ภาวะตลาด · เรียกสด 13:57): **trend_down** (conf 0.99) · ความแข็งแนวโน้ม 0.77 · เหมาะเทรดตามแนวโน้ม = ใช่ (0.66)
+
+## ธีมมหภาค ↔ ทองคำ (น้ำหนักจริงจากระบบ)
+1. **ดอลลาร์แข็ง** — 5 ข่าว/คะแนน 21 (กด 3) · US-Iran ดันน้ำมัน + ตลาดเดิมพัน Fed เข้มขึ้น → กดทองน้ำหนักสูงสุด
+2. **พันธบัตร/ยีลด์** — 3 ข่าว/13 (กด 3) · ยีลด์ 30 ปีสหรัฐ สูงสุดตั้งแต่ปี 2004 (bond rout ลึกขึ้น) → ต้นทุนถือทองสูง = กดทองตรง
+3. **พลังงาน** — 3 ข่าว/16 (หนุน 1 / กด 2) · น้ำมันขึ้น = แรงกดเงินเฟ้อ = หนุนทองทางอ้อม (ปัจจัยรอง)
+4. **ดอกเบี้ย/Fed/BoJ** — 3 ข่าว/15 (กด 3) · BoJ ส่งสัญญาณขึ้นดอกเบี้ยเร็วขึ้น · ตลาดเดิมพัน Fed เข้ม → เงินไหลหาดอลลาร์
+5. **ภูมิรัฐศาสตร์** — 1 ข่าว/4 (หนุน 1) · US-Iran ตึงเครียด = หนุนทองฐานสินทรัพย์ปลอดภัย (แต่ถูกน้ำหนักดอลล์กลบ)
+
+## ข้อควรระวัง
+- ชุดข่าวเดิม (แคชหลายชั่วโมง) — ไม่ตีความเกินข้อมูล ไม่แต่งข่าวใหม่
+- ภูมิรัฐศาสตร์เป็นสองคม: บานปลาย = ทองได้ safe-haven · ยุติเร็ว (Trump: น้ำมันจะร่วงหลังสงครามจบ) = คลายแรงกดเงินเฟ้อ
+- ตลาดโฟกัส "ดอลลาร์/ยีลด์" เป็นหลัก — ถ้ายีลด์พักตัวหรือดอลลาร์อ่อน ทองดีดได้เร็ว
+- ตัวเทรดใช้สัญญาณภายในเท่านั้น (ชั้น AI ไม่อยู่ในตัวเทรด) — ข่าว/LLM เป็นบริบทของชั้นวิจัย
+
+## เชื่อมกับตัวเลขระบบจริง (audit · 13:42–13:57)
+- **ยิงออเดอร์แรกหลังรีสตาร์ทสำเร็จ**: SELL trend XAUUSD.sml 0.001 @ 4172.915 · SL 4178.754 · TP 4165.255 · risk $0.59 · ticket 40426789 (13:50:56) — **ทิศทางตรงกับข่าวกดทอง + Jev regime trend_down**
+- ก่อนหน้านั้นถูกบล็อก "MT5 trading permission is disabled" ช่วง 13:25–13:30 (14 ครั้ง) → สิทธิ์กลับมา 13:50 → retcode 10009 "Request executed"
+- [AT vs Trade] ออเดอร์ 24 ชม. = 0 / LOCKOUT 72 ชม. → ระบบ relax band กลับ baseline 8 คีย์ + อัปเดต 36 ค่า (trend_buy/sell) อัตโนมัติเมื่อ 13:48–13:50
+- สัญญาณภายใน: **NEUTRAL** (น้ำหนัก 51% · score -0.033) · แรงซื้อ/ขายสุทธิ -0.23 · rolling20 $-1.65 · net72h $0.000/trade
+- M5 จริง: EMA20-EMA50 = **-2.58 ATR** · ADX14 = **46** · lower-lows ✓ (แนวโน้มลงแข็ง)
+- แผนปรับค่าภายใน: BAND-PLAN **0 รายการ** · TPSL-PLAN **0 รายการ** (จาก 307–311 ไม้จริง · trend wr 0.59 win 0.34R loss 0.80R)
+- กระดานคะแนนกลยุทธ์: 311 ไม้ net -$2.58 PF 0.95 ✗ (รุ่นเก่าก่อนแก้ 19 ก.ย.) — หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+## สรุปสำหรับระบบ
+- ระยะสั้นโน้มลง (กดทอง) — สอดคล้องกับไม้ SELL ที่เพิ่งเปิด · จุดติดตาม: หลุด TP 4165.26 = แผนทำงาน; ถ้าผลไม้ชุดใหม่ออกมาดี ค่อยพิจารณาเพิ่มน้ำหนักภายหลัง
+- **ไม่เสนอปรับค่าใหม่รอบนี้**: ไม้ปิดใหม่ 24 ชม. = 0 · แผนภายใน 0 รายการ · Jev internal = hold — รอหลักฐานจากไม้ชุดใหม่ก่อน
+
+## 2026-09-28 14:05 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.77 · คะแนนหนุน 4 / กด 31) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 4) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 3 ข่าว · คะแนนรวม 16 (หนุน 1 / กด 2) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 3 ข่าว · คะแนนรวม 15 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated need for faster rate hikes, July minutes show
+- 🔴 [3] (commodities) Evercore sees yield-curve inversiaion risk rising as AI bull market holds firm
+- 🔴 [3] (commodities) Evercore sees yield-curve inversion risk rising as AI bull market holds firm
+- ⚪ [2] (commodities) Australia’s Northern Star rejects $27 billion takeover approach from Gold Fields
+- ⚪ [2] (markets) Yen jumps as Trump shows concern over its weakness, dollar halts daily win streak
+
+## 2026-09-28 14:16 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.77 · คะแนนหนุน 4 / กด 31) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 4) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 3 ข่าว · คะแนนรวม 16 (หนุน 1 / กด 2) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 3 ข่าว · คะแนนรวม 15 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated need for faster rate hikes, July minutes show
+- 🔴 [3] (commodities) Evercore sees yield-curve inversiaion risk rising as AI bull market holds firm
+- 🔴 [3] (commodities) Evercore sees yield-curve inversion risk rising as AI bull market holds firm
+- ⚪ [2] (commodities) Australia’s Northern Star rejects $27 billion takeover approach from Gold Fields
+- ⚪ [2] (markets) Yen jumps as Trump shows concern over its weakness, dollar halts daily win streak
+
+## 2026-09-28 14:23 — งานวิจัยข่าวทองคำ (investing.com RSS · 24.0 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.77 · คะแนนหนุน 4 / กด 31) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 4) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 3 ข่าว · คะแนนรวม 16 (หนุน 1 / กด 2) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 3 ข่าว · คะแนนรวม 15 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated need for faster rate hikes, July minutes show
+- 🔴 [3] (commodities) Evercore sees yield-curve inversiaion risk rising as AI bull market holds firm
+- 🔴 [3] (commodities) Evercore sees yield-curve inversion risk rising as AI bull market holds firm
+- ⚪ [2] (commodities) Australia’s Northern Star rejects $27 billion takeover approach from Gold Fields
+- ⚪ [2] (markets) Yen jumps as Trump shows concern over its weakness, dollar halts daily win streak
+
+## 2026-09-28 14:27 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.77 · คะแนนหนุน 4 / กด 31) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 4) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 3 ข่าว · คะแนนรวม 16 (หนุน 1 / กด 2) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 3 ข่าว · คะแนนรวม 15 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated need for faster rate hikes, July minutes show
+- 🔴 [3] (commodities) Evercore sees yield-curve inversiaion risk rising as AI bull market holds firm
+- 🔴 [3] (commodities) Evercore sees yield-curve inversion risk rising as AI bull market holds firm
+- ⚪ [2] (commodities) Australia’s Northern Star rejects $27 billion takeover approach from Gold Fields
+- ⚪ [2] (markets) Yen jumps as Trump shows concern over its weakness, dollar halts daily win streak
+
+### 2026-09-28 14:31 — งานวิจัยข่าวโดยบอท (mode2)
+
+<!-- ระบบเทรดทองคำอัตโนมัติ · ผู้สร้างระบบ: Kanutsanan Pongpanna — facebook.com/LoveMoneyTH -->
+# งานวิจัยข่าว Mode 2 (รอบ 10 นาที) — 2026-09-28 ~14:30 (+07)
+ผู้วิจัย: บอทสมอง LLM (mode2) · ข้อมูล: ข่าว investing.com RSS (24 ชม.) + สถิติระบบจริง (audit / internals / Jev / MT5 history)
+
+## สรุปทิศทาง
+- ข่าวเอียง "กดทอง" สัดส่วน **-0.77** (คะแนนหนุน 4 / กด 31) · **ชุดข่าวเดิมต่อเนื่อง** — ตรวจ digest 13:51 → 14:23 ไม่มีรายการใหม่ (แคชหลายชั่วโมง)
+- Jev (ข่าว · จากชุดข้อมูล 14:06): ทิศทาง **down** · คะแนน **-0.222** · หนักแน่น 0.72 · price-in แล้ว 0.37 · ไม่มี catalyst วันนี้ · ธีม usd
+- Jev (ภาวะตลาด · เรียกสด 14:25): **trend_down** · ความแข็งแนวโน้ม 0.9 (score 3.59/4 = แข็ง–แข็งมาก) · เหมาะเทรดตามแนวโน้ม = ใช่ (0.69) · ไม่ low-confidence
+
+## ธีมมหภาค ↔ ทองคำ (น้ำหนักจริงจากระบบ)
+1. **ดอลลาร์แข็ง** — 4 ข่าว/คะแนน 19 (กด 3) · US-Iran ดันน้ำมัน + ตลาดเดิมพัน Fed เข้มขึ้น → กดทองน้ำหนักสูงสุด
+2. **พันธบัตร/ยีลด์** — 4 ข่าว/16 (กด 4) · ยีลด์ 30 ปีสหรัฐ สูงสุดตั้งแต่ปี 2004 (bond rout ลึกขึ้น) → ต้นทุนถือทองสูง = กดทองตรง
+3. **พลังงาน** — 3 ข่าว/16 (หนุน 1 / กด 2) · น้ำมันขึ้น = แรงกดเงินเฟ้อ = หนุนทองทางอ้อม (ปัจจัยรอง)
+4. **ดอกเบี้ย/Fed/BoJ** — 3 ข่าว/15 (กด 3) · BoJ ส่งสัญญาณขึ้นดอกเบี้ยเร็วขึ้น → เงินไหลหาดอลลาร์
+5. **ภูมิรัฐศาสตร์** — 1 ข่าว/4 (หนุน 1) · US-Iran ตึงเครียด = หนุนทองฐานสินทรัพย์ปลอดภัย (ถูกน้ำหนักดอลล์กลบ)
+
+## ข้อควรระวัง
+- ชุดข่าวเดิม (แคชหลายชั่วโมง) — ไม่ตีความเกินข้อมูล ไม่แต่งข่าวใหม่; มีรายการกลาง ๆ เพิ่ม 2 รายการ ([2] Northern Star ถูกเทคโอเวอร์, [2] Yen/Trump) — ยังไม่มีนัยต่อทอง
+- ภูมิรัฐศาสตร์เป็นสองคม: บานปลาย = ทองได้ safe-haven · ยุติเร็ว (Trump: น้ำมันจะร่วงหลังสงครามจบ) = คลายแรงกดเงินเฟ้อ
+- ตลาดโฟกัส "ดอลลาร์/ยีลด์" เป็นหลัก — ถ้ายีลด์พักตัว/ดอลลาร์อ่อน ทองดีดได้เร็ว (จุดกลับตัวที่ต้องเฝ้า)
+- ตัวเทรดใช้สัญญาณภายในเท่านั้น (ชั้น AI ไม่อยู่ในตัวเทรด) — ข่าว/LLM เป็นบริบทของชั้นวิจัย
+
+## เชื่อมกับตัวเลขระบบจริง (MT5 history + audit · 13:50–14:29)
+- ✅ **ไม้แรกหลังรีสตาร์ทปิดที่ TP เต็มจำนวน**: SELL trend XAUUSD.sml @4172.915 (ticket 40426789) → ปิด @4165.205 ราคา TP **[tp 4165.255] · net +$0.77** (~13:55:50) = ครบเป้า RR 1.3 (เสี่ยง $0.59) ใช้เวลา ~5 นาที — ทิศทางตรงกับข่าวกดทอง + Jev regime trend_down
+- ไม้ที่ 2: SELL trend @4164.165 (ticket 40426966 · SL 4170.455 · TP 4155.988 · risk $0.63) เปิด 13:56:03 โดย close_ticker (ปิดไม้ = จุดยิงเช็คเทรดใหม่) — **กำไรลอย +$0.54** (14:29 · ราคา 4158.3 · เหลือถึง TP ~2.4 จุด)
+- ทุนบัญชีวันนี้: 14.44 → 15.21 (ไม้แรก +$0.77) + ลอย +$0.54 → equity ~15.75
+- M5 จริง: EMA20-EMA50 = **-2.57 ATR** · ADX14 = **52.4** (แรงขึ้นจาก 46 เมื่อ 13:57) · ATR14 5.23 · lower-lows ✓ · closes ไหลลง 4175→4160
+- หมายเหตุกลไกบันทึก: event `position_closed` ใน audit จะตามหลัง ~3 ชม. (ตัวกรองเวลาของ MT5: ดีลestamp เป็น server+3 vs `to=now_utc`) — สถิติใน audit ช่วงนี้จึงยังแสดง 0 ไม้ปิด ทั้งที่ MT5 ยืนยัน +$0.77 แล้ว (จะบันทึกเอง ~16:56 น.)
+- แผนปรับค่าภายใน (14:26): BAND-PLAN **7 รายการ** · TPSL-PLAN **6 รายการ** (breakout RR 1.5→1.4 · อื่น ๆ 1.3→1.2 ตาม R จริงเดิม) — วิ่งเข้าเส้นทางอัตโนมัติ plan_sim (จำลอง) → plan_to_rec → Testing Gate ของระบบเอง
+- Jev internal (จากชุดข้อมูล): **hold** · healthy=false · ยังไม่เข้าโซนกำไร/คุณภาพการตั้งค่าต่ำ (low_confidence)
+
+## สรุปสำหรับระบบ
+- ระยะสั้นโน้มลงชัด (ข่าวกดทอง -0.77 + regime trend_down 0.9 + ADX เร่ง + lower-lows) — สอดคล้องไม้ SELL ทั้ง 2 ไม้; ไม้แรกพิสูจน์แล้วว่า**แผน TP ทำงานเต็มจำนวน**ในภาวะแนวโน้มแบบนี้
+- **ไม่เสนอปรับค่าใหม่รอบนี้**: ไม้ปิดชุดใหม่เพิ่งเริ่ม (1 ไม้ +$0.77, อีก 1 กำลังวิ่ง) · Jev internal = hold · แผนภายใน (band/tpsl) มีรายการและจะถูกทดสอบผ่านด่านจำลองของระบบเอง — รอหลักฐานไม้ชุดใหม่ ≥5-8 ไม้ก่อนประเมินค่าของบอทโหมด 2
+- จุดติดตามรอบถัดไป: ไม้ที่ 2 ถึง TP (4155.99)? · หลังไม้ปิด ระบบยิงไม้ใหม่ตามแนวโน้มหรือเริ่มเจอสัญญาณสวน (ระวัง exhaustion เมื่อ ADX สูงมาก) · ผล plan_sim รอบถัดไป
+
+## 2026-09-28 14:38 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.77 · คะแนนหนุน 4 / กด 31) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 4) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 3 ข่าว · คะแนนรวม 16 (หนุน 1 / กด 2) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 3 ข่าว · คะแนนรวม 15 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated need for faster rate hikes, July minutes show
+- 🔴 [3] (commodities) Evercore sees yield-curve inversiaion risk rising as AI bull market holds firm
+- 🔴 [3] (commodities) Evercore sees yield-curve inversion risk rising as AI bull market holds firm
+- ⚪ [2] (commodities) Australia’s Northern Star rejects $27 billion takeover approach from Gold Fields
+- ⚪ [2] (markets) Yen jumps as Trump shows concern over its weakness, dollar halts daily win streak
+
+### 2026-09-28 14:38 — งานวิจัยข่าวโดยบอท (admin_bot)
+
+<!-- ระบบเทรดทองคำอัตโนมัติ · ผู้สร้างระบบ: Kanutsanan Pongpanna — facebook.com/LoveMoneyTH -->
+# งานวิจัยข่าวทองคำ — โดยบอทแอดมิน (admin_bot)
+รอบ: 30 นาที · เวลา: 2026-09-28 ~14:40 (Asia/Bangkok) · แหล่งข่าว: investing.com (24 ชม. · ชุดข่าวเดิม ไม่มีรายการใหม่ — มีรายการซ้ำ)
+
+## 1) สรุปทิศทางข่าว
+- ภาพรวม: ข่าวเอียงกดทอง สัดส่วน **-0.77** (คะแนนหนุน 4 / คะแนนกด 31) · ระดับ "ระวัง (ข่าวกดทอง)" — คะแนนกดที่เพิ่มจากรอบก่อน (28 → 31) มาจาก **รายการซ้ำ/สำเนาของข่าวเดิม** (Dollar firms/holds ชุดเดียวกัน, Evercore ×2) ไม่ใช่ข่าวใหม่
+- ธีมหลัก: ① ค่าเงินดอลลาร์แข็ง (US-Iran ดันน้ำมัน + ตลาดเดิมพัน Fed เข้มขึ้น) ② พันธบัตร/ยีลด์ — ยีลด์ 30 ปีสหรัฐฯ สูงสุดตั้งแต่ปี 2004 ③ ดอกเบี้ย/Fed/BoJ
+- Jev ข่าว (สอบเทียบแล้ว): ทิศทาง down · คะแนน -0.21 · หนักแน่น 0.72 · price-in 0.37 · ไม่มี catalyst ใหม่
+
+## 2) ผลต่อทองคำ (ราคาจริงจาก MT5)
+- ทองลงต่อเนื่องตามแนวโน้ม: ~4194 (08:00 เซิร์ฟเวอร์) → ต่ำสุด 4156.52 (14:20) → ล่าสุด ~4158.3 (14:31) · Jev regime = **trend_down** (EMA20-EMA50 = -2.57 ATR · ADX 52.4 · lower-lows ✓)
+- สุทธิ: แรงกดระยะสั้นจากดอลลาร์/ยีลด์ยังเป็นหลัก; ตัวหนุนรอง (น้ำมันขึ้น, safe-haven) ถูกกลบ — สอดคล้องกับฝั่ง SELL ของระบบ
+
+## 3) พัฒนาการสำคัญของรอบนี้: ระบบกลับมาเทรดจริงแล้ว (MT5 เปิด AutoTrading)
+- ผู้ใช้เปิดปุ่ม MT5 ช่วง ~13:44–13:50 → **ยิงไม้จริงได้ครั้งแรกนับจาก 16 ก.ย.** (ก่อนหน้านั้นถูกบล็อก 14 ครั้ง · ครั้งสุดท้าย 13:43:44)
+- **ไม้ 1 (40426789): SELL XAUUSD.sml 0.001 @ 4172.915 (13:50:56) → ปิดด้วย TP @ 4165.205 (13:55:50) = กำไร +$0.77** (ดีล 23454613 · comment "[tp 4165.255]") — ≈ 1.3R ตรงเป้า RR ของ trend · *ชนะ*
+- **ไม้ 2 (40426966): SELL 0.001 @ 4164.165 (13:56:03) — ยังเปิดอยู่** · SL 4170.455 / TP 4155.988 · กำไรลอย +$0.59 (ตรวจ 14:31) · ระบบถือไม้ตามสัญญาณ same-direction (profit_exit_hold)
+- บัญชี: balance $15.21 · equity $15.80 · day-start 14.44 → วันนี้ +$0.77 ปิดจริง (รอนับเข้าสถิติ) + ลอย +$0.59 · **มียอดฝาก $4.00 (08:06 น. — ไม่ใช่กำไรเทรด)**
+- ชั้นปรับตัวทำงานครบ: band relax กลับ baseline 8 คีย์ + อัปเดต 36 ค่า (13:48–50) · auto-threshold เดินปกติ · hot-reload ปกติ · Jev power level 1
+
+## 4) ข้อควรระวัง (สำคัญสุดของรอบนี้ — พบการนับไม้ปิดล่าช้า ~3 ชม.)
+- **พบ timezone mismatch ใน `refresh_closed_trade_state` (auto_trader.py บรรทัด 317)**: query ใช้ `end = datetime.now(timezone.utc)` (UTC จริง) แต่เวลาดีลของ MT5 เป็น **server time (เร็วกว่า UTC +3 ชม.)** → ดีลที่ปิดใหม่ถูกตัดออกจากหน้าต่าง query จนกว่าจะผ่านไป ~3 ชม.
+- หลักฐานทดสอบสด (14:36): `end = UTC now` → เห็นดีลเพียง 1 รายการ (เฉพาะฝากเงิน) **ไม่เห็นไม้ปิด 23454613**; `end = +4h` → เห็นครบ [23454474, 23454613, 23454631] · delta = 8,382 วิ ≈ 2.33 ชม. → **ไม้ +0.77 จะถูกนับอัตโนมัติ ~16:55:50 วันนี้** (refresh วิ่งทุกนาที — self-heal)
+- ผลกระทบ (เป็น "ล่าช้า" ไม่หาย): ① `position_closed` และสถิติ "ไม้ปิด 24 ชม." ของบอททั้งสองโชว์ 0 ชั่วคราว ② `consecutive_losses` + `max_consecutive_losses` block + **revenge guard** (กรณีไม้ขาดทุน) ทำงานช้า ~3 ชม. ③ adaptive outcomes ยังไม่ได้ไม้ +0.77 เข้า `trend` ④ `state.open_positions` ยังค้าง 40426789 (จะถูก pop ตอนนับ — ไม่กระทบการยิงไม้ เพราะมีแค่ 2 จุดใช้ set/pop)
+- ทางแก้ (สิทธิ์มนุษย์ — รอบออโต้ห้ามแตะโค้ด): เปลี่ยน end เป็น now_utc + 4h หรือใช้ server-now · ควรตรวจ `tools/early_cut_sim.py` / `tools/loss_review.py` ที่ query ดีลด้วย (คนละรูปแบบ ต้องดูซ้ำ)
+- Jev โครงสร้างรอบนี้: ⚠️ ควรทบทวน แต่หลักฐานพอเพียง 0.06–0.07 → **ยังไม่ควรวิวัฒน์โครงสร้าง** · รอบแอดมิน "ไม่มีการปรับค่า" (ข่าวกดทองงดผ่อน 4 ข้อเสนอ) — เห็นด้วย
+- เฝ้าไม้ 40426966: ถ้าออกที่ TP ≈ **+$0.82** / ถ้า SL ≈ **−$0.63** → บันทึกเป็นหลักฐานยุคใหม่ (ต้อง ≥5 ไม้ก่อนวิวัฒน์ค่าอื่น)
+
+## 5) ข้อเสนอ
+1. **ไม่ปรับค่า/ไม่เสนอ recommendation รอบนี้** — ค่าอยู่ในเกณฑ์ดี · Jev hold · หลักฐานโครงสร้างไม่พอ · ข่าวยังกดทอง (ไม่ฝืนผ่อน)
+2. เจ้าของระบบ/สมองหลัก: พิจารณาแก้ timezone query (auto_trader.py:317) — ระบบ self-heal ได้ใน ~3 ชม. แต่กรณีไม้ขาดทุน revenge guard / max-consecutive block จะช้าไปด้วย (เสี่ยง re-entry เร็วหลังขาดทุน)
+3. ติดตามไม้ชุดแรก: ผลจริง 1 ไม้ = +$0.77 (ชนะ) — ยังไม่พอสรุป ต้องรอ ≥5 ไม้ก่อนประเมิน gate/band จากข้อมูลจริง
+4. รักษาระดับความระวังตามกลไกเดิม (ข่าวกดทอง) — เมื่อมีไม้ปิดชุดใหม่ค่อยปลดล็อกการวิเคราะห์ตามกติกา
+
+— สรุปรอบนี้: **ดีขึ้นชัดเจน** — จาก "ยิงไม้ไม่ได้ 16 วัน" → ยิงได้ 2 ไม้ · ไม้แรกชนะ TP +$0.77 · อีกไม้ลอยกำไร +$0.59 · จุดด้อยที่พบ = การนับไม้/สถิติล่าช้า ~3 ชม. (สาเหตุชัด + มีทางแก้ + self-heal ~16:56)
+— ผู้วิเคราะห์: admin_bot (Hermes) · อ้างอิง: audit จริง + MT5 deals/positions สด + news cache + admin round + Jev
+
+## 2026-09-28 14:49 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.77 · คะแนนหนุน 4 / กด 31) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 4) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 3 ข่าว · คะแนนรวม 16 (หนุน 1 / กด 2) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 3 ข่าว · คะแนนรวม 15 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated need for faster rate hikes, July minutes show
+- 🔴 [3] (commodities) Evercore sees yield-curve inversiaion risk rising as AI bull market holds firm
+- 🔴 [3] (commodities) Evercore sees yield-curve inversion risk rising as AI bull market holds firm
+- ⚪ [2] (commodities) Australia’s Northern Star rejects $27 billion takeover approach from Gold Fields
+- ⚪ [2] (markets) Yen jumps as Trump shows concern over its weakness, dollar halts daily win streak
+
+### 2026-09-28 15:00 — งานวิจัยข่าวโดยบอท (mode2)
+
+<!-- ระบบเทรดทองคำอัตโนมัติ · ผู้สร้างระบบ: Kanutsanan Pongpanna — facebook.com/LoveMoneyTH -->
+# งานวิจัยข่าว Mode 2 (รอบ 10 นาที) — 2026-09-28 ~14:57 (+07)
+ผู้วิจัย: บอทสมอง LLM (mode2) · ข้อมูล: ข่าว investing.com RSS (24 ชม.) + สถิติระบบจริง (audit / internals / Jev / MT5 history สด)
+
+## สรุปทิศทาง
+- ข่าวเอียง "กดทอง" สัดส่วน **-0.77** (คะแนนหนุน 4 / กด 31) · **ชุดข่าวเดิมต่อเนื่อง ไม่มีรายการใหม่** (แคช; รายการ [2] กลาง ๆ เดิม: Northern Star ถูกเทคโอเวอร์, Yen/Trump) — ตรวจ digest 14:43 → 14:53 เหมือนเดิม
+- สะสม 24 ชม. (40 รอบวิจัย): ธีมหลัก ค่าเงินดอลลาร์ 186 ข่าว (คะแนน 662) · พันธบัตร/ยีลด์ 86 (394) · พลังงาน 81 (418) · ดอกเบี้ย/Fed 81 (384) · ภูมิรัฐศาสตร์ 34 (136) → ทิศทางลบสม่ำเสมอทั้งวัน
+- Jev ข่าว (สด 14:43): ทิศทาง **down** · คะแนน **-0.214** · หนักแน่น 0.73 · price-in แล้ว 0.37 · ไม่มี catalyst วันนี้ · ธีม usd
+- Jev ภาวะตลาด (เรียกสด ~14:52): **trend_down** · ความแข็งแนวโน้ม 0.86 · **เหมาะเทรดตามแนวโน้ม = ไม่ (0.38) · low-confidence** — แนวโน้มแรงแต่ปลายทาง (สอดคล้อง ADX สุดขั้ว)
+
+## ธีมมหภาค ↔ ทองคำ (น้ำหนักจริงจากระบบ)
+1. **ดอลลาร์แข็ง** — 4 ข่าว/คะแนน 19 (กด 3) · US-Iran ดันน้ำมัน + ตลาดเดิมพัน Fed เข้มขึ้น → กดทองน้ำหนักสูงสุด
+2. **พันธบัตร/ยีลด์** — 4 ข่าว/16 (กด 4) · ยีลด์ 30 ปีสหรัฐ สูงสุดตั้งแต่ปี 2004 (bond rout ลึกขึ้น) → กดทองตรง
+3. **พลังงาน** — 3 ข่าว/16 (หนุน 1 / กด 2) · น้ำมันขึ้น = แรงกดเงินเฟ้อ = หนุนทองทางอ้อม (ปัจจัยรอง)
+4. **ดอกเบี้ย/Fed/BoJ** — 3 ข่าว/15 (กด 3) · BoJ ถกขึ้นดอกเบี้ยเร็วขึ้น → เงินไหลหาดอลลาร์
+5. **ภูมิรัฐศาสตร์** — 1 ข่าว/4 (หนุน 1) · US-Iran ตึงเครียด (ถูกน้ำหนักดอลล์กลบ)
+
+## ภาวะตลาดสด + ข้อควรระวัง
+- M5 จริง: closes 4174.5 → 4153.1 (20 แท่งล่าสุด) · EMA20-EMA50 = **-2.95 ATR** (กว้างขึ้นจาก -2.57) · **ADX14 = 59.5** (เร่งจาก 52.4) · ATR14 4.99 · ช่วง 20 แท่ง = 5.52 ATR — แนวโน้มลงแรงมาก
+- ⚠️ **สัญญาณเหนื่อยล้าชัดขึ้น**: ADX 59.5 สุดขั้ว + ราคาเด้งจากต่ำสุด 4152.5 (แท่ง 17:50 เซิร์ฟเวอร์) ขึ้นมาถึง ~4157.4 (+~5 จุด) — ไม้ SELL ที่ถืออยู่ติดลบชั่วคราว -$0.17 (จากเคย +$0.17) · ข่าว [2] "Yen jumps / dollar halts daily win streak" = ดอลลาร์เริ่มหยุดวิ่ง — ระวังการย้อนกลับระยะสั้น
+- ชุดข่าวเดิม (แคชหลาย ชม.) — ไม่ตีความเกินข้อมูล ไม่แต่งข่าวใหม่
+- จุดกลับตัวที่ต้องเฝ้า: ดอลลาร์อ่อน/ยีลด์พักตัว → ทองดีดได้เร็ว (ปัจจุบันคือความเสี่ยงหลักของฝั่ง SELL)
+
+## เชื่อมกับตัวเลขระบบจริง (MT5 สด · ยืนยันโดยตรงแล้ว)
+- ✅ **ไม้ที่ 2 ปิดที่ TP เต็มจำนวน**: SELL trend #40426966 @4164.165 → ปิด @4155.975 (TP 4155.988) · **net +$0.82** · ถือ 41 นาที (~13:56 → 14:37) — ต่อจากไม้แรก +$0.77 (4172.885 → 4165.205)
+- 🟢 **ไม้ที่ 3 เปิดต่อทันทีโดย close_ticker**: SELL #40427762 @4155.725 · SL 4161.511 · TP 4147.443 · risk $0.61 (3.8%) — เปิด 14:37:29 หลังไม้ 2 ปิด = กลไก "ปิดไม้ = จุดยิงเช็คเทรดใหม่" ทำงานสมบูรณ์
+- ทุนวันนี้: 14.44 → **balance $16.03** (ปิดชนะ 2/2 = +$1.59 = +11.0%) · equity ปัจจุบัน **$15.86** (ไม้ 3 ลอย -$0.17 หลังราคาเด้ง) · ราคา bid 4156.875
+- กลไกที่เห็นทำงานจริงใน audit: `profit_exit_hold (same-direction signal)` = ถือไม้ต่อไม่ปิดก่อนกำหนดเมื่อสัญญาณทิศเดิม · `close_ticker` 2 ครั้ง · `blocked: MT5 trading permission is disabled` ×3 ช่วง 13:41–13:43 (ก่อนเปิด AutoTrading — หายแล้ว)
+- หมายเหตุบันทึกล่าช้า (ทราบแล้ว): audit "3 ชม." ยังแสดง 0 ไม้ปิด (ตัวกรองเวลา server±3 ชม. ของ MT5) — ของจริง MT5 ยืนยัน +$1.59 จะเข้า audit เอง ~2-3 ชม.
+- แผนปรับค่าภายใน: BAND-PLAN 7 รายการ (อัปเดต 14:48) · TPSL-PLAN 0 รายการ (14:49) · plan_approved 13:43 = "ไม่มีรายการให้จำลอง" — วิ่งในเส้นทาง plan_sim ของระบบเอง
+- Jev internal (14:43): **hold** · ยังไม่เข้าโซนกำไร (in_profit_zone 0.04) · healthy=false · low_confidence
+
+## สรุปสำหรับระบบ
+- **รอบนี้ระบบทำกำไรได้ดีขึ้นชัดเจน**: ไม้ 2 ปิด TP (+$0.82) → ไม้รวมวันนี้ 2/2 ชนะ +$1.59 (+11.0% ของทุนวัน) — ทิศทางตรงกับข่าวกดทอง (-0.77) + Jev regime trend_down + ADX เร่ง
+- **ไม่เสนอปรับค่าใหม่รอบนี้**: (1) ไม้ปิดชุดใหม่ยังน้อย (2 ไม้) ไม่พอประเมินค่า (2) Jev internal = hold (3) แผน band/tpsl ภายในมีรถไฟของตัวเองกำลังทดสอบผ่านด่านจำลอง (4) การปรับกลางเทรนด์ที่กำลังชนะ = เสี่ยงตัดจังหวะ
+- จุดติดตามรอบถัดไป: ไม้ 3 ถึง TP 4147.44 หรือเด้งชน SL 4161.51 (ระวัง exhaustion: ADX 59.5 + ราคาเด้งแล้ว +5 จุด) · หลังไม้ 3 ปิด ระบบยิงต่อตามแนวโน้มหรือสลับสัญญาณ · ผล plan_sim ของ band 7 รายการ
+
+## 2026-09-28 15:00 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.77 · คะแนนหนุน 4 / กด 31) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 4) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 3 ข่าว · คะแนนรวม 16 (หนุน 1 / กด 2) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 3 ข่าว · คะแนนรวม 15 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated need for faster rate hikes, July minutes show
+- 🔴 [3] (commodities) Evercore sees yield-curve inversiaion risk rising as AI bull market holds firm
+- 🔴 [3] (commodities) Evercore sees yield-curve inversion risk rising as AI bull market holds firm
+- ⚪ [2] (commodities) Australia’s Northern Star rejects $27 billion takeover approach from Gold Fields
+- ⚪ [2] (markets) Yen jumps as Trump shows concern over its weakness, dollar halts daily win streak
+
+## 2026-09-28 15:10 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.77 · คะแนนหนุน 4 / กด 31) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 4) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 3 ข่าว · คะแนนรวม 16 (หนุน 1 / กด 2) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 3 ข่าว · คะแนนรวม 15 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated need for faster rate hikes, July minutes show
+- 🔴 [3] (commodities) Evercore sees yield-curve inversiaion risk rising as AI bull market holds firm
+- 🔴 [3] (commodities) Evercore sees yield-curve inversion risk rising as AI bull market holds firm
+- ⚪ [2] (commodities) Australia’s Northern Star rejects $27 billion takeover approach from Gold Fields
+- ⚪ [2] (markets) Yen jumps as Trump shows concern over its weakness, dollar halts daily win streak
+
+## 2026-09-28 15:11 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.77 · คะแนนหนุน 4 / กด 31) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 4) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 3 ข่าว · คะแนนรวม 16 (หนุน 1 / กด 2) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 3 ข่าว · คะแนนรวม 15 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated need for faster rate hikes, July minutes show
+- 🔴 [3] (commodities) Evercore sees yield-curve inversiaion risk rising as AI bull market holds firm
+- 🔴 [3] (commodities) Evercore sees yield-curve inversion risk rising as AI bull market holds firm
+- ⚪ [2] (commodities) Australia’s Northern Star rejects $27 billion takeover approach from Gold Fields
+- ⚪ [2] (markets) Yen jumps as Trump shows concern over its weakness, dollar halts daily win streak
+
+## 2026-09-28 15:21 — งานวิจัยข่าวทองคำ (investing.com RSS · 24.0 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.77 · คะแนนหนุน 4 / กด 31) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 4) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 3 ข่าว · คะแนนรวม 16 (หนุน 1 / กด 2) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 3 ข่าว · คะแนนรวม 15 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated need for faster rate hikes, July minutes show
+- 🔴 [3] (commodities) Evercore sees yield-curve inversiaion risk rising as AI bull market holds firm
+- 🔴 [3] (commodities) Evercore sees yield-curve inversion risk rising as AI bull market holds firm
+- ⚪ [2] (commodities) Australia’s Northern Star rejects $27 billion takeover approach from Gold Fields
+- ⚪ [2] (markets) Yen jumps as Trump shows concern over its weakness, dollar halts daily win streak
+
+## 2026-09-28 15:22 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.77 · คะแนนหนุน 4 / กด 31) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 4) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 3 ข่าว · คะแนนรวม 16 (หนุน 1 / กด 2) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 3 ข่าว · คะแนนรวม 15 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated need for faster rate hikes, July minutes show
+- 🔴 [3] (commodities) Evercore sees yield-curve inversiaion risk rising as AI bull market holds firm
+- 🔴 [3] (commodities) Evercore sees yield-curve inversion risk rising as AI bull market holds firm
+- ⚪ [2] (commodities) Australia’s Northern Star rejects $27 billion takeover approach from Gold Fields
+- ⚪ [2] (markets) Yen jumps as Trump shows concern over its weakness, dollar halts daily win streak
+
+### 2026-09-28 15:24 — งานวิจัยข่าวโดยบอท (admin_bot)
+
+<!-- ระบบเทรดทองคำอัตโนมัติ · ผู้สร้างระบบ: Kanutsanan Pongpanna — facebook.com/LoveMoneyTH -->
+# งานวิจัยข่าวทองคำ — โดยบอทแอดมิน (admin_bot)
+รอบ: 30 นาที · เวลา: 2026-09-28 ~15:25 (Asia/Bangkok) · แหล่งข่าว: investing.com (24 ชม. · ชุดข่าวเดิม ไม่มีรายการใหม่ — มีรายการซ้ำ)
+
+## 1) สรุปทิศทางข่าว
+- ภาพรวม: ข่าวเอียงกดทอง สัดส่วน **-0.77** (คะแนนหนุน 4 / คะแนนกด 31) · ระดับ "ระวัง (ข่าวกดทอง)" — เท่าเดิมจากรอบก่อน; รายการล่าสุดในชุด 14:05 น. เป็น**รายการซ้ำ**ของ Evercore ไม่มีหัวข้อใหม่ตั้งแต่ 14:05 น.
+- ธีมกดหลัก: ① ดอลลาร์แข็ง (US-Iran ดันน้ำมัน + ตลาดเดิมพัน Fed สายเหยี่ยว) ② ยีลด์ 30 ปีสหรัฐฯ ปิดสูงสุดตั้งแต่ปี 2004 (bond rout ลึกขึ้น) ③ BoJ ส่งสัญญาณขึ้นดอกเบี้ยเร็วขึ้น
+- ธีมหนุน (เบา): Trump ระบุราคาน้ำมันจะร่วงหลังสงครามจบ "ในไม่ช้า" [4] · เยนดีดจาก Trump กังวลค่าเงิน — ดอลลาร์หยุดสถิติชนะรายวัน [2]
+- Jev ข่าว (สอบเทียบแล้ว): ทิศทาง down · คะแนน -0.20 · หนักแน่น 0.73 · price-in 0.38 · ไม่มี catalyst ใหม่วันนี้
+
+## 2) ผลต่อทองคำ + เชื่อมสถิติระบบ (ข้อมูลจริงจาก MT5)
+- แรงกด (ดอลลาร์/ยีลด์) ยังเหนือกว่าแรงหนุน → ฝั่ง **SELL ยังได้เปรียบระยะสั้น** สอดคล้องกับตัวเทรด: สัญญาณ trend_sell ผ่านประตูทุกนาที (weighted ~0.66-0.78 เทียบประตู 0.30-0.35) และยิงซ้ำทันทีเมื่อไม้ว่าง (close-then-refire)
+- **ไม้ sell วันนี้ปิดที่ TP ทั้งคู่**: ไม้ 1 +$0.77 (13:55:50) · ไม้ 2 (40426966) ปิด **+$0.82** (14:37:18, TP 4155.988) → รวม net **+$1.59** · เฉลี่ย +$0.795/ไม้ · ชนะ 100% (2/2)
+- **ไม้ที่ 3 (เปิดอยู่): #40427762 SELL 0.001 @4155.725** (14:37:29) · SL 4161.511 / TP 4147.444 · กำไรลอย **+$0.38** (ตรวจ ~15:15) · ระบบถือตามสัญญาณ (profit_exit_hold) — ยิงซ้ำอัตโนมัติถ้าไม้ปิดและสัญญาณเดิมยังผ่าน
+- หมายเหตุตัวนับ: "ไม้ปิด 24 ชม." ของสคริปต์ยังเป็น 0 เพราะดีเลย์ timezone เดิม (auto_trader.py:317 · ดีล MT5 เป็น server time) — ตัวเลขจริงด้านบนมาจาก MT5 โดยตรง · คาดตัวนับตามทัน ~16:55 (ไม้ 1) และ ~17:37 (ไม้ 2) ตามที่วิเคราะห์รอบก่อน
+- บัญชี: balance **$16.03** · equity **$16.41** · มีฝากเข้า $4.00 (08:06 น. — ไม่ใช่กำไรเทรด) · ไม่มี kill switch · ตลาดปกติ
+
+## 3) พัฒนาการสำคัญ
+- สุทธิวันนี้จากการเทรด = **+$1.59** (2 ไม้ ชนะทั้งคู่ — หลักฐานยุคใหม่หลังเปิด AutoTrading เมื่อ 13:44–13:50) · ไม้ชุดใหม่ยังอายุสั้น: ต้องสะสม ≥5-8 ไม้ก่อนทบทวน gate/band จากข้อมูลจริง
+- กล่องปรึกษา: ไม่มีคำถามค้าง (0 เปิด · asks 6 / answers 6) · อีกฝ่าย (โหมด 2) รอบนี้ไม่มีการเปลี่ยน — ไม่มีความขัดแย้ง
+- รอบแอดมิน: **ไม่มีการปรับค่า** — ค่าอยู่ในเกณฑ์ดี · งดข้อเสนอแนวผ่อนความระวัง 4 ข้อ เพราะข่าวกดทอง · Jev internal = hold (ยังไม่เข้าโซนกำไร 0.06 · low confidence) · Jev structure = หลักฐาน **0.07 ยังไม่พอ** (โซนวิวัฒน์: gate เทียบสองฝั่ง) → ไม่ส่ง recommendation
+
+## 4) ข้อควรระวัง
+1. คำพูด Trump เรื่องน้ำมัน: หากน้ำมันร่วงจริง → ดอลลาร์อ่อน/ยีลด์ลง → หนุนทอง = สวนทางฝั่ง sell ที่ระบบถืออยู่ (ขณะนี้ยังเป็นเพียงถ้อยคำ ยังไม่เกิดจริง)
+2. ยีลด์ 30 ปีสูงสุดรอบ ~20 ปี เป็นระดับสุดโต่ง — หากย่อตัว ทองดีดกลับเร็วได้ (ระวัง short squeeze)
+3. ราคาลง 3 ไม้ติด (4172.9 → 4164.2 → 4155.7) ใกล้โซน 4147-4150 — ระวัง exhaustion/เด้ง; ไม้ปัจจุบัน TP 4147.444 / SL 4161.511 (เสี่ยง ~$0.58 / ผลตอบแทน ~$0.83)
+4. การนับไม้ปิดล่าช้า ~3 ชม. (timezone auto_trader.py:317) ยังอยู่ — กรณีไม้ขาดทุน revenge guard / max-consecutive block จะช้าไปด้วย; ทางแก้เป็นสิทธิ์มนุษย์ (บอทห้ามแตะโค้ด)
+
+## 5) ข้อเสนอ
+1. **ไม่ปรับค่า/ไม่เสนอ recommendation รอบนี้** — ค่าอยู่ในเกณฑ์ดี · Jev hold · หลักฐานโครงสร้าง 0.07 ไม่พอ · ข่าวยังกดทอง (ไม่ฝืนผ่อน)
+2. ติดตามไม้ #40427762: ออกที่ TP ≈ +$0.83 / SL ≈ −$0.58 → บันทึกเป็นหลักฐานยุคใหม่ (ต้อง ≥5 ไม้ก่อนวิวัฒน์ค่า)
+3. เจ้าของระบบ/สมองหลัก: พิจารณาแก้ timezone query (auto_trader.py:317) — ระบบ self-heal ได้ใน ~3 ชม. แต่สถิติ/ตัวกันขาดทุนทำงานช้า
+4. รักษาระดับความระวังตามกลไกเดิม — ข่าวกดทอง · ระบบเทรดตามสัญญาณ trend_sell ปกติ ไม่ต้องแทรกแซง
+
+— สรุปรอบนี้: **ต่อเนื่องจากรอบก่อน — ระบบเทรดจริงทำงานเต็มรูปแบบ**: ไม้ 1 +$0.77 TP · ไม้ 2 +$0.82 TP · ไม้ 3 ลอย +$0.38 · สุทธิ +$1.59 (ยังน้อยตามขนาดไม้ทดลอง 0.001) · ทุกกลไก (threshold/adaptive/hot-reload/Jev) เดินปกติ · จุดด้อยเดิม (นับไม้ช้า 3 ชม.) ยังรอการแก้โดยมนุษย์
+— ผู้วิเคราะห์: admin_bot (Hermes) · อ้างอิง: MT5 positions/deals สด + admin round + Jev + news cache + interbot
+
+### 2026-09-28 15:25 — งานวิจัยข่าวโดยบอท (mode2)
+
+<!-- ระบบเทรดทองคำอัตโนมัติ · ผู้สร้างระบบ: Kanutsanan Pongpanna — facebook.com/LoveMoneyTH -->
+# งานวิจัยข่าว Mode 2 (รอบ 10 นาที) — 2026-09-28 ~15:27 (+07)
+ผู้วิจัย: บอทสมอง LLM (mode2) · ข้อมูล: ข่าว investing.com RSS (24 ชม.) + สถิติระบบจริง (audit / internals / Jev / MT5 สด)
+
+## สรุปทิศทาง
+- ข่าวเอียง "กดทอง" สัดส่วน **-0.77** (คะแนนหนุน 4 / กด 31) · **ชุดข่าวเดิม (แคช) ไม่มีรายการใหม่** เทียบรอบ 14:57 — รายการ ⚪ [2] เดิม: Northern Star ปฏิเสธข้อเสนอ $27B (Gold Fields), Yen พุ่ง/ดอลลาร์หยุดสถิติวิ่งขึ้น
+- Jev ข่าว (สด 15:15): ทิศทาง **down** · คะแนน **-0.24** · หนักแน่น 0.72 · price-in แล้ว 0.37 · ไม่มี catalyst วันนี้ · ธีม usd
+- Jev ภาวะตลาด (เรียกสด ~15:26 ด้วย M5 จริง): **trend_down 1.00 (conf 0.99)** · ความแข็ง **0.94 (แข็งมาก)** · **เหมาะเทรดตามแนวโน้ม = ใช่ (0.72)** — *อัปเกรดจากรอบก่อน (0.38 · ไม่เหมาะ)*: ราคาทำ lower low ต่อเนื่อง ผ่านช่วง exhaustion ไปแล้ว
+- ธีมสะสม 24 ชม. (40 รอบ): ดอลลาร์ 170 ข่าว/คะแนน 643 · พลังงาน 84/438 · พันธบัตร/ยีลด์ 94/414 · ดอกเบี้ย/Fed 84/405 · ภูมิรัฐศาสตร์ 33/132 → ทิศทางลบสม่ำเสมอทั้งวัน
+
+## ธีมมหภาค ↔ ทองคำ
+1. **ดอลลาร์แข็ง** — US-Iran ดันน้ำมัน + ตลาดเดิมพัน Fed เข้มขึ้น → กดทองน้ำหนักสูงสุด (น้ำหนักส่งต่อจากเมื่อวาน)
+2. **พันธบัตร/ยีลด์** — ยีลด์ 30 ปีสหรัฐ สูงสุดตั้งแต่ปี 2004 (bond rout ลึกขึ้น) → กดทองตรง
+3. **พลังงาน** — Trump: น้ำมันจะร่วงหลังสงครามจบ (ปัจจัยรอง ทั้งสองทิศ)
+4. **จุดต้องเฝ้า: Yen พุ่งหลัง Trump กังวลค่าเงินอ่อน — ดอลลาร์หยุดวิ่งขึ้น** → ถ้าดอลลาร์อ่อนลงต่อ = ตัวกลับทิศเร็วของทอง (ความเสี่ยงหลักของฝั่ง SELL)
+
+## ภาวะตลาดสด + ข้อควรระวัง
+- M5 จริง: closes ท้าย 4158.4 → **4149.2** (ทำ low ใหม่ของวันต่อ) · EMA20-EMA50 = **-2.68 ATR** · ADX14 **57.5** (พักจาก 59.5 เล็กน้อยแต่ยังสุดขั้ว) · ATR14 5.18 · ช่วง 20 แท่ง = 5.32 ATR · lower_lows = true
+- ไม้ที่ถืออยู่กำลังเข้าเป้า — ความเสี่ยง exhaustion รอบใหม่จะเกิดเมื่อ ADX ถอยลงชัด + ราคาเด้ง >5 จุดจาก low; รอบนี้ยังไม่เกิด
+- ชุดข่าวเดิม (แคชหลาย ชม.) — ไม่ตีความเกินข้อมูล ไม่แต่งข่าวใหม่
+
+## เชื่อมกับตัวเลขระบบจริง (MT5 สด · ยืนยันโดยตรงแล้ว)
+- ✅ วันนี้ปิดชนะ 2/2 ที่ TP เต็ม: #40426789 +$0.77 · #40426966 +$0.82 (รวม **+$1.59** จากทุนวัน 14.44 = +11.0%)
+- 🟢 ไม้ที่ 3 **SELL #40427762** @4155.725 · SL 4161.511 · TP 4147.444 — ลอย **+$0.65** ราคา 4149.21 (ห่าง TP ~1.8 จุด) · equity **$16.68**
+- กลไกวันนี้: `close_ticker` ยิงไม้ใหม่ทันทีเมื่อไม้ก่อนปิด (ปิด TP → เข้าใหม่ตามแนวโน้ม) · `profit_exit_hold (same-direction)` ถือต่อเมื่อสัญญาณทิศเดิม
+- แผนภายใน: **BAND-PLAN 7 รายการ ผ่านด่านทดสอบและ apply แล้ว 15:15:51** (verdict: total_r -6.18 → -2.77 · PF 0.861 → 0.928 · drawdown ลด) — ประตูเริ่มขยับตามแผน (trend_buy low 0.54 → 0.556+, range_buy max 0.344 → 0.358) · TPSL-PLAN 0 รายการ
+- Jev internal (15:15): **hold** · ยังไม่เข้าโซนกำไร · healthy=false · low_confidence (ไม้ปิดจริงยังน้อย)
+- หมายเหตุบันทึกล่าช้า (ทราบแล้ว): audit "3 ชม." ยังแสดง 0 ไม้ปิด (ตัวกรองเวลา server ของ MT5) — ของจริง MT5 ยืนยันแล้ว จะเข้า audit เอง ~2-3 ชม.
+
+## สรุปสำหรับระบบ
+- **รอบนี้ระบบทำกำไรได้ดีขึ้นชัดเจน**: 2 TP ชนะติด (+$1.59) + ไม้ 3 ลอย +$0.65 ใกล้ TP — ทิศทางตรงกับข่าวกดทอง (-0.77) + Jev regime trend_down แข็ง 0.94 + ADX 57.5
+- **ไม่เสนอปรับค่าใหม่รอบนี้**: (1) ไม้ปิดชุดใหม่ยังน้อย (2 ไม้ · ยังไม่ถึงเกณฑ์ 5-8) (2) Jev internal = hold (3) แผน band ระบบเพิ่ง apply ไป 15:15 — ต้องรอผลก่อนปรับซ้อน (4) การปรับกลางเทรนด์ที่กำลังชนะ = เสี่ยงตัดจังหวะ
+- จุดติดตามรอบถัดไป: ไม้ 3 ถึง TP 4147.44 หรือเด้ง · หลังปิดระบบยิงไม้ 4 ต่อตามแนวโน้มหรือไม่ · ผลจริงหลัง band plan apply (ประตูใหม่) · ADX ถอยต่ำกว่า ~50 = เฝ้า exhaustion รอบใหม่
+
+## 2026-09-28 15:33 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.77 · คะแนนหนุน 4 / กด 31) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 4) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 3 ข่าว · คะแนนรวม 16 (หนุน 1 / กด 2) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 3 ข่าว · คะแนนรวม 15 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated need for faster rate hikes, July minutes show
+- 🔴 [3] (commodities) Evercore sees yield-curve inversiaion risk rising as AI bull market holds firm
+- 🔴 [3] (commodities) Evercore sees yield-curve inversion risk rising as AI bull market holds firm
+- ⚪ [2] (commodities) Australia’s Northern Star rejects $27 billion takeover approach from Gold Fields
+- ⚪ [2] (markets) Yen jumps as Trump shows concern over its weakness, dollar halts daily win streak
+
+## 2026-09-28 15:40 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.77 · คะแนนหนุน 4 / กด 31) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+**การประเมินแบบสอบเทียบ (Jev · TypeSafe System One):** ทิศทาง **down** · คะแนน -0.19 · ความหนักแน่น 0.71 · ถูก price-in แล้ว 0.36 · ธีมหลัก usd
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 4) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 3 ข่าว · คะแนนรวม 16 (หนุน 1 / กด 2) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 3 ข่าว · คะแนนรวม 15 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated need for faster rate hikes, July minutes show
+- 🔴 [3] (commodities) Evercore sees yield-curve inversiaion risk rising as AI bull market holds firm
+- 🔴 [3] (commodities) Evercore sees yield-curve inversion risk rising as AI bull market holds firm
+- ⚪ [2] (commodities) Australia’s Northern Star rejects $27 billion takeover approach from Gold Fields
+- ⚪ [2] (markets) Yen jumps as Trump shows concern over its weakness, dollar halts daily win streak
+
+## 2026-09-28 15:44 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.77 · คะแนนหนุน 4 / กด 31) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 4) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 3 ข่าว · คะแนนรวม 16 (หนุน 1 / กด 2) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 3 ข่าว · คะแนนรวม 15 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated need for faster rate hikes, July minutes show
+- 🔴 [3] (commodities) Evercore sees yield-curve inversiaion risk rising as AI bull market holds firm
+- 🔴 [3] (commodities) Evercore sees yield-curve inversion risk rising as AI bull market holds firm
+- ⚪ [2] (commodities) Australia’s Northern Star rejects $27 billion takeover approach from Gold Fields
+- ⚪ [2] (markets) Yen jumps as Trump shows concern over its weakness, dollar halts daily win streak
+
+### 2026-09-28 15:47 — งานวิจัยข่าวโดยบอท (mode2)
+
+<!-- ระบบเทรดทองคำอัตโนมัติ · ผู้สร้างระบบ: Kanutsanan Pongpanna — facebook.com/LoveMoneyTH -->
+# งานวิจัยข่าว Mode 2 (รอบ 10 นาที) — 2026-09-28 ~15:50 (+07)
+ผู้วิจัย: บอทสมอง LLM (mode2) · ข้อมูล: ข่าว investing.com RSS (24 ชม.) + สถิติระบบจริง (audit / internals / Jev / MT5 สด)
+
+## สรุปทิศทาง
+- ข่าวเอียง "กดทอง" สัดส่วน **-0.77** (คะแนนหนุน 4 / กด 31) · **ชุดข่าวเดิม (แคชหลายชั่วโมง) ไม่มีรายการใหม่** เทียบรอบ ~15:27 — รวมถึงรายการ ⚪[2] เดิม (Yen พุ่ง/ดอลลาร์หยุดสถิติวิ่งขึ้น · Northern Star ปฏิเสธข้อเสนอ $27B จาก Gold Fields)
+- Jev ข่าว (สด 15:40): ทิศทาง **down** · คะแนน **-0.19** · หนักแน่น 0.71 · price-in แล้ว 0.36 · ไม่มี catalyst วันนี้ · ธีม usd
+- Jev ภาวะตลาด (เรียกล่าสุด ~15:48 ด้วย M5 จริง): **trend_down 1.00 (conf 0.99)** · ความแข็ง **0.94 (แข็งมาก)** · **เหมาะเทรดตามแนวโน้ม = ใช่ (0.70)** — เสถียรต่อเนื่องจากรอบก่อน · ยังไม่เห็นสัญญาณ exhaustion
+
+## ธีมมหภาค ↔ ทองคำ
+1. **ดอลลาร์แข็ง** — US-Iran ดันน้ำมัน + ตลาดเดิมพัน Fed เข้มขึ้น → กดทองน้ำหนักสูงสุด
+2. **พันธบัตร/ยีลด์** — ยีลด์ 30 ปีสหรัฐ สูงสุดตั้งแต่ปี 2004 (bond rout ลึกขึ้น) → กดทองตรง
+3. **พลังงาน** — Trump: น้ำมันจะร่วงหลังสงครามจบ (ปัจจัยรอง ทั้งสองทิศ)
+4. **จุดต้องเฝ้า: ดอลลาร์หยุดสตรีควิ่งขึ้น + เยนพุ่งหลัง Trump กังวลค่าเงิน** → ถ้าดอลลาร์อ่อนต่อ = ตัวกลับทิศเร็วของทอง (ความเสี่ยงหลักของฝั่ง SELL)
+- ธีมสะสม 6 ชม. (40 รอบ): ดอลลาร์ 152 ข่าว/605 · พลังงาน 83/436 · พันธบัตร/ยีลด์ 96/412 · ดอกเบี้ย/Fed 83/405 · ภูมิรัฐศาสตร์ 31/124 → ทิศทางลบสม่ำเสมอทั้งวัน
+
+## ภาวะตลาดสด + ข้อควรระวัง
+- M5 จริง (คำนวณสด): last close **4149.545** · EMA20-EMA50 = **-2.46 ATR** · ADX14 **58.2** (สุดขั้วต่อเนื่อง) · ATR14 5.70 · ช่วง 20 แท่ง = 4.13 ATR · `lower_lows = true` / `higher_highs = false`
+- ราคาแกว่งกลับขึ้นทดสอบ ~4150.9 แล้วย่อลง — ยังไม่หลุดโครงสร้างขาลง แต่ผันผวนแรง (ATR เพิ่ม 5.18→5.70) → SL/TP ระยะสั้นถูกแตะง่ายขึ้น
+- ชุดข่าวเดิม (แคช) — ไม่ตีความเกินข้อมูล ไม่แต่งข่าวใหม่
+
+## เชื่อมกับตัวเลขระบบจริง (MT5 สด · ยืนยันโดยตรง)
+- ✅ วันนี้ปิดชนะ **3/3 ที่ TP เต็ม**: #40426789 +$0.77 · #40426966 +$0.82 · #40427762 +$0.83 = **+$2.42 จากทุนวัน 14.44 (+16.8%)** · balance **$16.86**
+- 🟢 ไม้ 4 **SELL #40428758** @4149.305 · SL 4155.745 · TP 4141.094 — ลอยเสมอทุน (-$0.03 .. -$0.14) · equity **$16.83** · free margin $16.26
+- กลไกทำงานครบ: `close_ticker` ยิงไม้ใหม่ทันทีเมื่อไม้ก่อนปิด · `profit_exit_hold (same-direction)` ถือต่อ · `same_direction_cut_loss_evaluation` ตัดสิน "ถือ" (hold 0.70→0.76) · **สัญญาณ trend/sell ผ่านประตูใหม่ 3 รอบติด (conf 0.747)** รอยิงเมื่อไม้ 4 ปิด
+- แผนภายใน: **BAND-PLAN 7 รายการ ผ่านด่านทดสอบ + apply แล้ว 15:15:51** (eval 20260928T151551) — ประตูใหม่เริ่มทำงานจริงแล้ว (trend/sell ผ่าน) · TPSL-PLAN 0 รายการ
+- Jev internal (15:40): **hold** · ยังไม่เข้าโซนกำไร (0.05) · healthy=false · low_confidence (ไม้ปิดจริงยังน้อย)
+
+## สรุปสำหรับระบบ
+- **รอบนี้ระบบทรงตัวดีมาก**: 3/3 TP วันนี้ + ไม้ 4 เปิดต่อตามเทรนด์ + ประตูหลัง band plan ผ่านการทดสอบสนามจริง (สัญญาณผ่าน 3 รอบติด) — ทิศทางตรงกับข่าวกดทอง (-0.77) + Jev regime trend_down แข็ง 0.94 + ADX 58.2
+- **ไม่เสนอปรับค่าใหม่รอบนี้**: (1) Jev internal = hold (2) regime เสถียร trend_down แข็ง (3) แผน band เพิ่ง apply 15:15 — รอไม้ปิดชุดใหม่ (เกณฑ์ 5-8 ไม้) ก่อนขยับ (4) การปรับกลางเทรนด์ที่กำลังชนะ = เสี่ยงตัดจังหวะ
+- จุดติดตามรอบถัดไป: ไม้ 4 ถึง TP 4141.09 หรือเด้งชน SL 4155.75 · ระบบยิงไม้ 5 ต่อหรือไม่หลังปิด · ผลจริงหลัง band plan · ADX ถอยต่ำกว่า ~50 + ราคาเด้ง >5 จุด = เฝ้า exhaustion รอบใหม่
+
+## 2026-09-28 15:55 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.82 · คะแนนหนุน 4 / กด 40) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 26 (หนุน 0 / กด 4) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 4 ข่าว · คะแนนรวม 25 (หนุน 1 / กด 3) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 4 ข่าว · คะแนนรวม 24 (หนุน 0 / กด 4) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 4) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated need for faster rate hikes, July minutes show
+- 🔴 [3] (commodities) Evercore sees yield-curve inversiaion risk rising as AI bull market holds firm
+- 🔴 [3] (commodities) Evercore sees yield-curve inversion risk rising as AI bull market holds firm
+- ⚪ [2] (commodities) Australia’s Northern Star rejects $27 billion takeover approach from Gold Fields
+
+## 2026-09-28 16:01 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.82 · คะแนนหนุน 4 / กด 40) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 26 (หนุน 0 / กด 4) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 4 ข่าว · คะแนนรวม 25 (หนุน 1 / กด 3) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 4 ข่าว · คะแนนรวม 24 (หนุน 0 / กด 4) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 4) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated need for faster rate hikes, July minutes show
+- 🔴 [3] (commodities) Evercore sees yield-curve inversiaion risk rising as AI bull market holds firm
+- 🔴 [3] (commodities) Evercore sees yield-curve inversion risk rising as AI bull market holds firm
+- ⚪ [2] (commodities) Australia’s Northern Star rejects $27 billion takeover approach from Gold Fields
+
+## 2026-09-28 16:06 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.82 · คะแนนหนุน 4 / กด 40) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 26 (หนุน 0 / กด 4) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 4 ข่าว · คะแนนรวม 25 (หนุน 1 / กด 3) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 4 ข่าว · คะแนนรวม 24 (หนุน 0 / กด 4) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 4) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated need for faster rate hikes, July minutes show
+- 🔴 [3] (commodities) Evercore sees yield-curve inversiaion risk rising as AI bull market holds firm
+- 🔴 [3] (commodities) Evercore sees yield-curve inversion risk rising as AI bull market holds firm
+- ⚪ [2] (commodities) Australia’s Northern Star rejects $27 billion takeover approach from Gold Fields
+
+### 2026-09-28 16:12 — งานวิจัยข่าวโดยบอท (admin_bot)
+
+<!-- ระบบเทรดทองคำอัตโนมัติ · ผู้สร้างระบบ: Kanutsanan Pongpanna — facebook.com/LoveMoneyTH -->
+# งานวิจัยข่าวทองคำ — โดยบอทแอดมิน (admin_bot)
+รอบ: 30 นาที · เวลา: 2026-09-28 ~16:15 (Asia/Bangkok) · แหล่งข่าว: investing.com (24 ชม.)
+ข้อมูล: ข่าว RSS + MT5 positions/deals สด + audit + admin round + Jev (4 ด้าน + regime) + interbot
+
+## 1) สรุปทิศทางข่าว
+- ภาพรวม: ข่าวเอียงกดทอง สัดส่วน **-0.82** (คะแนนหนุน 4 / กด 40) — **แรงขึ้น**จากรอบ 15:25 (-0.77)
+- **รายการใหม่ 2 รายการ** (นอกชุดแคชเดิม): 🟢[2] German yields pause, traders weigh sticky energy inflation (15:33) และ 🔴[9] **Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build** (15:55) — รายการกดทองคะแนนสูงสุดของวัน
+- ที่เหลือเป็นชุดแคชเดิม (ส่วนหนึ่งเป็นรายการซ้ำ) — ไม่ตีความเกินข้อมูล ไม่แต่งข่าวใหม่
+- Jev ข่าว (รอบแอดมิน ~16:07): ทิศทาง **down** · คะแนน **-0.21** · หนักแน่น 0.76 · price-in 0.37
+- Jev regime (เรียกเอง 16:08 ด้วยข้อมูล M5 จริง): **trend_down 0.93** (conf 0.9) · ความแข็ง **3.28/4 (แข็ง)** · suitable_for_trend_following **0.49** (เส้นแบ่งแบ่งครึ่ง — ลดจาก 0.70 เมื่อ 15:48 · น่าจับตา)
+
+## 2) ผลต่อทองคำ + ตัวเลขระบบจริง (MT5 สด)
+- ธีมกดแรงต่อเนื่อง: ดอลลาร์ใกล้สูงสุดรอบ 2 เดือน (US-Iran ดันน้ำมัน + ตลาดเดิมพัน Fed เข้มขึ้น) · ยีลด์ 30 ปีสหรัฐฯ สูงสุดตั้งแต่ปี 2004 → **ฝั่ง SELL ยังได้เปรียบ**; ราคาวันนี้ไหลลงจาก 4172.9 → ต่ำสุด 4141.18 (ไกล้ TP ของระบบ)
+- ✅ ไม้ sell วันนี้ปิด **3/3 ที่ TP เต็ม**: #40426789 +$0.77 (13:55) · #40426966 +$0.82 (14:37) · #40427762 +$0.83 (15:22) → สุทธิ **+$2.42** จากทุนวัน 14.44 (**+16.8%**)
+- 🟢 ไม้ 4 **SELL #40428758** @4149.305 (เปิด 15:23) · SL 4155.745 / TP 4141.094 — กำไรลอย **+$0.74** (ตรวจ 16:13 · ราคา 4141.6-4141.9 เฉียด TP แล้วสองรอบ) · equity **$17.60** · balance **$16.86**
+- ประตูเทรนด์: trend/sell ผ่านประตูรวม **80 ครั้ง** ช่วงบ่ายนี้ (13:xx ผ่าน 8/8 · 14:xx 39/58 · 15:xx 29/58 · 16:xx ผ่านติด 4/9 ล่าสุดผ่านต่อเนื่อง) — พร้อมยิงไม้ 5 **ทันทีที่ไม้ 4 ปิด** (กลไก close_ticker ยิงซ้ำอัตโนมัติ เหมือน 3 ไม้ที่ผ่านมา)
+- แผน band ภายใน **apply 15:15:51** (7 รายการ: trend buy 0.60-0.774 · range buy 0.258-0.358 · range sell 0.281-0.405 · mrev buy 0.153-0.277 · mrev sell 0.102-0.348 · ctrend buy 0.551-0.681 · ctrend sell 0.541-0.641) — ตรวจหลักฐาน: rec_hash (dd22c8…) ตรงกับไฟล์ latest_recommendation ปัจจุบัน (canonical hash ตรง) · auto_threshold เกลาต่อตามปกติ (trend buy จริงตอนนี้ 0.556/0.814 กำลังขยับเข้าหาแผน)
+
+## 3) รอบแอดมิน 16:07 (ผลการปรับ)
+- **ไม่มีการปรับค่า** — ค่าอยู่ในเกณฑ์ดี · งดข้อเสนอแนวผ่อนความระวัง 4 ข้อ เพราะข่าวกดทอง
+- Jev internal: **hold** (net โซนกำไร 0.05 · ความถี่เหมาะ 0.24 · ขอบยั่งยืน 0.13 · คุณภาพการตั้งค่า 0.16)
+- Jev structure: **ทบทวน แต่หลักฐาน 0.06 ไม่พอ** (โซน: gate เทียบสองฝั่ง) → ไม่ส่ง recommendation
+- กล่องปรึกษา: ไม่มีคำถามค้าง (asks 6 / answers 6) · โหมด 2 รอบล่าสุดไม่มีการเปลี่ยน — ไม่ขัดแย้งกัน
+
+## 4) ข้อควรระวัง
+1. ราคาเด้งจากโซน 4141.2 สองครั้ง (เกือบแตะ TP 4141.09 ทั้งสองรอบ) — โซนนี้เป็นแนวรับระยะสั้น; ถ้าเด้งแรงเกิน EMA20 (~4151) และ ADX ถอยต่ำกว่า 50 = เฝ้าสัญญาณ exhaustion/กลับตัว
+2. Jev "เหมาะตามเทรนด์" ลดจาก 0.70 (15:48) → 0.49 (16:08) — ยัง trend_down แต่คุณภาพการตามลดลงชั่วคราวจากการเด้ง — จับตารอบถัดไป
+3. ความเสี่ยงสวนฝั่ง sell: คำพูด Trump เรื่องดอลลาร์/เยน (เมื่อวาน) — หากดอลลาร์พลิกอ่อน = แรงต้านการลงต่อ
+4. MT5 ขาดการเชื่อมต่อชั่วคราว 4 ครั้ง (14:57 ×3 · 15:29) — ระบบกู้คืนเองได้ เทรดต่อเนื่อง ไม่ต้องแทรกแซง
+5. ตัวนับ "ไม้ปิด 24 ชม." ในสคริปต์ยังเป็น 0 (ดีเลย์ timezone เดิม ~3 ชม. จาก auto_trader.py:317) — ตัวเลขไม้ปิดจริงในรายงานนี้มาจาก MT5 โดยตรง
+
+## 5) ข้อเสนอ
+1. **ไม่ปรับค่า / ไม่ส่ง recommendation รอบนี้** (สคริปต์ไม่เสนอ · Jev hold · หลักฐานโครงสร้างไม่พอ · ข่าวยังกดทองไม่ฝืนผ่อน)
+2. ติดตามไม้ 4: ออก TP ≈ +$0.82 / SL ≈ −$0.64 → ไม้ 5 ยิงต่ออัตโนมัติ (ประตูผ่านอยู่) — สะสมหลักฐานยุคใหม่ให้ครบ ≥5-8 ไม้ก่อนขยับค่าครั้งถัดไป
+3. จุดเฝ้ารอบถัดไป: (ก) ADX/EMA20 — exhaustion (ข) กลไก profit_exit / same_direction_cut_loss ทำงานถูกต้องเมื่อไม้ 4 ปิด (ค) ข่าวชุดใหม่ (แคชเดิมมาแล้ว ~2.5 ชม.)
+4. ฝากเจ้าของระบบ/สมองหลัก: แก้ query timezone `auto_trader.py:317` (สิทธิ์มนุษย์ — บอทห้ามแตะโค้ด) เพื่อลดดีเลย์สถิติ/ตัวกันขาดทุน
+
+— สรุปรอบนี้: **ระบบเทรดเดินเต็มรูปแบบ** — 3/3 TP +$2.42 วันนี้ · ไม้ 4 เฉียด TP สองรอบ · แผน band 15:15 ทำงานจริง (สัญญาณผ่านประตูต่อเนื่อง) · ข่าวกดทองหนุนฝั่ง sell · ไม่มีการปรับค่า · รอบถัดไปเฝ้า exhaustion + การยิงไม้ 5
+— ผู้วิเคราะห์: admin_bot (Hermes) · อ้างอิง: MT5 positions/deals สด + admin round + Jev 4 ด้าน+regime + news cache + interbot + last_applied/plan_rec_state
+
+### 2026-09-28 16:14 — งานวิจัยข่าวโดยบอท (admin_bot)
+
+<!-- ระบบเทรดทองคำอัตโนมัติ · ผู้สร้างระบบ: Kanutsanan Pongpanna — facebook.com/LoveMoneyTH -->
+# งานวิจัยข่าวทองคำ — โดยบอทแอดมิน (admin_bot)
+รอบ: 30 นาที · เวลา: 2026-09-28 ~16:22 (Asia/Bangkok · อัปเดต: ไม้ 4 ปิด TP + ไม้ 5 เปิดแล้ว) · แหล่งข่าว: investing.com (24 ชม.)
+ข้อมูล: ข่าว RSS + MT5 positions/deals สด + audit + admin round + Jev (4 ด้าน + regime) + interbot
+
+## 1) สรุปทิศทางข่าว
+- ภาพรวม: ข่าวเอียงกดทอง สัดส่วน **-0.82** (คะแนนหนุน 4 / กด 40) — **แรงขึ้น**จากรอบ 15:25 (-0.77)
+- **รายการใหม่ 2 รายการ** (นอกชุดแคชเดิม): 🟢[2] German yields pause, traders weigh sticky energy inflation (15:33) และ 🔴[9] **Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build** (15:55) — รายการกดทองคะแนนสูงสุดของวัน
+- ที่เหลือเป็นชุดแคชเดิม (ส่วนหนึ่งเป็นรายการซ้ำ) — ไม่ตีความเกินข้อมูล ไม่แต่งข่าวใหม่
+- Jev ข่าว (รอบแอดมิน ~16:07): ทิศทาง **down** · คะแนน **-0.21** · หนักแน่น 0.76 · price-in 0.37
+- Jev regime (เรียกเอง 16:08 ด้วยข้อมูล M5 จริง): **trend_down 0.93** (conf 0.9) · ความแข็ง **3.28/4 (แข็ง)** · suitable_for_trend_following **0.49** (เส้นแบ่งแบ่งครึ่ง — ลดจาก 0.70 เมื่อ 15:48 · น่าจับตา)
+
+## 2) ผลต่อทองคำ + ตัวเลขระบบจริง (MT5 สด)
+- ธีมกดแรงต่อเนื่อง: ดอลลาร์ใกล้สูงสุดรอบ 2 เดือน (US-Iran ดันน้ำมัน + ตลาดเดิมพัน Fed เข้มขึ้น) · ยีลด์ 30 ปีสหรัฐฯ สูงสุดตั้งแต่ปี 2004 → **ฝั่ง SELL ยังได้เปรียบ**; ราคาวันนี้ไหลลงจาก ~4173 → แตะ 4140.985 (ไม้ 4 ปิด TP) แล้วเด้งกลับมา ~4142-4144
+- ✅ ไม้ sell วันนี้ปิด **4/4 ที่ TP เต็ม**: #40426789 +$0.77 (13:55) · #40426966 +$0.82 (14:37) · #40427762 +$0.83 (15:22) · **#40428758 +$0.83 (16:10:11 · tp 4141.094)** → สุทธิ **+$3.25** จากทุนวัน 14.44 (**+22.5%**)
+- 🟢 ไม้ 5 **SELL #40429996** @4141.885 (เปิดอัตโนมัติ 16:11:06 ทันทีหลังไม้ 4 ปิด — ยืนยันกลไก close→re-fire) · SL 4148.834 / TP 4133.035 — ลอย **−$0.06** (ตรวจ 16:22 · ราคาเด้งขึ้นมา ~4142.0-4142.5) · equity **$17.63** · balance **$17.69**
+- ประตูเทรนด์: trend/sell ผ่านประตูรวม **80 ครั้ง** ช่วงบ่ายนี้ (13:xx ผ่าน 8/8 · 14:xx 39/58 · 15:xx 29/58 · 16:xx ผ่านติด 4/9 ล่าสุดผ่านต่อเนื่อง) — **ผลจริง: เลยยิงไม้ 5 ทันทีที่ไม้ 4 ปิด (16:11:06)** กลไก close→re-fire ทำงานครบวงจร
+- แผน band ภายใน **apply 15:15:51** (7 รายการ: trend buy 0.60-0.774 · range buy 0.258-0.358 · range sell 0.281-0.405 · mrev buy 0.153-0.277 · mrev sell 0.102-0.348 · ctrend buy 0.551-0.681 · ctrend sell 0.541-0.641) — ตรวจหลักฐาน: rec_hash (dd22c8…) ตรงกับไฟล์ latest_recommendation ปัจจุบัน (canonical hash ตรง) · auto_threshold เกลาต่อตามปกติ (trend buy จริงตอนนี้ 0.556/0.814 กำลังขยับเข้าหาแผน)
+
+## 3) รอบแอดมิน 16:07 (ผลการปรับ)
+- **ไม่มีการปรับค่า** — ค่าอยู่ในเกณฑ์ดี · งดข้อเสนอแนวผ่อนความระวัง 4 ข้อ เพราะข่าวกดทอง
+- Jev internal: **hold** (net โซนกำไร 0.05 · ความถี่เหมาะ 0.24 · ขอบยั่งยืน 0.13 · คุณภาพการตั้งค่า 0.16)
+- Jev structure: **ทบทวน แต่หลักฐาน 0.06 ไม่พอ** (โซน: gate เทียบสองฝั่ง) → ไม่ส่ง recommendation
+- กล่องปรึกษา: ไม่มีคำถามค้าง (asks 6 / answers 6) · โหมด 2 รอบล่าสุดไม่มีการเปลี่ยน — ไม่ขัดแย้งกัน
+
+## 4) ข้อควรระวัง
+1. โซน 4141 กลายเป็นแนวรับระยะสั้น — ราคาเด้งสองรอบ (ครั้งที่สองแตะ TP จริง → ไม้ 4 ปิด) แล้วเด้งกลับ ~4142-4144; ไม้ 5 (sell @4141.885) เริ่มลอยลบ · ถ้าเด้งแรงเกิน EMA20 (~4151) และ ADX ถอยต่ำกว่า 50 = เฝ้าสัญญาณ exhaustion/กลับตัว
+2. Jev "เหมาะตามเทรนด์" ลดจาก 0.70 (15:48) → 0.49 (16:08) — ยัง trend_down แต่คุณภาพการตามลดลงชั่วคราวจากการเด้ง — จับตารอบถัดไป
+3. ความเสี่ยงสวนฝั่ง sell: คำพูด Trump เรื่องดอลลาร์/เยน (เมื่อวาน) — หากดอลลาร์พลิกอ่อน = แรงต้านการลงต่อ
+4. MT5 ขาดการเชื่อมต่อชั่วคราว 4 ครั้ง (14:57 ×3 · 15:29) — ระบบกู้คืนเองได้ เทรดต่อเนื่อง ไม่ต้องแทรกแซง
+5. ตัวนับ "ไม้ปิด 24 ชม." ในสคริปต์ยังเป็น 0 (ดีเลย์ timezone เดิม ~3 ชม. จาก auto_trader.py:317) — ตัวเลขไม้ปิดจริงในรายงานนี้มาจาก MT5 โดยตรง
+
+## 5) ข้อเสนอ
+1. **ไม่ปรับค่า / ไม่ส่ง recommendation รอบนี้** (สคริปต์ไม่เสนอ · Jev hold · หลักฐานโครงสร้างไม่พอ · ข่าวยังกดทองไม่ฝืนผ่อน)
+2. ไม้ 4 ปิด TP +$0.83 ตามคาด (ยืนยันกลไก); ติดตามไม้ 5 (#40429996): TP ≈ +$0.88 / SL ≈ −$0.69 → ไม้ 6 ยิงต่ออัตโนมัติถ้าประตูยังผ่าน — สะสมหลักฐานยุคใหม่ให้ครบ ≥5-8 ไม้ก่อนขยับค่าครั้งถัดไป
+3. จุดเฝ้ารอบถัดไป: (ก) ADX/EMA20 — exhaustion (ข) กลไก profit_exit / same_direction_cut_loss ทำงานถูกต้องเมื่อไม้ 4 ปิด (ค) ข่าวชุดใหม่ (แคชเดิมมาแล้ว ~2.5 ชม.)
+4. ฝากเจ้าของระบบ/สมองหลัก: แก้ query timezone `auto_trader.py:317` (สิทธิ์มนุษย์ — บอทห้ามแตะโค้ด) เพื่อลดดีเลย์สถิติ/ตัวกันขาดทุน
+
+— สรุปรอบนี้: **ระบบเทรดเดินเต็มรูปแบบ** — 4/4 TP +$3.25 วันนี้ · ไม้ 5 เปิดต่ออัตโนมัติแล้ว (sell @4141.885) · แผน band 15:15 ทำงานจริง (สัญญาณผ่านประตูต่อเนื่อง) · ข่าวกดทองหนุนฝั่ง sell · ไม่มีการปรับค่า · รอบถัดไปเฝ้า exhaustion + การยิงไม้ 6
+— ผู้วิเคราะห์: admin_bot (Hermes) · อ้างอิง: MT5 positions/deals สด + admin round + Jev 4 ด้าน+regime + news cache + interbot + last_applied/plan_rec_state
+
+### 2026-09-28 16:15 — งานวิจัยข่าวโดยบอท (admin_bot)
+
+<!-- ระบบเทรดทองคำอัตโนมัติ · ผู้สร้างระบบ: Kanutsanan Pongpanna — facebook.com/LoveMoneyTH -->
+# งานวิจัยข่าวทองคำ — โดยบอทแอดมิน (admin_bot)
+รอบ: 30 นาที · เวลา: 2026-09-28 ~16:15 (Asia/Bangkok · อัปเดต: ไม้ 4 ปิด TP + ไม้ 5 เปิดแล้ว) · แหล่งข่าว: investing.com (24 ชม.)
+ข้อมูล: ข่าว RSS + MT5 positions/deals สด + audit + admin round + Jev (4 ด้าน + regime) + interbot
+
+## 1) สรุปทิศทางข่าว
+- ภาพรวม: ข่าวเอียงกดทอง สัดส่วน **-0.82** (คะแนนหนุน 4 / กด 40) — **แรงขึ้น**จากรอบ 15:25 (-0.77)
+- **รายการใหม่ 2 รายการ** (นอกชุดแคชเดิม): 🟢[2] German yields pause, traders weigh sticky energy inflation (15:33) และ 🔴[9] **Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build** (15:55) — รายการกดทองคะแนนสูงสุดของวัน
+- ที่เหลือเป็นชุดแคชเดิม (ส่วนหนึ่งเป็นรายการซ้ำ) — ไม่ตีความเกินข้อมูล ไม่แต่งข่าวใหม่
+- Jev ข่าว (รอบแอดมิน ~16:07): ทิศทาง **down** · คะแนน **-0.21** · หนักแน่น 0.76 · price-in 0.37
+- Jev regime (เรียกเอง 16:08 ด้วยข้อมูล M5 จริง): **trend_down 0.93** (conf 0.9) · ความแข็ง **3.28/4 (แข็ง)** · suitable_for_trend_following **0.49** (เส้นแบ่งแบ่งครึ่ง — ลดจาก 0.70 เมื่อ 15:48 · น่าจับตา)
+
+## 2) ผลต่อทองคำ + ตัวเลขระบบจริง (MT5 สด)
+- ธีมกดแรงต่อเนื่อง: ดอลลาร์ใกล้สูงสุดรอบ 2 เดือน (US-Iran ดันน้ำมัน + ตลาดเดิมพัน Fed เข้มขึ้น) · ยีลด์ 30 ปีสหรัฐฯ สูงสุดตั้งแต่ปี 2004 → **ฝั่ง SELL ยังได้เปรียบ**; ราคาวันนี้ไหลลงจาก ~4173 → แตะ 4140.985 (ไม้ 4 ปิด TP) แล้วเด้งกลับมา ~4142-4144
+- ✅ ไม้ sell วันนี้ปิด **4/4 ที่ TP เต็ม**: #40426789 +$0.77 (13:55) · #40426966 +$0.82 (14:37) · #40427762 +$0.83 (15:22) · **#40428758 +$0.83 (16:10:11 · tp 4141.094)** → สุทธิ **+$3.25** จากทุนวัน 14.44 (**+22.5%**)
+- 🟢 ไม้ 5 **SELL #40429996** @4141.885 (เปิดอัตโนมัติ 16:11:06 ทันทีหลังไม้ 4 ปิด — ยืนยันกลไก close→re-fire) · SL 4148.834 / TP 4133.035 — ลอย **−$0.06** (ตรวจ ~16:15 · ราคาเด้งขึ้นมา ~4142.0-4142.5) · equity **$17.63** · balance **$17.69**
+- ประตูเทรนด์: trend/sell ผ่านประตูรวม **80 ครั้ง** ช่วงบ่ายนี้ (13:xx ผ่าน 8/8 · 14:xx 39/58 · 15:xx 29/58 · 16:xx ผ่านติด 4/9 ล่าสุดผ่านต่อเนื่อง) — **ผลจริง: เลยยิงไม้ 5 ทันทีที่ไม้ 4 ปิด (16:11:06)** กลไก close→re-fire ทำงานครบวงจร
+- แผน band ภายใน **apply 15:15:51** (7 รายการ: trend buy 0.60-0.774 · range buy 0.258-0.358 · range sell 0.281-0.405 · mrev buy 0.153-0.277 · mrev sell 0.102-0.348 · ctrend buy 0.551-0.681 · ctrend sell 0.541-0.641) — ตรวจหลักฐาน: rec_hash (dd22c8…) ตรงกับไฟล์ latest_recommendation ปัจจุบัน (canonical hash ตรง) · auto_threshold เกลาต่อตามปกติ (trend buy จริงตอนนี้ 0.556/0.814 กำลังขยับเข้าหาแผน)
+
+## 3) รอบแอดมิน 16:07 (ผลการปรับ)
+- **ไม่มีการปรับค่า** — ค่าอยู่ในเกณฑ์ดี · งดข้อเสนอแนวผ่อนความระวัง 4 ข้อ เพราะข่าวกดทอง
+- Jev internal: **hold** (net โซนกำไร 0.05 · ความถี่เหมาะ 0.24 · ขอบยั่งยืน 0.13 · คุณภาพการตั้งค่า 0.16)
+- Jev structure: **ทบทวน แต่หลักฐาน 0.06 ไม่พอ** (โซน: gate เทียบสองฝั่ง) → ไม่ส่ง recommendation
+- กล่องปรึกษา: ไม่มีคำถามค้าง (asks 6 / answers 6) · โหมด 2 รอบล่าสุดไม่มีการเปลี่ยน — ไม่ขัดแย้งกัน
+
+## 4) ข้อควรระวัง
+1. โซน 4141 กลายเป็นแนวรับระยะสั้น — ราคาเด้งสองรอบ (ครั้งที่สองแตะ TP จริง → ไม้ 4 ปิด) แล้วเด้งกลับ ~4142-4144; ไม้ 5 (sell @4141.885) เริ่มลอยลบ · ถ้าเด้งแรงเกิน EMA20 (~4151) และ ADX ถอยต่ำกว่า 50 = เฝ้าสัญญาณ exhaustion/กลับตัว
+2. Jev "เหมาะตามเทรนด์" ลดจาก 0.70 (15:48) → 0.49 (16:08) — ยัง trend_down แต่คุณภาพการตามลดลงชั่วคราวจากการเด้ง — จับตารอบถัดไป
+3. ความเสี่ยงสวนฝั่ง sell: คำพูด Trump เรื่องดอลลาร์/เยน (เมื่อวาน) — หากดอลลาร์พลิกอ่อน = แรงต้านการลงต่อ
+4. MT5 ขาดการเชื่อมต่อชั่วคราว 4 ครั้ง (14:57 ×3 · 15:29) — ระบบกู้คืนเองได้ เทรดต่อเนื่อง ไม่ต้องแทรกแซง
+5. ตัวนับ "ไม้ปิด 24 ชม." ในสคริปต์ยังเป็น 0 (ดีเลย์ timezone เดิม ~3 ชม. จาก auto_trader.py:317) — ตัวเลขไม้ปิดจริงในรายงานนี้มาจาก MT5 โดยตรง
+
+## 5) ข้อเสนอ
+1. **ไม่ปรับค่า / ไม่ส่ง recommendation รอบนี้** (สคริปต์ไม่เสนอ · Jev hold · หลักฐานโครงสร้างไม่พอ · ข่าวยังกดทองไม่ฝืนผ่อน)
+2. ไม้ 4 ปิด TP +$0.83 ตามคาด (ยืนยันกลไก); ติดตามไม้ 5 (#40429996): TP ≈ +$0.88 / SL ≈ −$0.69 → ไม้ 6 ยิงต่ออัตโนมัติถ้าประตูยังผ่าน — สะสมหลักฐานยุคใหม่ให้ครบ ≥5-8 ไม้ก่อนขยับค่าครั้งถัดไป
+3. จุดเฝ้ารอบถัดไป: (ก) ADX/EMA20 — exhaustion (ข) กลไก profit_exit / same_direction_cut_loss ทำงานถูกต้องเมื่อไม้ 4 ปิด (ค) ข่าวชุดใหม่ (แคชเดิมมาแล้ว ~2.5 ชม.)
+4. ฝากเจ้าของระบบ/สมองหลัก: แก้ query timezone `auto_trader.py:317` (สิทธิ์มนุษย์ — บอทห้ามแตะโค้ด) เพื่อลดดีเลย์สถิติ/ตัวกันขาดทุน
+
+— สรุปรอบนี้: **ระบบเทรดเดินเต็มรูปแบบ** — 4/4 TP +$3.25 วันนี้ · ไม้ 5 เปิดต่ออัตโนมัติแล้ว (sell @4141.885) · แผน band 15:15 ทำงานจริง (สัญญาณผ่านประตูต่อเนื่อง) · ข่าวกดทองหนุนฝั่ง sell · ไม่มีการปรับค่า · รอบถัดไปเฝ้า exhaustion + การยิงไม้ 6
+— ผู้วิเคราะห์: admin_bot (Hermes) · อ้างอิง: MT5 positions/deals สด + admin round + Jev 4 ด้าน+regime + news cache + interbot + last_applied/plan_rec_state
+
+## 2026-09-28 16:17 — งานวิจัยข่าวทองคำ (investing.com RSS · 24.0 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.82 · คะแนนหนุน 4 / กด 40) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 26 (หนุน 0 / กด 4) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 4 ข่าว · คะแนนรวม 25 (หนุน 1 / กด 3) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 4 ข่าว · คะแนนรวม 24 (หนุน 0 / กด 4) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 4) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated need for faster rate hikes, July minutes show
+- 🔴 [3] (commodities) Evercore sees yield-curve inversiaion risk rising as AI bull market holds firm
+- 🔴 [3] (commodities) Evercore sees yield-curve inversion risk rising as AI bull market holds firm
+- ⚪ [2] (commodities) Australia’s Northern Star rejects $27 billion takeover approach from Gold Fields
+
+## 2026-09-28 16:18 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.82 · คะแนนหนุน 4 / กด 40) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 26 (หนุน 0 / กด 4) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 4 ข่าว · คะแนนรวม 25 (หนุน 1 / กด 3) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 4 ข่าว · คะแนนรวม 24 (หนุน 0 / กด 4) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 4) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated need for faster rate hikes, July minutes show
+- 🔴 [3] (commodities) Evercore sees yield-curve inversiaion risk rising as AI bull market holds firm
+- 🔴 [3] (commodities) Evercore sees yield-curve inversion risk rising as AI bull market holds firm
+- ⚪ [2] (commodities) Australia’s Northern Star rejects $27 billion takeover approach from Gold Fields

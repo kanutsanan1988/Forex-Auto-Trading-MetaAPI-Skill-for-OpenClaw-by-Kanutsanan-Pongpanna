@@ -1,7 +1,7 @@
 {
   "_creator": "Kanutsanan Pongpanna",
   "_note": "สวิตช์การใช้งาน Jev (TypeSafe System One) — แยกจาก auto_config.json เพื่อไม่กระทบค่าการเทรด",
-  "enabled": true,
+  "enabled": false,
   "model": "~typesafe/jev-latest",
   "timeout_seconds": 60,
   "max_attempts": 3,
@@ -9,7 +9,7 @@
   "use_in_admin": true,
   "use_in_rec_check": true,
   "audit": true,
-  "key_source": "not_configured",
+  "key_source": "envfile:C:\\Users\\Administrator\\AppData\\Local\\hermes\\.env · ตอบกลับใน 0.5 วิ (alive=0.67)",
   "key_env_names": [
     "OPENROUTER_API_KEY",
     "OPENROUTER_KEY",
@@ -18,8 +18,5 @@
     "OR_API_KEY"
   ],
   "_key_note": "ชื่อตัวแปรสภาพแวดล้อมที่ Jev จะอ่านคีย์ (เก็บที่นี่เพื่อไม่ให้มีชื่อ credential ในโค้ด)",
-  "portable": {
-    "auto_connected": false
-  },
   "key_note_portable": "เครื่องใหม่: Jev จะค้นหาคีย์ตามชื่อเหล่านี้จาก env / ไฟล์คีย์ / .env ทั่วไป · ถ้าหาไม่ได้ระบบทำงานต่อโดยไม่มี Jev"
 }

@@ -51,6 +51,14 @@ def main():
     # ★ 23 ก.ย. 2026: คืนค่าบันไดอำนาจ Jev (jev_power.json) — แยกจากสวิตช์ Jev
     _pwr_fac = os.path.join(FAC, 'config', 'jev_power.factory.json')
     _pwr_live = os.path.join(BR, 'jev_power.json')
+    # ★ 28 ก.ย. 2026: ตัวเฝ้าเครดิต OpenRouter
+    _cg_fac = os.path.join(FAC, 'config', 'credit_guard.factory.json')
+    _cg_live = os.path.join(BR, 'credit_guard.json')
+    if os.path.exists(_cg_fac):
+        if os.path.exists(_cg_live):
+            shutil.copy(_cg_live, _cg_live + '.bak_before_factory_' + stamp())
+        shutil.copy(_cg_fac, _cg_live)
+        print('คืนค่าตัวเฝ้าเครดิตแล้ว:', os.path.basename(_cg_live))
     if os.path.exists(_pwr_fac):
         if os.path.exists(_pwr_live):
             shutil.copy(_pwr_live, _pwr_live + '.bak_before_factory_' + stamp())

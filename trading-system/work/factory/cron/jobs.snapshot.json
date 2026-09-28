@@ -1,0 +1,102 @@
+[
+  {
+    "name": "llm-recommendation-consumer",
+    "schedule": "every 5m",
+    "script": "llm_rec_consumer_runner.py",
+    "no_agent": true,
+    "skills": [],
+    "workdir": null,
+    "provider": null,
+    "model": null,
+    "enabled": true,
+    "factory_note": "ค่าโรงงานกำหนดให้เปิด (ไม่ขึ้นกับสถานะตอนปักหมุด)"
+  },
+  {
+    "name": "trading-analytics",
+    "schedule": "every 10m",
+    "script": "research_analytics.py",
+    "no_agent": true,
+    "skills": [],
+    "workdir": null,
+    "provider": null,
+    "model": null,
+    "enabled": true,
+    "factory_note": "ค่าโรงงานกำหนดให้เปิด (ไม่ขึ้นกับสถานะตอนปักหมุด)"
+  },
+  {
+    "name": "trading-daily-research-log",
+    "schedule": "every day at 23:50",
+    "script": "daily_research_log.py",
+    "no_agent": true,
+    "skills": [],
+    "workdir": null,
+    "provider": null,
+    "model": null,
+    "enabled": true,
+    "factory_note": "ค่าโรงงานกำหนดให้เปิด (ไม่ขึ้นกับสถานะตอนปักหมุด)"
+  },
+  {
+    "name": "trading-research-bot (10 นาที · บอทดูแล LLM)",
+    "schedule": "every 10m",
+    "script": null,
+    "no_agent": false,
+    "skills": [
+      "trading-admin-bot"
+    ],
+    "workdir": "D:\\AI WorkSpace\\Codex WorkSpace\\เทรดทองคำ",
+    "provider": "openrouter",
+    "model": "deepseek/deepseek-v4.1-flash",
+    "enabled": true,
+    "factory_note": "ค่าโรงงานกำหนดให้เปิด (ไม่ขึ้นกับสถานะตอนปักหมุด)"
+  },
+  {
+    "name": "trading-admin-bot (30 นาที)",
+    "schedule": "every 30m",
+    "script": null,
+    "no_agent": false,
+    "skills": [
+      "trading-admin-bot"
+    ],
+    "workdir": "D:\\AI WorkSpace\\Codex WorkSpace\\เทรดทองคำ",
+    "provider": "openrouter",
+    "model": "deepseek/deepseek-v4.1-flash",
+    "enabled": true,
+    "factory_note": "ค่าโรงงานกำหนดให้เปิด (ไม่ขึ้นกับสถานะตอนปักหมุด)"
+  },
+  {
+    "name": "brain-consult",
+    "schedule": "every 30m",
+    "script": null,
+    "no_agent": false,
+    "skills": [],
+    "workdir": "D:\\AI WorkSpace\\Codex WorkSpace\\เทรดทองคำ",
+    "provider": null,
+    "model": null,
+    "enabled": true,
+    "factory_note": null
+  },
+  {
+    "name": "brain-consult-alert",
+    "schedule": "every 30m",
+    "script": "brain_consult_probe.py",
+    "no_agent": true,
+    "skills": [],
+    "workdir": null,
+    "provider": null,
+    "model": null,
+    "enabled": true,
+    "factory_note": null
+  },
+  {
+    "name": "credit-guard-openrouter",
+    "schedule": "every 1m",
+    "script": "credit_guard_runner.py",
+    "no_agent": true,
+    "skills": [],
+    "workdir": null,
+    "provider": null,
+    "model": null,
+    "enabled": true,
+    "factory_note": null
+  }
+]

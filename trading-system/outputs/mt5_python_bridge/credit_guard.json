@@ -1,0 +1,10 @@
+{
+  "_creator": "Kanutsanan Pongpanna",
+  "_note": "ตัวเฝ้าเครดิตคุมเฉพาะงาน AI/บอท (โหมด · Jev · งานเอเจนต์) — ไม่แตะตัวเทรด เพราะตัวเทรดเป็น Python ล้วน ไม่ใช้ AI",
+  "enabled": false,
+  "low_usd": 1.0,
+  "resume_usd": 1.2,
+  "manage_trader_ai": false,
+  "max_consecutive_failures": 3,
+  "notify_telegram": true
+}

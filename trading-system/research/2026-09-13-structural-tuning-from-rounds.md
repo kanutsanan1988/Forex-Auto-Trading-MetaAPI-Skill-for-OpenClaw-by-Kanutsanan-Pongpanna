@@ -186,7 +186,7 @@ REC จากท่อนี้ตั้ง `restart_after_apply: false` เส�
 ## 10. คำสั่งตรวจซ้ำ (ทำได้ทันที)
 
 ```bash
-export PYTHONUTF8=1; cd "D:/AI WorkSpace/Codex WorkSpace/เทรดทองคำ"
+export PYTHONUTF8=1; cd "<PROJECT_ROOT>"
 python "$LOCALAPPDATA/hermes/scripts/band_plan.py"     # แผน 36 ค่า
 python "$LOCALAPPDATA/hermes/scripts/tpsl_plan.py"     # แผน TP/SL
 rm -f work/plan_rec_state.json                          # เคลียร์ cooldown เวลาทดสอบเท่านั้น

@@ -9,10 +9,10 @@
 > สัญญากลาง: คุณต้องทำได้ 2 อย่าง — (1) รันคำสั่ง shell (2) อ่าน/เขียนไฟล์
 > สัญญาการสื่อสารฉบับเต็ม: research/recommendations/CONTRACT.md
 
-ระบบเทรดทองคำอยู่ใน project root ที่ผู้ใช้เปิดให้ Agent — ค้นหา path จริงจาก workspace ห้ามใช้ path เฉพาะเครื่องต้นทาง งานนี้คือ 'รอบวิจัย 10 นาที' ที่ต้องทำงานร่วมกันของ 2 แหล่งข้อมูล: (ก) ข้อมูลภายในของระบบ และ (ข) บอทที่ใช้ LLM เป็นสมอง
+ระบบเทรดทองคำอยู่ที่ <PROJECT_ROOT> — งานนี้คือ 'รอบวิจัย 10 นาที' ที่ต้องทำงานร่วมกันของ 2 แหล่งข้อมูล: (ก) ข้อมูลภายในของระบบ และ (ข) บอทที่ใช้ LLM เป็นสมอง
 
 ขั้นตอน:
-1) จาก project root และ virtual environment ที่ติดตั้ง dependency แล้ว รัน: python -X utf8 outputs/mt5_python_bridge/tools/llm_research_packet.py
+1) รัน: export PYTHONUTF8=1; cd "<PROJECT_ROOT>" && .venv/Scripts/python.exe outputs/mt5_python_bridge/tools/llm_research_packet.py
 2) อ่านชุดข้อมูลล่าสุดจาก work/llm_research/inbox/packet_*.json (ไฟล์ใหม่สุด)
 3) วิเคราะห์โดยใช้ 'ทั้งสองแหล่งพร้อมกัน': ตัวเลขจาก audit (recent) + ผลงานวิจัยข้อมูลภายใน (internal_research: auto_threshold_stats และ internal_report_tail) + วงจรคำแนะนำเดิมของตัวเอง (bot_loop) — อ้างตัวเลขจริงเท่านั้น ห้ามเดา
 4) เขียนคำแนะนำเป็นไฟล์ JSON ลง research/recommendations/latest_recommendation.json ตาม schema hermes-trading-recommendation-v1 (ดูลักษณะไฟล์เดิมในโฟลเดอร์) — เสนอได้เฉพาะการปรับ 'ค่าต่างๆ' ในกรอบปลอดภัย (ปิดกำไร 0.5-0.95 · ด่านเน็ตอายุ 4-24 ชม. · พักกันแก้แค้น 5-45 นาที) ห้ามเสนอแก้โครงสร้างโค้ด
@@ -20,13 +20,13 @@
 
 6) งานวิจัยข่าว — 'บอทเป็นผู้วิจัยเอง' (เจ้าของระบบกำหนด 19 ก.ย. 2026):
    ก) ดึงข้อมูลข่าว (โมดูลข่าวทำหน้าที่แค่เตรียมข้อมูล ไม่ได้วิเคราะห์แทนคุณ):
-      python -X utf8 outputs/mt5_python_bridge/news_feed.py --digest
+      .venv/Scripts/python.exe outputs/mt5_python_bridge/news_feed.py --digest
    ข) วิเคราะห์ข่าวด้วย LLM ของคุณเอง: ธีมมหภาคที่เด่น · ผลต่อทองคำ · ข้อควรระวัง · เชื่อมกับตัวเลขระบบ
       แล้วเขียนงานวิจัยภาษาไทยลงไฟล์ชั่วคราว เช่น work/_news_research_mode2.md
    ค) บันทึกงานวิจัยของคุณเข้าระบบ:
-      python -X utf8 outputs/mt5_python_bridge/news_feed.py --save-research work/_news_research_mode2.md --author mode2
+      .venv/Scripts/python.exe outputs/mt5_python_bridge/news_feed.py --save-research work/_news_research_mode2.md --author mode2
    ง) จะดึง 'ประวัติงานวิจัยข่าว' ย้อนหลังมาประมวลผลร่วมด้วยหรือไม่ ขึ้นกับดุลพินิจของคุณ:
-      python -X utf8 outputs/mt5_python_bridge/news_feed.py --history --hours <N>   (หรือ --since <ISO> --until <ISO>)
+      .venv/Scripts/python.exe outputs/mt5_python_bridge/news_feed.py --history --hours <N>   (หรือ --since <ISO> --until <ISO>)
 
 
 หมายเหตุสำคัญ (เจ้าของระบบกำหนด 19 ก.ย. 2026): คำแนะนำต้องเขียนลง research/recommendations/latest_recommendation.json **ไฟล์นี้เท่านั้น** (consumer อ่านไฟล์นี้ไฟล์เดียว) — ห้ามสร้างไฟล์ชื่ออื่น ไม่งั้นระบบข้อมูลภายในจะแตกเป็นสองทาง

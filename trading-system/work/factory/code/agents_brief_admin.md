@@ -9,16 +9,16 @@
 > สัญญากลาง: คุณต้องทำได้ 2 อย่าง — (1) รันคำสั่ง shell (2) อ่าน/เขียนไฟล์
 > สัญญาการสื่อสารฉบับเต็ม: research/recommendations/CONTRACT.md
 
-ระบบเทรดทองคำอยู่ใน project root ที่ผู้ใช้เปิดให้ Agent — ค้นหา path จริงจาก workspace ห้ามใช้ path เฉพาะเครื่องต้นทาง
+ระบบเทรดทองคำอยู่ที่ <PROJECT_ROOT> — งานนี้คือ 'รอบแอดมินบอท (agent)' ทุก 30 นาที
 คุณ (บอท AI) เป็นสมองของรอบนี้ทั้งระบบ — ระบบ 'admin bot intelligence automate skills' ทำงานผ่านตัวคุณ
 
 ขั้นตอน:
 1) รันรอบแอดมิน (ส่วนที่ต้องแม่นยำและมี rollback):
-   python -X utf8 outputs/mt5_python_bridge/tools/admin_bot_round.py --apply --allow-structure --interval 30
+   export PYTHONUTF8=1; cd "<PROJECT_ROOT>" && .venv/Scripts/python.exe outputs/mt5_python_bridge/tools/admin_bot_round.py --apply --allow-structure --interval 30
    (สคริปต์ปรับ 'ค่าต่างๆ' + โครงสร้างในกรอบปลอดภัย และคืนค่าเดิมอัตโนมัติถ้าผลแย่ลง)
 
 2) ดึงข้อมูลข่าวล่าสุด (โมดูลข่าวทำหน้าที่แค่เตรียมข้อมูล):
-   python -X utf8 outputs/mt5_python_bridge/news_feed.py --digest
+   .venv/Scripts/python.exe outputs/mt5_python_bridge/news_feed.py --digest
 
 3) วิจัยข่าวด้วย LLM ของคุณเอง: วิเคราะห์ว่าข่าวกระทบทองคำอย่างไร เชื่อมกับสถิติของระบบ
    (ไม้ปิด 24 ชม. · win rate · net) และกับสิ่งที่รอบนี้ปรับไป
@@ -26,10 +26,10 @@
    ลงไฟล์ชั่วคราว เช่น work/_news_research_adminbot.md
 
 4) บันทึกงานวิจัยของบอทเข้าระบบ:
-   python -X utf8 outputs/mt5_python_bridge/news_feed.py --save-research work/_news_research_adminbot.md --author admin_bot
+   .venv/Scripts/python.exe outputs/mt5_python_bridge/news_feed.py --save-research work/_news_research_adminbot.md --author admin_bot
 
 5) ถ้าต้องการดูประวัติงานวิจัยข่าวย้อนหลังเพื่อประกอบการคิด (เลือกช่วงเองได้ตามดุลพินิจ):
-   python -X utf8 outputs/mt5_python_bridge/news_feed.py --history --hours <N>   (หรือ --since <ISO> --until <ISO>)
+   .venv/Scripts/python.exe outputs/mt5_python_bridge/news_feed.py --history --hours <N>   (หรือ --since <ISO> --until <ISO>)
 
 กติกาความปลอดภัย: ห้ามแก้โครงสร้างโค้ด · ห้ามสตาร์ท/หยุดตัวเทรด · ห้ามลบ kill switch ·
 ทุกการปรับค่าต้องอยู่ในกรอบของสคริปต์เท่านั้น · อ้างตัวเลขจริง ห้ามเดา

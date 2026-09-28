@@ -105,7 +105,20 @@ def main():
                 hits.append("%s:%s" % (os.path.basename(f), pat))
     check("ไม่มี credential ฝังในโค้ด", len(hits) == 0, ", ".join(hits[:3]))
     kill = os.path.join(ROOT, "work", "AUTO_TRADER_STOP")
-    check("kill switch ทำงาน", os.path.exists(kill), "สถานะ: %s" % ("ปิดระบบอยู่" if os.path.exists(kill) else "เปิดระบบอยู่"))
+    # 28 ก.ย. 2026: เปิด-ปิดระบบเป็นอำนาจเจ้าของระบบ → ตรวจ "ความสอดคล้อง" ของสถานะความปลอดภัย
+    _stop = os.path.exists(kill)
+    _sup = os.path.exists(os.path.join(os.path.dirname(kill), "auto_trader_supervisor.pid"))
+    try:
+        _cfg = json.load(io.open(os.path.join(BR, "auto_config.json"), encoding="utf-8"))
+        _live = bool(_cfg.get("live_enabled"))
+    except Exception:
+        _live = False
+    if _stop:
+        _ok, _msg = True, "ปิดระบบอยู่ · kill switch ทำงาน"
+    else:
+        _ok = bool(_sup and _live)
+        _msg = "เปิดระบบอยู่ · supervisor %s · live_enabled=%s" % ("ทำงาน" if _sup else "ไม่ทำงาน ✗", _live)
+    check("สถานะความปลอดภัยสอดคล้อง", _ok, _msg)
     # consumer ต้องไม่ล้าง kill switch
     cs = io.open(os.path.join(BR, "llm_recommendation_consumer.py"), encoding="utf-8").read()
     check("consumer ไม่ล้าง kill switch", "clear_kill_switch" not in cs or "False" in cs.split("clear_kill_switch")[0][-200:])
@@ -206,7 +219,7 @@ def main():
     try:
         jobs = json.loads(io.open(os.path.expanduser("~/AppData/Local/hermes/cron/jobs.json"),
                                   encoding="utf-8").read())["jobs"]
-        check("งาน cron ครบ 7 งาน", len(jobs) == 7)
+        check("งาน cron ครบ 8 งาน", len(jobs) == 8)
         agents_jobs = [j for j in jobs if not j.get("no_agent")]
         check("งานแบบ agent 3 งาน (โหมด 2 + แอดมินบอท + ที่ปรึกษาสมองหลัก)", len(agents_jobs) == 3)
     except Exception as exc:

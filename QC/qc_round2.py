@@ -72,10 +72,11 @@ def main() -> int:
                             "trading-system/research/README.md",
                             "trading-system/research/SESSION-STATE.md",
                             "trading-system/research/2026-09-24-metaapi-readonly-validation.md",
+                            "trading-system/research/2026-09-28-metaapi-readonly-validation.md",
                             "trading-system/work/AUTO_TRADER_STOP",
-                            "trading-system/outputs/mt5_python_bridge/platform_lock.py",
-                            "trading-system/outputs/mt5_python_bridge/test_platform_lock.py",
+                            "trading-system/outputs/mt5_python_bridge/tests/test_runtime_support_lock.py",
                             "metaapi/metaapi_mt5_shim.py", "metaapi/METAAPI-SDK-LICENSE.txt",
+                            "metaapi/evidence/live-readonly-verify-20260928.json",
                             "requirements-metaapi.txt",
                             "scripts/verify_package.py", "QC/qc_round1.py", "QC/qc_round2.py"]
                 missing = [p for p in required if not (package / p).is_file()]
@@ -90,11 +91,11 @@ def main() -> int:
                 record("extracted offline adapter tests", tests.returncode == 0,
                        tests.stdout.strip().splitlines()[-1] if tests.stdout.strip() else "")
                 lock_test = subprocess.run(
-                    [sys.executable, str(package / "trading-system/outputs/mt5_python_bridge/test_platform_lock.py")],
+                    [sys.executable, str(package / "trading-system/outputs/mt5_python_bridge/tests/test_runtime_support_lock.py")],
                     cwd=package / "trading-system/outputs/mt5_python_bridge",
                     capture_output=True, text=True, timeout=60,
                     encoding="utf-8", errors="replace")
-                record("extracted cross-platform lock test", lock_test.returncode == 0,
+                record("extracted portable runtime lock test on host OS", lock_test.returncode == 0,
                        lock_test.stdout.strip().splitlines()[-1] if lock_test.stdout.strip() else "")
     except Exception as exc:
         record("QC execution", False, type(exc).__name__)

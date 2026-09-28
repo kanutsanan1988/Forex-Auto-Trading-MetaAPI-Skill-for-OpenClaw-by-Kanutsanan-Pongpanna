@@ -8,7 +8,7 @@
 # 📊 Live Research Log — ระบบเทรดทองคำ
 
 บันทึกผลวิจัยต่อเนื่อง (ทุก ~10 นาที) จาก: ประวัติเช็คเทรดรายนาทีของ python + ออเดอร์จริง + กราฟย้อนหลัง 10-20 นาที
-โฟลเดอร์: D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research
+โฟลเดอร์: <PROJECT_ROOT>\research
 
 ---
 

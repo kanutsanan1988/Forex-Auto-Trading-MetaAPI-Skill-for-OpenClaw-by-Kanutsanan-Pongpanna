@@ -16,15 +16,16 @@ from runtime_support import (atomic_json, current_mode, file_lock, project_root,
                              update_json, DEFAULT_MODE, MODE_TITLES)
 MODES = {'1': 'internal_only', '2': 'internal_llm_join'}
 TITLES = MODE_TITLES
-JOBS = (
+PYTHON_JOBS = (
     'trading-analytics',
-    'trading-research-bot (10 นาที · บอทดูแล LLM)',
     'llm-recommendation-consumer',
-    'trading-admin-bot (30 นาที)',
     'trading-daily-research-log',
 )
 RESEARCH_JOB = 'trading-research-bot (10 นาที · บอทดูแล LLM)'
 ADMIN_JOB = 'trading-admin-bot (30 นาที)'
+BRAIN_CONSULT_JOB = 'brain-consult'
+AI_JOBS = (RESEARCH_JOB, ADMIN_JOB, BRAIN_CONSULT_JOB)
+JOBS = PYTHON_JOBS + AI_JOBS
 
 def hermes_executable():
     home = Path(os.environ.get('HERMES_HOME', Path(os.environ.get('LOCALAPPDATA', str(Path.home()))) / 'hermes'))
@@ -47,14 +48,14 @@ def resume_selected(mode):
     if mode not in TITLES:
         raise ValueError('Unknown trading mode; no jobs changed')
     try:
-        # Both modes retain ALL Python research. Only these two AI jobs differ.
-        for name in (RESEARCH_JOB, ADMIN_JOB):
+        # Both modes retain all Python-only work. Every registered AI job follows
+        # the selected mode; adding an AI cron requires adding it to AI_JOBS here.
+        for name in AI_JOBS:
             cron('pause', name)
-        for name in ('trading-analytics', 'llm-recommendation-consumer',
-                     'trading-daily-research-log'):
+        for name in PYTHON_JOBS:
             cron('resume', name)
         if mode == DEFAULT_MODE:
-            for name in (RESEARCH_JOB, ADMIN_JOB):
+            for name in AI_JOBS:
                 cron('resume', name)
     except Exception as exc:
         try:
@@ -106,8 +107,8 @@ def main():
         return 0
     value = a.set
     if not value:
-        print('1. เทรดด้วยสัญญาณภายใน (Python เท่านั้น)\n'
-              '2. เทรดร่วมสัญญาณ AI (Python + AI Signal Bot + Admin Bot; ค่าเริ่มต้น)\n'
+        print('1. เทรดด้วยสัญญาณภายใน (ระบบเทรดและวิจัยภายใน Python; ไม่ใช้ AI)\n'
+              '2. เทรดร่วมสัญญาณ AI (Python + AI ทุกส่วนที่เชื่อมกับระบบ; ค่าเริ่มต้น)\n'
               '0. ยกเลิก')
         try: value = input('เลือก 1 หรือ 2 [Enter = 2]: ').strip() or DEFAULT_MODE
         except EOFError: return 2
@@ -115,7 +116,7 @@ def main():
     mode = MODES.get(value, value)
     if mode not in TITLES: raise ValueError('Select 1 or 2 explicitly')
     select_mode(mode)
-    print(TITLES[mode] + ' — Internal research and tuning remain enabled in both modes')
+    print(TITLES[mode] + ' — Python research remains enabled; AI integrations follow the selected mode')
     return 0
 
 if __name__ == '__main__':

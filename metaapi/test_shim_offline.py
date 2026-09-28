@@ -66,8 +66,10 @@ class FakeConnection:
 
     async def get_account_information(self):
         self._maybe("account")
+        # Keep login absent: the SDK returns a numeric ID, while this fixture
+        # focuses on margin behavior and should remain safe under ID redaction.
         return {"balance": 10.44, "equity": 10.44, "freeMargin": 9.96, "margin": 0.48,
-                "leverage": 100, "currency": "USD", "tradeAllowed": True, "login": 99979798}
+                "leverage": 100, "currency": "USD", "tradeAllowed": True}
 
     async def get_positions(self):
         self._maybe("positions")

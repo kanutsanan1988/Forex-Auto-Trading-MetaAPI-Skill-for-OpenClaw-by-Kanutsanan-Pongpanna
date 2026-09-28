@@ -114,6 +114,9 @@ class ModeContractTests(unittest.TestCase):
 
     def test_jev_missing_connection_is_optional_and_returns_unavailable(self):
         jev = load_module('test_jev_optional', BR / 'tools' / 'jev.py')
+        # Jev resolves its config beside its source file, so point this isolated
+        # test at the temporary project instead of inheriting a release config.
+        jev.CFG = str(self.root / 'outputs/mt5_python_bridge/jev_config.json')
         with patch.object(jev, 'api_key', return_value=None), patch.object(jev, '_post') as post:
             result = jev.ask({'test': True}, [], context='manual')
         self.assertFalse(result['ok'])

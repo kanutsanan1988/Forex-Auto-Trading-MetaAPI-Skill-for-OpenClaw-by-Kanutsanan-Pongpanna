@@ -56,3 +56,7 @@ Jev is optional. The current source uses OpenRouter as an example transport; alt
 - `research/`: complete research archive included in this release.
 - `work/factory/config/auto_config.factory.json`: safe distribution factory configuration. Its Live/provider switches are deliberately disabled.
 - `docs/CURRENT-SYSTEM-REVIEW.md`: current-source gaps and audit evidence.
+
+## AI credit guard in the 2026-09-28 source snapshot
+
+The source includes `tools/credit_guard.py`, which may pause/resume AI-only work based on the configured OpenRouter credit balance; it must not control Python trading or remove the Kill Switch. This distribution keeps the feature disabled until a recipient supplies and tests their own provider credentials. Never bundle or print those credentials.

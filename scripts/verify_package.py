@@ -55,7 +55,9 @@ FORBIDDEN_DIRS = {"__pycache__", ".pytest_cache", ".mypy_cache", ".ruff_cache",
                   ".idea", ".vscode", ".git", "node_modules", ".venv", "venv"}
 REQUIRED = ["SKILL.md", "README.md", "LICENSE", "THIRD-PARTY-NOTICES.md",
             "trading-system", "metaapi", "references",
-            "trading-system/work/AUTO_TRADER_STOP"]
+            "trading-system/work/AUTO_TRADER_STOP",
+            "trading-system/research/2026-09-28-metaapi-readonly-validation.md",
+            "metaapi/evidence/live-readonly-verify-20260928.json"]
 
 # path ตายตัวของผู้สร้าง (ต้องไม่เหลือในโค้ด)
 # ประกอบสตริงขึ้นมาเพื่อไม่ให้ตัวตรวจตั้งธงตัวเอง (self-match)

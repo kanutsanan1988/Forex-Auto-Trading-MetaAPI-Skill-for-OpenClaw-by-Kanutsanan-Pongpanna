@@ -30,10 +30,12 @@ REQUIRED = [
     "trading-system/research/README.md",
     "trading-system/research/SESSION-STATE.md",
     "trading-system/research/2026-09-24-metaapi-readonly-validation.md",
+    "trading-system/research/2026-09-28-metaapi-readonly-validation.md",
     "trading-system/work/AUTO_TRADER_STOP",
     "metaapi/metaapi_mt5_shim.py", "metaapi/test_shim_offline.py",
     "metaapi/METAAPI-SDK-LICENSE.txt",
     "metaapi/evidence/live-readonly-verify-20260924.json",
+    "metaapi/evidence/live-readonly-verify-20260928.json",
     "vendor/metaapi_cloud_sdk-29.1.1-py3-none-any.whl",
     "vendor/SHA256SUMS.txt", "scripts/verify_package.py",
     "requirements-metaapi.txt",
@@ -105,11 +107,11 @@ def main() -> int:
     record("offline MetaAPI adapter tests", tests.returncode == 0,
            tests.stdout.strip().splitlines()[-1] if tests.stdout.strip() else "")
     lock_test = subprocess.run(
-        [sys.executable, str(ROOT / "trading-system/outputs/mt5_python_bridge/test_platform_lock.py")],
+        [sys.executable, str(ROOT / "trading-system/outputs/mt5_python_bridge/tests/test_runtime_support_lock.py")],
         cwd=ROOT / "trading-system/outputs/mt5_python_bridge",
         capture_output=True, text=True, timeout=60,
         encoding="utf-8", errors="replace")
-    record("cross-platform engine lock test", lock_test.returncode == 0,
+    record("portable runtime lock test on host OS", lock_test.returncode == 0,
            lock_test.stdout.strip().splitlines()[-1] if lock_test.stdout.strip() else "")
 
     result = {"round": 1, "method": "static + package self-check + offline adapter tests",

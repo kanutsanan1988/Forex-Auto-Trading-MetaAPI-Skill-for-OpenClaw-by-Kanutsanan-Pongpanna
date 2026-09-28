@@ -7,11 +7,23 @@
 -->
 # 📌 SESSION-STATE — สถานะรวมระบบ (อ่านก่อนเริ่มทำงาน session ใหม่)
 
-อัปเดตล่าสุด: 2026-09-14
+อัปเดตล่าสุด: 2026-09-28
 ผู้ใช้: Kanutsanan — ตอบเป็นภาษาไทยเท่านั้น ✅
 **ผู้สร้างระบบ: Kanutsanan Pongpanna** · Facebook: https://www.facebook.com/LoveMoneyTH · YouTube: https://youtube.com/@lovemoneythofficial *(เครดิตอยู่ในทุกไฟล์ของระบบ)*
 
 ## ⚡ สถานะปัจจุบัน (สำคัญ)
+**อัปเดต 2026-09-28 (ล่าสุด):**
+- **ระบบเทรด = เปิดอยู่ (LIVE)** — MT5 OANDA_Global-Live-1 login 7038798 · supervisor PID 1592 · trader PID 12360 · kill switch ปลด
+- ★ **กับดักสำคัญ: ระบบเทรดไม่ได้ 12 วันเพราะปุ่ม Algo Trading ใน MT5 ปิด** (`terminal_info().trade_allowed = False` → บันทึก `blocked · MT5 trading permission is disabled` 14 ครั้ง)
+  - `trade_allowed` เป็น **read-only** ต่อ API · แก้ `common.ini [Experts] AllowLiveTrading=1` **ไม่พอ** → ต้องกดปุ่มในตัวเทอร์มินัลเอง
+  - **อย่าสตาร์ท `terminal64.exe` จากเซสชัน Hermes** → ได้โปรเซสไม่มีหน้าต่าง UI (`MainWindowHandle=0`) ผู้ใช้กดปุ่มไม่ได้ · ใช้ `Register-ScheduledTask -LogonType Interactive` หรือให้เจ้าของระบบเปิดเอง
+  - ก่อนสรุปว่า "เกณฑ์ตึง" ทุกครั้ง → ดู `blocked` events + `terminal_info().trade_allowed` ก่อน
+- โหมด 2 · **AI ในตัวเทรด = false** (เจ้าของระบบยืนยัน) · AI อยู่ 3 ชั้นบน (วิจัย 10 นาที · แอดมินบอท 30 นาที · ที่ปรึกษา Hermes) · cron 8/8 (รวม `credit-guard-openrouter` ทุก 1 นาที) · ตัวเฝ้าเครดิตทำงาน · band floor ล็อกไม่ต่ำกว่า **0.10** (กรอบแอดมินบอทเคยผ่อนถึง 0.06 — แก้แล้ว)
+- ผลเทรด 28 ก.ย. (หลังแก้สิทธิ์): เปิด 4 · ปิด 3 · +2.42 USD (บัญชี 14.44 → 16.86) — **ตัวอย่างเล็ก ยังไม่สรุปผล**
+- กลไกที่ยืนยันได้แค่ระดับโค้ด (ยังไม่เคยยิงจริง): `early_cut` · `revenge_guard`
+- 📄 บันทึกรอบนี้: `research/2026-09-23-interbot-brain-consult-and-strategy-scoreboard.md` → **ภาคผนวก รอบที่ 6**
+
+*(ประวัติ 14 ก.ย. — เก็บไว้อ้างอิง)*
 - **ระบบเทรด = เปิดอยู่ (LIVE)** — MT5 OANDA_Global-Live-1 login 7038798 · equity $13.78 · ไม่มี position ค้าง · kill switch: ไม่มี · cron: consumer 🟢 + trading-research 🟢 (โหมด 2) + trading-analytics ⏸️
 - **รีสตาร์ทล่าสุด: 2026-09-14 20:58 ไทย** (โหลดโค้ดใหม่) — supervisor PID 10584 · trader PID 4680 · ใช้ `outputs/mt5_python_bridge/restart_auto_trader.cmd` (หรือ `hermes/scripts/restart_trader.py` เมื่อสั่งจากฝั่ง Hermes)
 - 📅 **บันทึกงานวิจัยทุกวัน (ข้อกำหนดของเจ้าของระบบ):** งานวิจัยเชิงหัวข้อ `research/YYYY-MM-DD-*.md` + บันทึกรายวัน `research/daily/YYYY-MM-DD.md` (อัตโนมัติ · cron 23:50 · `daily_research_log.py`) — ดู `AGENTS.md` หัวข้อ "Daily research log"

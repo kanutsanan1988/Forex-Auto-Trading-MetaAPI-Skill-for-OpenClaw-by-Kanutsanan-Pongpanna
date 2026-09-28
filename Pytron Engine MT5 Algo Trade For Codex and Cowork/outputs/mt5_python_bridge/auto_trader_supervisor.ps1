@@ -1,4 +1,4 @@
-﻿# ระบบเทรดทองคำอัตโนมัติ (Gold Auto Trading System)
+# ระบบเทรดทองคำอัตโนมัติ (Gold Auto Trading System)
 # ผู้สร้างระบบ (Creator): Kanutsanan Pongpanna
 #   Facebook: https://www.facebook.com/LoveMoneyTH
 #   YouTube:  https://youtube.com/@lovemoneythofficial

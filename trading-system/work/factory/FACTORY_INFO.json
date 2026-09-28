@@ -1,15 +1,22 @@
 {
-  "created": "2026-09-24T00:00:00",
-  "note": "ค่าโรงงานในชุดแจกจ่าย: สืบทอดค่าตรรกะและกลยุทธ์จาก snapshot ต้นทาง พร้อม safety overlay สำหรับเครื่องใหม่",
+  "created": "2026-09-28T13:40:43",
+  "note": "ค่าโรงงาน = สถานะระบบปัจจุบันทั้งชุด (เจ้าของระบบสั่งตั้งใหม่ 19 ก.ย. 2026)",
   "config_source": "auto_config.json (ค่าปัจจุบัน)",
-  "code_files": 62,
-  "cron_jobs": 0,
+  "code_files": 63,
+  "cron_jobs": 8,
   "factory_settings": {
-    "งานวิจัย 10 นาทีข้อมูลภายใน": "ไม่ได้ import ตารางเวลาจากเครื่องต้นทาง; ให้ผู้ใช้ตั้งค่าเอง",
-    "งานวิจัย 10 นาทีจากบอท (สมอง LLM)": "ไม่ได้ import ตารางเวลาจากเครื่องต้นทาง; Agent หลักของแพลตฟอร์มทำบทบาทได้",
-    "admin bot": "ไม่ได้ import ตารางเวลาจากเครื่องต้นทาง; ให้ผู้ใช้ตั้งค่าเอง",
-    "Jev": "สวิตช์เปิดตามค่าโรงงาน; เป็น optional และทำงานได้เมื่อผู้ใช้ตั้ง credential ในเครื่อง",
-    "OpenRouter": "ปิดไว้เป็นค่าโรงงาน; ผู้ใช้เลือกเปิดและตั้ง credential เอง"
+    "งานวิจัย 10 นาทีข้อมูลภายใน": "เปิด (trading-analytics)",
+    "งานวิจัย 10 นาทีจากบอท (สมอง LLM)": "เปิด (trading-research-bot)",
+    "admin bot": "ทุก 30 นาที เปิด (trading-admin-bot)",
+    "งานเดิมที่ต่อ LLM ตรง": "ลบออกแล้ว"
   },
-  "restore": "python work/factory/restore_factory.py --apply [--code]"
+  "restore": "python work/factory/restore_factory.py --apply [--code]",
+  "distribution_overlay": {
+    "live_enabled": false,
+    "kill_switch_present": true,
+    "bounded_live_owner_approved": false,
+    "openrouter_enabled": false,
+    "jev_enabled": false,
+    "credit_guard_enabled": false
+  }
 }

@@ -21,7 +21,7 @@
 ### AT vs การเทรด (ความถี่)
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.040/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 186 ออเดอร์
@@ -41,7 +41,7 @@
 ### AT vs การเทรด (ความถี่)
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.040/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 186 ออเดอร์
@@ -61,7 +61,7 @@
 ### AT vs การเทรด (ความถี่)
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.040/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 186 ออเดอร์
@@ -90,7 +90,7 @@
 ### AT vs การเทรด (ความถี่)
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.040/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 186 ออเดอร์
@@ -119,7 +119,7 @@
 ### AT vs การเทรด (ความถี่)
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.040/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 186 ออเดอร์
@@ -146,7 +146,7 @@
 ### AT vs การเทรด (ความถี่)
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.040/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 186 ออเดอร์
@@ -210,7 +210,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.101756/0.065847 (สุ�
 📊 [AT-vs-Trade]
 🟩 net เฉลี่ย +$0.022/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 187 ออเดอร์
@@ -272,7 +272,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.098418/0.065365 (สุ�
 📊 [AT-vs-Trade]
 🟩 net เฉลี่ย +$0.022/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 187 ออเดอร์
@@ -328,7 +328,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.094763/0.065778 (สุ�
 🟩 เทรดปกติ: 24ชม.=3 ออเดอร์ (~10.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.022/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 187 ออเดอร์
@@ -384,7 +384,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.094763/0.065778 (สุ�
 🟩 เทรดปกติ: 24ชม.=3 ออเดอร์ (~10.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.022/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 187 ออเดอร์
@@ -440,7 +440,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.094763/0.065778 (สุ�
 🟩 เทรดปกติ: 24ชม.=3 ออเดอร์ (~10.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.022/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 187 ออเดอร์
@@ -496,7 +496,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.094763/0.065778 (สุ�
 🟩 เทรดปกติ: 24ชม.=3 ออเดอร์ (~10.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.022/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 187 ออเดอร์
@@ -552,7 +552,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.094763/0.065778 (สุ�
 🟩 เทรดปกติ: 24ชม.=3 ออเดอร์ (~10.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.022/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 187 ออเดอร์
@@ -608,7 +608,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.094763/0.065778 (สุ�
 🟩 เทรดปกติ: 24ชม.=3 ออเดอร์ (~10.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.022/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 187 ออเดอร์
@@ -664,7 +664,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.094763/0.065778 (สุ�
 🟩 เทรดปกติ: 24ชม.=3 ออเดอร์ (~10.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.022/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 187 ออเดอร์
@@ -720,7 +720,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.094763/0.065778 (สุ�
 🟩 เทรดปกติ: 24ชม.=3 ออเดอร์ (~10.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.022/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 187 ออเดอร์
@@ -776,7 +776,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.094763/0.065778 (สุ�
 🟩 เทรดปกติ: 24ชม.=3 ออเดอร์ (~10.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.022/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 187 ออเดอร์
@@ -832,7 +832,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.094763/0.065778 (สุ�
 🟩 เทรดปกติ: 24ชม.=3 ออเดอร์ (~10.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.022/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 187 ออเดอร์
@@ -888,7 +888,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.094763/0.065778 (สุ�
 🟩 เทรดปกติ: 24ชม.=3 ออเดอร์ (~10.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.022/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 187 ออเดอร์
@@ -944,7 +944,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.094763/0.065778 (สุ�
 🟩 เทรดปกติ: 24ชม.=3 ออเดอร์ (~10.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.022/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 187 ออเดอร์
@@ -1000,7 +1000,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.094763/0.065778 (สุ�
 🟩 เทรดปกติ: 24ชม.=3 ออเดอร์ (~10.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.022/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 187 ออเดอร์
@@ -1056,7 +1056,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.094763/0.065778 (สุ�
 🟩 เทรดปกติ: 24ชม.=3 ออเดอร์ (~10.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.022/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 187 ออเดอร์
@@ -1112,7 +1112,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.094763/0.065778 (สุ�
 🟩 เทรดปกติ: 24ชม.=3 ออเดอร์ (~10.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.022/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 187 ออเดอร์
@@ -1168,7 +1168,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.094763/0.065778 (สุ�
 🟩 เทรดปกติ: 24ชม.=3 ออเดอร์ (~10.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.022/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 187 ออเดอร์
@@ -1224,7 +1224,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.094763/0.065778 (สุ�
 🟩 เทรดปกติ: 24ชม.=3 ออเดอร์ (~10.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.022/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 187 ออเดอร์
@@ -1280,7 +1280,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.094763/0.065778 (สุ�
 🟩 เทรดปกติ: 24ชม.=3 ออเดอร์ (~10.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.022/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 187 ออเดอร์
@@ -1336,7 +1336,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.094763/0.065778 (สุ�
 🟩 เทรดปกติ: 24ชม.=3 ออเดอร์ (~10.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.022/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 187 ออเดอร์
@@ -1392,7 +1392,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.094763/0.065778 (สุ�
 🟩 เทรดปกติ: 24ชม.=3 ออเดอร์ (~10.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.022/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 187 ออเดอร์
@@ -1448,7 +1448,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.094763/0.065778 (สุ�
 🟩 เทรดปกติ: 24ชม.=3 ออเดอร์ (~10.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.022/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 187 ออเดอร์
@@ -1504,7 +1504,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.094763/0.065778 (สุ�
 🟩 เทรดปกติ: 24ชม.=3 ออเดอร์ (~10.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.022/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 187 ออเดอร์
@@ -1560,7 +1560,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.094763/0.065778 (สุ�
 🟩 เทรดปกติ: 24ชม.=3 ออเดอร์ (~10.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.022/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 187 ออเดอร์
@@ -1616,7 +1616,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.094763/0.065778 (สุ�
 🟩 เทรดปกติ: 24ชม.=3 ออเดอร์ (~10.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.022/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 187 ออเดอร์
@@ -1672,7 +1672,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.094763/0.065778 (สุ�
 🟩 เทรดปกติ: 24ชม.=3 ออเดอร์ (~10.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.022/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 187 ออเดอร์
@@ -1728,7 +1728,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.094763/0.065778 (สุ�
 🟩 เทรดปกติ: 24ชม.=3 ออเดอร์ (~10.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.022/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 187 ออเดอร์
@@ -1784,7 +1784,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.094763/0.065778 (สุ�
 🟩 เทรดปกติ: 24ชม.=3 ออเดอร์ (~10.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.022/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 187 ออเดอร์
@@ -1840,7 +1840,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.094763/0.065778 (สุ�
 🟩 เทรดปกติ: 24ชม.=3 ออเดอร์ (~10.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.022/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 187 ออเดอร์
@@ -1896,7 +1896,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.094763/0.065778 (สุ�
 🟩 เทรดปกติ: 24ชม.=3 ออเดอร์ (~10.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.022/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 187 ออเดอร์
@@ -1952,7 +1952,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.094763/0.065778 (สุ�
 🟩 เทรดปกติ: 24ชม.=3 ออเดอร์ (~10.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.022/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 187 ออเดอร์
@@ -2008,7 +2008,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.094763/0.065778 (สุ�
 🟩 เทรดปกติ: 24ชม.=3 ออเดอร์ (~10.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.022/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 187 ออเดอร์
@@ -2064,7 +2064,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.094763/0.065778 (สุ�
 🟩 เทรดปกติ: 24ชม.=3 ออเดอร์ (~10.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.022/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 187 ออเดอร์
@@ -2120,7 +2120,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.094763/0.065778 (สุ�
 🟩 เทรดปกติ: 24ชม.=3 ออเดอร์ (~10.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.022/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 187 ออเดอร์
@@ -2176,7 +2176,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.094763/0.065778 (สุ�
 🟩 เทรดปกติ: 24ชม.=3 ออเดอร์ (~10.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.022/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 187 ออเดอร์
@@ -2232,7 +2232,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.094763/0.065778 (สุ�
 🟩 เทรดปกติ: 24ชม.=3 ออเดอร์ (~10.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.022/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 187 ออเดอร์
@@ -2288,7 +2288,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.094763/0.065778 (สุ�
 🟩 เทรดปกติ: 24ชม.=3 ออเดอร์ (~10.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.022/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 187 ออเดอร์
@@ -2344,7 +2344,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.094763/0.065778 (สุ�
 🟩 เทรดปกติ: 24ชม.=3 ออเดอร์ (~10.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.022/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 187 ออเดอร์
@@ -2400,7 +2400,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.094763/0.065778 (สุ�
 🟩 เทรดปกติ: 24ชม.=3 ออเดอร์ (~10.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.022/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 187 ออเดอร์
@@ -2456,7 +2456,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.094763/0.065778 (สุ�
 🟩 เทรดปกติ: 24ชม.=3 ออเดอร์ (~10.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.022/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 187 ออเดอร์
@@ -2512,7 +2512,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.094763/0.065778 (สุ�
 🟩 เทรดปกติ: 24ชม.=3 ออเดอร์ (~10.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.022/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 187 ออเดอร์
@@ -2584,7 +2584,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.183696/0.266471 (สุ�
 🟩 เทรดปกติ: 24ชม.=4 ออเดอร์ (~11.0/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.056/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 190 ออเดอร์
@@ -2649,7 +2649,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.173075/0.276127 (สุ�
 🟩 เทรดปกติ: 24ชม.=5 ออเดอร์ (~11.3/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.056/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 190 ออเดอร์
@@ -2710,7 +2710,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.139306/0.243764 (สุ�
 🟩 เทรดปกติ: 24ชม.=6 ออเดอร์ (~11.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.056/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 190 ออเดอร์
@@ -2766,7 +2766,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.142817/0.253957 (สุ�
 🟩 เทรดปกติ: 24ชม.=6 ออเดอร์ (~11.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.056/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 190 ออเดอร์
@@ -2827,7 +2827,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.144048/0.250226 (สุ�
 🟩 เทรดปกติ: 24ชม.=6 ออเดอร์ (~11.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.056/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 190 ออเดอร์
@@ -2883,7 +2883,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.136181/0.252084 (สุ�
 🟩 เทรดปกติ: 24ชม.=8 ออเดอร์ (~12.3/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.056/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 190 ออเดอร์
@@ -2944,7 +2944,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.14778/0.241545 (สุ�
 🟩 เทรดปกติ: 24ชม.=8 ออเดอร์ (~12.3/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.056/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 190 ออเดอร์
@@ -3000,7 +3000,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.147632/0.248066 (สุ�
 🟩 เทรดปกติ: 24ชม.=8 ออเดอร์ (~12.3/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.056/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 190 ออเดอร์
@@ -3061,7 +3061,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.130872/0.206153 (สุ�
 🟩 เทรดปกติ: 24ชม.=8 ออเดอร์ (~12.3/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.056/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 190 ออเดอร์
@@ -3124,7 +3124,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.228837/0.280075 (สุ�
 🟩 เทรดปกติ: 24ชม.=10 ออเดอร์ (~13.0/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.056/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 190 ออเดอร์
@@ -3187,7 +3187,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.135489/0.199455 (สุ�
 🟩 เทรดปกติ: 24ชม.=10 ออเดอร์ (~13.0/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.056/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 190 ออเดอร์
@@ -3248,7 +3248,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.230408/0.288073 (สุ�
 🟩 เทรดปกติ: 24ชม.=11 ออเดอร์ (~13.3/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.056/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 190 ออเดอร์
@@ -3313,7 +3313,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.247522/0.302024 (สุ�
 🟩 เทรดปกติ: 24ชม.=13 ออเดอร์ (~14.0/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.056/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 190 ออเดอร์
@@ -3372,7 +3372,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.132449/0.214509 (สุ�
 🟩 เทรดปกติ: 24ชม.=14 ออเดอร์ (~14.3/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.056/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 190 ออเดอร์
@@ -3443,7 +3443,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.25464/0.26069 (สุท
 🟩 เทรดปกติ: 24ชม.=14 ออเดอร์ (~14.3/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.055/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 192 ออเดอร์
@@ -3513,7 +3513,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.156816/0.250814 (สุ�
 🟩 เทรดปกติ: 24ชม.=15 ออเดอร์ (~14.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.055/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 192 ออเดอร์
@@ -3583,7 +3583,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.19751/0.284085 (สุ�
 🟩 เทรดปกติ: 24ชม.=15 ออเดอร์ (~14.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.065/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 193 ออเดอร์
@@ -3659,7 +3659,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.146867/0.247655 (สุ�
 🟩 เทรดปกติ: 24ชม.=15 ออเดอร์ (~14.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.065/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 194 ออเดอร์
@@ -3731,7 +3731,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.198829/0.285671 (สุ�
 🟩 เทรดปกติ: 24ชม.=16 ออเดอร์ (~15.0/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.065/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 194 ออเดอร์
@@ -3803,7 +3803,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.136427/0.192907 (สุ�
 🟩 เทรดปกติ: 24ชม.=16 ออเดอร์ (~15.0/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.065/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 194 ออเดอร์
@@ -3873,7 +3873,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.131233/0.19883 (สุ�
 🟩 เทรดปกติ: 24ชม.=16 ออเดอร์ (~15.0/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.065/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 194 ออเดอร์
@@ -3963,7 +3963,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.167416/0.293342 (สุ�
 🟩 เทรดปกติ: 24ชม.=17 ออเดอร์ (~15.3/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.065/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 194 ออเดอร์
@@ -4052,7 +4052,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.155953/0.240802 (สุ�
 🟩 เทรดปกติ: 24ชม.=18 ออเดอร์ (~15.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.072/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 195 ออเดอร์
@@ -4135,7 +4135,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.138472/0.191469 (สุ�
 🟩 เทรดปกติ: 24ชม.=18 ออเดอร์ (~15.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.067/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 196 ออเดอร์
@@ -4231,7 +4231,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.153943/0.236459 (สุ�
 🟩 เทรดปกติ: 24ชม.=21 ออเดอร์ (~16.3/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.089/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 197 ออเดอร์
@@ -4321,7 +4321,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.155746/0.233712 (สุ�
 🟩 เทรดปกติ: 24ชม.=21 ออเดอร์ (~15.3/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.089/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 197 ออเดอร์
@@ -4417,7 +4417,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.084371/0.074951 (สุ�
 🟩 เทรดปกติ: 24ชม.=21 ออเดอร์ (~15.3/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.066/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 198 ออเดอร์
@@ -4515,7 +4515,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.150153/0.168112 (สุ�
 🟩 เทรดปกติ: 24ชม.=22 ออเดอร์ (~15.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.048/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 199 ออเดอร์
@@ -4609,7 +4609,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.147607/0.169137 (สุ�
 🟩 เทรดปกติ: 24ชม.=22 ออเดอร์ (~15.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.022/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 201 ออเดอร์
@@ -4693,7 +4693,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.118501/0.067876 (สุ�
 🟩 เทรดปกติ: 24ชม.=22 ออเดอร์ (~14.3/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.051/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 202 ออเดอร์
@@ -4782,7 +4782,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.16523/0.138071 (สุ�
 🟩 เทรดปกติ: 24ชม.=22 ออเดอร์ (~14.0/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.051/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 202 ออเดอร์
@@ -4866,7 +4866,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.114352/0.058221 (สุ�
 🟩 เทรดปกติ: 24ชม.=22 ออเดอร์ (~14.0/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.051/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 202 ออเดอร์
@@ -4956,7 +4956,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.169287/0.088143 (สุ�
 🟩 เทรดปกติ: 24ชม.=22 ออเดอร์ (~14.0/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.051/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 202 ออเดอร์
@@ -5052,7 +5052,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.179143/0.095146 (สุ�
 🟩 เทรดปกติ: 24ชม.=22 ออเดอร์ (~14.0/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.074/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 203 ออเดอร์
@@ -5135,7 +5135,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.176027/0.096917 (สุ�
 🟩 เทรดปกติ: 24ชม.=22 ออเดอร์ (~13.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.074/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 203 ออเดอร์
@@ -5230,7 +5230,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.17803/0.238226 (สุ�
 🟩 เทรดปกติ: 24ชม.=20 ออเดอร์ (~7.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.078/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 209 ออเดอร์
@@ -5322,7 +5322,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.22637/0.252218 (สุ�
 🟩 เทรดปกติ: 24ชม.=20 ออเดอร์ (~7.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.078/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 209 ออเดอร์
@@ -5406,7 +5406,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.140698/0.229175 (สุ�
 🟩 เทรดปกติ: 24ชม.=20 ออเดอร์ (~7.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.078/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 209 ออเดอร์
@@ -5495,7 +5495,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.122577/0.228642 (สุ�
 🟩 เทรดปกติ: 24ชม.=20 ออเดอร์ (~7.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.078/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 209 ออเดอร์
@@ -5584,7 +5584,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.158708/0.27252 (สุ�
 🟩 เทรดปกติ: 24ชม.=21 ออเดอร์ (~8.0/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.078/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 209 ออเดอร์
@@ -5675,7 +5675,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.198217/0.282069 (สุ�
 🟩 เทรดปกติ: 24ชม.=22 ออเดอร์ (~8.3/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.078/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 209 ออเดอร์
@@ -5767,7 +5767,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.252048/0.270481 (สุ�
 🟩 เทรดปกติ: 24ชม.=23 ออเดอร์ (~8.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.078/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 209 ออเดอร์
@@ -5855,7 +5855,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.255276/0.291918 (สุ�
 🟩 เทรดปกติ: 24ชม.=23 ออเดอร์ (~8.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.078/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 209 ออเดอร์
@@ -5944,7 +5944,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.278584/0.267367 (สุ�
 🟩 เทรดปกติ: 24ชม.=23 ออเดอร์ (~8.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.078/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 209 ออเดอร์
@@ -6030,7 +6030,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.213084/0.294246 (สุ�
 🟩 เทรดปกติ: 24ชม.=23 ออเดอร์ (~8.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.078/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 209 ออเดอร์
@@ -6114,7 +6114,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.199828/0.295581 (สุ�
 🟩 เทรดปกติ: 24ชม.=23 ออเดอร์ (~8.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.078/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 209 ออเดอร์
@@ -6199,7 +6199,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.208027/0.290637 (สุ�
 🟩 เทรดปกติ: 24ชม.=23 ออเดอร์ (~8.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.078/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 209 ออเดอร์
@@ -6287,7 +6287,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.234814/0.287772 (สุ�
 🟩 เทรดปกติ: 24ชม.=23 ออเดอร์ (~8.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.078/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 209 ออเดอร์
@@ -6369,7 +6369,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.247233/0.299238 (สุ�
 🟩 เทรดปกติ: 24ชม.=23 ออเดอร์ (~8.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.078/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 209 ออเดอร์
@@ -6459,7 +6459,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.218907/0.30227 (สุ�
 🟩 เทรดปกติ: 24ชม.=24 ออเดอร์ (~9.0/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.078/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 209 ออเดอร์
@@ -6556,7 +6556,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.216419/0.305007 (สุ�
 🟩 เทรดปกติ: 24ชม.=26 ออเดอร์ (~9.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.077/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 210 ออเดอร์
@@ -6638,7 +6638,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.164714/0.26535 (สุ�
 🟩 เทรดปกติ: 24ชม.=26 ออเดอร์ (~9.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.077/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 210 ออเดอร์
@@ -6722,7 +6722,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.152465/0.277218 (สุ�
 🟩 เทรดปกติ: 24ชม.=27 ออเดอร์ (~10.0/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.077/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 210 ออเดอร์
@@ -6813,7 +6813,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.169852/0.326739 (สุ�
 🟩 เทรดปกติ: 24ชม.=26 ออเดอร์ (~10.0/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.077/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 210 ออเดอร์
@@ -6903,7 +6903,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.159151/0.264074 (สุ�
 🟩 เทรดปกติ: 24ชม.=26 ออเดอร์ (~10.3/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.077/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 210 ออเดอร์
@@ -6991,7 +6991,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.134536/0.21366 (สุ�
 🟩 เทรดปกติ: 24ชม.=25 ออเดอร์ (~10.3/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.077/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 211 ออเดอร์
@@ -7081,7 +7081,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.137732/0.199675 (สุ�
 🟩 เทรดปกติ: 24ชม.=25 ออเดอร์ (~10.3/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.084/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 212 ออเดอร์
@@ -7175,7 +7175,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.137382/0.193223 (สุ�
 🟩 เทรดปกติ: 24ชม.=26 ออเดอร์ (~10.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.064/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 213 ออเดอร์
@@ -7265,7 +7265,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.113195/0.162771 (สุ�
 🟩 เทรดปกติ: 24ชม.=25 ออเดอร์ (~11.0/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.064/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 213 ออเดอร์
@@ -7347,7 +7347,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.127282/0.148864 (สุ�
 🟩 เทรดปกติ: 24ชม.=25 ออเดอร์ (~11.0/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.064/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 213 ออเดอร์
@@ -7430,7 +7430,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.114095/0.13346 (สุ�
 🟩 เทรดปกติ: 24ชม.=26 ออเดอร์ (~11.3/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.064/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 213 ออเดอร์
@@ -7513,7 +7513,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.114095/0.13346 (สุ�
 🟩 เทรดปกติ: 24ชม.=26 ออเดอร์ (~11.3/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.064/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 213 ออเดอร์
@@ -7596,7 +7596,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.114095/0.13346 (สุ�
 🟩 เทรดปกติ: 24ชม.=26 ออเดอร์ (~11.3/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.064/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 213 ออเดอร์
@@ -7679,7 +7679,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.140658/0.13909 (สุ�
 🟩 เทรดปกติ: 24ชม.=26 ออเดอร์ (~11.3/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.064/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 213 ออเดอร์
@@ -7762,7 +7762,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.140658/0.13909 (สุ�
 🟩 เทรดปกติ: 24ชม.=24 ออเดอร์ (~11.3/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.064/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 213 ออเดอร์
@@ -7845,7 +7845,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.140658/0.13909 (สุ�
 🟩 เทรดปกติ: 24ชม.=24 ออเดอร์ (~11.3/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.064/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 213 ออเดอร์
@@ -7928,7 +7928,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.140658/0.13909 (สุ�
 🟩 เทรดปกติ: 24ชม.=23 ออเดอร์ (~11.3/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.064/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 213 ออเดอร์
@@ -8029,7 +8029,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.091143/0.127865 (สุ�
 🟩 เทรดปกติ: 24ชม.=25 ออเดอร์ (~12.0/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.052/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 216 ออเดอร์
@@ -8051,7 +8051,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.091143/0.127865 (สุ�
 
 ### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ) ⚠️ error
 Traceback (most recent call last):
-  File "C:\Users\Administrator\AppData\Local\hermes\scripts\side_net_ledger.py", line 114, in <module>
+  File "<USER_HOME>\AppData\Local\hermes\scripts\side_net_ledger.py", line 114, in <module>
     os.replace(tmp, LEDGER)
 FileNotFoundError: [WinError 2] The system cannot find the file specified: 'D:\\AI WorkSpace\\Codex WorkSpace\\เทรดทองคำ\\work\\side_n
 … (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
@@ -8122,7 +8122,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.115787/0.104271 (สุ�
 🟩 เทรดปกติ: 24ชม.=28 ออเดอร์ (~13.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.052/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 216 ออเดอร์
@@ -8210,7 +8210,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.110392/0.047849 (สุ�
 🟩 เทรดปกติ: 24ชม.=31 ออเดอร์ (~15.0/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.052/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 216 ออเดอร์
@@ -8304,7 +8304,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.090582/0.073224 (สุ�
 🟩 เทรดปกติ: 24ชม.=34 ออเดอร์ (~16.0/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.036/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 217 ออเดอร์
@@ -8394,7 +8394,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.114399/0.091594 (สุ�
 🟩 เทรดปกติ: 24ชม.=34 ออเดอร์ (~16.3/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.019/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 218 ออเดอร์
@@ -8479,7 +8479,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.094734/0.084853 (สุ�
 🟩 เทรดปกติ: 24ชม.=38 ออเดอร์ (~17.7/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.019/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 218 ออเดอร์
@@ -8562,7 +8562,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.098225/0.092342 (สุ�
 🟩 เทรดปกติ: 24ชม.=41 ออเดอร์ (~18.7/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.019/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 218 ออเดอร์
@@ -8659,7 +8659,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.110436/0.118262 (สุ�
 🟩 เทรดปกติ: 24ชม.=47 ออเดอร์ (~20.7/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.004/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 219 ออเดอร์
@@ -8743,7 +8743,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.126119/0.113642 (สุ�
 🟩 เทรดปกติ: 24ชม.=50 ออเดอร์ (~22.0/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.004/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 219 ออเดอร์
@@ -8825,7 +8825,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.131426/0.105151 (สุ�
 🟩 เทรดปกติ: 24ชม.=50 ออเดอร์ (~22.0/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.010/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 220 ออเดอร์
@@ -8915,7 +8915,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.123038/0.088571 (สุ�
 🟩 เทรดปกติ: 24ชม.=52 ออเดอร์ (~23.0/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.010/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 220 ออเดอร์
@@ -8998,7 +8998,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.125816/0.07613 (สุ�
 🟩 เทรดปกติ: 24ชม.=52 ออเดอร์ (~23.0/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.010/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 220 ออเดอร์
@@ -9086,7 +9086,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.036677/0.133 (สุท�
 🟩 เทรดปกติ: 24ชม.=51 ออเดอร์ (~23.0/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.010/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 220 ออเดอร์
@@ -9175,7 +9175,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.103856/0.100363 (สุ�
 🟩 เทรดปกติ: 24ชม.=53 ออเดอร์ (~23.7/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.002/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 221 ออเดอร์
@@ -9262,7 +9262,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.09916/0.112343 (สุ�
 🟩 เทรดปกติ: 24ชม.=51 ออเดอร์ (~23.7/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.002/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 221 ออเดอร์
@@ -9344,7 +9344,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.101459/0.110933 (สุ�
 🟩 เทรดปกติ: 24ชม.=50 ออเดอร์ (~23.7/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.002/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 221 ออเดอร์
@@ -9431,7 +9431,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.109003/0.106754 (สุ�
 🟩 เทรดปกติ: 24ชม.=50 ออเดอร์ (~23.7/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.002/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 221 ออเดอร์
@@ -9530,7 +9530,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.139806/0.152268 (สุ�
 🟩 เทรดปกติ: 24ชม.=50 ออเดอร์ (~23.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.023/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 226 ออเดอร์
@@ -9622,7 +9622,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.111949/0.123117 (สุ�
 🟩 เทรดปกติ: 24ชม.=52 ออเดอร์ (~24.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.020/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 231 ออเดอร์
@@ -9711,7 +9711,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.09479/0.179775 (สุ�
 🟩 เทรดปกติ: 24ชม.=53 ออเดอร์ (~25.0/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.017/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 234 ออเดอร์
@@ -9804,7 +9804,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.128223/0.135758 (สุ�
 🟩 เทรดปกติ: 24ชม.=54 ออเดอร์ (~25.3/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.008/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 235 ออเดอร์
@@ -9893,7 +9893,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.125612/0.166962 (สุ�
 🟩 เทรดปกติ: 24ชม.=54 ออเดอร์ (~25.3/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.009/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 237 ออเดอร์
@@ -9990,7 +9990,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.118142/0.109147 (สุ�
 🟩 เทรดปกติ: 24ชม.=54 ออเดอร์ (~25.3/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.002/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 241 ออเดอร์
@@ -10086,7 +10086,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.11072/0.183668 (สุ�
 🟩 เทรดปกติ: 24ชม.=54 ออเดอร์ (~25.3/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.015/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 247 ออเดอร์
@@ -10177,7 +10177,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.151397/0.119368 (สุ�
 🟩 เทรดปกติ: 24ชม.=55 ออเดอร์ (~25.7/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.018/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 250 ออเดอร์
@@ -10281,7 +10281,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.128167/0.128235 (สุ�
 🟩 เทรดปกติ: 24ชม.=56 ออเดอร์ (~26.0/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.022/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 252 ออเดอร์
@@ -10373,7 +10373,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.153361/0.122729 (สุ�
 🟩 เทรดปกติ: 24ชม.=57 ออเดอร์ (~26.3/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.029/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 255 ออเดอร์
@@ -10466,7 +10466,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.14638/0.131476 (สุ�
 🟩 เทรดปกติ: 24ชม.=58 ออเดอร์ (~26.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.032/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 256 ออเดอร์
@@ -10557,7 +10557,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.161635/0.145488 (สุ�
 🟩 เทรดปกติ: 24ชม.=59 ออเดอร์ (~27.0/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.032/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 256 ออเดอร์
@@ -10646,7 +10646,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.148144/0.169616 (สุ�
 🟩 เทรดปกติ: 24ชม.=59 ออเดอร์ (~27.0/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.032/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 257 ออเดอร์
@@ -10735,7 +10735,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.1558/0.170774 (สุท
 🟩 เทรดปกติ: 24ชม.=59 ออเดอร์ (~27.0/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.034/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 258 ออเดอร์
@@ -10830,7 +10830,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.129923/0.124823 (สุ�
 🟩 เทรดปกติ: 24ชม.=63 ออเดอร์ (~28.3/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.034/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 258 ออเดอร์
@@ -10917,7 +10917,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.195058/0.096916 (สุ�
 🟩 เทรดปกติ: 24ชม.=63 ออเดอร์ (~28.3/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.034/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 258 ออเดอร์
@@ -11005,7 +11005,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.202046/0.096445 (สุ�
 🟩 เทรดปกติ: 24ชม.=63 ออเดอร์ (~28.3/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.034/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 258 ออเดอร์
@@ -11089,7 +11089,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.191345/0.091994 (สุ�
 🟩 เทรดปกติ: 24ชม.=64 ออเดอร์ (~28.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.034/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 258 ออเดอร์
@@ -11186,7 +11186,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.186459/0.090176 (สุ�
 🟩 เทรดปกติ: 24ชม.=64 ออเดอร์ (~28.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.023/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 261 ออเดอร์
@@ -11280,7 +11280,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.121877/0.069786 (สุ�
 🟩 เทรดปกติ: 24ชม.=64 ออเดอร์ (~28.7/วัน) → band สมดุล
 🟩 net เฉลี่ย +$0.025/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 262 ออเดอร์
@@ -11375,7 +11375,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.100359/0.067936 (สุ�
 🟩 เทรดปกติ: 24ชม.=67 ออเดอร์ (~29.7/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.017/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 263 ออเดอร์
@@ -11464,7 +11464,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.125794/0.07664 (สุ�
 🟩 เทรดปกติ: 24ชม.=68 ออเดอร์ (~30.0/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.017/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 263 ออเดอร์
@@ -11548,7 +11548,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.093519/0.064179 (สุ�
 🟩 เทรดปกติ: 24ชม.=69 ออเดอร์ (~30.3/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.017/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 263 ออเดอร์
@@ -11630,7 +11630,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.100194/0.059714 (สุ�
 🟩 เทรดปกติ: 24ชม.=71 ออเดอร์ (~31.0/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.017/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 263 ออเดอร์
@@ -11718,7 +11718,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.096562/0.063992 (สุ�
 🟩 เทรดปกติ: 24ชม.=72 ออเดอร์ (~31.3/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.010/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 264 ออเดอร์
@@ -11805,7 +11805,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.168848/0.0709 (สุท
 🟩 เทรดปกติ: 24ชม.=73 ออเดอร์ (~31.7/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.010/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 264 ออเดอร์
@@ -11887,7 +11887,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.190169/0.065599 (สุ�
 🟩 เทรดปกติ: 24ชม.=73 ออเดอร์ (~31.7/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.009/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 265 ออเดอร์
@@ -11975,7 +11975,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.037321/0.096467 (สุ�
 🟩 เทรดปกติ: 24ชม.=74 ออเดอร์ (~32.0/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.011/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 266 ออเดอร์
@@ -12068,7 +12068,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.182186/0.064622 (สุ�
 🟩 เทรดปกติ: 24ชม.=74 ออเดอร์ (~32.0/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.013/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 267 ออเดอร์
@@ -12155,7 +12155,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.112652/0.091756 (สุ�
 🟩 เทรดปกติ: 24ชม.=74 ออเดอร์ (~32.0/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.013/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 267 ออเดอร์
@@ -12242,7 +12242,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.112652/0.091756 (สุ�
 🟩 เทรดปกติ: 24ชม.=74 ออเดอร์ (~32.0/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.013/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 267 ออเดอร์
@@ -12329,7 +12329,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.112652/0.091756 (สุ�
 🟩 เทรดปกติ: 24ชม.=74 ออเดอร์ (~32.0/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.013/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 267 ออเดอร์
@@ -12416,7 +12416,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.112652/0.091756 (สุ�
 🟩 เทรดปกติ: 24ชม.=74 ออเดอร์ (~32.0/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.013/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 267 ออเดอร์
@@ -12503,7 +12503,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.112652/0.091756 (สุ�
 🟩 เทรดปกติ: 24ชม.=74 ออเดอร์ (~32.0/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.013/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 267 ออเดอร์
@@ -12590,7 +12590,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.112652/0.091756 (สุ�
 🟩 เทรดปกติ: 24ชม.=74 ออเดอร์ (~32.0/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.013/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 267 ออเดอร์
@@ -12687,7 +12687,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.105594/0.100246 (สุ�
 🟩 เทรดปกติ: 24ชม.=74 ออเดอร์ (~32.0/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.012/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 273 ออเดอร์
@@ -12781,7 +12781,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.192153/0.079106 (สุ�
 🟩 เทรดปกติ: 24ชม.=74 ออเดอร์ (~32.0/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.008/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 275 ออเดอร์
@@ -12879,7 +12879,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.094168/0.214318 (สุ�
 🟩 เทรดปกติ: 24ชม.=76 ออเดอร์ (~32.7/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.010/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 276 ออเดอร์
@@ -12974,7 +12974,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.111242/0.191457 (สุ�
 🟩 เทรดปกติ: 24ชม.=76 ออเดอร์ (~32.7/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.010/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 276 ออเดอร์
@@ -13068,7 +13068,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.151502/0.113225 (สุ�
 🟩 เทรดปกติ: 24ชม.=77 ออเดอร์ (~33.0/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.006/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 278 ออเดอร์
@@ -13169,7 +13169,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.072394/0.135349 (สุ�
 🟩 เทรดปกติ: 24ชม.=77 ออเดอร์ (~33.0/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.008/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 280 ออเดอร์
@@ -13257,7 +13257,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.13848/0.119011 (สุ�
 🟩 เทรดปกติ: 24ชม.=77 ออเดอร์ (~33.0/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.008/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 280 ออเดอร์
@@ -13347,7 +13347,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.13064/0.117612 (สุ�
 🟩 เทรดปกติ: 24ชม.=77 ออเดอร์ (~33.0/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.008/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 281 ออเดอร์
@@ -13444,7 +13444,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.09932/0.133339 (สุ�
 🟩 เทรดปกติ: 24ชม.=81 ออเดอร์ (~34.3/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.011/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 282 ออเดอร์
@@ -13535,7 +13535,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.107427/0.122363 (สุ�
 🟩 เทรดปกติ: 24ชม.=83 ออเดอร์ (~35.0/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.011/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 282 ออเดอร์
@@ -13622,7 +13622,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.105125/0.126125 (สุ�
 🟩 เทรดปกติ: 24ชม.=85 ออเดอร์ (~35.7/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.011/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 282 ออเดอร์
@@ -13715,7 +13715,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.163515/0.128681 (สุ�
 🟩 เทรดปกติ: 24ชม.=89 ออเดอร์ (~37.0/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.011/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 282 ออเดอร์
@@ -13805,7 +13805,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.102528/0.216185 (สุ�
 🟩 เทรดปกติ: 24ชม.=90 ออเดอร์ (~37.3/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.011/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 282 ออเดอร์
@@ -13893,7 +13893,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.106096/0.149286 (สุ�
 🟩 เทรดปกติ: 24ชม.=91 ออเดอร์ (~37.7/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.011/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 282 ออเดอร์
@@ -13986,7 +13986,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.176365/0.239754 (สุ�
 🟩 เทรดปกติ: 24ชม.=91 ออเดอร์ (~37.7/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.011/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 282 ออเดอร์
@@ -14076,7 +14076,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.20619/0.235261 (สุ�
 🟩 เทรดปกติ: 24ชม.=92 ออเดอร์ (~38.0/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.011/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 282 ออเดอร์
@@ -14167,7 +14167,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.187918/0.259313 (สุ�
 🟩 เทรดปกติ: 24ชม.=93 ออเดอร์ (~38.3/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.011/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 282 ออเดอร์
@@ -14255,7 +14255,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.070791/0.161961 (สุ�
 🟩 เทรดปกติ: 24ชม.=93 ออเดอร์ (~38.3/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.011/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 282 ออเดอร์
@@ -14350,7 +14350,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.065349/0.134515 (สุ�
 🟩 เทรดปกติ: 24ชม.=94 ออเดอร์ (~38.7/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.003/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 284 ออเดอร์
@@ -14439,7 +14439,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.075117/0.117074 (สุ�
 🟩 เทรดปกติ: 24ชม.=94 ออเดอร์ (~38.7/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.003/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 284 ออเดอร์
@@ -14532,7 +14532,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.081388/0.117013 (สุ�
 🟩 เทรดปกติ: 24ชม.=95 ออเดอร์ (~39.0/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.007/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 285 ออเดอร์
@@ -14626,7 +14626,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.108145/0.142497 (สุ�
 🟩 เทรดปกติ: 24ชม.=96 ออเดอร์ (~39.3/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.004/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 286 ออเดอร์
@@ -14714,7 +14714,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.093172/0.164041 (สุ�
 🟩 เทรดปกติ: 24ชม.=99 ออเดอร์ (~40.3/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.004/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 286 ออเดอร์
@@ -14801,7 +14801,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.090717/0.201512 (สุ�
 🟩 เทรดปกติ: 24ชม.=100 ออเดอร์ (~40.7/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.004/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 286 ออเดอร์
@@ -14896,7 +14896,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.077081/0.049013 (สุ�
 🟩 เทรดปกติ: 24ชม.=102 ออเดอร์ (~41.3/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.000/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 287 ออเดอร์
@@ -14995,7 +14995,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.147367/0.115914 (สุ�
 🟩 เทรดปกติ: 24ชม.=102 ออเดอร์ (~41.3/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.003/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 291 ออเดอร์
@@ -15095,7 +15095,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.146306/0.123866 (สุ�
 🟩 เทรดปกติ: 24ชม.=102 ออเดอร์ (~41.3/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.003/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 293 ออเดอร์
@@ -15191,7 +15191,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.118367/0.058263 (สุ�
 🟩 เทรดปกติ: 24ชม.=102 ออเดอร์ (~41.3/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.000/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 295 ออเดอร์
@@ -15288,7 +15288,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.1513/0.11919 (สุท�
 🟩 เทรดปกติ: 24ชม.=102 ออเดอร์ (~41.3/วัน) → band สมดุล
 ⬜ net เฉลี่ย +$0.001/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 297 ออเดอร์
@@ -15378,7 +15378,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.161082/0.105968 (สุ�
 🟩 เทรดปกติ: 24ชม.=102 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.002/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 298 ออเดอร์
@@ -15475,7 +15475,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.092952/0.055335 (สุ�
 🟩 เทรดปกติ: 24ชม.=102 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.005/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 299 ออเดอร์
@@ -15575,7 +15575,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.102768/0.059682 (สุ�
 🟩 เทรดปกติ: 24ชม.=102 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.003/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 300 ออเดอร์
@@ -15677,7 +15677,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.193968/0.105466 (สุ�
 🟩 เทรดปกติ: 24ชม.=102 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.001/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 301 ออเดอร์
@@ -15780,7 +15780,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.15797/0.082034 (สุ�
 🟩 เทรดปกติ: 24ชม.=102 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.000/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 302 ออเดอร์
@@ -15869,7 +15869,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.171757/0.090513 (สุ�
 🟩 เทรดปกติ: 24ชม.=102 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.000/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 302 ออเดอร์
@@ -15958,7 +15958,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.204409/0.103419 (สุ�
 🟩 เทรดปกติ: 24ชม.=102 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.000/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 302 ออเดอร์
@@ -16047,7 +16047,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.204409/0.103419 (สุ�
 🟩 เทรดปกติ: 24ชม.=102 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.000/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 302 ออเดอร์
@@ -16136,7 +16136,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.204409/0.103419 (สุ�
 🟩 เทรดปกติ: 24ชม.=102 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.000/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 302 ออเดอร์
@@ -16225,7 +16225,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.204409/0.103419 (สุ�
 🟩 เทรดปกติ: 24ชม.=102 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.000/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 302 ออเดอร์
@@ -16314,7 +16314,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.204409/0.103419 (สุ�
 🟩 เทรดปกติ: 24ชม.=102 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.000/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 302 ออเดอร์
@@ -16403,7 +16403,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.204409/0.103419 (สุ�
 🟩 เทรดปกติ: 24ชม.=102 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.000/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 302 ออเดอร์
@@ -16492,7 +16492,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.204409/0.103419 (สุ�
 🟩 เทรดปกติ: 24ชม.=102 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.000/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 302 ออเดอร์
@@ -16581,7 +16581,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.204409/0.103419 (สุ�
 🟩 เทรดปกติ: 24ชม.=102 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.000/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 302 ออเดอร์
@@ -16687,7 +16687,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.175067/0.104634 (สุ�
 🟩 เทรดปกติ: 24ชม.=102 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -16775,7 +16775,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.175245/0.107582 (สุ�
 🟩 เทรดปกติ: 24ชม.=102 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -16872,7 +16872,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.220265/0.132279 (สุ�
 🟩 เทรดปกติ: 24ชม.=101 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -16963,7 +16963,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.149997/0.089976 (สุ�
 🟩 เทรดปกติ: 24ชม.=101 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -17053,7 +17053,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.222136/0.131138 (สุ�
 🟩 เทรดปกติ: 24ชม.=101 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -17141,7 +17141,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.22655/0.12585 (สุท
 🟩 เทรดปกติ: 24ชม.=101 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -17229,7 +17229,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.205188/0.149855 (สุ�
 🟩 เทรดปกติ: 24ชม.=101 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -17327,7 +17327,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.219817/0.13615 (สุ�
 🟩 เทรดปกติ: 24ชม.=100 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -17428,7 +17428,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.211602/0.140042 (สุ�
 🟩 เทรดปกติ: 24ชม.=99 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -17522,7 +17522,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.200331/0.138685 (สุ�
 🟩 เทรดปกติ: 24ชม.=98 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -17618,7 +17618,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.185896/0.107975 (สุ�
 🟩 เทรดปกติ: 24ชม.=98 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -17706,7 +17706,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.132278/0.088507 (สุ�
 🟩 เทรดปกติ: 24ชม.=98 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -17800,7 +17800,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.116594/0.075766 (สุ�
 🟩 เทรดปกติ: 24ชม.=98 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -17899,7 +17899,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.129812/0.103939 (สุ�
 🟩 เทรดปกติ: 24ชม.=98 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -17989,7 +17989,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.154272/0.093484 (สุ�
 🟩 เทรดปกติ: 24ชม.=98 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -18080,7 +18080,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.150508/0.095232 (สุ�
 🟩 เทรดปกติ: 24ชม.=98 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -18169,7 +18169,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.131776/0.108794 (สุ�
 🟩 เทรดปกติ: 24ชม.=98 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -18264,7 +18264,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.125099/0.127977 (สุ�
 🟩 เทรดปกติ: 24ชม.=97 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -18358,7 +18358,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.144691/0.098566 (สุ�
 🟩 เทรดปกติ: 24ชม.=97 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -18454,7 +18454,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.137724/0.112294 (สุ�
 🟩 เทรดปกติ: 24ชม.=95 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -18548,7 +18548,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.120977/0.225278 (สุ�
 🟩 เทรดปกติ: 24ชม.=94 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -18636,7 +18636,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.160831/0.16319 (สุ�
 🟩 เทรดปกติ: 24ชม.=94 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -18726,7 +18726,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.23883/0.101171 (สุ�
 🟩 เทรดปกติ: 24ชม.=93 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -18820,7 +18820,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.234/0.086478 (สุท�
 🟩 เทรดปกติ: 24ชม.=93 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -18916,7 +18916,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.23658/0.159329 (สุ�
 🟩 เทรดปกติ: 24ชม.=93 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -19009,7 +19009,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.224449/0.17614 (สุ�
 🟩 เทรดปกติ: 24ชม.=93 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -19097,7 +19097,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.224687/0.165169 (สุ�
 🟩 เทรดปกติ: 24ชม.=92 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -19189,7 +19189,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=91 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -19281,7 +19281,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=90 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -19373,7 +19373,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=90 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -19471,7 +19471,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=90 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -19568,7 +19568,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=90 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -19660,7 +19660,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=90 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -19752,7 +19752,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=90 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -19849,7 +19849,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=90 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -19941,7 +19941,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=89 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -20038,7 +20038,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=84 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -20136,7 +20136,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=79 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -20233,7 +20233,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=76 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -20330,7 +20330,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=55 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -20422,7 +20422,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=54 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -20520,7 +20520,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=53 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -20612,7 +20612,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=53 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -20711,7 +20711,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=53 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -20803,7 +20803,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=53 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -20900,7 +20900,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=52 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -20997,7 +20997,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=49 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -21094,7 +21094,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=49 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -21191,7 +21191,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=48 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -21283,7 +21283,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=48 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -21375,7 +21375,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=48 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -21467,7 +21467,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=48 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -21566,7 +21566,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=47 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -21665,7 +21665,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=46 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -21762,7 +21762,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=45 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -21859,7 +21859,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=44 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -21951,7 +21951,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=43 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -21967,7 +21967,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 
 ### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ) ⚠️ error
 Traceback (most recent call last):
-  File "C:\Users\Administrator\AppData\Local\hermes\scripts\side_net_ledger.py", line 114, in <module>
+  File "<USER_HOME>\AppData\Local\hermes\scripts\side_net_ledger.py", line 114, in <module>
     os.replace(tmp, LEDGER)
 PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'D:\\AI WorkSpace\\Code
 … (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
@@ -22036,7 +22036,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=43 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -22133,7 +22133,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=40 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -22230,7 +22230,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=39 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -22327,7 +22327,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=39 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -22426,7 +22426,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=39 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -22523,7 +22523,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=38 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -22615,7 +22615,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=38 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -22714,7 +22714,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=36 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -22812,7 +22812,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=35 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -22904,7 +22904,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=34 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -23003,7 +23003,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=33 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -23095,7 +23095,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=30 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -23193,7 +23193,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=30 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -23290,7 +23290,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=29 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -23387,7 +23387,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=28 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -23479,7 +23479,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=28 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -23576,7 +23576,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=28 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -23668,7 +23668,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=28 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -23768,7 +23768,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=28 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -23865,7 +23865,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=28 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -23957,7 +23957,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=28 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -24049,7 +24049,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=28 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -24146,7 +24146,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=28 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -24238,7 +24238,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=28 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -24330,7 +24330,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=27 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -24422,7 +24422,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=26 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -24514,7 +24514,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=25 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -24606,7 +24606,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=25 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -24698,7 +24698,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=25 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -24790,7 +24790,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=25 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -24882,7 +24882,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=23 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -24974,7 +24974,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=19 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -25066,7 +25066,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=17 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -25158,7 +25158,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=16 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -25250,7 +25250,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=13 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -25342,7 +25342,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=12 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -25434,7 +25434,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=11 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -25526,7 +25526,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=11 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -25618,7 +25618,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=10 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -25710,7 +25710,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=9 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -25802,7 +25802,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=9 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -25894,7 +25894,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=8 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -25986,7 +25986,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=8 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -26078,7 +26078,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=6 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -26170,7 +26170,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 🟩 เทรดปกติ: 24ชม.=5 ออเดอร์ (~41.3/วัน) → band สมดุล
 🟨 net เฉลี่ย $-0.011/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -26261,7 +26261,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.018/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -26352,7 +26352,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.018/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -26443,7 +26443,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.018/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -26534,7 +26534,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.018/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -26625,7 +26625,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.018/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -26716,7 +26716,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.018/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -26817,7 +26817,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.018/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -26913,7 +26913,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.018/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -27004,7 +27004,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.018/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -27095,7 +27095,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.018/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -27191,7 +27191,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.018/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -27282,7 +27282,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.018/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -27373,7 +27373,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.018/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -27464,7 +27464,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.018/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -27555,7 +27555,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.018/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -27651,7 +27651,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.018/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -27747,7 +27747,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.018/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -27843,7 +27843,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.018/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -27934,7 +27934,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.018/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -28030,7 +28030,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.018/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -28126,7 +28126,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.018/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -28224,7 +28224,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.018/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -28315,7 +28315,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.018/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -28406,7 +28406,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.018/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -28497,7 +28497,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.018/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -28588,7 +28588,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.018/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -28679,7 +28679,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.018/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -28775,7 +28775,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.018/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -28871,7 +28871,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.018/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -28962,7 +28962,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.018/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -29053,7 +29053,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.018/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -29150,7 +29150,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.018/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -29241,7 +29241,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.018/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -29332,7 +29332,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.018/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -29423,7 +29423,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.018/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -29514,7 +29514,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.018/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -29605,7 +29605,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.018/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -29696,7 +29696,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.018/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -29787,7 +29787,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.018/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -29878,7 +29878,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.018/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -29969,7 +29969,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.018/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -30060,7 +30060,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.018/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -30151,7 +30151,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.023/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -30242,7 +30242,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.023/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -30333,7 +30333,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.023/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -30424,7 +30424,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.023/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -30515,7 +30515,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.023/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -30606,7 +30606,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.023/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -30697,7 +30697,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.023/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -30788,7 +30788,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.023/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -30888,7 +30888,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.023/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -30979,7 +30979,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.023/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -31075,7 +31075,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.023/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -31174,7 +31174,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.023/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -31265,7 +31265,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.023/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -31362,7 +31362,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.023/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -31453,7 +31453,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.023/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -31544,7 +31544,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.023/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -31635,7 +31635,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.023/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -31726,7 +31726,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.025/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -31817,7 +31817,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.025/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -31908,7 +31908,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.027/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -31999,7 +31999,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.027/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -32090,7 +32090,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.028/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -32181,7 +32181,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.028/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -32279,7 +32279,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.028/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -32376,7 +32376,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.028/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -32467,7 +32467,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.028/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -32558,7 +32558,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.030/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -32655,7 +32655,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.030/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -32746,7 +32746,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.035/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -32837,7 +32837,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.035/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -32928,7 +32928,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.031/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -33019,7 +33019,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.028/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -33110,7 +33110,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.023/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -33201,7 +33201,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.023/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -33292,7 +33292,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.031/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -33383,7 +33383,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.031/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -33474,7 +33474,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.031/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -33565,7 +33565,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.031/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -33656,7 +33656,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.031/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -33754,7 +33754,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -33845,7 +33845,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -33936,7 +33936,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -34027,7 +34027,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -34118,7 +34118,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -34209,7 +34209,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -34300,7 +34300,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -34391,7 +34391,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -34482,7 +34482,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -34573,7 +34573,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -34664,7 +34664,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -34755,7 +34755,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -34846,7 +34846,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -34937,7 +34937,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -35028,7 +35028,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -35119,7 +35119,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -35210,7 +35210,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -35301,7 +35301,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -35392,7 +35392,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -35483,7 +35483,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -35574,7 +35574,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -35665,7 +35665,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -35756,7 +35756,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -35847,7 +35847,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -35938,7 +35938,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -36029,7 +36029,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -36120,7 +36120,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -36211,7 +36211,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -36302,7 +36302,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -36393,7 +36393,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -36484,7 +36484,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -36575,7 +36575,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -36666,7 +36666,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -36757,7 +36757,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -36848,7 +36848,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -36939,7 +36939,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -37030,7 +37030,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -37121,7 +37121,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -37212,7 +37212,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -37303,7 +37303,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -37394,7 +37394,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -37485,7 +37485,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -37576,7 +37576,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -37667,7 +37667,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -37758,7 +37758,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -37849,7 +37849,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -37940,7 +37940,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -38031,7 +38031,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -38122,7 +38122,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -38213,7 +38213,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -38304,7 +38304,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -38395,7 +38395,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -38486,7 +38486,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -38577,7 +38577,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -38668,7 +38668,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -38759,7 +38759,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -38850,7 +38850,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -38941,7 +38941,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -39032,7 +39032,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -39123,7 +39123,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -39214,7 +39214,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -39305,7 +39305,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -39396,7 +39396,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -39497,7 +39497,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -39588,7 +39588,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -39679,7 +39679,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -39770,7 +39770,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -39861,7 +39861,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -39952,7 +39952,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -40043,7 +40043,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.031/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -40134,7 +40134,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.031/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -40225,7 +40225,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.031/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -40316,7 +40316,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.031/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -40407,7 +40407,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.031/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -40498,7 +40498,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.031/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -40589,7 +40589,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.031/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -40680,7 +40680,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.031/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -40771,7 +40771,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.031/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -40862,7 +40862,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.031/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -40953,7 +40953,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.031/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -41044,7 +41044,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.031/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -41135,7 +41135,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.031/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -41226,7 +41226,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.031/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -41317,7 +41317,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.031/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -41408,7 +41408,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.031/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -41499,7 +41499,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.031/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -41590,7 +41590,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.031/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -41681,7 +41681,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.031/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -41772,7 +41772,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.032/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -41863,7 +41863,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.032/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -41954,7 +41954,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.032/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -42045,7 +42045,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.032/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -42136,7 +42136,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.032/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -42235,7 +42235,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.033/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -42334,7 +42334,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.036/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -42430,7 +42430,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.031/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -42521,7 +42521,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.031/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -42612,7 +42612,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.031/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -42703,7 +42703,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.031/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -42794,7 +42794,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.031/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -42893,7 +42893,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.031/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -42984,7 +42984,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.031/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -43075,7 +43075,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.031/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -43166,7 +43166,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.031/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -43257,7 +43257,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.031/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -43348,7 +43348,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.031/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -43439,7 +43439,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.031/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -43530,7 +43530,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.026/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -43621,7 +43621,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.021/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -43712,7 +43712,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.021/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -43803,7 +43803,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.021/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -43894,7 +43894,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.021/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -43985,7 +43985,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.016/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -44076,7 +44076,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.018/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -44167,7 +44167,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.018/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -44258,7 +44258,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.018/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -44349,7 +44349,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.018/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -44440,7 +44440,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.018/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -44531,7 +44531,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.014/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -44622,7 +44622,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.014/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -44713,7 +44713,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.014/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -44804,7 +44804,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.023/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -44895,7 +44895,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.033/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -44986,7 +44986,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.028/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -45077,7 +45077,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.023/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -45168,7 +45168,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.023/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -45259,7 +45259,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.024/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -45350,7 +45350,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.030/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -45441,7 +45441,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.038/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -45532,7 +45532,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.048/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -45630,7 +45630,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.050/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -45721,7 +45721,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.065/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -45812,7 +45812,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.065/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -45903,7 +45903,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.065/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -45994,7 +45994,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.067/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -46085,7 +46085,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.072/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -46176,7 +46176,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.072/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -46267,7 +46267,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.072/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -46358,7 +46358,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.072/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -46449,7 +46449,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.061/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -46540,7 +46540,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.061/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -46631,7 +46631,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.066/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -46722,7 +46722,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.056/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -46813,7 +46813,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.056/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -46904,7 +46904,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.056/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -46995,7 +46995,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.056/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -47086,7 +47086,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.046/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -47177,7 +47177,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.045/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -47268,7 +47268,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.050/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -47359,7 +47359,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.055/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
 🟨 gap ไม่เทรดยาวสุด 53 ชม. — จับจังหวะปรับ/regime เปลี่ยน
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -47449,7 +47449,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 ### AT vs การเทรด (ความถี่)
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.055/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -47539,7 +47539,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 ### AT vs การเทรด (ความถี่)
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.055/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -47629,7 +47629,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 ### AT vs การเทรด (ความถี่)
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.055/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -47719,7 +47719,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 ### AT vs การเทรด (ความถี่)
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.055/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -47809,7 +47809,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 ### AT vs การเทรด (ความถี่)
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.055/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -47899,7 +47899,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 ### AT vs การเทรด (ความถี่)
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.055/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -47989,7 +47989,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 ### AT vs การเทรด (ความถี่)
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.055/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -48079,7 +48079,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 ### AT vs การเทรด (ความถี่)
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.064/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -48169,7 +48169,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 ### AT vs การเทรด (ความถี่)
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.063/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -48259,7 +48259,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 ### AT vs การเทรด (ความถี่)
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.063/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -48349,7 +48349,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 ### AT vs การเทรด (ความถี่)
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.055/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -48439,7 +48439,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 ### AT vs การเทรด (ความถี่)
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.066/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -48529,7 +48529,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 ### AT vs การเทรด (ความถี่)
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.066/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -48619,7 +48619,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 ### AT vs การเทรด (ความถี่)
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.071/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -48709,7 +48709,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 ### AT vs การเทรด (ความถี่)
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.071/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -48799,7 +48799,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 ### AT vs การเทรด (ความถี่)
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.082/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -48889,7 +48889,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 ### AT vs การเทรด (ความถี่)
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.082/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -48979,7 +48979,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 ### AT vs การเทรด (ความถี่)
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.082/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -49069,7 +49069,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 ### AT vs การเทรด (ความถี่)
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.082/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -49159,7 +49159,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 ### AT vs การเทรด (ความถี่)
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.082/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -49249,7 +49249,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 ### AT vs การเทรด (ความถี่)
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.082/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -49339,7 +49339,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 ### AT vs การเทรด (ความถี่)
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.082/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -49429,7 +49429,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 ### AT vs การเทรด (ความถี่)
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.082/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -49519,7 +49519,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 ### AT vs การเทรด (ความถี่)
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.082/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -49609,7 +49609,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 ### AT vs การเทรด (ความถี่)
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.082/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -49699,7 +49699,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 ### AT vs การเทรด (ความถี่)
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.063/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -49789,7 +49789,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 ### AT vs การเทรด (ความถี่)
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.063/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -49879,7 +49879,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 ### AT vs การเทรด (ความถี่)
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.079/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -49969,7 +49969,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 ### AT vs การเทรด (ความถี่)
 📊 [AT-vs-Trade]
 🟨 net เฉลี่ย $-0.070/trade (72ชม.) ติดลบ + เทรดเยอะ → โซนผิด/หลวม ควร tighten
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -50059,7 +50059,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 ### AT vs การเทรด (ความถี่)
 📊 [AT-vs-Trade]
 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -50149,7 +50149,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 ### AT vs การเทรด (ความถี่)
 📊 [AT-vs-Trade]
 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -50240,7 +50240,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
 🟥 HARD LOCKOUT 72ชม. ไม่เทรดเลย → ตรวจ band health / kill switch / market hours
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -50331,7 +50331,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
 🟥 HARD LOCKOUT 72ชม. ไม่เทรดเลย → ตรวจ band health / kill switch / market hours
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -50430,7 +50430,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
 🟥 HARD LOCKOUT 72ชม. ไม่เทรดเลย → ตรวจ band health / kill switch / market hours
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -50521,7 +50521,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
 🟥 HARD LOCKOUT 72ชม. ไม่เทรดเลย → ตรวจ band health / kill switch / market hours
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -50612,7 +50612,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
 🟥 HARD LOCKOUT 72ชม. ไม่เทรดเลย → ตรวจ band health / kill switch / market hours
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -50703,7 +50703,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
 🟥 HARD LOCKOUT 72ชม. ไม่เทรดเลย → ตรวจ band health / kill switch / market hours
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -50794,7 +50794,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
 🟥 HARD LOCKOUT 72ชม. ไม่เทรดเลย → ตรวจ band health / kill switch / market hours
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -50885,7 +50885,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
 🟥 HARD LOCKOUT 72ชม. ไม่เทรดเลย → ตรวจ band health / kill switch / market hours
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -50976,7 +50976,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
 🟥 HARD LOCKOUT 72ชม. ไม่เทรดเลย → ตรวจ band health / kill switch / market hours
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -51067,7 +51067,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
 🟥 HARD LOCKOUT 72ชม. ไม่เทรดเลย → ตรวจ band health / kill switch / market hours
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -51158,7 +51158,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
 🟥 HARD LOCKOUT 72ชม. ไม่เทรดเลย → ตรวจ band health / kill switch / market hours
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -51249,7 +51249,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
 🟥 HARD LOCKOUT 72ชม. ไม่เทรดเลย → ตรวจ band health / kill switch / market hours
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -51340,7 +51340,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
 🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -51431,7 +51431,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
 🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -51522,7 +51522,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
 🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -51613,7 +51613,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
 🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -51704,7 +51704,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
 🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -51795,7 +51795,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
 🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -51886,7 +51886,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
 🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -51956,10 +51956,10 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 
 ### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง) ⚠️ error
 Traceback (most recent call last):
-  File "C:\Users\Administrator\AppData\Local\hermes\scripts\plan_sim.py", line 124, in <module>
+  File "<USER_HOME>\AppData\Local\hermes\scripts\plan_sim.py", line 124, in <module>
     base = sb.run_backtest(cfg, **args)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\outputs\mt5_python_bridge\strategy_back
+  File "<PROJECT_ROOT>\outputs\mt5_python_bridge\strategy_back
 … (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
 
 ### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
@@ -51982,7 +51982,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
 🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -52073,7 +52073,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
 🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -52164,7 +52164,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
 🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -52255,7 +52255,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
 🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -52367,7 +52367,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
 🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -52479,7 +52479,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
 🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -52591,7 +52591,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
 🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -52703,7 +52703,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
 🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -52815,7 +52815,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
 🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -52927,7 +52927,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
 🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -53071,7 +53071,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
 🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -53217,7 +53217,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
 🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -53345,7 +53345,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
 🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -53478,7 +53478,7 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
 🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์
@@ -53606,7 +53606,3903 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุ�
 📊 [AT-vs-Trade]
 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
 🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
-(บันทึก D:\AI WorkSpace\Codex WorkSpace\เทรดทองคำ\research\2026-09-12-auto-threshold-vs-trading.md)
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 311 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 trend: n=68 net=$-2.18 wr=63%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.057/trade (n=2)
+
+## 2026-09-28 04:47 UTC — งานวิจัยรวม (14 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 91163452 → 91163452)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (30479 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 7 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 11:47", "changes": [{"strategy": "trend", "side": "buy", "raw_low_from": 0.422, "raw_low_to": 0.482, "raw_high_from": 0.522, "raw_high_to": 0.582, "net_exp": -0.2167, "net_n": 9}, {"strategy": "trend", "side": "sell", "raw_low_from": 0.43, "raw_low_to": 0.37, "raw_high_from": 0.53, "raw_high_to": 0.47, "net_exp": 0.0107, "net_n": 43}, {"strategy": "range", "side": "buy", "raw_low_from": 0.43, "raw_low_to": 0.37, "raw_high_from": 0.53, "raw_high_to": 0.47, "net_exp": -0.1105, "net_n": 21}, {"strategy": "range", "side": "sell", "raw_low_from": 0.439, "raw_low_to": 0.379, "raw_high_from": 0.539, "raw_high_to": 0.479, "net_exp": -0.0343, "net_n": 75}, {"strategy": "mean_reversion", "side": "buy
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 6 รายการที่ควรปรับ (จาก R-multiple จริง 307 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   trend            n= 63 wr=0.59 win=0.34R loss=0.80R | SL=1.2 TP=1.3R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=110 wr=0.70 win=0.57R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 11:47", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.50R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.4, "reward_risk_from": 1.5}, {"action": "set_tpsl", "strategy": "counter_trend", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.44R < 55% ของเป้า 1.30R)", "evidence": "n=27 wr=0.52 avg_win=0.44R avg_loss=0.90R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 311 ไม้ (2026-08-26T06:09 → 2026-09-16T05:54) | net -2.58 | เฉลี่ย -0.008 | ชนะ 62.7% | PF 0.95 ✗
+   · ยังไม่มีไม้ที่ระบุกลยุทธ์ได้ (311 ไม้ = รุ่นเก่าก่อนแก้ 19 ก.ย.)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (9 รอบ · 17:48→17:56 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 2 รอบ · ไม่ผ่าน = 7 รอบ · ด่าน 1 ชะลอก่อน = 27 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      counter_trend_sell       คะแนนดิบต่ำ 9 · คะแนนถ่วงน้ำหนักต่ำ 9
+      range_buy                คะแนนดิบต่ำ 8 · คะแนนถ่วงน้ำหนักต่ำ 7
+      trend_buy                คะแนนถ่วงน้ำหนักต่ำ 7 · คะแนนดิบต่ำ 6
+      trend_sell               ด่าน 1 ชะลอ(net) 9
+      range_sell               ด่าน 1 ชะลอ(net) 9
+      mean_reversion_buy       คะแนนถ่วงน้ำหนักต่ำ 9
+      mean_reversion_sell      ด่าน 1 ชะลอ(net) 9
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_buy                ดิบ 0.837/0.773 · prob 0.58 · ถ่วงน้ำหนัก 0.712/0.674
+      ✅ range_buy                ดิบ 0.049/0.033 · prob 0.53 · ถ่วงน้ำหนัก 0.057/0.033
+   ตัวที่ใกล้ผ่านที่สุดต่อรอบ (ติดแค่เกณฑ์คะแนนดิบต่ำ):
+      (นับเฉพาะตัวที่ 'ติดแค่คะแนนดิบต่ำ' — ไม่รวมตัวที่เกินเกณฑ์แล้วไปติดด่านอื่น)
+       range_buy                ดิบ 0.049 / เกณฑ์ 0.050 = 98% ของเกณฑ์ ★ เกือบผ่าน
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ซื้อ · น้ำหนัก 56%  (score +0.177)
+[INTERNAL-SIGNAL]
+DIRECTION=BUY
+WEIGHT=56
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุทธิ +0.24) · engine เอน 0B/0S 24ชม. (+0.00) · ดูดวง bullish 0.35 (+0.35) · rolling20 $-1.65 · net72h $+0.000/trade · ลดความแรง 20% (rolling net ยังติดลบ)
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 14 รายการ
+
+## 2026-09-28 11:47 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.65 · คะแนนหนุน 4 / กด 19) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 10 (หนุน 1 / กด 1) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 2 ข่าว · คะแนนรวม 9 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 1, 7, 3, 1] (รวม 35) → ฐาน 9 = 8 · เลข 8 — มั่งคั่ง เฟื่องฟู · เลขคู่เสียง 7
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 8 — มั่งคั่ง เฟื่องฟู — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
+🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 311 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 trend: n=68 net=$-2.18 wr=63%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.057/trade (n=2)
+
+### 🛡️ Profit-Anchor Guard (เฝ้าโซนกำไร)
+📊 [โซน Net Profit] รายงานรายวัน (เวลาไทย 2026-09-28)
+• % วันที่ปิดบวก: 7 วัน = 28.6% | 30 วัน = 44.4% (จาก 9 วันเทรด)
+• ความถี่เทรด: 7 วันล่าสุด = 0 trades (~0.0/วัน) — ⚠️ ความถี่ห้ามถูกปิดกั้น
+• rolling net (K=20): $-1.65 | HWM: $1.85 (ห่าง $3.50)
+• กลไк 4 ชั้น: auto_threshold + adaptive_shadow + REC gate + profit-anchor guard
+
+## 2026-09-28 04:53 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 91163452 → 91163452)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (30479 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 7 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 11:52", "changes": [{"strategy": "trend", "side": "buy", "raw_low_from": 0.422, "raw_low_to": 0.482, "raw_high_from": 0.522, "raw_high_to": 0.582, "net_exp": -0.2167, "net_n": 9}, {"strategy": "trend", "side": "sell", "raw_low_from": 0.43, "raw_low_to": 0.37, "raw_high_from": 0.53, "raw_high_to": 0.47, "net_exp": 0.0107, "net_n": 43}, {"strategy": "range", "side": "buy", "raw_low_from": 0.43, "raw_low_to": 0.37, "raw_high_from": 0.53, "raw_high_to": 0.47, "net_exp": -0.1105, "net_n": 21}, {"strategy": "range", "side": "sell", "raw_low_from": 0.439, "raw_low_to": 0.379, "raw_high_from": 0.539, "raw_high_to": 0.479, "net_exp": -0.0343, "net_n": 75}, {"strategy": "mean_reversion", "side": "buy
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 307 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   trend            n= 63 wr=0.59 win=0.34R loss=0.80R | SL=1.2 TP=1.3R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=110 wr=0.70 win=0.57R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 11:52", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 110, "wr": 0.7, "avg_win_R": 0.57, "avg_loss_R": 0.991,
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 311 ไม้ (2026-08-26T06:09 → 2026-09-16T05:54) | net -2.58 | เฉลี่ย -0.008 | ชนะ 62.7% | PF 0.95 ✗
+   · ยังไม่มีไม้ที่ระบุกลยุทธ์ได้ (311 ไม้ = รุ่นเก่าก่อนแก้ 19 ก.ย.)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (9 รอบ · 17:48→17:56 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 2 รอบ · ไม่ผ่าน = 7 รอบ · ด่าน 1 ชะลอก่อน = 27 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      counter_trend_sell       คะแนนดิบต่ำ 9 · คะแนนถ่วงน้ำหนักต่ำ 9
+      range_buy                คะแนนดิบต่ำ 8 · คะแนนถ่วงน้ำหนักต่ำ 7
+      trend_buy                คะแนนถ่วงน้ำหนักต่ำ 7 · คะแนนดิบต่ำ 6
+      trend_sell               ด่าน 1 ชะลอ(net) 9
+      range_sell               ด่าน 1 ชะลอ(net) 9
+      mean_reversion_buy       คะแนนถ่วงน้ำหนักต่ำ 9
+      mean_reversion_sell      ด่าน 1 ชะลอ(net) 9
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_buy                ดิบ 0.837/0.773 · prob 0.58 · ถ่วงน้ำหนัก 0.712/0.674
+      ✅ range_buy                ดิบ 0.049/0.033 · prob 0.53 · ถ่วงน้ำหนัก 0.057/0.033
+   ตัวที่ใกล้ผ่านที่สุดต่อรอบ (ติดแค่เกณฑ์คะแนนดิบต่ำ):
+      (นับเฉพาะตัวที่ 'ติดแค่คะแนนดิบต่ำ' — ไม่รวมตัวที่เกินเกณฑ์แล้วไปติดด่านอื่น)
+       range_buy                ดิบ 0.049 / เกณฑ์ 0.050 = 98% ของเกณฑ์ ★ เกือบผ่าน
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 [จำลองก่อนเสนอ] จำลอง 7/7 รายการ (แท่งเทียน 800)
+   ของเดิม: total_r 7.9 · DD 4.0 · ไม้ 22 · PF 1.877777777777778
+   ❌ trend_buy set_gate                 total_r 3.3000000000000007 (ไม้ 22)
+   ✅ trend_sell set_gate                total_r 10.763628178687838 (ไม้ 22)
+   ✅ range_buy set_gate                 total_r 8.9 (ไม้ 21)
+   ❌ range_sell set_gate                total_r 2.9000000000000004 (ไม้ 27)
+   ✅ mean_reversion_buy set_gate        total_r 7.9 (ไม้ 22)
+   ✅ mean_reversion_sell set_gate       total_r 9.805195774208261 (ไม้ 23)
+   ❌ counter_trend_sell set_gate        total_r 5.6000000000000005 (ไม้ 22)
+   → ชุดรวม: passed (total_r 9.805195774208261)
+   สรุป: อนุมัติ 4 รายการ · ไม่ผ่าน 3 รายการ
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: กลาง · น้ำหนัก 54%  (score +0.107)
+[INTERNAL-SIGNAL]
+DIRECTION=NEUTRAL
+WEIGHT=54
+ASTRO=sideways:0.605
+NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุทธิ +0.24) · engine เอน 0B/0S 24ชม. (+0.00) · ดูดวง sideways 0.605 (+0.00) · rolling20 $-1.65 · net72h $+0.000/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 11:53 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.65 · คะแนนหนุน 4 / กด 19) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 10 (หนุน 1 / กด 1) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 2 ข่าว · คะแนนรวม 9 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 1, 3, 2, 1] (รวม 30) → ฐาน 9 = 3 · เลข 3 — กำไรเสริม เลื่อนขึ้น · เลขคู่เสียง 2
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 3 — กำไรเสริม เลื่อนขึ้น — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
+🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 311 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 trend: n=68 net=$-2.18 wr=63%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.057/trade (n=2)
+
+## 2026-09-28 04:58 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 91163452 → 91163452)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (30479 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 7 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 11:57", "changes": [{"strategy": "trend", "side": "buy", "raw_low_from": 0.422, "raw_low_to": 0.482, "raw_high_from": 0.522, "raw_high_to": 0.582, "net_exp": -0.2167, "net_n": 9}, {"strategy": "trend", "side": "sell", "raw_low_from": 0.43, "raw_low_to": 0.37, "raw_high_from": 0.53, "raw_high_to": 0.47, "net_exp": 0.0107, "net_n": 43}, {"strategy": "range", "side": "buy", "raw_low_from": 0.43, "raw_low_to": 0.37, "raw_high_from": 0.53, "raw_high_to": 0.47, "net_exp": -0.1105, "net_n": 21}, {"strategy": "range", "side": "sell", "raw_low_from": 0.439, "raw_low_to": 0.379, "raw_high_from": 0.539, "raw_high_to": 0.479, "net_exp": -0.0343, "net_n": 75}, {"strategy": "mean_reversion", "side": "buy
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 307 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   trend            n= 63 wr=0.59 win=0.34R loss=0.80R | SL=1.2 TP=1.3R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=110 wr=0.70 win=0.57R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 11:57", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 110, "wr": 0.7, "avg_win_R": 0.57, "avg_loss_R": 0.991,
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 311 ไม้ (2026-08-26T06:09 → 2026-09-16T05:54) | net -2.58 | เฉลี่ย -0.008 | ชนะ 62.7% | PF 0.95 ✗
+   · ยังไม่มีไม้ที่ระบุกลยุทธ์ได้ (311 ไม้ = รุ่นเก่าก่อนแก้ 19 ก.ย.)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (9 รอบ · 17:48→17:56 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 2 รอบ · ไม่ผ่าน = 7 รอบ · ด่าน 1 ชะลอก่อน = 27 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      counter_trend_sell       คะแนนดิบต่ำ 9 · คะแนนถ่วงน้ำหนักต่ำ 9
+      range_buy                คะแนนดิบต่ำ 8 · คะแนนถ่วงน้ำหนักต่ำ 7
+      trend_buy                คะแนนถ่วงน้ำหนักต่ำ 7 · คะแนนดิบต่ำ 6
+      trend_sell               ด่าน 1 ชะลอ(net) 9
+      range_sell               ด่าน 1 ชะลอ(net) 9
+      mean_reversion_buy       คะแนนถ่วงน้ำหนักต่ำ 9
+      mean_reversion_sell      ด่าน 1 ชะลอ(net) 9
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_buy                ดิบ 0.837/0.773 · prob 0.58 · ถ่วงน้ำหนัก 0.712/0.674
+      ✅ range_buy                ดิบ 0.049/0.033 · prob 0.53 · ถ่วงน้ำหนัก 0.057/0.033
+   ตัวที่ใกล้ผ่านที่สุดต่อรอบ (ติดแค่เกณฑ์คะแนนดิบต่ำ):
+      (นับเฉพาะตัวที่ 'ติดแค่คะแนนดิบต่ำ' — ไม่รวมตัวที่เกินเกณฑ์แล้วไปติดด่านอื่น)
+       range_buy                ดิบ 0.049 / เกณฑ์ 0.050 = 98% ของเกณฑ์ ★ เกือบผ่าน
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 [จำลองก่อนเสนอ] จำลอง 7/7 รายการ (แท่งเทียน 800)
+   ของเดิม: total_r -9.299999999999999 · DD 11.200000000000001 · ไม้ 30 · PF 0.5571428571428572
+   ❌ trend_buy set_gate                 total_r -10.9 (ไม้ 27)
+   ✅ trend_sell set_gate                total_r -6.0 (ไม้ 29)
+   ✅ range_buy set_gate                 total_r -0.39999999999999947 (ไม้ 28)
+   ❌ range_sell set_gate                total_r -11.299999999999999 (ไม้ 32)
+   ✅ mean_reversion_buy set_gate        total_r -7.0 (ไม้ 30)
+   ✅ mean_reversion_sell set_gate       total_r -8.0 (ไม้ 31)
+   ❌ counter_trend_sell set_gate        total_r -9.9 (ไม้ 26)
+   → ชุดรวม: passed (total_r 6.500000000000001)
+   สรุป: อนุมัติ 4 รายการ · ไม่ผ่าน 3 รายการ
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 11:58 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.65 · คะแนนหนุน 4 / กด 19) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 10 (หนุน 1 / กด 1) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 2 ข่าว · คะแนนรวม 9 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↓ ลง (bearish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 1, 8, 8, 1] (รวม 41) → ฐาน 9 = 5 · เลข 5 — เปลี่ยนแปลง ผันผวนลงได้ · เลขคู่เสียง 4
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 5 — เปลี่ยนแปลง ผันผวนลงได้ — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
+🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 311 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 trend: n=68 net=$-2.18 wr=63%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.057/trade (n=2)
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ซื้อ · น้ำหนัก 56%  (score +0.177)
+[INTERNAL-SIGNAL]
+DIRECTION=BUY
+WEIGHT=56
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุทธิ +0.24) · engine เอน 0B/0S 24ชม. (+0.00) · ดูดวง bullish 0.35 (+0.35) · rolling20 $-1.65 · net72h $+0.000/trade · ลดความแรง 20% (rolling net ยังติดลบ)
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 1 รายการ
+
+## 2026-09-28 11:58 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.65 · คะแนนหนุน 4 / กด 19) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 10 (หนุน 1 / กด 1) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 2 ข่าว · คะแนนรวม 9 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: → ออกข้าง (sideways) · strength 0.605
+- เลข 7 ตัว: [8, 9, 6, 1, 8, 7, 1] (รวม 40) → ฐาน 9 = 4 · เลข 4 — เสถียร ทรงตัว · เลขคู่เสียง 3
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 4 — เสถียร ทรงตัว — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
+🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 311 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 trend: n=68 net=$-2.18 wr=63%
+
+### Ranking prob/weight
+⚠️ ranking research error: Expecting value: line 1 column 1 (char 0)
+
+## 2026-09-28 05:10 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 91163452 → 91163452)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (30479 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 7 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 12:09", "changes": [{"strategy": "trend", "side": "buy", "raw_low_from": 0.422, "raw_low_to": 0.482, "raw_high_from": 0.522, "raw_high_to": 0.582, "net_exp": -0.2167, "net_n": 9}, {"strategy": "trend", "side": "sell", "raw_low_from": 0.43, "raw_low_to": 0.37, "raw_high_from": 0.53, "raw_high_to": 0.47, "net_exp": 0.0107, "net_n": 43}, {"strategy": "range", "side": "buy", "raw_low_from": 0.43, "raw_low_to": 0.37, "raw_high_from": 0.53, "raw_high_to": 0.47, "net_exp": -0.1105, "net_n": 21}, {"strategy": "range", "side": "sell", "raw_low_from": 0.439, "raw_low_to": 0.379, "raw_high_from": 0.539, "raw_high_to": 0.479, "net_exp": -0.0343, "net_n": 75}, {"strategy": "mean_reversion", "side": "buy
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 307 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   trend            n= 63 wr=0.59 win=0.34R loss=0.80R | SL=1.2 TP=1.3R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=110 wr=0.70 win=0.57R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 12:10", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 110, "wr": 0.7, "avg_win_R": 0.57, "avg_loss_R": 0.991,
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 311 ไม้ (2026-08-26T06:09 → 2026-09-16T05:54) | net -2.58 | เฉลี่ย -0.008 | ชนะ 62.7% | PF 0.95 ✗
+   · ยังไม่มีไม้ที่ระบุกลยุทธ์ได้ (311 ไม้ = รุ่นเก่าก่อนแก้ 19 ก.ย.)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (9 รอบ · 17:48→17:56 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 2 รอบ · ไม่ผ่าน = 7 รอบ · ด่าน 1 ชะลอก่อน = 27 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      counter_trend_sell       คะแนนดิบต่ำ 9 · คะแนนถ่วงน้ำหนักต่ำ 9
+      range_buy                คะแนนดิบต่ำ 8 · คะแนนถ่วงน้ำหนักต่ำ 7
+      trend_buy                คะแนนถ่วงน้ำหนักต่ำ 7 · คะแนนดิบต่ำ 6
+      trend_sell               ด่าน 1 ชะลอ(net) 9
+      range_sell               ด่าน 1 ชะลอ(net) 9
+      mean_reversion_buy       คะแนนถ่วงน้ำหนักต่ำ 9
+      mean_reversion_sell      ด่าน 1 ชะลอ(net) 9
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_buy                ดิบ 0.837/0.773 · prob 0.58 · ถ่วงน้ำหนัก 0.712/0.674
+      ✅ range_buy                ดิบ 0.049/0.033 · prob 0.53 · ถ่วงน้ำหนัก 0.057/0.033
+   ตัวที่ใกล้ผ่านที่สุดต่อรอบ (ติดแค่เกณฑ์คะแนนดิบต่ำ):
+      (นับเฉพาะตัวที่ 'ติดแค่คะแนนดิบต่ำ' — ไม่รวมตัวที่เกินเกณฑ์แล้วไปติดด่านอื่น)
+       range_buy                ดิบ 0.049 / เกณฑ์ 0.050 = 98% ของเกณฑ์ ★ เกือบผ่าน
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: กลาง · น้ำหนัก 54%  (score +0.107)
+[INTERNAL-SIGNAL]
+DIRECTION=NEUTRAL
+WEIGHT=54
+ASTRO=sideways:0.605
+NOTE=ภายใน: แรงซื้อ/ขาย 0.239767/0.147692 (สุทธิ +0.24) · engine เอน 0B/0S 24ชม. (+0.00) · ดูดวง sideways 0.605 (+0.00) · rolling20 $-1.65 · net72h $+0.000/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 12:10 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.65 · คะแนนหนุน 4 / กด 19) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 10 (หนุน 1 / กด 1) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 2 ข่าว · คะแนนรวม 9 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↓ ลง (bearish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 2, 10, 7, 1] (รวม 43) → ฐาน 9 = 7 · เลข 7 — เสี่ยง ดาวเสาร์กด · เลขคู่เสียง 6
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 7 — เสี่ยง ดาวเสาร์กด — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
+🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 311 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 trend: n=68 net=$-2.18 wr=63%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.057/trade (n=2)
+
+## 2026-09-28 05:18 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 91163452 → 91247524)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (30504 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 12:18", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0107, "n": 43}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 309}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 6 รายการที่ควรปรับ (จาก R-multiple จริง 307 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   trend            n= 63 wr=0.59 win=0.34R loss=0.80R | SL=1.2 TP=1.3R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=110 wr=0.70 win=0.57R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 12:18", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.50R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.4, "reward_risk_from": 1.5}, {"action": "set_tpsl", "strategy": "counter_trend", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.44R < 55% ของเป้า 1.30R)", "evidence": "n=27 wr=0.52 avg_win=0.44R avg_loss=0.90R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 311 ไม้ (2026-08-26T06:09 → 2026-09-16T05:54) | net -2.58 | เฉลี่ย -0.008 | ชนะ 62.7% | PF 0.95 ✗
+   · ยังไม่มีไม้ที่ระบุกลยุทธ์ได้ (311 ไม้ = รุ่นเก่าก่อนแก้ 19 ก.ย.)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (3 รอบ · 12:15→12:17 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 0 รอบ · ไม่ผ่าน = 3 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 3 · คะแนนถ่วงน้ำหนักสูงเกินบน 3
+      range_sell               คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+      mean_reversion_sell      คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+      counter_trend_buy        คะแนนดิบสูงเกินบน(อิ่มตัว) 3 · คะแนนถ่วงน้ำหนักสูงเกินบน 3
+      trend_buy                คะแนนถ่วงน้ำหนักต่ำ 3 · คะแนนดิบต่ำ 1
+      range_buy                คะแนนถ่วงน้ำหนักต่ำ 3 · คะแนนดิบต่ำ 1
+      mean_reversion_buy       คะแนนดิบต่ำ 1
+    ไม่มีตัวผ่านด่าน 2 ในช่วงนี้
+   ตัวที่ใกล้ผ่านที่สุดต่อรอบ (ติดแค่เกณฑ์คะแนนดิบต่ำ):
+      (นับเฉพาะตัวที่ 'ติดแค่คะแนนดิบต่ำ' — ไม่รวมตัวที่เกินเกณฑ์แล้วไปติดด่านอื่น)
+       mean_reversion_buy       ดิบ 0.192 / เกณฑ์ 0.370 = 52% ของเกณฑ์
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 [จำลองก่อนเสนอ] จำลอง 6/6 รายการ (แท่งเทียน 800)
+   ของเดิม: total_r -16.599999999999998 · DD 22.599999999999998 · ไม้ 58 · PF 0.5850000000000001
+   ✅ breakout set_tpsl                  total_r -16.599999999999998 (ไม้ 58)
+   ❌ counter_trend set_tpsl             total_r -16.7 (ไม้ 58)
+   ✅ mean_reversion set_tpsl            total_r -15.6 (ไม้ 61)
+   ✅ range set_tpsl                     total_r -15.1 (ไม้ 60)
+   ❌ trend set_tpsl                     total_r -16.9 (ไม้ 58)
+   ✅ global set_tpsl                    total_r -16.599999999999998 (ไม้ 58)
+   → ชุดรวม: passed (total_r -14.200000000000001)
+   สรุป: อนุมัติ 4 รายการ · ไม่ผ่าน 2 รายการ
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: กลาง · น้ำหนัก 53%  (score -0.064)
+[INTERNAL-SIGNAL]
+DIRECTION=NEUTRAL
+WEIGHT=53
+ASTRO=sideways:0.605
+NOTE=ภายใน: แรงซื้อ/ขาย 0.20247/0.269046 (สุทธิ -0.14) · engine เอน 0B/0S 24ชม. (+0.00) · ดูดวง sideways 0.605 (+0.00) · rolling20 $-1.65 · net72h $+0.000/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 12:18 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.65 · คะแนนหนุน 4 / กด 19) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 10 (หนุน 1 / กด 1) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 2 ข่าว · คะแนนรวม 9 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: → ออกข้าง (sideways) · strength 0.605
+- เลข 7 ตัว: [8, 9, 6, 2, 8, 4, 1] (รวม 38) → ฐาน 9 = 2 · เลข 2 — คู่สมดุล รอจังหวะ · เลขคู่เสียง 1
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 2 — คู่สมดุล รอจังหวะ — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
+🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 311 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 trend: n=68 net=$-2.18 wr=63%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.057/trade (n=2)
+
+## 2026-09-28 05:20 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 91247524 → 91298234)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (30520 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 12:19", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0107, "n": 43}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 309}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 307 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   trend            n= 63 wr=0.59 win=0.34R loss=0.80R | SL=1.2 TP=1.3R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=110 wr=0.70 win=0.57R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 12:20", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 110, "wr": 0.7, "avg_win_R": 0.57, "avg_loss_R": 0.991,
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 311 ไม้ (2026-08-26T06:09 → 2026-09-16T05:54) | net -2.58 | เฉลี่ย -0.008 | ชนะ 62.7% | PF 0.95 ✗
+   · ยังไม่มีไม้ที่ระบุกลยุทธ์ได้ (311 ไม้ = รุ่นเก่าก่อนแก้ 19 ก.ย.)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (5 รอบ · 12:15→12:19 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 0 รอบ · ไม่ผ่าน = 5 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 5 · คะแนนถ่วงน้ำหนักสูงเกินบน 5
+      range_sell               คะแนนดิบต่ำ 5 · คะแนนถ่วงน้ำหนักต่ำ 5
+      mean_reversion_sell      คะแนนดิบต่ำ 5 · คะแนนถ่วงน้ำหนักต่ำ 5
+      counter_trend_buy        คะแนนดิบสูงเกินบน(อิ่มตัว) 5 · คะแนนถ่วงน้ำหนักสูงเกินบน 5
+      trend_buy                คะแนนถ่วงน้ำหนักต่ำ 5 · คะแนนดิบต่ำ 1
+      range_buy                คะแนนถ่วงน้ำหนักต่ำ 5 · คะแนนดิบต่ำ 1
+      mean_reversion_buy       คะแนนดิบต่ำ 1
+    ไม่มีตัวผ่านด่าน 2 ในช่วงนี้
+   ตัวที่ใกล้ผ่านที่สุดต่อรอบ (ติดแค่เกณฑ์คะแนนดิบต่ำ):
+      (นับเฉพาะตัวที่ 'ติดแค่คะแนนดิบต่ำ' — ไม่รวมตัวที่เกินเกณฑ์แล้วไปติดด่านอื่น)
+       mean_reversion_buy       ดิบ 0.192 / เกณฑ์ 0.370 = 52% ของเกณฑ์
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: กลาง · น้ำหนัก 55%  (score -0.134)
+[INTERNAL-SIGNAL]
+DIRECTION=NEUTRAL
+WEIGHT=55
+ASTRO=bearish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.202476/0.269059 (สุทธิ -0.14) · engine เอน 0B/0S 24ชม. (+0.00) · ดูดวง bearish 0.35 (-0.35) · rolling20 $-1.65 · net72h $+0.000/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 12:20 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.65 · คะแนนหนุน 4 / กด 19) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 10 (หนุน 1 / กด 1) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 2 ข่าว · คะแนนรวม 9 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↓ ลง (bearish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 2, 10, 7, 1] (รวม 43) → ฐาน 9 = 7 · เลข 7 — เสี่ยง ดาวเสาร์กด · เลขคู่เสียง 6
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 7 — เสี่ยง ดาวเสาร์กด — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
+🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 311 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 trend: n=68 net=$-2.18 wr=63%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.057/trade (n=2)
+
+## 2026-09-28 05:21 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 91298234 → 91326433)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (30528 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 12:21", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0107, "n": 43}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 309}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 307 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   trend            n= 63 wr=0.59 win=0.34R loss=0.80R | SL=1.2 TP=1.3R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=110 wr=0.70 win=0.57R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 12:21", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 110, "wr": 0.7, "avg_win_R": 0.57, "avg_loss_R": 0.991,
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 311 ไม้ (2026-08-26T06:09 → 2026-09-16T05:54) | net -2.58 | เฉลี่ย -0.008 | ชนะ 62.7% | PF 0.95 ✗
+   · ยังไม่มีไม้ที่ระบุกลยุทธ์ได้ (311 ไม้ = รุ่นเก่าก่อนแก้ 19 ก.ย.)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (6 รอบ · 12:15→12:20 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 0 รอบ · ไม่ผ่าน = 6 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 6 · คะแนนถ่วงน้ำหนักสูงเกินบน 6
+      range_sell               คะแนนดิบต่ำ 6 · คะแนนถ่วงน้ำหนักต่ำ 6
+      mean_reversion_sell      คะแนนดิบต่ำ 6 · คะแนนถ่วงน้ำหนักต่ำ 6
+      counter_trend_buy        คะแนนดิบสูงเกินบน(อิ่มตัว) 6 · คะแนนถ่วงน้ำหนักสูงเกินบน 6
+      trend_buy                คะแนนถ่วงน้ำหนักต่ำ 6 · คะแนนดิบต่ำ 1
+      range_buy                คะแนนถ่วงน้ำหนักต่ำ 5 · คะแนนดิบต่ำ 1
+      mean_reversion_buy       คะแนนดิบต่ำ 1
+    ไม่มีตัวผ่านด่าน 2 ในช่วงนี้
+   ตัวที่ใกล้ผ่านที่สุดต่อรอบ (ติดแค่เกณฑ์คะแนนดิบต่ำ):
+      (นับเฉพาะตัวที่ 'ติดแค่คะแนนดิบต่ำ' — ไม่รวมตัวที่เกินเกณฑ์แล้วไปติดด่านอื่น)
+       mean_reversion_buy       ดิบ 0.192 / เกณฑ์ 0.370 = 52% ของเกณฑ์
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: กลาง · น้ำหนัก 51%  (score +0.026)
+[INTERNAL-SIGNAL]
+DIRECTION=NEUTRAL
+WEIGHT=51
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.207077/0.252041 (สุทธิ -0.10) · engine เอน 0B/0S 24ชม. (+0.00) · ดูดวง bullish 0.35 (+0.35) · rolling20 $-1.65 · net72h $+0.000/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 12:21 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.65 · คะแนนหนุน 4 / กด 19) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 10 (หนุน 1 / กด 1) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 2 ข่าว · คะแนนรวม 9 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: → ออกข้าง (sideways) · strength 0.605
+- เลข 7 ตัว: [8, 9, 6, 2, 1, 9, 1] (รวม 36) → ฐาน 9 = 9 · เลข 9 — ครบรอบ จบ-เริ่มใหม่ · เลขคู่เสียง 8
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 9 — ครบรอบ จบ-เริ่มใหม่ — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
+🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 311 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 trend: n=68 net=$-2.18 wr=63%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.057/trade (n=2)
+
+## 2026-09-28 05:23 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 91351809 → 91379996)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (30544 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 12:23", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0107, "n": 43}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 309}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 307 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   trend            n= 63 wr=0.59 win=0.34R loss=0.80R | SL=1.2 TP=1.3R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=110 wr=0.70 win=0.57R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 12:23", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 110, "wr": 0.7, "avg_win_R": 0.57, "avg_loss_R": 0.991,
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 311 ไม้ (2026-08-26T06:09 → 2026-09-16T05:54) | net -2.58 | เฉลี่ย -0.008 | ชนะ 62.7% | PF 0.95 ✗
+   · ยังไม่มีไม้ที่ระบุกลยุทธ์ได้ (311 ไม้ = รุ่นเก่าก่อนแก้ 19 ก.ย.)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (8 รอบ · 12:15→12:22 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 0 รอบ · ไม่ผ่าน = 8 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 8 · คะแนนถ่วงน้ำหนักสูงเกินบน 8
+      range_sell               คะแนนดิบต่ำ 8 · คะแนนถ่วงน้ำหนักต่ำ 8
+      mean_reversion_sell      คะแนนดิบต่ำ 8 · คะแนนถ่วงน้ำหนักต่ำ 8
+      counter_trend_buy        คะแนนดิบสูงเกินบน(อิ่มตัว) 8 · คะแนนถ่วงน้ำหนักสูงเกินบน 8
+      trend_buy                คะแนนถ่วงน้ำหนักต่ำ 8 · คะแนนดิบต่ำ 1
+      range_buy                คะแนนถ่วงน้ำหนักต่ำ 5 · คะแนนดิบต่ำ 1
+      mean_reversion_buy       คะแนนดิบต่ำ 1
+    ไม่มีตัวผ่านด่าน 2 ในช่วงนี้
+   ตัวที่ใกล้ผ่านที่สุดต่อรอบ (ติดแค่เกณฑ์คะแนนดิบต่ำ):
+      (นับเฉพาะตัวที่ 'ติดแค่คะแนนดิบต่ำ' — ไม่รวมตัวที่เกินเกณฑ์แล้วไปติดด่านอื่น)
+       mean_reversion_buy       ดิบ 0.192 / เกณฑ์ 0.370 = 52% ของเกณฑ์
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: กลาง · น้ำหนัก 52%  (score -0.044)
+[INTERNAL-SIGNAL]
+DIRECTION=NEUTRAL
+WEIGHT=52
+ASTRO=sideways:0.605
+NOTE=ภายใน: แรงซื้อ/ขาย 0.204886/0.24953 (สุทธิ -0.10) · engine เอน 0B/0S 24ชม. (+0.00) · ดูดวง sideways 0.605 (+0.00) · rolling20 $-1.65 · net72h $+0.000/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 12:23 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.65 · คะแนนหนุน 4 / กด 19) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 10 (หนุน 1 / กด 1) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 2 ข่าว · คะแนนรวม 9 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: → ออกข้าง (sideways) · strength 0.605
+- เลข 7 ตัว: [8, 9, 6, 2, 3, 9, 1] (รวม 38) → ฐาน 9 = 2 · เลข 2 — คู่สมดุล รอจังหวะ · เลขคู่เสียง 1
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 2 — คู่สมดุล รอจังหวะ — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
+🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 311 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 trend: n=68 net=$-2.18 wr=63%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.057/trade (n=2)
+
+## 2026-09-28 05:31 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 91379996 → 91462241)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (30576 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 12:30", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0107, "n": 43}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 309}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 307 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   trend            n= 63 wr=0.59 win=0.34R loss=0.80R | SL=1.2 TP=1.3R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=110 wr=0.70 win=0.57R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 12:30", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 110, "wr": 0.7, "avg_win_R": 0.57, "avg_loss_R": 0.991,
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 311 ไม้ (2026-08-26T06:09 → 2026-09-16T05:54) | net -2.58 | เฉลี่ย -0.008 | ชนะ 62.7% | PF 0.95 ✗
+   · ยังไม่มีไม้ที่ระบุกลยุทธ์ได้ (311 ไม้ = รุ่นเก่าก่อนแก้ 19 ก.ย.)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (9 รอบ · 12:18→12:28 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 0 รอบ · ไม่ผ่าน = 9 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 9 · คะแนนถ่วงน้ำหนักสูงเกินบน 9
+      range_sell               คะแนนดิบต่ำ 9 · คะแนนถ่วงน้ำหนักต่ำ 9
+      mean_reversion_sell      คะแนนดิบต่ำ 9 · คะแนนถ่วงน้ำหนักต่ำ 9
+      counter_trend_buy        คะแนนดิบสูงเกินบน(อิ่มตัว) 9 · คะแนนถ่วงน้ำหนักสูงเกินบน 9
+      trend_buy                คะแนนถ่วงน้ำหนักต่ำ 9
+      range_buy                คะแนนถ่วงน้ำหนักต่ำ 4 · คะแนนดิบต่ำ 2
+      breakout_sell            คะแนนดิบสูงเกินบน(อิ่มตัว) 2 · คะแนนถ่วงน้ำหนักสูงเกินบน 2
+      mean_reversion_buy       คะแนนดิบต่ำ 2
+    ไม่มีตัวผ่านด่าน 2 ในช่วงนี้
+   ตัวที่ใกล้ผ่านที่สุดต่อรอบ (ติดแค่เกณฑ์คะแนนดิบต่ำ):
+      (นับเฉพาะตัวที่ 'ติดแค่คะแนนดิบต่ำ' — ไม่รวมตัวที่เกินเกณฑ์แล้วไปติดด่านอื่น)
+       mean_reversion_buy       ดิบ 0.147 / เกณฑ์ 0.180 = 82% ของเกณฑ์
+       mean_reversion_buy       ดิบ 0.147 / เกณฑ์ 0.180 = 82% ของเกณฑ์
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: กลาง · น้ำหนัก 55%  (score -0.117)
+[INTERNAL-SIGNAL]
+DIRECTION=NEUTRAL
+WEIGHT=55
+ASTRO=sideways:0.605
+NOTE=ภายใน: แรงซื้อ/ขาย 0.110302/0.188148 (สุทธิ -0.26) · engine เอน 0B/0S 24ชม. (+0.00) · ดูดวง sideways 0.605 (+0.00) · rolling20 $-1.65 · net72h $+0.000/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 12:30 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.65 · คะแนนหนุน 4 / กด 19) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 10 (หนุน 1 / กด 1) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 2 ข่าว · คะแนนรวม 9 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 2, 10, 6, 1] (รวม 42) → ฐาน 9 = 6 · เลข 6 — เดินขึ้น เกื้อหนุน · เลขคู่เสียง 5
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 6 — เดินขึ้น เกื้อหนุน — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
+🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 311 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 trend: n=68 net=$-2.18 wr=63%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.057/trade (n=2)
+
+## 2026-09-28 05:35 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 91462241 → 91489603)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (30577 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 12:35", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0107, "n": 43}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 309}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 307 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   trend            n= 63 wr=0.59 win=0.34R loss=0.80R | SL=1.2 TP=1.3R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=110 wr=0.70 win=0.57R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 12:35", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 110, "wr": 0.7, "avg_win_R": 0.57, "avg_loss_R": 0.991,
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 311 ไม้ (2026-08-26T06:09 → 2026-09-16T05:54) | net -2.58 | เฉลี่ย -0.008 | ชนะ 62.7% | PF 0.95 ✗
+   · ยังไม่มีไม้ที่ระบุกลยุทธ์ได้ (311 ไม้ = รุ่นเก่าก่อนแก้ 19 ก.ย.)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (9 รอบ · 12:18→12:28 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 0 รอบ · ไม่ผ่าน = 9 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 9 · คะแนนถ่วงน้ำหนักสูงเกินบน 9
+      range_sell               คะแนนดิบต่ำ 9 · คะแนนถ่วงน้ำหนักต่ำ 9
+      mean_reversion_sell      คะแนนดิบต่ำ 9 · คะแนนถ่วงน้ำหนักต่ำ 9
+      counter_trend_buy        คะแนนดิบสูงเกินบน(อิ่มตัว) 9 · คะแนนถ่วงน้ำหนักสูงเกินบน 9
+      trend_buy                คะแนนถ่วงน้ำหนักต่ำ 9
+      range_buy                คะแนนถ่วงน้ำหนักต่ำ 4 · คะแนนดิบต่ำ 2
+      breakout_sell            คะแนนดิบสูงเกินบน(อิ่มตัว) 2 · คะแนนถ่วงน้ำหนักสูงเกินบน 2
+      mean_reversion_buy       คะแนนดิบต่ำ 2
+    ไม่มีตัวผ่านด่าน 2 ในช่วงนี้
+   ตัวที่ใกล้ผ่านที่สุดต่อรอบ (ติดแค่เกณฑ์คะแนนดิบต่ำ):
+      (นับเฉพาะตัวที่ 'ติดแค่คะแนนดิบต่ำ' — ไม่รวมตัวที่เกินเกณฑ์แล้วไปติดด่านอื่น)
+       mean_reversion_buy       ดิบ 0.147 / เกณฑ์ 0.180 = 82% ของเกณฑ์
+       mean_reversion_buy       ดิบ 0.147 / เกณฑ์ 0.180 = 82% ของเกณฑ์
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: กลาง · น้ำหนัก 55%  (score -0.117)
+[INTERNAL-SIGNAL]
+DIRECTION=NEUTRAL
+WEIGHT=55
+ASTRO=sideways:0.605
+NOTE=ภายใน: แรงซื้อ/ขาย 0.110302/0.188148 (สุทธิ -0.26) · engine เอน 0B/0S 24ชม. (+0.00) · ดูดวง sideways 0.605 (+0.00) · rolling20 $-1.65 · net72h $+0.000/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 12:35 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.65 · คะแนนหนุน 4 / กด 19) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 10 (หนุน 1 / กด 1) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 2 ข่าว · คะแนนรวม 9 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↓ ลง (bearish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 2, 5, 10, 1] (รวม 41) → ฐาน 9 = 5 · เลข 5 — เปลี่ยนแปลง ผันผวนลงได้ · เลขคู่เสียง 4
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 5 — เปลี่ยนแปลง ผันผวนลงได้ — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
+🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 311 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 trend: n=68 net=$-2.18 wr=63%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.057/trade (n=2)
+
+## 2026-09-28 05:42 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 91489603 → 91489603)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (30577 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 12:41", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0107, "n": 43}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 309}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 307 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   trend            n= 63 wr=0.59 win=0.34R loss=0.80R | SL=1.2 TP=1.3R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=110 wr=0.70 win=0.57R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 12:41", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 110, "wr": 0.7, "avg_win_R": 0.57, "avg_loss_R": 0.991,
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 311 ไม้ (2026-08-26T06:09 → 2026-09-16T05:54) | net -2.58 | เฉลี่ย -0.008 | ชนะ 62.7% | PF 0.95 ✗
+   · ยังไม่มีไม้ที่ระบุกลยุทธ์ได้ (311 ไม้ = รุ่นเก่าก่อนแก้ 19 ก.ย.)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (9 รอบ · 12:18→12:28 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 0 รอบ · ไม่ผ่าน = 9 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 9 · คะแนนถ่วงน้ำหนักสูงเกินบน 9
+      range_sell               คะแนนดิบต่ำ 9 · คะแนนถ่วงน้ำหนักต่ำ 9
+      mean_reversion_sell      คะแนนดิบต่ำ 9 · คะแนนถ่วงน้ำหนักต่ำ 9
+      counter_trend_buy        คะแนนดิบสูงเกินบน(อิ่มตัว) 9 · คะแนนถ่วงน้ำหนักสูงเกินบน 9
+      trend_buy                คะแนนถ่วงน้ำหนักต่ำ 9
+      range_buy                คะแนนถ่วงน้ำหนักต่ำ 4 · คะแนนดิบต่ำ 2
+      breakout_sell            คะแนนดิบสูงเกินบน(อิ่มตัว) 2 · คะแนนถ่วงน้ำหนักสูงเกินบน 2
+      mean_reversion_buy       คะแนนดิบต่ำ 2
+    ไม่มีตัวผ่านด่าน 2 ในช่วงนี้
+   ตัวที่ใกล้ผ่านที่สุดต่อรอบ (ติดแค่เกณฑ์คะแนนดิบต่ำ):
+      (นับเฉพาะตัวที่ 'ติดแค่คะแนนดิบต่ำ' — ไม่รวมตัวที่เกินเกณฑ์แล้วไปติดด่านอื่น)
+       mean_reversion_buy       ดิบ 0.147 / เกณฑ์ 0.180 = 82% ของเกณฑ์
+       mean_reversion_buy       ดิบ 0.147 / เกณฑ์ 0.180 = 82% ของเกณฑ์
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 56%  (score -0.187)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=56
+ASTRO=bearish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.110302/0.188148 (สุทธิ -0.26) · engine เอน 0B/0S 24ชม. (+0.00) · ดูดวง bearish 0.35 (-0.35) · rolling20 $-1.65 · net72h $+0.000/trade · ลดความแรง 20% (rolling net ยังติดลบ)
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 12:41 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.65 · คะแนนหนุน 4 / กด 19) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 10 (หนุน 1 / กด 1) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 2 ข่าว · คะแนนรวม 9 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 2, 1, 10, 1] (รวม 37) → ฐาน 9 = 1 · เลข 1 — จุดเริ่มเดินหน้า แนวโน้มขึ้น · เลขคู่เสียง 9
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 1 — จุดเริ่มเดินหน้า แนวโน้มขึ้น — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
+🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 311 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 trend: n=68 net=$-2.18 wr=63%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.057/trade (n=2)
+
+## 2026-09-28 05:42 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 91489603 → 91489603)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (30577 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 12:42", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0107, "n": 43}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 309}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 307 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   trend            n= 63 wr=0.59 win=0.34R loss=0.80R | SL=1.2 TP=1.3R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=110 wr=0.70 win=0.57R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 12:42", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 110, "wr": 0.7, "avg_win_R": 0.57, "avg_loss_R": 0.991,
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 311 ไม้ (2026-08-26T06:09 → 2026-09-16T05:54) | net -2.58 | เฉลี่ย -0.008 | ชนะ 62.7% | PF 0.95 ✗
+   · ยังไม่มีไม้ที่ระบุกลยุทธ์ได้ (311 ไม้ = รุ่นเก่าก่อนแก้ 19 ก.ย.)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (9 รอบ · 12:18→12:28 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 0 รอบ · ไม่ผ่าน = 9 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 9 · คะแนนถ่วงน้ำหนักสูงเกินบน 9
+      range_sell               คะแนนดิบต่ำ 9 · คะแนนถ่วงน้ำหนักต่ำ 9
+      mean_reversion_sell      คะแนนดิบต่ำ 9 · คะแนนถ่วงน้ำหนักต่ำ 9
+      counter_trend_buy        คะแนนดิบสูงเกินบน(อิ่มตัว) 9 · คะแนนถ่วงน้ำหนักสูงเกินบน 9
+      trend_buy                คะแนนถ่วงน้ำหนักต่ำ 9
+      range_buy                คะแนนถ่วงน้ำหนักต่ำ 4 · คะแนนดิบต่ำ 2
+      breakout_sell            คะแนนดิบสูงเกินบน(อิ่มตัว) 2 · คะแนนถ่วงน้ำหนักสูงเกินบน 2
+      mean_reversion_buy       คะแนนดิบต่ำ 2
+    ไม่มีตัวผ่านด่าน 2 ในช่วงนี้
+   ตัวที่ใกล้ผ่านที่สุดต่อรอบ (ติดแค่เกณฑ์คะแนนดิบต่ำ):
+      (นับเฉพาะตัวที่ 'ติดแค่คะแนนดิบต่ำ' — ไม่รวมตัวที่เกินเกณฑ์แล้วไปติดด่านอื่น)
+       mean_reversion_buy       ดิบ 0.147 / เกณฑ์ 0.180 = 82% ของเกณฑ์
+       mean_reversion_buy       ดิบ 0.147 / เกณฑ์ 0.180 = 82% ของเกณฑ์
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 56%  (score -0.187)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=56
+ASTRO=bearish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.110302/0.188148 (สุทธิ -0.26) · engine เอน 0B/0S 24ชม. (+0.00) · ดูดวง bearish 0.35 (-0.35) · rolling20 $-1.65 · net72h $+0.000/trade · ลดความแรง 20% (rolling net ยังติดลบ)
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 12:42 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.65 · คะแนนหนุน 4 / กด 19) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 10 (หนุน 1 / กด 1) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 2 ข่าว · คะแนนรวม 9 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↓ ลง (bearish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 2, 2, 6, 1] (รวม 34) → ฐาน 9 = 7 · เลข 7 — เสี่ยง ดาวเสาร์กด · เลขคู่เสียง 6
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 7 — เสี่ยง ดาวเสาร์กด — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
+🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 311 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 trend: n=68 net=$-2.18 wr=63%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.057/trade (n=2)
+
+## 2026-09-28 05:48 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 91489603 → 91489603)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (30577 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 12:47", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0107, "n": 43}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 309}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 6 รายการที่ควรปรับ (จาก R-multiple จริง 307 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   trend            n= 63 wr=0.59 win=0.34R loss=0.80R | SL=1.2 TP=1.3R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=110 wr=0.70 win=0.57R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 12:48", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.50R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.4, "reward_risk_from": 1.5}, {"action": "set_tpsl", "strategy": "counter_trend", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.44R < 55% ของเป้า 1.30R)", "evidence": "n=27 wr=0.52 avg_win=0.44R avg_loss=0.90R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 311 ไม้ (2026-08-26T06:09 → 2026-09-16T05:54) | net -2.58 | เฉลี่ย -0.008 | ชนะ 62.7% | PF 0.95 ✗
+   · ยังไม่มีไม้ที่ระบุกลยุทธ์ได้ (311 ไม้ = รุ่นเก่าก่อนแก้ 19 ก.ย.)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (9 รอบ · 12:18→12:28 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 0 รอบ · ไม่ผ่าน = 9 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 9 · คะแนนถ่วงน้ำหนักสูงเกินบน 9
+      range_sell               คะแนนดิบต่ำ 9 · คะแนนถ่วงน้ำหนักต่ำ 9
+      mean_reversion_sell      คะแนนดิบต่ำ 9 · คะแนนถ่วงน้ำหนักต่ำ 9
+      counter_trend_buy        คะแนนดิบสูงเกินบน(อิ่มตัว) 9 · คะแนนถ่วงน้ำหนักสูงเกินบน 9
+      trend_buy                คะแนนถ่วงน้ำหนักต่ำ 9
+      range_buy                คะแนนถ่วงน้ำหนักต่ำ 4 · คะแนนดิบต่ำ 2
+      breakout_sell            คะแนนดิบสูงเกินบน(อิ่มตัว) 2 · คะแนนถ่วงน้ำหนักสูงเกินบน 2
+      mean_reversion_buy       คะแนนดิบต่ำ 2
+    ไม่มีตัวผ่านด่าน 2 ในช่วงนี้
+   ตัวที่ใกล้ผ่านที่สุดต่อรอบ (ติดแค่เกณฑ์คะแนนดิบต่ำ):
+      (นับเฉพาะตัวที่ 'ติดแค่คะแนนดิบต่ำ' — ไม่รวมตัวที่เกินเกณฑ์แล้วไปติดด่านอื่น)
+       mean_reversion_buy       ดิบ 0.147 / เกณฑ์ 0.180 = 82% ของเกณฑ์
+       mean_reversion_buy       ดิบ 0.147 / เกณฑ์ 0.180 = 82% ของเกณฑ์
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 [จำลองก่อนเสนอ] จำลอง 6/6 รายการ (แท่งเทียน 800)
+   ของเดิม: total_r -17.9 · DD 23.9 · ไม้ 57 · PF 0.5525
+   ✅ breakout set_tpsl                  total_r -17.9 (ไม้ 57)
+   ✅ counter_trend set_tpsl             total_r -17.9 (ไม้ 57)
+   ✅ mean_reversion set_tpsl            total_r -16.9 (ไม้ 60)
+   ✅ range set_tpsl                     total_r -16.4 (ไม้ 59)
+   ❌ trend set_tpsl                     total_r -18.2 (ไม้ 57)
+   ✅ global set_tpsl                    total_r -17.9 (ไม้ 57)
+   → ชุดรวม: passed (total_r -15.5)
+   สรุป: อนุมัติ 5 รายการ · ไม่ผ่าน 1 รายการ
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: กลาง · น้ำหนัก 55%  (score -0.117)
+[INTERNAL-SIGNAL]
+DIRECTION=NEUTRAL
+WEIGHT=55
+ASTRO=sideways:0.605
+NOTE=ภายใน: แรงซื้อ/ขาย 0.110302/0.188148 (สุทธิ -0.26) · engine เอน 0B/0S 24ชม. (+0.00) · ดูดวง sideways 0.605 (+0.00) · rolling20 $-1.65 · net72h $+0.000/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 12:48 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.65 · คะแนนหนุน 4 / กด 19) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 10 (หนุน 1 / กด 1) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 2 ข่าว · คะแนนรวม 9 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: → ออกข้าง (sideways) · strength 0.605
+- เลข 7 ตัว: [8, 9, 6, 2, 8, 4, 1] (รวม 38) → ฐาน 9 = 2 · เลข 2 — คู่สมดุล รอจังหวะ · เลขคู่เสียง 1
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 2 — คู่สมดุล รอจังหวะ — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
+🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 311 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 trend: n=68 net=$-2.18 wr=63%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.057/trade (n=2)
+
+## 2026-09-28 05:51 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 91489603 → 91489603)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (30577 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 12:50", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0107, "n": 43}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 309}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 307 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   trend            n= 63 wr=0.59 win=0.34R loss=0.80R | SL=1.2 TP=1.3R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=110 wr=0.70 win=0.57R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 12:50", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 110, "wr": 0.7, "avg_win_R": 0.57, "avg_loss_R": 0.991,
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 311 ไม้ (2026-08-26T06:09 → 2026-09-16T05:54) | net -2.58 | เฉลี่ย -0.008 | ชนะ 62.7% | PF 0.95 ✗
+   · ยังไม่มีไม้ที่ระบุกลยุทธ์ได้ (311 ไม้ = รุ่นเก่าก่อนแก้ 19 ก.ย.)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (9 รอบ · 12:18→12:28 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 0 รอบ · ไม่ผ่าน = 9 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 9 · คะแนนถ่วงน้ำหนักสูงเกินบน 9
+      range_sell               คะแนนดิบต่ำ 9 · คะแนนถ่วงน้ำหนักต่ำ 9
+      mean_reversion_sell      คะแนนดิบต่ำ 9 · คะแนนถ่วงน้ำหนักต่ำ 9
+      counter_trend_buy        คะแนนดิบสูงเกินบน(อิ่มตัว) 9 · คะแนนถ่วงน้ำหนักสูงเกินบน 9
+      trend_buy                คะแนนถ่วงน้ำหนักต่ำ 9
+      range_buy                คะแนนถ่วงน้ำหนักต่ำ 4 · คะแนนดิบต่ำ 2
+      breakout_sell            คะแนนดิบสูงเกินบน(อิ่มตัว) 2 · คะแนนถ่วงน้ำหนักสูงเกินบน 2
+      mean_reversion_buy       คะแนนดิบต่ำ 2
+    ไม่มีตัวผ่านด่าน 2 ในช่วงนี้
+   ตัวที่ใกล้ผ่านที่สุดต่อรอบ (ติดแค่เกณฑ์คะแนนดิบต่ำ):
+      (นับเฉพาะตัวที่ 'ติดแค่คะแนนดิบต่ำ' — ไม่รวมตัวที่เกินเกณฑ์แล้วไปติดด่านอื่น)
+       mean_reversion_buy       ดิบ 0.147 / เกณฑ์ 0.180 = 82% ของเกณฑ์
+       mean_reversion_buy       ดิบ 0.147 / เกณฑ์ 0.180 = 82% ของเกณฑ์
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 56%  (score -0.187)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=56
+ASTRO=bearish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.110302/0.188148 (สุทธิ -0.26) · engine เอน 0B/0S 24ชม. (+0.00) · ดูดวง bearish 0.35 (-0.35) · rolling20 $-1.65 · net72h $+0.000/trade · ลดความแรง 20% (rolling net ยังติดลบ)
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 12:50 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.65 · คะแนนหนุน 4 / กด 19) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 10 (หนุน 1 / กด 1) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 2 ข่าว · คะแนนรวม 9 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: → ออกข้าง (sideways) · strength 0.605
+- เลข 7 ตัว: [8, 9, 6, 2, 10, 9, 1] (รวม 45) → ฐาน 9 = 9 · เลข 9 — ครบรอบ จบ-เริ่มใหม่ · เลขคู่เสียง 8
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 9 — ครบรอบ จบ-เริ่มใหม่ — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
+🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 311 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 trend: n=68 net=$-2.18 wr=63%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.057/trade (n=2)
+
+## 2026-09-28 05:54 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 91489603 → 91489603)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (30577 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 12:53", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0107, "n": 43}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 309}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 307 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   trend            n= 63 wr=0.59 win=0.34R loss=0.80R | SL=1.2 TP=1.3R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=110 wr=0.70 win=0.57R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 12:54", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 110, "wr": 0.7, "avg_win_R": 0.57, "avg_loss_R": 0.991,
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 311 ไม้ (2026-08-26T06:09 → 2026-09-16T05:54) | net -2.58 | เฉลี่ย -0.008 | ชนะ 62.7% | PF 0.95 ✗
+   · ยังไม่มีไม้ที่ระบุกลยุทธ์ได้ (311 ไม้ = รุ่นเก่าก่อนแก้ 19 ก.ย.)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (9 รอบ · 12:18→12:28 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 0 รอบ · ไม่ผ่าน = 9 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 9 · คะแนนถ่วงน้ำหนักสูงเกินบน 9
+      range_sell               คะแนนดิบต่ำ 9 · คะแนนถ่วงน้ำหนักต่ำ 9
+      mean_reversion_sell      คะแนนดิบต่ำ 9 · คะแนนถ่วงน้ำหนักต่ำ 9
+      counter_trend_buy        คะแนนดิบสูงเกินบน(อิ่มตัว) 9 · คะแนนถ่วงน้ำหนักสูงเกินบน 9
+      trend_buy                คะแนนถ่วงน้ำหนักต่ำ 9
+      range_buy                คะแนนถ่วงน้ำหนักต่ำ 4 · คะแนนดิบต่ำ 2
+      breakout_sell            คะแนนดิบสูงเกินบน(อิ่มตัว) 2 · คะแนนถ่วงน้ำหนักสูงเกินบน 2
+      mean_reversion_buy       คะแนนดิบต่ำ 2
+    ไม่มีตัวผ่านด่าน 2 ในช่วงนี้
+   ตัวที่ใกล้ผ่านที่สุดต่อรอบ (ติดแค่เกณฑ์คะแนนดิบต่ำ):
+      (นับเฉพาะตัวที่ 'ติดแค่คะแนนดิบต่ำ' — ไม่รวมตัวที่เกินเกณฑ์แล้วไปติดด่านอื่น)
+       mean_reversion_buy       ดิบ 0.147 / เกณฑ์ 0.180 = 82% ของเกณฑ์
+       mean_reversion_buy       ดิบ 0.147 / เกณฑ์ 0.180 = 82% ของเกณฑ์
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: กลาง · น้ำหนัก 52%  (score -0.047)
+[INTERNAL-SIGNAL]
+DIRECTION=NEUTRAL
+WEIGHT=52
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.110302/0.188148 (สุทธิ -0.26) · engine เอน 0B/0S 24ชม. (+0.00) · ดูดวง bullish 0.35 (+0.35) · rolling20 $-1.65 · net72h $+0.000/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 12:54 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.65 · คะแนนหนุน 4 / กด 19) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 10 (หนุน 1 / กด 1) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 2 ข่าว · คะแนนรวม 9 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: → ออกข้าง (sideways) · strength 0.605
+- เลข 7 ตัว: [8, 9, 6, 2, 4, 8, 1] (รวม 38) → ฐาน 9 = 2 · เลข 2 — คู่สมดุล รอจังหวะ · เลขคู่เสียง 1
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 2 — คู่สมดุล รอจังหวะ — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
+🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 311 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 trend: n=68 net=$-2.18 wr=63%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.057/trade (n=2)
+
+## 2026-09-28 06:05 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 91489603 → 91489603)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (30577 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 13:05", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0107, "n": 43}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 309}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 307 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   trend            n= 63 wr=0.59 win=0.34R loss=0.80R | SL=1.2 TP=1.3R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=110 wr=0.70 win=0.57R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 13:05", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 110, "wr": 0.7, "avg_win_R": 0.57, "avg_loss_R": 0.991,
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 311 ไม้ (2026-08-26T06:09 → 2026-09-16T05:54) | net -2.58 | เฉลี่ย -0.008 | ชนะ 62.7% | PF 0.95 ✗
+   · ยังไม่มีไม้ที่ระบุกลยุทธ์ได้ (311 ไม้ = รุ่นเก่าก่อนแก้ 19 ก.ย.)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (9 รอบ · 12:18→12:28 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 0 รอบ · ไม่ผ่าน = 9 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 9 · คะแนนถ่วงน้ำหนักสูงเกินบน 9
+      range_sell               คะแนนดิบต่ำ 9 · คะแนนถ่วงน้ำหนักต่ำ 9
+      mean_reversion_sell      คะแนนดิบต่ำ 9 · คะแนนถ่วงน้ำหนักต่ำ 9
+      counter_trend_buy        คะแนนดิบสูงเกินบน(อิ่มตัว) 9 · คะแนนถ่วงน้ำหนักสูงเกินบน 9
+      trend_buy                คะแนนถ่วงน้ำหนักต่ำ 9
+      range_buy                คะแนนถ่วงน้ำหนักต่ำ 4 · คะแนนดิบต่ำ 2
+      breakout_sell            คะแนนดิบสูงเกินบน(อิ่มตัว) 2 · คะแนนถ่วงน้ำหนักสูงเกินบน 2
+      mean_reversion_buy       คะแนนดิบต่ำ 2
+    ไม่มีตัวผ่านด่าน 2 ในช่วงนี้
+   ตัวที่ใกล้ผ่านที่สุดต่อรอบ (ติดแค่เกณฑ์คะแนนดิบต่ำ):
+      (นับเฉพาะตัวที่ 'ติดแค่คะแนนดิบต่ำ' — ไม่รวมตัวที่เกินเกณฑ์แล้วไปติดด่านอื่น)
+       mean_reversion_buy       ดิบ 0.147 / เกณฑ์ 0.180 = 82% ของเกณฑ์
+       mean_reversion_buy       ดิบ 0.147 / เกณฑ์ 0.180 = 82% ของเกณฑ์
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: กลาง · น้ำหนัก 55%  (score -0.117)
+[INTERNAL-SIGNAL]
+DIRECTION=NEUTRAL
+WEIGHT=55
+ASTRO=sideways:0.605
+NOTE=ภายใน: แรงซื้อ/ขาย 0.110302/0.188148 (สุทธิ -0.26) · engine เอน 0B/0S 24ชม. (+0.00) · ดูดวง sideways 0.605 (+0.00) · rolling20 $-1.65 · net72h $+0.000/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 13:05 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.65 · คะแนนหนุน 4 / กด 19) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 10 (หนุน 1 / กด 1) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 2 ข่าว · คะแนนรวม 9 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: Oil prices will plummet after war ends ‘very soon’
+- 🔴 [3] (macro) Bank of Japan debated
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: → ออกข้าง (sideways) · strength 0.605
+- เลข 7 ตัว: [8, 9, 6, 3, 5, 6, 1] (รวม 38) → ฐาน 9 = 2 · เลข 2 — คู่สมดุล รอจังหวะ · เลขคู่เสียง 1
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 2 — คู่สมดุล รอจังหวะ — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
+🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 311 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 trend: n=68 net=$-2.18 wr=63%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.057/trade (n=2)
+
+## 2026-09-28 06:21 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 91677250 → 91782718)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (30666 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 13:21", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0107, "n": 43}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 309}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 6 รายการที่ควรปรับ (จาก R-multiple จริง 307 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   trend            n= 63 wr=0.59 win=0.34R loss=0.80R | SL=1.2 TP=1.3R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=110 wr=0.70 win=0.57R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 13:21", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.50R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.4, "reward_risk_from": 1.5}, {"action": "set_tpsl", "strategy": "counter_trend", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.44R < 55% ของเป้า 1.30R)", "evidence": "n=27 wr=0.52 avg_win=0.44R avg_loss=0.90R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 311 ไม้ (2026-08-26T06:09 → 2026-09-16T05:54) | net -2.58 | เฉลี่ย -0.008 | ชนะ 62.7% | PF 0.95 ✗
+   · ยังไม่มีไม้ที่ระบุกลยุทธ์ได้ (311 ไม้ = รุ่นเก่าก่อนแก้ 19 ก.ย.)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (10 รอบ · 13:11→13:20 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 0 รอบ · ไม่ผ่าน = 10 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      range_buy                คะแนนดิบต่ำ 10 · คะแนนถ่วงน้ำหนักต่ำ 10
+      range_sell               คะแนนดิบต่ำ 10 · คะแนนถ่วงน้ำหนักต่ำ 10
+      mean_reversion_buy       คะแนนดิบต่ำ 10 · คะแนนถ่วงน้ำหนักต่ำ 10
+      mean_reversion_sell      คะแนนดิบต่ำ 10 · คะแนนถ่วงน้ำหนักต่ำ 10
+      trend_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 10 · คะแนนถ่วงน้ำหนักสูงเกินบน 9
+      trend_buy                คะแนนถ่วงน้ำหนักต่ำ 10
+      breakout_reversal_buy    คะแนนดิบสูงเกินบน(อิ่มตัว) 4 · คะแนนถ่วงน้ำหนักสูงเกินบน 4
+      counter_trend_buy        คะแนนถ่วงน้ำหนักต่ำ 5 · คะแนนดิบสูงเกินบน(อิ่มตัว) 1 · คะแนนถ่วงน้ำหนักสูงเกินบน 1
+    ไม่มีตัวผ่านด่าน 2 ในช่วงนี้
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: กลาง · น้ำหนัก 52%  (score -0.054)
+[INTERNAL-SIGNAL]
+DIRECTION=NEUTRAL
+WEIGHT=52
+ASTRO=sideways:0.605
+NOTE=ภายใน: แรงซื้อ/ขาย 0.185275/0.235758 (สุทธิ -0.12) · engine เอน 0B/0S 24ชม. (+0.00) · ดูดวง sideways 0.605 (+0.00) · rolling20 $-1.65 · net72h $+0.000/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 1 รายการ
+
+## 2026-09-28 13:21 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.72 · คะแนนหนุน 4 / กด 25) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 23 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 3 ข่าว · คะแนนรวม 16 (หนุน 1 / กด 2) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 3 ข่าว · คะแนนรวม 15 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: O
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: → ออกข้าง (sideways) · strength 0.605
+- เลข 7 ตัว: [8, 9, 6, 3, 1, 3, 1] (รวม 31) → ฐาน 9 = 4 · เลข 4 — เสถียร ทรงตัว · เลขคู่เสียง 3
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 4 — เสถียร ทรงตัว — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
+🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 311 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 trend: n=68 net=$-2.18 wr=63%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.057/trade (n=2)
+
+## 2026-09-28 06:32 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 91956690 → 92012582)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (30754 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 13:31", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0107, "n": 43}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 309}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 307 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   trend            n= 63 wr=0.59 win=0.34R loss=0.80R | SL=1.2 TP=1.3R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=110 wr=0.70 win=0.57R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 13:32", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 110, "wr": 0.7, "avg_win_R": 0.57, "avg_loss_R": 0.991,
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 311 ไม้ (2026-08-26T06:09 → 2026-09-16T05:54) | net -2.58 | เฉลี่ย -0.008 | ชนะ 62.7% | PF 0.95 ✗
+   · ยังไม่มีไม้ที่ระบุกลยุทธ์ได้ (311 ไม้ = รุ่นเก่าก่อนแก้ 19 ก.ย.)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (10 รอบ · 13:15→13:24 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 0 รอบ · ไม่ผ่าน = 10 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      range_buy                คะแนนดิบต่ำ 10 · คะแนนถ่วงน้ำหนักต่ำ 10
+      range_sell               คะแนนดิบต่ำ 10 · คะแนนถ่วงน้ำหนักต่ำ 10
+      mean_reversion_buy       คะแนนดิบต่ำ 10 · คะแนนถ่วงน้ำหนักต่ำ 10
+      mean_reversion_sell      คะแนนดิบต่ำ 10 · คะแนนถ่วงน้ำหนักต่ำ 10
+      trend_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 10 · คะแนนถ่วงน้ำหนักสูงเกินบน 5
+      counter_trend_buy        คะแนนถ่วงน้ำหนักต่ำ 5 · คะแนนดิบสูงเกินบน(อิ่มตัว) 5 · คะแนนถ่วงน้ำหนักสูงเกินบน 5
+      trend_buy                คะแนนถ่วงน้ำหนักต่ำ 10
+    ไม่มีตัวผ่านด่าน 2 ในช่วงนี้
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: กลาง · น้ำหนัก 52%  (score -0.050)
+[INTERNAL-SIGNAL]
+DIRECTION=NEUTRAL
+WEIGHT=52
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.103982/0.179533 (สุทธิ -0.27) · engine เอน 0B/0S 24ชม. (+0.00) · ดูดวง bullish 0.35 (+0.35) · rolling20 $-1.65 · net72h $+0.000/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 13:32 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.75 · คะแนนหนุน 4 / กด 28) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 5 ข่าว · คะแนนรวม 21 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 3 ข่าว · คะแนนรวม 16 (หนุน 1 / กด 2) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 3 ข่าว · คะแนนรวม 15 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 13 (หนุน 0 / กด 3) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: O
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↓ ลง (bearish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 3, 2, 3, 1] (รวม 32) → ฐาน 9 = 5 · เลข 5 — เปลี่ยนแปลง ผันผวนลงได้ · เลขคู่เสียง 4
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 5 — เปลี่ยนแปลง ผันผวนลงได้ — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
+🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 311 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 trend: n=68 net=$-2.18 wr=63%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.057/trade (n=2)
+
+## 2026-09-28 06:43 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 92216743 → 92252342)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (30842 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 13:42", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0107, "n": 43}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 309}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 307 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   trend            n= 63 wr=0.59 win=0.34R loss=0.80R | SL=1.2 TP=1.3R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=110 wr=0.70 win=0.57R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 13:42", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 110, "wr": 0.7, "avg_win_R": 0.57, "avg_loss_R": 0.991,
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 311 ไม้ (2026-08-26T06:09 → 2026-09-16T05:54) | net -2.58 | เฉลี่ย -0.008 | ชนะ 62.7% | PF 0.95 ✗
+   · ยังไม่มีไม้ที่ระบุกลยุทธ์ได้ (311 ไม้ = รุ่นเก่าก่อนแก้ 19 ก.ย.)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (5 รอบ · 13:35→13:39 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 0 รอบ · ไม่ผ่าน = 5 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 5 · คะแนนถ่วงน้ำหนักสูงเกินบน 5
+      range_buy                คะแนนดิบต่ำ 5 · คะแนนถ่วงน้ำหนักต่ำ 5
+      range_sell               คะแนนดิบต่ำ 5 · คะแนนถ่วงน้ำหนักต่ำ 5
+      mean_reversion_buy       คะแนนดิบต่ำ 5 · คะแนนถ่วงน้ำหนักต่ำ 5
+      mean_reversion_sell      คะแนนดิบต่ำ 5 · คะแนนถ่วงน้ำหนักต่ำ 5
+      breakout_reversal_buy    คะแนนดิบสูงเกินบน(อิ่มตัว) 5 · คะแนนถ่วงน้ำหนักสูงเกินบน 5
+      counter_trend_buy        คะแนนถ่วงน้ำหนักต่ำ 5 · คะแนนดิบต่ำ 3
+      trend_buy                คะแนนถ่วงน้ำหนักต่ำ 5
+    ไม่มีตัวผ่านด่าน 2 ในช่วงนี้
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: กลาง · น้ำหนัก 51%  (score -0.033)
+[INTERNAL-SIGNAL]
+DIRECTION=NEUTRAL
+WEIGHT=51
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.131959/0.209925 (สุทธิ -0.23) · engine เอน 0B/0S 24ชม. (+0.00) · ดูดวง bullish 0.35 (+0.35) · rolling20 $-1.65 · net72h $+0.000/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 13:43 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.75 · คะแนนหนุน 4 / กด 28) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 5 ข่าว · คะแนนรวม 21 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 3 ข่าว · คะแนนรวม 16 (หนุน 1 / กด 2) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 3 ข่าว · คะแนนรวม 15 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 13 (หนุน 0 / กด 3) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: O
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 3, 3, 5, 1] (รวม 35) → ฐาน 9 = 8 · เลข 8 — มั่งคั่ง เฟื่องฟู · เลขคู่เสียง 7
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 8 — มั่งคั่ง เฟื่องฟู — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
+🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 311 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 trend: n=68 net=$-2.18 wr=63%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.057/trade (n=2)
+
+## 2026-09-28 06:54 UTC — งานวิจัยรวม (12 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 92485023 → 92508708)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (30922 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 8 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 13:53", "changes": [{"strategy": "trend", "side": "buy", "raw_low_from": 0.3, "raw_low_to": 0.36, "raw_high_from": 0.814, "raw_high_to": 0.774, "net_exp": -0.2167, "net_n": 9}, {"strategy": "trend", "side": "sell", "raw_low_from": 0.3, "raw_low_to": 0.348, "raw_high_from": 0.897, "raw_high_to": 0.897, "net_exp": 0.0107, "net_n": 43}, {"strategy": "range", "side": "buy", "raw_low_from": 0.208, "raw_low_to": 0.258, "raw_high_from": 0.75, "raw_high_to": 0.69, "net_exp": -0.1105, "net_n": 21}, {"strategy": "range", "side": "sell", "raw_low_from": 0.231, "raw_low_to": 0.281, "raw_high_from": 0.75, "raw_high_to": 0.69, "net_exp": -0.0343, "net_n": 75}, {"strategy": "mean_reversion", "side": "buy"
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 6 รายการที่ควรปรับ (จาก R-multiple จริง 307 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   trend            n= 63 wr=0.59 win=0.34R loss=0.80R | SL=1.2 TP=1.3R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=110 wr=0.70 win=0.57R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 13:53", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.50R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.4, "reward_risk_from": 1.5}, {"action": "set_tpsl", "strategy": "counter_trend", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.44R < 55% ของเป้า 1.30R)", "evidence": "n=27 wr=0.52 avg_win=0.44R avg_loss=0.90R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 311 ไม้ (2026-08-26T06:09 → 2026-09-16T05:54) | net -2.58 | เฉลี่ย -0.008 | ชนะ 62.7% | PF 0.95 ✗
+   · ยังไม่มีไม้ที่ระบุกลยุทธ์ได้ (311 ไม้ = รุ่นเก่าก่อนแก้ 19 ก.ย.)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (7 รอบ · 13:44→13:50 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 6 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      range_sell               คะแนนดิบต่ำ 7 · คะแนนถ่วงน้ำหนักต่ำ 7
+      mean_reversion_sell      คะแนนดิบต่ำ 7 · คะแนนถ่วงน้ำหนักต่ำ 7
+      range_buy                คะแนนถ่วงน้ำหนักต่ำ 7 · คะแนนดิบต่ำ 6
+      trend_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 6 · คะแนนถ่วงน้ำหนักสูงเกินบน 6
+      mean_reversion_buy       คะแนนดิบต่ำ 7 · คะแนนถ่วงน้ำหนักต่ำ 1
+      trend_buy                คะแนนถ่วงน้ำหนักต่ำ 7
+      counter_trend_buy        คะแนนถ่วงน้ำหนักต่ำ 6 · คะแนนดิบต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.792/0.180 · prob 0.58 · ถ่วงน้ำหนัก 0.673/0.296
+   ตัวที่ใกล้ผ่านที่สุดต่อรอบ (ติดแค่เกณฑ์คะแนนดิบต่ำ):
+      (นับเฉพาะตัวที่ 'ติดแค่คะแนนดิบต่ำ' — ไม่รวมตัวที่เกินเกณฑ์แล้วไปติดด่านอื่น)
+       mean_reversion_buy       ดิบ 0.116 / เกณฑ์ 0.180 = 65% ของเกณฑ์
+       mean_reversion_buy       ดิบ 0.116 / เกณฑ์ 0.180 = 65% ของเกณฑ์
+       mean_reversion_buy       ดิบ 0.116 / เกณฑ์ 0.180 = 65% ของเกณฑ์
+       mean_reversion_buy       ดิบ 0.116 / เกณฑ์ 0.180 = 65% ของเกณฑ์
+       mean_reversion_buy       ดิบ 0.116 / เกณฑ์ 0.180 =
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 62%  (score -0.383)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=62
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.140331/0.223431 (สุทธิ -0.23) · engine เอน 0B/1S 24ชม. (-1.00) · ดูดวง bullish 0.35 (+0.35) · rolling20 $-1.65 · net72h $+0.000/trade · ลดความแรง 20% (rolling net ยังติดลบ)
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 13:54 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.75 · คะแนนหนุน 4 / กด 28) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 5 ข่าว · คะแนนรวม 21 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 3 ข่าว · คะแนนรวม 16 (หนุน 1 / กด 2) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 3 ข่าว · คะแนนรวม 15 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 13 (หนุน 0 / กด 3) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: O
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 3, 4, 4, 1] (รวม 35) → ฐาน 9 = 8 · เลข 8 — มั่งคั่ง เฟื่องฟู · เลขคู่เสียง 7
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 8 — มั่งคั่ง เฟื่องฟู — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 311 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 trend: n=68 net=$-2.18 wr=63%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.057/trade (n=2)
+
+## 2026-09-28 07:05 UTC — งานวิจัยรวม (12 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 92797714 → 92797714)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (31015 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 7 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 14:05", "changes": [{"strategy": "trend", "side": "buy", "raw_low_from": 0.54, "raw_low_to": 0.6, "raw_high_from": 0.814, "raw_high_to": 0.774, "net_exp": -0.2167, "net_n": 9}, {"strategy": "range", "side": "buy", "raw_low_from": 0.208, "raw_low_to": 0.258, "raw_high_from": 0.344, "raw_high_to": 0.358, "net_exp": -0.1105, "net_n": 21}, {"strategy": "range", "side": "sell", "raw_low_from": 0.231, "raw_low_to": 0.281, "raw_high_from": 0.405, "raw_high_to": 0.405, "net_exp": -0.0343, "net_n": 75}, {"strategy": "mean_reversion", "side": "buy", "raw_low_from": 0.12, "raw_low_to": 0.153, "raw_high_from": 0.277, "raw_high_to": 0.277, "net_exp": -0.0691, "net_n": 54}, {"strategy": "mean_reversion",
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 307 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   trend            n= 63 wr=0.59 win=0.34R loss=0.80R | SL=1.2 TP=1.3R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=110 wr=0.70 win=0.57R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 14:05", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 110, "wr": 0.7, "avg_win_R": 0.57, "avg_loss_R": 0.991,
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 311 ไม้ (2026-08-26T06:09 → 2026-09-16T05:54) | net -2.58 | เฉลี่ย -0.008 | ชนะ 62.7% | PF 0.95 ✗
+   · ยังไม่มีไม้ที่ระบุกลยุทธ์ได้ (311 ไม้ = รุ่นเก่าก่อนแก้ 19 ก.ย.)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (6 รอบ · 13:46→13:56 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 2 รอบ · ไม่ผ่าน = 4 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      range_sell               คะแนนดิบต่ำ 6 · คะแนนถ่วงน้ำหนักต่ำ 6
+      mean_reversion_sell      คะแนนดิบต่ำ 6 · คะแนนถ่วงน้ำหนักต่ำ 6
+      range_buy                คะแนนถ่วงน้ำหนักต่ำ 6 · คะแนนดิบต่ำ 5
+      trend_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 4 · คะแนนถ่วงน้ำหนักสูงเกินบน 4
+      trend_buy                คะแนนถ่วงน้ำหนักต่ำ 6 · คะแนนดิบต่ำ 1
+      counter_trend_buy        คะแนนถ่วงน้ำหนักต่ำ 5 · คะแนนดิบต่ำ 1
+      mean_reversion_buy       คะแนนดิบต่ำ 5
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.792/0.180 · prob 0.58 · ถ่วงน้ำหนัก 0.673/0.296
+   ตัวที่ใกล้ผ่านที่สุดต่อรอบ (ติดแค่เกณฑ์คะแนนดิบต่ำ):
+      (นับเฉพาะตัวที่ 'ติดแค่คะแนนดิบต่ำ' — ไม่รวมตัวที่เกินเกณฑ์แล้วไปติดด่านอื่น)
+       mean_reversion_buy       ดิบ 0.116 / เกณฑ์ 0.180 = 65% ของเกณฑ์
+       mean_reversion_buy       ดิบ 0.116 / เกณฑ์ 0.180 = 65% ของเกณฑ์
+       mean_reversion_buy       ดิบ 0.116 / เกณฑ์ 0.180 = 65% ของเกณฑ์
+       mean_reversion_buy       ดิบ 0.116 / เกณฑ์ 0.180 = 65% ของเกณฑ์
+       mean_reversion_buy       ดิบ 0.110 / เกณฑ์ 0.180 = 61% ของ
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 68%  (score -0.548)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=68
+ASTRO=bearish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.113667/0.204432 (สุทธิ -0.29) · engine เอน 0B/2S 24ชม. (-1.00) · ดูดวง bearish 0.35 (-0.35) · rolling20 $-1.65 · net72h $+0.000/trade · ลดความแรง 20% (rolling net ยังติดลบ)
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 1 รายการ
+
+## 2026-09-28 14:05 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.77 · คะแนนหนุน 4 / กด 31) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 4) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 3 ข่าว · คะแนนรวม 16 (หนุน 1 / กด 2) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 3 ข่าว · คะแนนรวม 15 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: O
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↓ ลง (bearish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 4, 5, 10, 1] (รวม 43) → ฐาน 9 = 7 · เลข 7 — เสี่ยง ดาวเสาร์กด · เลขคู่เสียง 6
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 7 — เสี่ยง ดาวเสาร์กด — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 311 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 trend: n=68 net=$-2.18 wr=63%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.057/trade (n=2)
+
+## 2026-09-28 07:16 UTC — งานวิจัยรวม (12 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 92932149 → 93042196)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (31101 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 7 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 14:15", "changes": [{"strategy": "trend", "side": "buy", "raw_low_from": 0.54, "raw_low_to": 0.6, "raw_high_from": 0.814, "raw_high_to": 0.774, "net_exp": -0.2167, "net_n": 9}, {"strategy": "range", "side": "buy", "raw_low_from": 0.208, "raw_low_to": 0.258, "raw_high_from": 0.344, "raw_high_to": 0.358, "net_exp": -0.1105, "net_n": 21}, {"strategy": "range", "side": "sell", "raw_low_from": 0.231, "raw_low_to": 0.281, "raw_high_from": 0.405, "raw_high_to": 0.405, "net_exp": -0.0343, "net_n": 75}, {"strategy": "mean_reversion", "side": "buy", "raw_low_from": 0.12, "raw_low_to": 0.153, "raw_high_from": 0.277, "raw_high_to": 0.277, "net_exp": -0.0691, "net_n": 54}, {"strategy": "mean_reversion",
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 307 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   trend            n= 63 wr=0.59 win=0.34R loss=0.80R | SL=1.2 TP=1.3R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=110 wr=0.70 win=0.57R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 14:15", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 110, "wr": 0.7, "avg_win_R": 0.57, "avg_loss_R": 0.991,
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 311 ไม้ (2026-08-26T06:09 → 2026-09-16T05:54) | net -2.58 | เฉลี่ย -0.008 | ชนะ 62.7% | PF 0.95 ✗
+   · ยังไม่มีไม้ที่ระบุกลยุทธ์ได้ (311 ไม้ = รุ่นเก่าก่อนแก้ 19 ก.ย.)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (6 รอบ · 13:46→13:56 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 2 รอบ · ไม่ผ่าน = 4 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      range_sell               คะแนนดิบต่ำ 6 · คะแนนถ่วงน้ำหนักต่ำ 6
+      mean_reversion_sell      คะแนนดิบต่ำ 6 · คะแนนถ่วงน้ำหนักต่ำ 6
+      range_buy                คะแนนถ่วงน้ำหนักต่ำ 6 · คะแนนดิบต่ำ 5
+      trend_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 4 · คะแนนถ่วงน้ำหนักสูงเกินบน 4
+      trend_buy                คะแนนถ่วงน้ำหนักต่ำ 6 · คะแนนดิบต่ำ 1
+      counter_trend_buy        คะแนนถ่วงน้ำหนักต่ำ 5 · คะแนนดิบต่ำ 1
+      mean_reversion_buy       คะแนนดิบต่ำ 5
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.792/0.180 · prob 0.58 · ถ่วงน้ำหนัก 0.673/0.296
+   ตัวที่ใกล้ผ่านที่สุดต่อรอบ (ติดแค่เกณฑ์คะแนนดิบต่ำ):
+      (นับเฉพาะตัวที่ 'ติดแค่คะแนนดิบต่ำ' — ไม่รวมตัวที่เกินเกณฑ์แล้วไปติดด่านอื่น)
+       mean_reversion_buy       ดิบ 0.116 / เกณฑ์ 0.180 = 65% ของเกณฑ์
+       mean_reversion_buy       ดิบ 0.116 / เกณฑ์ 0.180 = 65% ของเกณฑ์
+       mean_reversion_buy       ดิบ 0.116 / เกณฑ์ 0.180 = 65% ของเกณฑ์
+       mean_reversion_buy       ดิบ 0.116 / เกณฑ์ 0.180 = 65% ของเกณฑ์
+       mean_reversion_buy       ดิบ 0.110 / เกณฑ์ 0.180 = 61% ของ
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 62%  (score -0.377)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=62
+ASTRO=sideways:0.605
+NOTE=ภายใน: แรงซื้อ/ขาย 0.213241/0.240423 (สุทธิ -0.06) · engine เอน 0B/2S 24ชม. (-1.00) · ดูดวง sideways 0.605 (+0.00) · rolling20 $-1.65 · net72h $+0.000/trade · ลดความแรง 20% (rolling net ยังติดลบ)
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 1 รายการ
+
+## 2026-09-28 14:16 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.77 · คะแนนหนุน 4 / กด 31) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 4) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 3 ข่าว · คะแนนรวม 16 (หนุน 1 / กด 2) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 3 ข่าว · คะแนนรวม 15 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: O
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: → ออกข้าง (sideways) · strength 0.605
+- เลข 7 ตัว: [8, 9, 6, 4, 6, 4, 1] (รวม 38) → ฐาน 9 = 2 · เลข 2 — คู่สมดุล รอจังหวะ · เลขคู่เสียง 1
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 2 — คู่สมดุล รอจังหวะ — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 311 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 trend: n=68 net=$-2.18 wr=63%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.057/trade (n=2)
+
+## 2026-09-28 07:27 UTC — งานวิจัยรวม (12 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 93202236 → 93290242)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (31189 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 7 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 14:26", "changes": [{"strategy": "trend", "side": "buy", "raw_low_from": 0.54, "raw_low_to": 0.6, "raw_high_from": 0.814, "raw_high_to": 0.774, "net_exp": -0.2167, "net_n": 9}, {"strategy": "range", "side": "buy", "raw_low_from": 0.208, "raw_low_to": 0.258, "raw_high_from": 0.344, "raw_high_to": 0.358, "net_exp": -0.1105, "net_n": 21}, {"strategy": "range", "side": "sell", "raw_low_from": 0.231, "raw_low_to": 0.281, "raw_high_from": 0.405, "raw_high_to": 0.405, "net_exp": -0.0343, "net_n": 75}, {"strategy": "mean_reversion", "side": "buy", "raw_low_from": 0.12, "raw_low_to": 0.153, "raw_high_from": 0.277, "raw_high_to": 0.277, "net_exp": -0.0691, "net_n": 54}, {"strategy": "mean_reversion",
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 6 รายการที่ควรปรับ (จาก R-multiple จริง 307 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   trend            n= 63 wr=0.59 win=0.34R loss=0.80R | SL=1.2 TP=1.3R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=110 wr=0.70 win=0.57R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 14:26", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.50R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.4, "reward_risk_from": 1.5}, {"action": "set_tpsl", "strategy": "counter_trend", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.44R < 55% ของเป้า 1.30R)", "evidence": "n=27 wr=0.52 avg_win=0.44R avg_loss=0.90R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 311 ไม้ (2026-08-26T06:09 → 2026-09-16T05:54) | net -2.58 | เฉลี่ย -0.008 | ชนะ 62.7% | PF 0.95 ✗
+   · ยังไม่มีไม้ที่ระบุกลยุทธ์ได้ (311 ไม้ = รุ่นเก่าก่อนแก้ 19 ก.ย.)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (6 รอบ · 13:46→13:56 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 2 รอบ · ไม่ผ่าน = 4 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      range_sell               คะแนนดิบต่ำ 6 · คะแนนถ่วงน้ำหนักต่ำ 6
+      mean_reversion_sell      คะแนนดิบต่ำ 6 · คะแนนถ่วงน้ำหนักต่ำ 6
+      range_buy                คะแนนถ่วงน้ำหนักต่ำ 6 · คะแนนดิบต่ำ 5
+      trend_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 4 · คะแนนถ่วงน้ำหนักสูงเกินบน 4
+      trend_buy                คะแนนถ่วงน้ำหนักต่ำ 6 · คะแนนดิบต่ำ 1
+      counter_trend_buy        คะแนนถ่วงน้ำหนักต่ำ 5 · คะแนนดิบต่ำ 1
+      mean_reversion_buy       คะแนนดิบต่ำ 5
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.792/0.180 · prob 0.58 · ถ่วงน้ำหนัก 0.673/0.296
+   ตัวที่ใกล้ผ่านที่สุดต่อรอบ (ติดแค่เกณฑ์คะแนนดิบต่ำ):
+      (นับเฉพาะตัวที่ 'ติดแค่คะแนนดิบต่ำ' — ไม่รวมตัวที่เกินเกณฑ์แล้วไปติดด่านอื่น)
+       mean_reversion_buy       ดิบ 0.116 / เกณฑ์ 0.180 = 65% ของเกณฑ์
+       mean_reversion_buy       ดิบ 0.116 / เกณฑ์ 0.180 = 65% ของเกณฑ์
+       mean_reversion_buy       ดิบ 0.116 / เกณฑ์ 0.180 = 65% ของเกณฑ์
+       mean_reversion_buy       ดิบ 0.116 / เกณฑ์ 0.180 = 65% ของเกณฑ์
+       mean_reversion_buy       ดิบ 0.110 / เกณฑ์ 0.180 = 61% ของ
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 60%  (score -0.324)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=60
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.194395/0.236666 (สุทธิ -0.10) · engine เอน 0B/2S 24ชม. (-1.00) · ดูดวง bullish 0.35 (+0.35) · rolling20 $-1.65 · net72h $+0.000/trade · ลดความแรง 20% (rolling net ยังติดลบ)
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 14:27 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.77 · คะแนนหนุน 4 / กด 31) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 4) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 3 ข่าว · คะแนนรวม 16 (หนุน 1 / กด 2) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 3 ข่าว · คะแนนรวม 15 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: O
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 4, 7, 4, 1] (รวม 39) → ฐาน 9 = 3 · เลข 3 — กำไรเสริม เลื่อนขึ้น · เลขคู่เสียง 2
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 3 — กำไรเสริม เลื่อนขึ้น — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 311 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 trend: n=68 net=$-2.18 wr=63%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.057/trade (n=2)
+
+## 2026-09-28 07:38 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 93471511 → 93561536)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (31282 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 7 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 14:37", "changes": [{"strategy": "trend", "side": "buy", "raw_low_from": 0.54, "raw_low_to": 0.6, "raw_high_from": 0.814, "raw_high_to": 0.774, "net_exp": -0.2167, "net_n": 9}, {"strategy": "range", "side": "buy", "raw_low_from": 0.208, "raw_low_to": 0.258, "raw_high_from": 0.344, "raw_high_to": 0.358, "net_exp": -0.1105, "net_n": 21}, {"strategy": "range", "side": "sell", "raw_low_from": 0.231, "raw_low_to": 0.281, "raw_high_from": 0.405, "raw_high_to": 0.405, "net_exp": -0.0343, "net_n": 75}, {"strategy": "mean_reversion", "side": "buy", "raw_low_from": 0.12, "raw_low_to": 0.153, "raw_high_from": 0.277, "raw_high_to": 0.277, "net_exp": -0.0691, "net_n": 54}, {"strategy": "mean_reversion",
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 307 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   trend            n= 63 wr=0.59 win=0.34R loss=0.80R | SL=1.2 TP=1.3R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=110 wr=0.70 win=0.57R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 14:37", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 110, "wr": 0.7, "avg_win_R": 0.57, "avg_loss_R": 0.991,
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 311 ไม้ (2026-08-26T06:09 → 2026-09-16T05:54) | net -2.58 | เฉลี่ย -0.008 | ชนะ 62.7% | PF 0.95 ✗
+   · ยังไม่มีไม้ที่ระบุกลยุทธ์ได้ (311 ไม้ = รุ่นเก่าก่อนแก้ 19 ก.ย.)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (1 รอบ · 14:37→14:37 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_sell               คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_buy       คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_sell      คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.883/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.750/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 60%  (score -0.330)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=60
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.188474/0.236054 (สุทธิ -0.11) · engine เอน 0B/3S 24ชม. (-1.00) · ดูดวง bullish 0.35 (+0.35) · rolling20 $-1.65 · net72h $+0.000/trade · ลดความแรง 20% (rolling net ยังติดลบ)
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 14:38 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.77 · คะแนนหนุน 4 / กด 31) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 4) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 3 ข่าว · คะแนนรวม 16 (หนุน 1 / กด 2) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 3 ข่าว · คะแนนรวม 15 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: O
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↓ ลง (bearish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 4, 8, 5, 1] (รวม 41) → ฐาน 9 = 5 · เลข 5 — เปลี่ยนแปลง ผันผวนลงได้ · เลขคู่เสียง 4
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 5 — เปลี่ยนแปลง ผันผวนลงได้ — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=3 ออเดอร์ (~1.0/วัน) → band สมดุล
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 311 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 trend: n=68 net=$-2.18 wr=63%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.057/trade (n=2)
+
+## 2026-09-28 07:49 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 93720738 → 93789956)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (31362 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 7 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 14:48", "changes": [{"strategy": "trend", "side": "buy", "raw_low_from": 0.54, "raw_low_to": 0.6, "raw_high_from": 0.814, "raw_high_to": 0.774, "net_exp": -0.2167, "net_n": 9}, {"strategy": "range", "side": "buy", "raw_low_from": 0.208, "raw_low_to": 0.258, "raw_high_from": 0.344, "raw_high_to": 0.358, "net_exp": -0.1105, "net_n": 21}, {"strategy": "range", "side": "sell", "raw_low_from": 0.231, "raw_low_to": 0.281, "raw_high_from": 0.405, "raw_high_to": 0.405, "net_exp": -0.0343, "net_n": 75}, {"strategy": "mean_reversion", "side": "buy", "raw_low_from": 0.12, "raw_low_to": 0.153, "raw_high_from": 0.277, "raw_high_to": 0.277, "net_exp": -0.0691, "net_n": 54}, {"strategy": "mean_reversion",
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 307 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   trend            n= 63 wr=0.59 win=0.34R loss=0.80R | SL=1.2 TP=1.3R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=110 wr=0.70 win=0.57R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 14:49", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 110, "wr": 0.7, "avg_win_R": 0.57, "avg_loss_R": 0.991,
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 311 ไม้ (2026-08-26T06:09 → 2026-09-16T05:54) | net -2.58 | เฉลี่ย -0.008 | ชนะ 62.7% | PF 0.95 ✗
+   · ยังไม่มีไม้ที่ระบุกลยุทธ์ได้ (311 ไม้ = รุ่นเก่าก่อนแก้ 19 ก.ย.)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (1 รอบ · 14:37→14:37 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_sell               คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_buy       คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_sell      คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.883/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.750/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 68%  (score -0.564)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=68
+ASTRO=bearish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.105971/0.205883 (สุทธิ -0.32) · engine เอน 0B/3S 24ชม. (-1.00) · ดูดวง bearish 0.35 (-0.35) · rolling20 $-1.65 · net72h $+0.000/trade · ลดความแรง 20% (rolling net ยังติดลบ)
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 14:49 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.77 · คะแนนหนุน 4 / กด 31) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 4) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 3 ข่าว · คะแนนรวม 16 (หนุน 1 / กด 2) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 3 ข่าว · คะแนนรวม 15 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: O
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↓ ลง (bearish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 4, 9, 6, 1] (รวม 43) → ฐาน 9 = 7 · เลข 7 — เสี่ยง ดาวเสาร์กด · เลขคู่เสียง 6
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 7 — เสี่ยง ดาวเสาร์กด — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=3 ออเดอร์ (~1.0/วัน) → band สมดุล
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 311 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 trend: n=68 net=$-2.18 wr=63%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.057/trade (n=2)
+
+## 2026-09-28 08:00 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 93968654 → 94015319)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (31442 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 7 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 15:00", "changes": [{"strategy": "trend", "side": "buy", "raw_low_from": 0.54, "raw_low_to": 0.6, "raw_high_from": 0.814, "raw_high_to": 0.774, "net_exp": -0.2167, "net_n": 9}, {"strategy": "range", "side": "buy", "raw_low_from": 0.208, "raw_low_to": 0.258, "raw_high_from": 0.344, "raw_high_to": 0.358, "net_exp": -0.1105, "net_n": 21}, {"strategy": "range", "side": "sell", "raw_low_from": 0.231, "raw_low_to": 0.281, "raw_high_from": 0.405, "raw_high_to": 0.405, "net_exp": -0.0343, "net_n": 75}, {"strategy": "mean_reversion", "side": "buy", "raw_low_from": 0.12, "raw_low_to": 0.153, "raw_high_from": 0.277, "raw_high_to": 0.277, "net_exp": -0.0691, "net_n": 54}, {"strategy": "mean_reversion",
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 6 รายการที่ควรปรับ (จาก R-multiple จริง 307 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   trend            n= 63 wr=0.59 win=0.34R loss=0.80R | SL=1.2 TP=1.3R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=110 wr=0.70 win=0.57R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 15:00", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.50R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.4, "reward_risk_from": 1.5}, {"action": "set_tpsl", "strategy": "counter_trend", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.44R < 55% ของเป้า 1.30R)", "evidence": "n=27 wr=0.52 avg_win=0.44R avg_loss=0.90R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 311 ไม้ (2026-08-26T06:09 → 2026-09-16T05:54) | net -2.58 | เฉลี่ย -0.008 | ชนะ 62.7% | PF 0.95 ✗
+   · ยังไม่มีไม้ที่ระบุกลยุทธ์ได้ (311 ไม้ = รุ่นเก่าก่อนแก้ 19 ก.ย.)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (1 รอบ · 14:37→14:37 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_sell               คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_buy       คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_sell      คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.883/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.750/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 61%  (score -0.348)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=61
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.171418/0.232967 (สุทธิ -0.15) · engine เอน 0B/3S 24ชม. (-1.00) · ดูดวง bullish 0.35 (+0.35) · rolling20 $-1.65 · net72h $+0.000/trade · ลดความแรง 20% (rolling net ยังติดลบ)
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 15:00 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.77 · คะแนนหนุน 4 / กด 31) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 4) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 3 ข่าว · คะแนนรวม 16 (หนุน 1 / กด 2) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 3 ข่าว · คะแนนรวม 15 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: O
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: → ออกข้าง (sideways) · strength 0.605
+- เลข 7 ตัว: [8, 9, 6, 5, 10, 6, 1] (รวม 45) → ฐาน 9 = 9 · เลข 9 — ครบรอบ จบ-เริ่มใหม่ · เลขคู่เสียง 8
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 9 — ครบรอบ จบ-เริ่มใหม่ — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=3 ออเดอร์ (~1.0/วัน) → band สมดุล
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 311 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 trend: n=68 net=$-2.18 wr=63%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.057/trade (n=2)
+
+## 2026-09-28 08:11 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 94238421 → 94260144)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (31529 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 7 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 15:11", "changes": [{"strategy": "trend", "side": "buy", "raw_low_from": 0.54, "raw_low_to": 0.6, "raw_high_from": 0.814, "raw_high_to": 0.774, "net_exp": -0.2167, "net_n": 9}, {"strategy": "range", "side": "buy", "raw_low_from": 0.208, "raw_low_to": 0.258, "raw_high_from": 0.344, "raw_high_to": 0.358, "net_exp": -0.1105, "net_n": 21}, {"strategy": "range", "side": "sell", "raw_low_from": 0.231, "raw_low_to": 0.281, "raw_high_from": 0.405, "raw_high_to": 0.405, "net_exp": -0.0343, "net_n": 75}, {"strategy": "mean_reversion", "side": "buy", "raw_low_from": 0.12, "raw_low_to": 0.153, "raw_high_from": 0.277, "raw_high_to": 0.277, "net_exp": -0.0691, "net_n": 54}, {"strategy": "mean_reversion",
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 307 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   trend            n= 63 wr=0.59 win=0.34R loss=0.80R | SL=1.2 TP=1.3R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=110 wr=0.70 win=0.57R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 15:11", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 110, "wr": 0.7, "avg_win_R": 0.57, "avg_loss_R": 0.991,
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 311 ไม้ (2026-08-26T06:09 → 2026-09-16T05:54) | net -2.58 | เฉลี่ย -0.008 | ชนะ 62.7% | PF 0.95 ✗
+   · ยังไม่มีไม้ที่ระบุกลยุทธ์ได้ (311 ไม้ = รุ่นเก่าก่อนแก้ 19 ก.ย.)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (1 รอบ · 14:37→14:37 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_sell               คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_buy       คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_sell      คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.883/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.750/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 64%  (score -0.438)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=64
+ASTRO=sideways:0.605
+NOTE=ภายใน: แรงซื้อ/ขาย 0.162878/0.242148 (สุทธิ -0.20) · engine เอน 0B/3S 24ชม. (-1.00) · ดูดวง sideways 0.605 (+0.00) · rolling20 $-1.65 · net72h $+0.000/trade · ลดความแรง 20% (rolling net ยังติดลบ)
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 15:11 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.77 · คะแนนหนุน 4 / กด 31) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 4) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 3 ข่าว · คะแนนรวม 16 (หนุน 1 / กด 2) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 3 ข่าว · คะแนนรวม 15 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: O
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↓ ลง (bearish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 5, 1, 4, 1] (รวม 34) → ฐาน 9 = 7 · เลข 7 — เสี่ยง ดาวเสาร์กด · เลขคู่เสียง 6
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 7 — เสี่ยง ดาวเสาร์กด — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=3 ออเดอร์ (~1.0/วัน) → band สมดุล
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 311 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 trend: n=68 net=$-2.18 wr=63%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.057/trade (n=2)
+
+## 2026-09-28 08:22 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 94505181 → 94505181)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (31615 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 7 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 15:21", "changes": [{"strategy": "trend", "side": "buy", "raw_low_from": 0.556, "raw_low_to": 0.606, "raw_high_from": 0.814, "raw_high_to": 0.774, "net_exp": -0.2167, "net_n": 9}, {"strategy": "range", "side": "buy", "raw_low_from": 0.208, "raw_low_to": 0.258, "raw_high_from": 0.358, "raw_high_to": 0.358, "net_exp": -0.1105, "net_n": 21}, {"strategy": "range", "side": "sell", "raw_low_from": 0.231, "raw_low_to": 0.281, "raw_high_from": 0.405, "raw_high_to": 0.405, "net_exp": -0.0343, "net_n": 75}, {"strategy": "mean_reversion", "side": "buy", "raw_low_from": 0.103, "raw_low_to": 0.153, "raw_high_from": 0.277, "raw_high_to": 0.277, "net_exp": -0.0691, "net_n": 54}, {"strategy": "mean_reversi
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 307 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   trend            n= 63 wr=0.59 win=0.34R loss=0.80R | SL=1.2 TP=1.3R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=110 wr=0.70 win=0.57R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 15:21", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 110, "wr": 0.7, "avg_win_R": 0.57, "avg_loss_R": 0.991,
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 311 ไม้ (2026-08-26T06:09 → 2026-09-16T05:54) | net -2.58 | เฉลี่ย -0.008 | ชนะ 62.7% | PF 0.95 ✗
+   · ยังไม่มีไม้ที่ระบุกลยุทธ์ได้ (311 ไม้ = รุ่นเก่าก่อนแก้ 19 ก.ย.)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (1 รอบ · 14:37→14:37 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_sell               คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_buy       คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_sell      คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.883/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.750/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 60%  (score -0.321)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=60
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.195239/0.234009 (สุทธิ -0.09) · engine เอน 0B/3S 24ชม. (-1.00) · ดูดวง bullish 0.35 (+0.35) · rolling20 $-1.65 · net72h $+0.000/trade · ลดความแรง 20% (rolling net ยังติดลบ)
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 15:22 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.77 · คะแนนหนุน 4 / กด 31) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 4) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 3 ข่าว · คะแนนรวม 16 (หนุน 1 / กด 2) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 3 ข่าว · คะแนนรวม 15 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: O
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 5, 2, 6, 1] (รวม 37) → ฐาน 9 = 1 · เลข 1 — จุดเริ่มเดินหน้า แนวโน้มขึ้น · เลขคู่เสียง 9
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 1 — จุดเริ่มเดินหน้า แนวโน้มขึ้น — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=3 ออเดอร์ (~1.0/วัน) → band สมดุล
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 311 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 trend: n=68 net=$-2.18 wr=63%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.057/trade (n=2)
+
+## 2026-09-28 08:33 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 94664275 → 94780577)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (31709 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 7 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 15:32", "changes": [{"strategy": "trend", "side": "buy", "raw_low_from": 0.556, "raw_low_to": 0.606, "raw_high_from": 0.814, "raw_high_to": 0.774, "net_exp": -0.2167, "net_n": 9}, {"strategy": "range", "side": "buy", "raw_low_from": 0.208, "raw_low_to": 0.243, "raw_high_from": 0.358, "raw_high_to": 0.358, "net_exp": -0.1105, "net_n": 21}, {"strategy": "range", "side": "sell", "raw_low_from": 0.231, "raw_low_to": 0.281, "raw_high_from": 0.405, "raw_high_to": 0.405, "net_exp": -0.0343, "net_n": 75}, {"strategy": "mean_reversion", "side": "buy", "raw_low_from": 0.103, "raw_low_to": 0.153, "raw_high_from": 0.277, "raw_high_to": 0.277, "net_exp": -0.0691, "net_n": 54}, {"strategy": "mean_reversi
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 6 รายการที่ควรปรับ (จาก R-multiple จริง 307 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   trend            n= 63 wr=0.59 win=0.34R loss=0.80R | SL=1.2 TP=1.3R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=110 wr=0.70 win=0.57R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 15:33", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.50R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.4, "reward_risk_from": 1.5}, {"action": "set_tpsl", "strategy": "counter_trend", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.44R < 55% ของเป้า 1.30R)", "evidence": "n=27 wr=0.52 avg_win=0.44R avg_loss=0.90R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 311 ไม้ (2026-08-26T06:09 → 2026-09-16T05:54) | net -2.58 | เฉลี่ย -0.008 | ชนะ 62.7% | PF 0.95 ✗
+   · ยังไม่มีไม้ที่ระบุกลยุทธ์ได้ (311 ไม้ = รุ่นเก่าก่อนแก้ 19 ก.ย.)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (1 รอบ · 15:23→15:23 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_sell               คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_sell      คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      counter_trend_buy        คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.886/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.753/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 65%  (score -0.482)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=65
+ASTRO=sideways:0.605
+NOTE=ภายใน: แรงซื้อ/ขาย 0.120919/0.221208 (สุทธิ -0.29) · engine เอน 0B/4S 24ชม. (-1.00) · ดูดวง sideways 0.605 (+0.00) · rolling20 $-1.65 · net72h $+0.000/trade · ลดความแรง 20% (rolling net ยังติดลบ)
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 1 รายการ
+
+## 2026-09-28 15:33 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.77 · คะแนนหนุน 4 / กด 31) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 4) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 3 ข่าว · คะแนนรวม 16 (หนุน 1 / กด 2) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 3 ข่าว · คะแนนรวม 15 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: O
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 5, 3, 10, 1] (รวม 42) → ฐาน 9 = 6 · เลข 6 — เดินขึ้น เกื้อหนุน · เลขคู่เสียง 5
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 6 — เดินขึ้น เกื้อหนุน — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=4 ออเดอร์ (~1.3/วัน) → band สมดุล
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 311 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 trend: n=68 net=$-2.18 wr=63%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.057/trade (n=2)
+
+## 2026-09-28 08:44 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 94920913 → 95012536)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (31787 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 7 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 15:43", "changes": [{"strategy": "trend", "side": "buy", "raw_low_from": 0.556, "raw_low_to": 0.606, "raw_high_from": 0.814, "raw_high_to": 0.774, "net_exp": -0.2167, "net_n": 9}, {"strategy": "range", "side": "buy", "raw_low_from": 0.208, "raw_low_to": 0.243, "raw_high_from": 0.358, "raw_high_to": 0.358, "net_exp": -0.1105, "net_n": 21}, {"strategy": "range", "side": "sell", "raw_low_from": 0.231, "raw_low_to": 0.281, "raw_high_from": 0.405, "raw_high_to": 0.405, "net_exp": -0.0343, "net_n": 75}, {"strategy": "mean_reversion", "side": "buy", "raw_low_from": 0.103, "raw_low_to": 0.153, "raw_high_from": 0.277, "raw_high_to": 0.277, "net_exp": -0.0691, "net_n": 54}, {"strategy": "mean_reversi
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 307 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   trend            n= 63 wr=0.59 win=0.34R loss=0.80R | SL=1.2 TP=1.3R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=110 wr=0.70 win=0.57R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 15:44", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 110, "wr": 0.7, "avg_win_R": 0.57, "avg_loss_R": 0.991,
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 311 ไม้ (2026-08-26T06:09 → 2026-09-16T05:54) | net -2.58 | เฉลี่ย -0.008 | ชนะ 62.7% | PF 0.95 ✗
+   · ยังไม่มีไม้ที่ระบุกลยุทธ์ได้ (311 ไม้ = รุ่นเก่าก่อนแก้ 19 ก.ย.)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (1 รอบ · 15:23→15:23 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_sell               คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_sell      คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      counter_trend_buy        คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.886/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.753/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 62%  (score -0.368)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=62
+ASTRO=sideways:0.605
+NOTE=ภายใน: แรงซื้อ/ขาย 0.219313/0.237217 (สุทธิ -0.04) · engine เอน 0B/4S 24ชม. (-1.00) · ดูดวง sideways 0.605 (+0.00) · rolling20 $-1.65 · net72h $+0.000/trade · ลดความแรง 20% (rolling net ยังติดลบ)
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 15:44 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.77 · คะแนนหนุน 4 / กด 31) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 4) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 3 ข่าว · คะแนนรวม 16 (หนุน 1 / กด 2) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 3 ข่าว · คะแนนรวม 15 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (markets) U.S. 30-yr Treasury yield ends at highest level since 2004 as bond rout deepens
+- 🟢 [4] (macro) Trump: O
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: → ออกข้าง (sideways) · strength 0.605
+- เลข 7 ตัว: [8, 9, 6, 5, 4, 7, 1] (รวม 40) → ฐาน 9 = 4 · เลข 4 — เสถียร ทรงตัว · เลขคู่เสียง 3
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 4 — เสถียร ทรงตัว — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=4 ออเดอร์ (~1.3/วัน) → band สมดุล
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 311 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 trend: n=68 net=$-2.18 wr=63%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.057/trade (n=2)
+
+## 2026-09-28 08:55 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 95165508 → 95232812)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (31862 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 7 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 15:54", "changes": [{"strategy": "trend", "side": "buy", "raw_low_from": 0.556, "raw_low_to": 0.606, "raw_high_from": 0.814, "raw_high_to": 0.774, "net_exp": -0.2167, "net_n": 9}, {"strategy": "range", "side": "buy", "raw_low_from": 0.208, "raw_low_to": 0.243, "raw_high_from": 0.358, "raw_high_to": 0.358, "net_exp": -0.1105, "net_n": 21}, {"strategy": "range", "side": "sell", "raw_low_from": 0.231, "raw_low_to": 0.281, "raw_high_from": 0.405, "raw_high_to": 0.405, "net_exp": -0.0343, "net_n": 75}, {"strategy": "mean_reversion", "side": "buy", "raw_low_from": 0.103, "raw_low_to": 0.153, "raw_high_from": 0.277, "raw_high_to": 0.277, "net_exp": -0.0691, "net_n": 54}, {"strategy": "mean_reversi
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 307 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   trend            n= 63 wr=0.59 win=0.34R loss=0.80R | SL=1.2 TP=1.3R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=110 wr=0.70 win=0.57R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 15:54", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 110, "wr": 0.7, "avg_win_R": 0.57, "avg_loss_R": 0.991,
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 311 ไม้ (2026-08-26T06:09 → 2026-09-16T05:54) | net -2.58 | เฉลี่ย -0.008 | ชนะ 62.7% | PF 0.95 ✗
+   · ยังไม่มีไม้ที่ระบุกลยุทธ์ได้ (311 ไม้ = รุ่นเก่าก่อนแก้ 19 ก.ย.)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (1 รอบ · 15:23→15:23 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_sell               คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_sell      คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      counter_trend_buy        คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.886/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.753/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 64%  (score -0.437)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=64
+ASTRO=sideways:0.605
+NOTE=ภายใน: แรงซื้อ/ขาย 0.172469/0.255316 (สุทธิ -0.19) · engine เอน 0B/4S 24ชม. (-1.00) · ดูดวง sideways 0.605 (+0.00) · rolling20 $-1.65 · net72h $+0.000/trade · ลดความแรง 20% (rolling net ยังติดลบ)
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 1 รายการ
+
+## 2026-09-28 15:55 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.82 · คะแนนหนุน 4 / กด 40) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 26 (หนุน 0 / กด 4) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 4 ข่าว · คะแนนรวม 25 (หนุน 1 / กด 3) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 4 ข่าว · คะแนนรวม 24 (หนุน 0 / กด 4) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 4) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (mark
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: → ออกข้าง (sideways) · strength 0.605
+- เลข 7 ตัว: [8, 9, 6, 5, 5, 4, 1] (รวม 38) → ฐาน 9 = 2 · เลข 2 — คู่สมดุล รอจังหวะ · เลขคู่เสียง 1
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 2 — คู่สมดุล รอจังหวะ — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=4 ออเดอร์ (~1.3/วัน) → band สมดุล
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 311 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 trend: n=68 net=$-2.18 wr=63%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.057/trade (n=2)
+
+## 2026-09-28 09:07 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 95430487 → 95475836)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (31950 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 7 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 16:06", "changes": [{"strategy": "trend", "side": "buy", "raw_low_from": 0.556, "raw_low_to": 0.606, "raw_high_from": 0.814, "raw_high_to": 0.774, "net_exp": -0.2167, "net_n": 9}, {"strategy": "range", "side": "buy", "raw_low_from": 0.208, "raw_low_to": 0.243, "raw_high_from": 0.358, "raw_high_to": 0.358, "net_exp": -0.1105, "net_n": 21}, {"strategy": "range", "side": "sell", "raw_low_from": 0.231, "raw_low_to": 0.281, "raw_high_from": 0.405, "raw_high_to": 0.405, "net_exp": -0.0343, "net_n": 75}, {"strategy": "mean_reversion", "side": "buy", "raw_low_from": 0.103, "raw_low_to": 0.153, "raw_high_from": 0.277, "raw_high_to": 0.277, "net_exp": -0.0691, "net_n": 54}, {"strategy": "mean_reversi
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 6 รายการที่ควรปรับ (จาก R-multiple จริง 307 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   trend            n= 63 wr=0.59 win=0.34R loss=0.80R | SL=1.2 TP=1.3R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=110 wr=0.70 win=0.57R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 16:06", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.50R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.4, "reward_risk_from": 1.5}, {"action": "set_tpsl", "strategy": "counter_trend", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.44R < 55% ของเป้า 1.30R)", "evidence": "n=27 wr=0.52 avg_win=0.44R avg_loss=0.90R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 311 ไม้ (2026-08-26T06:09 → 2026-09-16T05:54) | net -2.58 | เฉลี่ย -0.008 | ชนะ 62.7% | PF 0.95 ✗
+   · ยังไม่มีไม้ที่ระบุกลยุทธ์ได้ (311 ไม้ = รุ่นเก่าก่อนแก้ 19 ก.ย.)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (1 รอบ · 15:23→15:23 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_sell               คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_sell      คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      counter_trend_buy        คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.886/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.753/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 60%  (score -0.294)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=60
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.225122/0.239617 (สุทธิ -0.03) · engine เอน 0B/4S 24ชม. (-1.00) · ดูดวง bullish 0.35 (+0.35) · rolling20 $-1.65 · net72h $+0.000/trade · ลดความแรง 20% (rolling net ยังติดลบ)
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 16:06 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.82 · คะแนนหนุน 4 / กด 40) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 26 (หนุน 0 / กด 4) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 4 ข่าว · คะแนนรวม 25 (หนุน 1 / กด 3) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 4 ข่าว · คะแนนรวม 24 (หนุน 0 / กด 4) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 4) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (mark
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 6, 6, 3, 1] (รวม 39) → ฐาน 9 = 3 · เลข 3 — กำไรเสริม เลื่อนขึ้น · เลขคู่เสียง 2
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 3 — กำไรเสริม เลื่อนขึ้น — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=4 ออเดอร์ (~1.3/วัน) → band สมดุล
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 311 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 trend: n=68 net=$-2.18 wr=63%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.057/trade (n=2)
+
+## 2026-09-28 09:18 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 95702281 → 95745831)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (32040 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 7 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 16:18", "changes": [{"strategy": "trend", "side": "buy", "raw_low_from": 0.556, "raw_low_to": 0.636, "raw_high_from": 0.814, "raw_high_to": 0.744, "net_exp": -0.2167, "net_n": 9}, {"strategy": "range", "side": "buy", "raw_low_from": 0.208, "raw_low_to": 0.273, "raw_high_from": 0.358, "raw_high_to": 0.373, "net_exp": -0.1105, "net_n": 21}, {"strategy": "range", "side": "sell", "raw_low_from": 0.231, "raw_low_to": 0.311, "raw_high_from": 0.405, "raw_high_to": 0.411, "net_exp": -0.0343, "net_n": 75}, {"strategy": "mean_reversion", "side": "buy", "raw_low_from": 0.103, "raw_low_to": 0.183, "raw_high_from": 0.277, "raw_high_to": 0.283, "net_exp": -0.0691, "net_n": 54}, {"strategy": "mean_reversi
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 307 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   trend            n= 63 wr=0.59 win=0.34R loss=0.80R | SL=1.2 TP=1.3R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=110 wr=0.70 win=0.57R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 16:18", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 110, "wr": 0.7, "avg_win_R": 0.57, "avg_loss_R": 0.991,
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 311 ไม้ (2026-08-26T06:09 → 2026-09-16T05:54) | net -2.58 | เฉลี่ย -0.008 | ชนะ 62.7% | PF 0.95 ✗
+   · ยังไม่มีไม้ที่ระบุกลยุทธ์ได้ (311 ไม้ = รุ่นเก่าก่อนแก้ 19 ก.ย.)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (1 รอบ · 16:11→16:11 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_sell               คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_sell      คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      breakout_sell            คะแนนดิบสูงเกินบน(อิ่มตัว) 1 · คะแนนถ่วงน้ำหนักสูงเกินบน 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.888/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.755/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 61%  (score -0.358)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=61
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.177477/0.252201 (สุทธิ -0.17) · engine เอน 0B/5S 24ชม. (-1.00) · ดูดวง bullish 0.35 (+0.35) · rolling20 $-1.65 · net72h $+0.000/trade · ลดความแรง 20% (rolling net ยังติดลบ)
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 16:18 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.82 · คะแนนหนุน 4 / กด 40) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 26 (หนุน 0 / กด 4) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 4 ข่าว · คะแนนรวม 25 (หนุน 1 / กด 3) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 4 ข่าว · คะแนนรวม 24 (หนุน 0 / กด 4) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 4) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (mark
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 6, 8, 10, 1] (รวม 48) → ฐาน 9 = 3 · เลข 3 — กำไรเสริม เลื่อนขึ้น · เลขคู่เสียง 2
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 3 — กำไรเสริม เลื่อนขึ้น — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=5 ออเดอร์ (~1.7/วัน) → band สมดุล
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
 
 ### กลไก ↔ Net Profit
 📊 [กลไก↔P/L] ปิด 311 ออเดอร์

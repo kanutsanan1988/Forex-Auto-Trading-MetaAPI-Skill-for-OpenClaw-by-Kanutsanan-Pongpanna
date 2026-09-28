@@ -33,6 +33,10 @@ if os.path.exists(_jev_cfg):
     shutil.copy(_jev_cfg, os.path.join(FAC, 'config', 'jev_config.factory.json'))
 # ★ 23 ก.ย. 2026: บันไดอำนาจ Jev (jev_power.json) — คนละไฟล์กับสวิตช์ Jev
 _jev_pwr = os.path.join(BR, 'jev_power.json')
+# ★ 28 ก.ย. 2026: ตัวเฝ้าเครดิต OpenRouter (แยกไฟล์/ตัวแปร)
+_cg = os.path.join(BR, 'credit_guard.json')
+if os.path.exists(_cg):
+    shutil.copy(_cg, os.path.join(FAC, 'config', 'credit_guard.factory.json'))
 if os.path.exists(_jev_pwr):
     shutil.copy(_jev_pwr, os.path.join(FAC, 'config', 'jev_power.factory.json'))
 

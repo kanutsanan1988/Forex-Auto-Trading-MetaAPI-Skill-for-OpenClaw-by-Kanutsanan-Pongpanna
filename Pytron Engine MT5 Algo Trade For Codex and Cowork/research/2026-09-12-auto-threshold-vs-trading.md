@@ -5250,3 +5250,257 @@
 - 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
 - 🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
 
+
+## 2026-09-28 04:47 UTC — Auto-Threshold vs Trading Activity
+- ออเดอร์: 24ชม.=0 | 72ชม.=0 | 168ชม.=0 | เฉลี่ย 0.0/วัน | gap ยาวสุด=0ชม.
+- net: รวม $0.000 | เฉลี่ย n/a/trade | win-rate(72ชม.)=n/a (รายงานเท่านั้น)
+- pass% (ล่าสุด) เฉลี่ย: 25.4% (n=12)
+- 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
+- 🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
+
+
+## 2026-09-28 04:53 UTC — Auto-Threshold vs Trading Activity
+- ออเดอร์: 24ชม.=0 | 72ชม.=0 | 168ชม.=0 | เฉลี่ย 0.0/วัน | gap ยาวสุด=0ชม.
+- net: รวม $0.000 | เฉลี่ย n/a/trade | win-rate(72ชม.)=n/a (รายงานเท่านั้น)
+- pass% (ล่าสุด) เฉลี่ย: 25.4% (n=12)
+- 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
+- 🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
+
+
+## 2026-09-28 04:58 UTC — Auto-Threshold vs Trading Activity
+- ออเดอร์: 24ชม.=0 | 72ชม.=0 | 168ชม.=0 | เฉลี่ย 0.0/วัน | gap ยาวสุด=0ชม.
+- net: รวม $0.000 | เฉลี่ย n/a/trade | win-rate(72ชม.)=n/a (รายงานเท่านั้น)
+- pass% (ล่าสุด) เฉลี่ย: 25.4% (n=12)
+- 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
+- 🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
+
+
+## 2026-09-28 04:58 UTC — Auto-Threshold vs Trading Activity
+- ออเดอร์: 24ชม.=0 | 72ชม.=0 | 168ชม.=0 | เฉลี่ย 0.0/วัน | gap ยาวสุด=0ชม.
+- net: รวม $0.000 | เฉลี่ย n/a/trade | win-rate(72ชม.)=n/a (รายงานเท่านั้น)
+- pass% (ล่าสุด) เฉลี่ย: 25.4% (n=12)
+- 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
+- 🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
+
+
+## 2026-09-28 05:10 UTC — Auto-Threshold vs Trading Activity
+- ออเดอร์: 24ชม.=0 | 72ชม.=0 | 168ชม.=0 | เฉลี่ย 0.0/วัน | gap ยาวสุด=0ชม.
+- net: รวม $0.000 | เฉลี่ย n/a/trade | win-rate(72ชม.)=n/a (รายงานเท่านั้น)
+- pass% (ล่าสุด) เฉลี่ย: 25.4% (n=12)
+- 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
+- 🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
+
+
+## 2026-09-28 05:18 UTC — Auto-Threshold vs Trading Activity
+- ออเดอร์: 24ชม.=0 | 72ชม.=0 | 168ชม.=0 | เฉลี่ย 0.0/วัน | gap ยาวสุด=0ชม.
+- net: รวม $0.000 | เฉลี่ย n/a/trade | win-rate(72ชม.)=n/a (รายงานเท่านั้น)
+- pass% (ล่าสุด) เฉลี่ย: 25.4% (n=12)
+- 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
+- 🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
+
+
+## 2026-09-28 05:20 UTC — Auto-Threshold vs Trading Activity
+- ออเดอร์: 24ชม.=0 | 72ชม.=0 | 168ชม.=0 | เฉลี่ย 0.0/วัน | gap ยาวสุด=0ชม.
+- net: รวม $0.000 | เฉลี่ย n/a/trade | win-rate(72ชม.)=n/a (รายงานเท่านั้น)
+- pass% (ล่าสุด) เฉลี่ย: 25.4% (n=12)
+- 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
+- 🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
+
+
+## 2026-09-28 05:21 UTC — Auto-Threshold vs Trading Activity
+- ออเดอร์: 24ชม.=0 | 72ชม.=0 | 168ชม.=0 | เฉลี่ย 0.0/วัน | gap ยาวสุด=0ชม.
+- net: รวม $0.000 | เฉลี่ย n/a/trade | win-rate(72ชม.)=n/a (รายงานเท่านั้น)
+- pass% (ล่าสุด) เฉลี่ย: 25.4% (n=12)
+- 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
+- 🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
+
+
+## 2026-09-28 05:23 UTC — Auto-Threshold vs Trading Activity
+- ออเดอร์: 24ชม.=0 | 72ชม.=0 | 168ชม.=0 | เฉลี่ย 0.0/วัน | gap ยาวสุด=0ชม.
+- net: รวม $0.000 | เฉลี่ย n/a/trade | win-rate(72ชม.)=n/a (รายงานเท่านั้น)
+- pass% (ล่าสุด) เฉลี่ย: 25.4% (n=12)
+- 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
+- 🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
+
+
+## 2026-09-28 05:30 UTC — Auto-Threshold vs Trading Activity
+- ออเดอร์: 24ชม.=0 | 72ชม.=0 | 168ชม.=0 | เฉลี่ย 0.0/วัน | gap ยาวสุด=0ชม.
+- net: รวม $0.000 | เฉลี่ย n/a/trade | win-rate(72ชม.)=n/a (รายงานเท่านั้น)
+- pass% (ล่าสุด) เฉลี่ย: 25.4% (n=12)
+- 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
+- 🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
+
+
+## 2026-09-28 05:35 UTC — Auto-Threshold vs Trading Activity
+- ออเดอร์: 24ชม.=0 | 72ชม.=0 | 168ชม.=0 | เฉลี่ย 0.0/วัน | gap ยาวสุด=0ชม.
+- net: รวม $0.000 | เฉลี่ย n/a/trade | win-rate(72ชม.)=n/a (รายงานเท่านั้น)
+- pass% (ล่าสุด) เฉลี่ย: 25.4% (n=12)
+- 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
+- 🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
+
+
+## 2026-09-28 05:42 UTC — Auto-Threshold vs Trading Activity
+- ออเดอร์: 24ชม.=0 | 72ชม.=0 | 168ชม.=0 | เฉลี่ย 0.0/วัน | gap ยาวสุด=0ชม.
+- net: รวม $0.000 | เฉลี่ย n/a/trade | win-rate(72ชม.)=n/a (รายงานเท่านั้น)
+- pass% (ล่าสุด) เฉลี่ย: 25.4% (n=12)
+- 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
+- 🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
+
+
+## 2026-09-28 05:42 UTC — Auto-Threshold vs Trading Activity
+- ออเดอร์: 24ชม.=0 | 72ชม.=0 | 168ชม.=0 | เฉลี่ย 0.0/วัน | gap ยาวสุด=0ชม.
+- net: รวม $0.000 | เฉลี่ย n/a/trade | win-rate(72ชม.)=n/a (รายงานเท่านั้น)
+- pass% (ล่าสุด) เฉลี่ย: 25.4% (n=12)
+- 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
+- 🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
+
+
+## 2026-09-28 05:48 UTC — Auto-Threshold vs Trading Activity
+- ออเดอร์: 24ชม.=0 | 72ชม.=0 | 168ชม.=0 | เฉลี่ย 0.0/วัน | gap ยาวสุด=0ชม.
+- net: รวม $0.000 | เฉลี่ย n/a/trade | win-rate(72ชม.)=n/a (รายงานเท่านั้น)
+- pass% (ล่าสุด) เฉลี่ย: 25.4% (n=12)
+- 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
+- 🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
+
+
+## 2026-09-28 05:51 UTC — Auto-Threshold vs Trading Activity
+- ออเดอร์: 24ชม.=0 | 72ชม.=0 | 168ชม.=0 | เฉลี่ย 0.0/วัน | gap ยาวสุด=0ชม.
+- net: รวม $0.000 | เฉลี่ย n/a/trade | win-rate(72ชม.)=n/a (รายงานเท่านั้น)
+- pass% (ล่าสุด) เฉลี่ย: 25.4% (n=12)
+- 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
+- 🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
+
+
+## 2026-09-28 05:54 UTC — Auto-Threshold vs Trading Activity
+- ออเดอร์: 24ชม.=0 | 72ชม.=0 | 168ชม.=0 | เฉลี่ย 0.0/วัน | gap ยาวสุด=0ชม.
+- net: รวม $0.000 | เฉลี่ย n/a/trade | win-rate(72ชม.)=n/a (รายงานเท่านั้น)
+- pass% (ล่าสุด) เฉลี่ย: 25.4% (n=12)
+- 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
+- 🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
+
+
+## 2026-09-28 06:05 UTC — Auto-Threshold vs Trading Activity
+- ออเดอร์: 24ชม.=0 | 72ชม.=0 | 168ชม.=0 | เฉลี่ย 0.0/วัน | gap ยาวสุด=0ชม.
+- net: รวม $0.000 | เฉลี่ย n/a/trade | win-rate(72ชม.)=n/a (รายงานเท่านั้น)
+- pass% (ล่าสุด) เฉลี่ย: 25.4% (n=12)
+- 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
+- 🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
+
+
+## 2026-09-28 06:21 UTC — Auto-Threshold vs Trading Activity
+- ออเดอร์: 24ชม.=0 | 72ชม.=0 | 168ชม.=0 | เฉลี่ย 0.0/วัน | gap ยาวสุด=0ชม.
+- net: รวม $0.000 | เฉลี่ย n/a/trade | win-rate(72ชม.)=n/a (รายงานเท่านั้น)
+- pass% (ล่าสุด) เฉลี่ย: 25.5% (n=12)
+- 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
+- 🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
+
+
+## 2026-09-28 06:32 UTC — Auto-Threshold vs Trading Activity
+- ออเดอร์: 24ชม.=0 | 72ชม.=0 | 168ชม.=0 | เฉลี่ย 0.0/วัน | gap ยาวสุด=0ชม.
+- net: รวม $0.000 | เฉลี่ย n/a/trade | win-rate(72ชม.)=n/a (รายงานเท่านั้น)
+- pass% (ล่าสุด) เฉลี่ย: 25.5% (n=12)
+- 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
+- 🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
+
+
+## 2026-09-28 06:43 UTC — Auto-Threshold vs Trading Activity
+- ออเดอร์: 24ชม.=0 | 72ชม.=0 | 168ชม.=0 | เฉลี่ย 0.0/วัน | gap ยาวสุด=0ชม.
+- net: รวม $0.000 | เฉลี่ย n/a/trade | win-rate(72ชม.)=n/a (รายงานเท่านั้น)
+- pass% (ล่าสุด) เฉลี่ย: 25.6% (n=12)
+- 🟥 ความถี่ต่ำ: ออเดอร์ 24ชม.=0, 72ชม.≤2 → band แน่นเกิน ระบบต้อง relax
+- 🟥 HARD LOCKOUT 72ชม. ไม่เทrulดเลย → ตรวจ band health / kill switch / market hours
+
+
+## 2026-09-28 06:54 UTC — Auto-Threshold vs Trading Activity
+- ออเดอร์: 24ชม.=1 | 72ชม.=1 | 168ชม.=1 | เฉลี่ย 0.3/วัน | gap ยาวสุด=0ชม.
+- net: รวม $0.000 | เฉลี่ย n/a/trade | win-rate(72ชม.)=n/a (รายงานเท่านั้น)
+- pass% (ล่าสุด) เฉลี่ย: 25.6% (n=12)
+
+
+## 2026-09-28 07:05 UTC — Auto-Threshold vs Trading Activity
+- ออเดอร์: 24ชม.=2 | 72ชม.=2 | 168ชม.=2 | เฉลี่ย 0.7/วัน | gap ยาวสุด=0ชม.
+- net: รวม $0.000 | เฉลี่ย n/a/trade | win-rate(72ชม.)=n/a (รายงานเท่านั้น)
+- pass% (ล่าสุด) เฉลี่ย: 25.6% (n=12)
+
+
+## 2026-09-28 07:16 UTC — Auto-Threshold vs Trading Activity
+- ออเดอร์: 24ชม.=2 | 72ชม.=2 | 168ชม.=2 | เฉลี่ย 0.7/วัน | gap ยาวสุด=0ชม.
+- net: รวม $0.000 | เฉลี่ย n/a/trade | win-rate(72ชม.)=n/a (รายงานเท่านั้น)
+- pass% (ล่าสุด) เฉลี่ย: 25.6% (n=12)
+
+
+## 2026-09-28 07:27 UTC — Auto-Threshold vs Trading Activity
+- ออเดอร์: 24ชม.=2 | 72ชม.=2 | 168ชม.=2 | เฉลี่ย 0.7/วัน | gap ยาวสุด=0ชม.
+- net: รวม $0.000 | เฉลี่ย n/a/trade | win-rate(72ชม.)=n/a (รายงานเท่านั้น)
+- pass% (ล่าสุด) เฉลี่ย: 25.6% (n=12)
+
+
+## 2026-09-28 07:38 UTC — Auto-Threshold vs Trading Activity
+- ออเดอร์: 24ชม.=3 | 72ชม.=3 | 168ชม.=3 | เฉลี่ย 1.0/วัน | gap ยาวสุด=1ชม.
+- net: รวม $0.000 | เฉลี่ย n/a/trade | win-rate(72ชม.)=n/a (รายงานเท่านั้น)
+- pass% (ล่าสุด) เฉลี่ย: 25.6% (n=12)
+- 🟩 เทrulดปกติ: 24ชม.=3 ออเดอร์ (~1.0/วัน) → band สมดุล
+
+
+## 2026-09-28 07:49 UTC — Auto-Threshold vs Trading Activity
+- ออเดอร์: 24ชม.=3 | 72ชม.=3 | 168ชม.=3 | เฉลี่ย 1.0/วัน | gap ยาวสุด=1ชม.
+- net: รวม $0.000 | เฉลี่ย n/a/trade | win-rate(72ชม.)=n/a (รายงานเท่านั้น)
+- pass% (ล่าสุด) เฉลี่ย: 25.6% (n=12)
+- 🟩 เทrulดปกติ: 24ชม.=3 ออเดอร์ (~1.0/วัน) → band สมดุล
+
+
+## 2026-09-28 08:00 UTC — Auto-Threshold vs Trading Activity
+- ออเดอร์: 24ชม.=3 | 72ชม.=3 | 168ชม.=3 | เฉลี่ย 1.0/วัน | gap ยาวสุด=1ชม.
+- net: รวม $0.000 | เฉลี่ย n/a/trade | win-rate(72ชม.)=n/a (รายงานเท่านั้น)
+- pass% (ล่าสุด) เฉลี่ย: 25.6% (n=12)
+- 🟩 เทrulดปกติ: 24ชม.=3 ออเดอร์ (~1.0/วัน) → band สมดุล
+
+
+## 2026-09-28 08:11 UTC — Auto-Threshold vs Trading Activity
+- ออเดอร์: 24ชม.=3 | 72ชม.=3 | 168ชม.=3 | เฉลี่ย 1.0/วัน | gap ยาวสุด=1ชม.
+- net: รวม $0.000 | เฉลี่ย n/a/trade | win-rate(72ชม.)=n/a (รายงานเท่านั้น)
+- pass% (ล่าสุด) เฉลี่ย: 25.6% (n=12)
+- 🟩 เทrulดปกติ: 24ชม.=3 ออเดอร์ (~1.0/วัน) → band สมดุล
+
+
+## 2026-09-28 08:22 UTC — Auto-Threshold vs Trading Activity
+- ออเดอร์: 24ชม.=3 | 72ชม.=3 | 168ชม.=3 | เฉลี่ย 1.0/วัน | gap ยาวสุด=1ชม.
+- net: รวม $0.000 | เฉลี่ย n/a/trade | win-rate(72ชม.)=n/a (รายงานเท่านั้น)
+- pass% (ล่าสุด) เฉลี่ย: 25.6% (n=12)
+- 🟩 เทrulดปกติ: 24ชม.=3 ออเดอร์ (~1.0/วัน) → band สมดุล
+
+
+## 2026-09-28 08:33 UTC — Auto-Threshold vs Trading Activity
+- ออเดอร์: 24ชม.=4 | 72ชม.=4 | 168ชม.=4 | เฉลี่ย 1.3/วัน | gap ยาวสุด=1ชม.
+- net: รวม $0.000 | เฉลี่ย n/a/trade | win-rate(72ชม.)=n/a (รายงานเท่านั้น)
+- pass% (ล่าสุด) เฉลี่ย: 25.6% (n=12)
+- 🟩 เทrulดปกติ: 24ชม.=4 ออเดอร์ (~1.3/วัน) → band สมดุล
+
+
+## 2026-09-28 08:44 UTC — Auto-Threshold vs Trading Activity
+- ออเดอร์: 24ชม.=4 | 72ชม.=4 | 168ชม.=4 | เฉลี่ย 1.3/วัน | gap ยาวสุด=1ชม.
+- net: รวม $0.000 | เฉลี่ย n/a/trade | win-rate(72ชม.)=n/a (รายงานเท่านั้น)
+- pass% (ล่าสุด) เฉลี่ย: 25.6% (n=12)
+- 🟩 เทrulดปกติ: 24ชม.=4 ออเดอร์ (~1.3/วัน) → band สมดุล
+
+
+## 2026-09-28 08:55 UTC — Auto-Threshold vs Trading Activity
+- ออเดอร์: 24ชม.=4 | 72ชม.=4 | 168ชม.=4 | เฉลี่ย 1.3/วัน | gap ยาวสุด=1ชม.
+- net: รวม $0.000 | เฉลี่ย n/a/trade | win-rate(72ชม.)=n/a (รายงานเท่านั้น)
+- pass% (ล่าสุด) เฉลี่ย: 25.6% (n=12)
+- 🟩 เทrulดปกติ: 24ชม.=4 ออเดอร์ (~1.3/วัน) → band สมดุล
+
+
+## 2026-09-28 09:06 UTC — Auto-Threshold vs Trading Activity
+- ออเดอร์: 24ชม.=4 | 72ชม.=4 | 168ชม.=4 | เฉลี่ย 1.3/วัน | gap ยาวสุด=1ชม.
+- net: รวม $0.000 | เฉลี่ย n/a/trade | win-rate(72ชม.)=n/a (รายงานเท่านั้น)
+- pass% (ล่าสุด) เฉลี่ย: 25.6% (n=12)
+- 🟩 เทrulดปกติ: 24ชม.=4 ออเดอร์ (~1.3/วัน) → band สมดุล
+
+
+## 2026-09-28 09:18 UTC — Auto-Threshold vs Trading Activity
+- ออเดอร์: 24ชม.=5 | 72ชม.=5 | 168ชม.=5 | เฉลี่ย 1.7/วัน | gap ยาวสุด=1ชม.
+- net: รวม $0.000 | เฉลี่ย n/a/trade | win-rate(72ชม.)=n/a (รายงานเท่านั้น)
+- pass% (ล่าสุด) เฉลี่ย: 25.6% (n=12)
+- 🟩 เทrulดปกติ: 24ชม.=5 ออเดอร์ (~1.7/วัน) → band สมดุล
+

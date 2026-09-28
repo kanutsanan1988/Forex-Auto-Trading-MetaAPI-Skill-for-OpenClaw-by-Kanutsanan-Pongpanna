@@ -107,9 +107,10 @@ STRUCTURE_BOUNDS = {
     'strategy_router.adaptive.disable_profit_factor': (0.70, 1.00),
     'strategy_router.adaptive.min_samples': (8.0, 30.0),
     'strategy_router.auto_threshold.window_records': (120.0, 400.0),
-    'strategy_router.auto_threshold.band_min_widths.raw': (0.06, 0.20),
-    'strategy_router.auto_threshold.band_min_widths.probability': (0.06, 0.20),
-    'strategy_router.auto_threshold.band_min_widths.weighted': (0.06, 0.20),
+    # ★ 28 ก.ย. 2026: มาตรฐานเจ้าของระบบ — band ต้องไม่แคบกว่า 0.10 (กว้างกว่าได้ ไม่แคบกว่า)
+    'strategy_router.auto_threshold.band_min_widths.raw': (0.10, 0.20),
+    'strategy_router.auto_threshold.band_min_widths.probability': (0.10, 0.20),
+    'strategy_router.auto_threshold.band_min_widths.weighted': (0.10, 0.20),
     'atr_stop_multiplier': (0.80, 2.00),
     'min_reward_risk': (1.00, 2.00),
     # ★ 19 ก.ย. 2026: เพดานเดิม 2.00 ต่ำกว่าค่าจริงของเจ้าของระบบ (8.0)

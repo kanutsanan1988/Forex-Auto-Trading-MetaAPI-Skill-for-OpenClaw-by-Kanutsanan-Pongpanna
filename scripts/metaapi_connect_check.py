@@ -56,6 +56,13 @@ def _need(name: str) -> str:
 
 
 async def _run(symbol: str) -> dict:
+    bridge = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "metaapi")
+    if bridge not in sys.path:
+        sys.path.insert(0, bridge)
+    # Reuse the adapter's SDK logger routing/redaction so even SDK failures do
+    # not print account identifiers or credentials in diagnostic output.
+    from metaapi_mt5_shim import _route_sdk_logs_to_stderr
+    _route_sdk_logs_to_stderr()
     from metaapi_cloud_sdk import MetaApi
 
     token = _need("METAAPI_TOKEN")

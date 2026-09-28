@@ -55,6 +55,13 @@ def main():
     fcfg = json.loads(io.open(os.path.join(FAC, "config", "auto_config.factory.json"), encoding="utf-8").read())
     fc, ff = flat(cur), flat(fcfg)
     diff = sorted(k for k in set(fc) | set(ff) if fc.get(k) != ff.get(k))
+    # 28 ก.ย. 2026: แยก "ค่าที่ระบบปรับเองระหว่างรัน" (ตัวเทรดนับสถิติ/เรียนรู้เอง) ออกจาก "ค่าที่ถูกแก้โดยไม่ตั้งใจ"
+    _runtime_pref = ("strategy_router.auto_threshold._touches.",
+                     "strategy_router.auto_threshold._last_",
+                     "strategy_router.auto_threshold._stage")
+    _runtime = [k for k in diff if k.startswith(_runtime_pref)]
+    diff = [k for k in diff if not k.startswith(_runtime_pref)]
+    print("   ℹ ค่าที่ระบบปรับเองระหว่างรัน: %d คีย์ (ปกติ)" % len(_runtime))
     print("\n1) ค่าตั้ง (%d คีย์)" % len(fc))
     if diff:
         print("   ✗ ต่าง %d คีย์: %s" % (len(diff), ", ".join(diff[:6])))

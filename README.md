@@ -24,7 +24,7 @@
 - `scripts/` — package verification and read-only MetaAPI connection/engine checks.
 - `QC/` — two independent, portable package-QC scripts.
 
-The full system flow, source factory defaults, and 12 directional score/probability/weighted threshold bands are documented in [`trading-system/README.md`](trading-system/README.md). Read it before operating or adapting the system.
+The refreshed system flow, factory values, 12 directional score/probability/weighted bands, current Mode 1/2 contract, credit guard, and 576 research files are documented in [`trading-system/README.md`](trading-system/README.md). Read it before operating or adapting the system.
 
 The research archive is included at the owner's request. It contains historical check/trade research inputs; inspect privacy and third-party source rights before uploading this ZIP publicly. Current credentials and live runtime state are excluded.
 
@@ -77,7 +77,7 @@ These checks only read account state, symbol specifications, and market bars. Th
 
 ### What was verified for this build
 
-On 2026-09-24, from the Windows validation host, SDK `29.1.1` completed an authenticated read-only connection using the owner's local credential store: account lookup, deployed-state confirmation, RPC synchronization, account/position/order reads, symbol specification, and M1/M5/M15/H1 history. Credentials, account UUID, prices, balances, and equity are not included here. No deploy, undeploy, order, close, or modify RPC was called. See [`trading-system/research/2026-09-24-metaapi-readonly-validation.md`](trading-system/research/2026-09-24-metaapi-readonly-validation.md).
+On 2026-09-28, from the Windows validation host, SDK `29.1.1` completed an authenticated read-only connection using the owner's local credential store: account lookup, deployed-state confirmation, RPC synchronization, account/position/order reads, symbol specification, and M1/M5/M15/H1 history. Credentials, account UUID, prices, balances, and equity are not included here. No deploy, undeploy, order, close, or modify RPC was called. See [`trading-system/research/2026-09-28-metaapi-readonly-validation.md`](trading-system/research/2026-09-28-metaapi-readonly-validation.md).
 
 This confirms the tested read path only. **Live order execution and full position-lifecycle parity are not certified.** The package remains stopped and Live-disabled; do not remove the stop file or enable live trading based on this connection check.
 

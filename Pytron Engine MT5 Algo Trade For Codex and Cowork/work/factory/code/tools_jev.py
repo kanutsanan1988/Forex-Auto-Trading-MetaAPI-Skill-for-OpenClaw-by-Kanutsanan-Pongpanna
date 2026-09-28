@@ -9,7 +9,7 @@
   "ใช้คีย์ open router ตัวเดียวกันกับที่คุณใช้อยู่"
 
 ═══════════════════════════════════════════════════════════════════════════
-Jev คืออะไร (สรุปจากการศึกษาจริง — docs.typesafe.ai + OpenRouter)
+Jev คืออะไร (สรุปจากการศึกษาจริง — docs.typesafe.ai; OpenRouter เป็น adapter ตัวอย่าง)
 ═══════════════════════════════════════════════════════════════════════════
 • Jev ≠ โมเดลสร้างข้อความ และ ≠ agent — มันคือ **โมเดลตัดสินใจแบบมีโครงสร้าง** (System One)
   ส่ง `state` (ข้อความ/ออบเจ็กต์/อาร์เรย์) + ชุด `questions` แบบมีชนิด → คืน `answers`
@@ -31,8 +31,9 @@ Jev คืออะไร (สรุปจากการศึกษาจร�
   admin-safety→ ตรวจการปรับค่าของแอดมินบอทก่อนบันทึก: อยู่ในเจตนาระบบไหม · เสี่ยงขึ้นไหม
   regime      → จัดภาวะตลาด (trend/range/choppy) + ความแข็งของแนวโน้ม
 
-**หลักการ:** Jev เป็น "ผู้ช่วยตัดสินใจ" ไม่ใช่ผู้คุมระบบ — ผลลัพธ์ที่ได้เป็น *ข้อมูล* ให้โค้ด/บอท
-ประกอบการตัดสินใจ · ถ้าเรียกไม่สำเร็จ = คืน ok:false แล้วระบบเดิมทำงานต่อ (fail-safe ทุกทาง)
+**หลักการ:** Jev เป็น "ผู้ช่วยตัดสินใจ" ไม่ใช่ dependency บังคับ — OpenRouter เป็นวิธีเชื่อมต่อของ source นี้
+ผู้ใช้สำเนาสามารถแทน adapter หรือปิด Jev ได้ · ถ้าเรียกไม่สำเร็จ = คืน ok:false แล้วระบบเดิมทำงานต่อ
+(fail-safe ทุกทาง)
 
 CLI:
   python tools/jev.py --probe                          # ทดสอบการเชื่อมต่อ
@@ -53,6 +54,9 @@ import urllib.request
 HERE = os.path.dirname(os.path.abspath(__file__))
 BRIDGE = os.path.dirname(HERE)                     # outputs/mt5_python_bridge
 ROOT = os.path.dirname(os.path.dirname(BRIDGE))    # โฟลเดอร์ระบบเทรดทองคำ (แก้ 23 ก.ย. 2026: เดิมขึ้นมาไม่ครบชั้น)
+if BRIDGE not in sys.path:
+    sys.path.insert(0, BRIDGE)
+from runtime_support import require_ai_mode
 WORK = os.path.join(ROOT, "work")
 AUDIT = os.path.join(WORK, "jev_audit.jsonl")
 CFG = os.path.join(BRIDGE, "jev_config.json")
@@ -60,11 +64,11 @@ CFG = os.path.join(BRIDGE, "jev_config.json")
 ENDPOINT = "https://openrouter.ai/api/alpha/decisions"
 DEFAULT_MODEL = "~typesafe/jev-latest"
 
-# ★ เจ้าของระบบกำหนด (23 ก.ย. 2026): "Jev จะทำงานพร้อมกันเพียงกับบอทของโหมด 2 และ admin bot เท่านั้น"
-#   → ทุกการเรียกต้องระบุ context ของบอท · ส่วนกลาง/สคริปต์อื่นเรียกไม่ได้ (กัน Jev ทำงานนอกบอท)
+# AI ที่อยู่ในวงจรเทรดใช้ได้เฉพาะโหมด 2; Hermes กลางเป็นผู้ช่วยทั่วไปแยกจากการตัดสินใจเทรด
 ALLOWED_CONTEXTS = ("mode2", "admin", "hermes", "hermes-trade")
-#   mode2 / admin = บอทในระบบเทรด · hermes-trade = ดุลยพินิจสมองหลัก "ในระบบเทรด" (Jev = ผู้ช่วย + บันไดอำนาจ)
-#   hermes        = ★ ระบบกลางของ Hermes เอง — เจ้าของระบบให้ Jev เป็น "ผู้ช่วย + ผู้ตัดสินใจ" (23 ก.ย. 2026)
+#   mode2 / admin / hermes-trade = AI ที่ร่วมกับระบบเทรด (ต้องผ่าน require_ai_mode)
+#   hermes        = ระบบกลางของ Hermes (ไม่สั่ง/ตัดสินใจออเดอร์)
+TRADING_CONTEXTS = ("mode2", "admin", "hermes-trade")
 CONTEXT_MANUAL = "manual"          # CLI/ทดสอบด้วยมือ (ไม่ใช่การทำงานประจำของระบบ)
 CONTEXT_LABEL = {"hermes": "ระบบกลางของ Hermes (Jev = ผู้ช่วย + ผู้ตัดสินใจ)", "hermes-trade": "สมองหลักในระบบเทรด (Jev = ผู้ช่วย + บันไดอำนาจ)", "mode2": "บอทโหมด 2 (วิจัย 10 นาที)", "admin": "แอดมินบอท (รอบ 30 นาที)",
                  "manual": "ทดสอบด้วยมือ (CLI)"}
@@ -93,7 +97,8 @@ def load_config():
     cfg = dict(DEFAULT_CONFIG)
     try:
         if os.path.exists(CFG):
-            cfg.update(json.load(io.open(CFG, encoding="utf-8")))
+            with io.open(CFG, encoding="utf-8") as source:
+                cfg.update(json.load(source))
     except Exception:
         pass
     if os.environ.get("JEV_ENABLED", "").strip() in ("0", "false", "no"):
@@ -447,11 +452,17 @@ def ask(state, questions, model=None, timeout=None, max_attempts=None, preset="c
     cfg = load_config()
     out = {"ok": False, "preset": preset, "context": context, "answers": {}, "derived": {},
            "usage": {}, "latency_ms": 0, "error": None, "model": model or cfg["model"]}
-    # ★ เจ้าของระบบกำหนด: Jev ทำงานพร้อมกับบอท 2 ตัวเท่านั้น
+    # AI ที่อยู่ในวงจรเทรดต้องผ่าน mode 2 และไม่มี Kill Switch ก่อนเรียก API
     if context not in ALLOWED_CONTEXTS and context != CONTEXT_MANUAL:
         out["error"] = ("Jev ทำงานกับ mode2 / admin / hermes-trade / hermes — ต้องระบุ context "
                         "ของผู้เรียก ไม่เปิดให้ส่วนกลางเรียกเอง")
         return out
+    if context in TRADING_CONTEXTS:
+        try:
+            require_ai_mode()
+        except Exception as exc:
+            out["error"] = "AI integration blocked by trading mode or Kill Switch: %s" % exc
+            return out
     if not cfg.get("enabled", True):
         out["error"] = "ปิดใช้งานอยู่ (jev_config.json enabled=false)"
         return out

@@ -16,7 +16,7 @@ BR = ROOT / 'outputs' / 'mt5_python_bridge'
 WORK = ROOT / 'work'
 sys.path.insert(0, str(BR))
 from runtime_support import MODE_TITLES
-from choose_mode import JOBS, RESEARCH_JOB, ADMIN_JOB
+from choose_mode import JOBS, RESEARCH_JOB, ADMIN_JOB, BRAIN_CONSULT_JOB
 
 def th(x): return x
 
@@ -61,6 +61,7 @@ def jobs():
             if cur in JOBS:
                 label = {RESEARCH_JOB: 'AI Signal Bot (10 นาที)',
                          ADMIN_JOB: 'AI Admin Bot (30 นาที)',
+                         BRAIN_CONSULT_JOB: 'AI Brain Consult (30 นาที)',
                          'llm-recommendation-consumer': 'ตัวรับคำแนะนำ Python/AI (5 นาที)',
                          'trading-daily-research-log': 'Python บันทึกงานวิจัยรายวัน',
                          'trading-analytics': 'Python วิเคราะห์/วิจัยภายใน (10 นาที)'}[cur]
