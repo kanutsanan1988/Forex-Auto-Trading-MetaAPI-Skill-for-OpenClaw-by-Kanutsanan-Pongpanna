@@ -210,6 +210,38 @@ def q_analytics():
     return ok, ("วิเคราะห์ภายในจบครบ (มีกระดานคะแนน)" if ok else out.strip()[-90:])
 
 
+def q_no_ai():
+    """★ ด่านกันเข้าใจผิดถาวร: "ตัวเทรดไม่ต้องมี AI" — ตรวจ static + พิสูจน์ด้วยการ import จริงว่า
+    โมดูลตัดสินใจของตัวเทรดทำงานได้แม้ไม่มีชั้น LLM + รายงานสถานะชั้น LLM จากบันทึกรอบล่าสุด"""
+    rc, out = run(["-m", "pytest", os.path.join(T, "..", "tests",
+                      "test_trader_no_ai_dependency.py"), "-q"], timeout=300)
+    ok = rc == 0 and "failed" not in out
+    note = ""
+    for line in out.splitlines():
+        if "passed" in line or "failed" in line:
+            note = line.strip()
+    try:
+        mode_file = os.path.join(WORK, "trading_mode.json")
+        mode = "?"
+        if os.path.exists(mode_file):
+            raw = json.load(io.open(mode_file, encoding="utf-8"))
+            mode = str(raw.get("mode") or raw.get("current") or raw)[:24]
+        audit_path = os.path.join(WORK, "auto_trader_audit.jsonl")
+        llm_state = "?"
+        if os.path.exists(audit_path):
+            with io.open(audit_path, "rb") as fh:
+                fh.seek(max(0, os.path.getsize(audit_path) - 262144))
+                tail = fh.read().decode("utf-8", "replace")
+            for ln in reversed(tail.splitlines()):
+                if "dual_agent_result" in ln:
+                    llm_state = str(json.loads(ln).get("status") or "?")
+                    break
+        note = "%s · mode=%s · llm_layer=%s" % (note, mode, llm_state)
+    except Exception as exc:
+        note = "%s (อ่านสถานะไม่ได้: %s)" % (note, exc)
+    return ok, note[:90]
+
+
 item(1, "ตรวจครบ 38 ข้อ (full audit)", q_audit)
 item(1, "ตรงกับค่าโรงงาน (factory)", q_factory)
 item(1, "ทุกไฟล์ compile ผ่าน", q_compile)
@@ -235,6 +267,7 @@ def q_credit_guard():
 
 item(2, "ตัวเฝ้าเครดิต OpenRouter", q_credit_guard)
 item(2, "วิเคราะห์ข้อมูลภายใน", q_analytics)
+item(2, "★ ตัวเทรดไม่ต้องมี AI (ด่านถาวร)", q_no_ai)
 
 
 def run_round(no, label=""):

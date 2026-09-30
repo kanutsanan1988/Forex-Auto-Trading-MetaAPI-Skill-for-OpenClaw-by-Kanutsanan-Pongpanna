@@ -31,11 +31,13 @@ REQUIRED = [
     "trading-system/research/SESSION-STATE.md",
     "trading-system/research/2026-09-24-metaapi-readonly-validation.md",
     "trading-system/research/2026-09-28-metaapi-readonly-validation.md",
+    "trading-system/research/2026-09-30-metaapi-readonly-validation.md",
     "trading-system/work/AUTO_TRADER_STOP",
     "metaapi/metaapi_mt5_shim.py", "metaapi/test_shim_offline.py",
     "metaapi/METAAPI-SDK-LICENSE.txt",
     "metaapi/evidence/live-readonly-verify-20260924.json",
     "metaapi/evidence/live-readonly-verify-20260928.json",
+    "metaapi/evidence/live-readonly-verify-20260930.json",
     "vendor/metaapi_cloud_sdk-29.1.1-py3-none-any.whl",
     "vendor/SHA256SUMS.txt", "scripts/verify_package.py",
     "requirements-metaapi.txt",
@@ -87,6 +89,12 @@ def main() -> int:
         live_disabled = False
     record("distribution Live disabled and Kill Switch present",
            live_disabled and (ROOT / "trading-system/work/AUTO_TRADER_STOP").exists())
+    try:
+        mode = json.loads((ROOT / "trading-system/work/trading_mode.json").read_text(encoding="utf-8"))
+        default_ai_mode = mode.get("mode") == "internal_llm_join"
+    except Exception:
+        default_ai_mode = False
+    record("portable default is AI-join mode without enabling Live", default_ai_mode and live_disabled)
     record("license scopes separated",
            "MIT No Attribution" in (ROOT / "LICENSE").read_text(encoding="utf-8")
            and "MIT License" in (ROOT / "trading-system/LICENSE").read_text(encoding="utf-8")

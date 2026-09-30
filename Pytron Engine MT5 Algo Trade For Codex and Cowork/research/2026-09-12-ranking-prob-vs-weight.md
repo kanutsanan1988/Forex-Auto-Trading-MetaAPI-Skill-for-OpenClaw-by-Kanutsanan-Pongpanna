@@ -3220,3 +3220,613 @@
 - เลือก: **weight** (ก่อน: weight)
 - weight>1: net เฉลี่ย $0.056/trade (n=2)
 - weight<1: net เฉลี่ย $-0.057/trade (n=2)
+
+## 2026-09-28 16:29 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.056/trade (n=2)
+- weight<1: net เฉลี่ย $-0.057/trade (n=2)
+
+## 2026-09-28 16:41 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.056/trade (n=2)
+- weight<1: net เฉลี่ย $-0.057/trade (n=2)
+
+## 2026-09-28 16:53 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.056/trade (n=2)
+- weight<1: net เฉลี่ย $-0.057/trade (n=2)
+
+## 2026-09-28 17:15 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.056/trade (n=2)
+- weight<1: net เฉลี่ย $-0.046/trade (n=2)
+
+## 2026-09-28 17:36 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.056/trade (n=2)
+- weight<1: net เฉลี่ย $-0.046/trade (n=2)
+
+## 2026-09-28 17:50 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.056/trade (n=2)
+- weight<1: net เฉลี่ย $-0.040/trade (n=2)
+
+## 2026-09-28 18:03 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.056/trade (n=2)
+- weight<1: net เฉลี่ย $-0.040/trade (n=2)
+
+## 2026-09-28 18:15 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.056/trade (n=2)
+- weight<1: net เฉลี่ย $-0.040/trade (n=2)
+
+## 2026-09-28 18:27 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.056/trade (n=2)
+- weight<1: net เฉลี่ย $-0.034/trade (n=2)
+
+## 2026-09-28 18:38 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.056/trade (n=2)
+- weight<1: net เฉลี่ย $-0.034/trade (n=2)
+
+## 2026-09-28 18:48 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.056/trade (n=2)
+- weight<1: net เฉลี่ย $-0.034/trade (n=2)
+
+## 2026-09-28 18:59 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.056/trade (n=2)
+- weight<1: net เฉลี่ย $-0.034/trade (n=2)
+
+## 2026-09-28 19:10 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.056/trade (n=2)
+- weight<1: net เฉลี่ย $-0.034/trade (n=2)
+
+## 2026-09-28 19:22 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.056/trade (n=2)
+- weight<1: net เฉลี่ย $-0.029/trade (n=2)
+
+## 2026-09-28 19:33 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.056/trade (n=2)
+- weight<1: net เฉลี่ย $-0.036/trade (n=2)
+
+## 2026-09-28 19:44 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.056/trade (n=2)
+- weight<1: net เฉลี่ย $-0.036/trade (n=2)
+
+## 2026-09-28 19:55 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.056/trade (n=2)
+- weight<1: net เฉลี่ย $-0.043/trade (n=2)
+
+## 2026-09-28 20:06 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.056/trade (n=2)
+- weight<1: net เฉลี่ย $-0.043/trade (n=2)
+
+## 2026-09-28 20:17 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.056/trade (n=2)
+- weight<1: net เฉลี่ย $-0.043/trade (n=2)
+
+## 2026-09-28 20:29 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.056/trade (n=2)
+- weight<1: net เฉลี่ย $-0.043/trade (n=2)
+
+## 2026-09-28 20:40 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.056/trade (n=2)
+- weight<1: net เฉลี่ย $-0.043/trade (n=2)
+
+## 2026-09-28 20:51 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.056/trade (n=2)
+- weight<1: net เฉลี่ย $-0.043/trade (n=2)
+
+## 2026-09-28 21:02 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.056/trade (n=2)
+- weight<1: net เฉลี่ย $-0.043/trade (n=2)
+
+## 2026-09-28 21:13 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.056/trade (n=2)
+- weight<1: net เฉลี่ย $-0.042/trade (n=2)
+
+## 2026-09-28 21:24 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.056/trade (n=2)
+- weight<1: net เฉลี่ย $-0.042/trade (n=2)
+
+## 2026-09-28 21:36 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.056/trade (n=2)
+- weight<1: net เฉลี่ย $-0.042/trade (n=2)
+
+## 2026-09-28 21:46 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.056/trade (n=2)
+- weight<1: net เฉลี่ย $-0.042/trade (n=2)
+
+## 2026-09-28 21:57 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.056/trade (n=2)
+- weight<1: net เฉลี่ย $-0.042/trade (n=2)
+
+## 2026-09-28 22:08 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.056/trade (n=2)
+- weight<1: net เฉลี่ย $-0.037/trade (n=2)
+
+## 2026-09-28 22:19 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.056/trade (n=2)
+- weight<1: net เฉลี่ย $-0.037/trade (n=2)
+
+## 2026-09-28 22:30 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.056/trade (n=2)
+- weight<1: net เฉลี่ย $-0.028/trade (n=2)
+
+## 2026-09-28 22:41 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.056/trade (n=2)
+- weight<1: net เฉลี่ย $-0.021/trade (n=2)
+
+## 2026-09-28 22:52 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.056/trade (n=2)
+- weight<1: net เฉลี่ย $-0.021/trade (n=2)
+
+## 2026-09-28 23:05 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.056/trade (n=2)
+- weight<1: net เฉลี่ย $-0.021/trade (n=2)
+
+## 2026-09-28 23:18 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.056/trade (n=2)
+- weight<1: net เฉลี่ย $-0.021/trade (n=2)
+
+## 2026-09-28 23:31 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.056/trade (n=2)
+- weight<1: net เฉลี่ย $-0.010/trade (n=2)
+
+## 2026-09-28 23:44 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.056/trade (n=2)
+- weight<1: net เฉลี่ย $-0.010/trade (n=2)
+
+## 2026-09-28 23:57 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.056/trade (n=2)
+- weight<1: net เฉลี่ย $-0.019/trade (n=2)
+
+## 2026-09-29 00:10 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.056/trade (n=2)
+- weight<1: net เฉลี่ย $-0.007/trade (n=2)
+
+## 2026-09-29 00:23 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.061/trade (n=2)
+- weight<1: net เฉลี่ย $-0.007/trade (n=2)
+
+## 2026-09-29 00:36 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.061/trade (n=2)
+- weight<1: net เฉลี่ย $-0.007/trade (n=2)
+
+## 2026-09-29 00:49 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.061/trade (n=2)
+- weight<1: net เฉลี่ย $-0.007/trade (n=2)
+
+## 2026-09-29 01:02 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.061/trade (n=2)
+- weight<1: net เฉลี่ย $-0.007/trade (n=2)
+
+## 2026-09-29 01:15 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.061/trade (n=2)
+- weight<1: net เฉลี่ย $-0.007/trade (n=2)
+
+## 2026-09-29 01:28 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.061/trade (n=2)
+- weight<1: net เฉลี่ย $-0.007/trade (n=2)
+
+## 2026-09-29 01:41 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.061/trade (n=2)
+- weight<1: net เฉลี่ย $-0.007/trade (n=2)
+
+## 2026-09-29 01:54 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.061/trade (n=2)
+- weight<1: net เฉลี่ย $-0.007/trade (n=2)
+
+## 2026-09-29 02:07 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.061/trade (n=2)
+- weight<1: net เฉลี่ย $-0.007/trade (n=2)
+
+## 2026-09-29 02:20 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.061/trade (n=2)
+- weight<1: net เฉลี่ย $-0.014/trade (n=2)
+
+## 2026-09-29 02:33 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.053/trade (n=2)
+- weight<1: net เฉลี่ย $-0.021/trade (n=2)
+
+## 2026-09-29 02:46 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.064/trade (n=2)
+- weight<1: net เฉลี่ย $-0.021/trade (n=2)
+
+## 2026-09-29 02:59 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.064/trade (n=2)
+- weight<1: net เฉลี่ย $-0.021/trade (n=2)
+
+## 2026-09-29 03:12 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.054/trade (n=2)
+- weight<1: net เฉลี่ย $-0.021/trade (n=2)
+
+## 2026-09-29 03:25 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.054/trade (n=2)
+- weight<1: net เฉลี่ย $-0.021/trade (n=2)
+
+## 2026-09-29 03:38 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.054/trade (n=2)
+- weight<1: net เฉลี่ย $-0.021/trade (n=2)
+
+## 2026-09-29 03:51 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.054/trade (n=2)
+- weight<1: net เฉลี่ย $-0.021/trade (n=2)
+
+## 2026-09-29 04:04 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.054/trade (n=2)
+- weight<1: net เฉลี่ย $-0.021/trade (n=2)
+
+## 2026-09-29 04:17 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.054/trade (n=2)
+- weight<1: net เฉลี่ย $-0.021/trade (n=2)
+
+## 2026-09-29 04:30 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.054/trade (n=2)
+- weight<1: net เฉลี่ย $-0.021/trade (n=2)
+
+## 2026-09-29 04:43 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.054/trade (n=2)
+- weight<1: net เฉลี่ย $-0.021/trade (n=2)
+
+## 2026-09-29 04:56 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.054/trade (n=2)
+- weight<1: net เฉลี่ย $-0.021/trade (n=2)
+
+## 2026-09-29 05:09 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.059/trade (n=2)
+- weight<1: net เฉลี่ย $-0.021/trade (n=2)
+
+## 2026-09-29 05:22 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.059/trade (n=2)
+- weight<1: net เฉลี่ย $-0.021/trade (n=2)
+
+## 2026-09-29 05:35 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.021/trade (n=2)
+
+## 2026-09-29 05:48 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.021/trade (n=2)
+
+## 2026-09-29 06:01 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.021/trade (n=2)
+
+## 2026-09-29 06:14 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.021/trade (n=2)
+
+## 2026-09-29 06:27 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.021/trade (n=2)
+
+## 2026-09-29 06:40 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.018/trade (n=2)
+
+## 2026-09-29 06:53 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.008/trade (n=2)
+
+## 2026-09-29 07:06 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.006/trade (n=2)
+
+## 2026-09-29 07:19 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.006/trade (n=2)
+
+## 2026-09-29 07:32 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.006/trade (n=2)
+
+## 2026-09-29 07:45 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.006/trade (n=2)
+
+## 2026-09-29 07:58 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.006/trade (n=2)
+
+## 2026-09-29 08:11 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.015/trade (n=2)
+
+## 2026-09-29 08:25 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.015/trade (n=2)
+
+## 2026-09-29 08:37 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.015/trade (n=2)
+
+## 2026-09-29 08:50 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.015/trade (n=2)
+
+## 2026-09-29 09:03 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.015/trade (n=2)
+
+## 2026-09-29 09:17 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.015/trade (n=2)
+
+## 2026-09-29 09:29 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.020/trade (n=2)
+
+## 2026-09-29 09:41 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.020/trade (n=2)
+
+## 2026-09-29 09:42 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.020/trade (n=2)
+
+## 2026-09-29 09:48 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.011/trade (n=2)
+
+## 2026-09-29 09:55 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.011/trade (n=2)
+
+## 2026-09-29 10:08 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.008/trade (n=2)
+
+## 2026-09-29 10:22 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $0.002/trade (n=2)
+
+## 2026-09-29 10:34 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $0.004/trade (n=2)
+
+## 2026-09-29 10:47 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $0.002/trade (n=2)
+
+## 2026-09-29 11:01 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $0.006/trade (n=2)
+
+## 2026-09-29 11:15 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.004/trade (n=2)
+
+## 2026-09-29 11:29 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.012/trade (n=2)
+
+## 2026-09-29 11:42 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.012/trade (n=2)
+
+## 2026-09-29 11:55 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.012/trade (n=2)
+
+## 2026-09-29 12:08 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.012/trade (n=2)
+
+## 2026-09-29 12:21 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.015/trade (n=2)
+
+## 2026-09-29 12:35 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.016/trade (n=2)
+
+## 2026-09-29 12:47 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.016/trade (n=2)
+
+## 2026-09-29 13:01 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.017/trade (n=2)
+
+## 2026-09-29 13:13 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.012/trade (n=2)
+
+## 2026-09-30 08:31 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.012/trade (n=2)
+
+## 2026-09-30 09:03 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.016/trade (n=2)
+
+## 2026-09-30 09:16 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.020/trade (n=2)
+
+## 2026-09-30 09:29 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.020/trade (n=2)
+
+## 2026-09-30 09:35 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.020/trade (n=2)
+
+## 2026-09-30 09:42 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.020/trade (n=2)
+
+## 2026-09-30 09:42 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.020/trade (n=2)
+
+## 2026-09-30 09:56 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.020/trade (n=2)
+
+## 2026-09-30 10:09 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.025/trade (n=2)
+
+## 2026-09-30 10:22 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.024/trade (n=2)
+
+## 2026-09-30 10:35 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.024/trade (n=2)
+
+## 2026-09-30 10:48 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.029/trade (n=2)
+
+## 2026-09-30 11:01 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.029/trade (n=2)
+
+## 2026-09-30 11:15 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.029/trade (n=2)
+
+## 2026-09-30 11:30 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.029/trade (n=2)
+
+## 2026-09-30 11:43 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.029/trade (n=2)
+
+## 2026-09-30 11:56 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.029/trade (n=2)
+
+## 2026-09-30 12:09 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.030/trade (n=2)
+
+## 2026-09-30 12:22 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.030/trade (n=2)
+
+## 2026-09-30 12:35 — Ranking: prob vs weight
+- เลือก: **weight** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.067/trade (n=2)
+- weight<1: net เฉลี่ย $-0.026/trade (n=2)
+
+## 2026-09-30 12:48 — Ranking: prob vs weight
+- เลือก: **prob** (ก่อน: weight)
+- weight>1: net เฉลี่ย $0.028/trade (n=1)
+- weight<1: net เฉลี่ย $-0.181/trade (n=2)

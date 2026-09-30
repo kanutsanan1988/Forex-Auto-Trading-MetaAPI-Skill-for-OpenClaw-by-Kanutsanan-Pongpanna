@@ -1,9 +1,9 @@
 {
-  "created": "2026-09-28T13:40:43",
+  "created": "2026-09-30T11:32:48",
   "note": "ค่าโรงงาน = สถานะระบบปัจจุบันทั้งชุด (เจ้าของระบบสั่งตั้งใหม่ 19 ก.ย. 2026)",
   "config_source": "auto_config.json (ค่าปัจจุบัน)",
-  "code_files": 63,
-  "cron_jobs": 8,
+  "code_files": 77,
+  "cron_jobs": 10,
   "factory_settings": {
     "งานวิจัย 10 นาทีข้อมูลภายใน": "เปิด (trading-analytics)",
     "งานวิจัย 10 นาทีจากบอท (สมอง LLM)": "เปิด (trading-research-bot)",

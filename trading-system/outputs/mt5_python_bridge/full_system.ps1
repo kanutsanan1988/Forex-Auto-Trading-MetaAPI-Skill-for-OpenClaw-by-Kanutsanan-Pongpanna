@@ -8,6 +8,8 @@
 #   TraderStart/Stop    = เฉพาะตัวเทรด + audit (ไม่แตะงานวิจัย/LLM)
 #   ResearchPause/Resume= เฉพาะงานวิจัย/LLM (ไม่แตะตัวเทรด)
 
+param([ValidateSet('Start','Stop','TraderStart','TraderStop','ResearchPause','ResearchResume')][string]$Action)
+
 function Set-CreditWatchdog([string]$Action) {
     # 28 ก.ย. 2026 (เจ้าของระบบ): ระบบเทรดเปิด → ตัวเฝ้าเครดิต OpenRouter เปิดตาม · ปิด → ปิดตาม
     $cgName = 'credit-guard-openrouter'
@@ -24,7 +26,6 @@ function Set-CreditWatchdog([string]$Action) {
         Write-Output ("Credit watchdog: " + $Action + " failed - " + $_.Exception.Message)
     }
 }
-param([ValidateSet('Start','Stop','TraderStart','TraderStop','ResearchPause','ResearchResume')][string]$Action)
 $ErrorActionPreference = 'Stop'
 $env:PYTHONUTF8 = '1'
 $taskProject = (Resolve-Path -LiteralPath (Join-Path $PSScriptRoot '..\..')).Path

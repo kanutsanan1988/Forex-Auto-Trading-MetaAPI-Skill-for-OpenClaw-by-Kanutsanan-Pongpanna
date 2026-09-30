@@ -1,0 +1,71 @@
+{
+  "mode": "internal_llm_join",
+  "mode_epoch": "6ea45aa498874916b67120bcd62dc052",
+  "uses_llm": false,
+  "schema": "hermes-trading-recommendation-v1",
+  "auto_apply": true,
+  "restart_after_apply": false,
+  "llm_provider": "round-plan-10m5m",
+  "summary": "แผนจากรอบ 10/5 นาที: trend_buy band 0.556->0.616 / 0.814->0.754; range_buy band 0.208->0.268 / 0.335->0.371; range_sell band 0.231->0.291 / 0.411->0.411; mean_reversion_buy band 0.103->0.163 / 0.283->0.283; mean_reversion_sell band 0.132->0.102 / 0.348->0.348; counter_trend_buy band 0.581->0.551 / 0.681->0.681",
+  "round_plan": true,
+  "generated_at": "2026-09-28 17:09",
+  "changes": [
+    {
+      "action": "set_gate",
+      "strategy": "trend",
+      "side": "buy",
+      "raw_low": 0.616,
+      "raw_high": 0.754,
+      "reason": "band plan: low 0.556->0.616 high 0.814->0.754 net=$-0.217(n=9)"
+    },
+    {
+      "action": "set_gate",
+      "strategy": "range",
+      "side": "buy",
+      "raw_low": 0.268,
+      "raw_high": 0.371,
+      "reason": "band plan: low 0.208->0.268 high 0.335->0.371 net=$-0.111(n=21)"
+    },
+    {
+      "action": "set_gate",
+      "strategy": "range",
+      "side": "sell",
+      "raw_low": 0.291,
+      "raw_high": 0.411,
+      "reason": "band plan: low 0.231->0.291 high 0.411->0.411 net=$-0.034(n=75)"
+    },
+    {
+      "action": "set_gate",
+      "strategy": "mean_reversion",
+      "side": "buy",
+      "raw_low": 0.163,
+      "raw_high": 0.283,
+      "reason": "band plan: low 0.103->0.163 high 0.283->0.283 net=$-0.069(n=54)"
+    },
+    {
+      "action": "set_gate",
+      "strategy": "mean_reversion",
+      "side": "sell",
+      "raw_low": 0.102,
+      "raw_high": 0.348,
+      "reason": "band plan: low 0.132->0.102 high 0.348->0.348 net=$+0.154(n=38)"
+    },
+    {
+      "action": "set_gate",
+      "strategy": "counter_trend",
+      "side": "buy",
+      "raw_low": 0.551,
+      "raw_high": 0.681,
+      "reason": "band plan: low 0.581->0.551 high 0.681->0.681 net=$+0.052(n=27)"
+    },
+    {
+      "action": "set_gate",
+      "strategy": "counter_trend",
+      "side": "sell",
+      "raw_low": 0.571,
+      "raw_high": 0.691,
+      "reason": "band plan: low 0.511->0.571 high 0.636->0.691 net=$-0.060(n=13)"
+    }
+  ],
+  "source": "internal-round-plan"
+}

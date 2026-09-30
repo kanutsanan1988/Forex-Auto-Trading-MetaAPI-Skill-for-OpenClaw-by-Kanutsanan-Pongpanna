@@ -71,16 +71,25 @@ def main() -> int:
                 required = ["SKILL.md", "README.md", "trading-system/README.md",
                             "trading-system/research/README.md",
                             "trading-system/research/SESSION-STATE.md",
-                            "trading-system/research/2026-09-24-metaapi-readonly-validation.md",
-                            "trading-system/research/2026-09-28-metaapi-readonly-validation.md",
+    "trading-system/research/2026-09-24-metaapi-readonly-validation.md",
+    "trading-system/research/2026-09-28-metaapi-readonly-validation.md",
+    "trading-system/research/2026-09-30-metaapi-readonly-validation.md",
                             "trading-system/work/AUTO_TRADER_STOP",
                             "trading-system/outputs/mt5_python_bridge/tests/test_runtime_support_lock.py",
                             "metaapi/metaapi_mt5_shim.py", "metaapi/METAAPI-SDK-LICENSE.txt",
-                            "metaapi/evidence/live-readonly-verify-20260928.json",
+    "metaapi/evidence/live-readonly-verify-20260928.json",
+    "metaapi/evidence/live-readonly-verify-20260930.json",
                             "requirements-metaapi.txt",
                             "scripts/verify_package.py", "QC/qc_round1.py", "QC/qc_round2.py"]
                 missing = [p for p in required if not (package / p).is_file()]
                 record("final extracted package structure", not missing, ", ".join(missing))
+                try:
+                    mode = json.loads((package / "trading-system/work/trading_mode.json").read_text(encoding="utf-8"))
+                    live_config = json.loads((package / "trading-system/outputs/mt5_python_bridge/auto_config.json").read_text(encoding="utf-8"))
+                    safe_ai_default = mode.get("mode") == "internal_llm_join" and live_config.get("live_enabled") is False
+                except Exception:
+                    safe_ai_default = False
+                record("extracted AI-join default remains Live-disabled", safe_ai_default)
                 verify = subprocess.run([sys.executable, str(package / "scripts/verify_package.py")],
                                         cwd=package, capture_output=True, text=True, timeout=180,
                                         encoding="utf-8", errors="replace")

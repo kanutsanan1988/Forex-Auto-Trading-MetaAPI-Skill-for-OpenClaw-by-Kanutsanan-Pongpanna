@@ -11738,3 +11738,2177 @@
 - breakout: n=24 net=$0.81 wr=58%
 - trend: n=94 net=$-1.66 wr=62%
 - transition: n=138 net=$-2.70 wr=64%
+
+## 2026-09-28 09:29 UTC — กลไกเทrulด vs P/L (closed=311)
+### กลยุทธ์
+- breakout: n=14 net=$1.16 wr=50%
+- range: n=80 net=$1.03 wr=68%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- mean_reversion: n=111 net=$-0.43 wr=62%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+- trend: n=68 net=$-2.18 wr=63%
+### ทิศทาง
+- buy: n=148 net=$0.81 wr=64%
+- sell: n=163 net=$-3.39 wr=61%
+### Regime
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- trend: n=94 net=$-1.66 wr=62%
+- transition: n=138 net=$-2.70 wr=64%
+
+## 2026-09-28 09:41 UTC — กลไกเทrulด vs P/L (closed=311)
+### กลยุทธ์
+- breakout: n=14 net=$1.16 wr=50%
+- range: n=80 net=$1.03 wr=68%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- mean_reversion: n=111 net=$-0.43 wr=62%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+- trend: n=68 net=$-2.18 wr=63%
+### ทิศทาง
+- buy: n=148 net=$0.81 wr=64%
+- sell: n=163 net=$-3.39 wr=61%
+### Regime
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- trend: n=94 net=$-1.66 wr=62%
+- transition: n=138 net=$-2.70 wr=64%
+
+## 2026-09-28 09:53 UTC — กลไกเทrulด vs P/L (closed=311)
+### กลยุทธ์
+- breakout: n=14 net=$1.16 wr=50%
+- range: n=80 net=$1.03 wr=68%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- mean_reversion: n=111 net=$-0.43 wr=62%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+- trend: n=68 net=$-2.18 wr=63%
+### ทิศทาง
+- buy: n=148 net=$0.81 wr=64%
+- sell: n=163 net=$-3.39 wr=61%
+### Regime
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- trend: n=94 net=$-1.66 wr=62%
+- transition: n=138 net=$-2.70 wr=64%
+
+## 2026-09-28 10:15 UTC — กลไกเทrulด vs P/L (closed=312)
+### กลยุทธ์
+- breakout: n=14 net=$1.16 wr=50%
+- range: n=80 net=$1.03 wr=68%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- mean_reversion: n=111 net=$-0.43 wr=62%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- trend: n=69 net=$-1.41 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=148 net=$0.81 wr=64%
+- sell: n=164 net=$-2.62 wr=62%
+### Regime
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- trend: n=94 net=$-1.66 wr=62%
+- transition: n=139 net=$-1.93 wr=64%
+
+## 2026-09-28 10:35 UTC — กลไกเทrulด vs P/L (closed=312)
+### กลยุทธ์
+- breakout: n=14 net=$1.16 wr=50%
+- range: n=80 net=$1.03 wr=68%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- mean_reversion: n=111 net=$-0.43 wr=62%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- trend: n=69 net=$-1.41 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=148 net=$0.81 wr=64%
+- sell: n=164 net=$-2.62 wr=62%
+### Regime
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- trend: n=94 net=$-1.66 wr=62%
+- transition: n=139 net=$-1.93 wr=64%
+
+## 2026-09-28 10:50 UTC — กลไกเทrulด vs P/L (closed=313)
+### กลยุทธ์
+- breakout: n=14 net=$1.16 wr=50%
+- range: n=80 net=$1.03 wr=68%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- mean_reversion: n=111 net=$-0.43 wr=62%
+- trend: n=70 net=$-0.59 wr=64%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=148 net=$0.81 wr=64%
+- sell: n=165 net=$-1.80 wr=62%
+### Regime
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- transition: n=140 net=$-1.11 wr=64%
+- trend: n=94 net=$-1.66 wr=62%
+
+## 2026-09-28 11:03 UTC — กลไกเทrulด vs P/L (closed=313)
+### กลยุทธ์
+- breakout: n=14 net=$1.16 wr=50%
+- range: n=80 net=$1.03 wr=68%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- mean_reversion: n=111 net=$-0.43 wr=62%
+- trend: n=70 net=$-0.59 wr=64%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=148 net=$0.81 wr=64%
+- sell: n=165 net=$-1.80 wr=62%
+### Regime
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- transition: n=140 net=$-1.11 wr=64%
+- trend: n=94 net=$-1.66 wr=62%
+
+## 2026-09-28 11:14 UTC — กลไกเทrulด vs P/L (closed=313)
+### กลยุทธ์
+- breakout: n=14 net=$1.16 wr=50%
+- range: n=80 net=$1.03 wr=68%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- mean_reversion: n=111 net=$-0.43 wr=62%
+- trend: n=70 net=$-0.59 wr=64%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=148 net=$0.81 wr=64%
+- sell: n=165 net=$-1.80 wr=62%
+### Regime
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- transition: n=140 net=$-1.11 wr=64%
+- trend: n=94 net=$-1.66 wr=62%
+
+## 2026-09-28 11:27 UTC — กลไกเทrulด vs P/L (closed=314)
+### กลยุทธ์
+- breakout: n=14 net=$1.16 wr=50%
+- range: n=80 net=$1.03 wr=68%
+- trend: n=71 net=$0.24 wr=65%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- mean_reversion: n=111 net=$-0.43 wr=62%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=148 net=$0.81 wr=64%
+- sell: n=166 net=$-0.97 wr=62%
+### Regime
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- transition: n=141 net=$-0.28 wr=65%
+- trend: n=94 net=$-1.66 wr=62%
+
+## 2026-09-28 11:37 UTC — กลไกเทrulด vs P/L (closed=314)
+### กลยุทธ์
+- breakout: n=14 net=$1.16 wr=50%
+- range: n=80 net=$1.03 wr=68%
+- trend: n=71 net=$0.24 wr=65%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- mean_reversion: n=111 net=$-0.43 wr=62%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=148 net=$0.81 wr=64%
+- sell: n=166 net=$-0.97 wr=62%
+### Regime
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- transition: n=141 net=$-0.28 wr=65%
+- trend: n=94 net=$-1.66 wr=62%
+
+## 2026-09-28 11:48 UTC — กลไกเทrulด vs P/L (closed=314)
+### กลยุทธ์
+- breakout: n=14 net=$1.16 wr=50%
+- range: n=80 net=$1.03 wr=68%
+- trend: n=71 net=$0.24 wr=65%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- mean_reversion: n=111 net=$-0.43 wr=62%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=148 net=$0.81 wr=64%
+- sell: n=166 net=$-0.97 wr=62%
+### Regime
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- transition: n=141 net=$-0.28 wr=65%
+- trend: n=94 net=$-1.66 wr=62%
+
+## 2026-09-28 11:59 UTC — กลไกเทrulด vs P/L (closed=314)
+### กลยุทธ์
+- breakout: n=14 net=$1.16 wr=50%
+- range: n=80 net=$1.03 wr=68%
+- trend: n=71 net=$0.24 wr=65%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- mean_reversion: n=111 net=$-0.43 wr=62%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=148 net=$0.81 wr=64%
+- sell: n=166 net=$-0.97 wr=62%
+### Regime
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- transition: n=141 net=$-0.28 wr=65%
+- trend: n=94 net=$-1.66 wr=62%
+
+## 2026-09-28 12:10 UTC — กลไกเทrulด vs P/L (closed=314)
+### กลยุทธ์
+- breakout: n=14 net=$1.16 wr=50%
+- range: n=80 net=$1.03 wr=68%
+- trend: n=71 net=$0.24 wr=65%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- mean_reversion: n=111 net=$-0.43 wr=62%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=148 net=$0.81 wr=64%
+- sell: n=166 net=$-0.97 wr=62%
+### Regime
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- transition: n=141 net=$-0.28 wr=65%
+- trend: n=94 net=$-1.66 wr=62%
+
+## 2026-09-28 12:22 UTC — กลไกเทrulด vs P/L (closed=315)
+### กลยุทธ์
+- breakout: n=14 net=$1.16 wr=50%
+- trend: n=72 net=$1.07 wr=65%
+- range: n=80 net=$1.03 wr=68%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- mean_reversion: n=111 net=$-0.43 wr=62%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=148 net=$0.81 wr=64%
+- sell: n=167 net=$-0.14 wr=62%
+### Regime
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- transition: n=142 net=$0.55 wr=65%
+- trend: n=94 net=$-1.66 wr=62%
+
+## 2026-09-28 12:33 UTC — กลไกเทrulด vs P/L (closed=316)
+### กลยุทธ์
+- breakout: n=14 net=$1.16 wr=50%
+- range: n=80 net=$1.03 wr=68%
+- trend: n=73 net=$0.35 wr=64%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- mean_reversion: n=111 net=$-0.43 wr=62%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=148 net=$0.81 wr=64%
+- sell: n=168 net=$-0.86 wr=62%
+### Regime
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- transition: n=143 net=$-0.17 wr=64%
+- trend: n=94 net=$-1.66 wr=62%
+
+## 2026-09-28 12:44 UTC — กลไกเทrulด vs P/L (closed=316)
+### กลยุทธ์
+- breakout: n=14 net=$1.16 wr=50%
+- range: n=80 net=$1.03 wr=68%
+- trend: n=73 net=$0.35 wr=64%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- mean_reversion: n=111 net=$-0.43 wr=62%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=148 net=$0.81 wr=64%
+- sell: n=168 net=$-0.86 wr=62%
+### Regime
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- transition: n=143 net=$-0.17 wr=64%
+- trend: n=94 net=$-1.66 wr=62%
+
+## 2026-09-28 12:55 UTC — กลไกเทrulด vs P/L (closed=317)
+### กลยุทธ์
+- breakout: n=14 net=$1.16 wr=50%
+- range: n=80 net=$1.03 wr=68%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- trend: n=74 net=$-0.32 wr=64%
+- mean_reversion: n=111 net=$-0.43 wr=62%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=148 net=$0.81 wr=64%
+- sell: n=169 net=$-1.53 wr=62%
+### Regime
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- transition: n=144 net=$-0.84 wr=64%
+- trend: n=94 net=$-1.66 wr=62%
+
+## 2026-09-28 13:06 UTC — กลไกเทrulด vs P/L (closed=317)
+### กลยุทธ์
+- breakout: n=14 net=$1.16 wr=50%
+- range: n=80 net=$1.03 wr=68%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- trend: n=74 net=$-0.32 wr=64%
+- mean_reversion: n=111 net=$-0.43 wr=62%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=148 net=$0.81 wr=64%
+- sell: n=169 net=$-1.53 wr=62%
+### Regime
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- transition: n=144 net=$-0.84 wr=64%
+- trend: n=94 net=$-1.66 wr=62%
+
+## 2026-09-28 13:17 UTC — กลไกเทrulด vs P/L (closed=317)
+### กลยุทธ์
+- breakout: n=14 net=$1.16 wr=50%
+- range: n=80 net=$1.03 wr=68%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- trend: n=74 net=$-0.32 wr=64%
+- mean_reversion: n=111 net=$-0.43 wr=62%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=148 net=$0.81 wr=64%
+- sell: n=169 net=$-1.53 wr=62%
+### Regime
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- transition: n=144 net=$-0.84 wr=64%
+- trend: n=94 net=$-1.66 wr=62%
+
+## 2026-09-28 13:29 UTC — กลไกเทrulด vs P/L (closed=317)
+### กลยุทธ์
+- breakout: n=14 net=$1.16 wr=50%
+- range: n=80 net=$1.03 wr=68%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- trend: n=74 net=$-0.32 wr=64%
+- mean_reversion: n=111 net=$-0.43 wr=62%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=148 net=$0.81 wr=64%
+- sell: n=169 net=$-1.53 wr=62%
+### Regime
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- transition: n=144 net=$-0.84 wr=64%
+- trend: n=94 net=$-1.66 wr=62%
+
+## 2026-09-28 13:40 UTC — กลไกเทrulด vs P/L (closed=317)
+### กลยุทธ์
+- breakout: n=14 net=$1.16 wr=50%
+- range: n=80 net=$1.03 wr=68%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- trend: n=74 net=$-0.32 wr=64%
+- mean_reversion: n=111 net=$-0.43 wr=62%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=148 net=$0.81 wr=64%
+- sell: n=169 net=$-1.53 wr=62%
+### Regime
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- transition: n=144 net=$-0.84 wr=64%
+- trend: n=94 net=$-1.66 wr=62%
+
+## 2026-09-28 13:51 UTC — กลไกเทrulด vs P/L (closed=317)
+### กลยุทธ์
+- breakout: n=14 net=$1.16 wr=50%
+- range: n=80 net=$1.03 wr=68%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- trend: n=74 net=$-0.32 wr=64%
+- mean_reversion: n=111 net=$-0.43 wr=62%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=148 net=$0.81 wr=64%
+- sell: n=169 net=$-1.53 wr=62%
+### Regime
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- transition: n=144 net=$-0.84 wr=64%
+- trend: n=94 net=$-1.66 wr=62%
+
+## 2026-09-28 14:02 UTC — กลไกเทrulด vs P/L (closed=318)
+### กลยุทธ์
+- breakout: n=14 net=$1.16 wr=50%
+- range: n=80 net=$1.03 wr=68%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- mean_reversion: n=111 net=$-0.43 wr=62%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- trend: n=75 net=$-0.94 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=148 net=$0.81 wr=64%
+- sell: n=170 net=$-2.15 wr=61%
+### Regime
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- transition: n=145 net=$-1.46 wr=63%
+- trend: n=94 net=$-1.66 wr=62%
+
+## 2026-09-28 14:13 UTC — กลไกเทrulด vs P/L (closed=319)
+### กลยุทธ์
+- breakout: n=14 net=$1.16 wr=50%
+- range: n=80 net=$1.03 wr=68%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- trend: n=76 net=$-0.27 wr=63%
+- mean_reversion: n=111 net=$-0.43 wr=62%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=148 net=$0.81 wr=64%
+- sell: n=171 net=$-1.48 wr=61%
+### Regime
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- transition: n=146 net=$-0.79 wr=64%
+- trend: n=94 net=$-1.66 wr=62%
+
+## 2026-09-28 14:24 UTC — กลไกเทrulด vs P/L (closed=319)
+### กลยุทธ์
+- breakout: n=14 net=$1.16 wr=50%
+- range: n=80 net=$1.03 wr=68%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- trend: n=76 net=$-0.27 wr=63%
+- mean_reversion: n=111 net=$-0.43 wr=62%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=148 net=$0.81 wr=64%
+- sell: n=171 net=$-1.48 wr=61%
+### Regime
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- transition: n=146 net=$-0.79 wr=64%
+- trend: n=94 net=$-1.66 wr=62%
+
+## 2026-09-28 14:36 UTC — กลไกเทrulด vs P/L (closed=319)
+### กลยุทธ์
+- breakout: n=14 net=$1.16 wr=50%
+- range: n=80 net=$1.03 wr=68%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- trend: n=76 net=$-0.27 wr=63%
+- mean_reversion: n=111 net=$-0.43 wr=62%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=148 net=$0.81 wr=64%
+- sell: n=171 net=$-1.48 wr=61%
+### Regime
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- transition: n=146 net=$-0.79 wr=64%
+- trend: n=94 net=$-1.66 wr=62%
+
+## 2026-09-28 14:46 UTC — กลไกเทrulด vs P/L (closed=319)
+### กลยุทธ์
+- breakout: n=14 net=$1.16 wr=50%
+- range: n=80 net=$1.03 wr=68%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- trend: n=76 net=$-0.27 wr=63%
+- mean_reversion: n=111 net=$-0.43 wr=62%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=148 net=$0.81 wr=64%
+- sell: n=171 net=$-1.48 wr=61%
+### Regime
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- transition: n=146 net=$-0.79 wr=64%
+- trend: n=94 net=$-1.66 wr=62%
+
+## 2026-09-28 14:57 UTC — กลไกเทrulด vs P/L (closed=319)
+### กลยุทธ์
+- breakout: n=14 net=$1.16 wr=50%
+- range: n=80 net=$1.03 wr=68%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- trend: n=76 net=$-0.27 wr=63%
+- mean_reversion: n=111 net=$-0.43 wr=62%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=148 net=$0.81 wr=64%
+- sell: n=171 net=$-1.48 wr=61%
+### Regime
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- transition: n=146 net=$-0.79 wr=64%
+- trend: n=94 net=$-1.66 wr=62%
+
+## 2026-09-28 15:08 UTC — กลไกเทrulด vs P/L (closed=320)
+### กลยุทธ์
+- breakout: n=14 net=$1.16 wr=50%
+- range: n=80 net=$1.03 wr=68%
+- trend: n=77 net=$0.38 wr=64%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- mean_reversion: n=111 net=$-0.43 wr=62%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=148 net=$0.81 wr=64%
+- sell: n=172 net=$-0.83 wr=62%
+### Regime
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- transition: n=147 net=$-0.14 wr=64%
+- trend: n=94 net=$-1.66 wr=62%
+
+## 2026-09-28 15:19 UTC — กลไกเทrulด vs P/L (closed=320)
+### กลยุทธ์
+- breakout: n=14 net=$1.16 wr=50%
+- range: n=80 net=$1.03 wr=68%
+- trend: n=77 net=$0.38 wr=64%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- mean_reversion: n=111 net=$-0.43 wr=62%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=148 net=$0.81 wr=64%
+- sell: n=172 net=$-0.83 wr=62%
+### Regime
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- transition: n=147 net=$-0.14 wr=64%
+- trend: n=94 net=$-1.66 wr=62%
+
+## 2026-09-28 15:30 UTC — กลไกเทrulด vs P/L (closed=322)
+### กลยุทธ์
+- breakout: n=14 net=$1.16 wr=50%
+- range: n=80 net=$1.03 wr=68%
+- trend: n=77 net=$0.38 wr=64%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- mean_reversion: n=113 net=$-0.22 wr=62%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=150 net=$1.02 wr=64%
+- sell: n=172 net=$-0.83 wr=62%
+### Regime
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- transition: n=148 net=$0.69 wr=64%
+- trend: n=95 net=$-2.28 wr=61%
+
+## 2026-09-28 15:41 UTC — กลไกเทrulด vs P/L (closed=323)
+### กลยุทธ์
+- breakout: n=14 net=$1.16 wr=50%
+- range: n=80 net=$1.03 wr=68%
+- mean_reversion: n=114 net=$0.71 wr=62%
+- trend: n=77 net=$0.38 wr=64%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=151 net=$1.95 wr=64%
+- sell: n=172 net=$-0.83 wr=62%
+### Regime
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- transition: n=148 net=$0.69 wr=64%
+- trend: n=96 net=$-1.35 wr=61%
+
+## 2026-09-28 15:52 UTC — กลไกเทrulด vs P/L (closed=323)
+### กลยุทธ์
+- breakout: n=14 net=$1.16 wr=50%
+- range: n=80 net=$1.03 wr=68%
+- mean_reversion: n=114 net=$0.71 wr=62%
+- trend: n=77 net=$0.38 wr=64%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=151 net=$1.95 wr=64%
+- sell: n=172 net=$-0.83 wr=62%
+### Regime
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- transition: n=148 net=$0.69 wr=64%
+- trend: n=96 net=$-1.35 wr=61%
+
+## 2026-09-28 16:05 UTC — กลไกเทrulด vs P/L (closed=323)
+### กลยุทธ์
+- breakout: n=14 net=$1.16 wr=50%
+- range: n=80 net=$1.03 wr=68%
+- mean_reversion: n=114 net=$0.71 wr=62%
+- trend: n=77 net=$0.38 wr=64%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=151 net=$1.95 wr=64%
+- sell: n=172 net=$-0.83 wr=62%
+### Regime
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- transition: n=148 net=$0.69 wr=64%
+- trend: n=96 net=$-1.35 wr=61%
+
+## 2026-09-28 16:18 UTC — กลไกเทrulด vs P/L (closed=323)
+### กลยุทธ์
+- breakout: n=14 net=$1.16 wr=50%
+- range: n=80 net=$1.03 wr=68%
+- mean_reversion: n=114 net=$0.71 wr=62%
+- trend: n=77 net=$0.38 wr=64%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=151 net=$1.95 wr=64%
+- sell: n=172 net=$-0.83 wr=62%
+### Regime
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- transition: n=148 net=$0.69 wr=64%
+- trend: n=96 net=$-1.35 wr=61%
+
+## 2026-09-28 16:31 UTC — กลไกเทrulด vs P/L (closed=324)
+### กลยุทธ์
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- range: n=80 net=$1.03 wr=68%
+- trend: n=77 net=$0.38 wr=64%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=172 net=$-0.83 wr=62%
+### Regime
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- transition: n=148 net=$0.69 wr=64%
+- trend: n=97 net=$-0.40 wr=62%
+
+## 2026-09-28 16:44 UTC — กลไกเทrulด vs P/L (closed=324)
+### กลยุทธ์
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- range: n=80 net=$1.03 wr=68%
+- trend: n=77 net=$0.38 wr=64%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=172 net=$-0.83 wr=62%
+### Regime
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- transition: n=148 net=$0.69 wr=64%
+- trend: n=97 net=$-0.40 wr=62%
+
+## 2026-09-28 16:57 UTC — กลไกเทrulด vs P/L (closed=325)
+### กลยุทธ์
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend: n=77 net=$0.38 wr=64%
+- range: n=81 net=$0.25 wr=67%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=173 net=$-1.61 wr=61%
+### Regime
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- transition: n=149 net=$-0.09 wr=64%
+- trend: n=97 net=$-0.40 wr=62%
+
+## 2026-09-28 17:10 UTC — กลไกเทrulด vs P/L (closed=326)
+### กลยุทธ์
+- mean_reversion: n=115 net=$1.66 wr=63%
+- trend: n=78 net=$1.51 wr=64%
+- breakout: n=14 net=$1.16 wr=50%
+- range: n=81 net=$0.25 wr=67%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=174 net=$-0.48 wr=61%
+### Regime
+- transition: n=150 net=$1.04 wr=64%
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- trend: n=97 net=$-0.40 wr=62%
+
+## 2026-09-28 17:23 UTC — กลไกเทrulด vs P/L (closed=327)
+### กลยุทธ์
+- trend: n=79 net=$2.38 wr=65%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- range: n=81 net=$0.25 wr=67%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=175 net=$0.39 wr=62%
+### Regime
+- transition: n=151 net=$1.91 wr=64%
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- trend: n=97 net=$-0.40 wr=62%
+
+## 2026-09-28 17:36 UTC — กลไกเทrulด vs P/L (closed=327)
+### กลยุทธ์
+- trend: n=79 net=$2.38 wr=65%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- range: n=81 net=$0.25 wr=67%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=175 net=$0.39 wr=62%
+### Regime
+- transition: n=151 net=$1.91 wr=64%
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- trend: n=97 net=$-0.40 wr=62%
+
+## 2026-09-28 17:49 UTC — กลไกเทrulด vs P/L (closed=327)
+### กลยุทธ์
+- trend: n=79 net=$2.38 wr=65%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- range: n=81 net=$0.25 wr=67%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=175 net=$0.39 wr=62%
+### Regime
+- transition: n=151 net=$1.91 wr=64%
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- trend: n=97 net=$-0.40 wr=62%
+
+## 2026-09-28 18:02 UTC — กลไกเทrulด vs P/L (closed=327)
+### กลยุทธ์
+- trend: n=79 net=$2.38 wr=65%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- range: n=81 net=$0.25 wr=67%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=175 net=$0.39 wr=62%
+### Regime
+- transition: n=151 net=$1.91 wr=64%
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- trend: n=97 net=$-0.40 wr=62%
+
+## 2026-09-28 18:15 UTC — กลไกเทrulด vs P/L (closed=327)
+### กลยุทธ์
+- trend: n=79 net=$2.38 wr=65%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- range: n=81 net=$0.25 wr=67%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=175 net=$0.39 wr=62%
+### Regime
+- transition: n=151 net=$1.91 wr=64%
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- trend: n=97 net=$-0.40 wr=62%
+
+## 2026-09-28 18:28 UTC — กลไกเทrulด vs P/L (closed=327)
+### กลยุทธ์
+- trend: n=79 net=$2.38 wr=65%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- range: n=81 net=$0.25 wr=67%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=175 net=$0.39 wr=62%
+### Regime
+- transition: n=151 net=$1.91 wr=64%
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- trend: n=97 net=$-0.40 wr=62%
+
+## 2026-09-28 18:41 UTC — กลไกเทrulด vs P/L (closed=327)
+### กลยุทธ์
+- trend: n=79 net=$2.38 wr=65%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- range: n=81 net=$0.25 wr=67%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=175 net=$0.39 wr=62%
+### Regime
+- transition: n=151 net=$1.91 wr=64%
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- trend: n=97 net=$-0.40 wr=62%
+
+## 2026-09-28 18:54 UTC — กลไกเทrulด vs P/L (closed=327)
+### กลยุทธ์
+- trend: n=79 net=$2.38 wr=65%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- range: n=81 net=$0.25 wr=67%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=175 net=$0.39 wr=62%
+### Regime
+- transition: n=151 net=$1.91 wr=64%
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- trend: n=97 net=$-0.40 wr=62%
+
+## 2026-09-28 19:07 UTC — กลไกเทrulด vs P/L (closed=327)
+### กลยุทธ์
+- trend: n=79 net=$2.38 wr=65%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- range: n=81 net=$0.25 wr=67%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=175 net=$0.39 wr=62%
+### Regime
+- transition: n=151 net=$1.91 wr=64%
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- trend: n=97 net=$-0.40 wr=62%
+
+## 2026-09-28 19:20 UTC — กลไกเทrulด vs P/L (closed=328)
+### กลยุทธ์
+- trend: n=79 net=$2.38 wr=65%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- range: n=82 net=$-0.59 wr=66%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=176 net=$-0.45 wr=61%
+### Regime
+- transition: n=152 net=$1.07 wr=64%
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- trend: n=97 net=$-0.40 wr=62%
+
+## 2026-09-28 19:33 UTC — กลไกเทrulด vs P/L (closed=330)
+### กลยุทธ์
+- trend: n=79 net=$2.38 wr=65%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+- range: n=84 net=$-2.15 wr=64%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=178 net=$-2.01 wr=61%
+### Regime
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- trend: n=97 net=$-0.40 wr=62%
+- transition: n=154 net=$-0.49 wr=63%
+
+## 2026-09-28 19:46 UTC — กลไกเทrulด vs P/L (closed=331)
+### กลยุทธ์
+- trend: n=79 net=$2.38 wr=65%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=85 net=$-1.13 wr=65%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=179 net=$-0.99 wr=61%
+### Regime
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- transition: n=155 net=$0.53 wr=63%
+- trend: n=97 net=$-0.40 wr=62%
+
+## 2026-09-28 19:59 UTC — กลไกเทrulด vs P/L (closed=331)
+### กลยุทธ์
+- trend: n=79 net=$2.38 wr=65%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=85 net=$-1.13 wr=65%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=179 net=$-0.99 wr=61%
+### Regime
+- range: n=55 net=$0.97 wr=64%
+- breakout: n=24 net=$0.81 wr=58%
+- transition: n=155 net=$0.53 wr=63%
+- trend: n=97 net=$-0.40 wr=62%
+
+## 2026-09-28 20:12 UTC — กลไกเทrulด vs P/L (closed=332)
+### กลยุทธ์
+- trend: n=79 net=$2.38 wr=65%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+- range: n=86 net=$-1.99 wr=64%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=180 net=$-1.85 wr=61%
+### Regime
+- breakout: n=24 net=$0.81 wr=58%
+- transition: n=155 net=$0.53 wr=63%
+- range: n=56 net=$0.11 wr=62%
+- trend: n=97 net=$-0.40 wr=62%
+
+## 2026-09-28 20:25 UTC — กลไกเทrulด vs P/L (closed=332)
+### กลยุทธ์
+- trend: n=79 net=$2.38 wr=65%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+- range: n=86 net=$-1.99 wr=64%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=180 net=$-1.85 wr=61%
+### Regime
+- breakout: n=24 net=$0.81 wr=58%
+- transition: n=155 net=$0.53 wr=63%
+- range: n=56 net=$0.11 wr=62%
+- trend: n=97 net=$-0.40 wr=62%
+
+## 2026-09-28 20:38 UTC — กลไกเทrulด vs P/L (closed=332)
+### กลยุทธ์
+- trend: n=79 net=$2.38 wr=65%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+- range: n=86 net=$-1.99 wr=64%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=180 net=$-1.85 wr=61%
+### Regime
+- breakout: n=24 net=$0.81 wr=58%
+- transition: n=155 net=$0.53 wr=63%
+- range: n=56 net=$0.11 wr=62%
+- trend: n=97 net=$-0.40 wr=62%
+
+## 2026-09-28 20:51 UTC — กลไกเทrulด vs P/L (closed=332)
+### กลยุทธ์
+- trend: n=79 net=$2.38 wr=65%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+- range: n=86 net=$-1.99 wr=64%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=180 net=$-1.85 wr=61%
+### Regime
+- breakout: n=24 net=$0.81 wr=58%
+- transition: n=155 net=$0.53 wr=63%
+- range: n=56 net=$0.11 wr=62%
+- trend: n=97 net=$-0.40 wr=62%
+
+## 2026-09-28 21:04 UTC — กลไกเทrulด vs P/L (closed=332)
+### กลยุทธ์
+- trend: n=79 net=$2.38 wr=65%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+- range: n=86 net=$-1.99 wr=64%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=180 net=$-1.85 wr=61%
+### Regime
+- breakout: n=24 net=$0.81 wr=58%
+- transition: n=155 net=$0.53 wr=63%
+- range: n=56 net=$0.11 wr=62%
+- trend: n=97 net=$-0.40 wr=62%
+
+## 2026-09-28 21:17 UTC — กลไกเทrulด vs P/L (closed=332)
+### กลยุทธ์
+- trend: n=79 net=$2.38 wr=65%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+- range: n=86 net=$-1.99 wr=64%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=180 net=$-1.85 wr=61%
+### Regime
+- breakout: n=24 net=$0.81 wr=58%
+- transition: n=155 net=$0.53 wr=63%
+- range: n=56 net=$0.11 wr=62%
+- trend: n=97 net=$-0.40 wr=62%
+
+## 2026-09-28 21:30 UTC — กลไกเทrulด vs P/L (closed=332)
+### กลยุทธ์
+- trend: n=79 net=$2.38 wr=65%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+- range: n=86 net=$-1.99 wr=64%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=180 net=$-1.85 wr=61%
+### Regime
+- breakout: n=24 net=$0.81 wr=58%
+- transition: n=155 net=$0.53 wr=63%
+- range: n=56 net=$0.11 wr=62%
+- trend: n=97 net=$-0.40 wr=62%
+
+## 2026-09-28 21:43 UTC — กลไกเทrulด vs P/L (closed=332)
+### กลยุทธ์
+- trend: n=79 net=$2.38 wr=65%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+- range: n=86 net=$-1.99 wr=64%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=180 net=$-1.85 wr=61%
+### Regime
+- breakout: n=24 net=$0.81 wr=58%
+- transition: n=155 net=$0.53 wr=63%
+- range: n=56 net=$0.11 wr=62%
+- trend: n=97 net=$-0.40 wr=62%
+
+## 2026-09-28 21:56 UTC — กลไกเทrulด vs P/L (closed=332)
+### กลยุทธ์
+- trend: n=79 net=$2.38 wr=65%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+- range: n=86 net=$-1.99 wr=64%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=180 net=$-1.85 wr=61%
+### Regime
+- breakout: n=24 net=$0.81 wr=58%
+- transition: n=155 net=$0.53 wr=63%
+- range: n=56 net=$0.11 wr=62%
+- trend: n=97 net=$-0.40 wr=62%
+
+## 2026-09-28 22:09 UTC — กลไกเทrulด vs P/L (closed=334)
+### กลยุทธ์
+- trend: n=80 net=$1.82 wr=64%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=182 net=$-1.46 wr=60%
+### Regime
+- breakout: n=25 net=$1.76 wr=60%
+- transition: n=155 net=$0.53 wr=63%
+- range: n=56 net=$0.11 wr=62%
+- trend: n=98 net=$-0.96 wr=61%
+
+## 2026-09-28 22:22 UTC — กลไกเทrulด vs P/L (closed=334)
+### กลยุทธ์
+- trend: n=80 net=$1.82 wr=64%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=182 net=$-1.46 wr=60%
+### Regime
+- breakout: n=25 net=$1.76 wr=60%
+- transition: n=155 net=$0.53 wr=63%
+- range: n=56 net=$0.11 wr=62%
+- trend: n=98 net=$-0.96 wr=61%
+
+## 2026-09-28 22:35 UTC — กลไกเทrulด vs P/L (closed=335)
+### กลยุทธ์
+- trend: n=81 net=$2.51 wr=64%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=183 net=$-0.77 wr=61%
+### Regime
+- breakout: n=25 net=$1.76 wr=60%
+- transition: n=155 net=$0.53 wr=63%
+- range: n=56 net=$0.11 wr=62%
+- trend: n=99 net=$-0.27 wr=62%
+
+## 2026-09-28 22:48 UTC — กลไกเทrulด vs P/L (closed=335)
+### กลยุทธ์
+- trend: n=81 net=$2.51 wr=64%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=183 net=$-0.77 wr=61%
+### Regime
+- breakout: n=25 net=$1.76 wr=60%
+- transition: n=155 net=$0.53 wr=63%
+- range: n=56 net=$0.11 wr=62%
+- trend: n=99 net=$-0.27 wr=62%
+
+## 2026-09-28 23:01 UTC — กลไกเทrulด vs P/L (closed=335)
+### กลยุทธ์
+- trend: n=81 net=$2.51 wr=64%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=183 net=$-0.77 wr=61%
+### Regime
+- breakout: n=25 net=$1.76 wr=60%
+- transition: n=155 net=$0.53 wr=63%
+- range: n=56 net=$0.11 wr=62%
+- trend: n=99 net=$-0.27 wr=62%
+
+## 2026-09-28 23:14 UTC — กลไกเทrulด vs P/L (closed=335)
+### กลยุทธ์
+- trend: n=81 net=$2.51 wr=64%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=183 net=$-0.77 wr=61%
+### Regime
+- breakout: n=25 net=$1.76 wr=60%
+- transition: n=155 net=$0.53 wr=63%
+- range: n=56 net=$0.11 wr=62%
+- trend: n=99 net=$-0.27 wr=62%
+
+## 2026-09-28 23:27 UTC — กลไกเทrulด vs P/L (closed=335)
+### กลยุทธ์
+- trend: n=81 net=$2.51 wr=64%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=183 net=$-0.77 wr=61%
+### Regime
+- breakout: n=25 net=$1.76 wr=60%
+- transition: n=155 net=$0.53 wr=63%
+- range: n=56 net=$0.11 wr=62%
+- trend: n=99 net=$-0.27 wr=62%
+
+## 2026-09-28 23:40 UTC — กลไกเทrulด vs P/L (closed=336)
+### กลยุทธ์
+- trend: n=82 net=$3.15 wr=65%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=184 net=$-0.13 wr=61%
+### Regime
+- breakout: n=25 net=$1.76 wr=60%
+- transition: n=155 net=$0.53 wr=63%
+- trend: n=100 net=$0.37 wr=62%
+- range: n=56 net=$0.11 wr=62%
+
+## 2026-09-28 23:53 UTC — กลไกเทrulด vs P/L (closed=337)
+### กลยุทธ์
+- trend: n=83 net=$3.79 wr=65%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=185 net=$0.51 wr=61%
+### Regime
+- breakout: n=25 net=$1.76 wr=60%
+- trend: n=101 net=$1.01 wr=62%
+- transition: n=155 net=$0.53 wr=63%
+- range: n=56 net=$0.11 wr=62%
+
+## 2026-09-29 00:06 UTC — กลไกเทrulด vs P/L (closed=338)
+### กลยุทธ์
+- trend: n=84 net=$3.44 wr=64%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=186 net=$0.16 wr=61%
+### Regime
+- breakout: n=26 net=$1.41 wr=58%
+- trend: n=101 net=$1.01 wr=62%
+- transition: n=155 net=$0.53 wr=63%
+- range: n=56 net=$0.11 wr=62%
+
+## 2026-09-29 00:19 UTC — กลไกเทrulด vs P/L (closed=338)
+### กลยุทธ์
+- trend: n=84 net=$3.44 wr=64%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=186 net=$0.16 wr=61%
+### Regime
+- breakout: n=26 net=$1.41 wr=58%
+- trend: n=101 net=$1.01 wr=62%
+- transition: n=155 net=$0.53 wr=63%
+- range: n=56 net=$0.11 wr=62%
+
+## 2026-09-29 00:32 UTC — กลไกเทrulด vs P/L (closed=338)
+### กลยุทธ์
+- trend: n=84 net=$3.44 wr=64%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=186 net=$0.16 wr=61%
+### Regime
+- breakout: n=26 net=$1.41 wr=58%
+- trend: n=101 net=$1.01 wr=62%
+- transition: n=155 net=$0.53 wr=63%
+- range: n=56 net=$0.11 wr=62%
+
+## 2026-09-29 00:45 UTC — กลไกเทrulด vs P/L (closed=338)
+### กลยุทธ์
+- trend: n=84 net=$3.44 wr=64%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=186 net=$0.16 wr=61%
+### Regime
+- breakout: n=26 net=$1.41 wr=58%
+- trend: n=101 net=$1.01 wr=62%
+- transition: n=155 net=$0.53 wr=63%
+- range: n=56 net=$0.11 wr=62%
+
+## 2026-09-29 00:58 UTC — กลไกเทrulด vs P/L (closed=338)
+### กลยุทธ์
+- trend: n=84 net=$3.44 wr=64%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=186 net=$0.16 wr=61%
+### Regime
+- breakout: n=26 net=$1.41 wr=58%
+- trend: n=101 net=$1.01 wr=62%
+- transition: n=155 net=$0.53 wr=63%
+- range: n=56 net=$0.11 wr=62%
+
+## 2026-09-29 01:11 UTC — กลไกเทrulด vs P/L (closed=339)
+### กลยุทธ์
+- trend: n=85 net=$2.82 wr=64%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=187 net=$-0.46 wr=60%
+### Regime
+- breakout: n=26 net=$1.41 wr=58%
+- transition: n=155 net=$0.53 wr=63%
+- trend: n=102 net=$0.39 wr=62%
+- range: n=56 net=$0.11 wr=62%
+
+## 2026-09-29 01:24 UTC — กลไกเทrulด vs P/L (closed=340)
+### กลยุทธ์
+- trend: n=86 net=$2.46 wr=63%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=188 net=$-0.82 wr=60%
+### Regime
+- breakout: n=26 net=$1.41 wr=58%
+- transition: n=155 net=$0.53 wr=63%
+- range: n=56 net=$0.11 wr=62%
+- trend: n=103 net=$0.03 wr=61%
+
+## 2026-09-29 01:37 UTC — กลไกเทrulด vs P/L (closed=340)
+### กลยุทธ์
+- trend: n=86 net=$2.46 wr=63%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=188 net=$-0.82 wr=60%
+### Regime
+- breakout: n=26 net=$1.41 wr=58%
+- transition: n=155 net=$0.53 wr=63%
+- range: n=56 net=$0.11 wr=62%
+- trend: n=103 net=$0.03 wr=61%
+
+## 2026-09-29 01:50 UTC — กลไกเทrulด vs P/L (closed=340)
+### กลยุทธ์
+- trend: n=86 net=$2.46 wr=63%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=188 net=$-0.82 wr=60%
+### Regime
+- breakout: n=26 net=$1.41 wr=58%
+- transition: n=155 net=$0.53 wr=63%
+- range: n=56 net=$0.11 wr=62%
+- trend: n=103 net=$0.03 wr=61%
+
+## 2026-09-29 02:03 UTC — กลไกเทrulด vs P/L (closed=340)
+### กลยุทธ์
+- trend: n=86 net=$2.46 wr=63%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=188 net=$-0.82 wr=60%
+### Regime
+- breakout: n=26 net=$1.41 wr=58%
+- transition: n=155 net=$0.53 wr=63%
+- range: n=56 net=$0.11 wr=62%
+- trend: n=103 net=$0.03 wr=61%
+
+## 2026-09-29 02:17 UTC — กลไกเทrulด vs P/L (closed=340)
+### กลยุทธ์
+- trend: n=86 net=$2.46 wr=63%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=188 net=$-0.82 wr=60%
+### Regime
+- breakout: n=26 net=$1.41 wr=58%
+- transition: n=155 net=$0.53 wr=63%
+- range: n=56 net=$0.11 wr=62%
+- trend: n=103 net=$0.03 wr=61%
+
+## 2026-09-29 02:29 UTC — กลไกเทrulด vs P/L (closed=341)
+### กลยุทธ์
+- trend: n=87 net=$2.03 wr=62%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=189 net=$-1.25 wr=60%
+### Regime
+- breakout: n=26 net=$1.41 wr=58%
+- transition: n=155 net=$0.53 wr=63%
+- range: n=56 net=$0.11 wr=62%
+- trend: n=104 net=$-0.40 wr=61%
+
+## 2026-09-29 02:41 UTC — กลไกเทrulด vs P/L (closed=341)
+### กลยุทธ์
+- trend: n=87 net=$2.03 wr=62%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=189 net=$-1.25 wr=60%
+### Regime
+- breakout: n=26 net=$1.41 wr=58%
+- transition: n=155 net=$0.53 wr=63%
+- range: n=56 net=$0.11 wr=62%
+- trend: n=104 net=$-0.40 wr=61%
+
+## 2026-09-29 02:42 UTC — กลไกเทrulด vs P/L (closed=341)
+### กลยุทธ์
+- trend: n=87 net=$2.03 wr=62%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=189 net=$-1.25 wr=60%
+### Regime
+- breakout: n=26 net=$1.41 wr=58%
+- transition: n=155 net=$0.53 wr=63%
+- range: n=56 net=$0.11 wr=62%
+- trend: n=104 net=$-0.40 wr=61%
+
+## 2026-09-29 02:48 UTC — กลไกเทrulด vs P/L (closed=342)
+### กลยุทธ์
+- trend: n=88 net=$2.49 wr=62%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=190 net=$-0.79 wr=60%
+### Regime
+- breakout: n=26 net=$1.41 wr=58%
+- transition: n=155 net=$0.53 wr=63%
+- range: n=56 net=$0.11 wr=62%
+- trend: n=105 net=$0.06 wr=61%
+
+## 2026-09-29 02:55 UTC — กลไกเทrulด vs P/L (closed=342)
+### กลยุทธ์
+- trend: n=88 net=$2.49 wr=62%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=190 net=$-0.79 wr=60%
+### Regime
+- breakout: n=26 net=$1.41 wr=58%
+- transition: n=155 net=$0.53 wr=63%
+- range: n=56 net=$0.11 wr=62%
+- trend: n=105 net=$0.06 wr=61%
+
+## 2026-09-29 03:08 UTC — กลไกเทrulด vs P/L (closed=343)
+### กลยุทธ์
+- trend: n=89 net=$2.16 wr=62%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=191 net=$-1.12 wr=60%
+### Regime
+- breakout: n=26 net=$1.41 wr=58%
+- transition: n=155 net=$0.53 wr=63%
+- range: n=56 net=$0.11 wr=62%
+- trend: n=106 net=$-0.27 wr=60%
+
+## 2026-09-29 03:21 UTC — กลไกเทrulด vs P/L (closed=348)
+### กลยุทธ์
+- trend: n=94 net=$2.79 wr=63%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=196 net=$-0.49 wr=60%
+### Regime
+- breakout: n=26 net=$1.41 wr=58%
+- transition: n=155 net=$0.53 wr=63%
+- trend: n=111 net=$0.36 wr=61%
+- range: n=56 net=$0.11 wr=62%
+
+## 2026-09-29 03:34 UTC — กลไกเทrulด vs P/L (closed=349)
+### กลยุทธ์
+- trend: n=95 net=$2.41 wr=62%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=197 net=$-0.87 wr=60%
+### Regime
+- breakout: n=26 net=$1.41 wr=58%
+- transition: n=155 net=$0.53 wr=63%
+- range: n=56 net=$0.11 wr=62%
+- trend: n=112 net=$-0.02 wr=61%
+
+## 2026-09-29 03:47 UTC — กลไกเทrulด vs P/L (closed=352)
+### กลยุทธ์
+- trend: n=98 net=$2.27 wr=62%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=200 net=$-1.01 wr=60%
+### Regime
+- breakout: n=27 net=$0.99 wr=56%
+- transition: n=155 net=$0.53 wr=63%
+- trend: n=114 net=$0.26 wr=61%
+- range: n=56 net=$0.11 wr=62%
+
+## 2026-09-29 04:01 UTC — กลไกเทrulด vs P/L (closed=353)
+### กลยุทธ์
+- trend: n=99 net=$2.83 wr=63%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=201 net=$-0.45 wr=60%
+### Regime
+- breakout: n=27 net=$0.99 wr=56%
+- trend: n=115 net=$0.82 wr=62%
+- transition: n=155 net=$0.53 wr=63%
+- range: n=56 net=$0.11 wr=62%
+
+## 2026-09-29 04:15 UTC — กลไกเทrulด vs P/L (closed=356)
+### กลยุทธ์
+- trend: n=102 net=$2.02 wr=62%
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=204 net=$-1.26 wr=60%
+### Regime
+- breakout: n=27 net=$0.99 wr=56%
+- transition: n=155 net=$0.53 wr=63%
+- range: n=56 net=$0.11 wr=62%
+- trend: n=118 net=$0.01 wr=61%
+
+## 2026-09-29 04:29 UTC — กลไกเทrulด vs P/L (closed=357)
+### กลยุทธ์
+- mean_reversion: n=115 net=$1.66 wr=63%
+- trend: n=103 net=$1.31 wr=61%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=205 net=$-1.97 wr=60%
+### Regime
+- breakout: n=27 net=$0.99 wr=56%
+- transition: n=155 net=$0.53 wr=63%
+- range: n=56 net=$0.11 wr=62%
+- trend: n=119 net=$-0.70 wr=61%
+
+## 2026-09-29 04:41 UTC — กลไกเทrulด vs P/L (closed=357)
+### กลยุทธ์
+- mean_reversion: n=115 net=$1.66 wr=63%
+- trend: n=103 net=$1.31 wr=61%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=205 net=$-1.97 wr=60%
+### Regime
+- breakout: n=27 net=$0.99 wr=56%
+- transition: n=155 net=$0.53 wr=63%
+- range: n=56 net=$0.11 wr=62%
+- trend: n=119 net=$-0.70 wr=61%
+
+## 2026-09-29 04:54 UTC — กลไกเทrulด vs P/L (closed=357)
+### กลยุทธ์
+- mean_reversion: n=115 net=$1.66 wr=63%
+- trend: n=103 net=$1.31 wr=61%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=205 net=$-1.97 wr=60%
+### Regime
+- breakout: n=27 net=$0.99 wr=56%
+- transition: n=155 net=$0.53 wr=63%
+- range: n=56 net=$0.11 wr=62%
+- trend: n=119 net=$-0.70 wr=61%
+
+## 2026-09-29 05:08 UTC — กลไกเทrulด vs P/L (closed=357)
+### กลยุทธ์
+- mean_reversion: n=115 net=$1.66 wr=63%
+- trend: n=103 net=$1.31 wr=61%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=205 net=$-1.97 wr=60%
+### Regime
+- breakout: n=27 net=$0.99 wr=56%
+- transition: n=155 net=$0.53 wr=63%
+- range: n=56 net=$0.11 wr=62%
+- trend: n=119 net=$-0.70 wr=61%
+
+## 2026-09-29 05:21 UTC — กลไกเทrulด vs P/L (closed=358)
+### กลยุทธ์
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend: n=104 net=$1.14 wr=61%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=206 net=$-2.14 wr=59%
+### Regime
+- breakout: n=28 net=$0.82 wr=54%
+- transition: n=155 net=$0.53 wr=63%
+- range: n=56 net=$0.11 wr=62%
+- trend: n=119 net=$-0.70 wr=61%
+
+## 2026-09-29 05:34 UTC — กลไกเทrulด vs P/L (closed=359)
+### กลยุทธ์
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend: n=105 net=$1.15 wr=61%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=207 net=$-2.13 wr=59%
+### Regime
+- breakout: n=28 net=$0.82 wr=54%
+- transition: n=155 net=$0.53 wr=63%
+- range: n=56 net=$0.11 wr=62%
+- trend: n=120 net=$-0.69 wr=61%
+
+## 2026-09-29 05:47 UTC — กลไกเทrulด vs P/L (closed=359)
+### กลยุทธ์
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend: n=105 net=$1.15 wr=61%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=207 net=$-2.13 wr=59%
+### Regime
+- breakout: n=28 net=$0.82 wr=54%
+- transition: n=155 net=$0.53 wr=63%
+- range: n=56 net=$0.11 wr=62%
+- trend: n=120 net=$-0.69 wr=61%
+
+## 2026-09-29 06:00 UTC — กลไกเทrulด vs P/L (closed=360)
+### กลยุทธ์
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend: n=106 net=$0.53 wr=60%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=208 net=$-2.75 wr=59%
+### Regime
+- breakout: n=28 net=$0.82 wr=54%
+- transition: n=155 net=$0.53 wr=63%
+- range: n=56 net=$0.11 wr=62%
+- trend: n=121 net=$-1.31 wr=60%
+
+## 2026-09-29 06:13 UTC — กลไกเทrulด vs P/L (closed=368)
+### กลยุทธ์
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- trend: n=114 net=$-0.58 wr=59%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=216 net=$-3.86 wr=58%
+### Regime
+- breakout: n=28 net=$0.82 wr=54%
+- range: n=57 net=$-0.34 wr=61%
+- transition: n=157 net=$-0.37 wr=62%
+- trend: n=126 net=$-1.07 wr=60%
+
+## 2026-09-30 01:30 UTC — กลไกเทrulด vs P/L (closed=368)
+### กลยุทธ์
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- trend: n=114 net=$-0.58 wr=59%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=216 net=$-3.86 wr=58%
+### Regime
+- breakout: n=28 net=$0.82 wr=54%
+- range: n=57 net=$-0.34 wr=61%
+- transition: n=157 net=$-0.37 wr=62%
+- trend: n=126 net=$-1.07 wr=60%
+
+## 2026-09-30 02:03 UTC — กลไกเทrulด vs P/L (closed=369)
+### กลยุทธ์
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- trend: n=115 net=$-0.42 wr=59%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=217 net=$-3.70 wr=59%
+### Regime
+- breakout: n=28 net=$0.82 wr=54%
+- transition: n=158 net=$-0.21 wr=63%
+- range: n=57 net=$-0.34 wr=61%
+- trend: n=126 net=$-1.07 wr=60%
+
+## 2026-09-30 02:15 UTC — กลไกเทrulด vs P/L (closed=370)
+### กลยุทธ์
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- trend: n=116 net=$-0.85 wr=59%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=218 net=$-4.13 wr=58%
+### Regime
+- breakout: n=28 net=$0.82 wr=54%
+- range: n=57 net=$-0.34 wr=61%
+- transition: n=159 net=$-0.64 wr=62%
+- trend: n=126 net=$-1.07 wr=60%
+
+## 2026-09-30 02:29 UTC — กลไกเทrulด vs P/L (closed=370)
+### กลยุทธ์
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- trend: n=116 net=$-0.85 wr=59%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=218 net=$-4.13 wr=58%
+### Regime
+- breakout: n=28 net=$0.82 wr=54%
+- range: n=57 net=$-0.34 wr=61%
+- transition: n=159 net=$-0.64 wr=62%
+- trend: n=126 net=$-1.07 wr=60%
+
+## 2026-09-30 02:35 UTC — กลไกเทrulด vs P/L (closed=371)
+### กลยุทธ์
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- trend: n=117 net=$-1.27 wr=58%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=219 net=$-4.55 wr=58%
+### Regime
+- breakout: n=28 net=$0.82 wr=54%
+- range: n=57 net=$-0.34 wr=61%
+- transition: n=160 net=$-1.06 wr=62%
+- trend: n=126 net=$-1.07 wr=60%
+
+## 2026-09-30 02:42 UTC — กลไกเทrulด vs P/L (closed=371)
+### กลยุทธ์
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- trend: n=117 net=$-1.27 wr=58%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=219 net=$-4.55 wr=58%
+### Regime
+- breakout: n=28 net=$0.82 wr=54%
+- range: n=57 net=$-0.34 wr=61%
+- transition: n=160 net=$-1.06 wr=62%
+- trend: n=126 net=$-1.07 wr=60%
+
+## 2026-09-30 02:42 UTC — กลไกเทrulด vs P/L (closed=371)
+### กลยุทธ์
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- trend: n=117 net=$-1.27 wr=58%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=219 net=$-4.55 wr=58%
+### Regime
+- breakout: n=28 net=$0.82 wr=54%
+- range: n=57 net=$-0.34 wr=61%
+- transition: n=160 net=$-1.06 wr=62%
+- trend: n=126 net=$-1.07 wr=60%
+
+## 2026-09-30 02:56 UTC — กลไกเทrulด vs P/L (closed=371)
+### กลยุทธ์
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- trend: n=117 net=$-1.27 wr=58%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=219 net=$-4.55 wr=58%
+### Regime
+- breakout: n=28 net=$0.82 wr=54%
+- range: n=57 net=$-0.34 wr=61%
+- transition: n=160 net=$-1.06 wr=62%
+- trend: n=126 net=$-1.07 wr=60%
+
+## 2026-09-30 03:09 UTC — กลไกเทrulด vs P/L (closed=372)
+### กลยุทธ์
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+- trend: n=118 net=$-1.75 wr=58%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=220 net=$-5.03 wr=58%
+### Regime
+- breakout: n=29 net=$0.34 wr=52%
+- range: n=57 net=$-0.34 wr=61%
+- transition: n=160 net=$-1.06 wr=62%
+- trend: n=126 net=$-1.07 wr=60%
+
+## 2026-09-30 03:22 UTC — กลไกเทrulด vs P/L (closed=373)
+### กลยุทธ์
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+- trend: n=119 net=$-1.64 wr=58%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=221 net=$-4.92 wr=58%
+### Regime
+- breakout: n=29 net=$0.34 wr=52%
+- range: n=57 net=$-0.34 wr=61%
+- trend: n=127 net=$-0.96 wr=61%
+- transition: n=160 net=$-1.06 wr=62%
+
+## 2026-09-30 03:35 UTC — กลไกเทrulด vs P/L (closed=373)
+### กลยุทธ์
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+- trend: n=119 net=$-1.64 wr=58%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=221 net=$-4.92 wr=58%
+### Regime
+- breakout: n=29 net=$0.34 wr=52%
+- range: n=57 net=$-0.34 wr=61%
+- trend: n=127 net=$-0.96 wr=61%
+- transition: n=160 net=$-1.06 wr=62%
+
+## 2026-09-30 03:48 UTC — กลไกเทrulด vs P/L (closed=374)
+### กลยุทธ์
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+- trend: n=120 net=$-2.17 wr=58%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=222 net=$-5.45 wr=58%
+### Regime
+- breakout: n=29 net=$0.34 wr=52%
+- range: n=57 net=$-0.34 wr=61%
+- trend: n=127 net=$-0.96 wr=61%
+- transition: n=161 net=$-1.59 wr=61%
+
+## 2026-09-30 04:01 UTC — กลไกเทrulด vs P/L (closed=374)
+### กลยุทธ์
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+- trend: n=120 net=$-2.17 wr=58%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=222 net=$-5.45 wr=58%
+### Regime
+- breakout: n=29 net=$0.34 wr=52%
+- range: n=57 net=$-0.34 wr=61%
+- trend: n=127 net=$-0.96 wr=61%
+- transition: n=161 net=$-1.59 wr=61%
+
+## 2026-09-30 04:30 UTC — กลไกเทrulด vs P/L (closed=374)
+### กลยุทธ์
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+- trend: n=120 net=$-2.17 wr=58%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=222 net=$-5.45 wr=58%
+### Regime
+- breakout: n=29 net=$0.34 wr=52%
+- range: n=57 net=$-0.34 wr=61%
+- trend: n=127 net=$-0.96 wr=61%
+- transition: n=161 net=$-1.59 wr=61%
+
+## 2026-09-30 04:43 UTC — กลไกเทrulด vs P/L (closed=375)
+### กลยุทธ์
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+- trend: n=121 net=$-2.12 wr=58%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=223 net=$-5.40 wr=58%
+### Regime
+- breakout: n=29 net=$0.34 wr=52%
+- range: n=57 net=$-0.34 wr=61%
+- trend: n=127 net=$-0.96 wr=61%
+- transition: n=162 net=$-1.54 wr=62%
+
+## 2026-09-30 04:56 UTC — กลไกเทrulด vs P/L (closed=376)
+### กลยุทธ์
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+- trend: n=122 net=$-2.05 wr=58%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=224 net=$-5.33 wr=58%
+### Regime
+- breakout: n=29 net=$0.34 wr=52%
+- range: n=57 net=$-0.34 wr=61%
+- trend: n=128 net=$-0.89 wr=61%
+- transition: n=162 net=$-1.54 wr=62%
+
+## 2026-09-30 05:09 UTC — กลไกเทrulด vs P/L (closed=377)
+### กลยุทธ์
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+- trend: n=123 net=$-1.95 wr=59%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=225 net=$-5.23 wr=58%
+### Regime
+- breakout: n=29 net=$0.34 wr=52%
+- range: n=57 net=$-0.34 wr=61%
+- trend: n=128 net=$-0.89 wr=61%
+- transition: n=163 net=$-1.44 wr=62%
+
+## 2026-09-30 05:22 UTC — กลไกเทrulด vs P/L (closed=379)
+### กลยุทธ์
+- mean_reversion: n=115 net=$1.66 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+- trend: n=125 net=$-2.87 wr=58%
+### ทิศทาง
+- buy: n=152 net=$2.90 wr=64%
+- sell: n=227 net=$-6.15 wr=58%
+### Regime
+- breakout: n=29 net=$0.34 wr=52%
+- range: n=57 net=$-0.34 wr=61%
+- trend: n=128 net=$-0.89 wr=61%
+- transition: n=165 net=$-2.36 wr=61%
+
+## 2026-09-30 05:35 UTC — กลไกเทrulด vs P/L (closed=381)
+### กลยุทธ์
+- mean_reversion: n=116 net=$2.03 wr=63%
+- breakout: n=14 net=$1.16 wr=50%
+- trend_legacy: n=2 net=$0.19 wr=50%
+- counter_trend: n=27 net=$-0.86 wr=63%
+- range: n=87 net=$-1.04 wr=64%
+- breakout_reversal: n=9 net=$-1.49 wr=44%
+- trend: n=126 net=$-2.48 wr=58%
+### ทิศทาง
+- buy: n=153 net=$3.27 wr=65%
+- sell: n=228 net=$-5.76 wr=58%
+### Regime
+- range: n=59 net=$0.42 wr=63%
+- breakout: n=29 net=$0.34 wr=52%
+- trend: n=128 net=$-0.89 wr=61%
+- transition: n=165 net=$-2.36 wr=61%
+
+## 2026-09-30 05:48 UTC — กลไกเทrulด vs P/L (closed=70)
+### กลยุทธ์
+- trend: n=59 net=$1.01 wr=49%
+- range: n=8 net=$0.22 wr=75%
+- mean_reversion: n=3 net=$-1.14 wr=33%
+### ทิศทาง
+- sell: n=57 net=$1.18 wr=49%
+- buy: n=13 net=$-1.09 wr=62%
+### Regime
+- trend: n=35 net=$3.20 wr=49%
+- range: n=10 net=$-0.69 wr=50%
+- breakout: n=5 net=$-1.18 wr=40%
+- transition: n=20 net=$-1.24 wr=60%

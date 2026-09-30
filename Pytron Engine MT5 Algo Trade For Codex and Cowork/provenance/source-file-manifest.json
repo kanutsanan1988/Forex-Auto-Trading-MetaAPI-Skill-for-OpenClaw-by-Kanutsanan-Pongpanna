@@ -1,8 +1,8 @@
 {
   "_creator": "Kanutsanan Pongpanna",
-  "snapshot_date": "2026-09-28",
+  "snapshot_date": "2026-09-30",
   "manifest_scope": "copied project/source files before generated release README and overlays",
-  "file_count": 792,
+  "file_count": 866,
   "files": [
     {
       "source": "BRANDING.md",
@@ -161,8 +161,8 @@
     {
       "source": "mt5_python_bridge/auto_config.json",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/outputs/mt5_python_bridge/auto_config.json",
-      "source_sha256": "c8a07c611899c562356d9a62cb451d3e5a242fb742317ce2355b9ed7043e2f9b",
-      "package_sha256": "c8a07c611899c562356d9a62cb451d3e5a242fb742317ce2355b9ed7043e2f9b",
+      "source_sha256": "033f92b4c615fe364e270d40af8d2cc05b037760efeb65ca4347303a81f62a55",
+      "package_sha256": "033f92b4c615fe364e270d40af8d2cc05b037760efeb65ca4347303a81f62a55",
       "sanitized": false
     },
     {
@@ -175,8 +175,8 @@
     {
       "source": "mt5_python_bridge/auto_trader.py",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/outputs/mt5_python_bridge/auto_trader.py",
-      "source_sha256": "4a26eba0fc460eee20ff7fd70f31eb2f7a058fbf08d3b19f86851b6063d041ab",
-      "package_sha256": "4a26eba0fc460eee20ff7fd70f31eb2f7a058fbf08d3b19f86851b6063d041ab",
+      "source_sha256": "007b9d15e221ae5a619868dc37054cc228ee7fcb41cb77e6f8c35aefe8b62df4",
+      "package_sha256": "007b9d15e221ae5a619868dc37054cc228ee7fcb41cb77e6f8c35aefe8b62df4",
       "sanitized": false
     },
     {
@@ -203,8 +203,8 @@
     {
       "source": "mt5_python_bridge/choose_mode.py",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/outputs/mt5_python_bridge/choose_mode.py",
-      "source_sha256": "cde8121e15c7bc9cf3029f12973bfe2268c3427d4a760efa4f0dc3a19e3cf834",
-      "package_sha256": "cde8121e15c7bc9cf3029f12973bfe2268c3427d4a760efa4f0dc3a19e3cf834",
+      "source_sha256": "8df522badfd84619e7dedd0a833ca9d16d7177920f108b86634dc8a5bbc7f239",
+      "package_sha256": "8df522badfd84619e7dedd0a833ca9d16d7177920f108b86634dc8a5bbc7f239",
       "sanitized": false
     },
     {
@@ -217,22 +217,22 @@
     {
       "source": "mt5_python_bridge/credit_guard.json",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/outputs/mt5_python_bridge/credit_guard.json",
-      "source_sha256": "b6c9cfd7b38e214dc5f0f15fddd84c58957e43c54b811a9a7dca80d677f7a996",
-      "package_sha256": "b6c9cfd7b38e214dc5f0f15fddd84c58957e43c54b811a9a7dca80d677f7a996",
+      "source_sha256": "1d6067da204d7f61de6dda1ad556ad492756d638007fc879d050ff181a03331f",
+      "package_sha256": "1d6067da204d7f61de6dda1ad556ad492756d638007fc879d050ff181a03331f",
       "sanitized": false
     },
     {
       "source": "mt5_python_bridge/full_system.ps1",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/outputs/mt5_python_bridge/full_system.ps1",
-      "source_sha256": "5e1e8c3ab6021d4b173ed30a3337280d7dc4302039677fa963a4ff2a733307d0",
-      "package_sha256": "f5f0c451f28059d96a5027bc9eda05e3bec40ee99a99be9ff8c64960fb3707da",
+      "source_sha256": "e3e9bc271370a5619368ecbbc8ad43bf1cdfd386c2d83cc8f68137c00b39bee3",
+      "package_sha256": "dfd38600abc10ffe23bcff94e841df1a280352e27f7b590ca316d8d4a6b0dba2",
       "sanitized": true
     },
     {
       "source": "mt5_python_bridge/jev_config.json",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/outputs/mt5_python_bridge/jev_config.json",
-      "source_sha256": "1fb88741f478c88e10f88da79ef32520fe319aa08bd9fc0a0055eea3b5d690f5",
-      "package_sha256": "e81735134cce7faf2ba76c906a85489305b1c1da5063ef903d1bf49fd7e7e3b6",
+      "source_sha256": "321b9e146ee95462bed6cb6679bf4fe64b73ade0008d3bd1d0e35b774b0d4323",
+      "package_sha256": "a095fe5458e7d1b808d77ce15852c8396c3361fdb2aeb80e106b221ba103056a",
       "sanitized": true
     },
     {
@@ -266,8 +266,8 @@
     {
       "source": "mt5_python_bridge/market_analyzer.py",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/outputs/mt5_python_bridge/market_analyzer.py",
-      "source_sha256": "5a6a49018f0903f46007553e57794c0471f33d4c97162e5ea44becd3286d18ea",
-      "package_sha256": "5a6a49018f0903f46007553e57794c0471f33d4c97162e5ea44becd3286d18ea",
+      "source_sha256": "ec9b254a9aa14d3160779e76e42c66290c3cbf1be847053452e819e7a673e91c",
+      "package_sha256": "ec9b254a9aa14d3160779e76e42c66290c3cbf1be847053452e819e7a673e91c",
       "sanitized": false
     },
     {
@@ -303,6 +303,13 @@
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/outputs/mt5_python_bridge/pause_research_llm.cmd",
       "source_sha256": "741fd01133e76e04cd455b08569068877cca1bc007b38c2a04d211f734a26f86",
       "package_sha256": "741fd01133e76e04cd455b08569068877cca1bc007b38c2a04d211f734a26f86",
+      "sanitized": false
+    },
+    {
+      "source": "mt5_python_bridge/position_protection.py",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/outputs/mt5_python_bridge/position_protection.py",
+      "source_sha256": "93d5c3032d7d1551feba8e1dde60214a3a2cbbc2682f494a08aac3f4c944c546",
+      "package_sha256": "93d5c3032d7d1551feba8e1dde60214a3a2cbbc2682f494a08aac3f4c944c546",
       "sanitized": false
     },
     {
@@ -453,6 +460,13 @@
       "sanitized": false
     },
     {
+      "source": "mt5_python_bridge/trader_ai.py",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/outputs/mt5_python_bridge/trader_ai.py",
+      "source_sha256": "0f2fa8178d86f5f0cd6d6c73a7468dd3a98d6024ed7aabd60e2909d64fba2944",
+      "package_sha256": "b7f1a6855c3ef8ccb44cb0664176c7d69b16a08cdbfa960c49a4c6cb98cbd6bd",
+      "sanitized": true
+    },
+    {
       "source": "mt5_python_bridge/คืนค่าโรงงาน.cmd",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/outputs/mt5_python_bridge/คืนค่าโรงงาน.cmd",
       "source_sha256": "310e1c3609babb4378fb7f016d18ecbaab06956fa374c1a12954abffbbdc8ee5",
@@ -579,6 +593,13 @@
       "sanitized": false
     },
     {
+      "source": "mt5_python_bridge/tests/test_jev_collaboration.py",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/outputs/mt5_python_bridge/tests/test_jev_collaboration.py",
+      "source_sha256": "074edc62c9806c5b47223d11a6a9d4dd65951ade01324a0df9dccc0798555dc7",
+      "package_sha256": "074edc62c9806c5b47223d11a6a9d4dd65951ade01324a0df9dccc0798555dc7",
+      "sanitized": false
+    },
+    {
       "source": "mt5_python_bridge/tests/test_mode_contract.py",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/outputs/mt5_python_bridge/tests/test_mode_contract.py",
       "source_sha256": "206572a035b1b548e123786c0b2459ad0d94e9ef7736b60168d528d089254cf9",
@@ -600,6 +621,13 @@
       "sanitized": false
     },
     {
+      "source": "mt5_python_bridge/tests/test_position_protection.py",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/outputs/mt5_python_bridge/tests/test_position_protection.py",
+      "source_sha256": "1e3af9ce39a10bc3819ce2a913ae99ac44204bf5c0187125603c5775c07019d2",
+      "package_sha256": "1e3af9ce39a10bc3819ce2a913ae99ac44204bf5c0187125603c5775c07019d2",
+      "sanitized": false
+    },
+    {
       "source": "mt5_python_bridge/tests/test_runtime_support_lock.py",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/outputs/mt5_python_bridge/tests/test_runtime_support_lock.py",
       "source_sha256": "411b91790e111f2f332426026fe3bb495ffe9b0d686a31be63f8a61efef0420f",
@@ -614,10 +642,24 @@
       "sanitized": false
     },
     {
+      "source": "mt5_python_bridge/tests/test_trader_ai_human_only.py",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/outputs/mt5_python_bridge/tests/test_trader_ai_human_only.py",
+      "source_sha256": "9f5047ea2e485160a3be4428cdc45e0c4d8d40e3cbaa3a88e67af7656dd54986",
+      "package_sha256": "9f5047ea2e485160a3be4428cdc45e0c4d8d40e3cbaa3a88e67af7656dd54986",
+      "sanitized": false
+    },
+    {
+      "source": "mt5_python_bridge/tests/test_trader_no_ai_dependency.py",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/outputs/mt5_python_bridge/tests/test_trader_no_ai_dependency.py",
+      "source_sha256": "73b5ff5cec11c5e1f954104bb541e08a068f42b2a8779e04ac9a1f7a6526be14",
+      "package_sha256": "73b5ff5cec11c5e1f954104bb541e08a068f42b2a8779e04ac9a1f7a6526be14",
+      "sanitized": false
+    },
+    {
       "source": "mt5_python_bridge/tools/admin_bot_round.py",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/outputs/mt5_python_bridge/tools/admin_bot_round.py",
-      "source_sha256": "2cec3471455290af596e5213ffc576b8be7835209f4f6735b353ebf54b1b50f8",
-      "package_sha256": "2cec3471455290af596e5213ffc576b8be7835209f4f6735b353ebf54b1b50f8",
+      "source_sha256": "2f2f6676822c145669fb7001c41649b1347f2d2e05ae853a52940ba7d98de40e",
+      "package_sha256": "2f2f6676822c145669fb7001c41649b1347f2d2e05ae853a52940ba7d98de40e",
       "sanitized": false
     },
     {
@@ -656,10 +698,24 @@
       "sanitized": false
     },
     {
+      "source": "mt5_python_bridge/tools/concurrent_compare.py",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/outputs/mt5_python_bridge/tools/concurrent_compare.py",
+      "source_sha256": "3e5af09eeb7b3c207f22749a1b5e1a28c60e9d46985fcadb1998b8a7caaee5b1",
+      "package_sha256": "3e5af09eeb7b3c207f22749a1b5e1a28c60e9d46985fcadb1998b8a7caaee5b1",
+      "sanitized": false
+    },
+    {
+      "source": "mt5_python_bridge/tools/concurrent_sim.py",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/outputs/mt5_python_bridge/tools/concurrent_sim.py",
+      "source_sha256": "2f8679c99f8f52036bed486d149ec5517c623dae206d5a8427f99089a0034ded",
+      "package_sha256": "2f8679c99f8f52036bed486d149ec5517c623dae206d5a8427f99089a0034ded",
+      "sanitized": false
+    },
+    {
       "source": "mt5_python_bridge/tools/credit_guard.py",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/outputs/mt5_python_bridge/tools/credit_guard.py",
-      "source_sha256": "8ac6a7add2d16e597edd4c63c753eebd6dd2b57c0d38cbe3291b32fbf7f715bc",
-      "package_sha256": "8ac6a7add2d16e597edd4c63c753eebd6dd2b57c0d38cbe3291b32fbf7f715bc",
+      "source_sha256": "d2d11a456b4865190ab2bb73c98630bc5a3b25c9cb888799190955f0e8f4e9b4",
+      "package_sha256": "d2d11a456b4865190ab2bb73c98630bc5a3b25c9cb888799190955f0e8f4e9b4",
       "sanitized": false
     },
     {
@@ -686,8 +742,8 @@
     {
       "source": "mt5_python_bridge/tools/full_audit.py",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/outputs/mt5_python_bridge/tools/full_audit.py",
-      "source_sha256": "f6b45a0ee64cf8682048679c321400d2e712c294aa2810abc5d39c5aa2defdaa",
-      "package_sha256": "f6b45a0ee64cf8682048679c321400d2e712c294aa2810abc5d39c5aa2defdaa",
+      "source_sha256": "1d4b3dfea1055fa66679c15f586d57a30cfa52ac3850f6d2771e240c85ff583b",
+      "package_sha256": "1d4b3dfea1055fa66679c15f586d57a30cfa52ac3850f6d2771e240c85ff583b",
       "sanitized": false
     },
     {
@@ -705,6 +761,13 @@
       "sanitized": false
     },
     {
+      "source": "mt5_python_bridge/tools/human_behavior_research.py",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/outputs/mt5_python_bridge/tools/human_behavior_research.py",
+      "source_sha256": "6f052a37fc1e1059bf28ab8eae75c47d0ccbf9215304908bbcc8b6ef6618e30c",
+      "package_sha256": "6f052a37fc1e1059bf28ab8eae75c47d0ccbf9215304908bbcc8b6ef6618e30c",
+      "sanitized": false
+    },
+    {
       "source": "mt5_python_bridge/tools/interbot.py",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/outputs/mt5_python_bridge/tools/interbot.py",
       "source_sha256": "5b978ebe9c29c1cb512742bfd3bdc5b0c619491cfe43c49de30ab0991bfa3ff7",
@@ -716,6 +779,13 @@
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/outputs/mt5_python_bridge/tools/jev.py",
       "source_sha256": "e81cccca2af3e45eea28db6c0b87affee14e9f9347d32dd9f9e4b012cc2e6715",
       "package_sha256": "e81cccca2af3e45eea28db6c0b87affee14e9f9347d32dd9f9e4b012cc2e6715",
+      "sanitized": false
+    },
+    {
+      "source": "mt5_python_bridge/tools/jev_advise.py",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/outputs/mt5_python_bridge/tools/jev_advise.py",
+      "source_sha256": "2c34dbc25d934dd52dfd452471f5e2a23d063d00422d85e16d01f966fc2ec67e",
+      "package_sha256": "2c34dbc25d934dd52dfd452471f5e2a23d063d00422d85e16d01f966fc2ec67e",
       "sanitized": false
     },
     {
@@ -747,10 +817,31 @@
       "sanitized": false
     },
     {
+      "source": "mt5_python_bridge/tools/loss_analysis.py",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/outputs/mt5_python_bridge/tools/loss_analysis.py",
+      "source_sha256": "b9474429981eee8d2c3942b9cddec13660867973cc0f53a1f30bb415a80e64d3",
+      "package_sha256": "b9474429981eee8d2c3942b9cddec13660867973cc0f53a1f30bb415a80e64d3",
+      "sanitized": false
+    },
+    {
       "source": "mt5_python_bridge/tools/loss_review.py",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/outputs/mt5_python_bridge/tools/loss_review.py",
       "source_sha256": "3732d486436611310ee9243e166e49eb6094f4366359a34c3b0a2918b7b789ad",
       "package_sha256": "3732d486436611310ee9243e166e49eb6094f4366359a34c3b0a2918b7b789ad",
+      "sanitized": false
+    },
+    {
+      "source": "mt5_python_bridge/tools/m1_sweep.py",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/outputs/mt5_python_bridge/tools/m1_sweep.py",
+      "source_sha256": "9f540f89b3a70b18df4b66d6e516d44f1211f227f9260ae79301989258c63348",
+      "package_sha256": "9f540f89b3a70b18df4b66d6e516d44f1211f227f9260ae79301989258c63348",
+      "sanitized": false
+    },
+    {
+      "source": "mt5_python_bridge/tools/mgmt_diagnosis.py",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/outputs/mt5_python_bridge/tools/mgmt_diagnosis.py",
+      "source_sha256": "7d5941f12b1930e1706a0398eeb77c65ff79eebe73c2bcd8fa528471116cce8c",
+      "package_sha256": "7d5941f12b1930e1706a0398eeb77c65ff79eebe73c2bcd8fa528471116cce8c",
       "sanitized": false
     },
     {
@@ -789,6 +880,13 @@
       "sanitized": false
     },
     {
+      "source": "mt5_python_bridge/tools/question_board.py",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/outputs/mt5_python_bridge/tools/question_board.py",
+      "source_sha256": "96e4debd67aba066bd63ac07c52bf2df310d2a496c9054f61cfdf482a8d24ee4",
+      "package_sha256": "96e4debd67aba066bd63ac07c52bf2df310d2a496c9054f61cfdf482a8d24ee4",
+      "sanitized": false
+    },
+    {
       "source": "mt5_python_bridge/tools/rec_contract.py",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/outputs/mt5_python_bridge/tools/rec_contract.py",
       "source_sha256": "b7125ac11e8a9b0633df6008922fc3c0b77ef862b2cac053e8ea9c67addf1910",
@@ -800,6 +898,20 @@
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/outputs/mt5_python_bridge/tools/rotate_audit.py",
       "source_sha256": "69df68c222c8b63b00ba6207618c96245554b9fcc69d84d4d77d24bbb6afe144",
       "package_sha256": "69df68c222c8b63b00ba6207618c96245554b9fcc69d84d4d77d24bbb6afe144",
+      "sanitized": false
+    },
+    {
+      "source": "mt5_python_bridge/tools/samedir_gap_sim.py",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/outputs/mt5_python_bridge/tools/samedir_gap_sim.py",
+      "source_sha256": "9e17c521833a91a7eeb9a64d3004a796bbfa6d7b863d25a662accb622770caef",
+      "package_sha256": "9e17c521833a91a7eeb9a64d3004a796bbfa6d7b863d25a662accb622770caef",
+      "sanitized": false
+    },
+    {
+      "source": "mt5_python_bridge/tools/samedir_sim.py",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/outputs/mt5_python_bridge/tools/samedir_sim.py",
+      "source_sha256": "59b8ef2489c73be8d0e55555bcd84653c6792aa7b72131ce18466aa3a189077f",
+      "package_sha256": "59b8ef2489c73be8d0e55555bcd84653c6792aa7b72131ce18466aa3a189077f",
       "sanitized": false
     },
     {
@@ -833,15 +945,15 @@
     {
       "source": "mt5_python_bridge/tools/system_qc.py",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/outputs/mt5_python_bridge/tools/system_qc.py",
-      "source_sha256": "7f5095e68bbda4c6a6227b2fc50ae675f8d72de2cf8d412b61c122dc8edfa088",
-      "package_sha256": "7f5095e68bbda4c6a6227b2fc50ae675f8d72de2cf8d412b61c122dc8edfa088",
+      "source_sha256": "e3b75a686fbf171a380bf678c58732a04440fd560f91227389f1d53109eea8ab",
+      "package_sha256": "e3b75a686fbf171a380bf678c58732a04440fd560f91227389f1d53109eea8ab",
       "sanitized": false
     },
     {
       "source": "mt5_python_bridge/tools/system_status.py",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/outputs/mt5_python_bridge/tools/system_status.py",
-      "source_sha256": "b9a94385ea04fea27cb2a402e8acb45da679af4f2d9aa7178157f3786002223d",
-      "package_sha256": "b9a94385ea04fea27cb2a402e8acb45da679af4f2d9aa7178157f3786002223d",
+      "source_sha256": "f08b2787fae81524a692b608940cbf9bb234e754c6337a91e1436ffb45ec597c",
+      "package_sha256": "f08b2787fae81524a692b608940cbf9bb234e754c6337a91e1436ffb45ec597c",
       "sanitized": false
     },
     {
@@ -849,6 +961,13 @@
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/outputs/mt5_python_bridge/tools/tpsl_countertrend_sim.py",
       "source_sha256": "ca032fa45ba9de39379e138d706fe1d07ab2a7988382b7e4f50389a3bf0262ee",
       "package_sha256": "ca032fa45ba9de39379e138d706fe1d07ab2a7988382b7e4f50389a3bf0262ee",
+      "sanitized": false
+    },
+    {
+      "source": "mt5_python_bridge/tools/tpsl_review.py",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/outputs/mt5_python_bridge/tools/tpsl_review.py",
+      "source_sha256": "ca67a67e8f1eb60b88abe594581f92edb57c0f31c67b6e5be22b668081113bfe",
+      "package_sha256": "ca67a67e8f1eb60b88abe594581f92edb57c0f31c67b6e5be22b668081113bfe",
       "sanitized": false
     },
     {
@@ -866,10 +985,17 @@
       "sanitized": false
     },
     {
+      "source": "mt5_python_bridge/tools/why_wrong.py",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/outputs/mt5_python_bridge/tools/why_wrong.py",
+      "source_sha256": "796454d1a761d66e7ace4b8b2ee0dede90925cbd4bbde5964110f0770cb1d8b0",
+      "package_sha256": "796454d1a761d66e7ace4b8b2ee0dede90925cbd4bbde5964110f0770cb1d8b0",
+      "sanitized": false
+    },
+    {
       "source": "2026-09-11-live-research-log.md",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/2026-09-11-live-research-log.md",
-      "source_sha256": "f1143131ec39a21f1dcba0890c875e4ffc077d3c59c417bd093d3aa64e506163",
-      "package_sha256": "a95bf00266820628284baaafbbe4c6a2082b48de8716bee90a282286e6dad77c",
+      "source_sha256": "b7f3e221aefa2f1ba5f62032d1d97286a52f63315c06628805ea5f523f97363d",
+      "package_sha256": "8e23e6abd2dc4beb4accfeab172516f3f15718c29a34e72c0101cb66b6f3478a",
       "sanitized": true
     },
     {
@@ -903,8 +1029,8 @@
     {
       "source": "2026-09-12-auto-threshold-vs-trading.md",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/2026-09-12-auto-threshold-vs-trading.md",
-      "source_sha256": "5210822c90a4bd59f2928dd56114fa30a5e4b415d428cc4f2ba74224fea1aa50",
-      "package_sha256": "5210822c90a4bd59f2928dd56114fa30a5e4b415d428cc4f2ba74224fea1aa50",
+      "source_sha256": "3523db04d78113f10b3a326a7e4f2d9bd5a79608527909e1609f5923e9819c44",
+      "package_sha256": "3523db04d78113f10b3a326a7e4f2d9bd5a79608527909e1609f5923e9819c44",
       "sanitized": false
     },
     {
@@ -924,15 +1050,15 @@
     {
       "source": "2026-09-12-mechanism-profit-analysis.md",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/2026-09-12-mechanism-profit-analysis.md",
-      "source_sha256": "b20d459e3ed1e71c3fa1d0dfe2f2f9d6cdc067b2f803f703526d71e88f60d806",
-      "package_sha256": "b20d459e3ed1e71c3fa1d0dfe2f2f9d6cdc067b2f803f703526d71e88f60d806",
+      "source_sha256": "9b341282f058e71718306c3b46cf258e25e0860468312f8f0b8aa7abe4cfdf4c",
+      "package_sha256": "9b341282f058e71718306c3b46cf258e25e0860468312f8f0b8aa7abe4cfdf4c",
       "sanitized": false
     },
     {
       "source": "2026-09-12-ranking-prob-vs-weight.md",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/2026-09-12-ranking-prob-vs-weight.md",
-      "source_sha256": "e4b1802d91a01117b3943b5b2ac9e070538fb6719314442626fdcffe40b18013",
-      "package_sha256": "e4b1802d91a01117b3943b5b2ac9e070538fb6719314442626fdcffe40b18013",
+      "source_sha256": "152603a1780fbdfe08e927c3cac2f85fafe4c3f044fed511540b5fc2cb55d24b",
+      "package_sha256": "152603a1780fbdfe08e927c3cac2f85fafe4c3f044fed511540b5fc2cb55d24b",
       "sanitized": false
     },
     {
@@ -1029,8 +1155,8 @@
     {
       "source": "band-plan-log.md",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/band-plan-log.md",
-      "source_sha256": "095f59abbddbabfde20016773e296929fdf3f425faba19503f28da32983844be",
-      "package_sha256": "095f59abbddbabfde20016773e296929fdf3f425faba19503f28da32983844be",
+      "source_sha256": "321b945befce4d2e9ee106a7c98734dc0b4a5dda76f435a138022651b2bce95b",
+      "package_sha256": "321b945befce4d2e9ee106a7c98734dc0b4a5dda76f435a138022651b2bce95b",
       "sanitized": false
     },
     {
@@ -1043,22 +1169,22 @@
     {
       "source": "consolidated-research-log.md",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/consolidated-research-log.md",
-      "source_sha256": "56dc1a05c2b467158d3d8dbef7e96bca2dbda0d0ede2663d6051a65908ac17e2",
-      "package_sha256": "cb2c922394a40c09586b4d31273b13c08cc0621498576d45c43db7e5935b8a93",
+      "source_sha256": "cbc0bf40bbc06f13dcffe71512a57c7a6bb91af4fcfc68a3971f5fd886426236",
+      "package_sha256": "4403685923ba5bf7fdebe61f125518bf4c55f53edd4acf2e037cf0b48f7c2235",
       "sanitized": true
     },
     {
       "source": "llm-signal-log.md",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/llm-signal-log.md",
-      "source_sha256": "f40ad08d97e984c5e946a54c93ea86eaa84ab4041cecc825b2f35a8c6229d852",
-      "package_sha256": "f40ad08d97e984c5e946a54c93ea86eaa84ab4041cecc825b2f35a8c6229d852",
+      "source_sha256": "14b03929063e1a7203f9e708785c63a5648fbcab5c1125e56e44e8879c96df44",
+      "package_sha256": "14b03929063e1a7203f9e708785c63a5648fbcab5c1125e56e44e8879c96df44",
       "sanitized": false
     },
     {
       "source": "news-log.md",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/news-log.md",
-      "source_sha256": "a74b9b5d32cfb4eca36de9fab8146972b058a06835b770322c28da8b3805145c",
-      "package_sha256": "a74b9b5d32cfb4eca36de9fab8146972b058a06835b770322c28da8b3805145c",
+      "source_sha256": "de347514a854e0b81b9daba4f839285238e7d6c3749da6ddeffa9863237b60f6",
+      "package_sha256": "de347514a854e0b81b9daba4f839285238e7d6c3749da6ddeffa9863237b60f6",
       "sanitized": false
     },
     {
@@ -1085,22 +1211,36 @@
     {
       "source": "news-research-2026-09-28.md",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/news-research-2026-09-28.md",
-      "source_sha256": "3f72462fdf0c2ef655c052bb4665544fc3bd6fe0953ae4c38e8bb86010a10b81",
-      "package_sha256": "3f72462fdf0c2ef655c052bb4665544fc3bd6fe0953ae4c38e8bb86010a10b81",
+      "source_sha256": "53a6a3f5b79691bbc1df60f5d9173f204554061417baf3bf520323e6080d0cba",
+      "package_sha256": "53a6a3f5b79691bbc1df60f5d9173f204554061417baf3bf520323e6080d0cba",
+      "sanitized": false
+    },
+    {
+      "source": "news-research-2026-09-29.md",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/news-research-2026-09-29.md",
+      "source_sha256": "d8edb9eb7abe486b4e4a9442509fdf9365c32811f61aaf63dc614af2be7fe1ca",
+      "package_sha256": "d8edb9eb7abe486b4e4a9442509fdf9365c32811f61aaf63dc614af2be7fe1ca",
+      "sanitized": false
+    },
+    {
+      "source": "news-research-2026-09-30.md",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/news-research-2026-09-30.md",
+      "source_sha256": "64e1fd7384759d89583e3c9a027f17a635066b36855c272421eb4d84552c28df",
+      "package_sha256": "64e1fd7384759d89583e3c9a027f17a635066b36855c272421eb4d84552c28df",
       "sanitized": false
     },
     {
       "source": "profit-anchor-log.md",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/profit-anchor-log.md",
-      "source_sha256": "48602405631ce3b9deb3743f50559d92137febe17ad6592dbf682fa3d12b5aa0",
-      "package_sha256": "48602405631ce3b9deb3743f50559d92137febe17ad6592dbf682fa3d12b5aa0",
+      "source_sha256": "cc1d5ad71eaeb0fb22bf81275e3caf6b96e6cc3c6eb269916def1b8506432443",
+      "package_sha256": "cc1d5ad71eaeb0fb22bf81275e3caf6b96e6cc3c6eb269916def1b8506432443",
       "sanitized": false
     },
     {
       "source": "tpsl-plan-log.md",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/tpsl-plan-log.md",
-      "source_sha256": "ebe5251c9b81445b3ea36663166e708b9be35faea237284d7d52a09862f0c7f8",
-      "package_sha256": "ebe5251c9b81445b3ea36663166e708b9be35faea237284d7d52a09862f0c7f8",
+      "source_sha256": "6b7372431b05b90673bfa35ec51e9d73b8ca649f7b92ba48d6537b6b5e3e0060",
+      "package_sha256": "6b7372431b05b90673bfa35ec51e9d73b8ca649f7b92ba48d6537b6b5e3e0060",
       "sanitized": false
     },
     {
@@ -1358,15 +1498,15 @@
     {
       "source": "auto-threshold-stats/latest.json",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/auto-threshold-stats/latest.json",
-      "source_sha256": "59f989c4b6f0dfb5aa78a3b05c59673ab09724fa2fc9b91df9615d85e0f31d84",
-      "package_sha256": "59f989c4b6f0dfb5aa78a3b05c59673ab09724fa2fc9b91df9615d85e0f31d84",
+      "source_sha256": "09956eeb25b630cae8b4bf3719cead5ea19f211239d9dfc6f473d8ef6ca37e56",
+      "package_sha256": "09956eeb25b630cae8b4bf3719cead5ea19f211239d9dfc6f473d8ef6ca37e56",
       "sanitized": false
     },
     {
       "source": "auto-threshold-stats/threshold-stats-log.md",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/auto-threshold-stats/threshold-stats-log.md",
-      "source_sha256": "b96c8650d8853d4962ef6d9f6b66421237d7f2abe802902a0ccf159a04f8eaed",
-      "package_sha256": "b96c8650d8853d4962ef6d9f6b66421237d7f2abe802902a0ccf159a04f8eaed",
+      "source_sha256": "48d7c2c1ae81add4c31534c536c208e903509178a6b8662a945b5435340e4f2d",
+      "package_sha256": "48d7c2c1ae81add4c31534c536c208e903509178a6b8662a945b5435340e4f2d",
       "sanitized": false
     },
     {
@@ -1407,8 +1547,15 @@
     {
       "source": "daily/2026-09-28.md",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/daily/2026-09-28.md",
-      "source_sha256": "6da1605e128f46f5cefd24dd5d41767cc15186589b31fc080f586fd052a03961",
-      "package_sha256": "6da1605e128f46f5cefd24dd5d41767cc15186589b31fc080f586fd052a03961",
+      "source_sha256": "4e5e1855b3b3a05f4d32c8879d86f2d93b1b96d96d469de7b592df66d836bc99",
+      "package_sha256": "4e5e1855b3b3a05f4d32c8879d86f2d93b1b96d96d469de7b592df66d836bc99",
+      "sanitized": false
+    },
+    {
+      "source": "daily/2026-09-30.md",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/daily/2026-09-30.md",
+      "source_sha256": "f05d5673a1dfc4e9f712df14d2922f82dd8e8ee262a21bbd7d223f3aa1f81ed5",
+      "package_sha256": "f05d5673a1dfc4e9f712df14d2922f82dd8e8ee262a21bbd7d223f3aa1f81ed5",
       "sanitized": false
     },
     {
@@ -1442,22 +1589,22 @@
     {
       "source": "recommendations/last_applied.json",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/recommendations/last_applied.json",
-      "source_sha256": "15c045f230c9a034fc1858b91e347942183dcaaccac8caf27dc827e5a90135a6",
-      "package_sha256": "15c045f230c9a034fc1858b91e347942183dcaaccac8caf27dc827e5a90135a6",
+      "source_sha256": "6f7533c6cb1d6a79d9a48e738c7092cd0f653829c3b22e393ab9b8f55a3ae232",
+      "package_sha256": "6f7533c6cb1d6a79d9a48e738c7092cd0f653829c3b22e393ab9b8f55a3ae232",
       "sanitized": false
     },
     {
       "source": "recommendations/last_failed.json",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/recommendations/last_failed.json",
-      "source_sha256": "ab4e22b3dfcdef3fee490898f23db5b2fde763a9258f096478ec028515aeb438",
-      "package_sha256": "ab4e22b3dfcdef3fee490898f23db5b2fde763a9258f096478ec028515aeb438",
+      "source_sha256": "972717b801068ede2669a300302889a6e3b5fb85172c34c6c38d78a0c3eb6511",
+      "package_sha256": "972717b801068ede2669a300302889a6e3b5fb85172c34c6c38d78a0c3eb6511",
       "sanitized": false
     },
     {
       "source": "recommendations/latest_recommendation.json",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/recommendations/latest_recommendation.json",
-      "source_sha256": "06959e4bf4336728115340543506e1d2826a362e7b86aa0adc7add397b48a8bb",
-      "package_sha256": "06959e4bf4336728115340543506e1d2826a362e7b86aa0adc7add397b48a8bb",
+      "source_sha256": "3c05c779f8a6bb0b391d66f4251f56de11a7382112c0a76b5768cd4f7a4ee92d",
+      "package_sha256": "3c05c779f8a6bb0b391d66f4251f56de11a7382112c0a76b5768cd4f7a4ee92d",
       "sanitized": false
     },
     {
@@ -1470,8 +1617,8 @@
     {
       "source": "recommendations/llm_signal_state.json",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/recommendations/llm_signal_state.json",
-      "source_sha256": "07941614aab63a02af82e1c53ea4147c91b9669c2638d8f55c5d2340fa6ea5fa",
-      "package_sha256": "07941614aab63a02af82e1c53ea4147c91b9669c2638d8f55c5d2340fa6ea5fa",
+      "source_sha256": "c222997afaaba1b7c872791c4443f752d87ebb7d05cc45a6fb2bb08b5024eb8c",
+      "package_sha256": "c222997afaaba1b7c872791c4443f752d87ebb7d05cc45a6fb2bb08b5024eb8c",
       "sanitized": false
     },
     {
@@ -1675,6 +1822,27 @@
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/recommendations/applied/20260928T151551-e25a2430d2.json",
       "source_sha256": "06959e4bf4336728115340543506e1d2826a362e7b86aa0adc7add397b48a8bb",
       "package_sha256": "06959e4bf4336728115340543506e1d2826a362e7b86aa0adc7add397b48a8bb",
+      "sanitized": false
+    },
+    {
+      "source": "recommendations/applied/20260928T165640-e3fab82d32.json",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/recommendations/applied/20260928T165640-e3fab82d32.json",
+      "source_sha256": "7305f780e9934a5859c6d9505a132ff4f2bfd50bd19f28f23669d0a9d2026843",
+      "package_sha256": "7305f780e9934a5859c6d9505a132ff4f2bfd50bd19f28f23669d0a9d2026843",
+      "sanitized": false
+    },
+    {
+      "source": "recommendations/applied/20260929T094824-1f82c86398.json",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/recommendations/applied/20260929T094824-1f82c86398.json",
+      "source_sha256": "b19656f3fc83b5eeed571d7891fc675c3e25063ffd4e535aa09ee3c7a1db0285",
+      "package_sha256": "b19656f3fc83b5eeed571d7891fc675c3e25063ffd4e535aa09ee3c7a1db0285",
+      "sanitized": false
+    },
+    {
+      "source": "recommendations/applied/20260930T093743-57870dcf65.json",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/recommendations/applied/20260930T093743-57870dcf65.json",
+      "source_sha256": "c16e37f0a14a64bf31158b61fa56c6fe771f3df74f9ddaaea87522c04a0465e7",
+      "package_sha256": "c16e37f0a14a64bf31158b61fa56c6fe771f3df74f9ddaaea87522c04a0465e7",
       "sanitized": false
     },
     {
@@ -4891,6 +5059,216 @@
       "sanitized": false
     },
     {
+      "source": "recommendations/evaluations/20260928T165640-e3fab82d32/baseline.json",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/recommendations/evaluations/20260928T165640-e3fab82d32/baseline.json",
+      "source_sha256": "fbc9aa2db8519b9a2e93a11a2e7e3a7092d8acbee9d136b01d04885b420a8f3a",
+      "package_sha256": "fbc9aa2db8519b9a2e93a11a2e7e3a7092d8acbee9d136b01d04885b420a8f3a",
+      "sanitized": false
+    },
+    {
+      "source": "recommendations/evaluations/20260928T165640-e3fab82d32/recommendation.json",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/recommendations/evaluations/20260928T165640-e3fab82d32/recommendation.json",
+      "source_sha256": "7305f780e9934a5859c6d9505a132ff4f2bfd50bd19f28f23669d0a9d2026843",
+      "package_sha256": "7305f780e9934a5859c6d9505a132ff4f2bfd50bd19f28f23669d0a9d2026843",
+      "sanitized": false
+    },
+    {
+      "source": "recommendations/evaluations/20260928T165640-e3fab82d32/verdict.json",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/recommendations/evaluations/20260928T165640-e3fab82d32/verdict.json",
+      "source_sha256": "a7bb3eeb627a26febaa05e5f46a9d5b4cb0e56484591f37bb84dd58dfb3871d1",
+      "package_sha256": "a7bb3eeb627a26febaa05e5f46a9d5b4cb0e56484591f37bb84dd58dfb3871d1",
+      "sanitized": false
+    },
+    {
+      "source": "recommendations/evaluations/20260928T170943-ffba356e75/baseline.json",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/recommendations/evaluations/20260928T170943-ffba356e75/baseline.json",
+      "source_sha256": "90fb41502f1d79c4802a6b82d50255e94c13be6eb91564e7388ad79249e28e39",
+      "package_sha256": "90fb41502f1d79c4802a6b82d50255e94c13be6eb91564e7388ad79249e28e39",
+      "sanitized": false
+    },
+    {
+      "source": "recommendations/evaluations/20260928T170943-ffba356e75/recommendation.json",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/recommendations/evaluations/20260928T170943-ffba356e75/recommendation.json",
+      "source_sha256": "4891a4337aacc2973e421a12f234793cbd751100c409a2776986048664130b69",
+      "package_sha256": "4891a4337aacc2973e421a12f234793cbd751100c409a2776986048664130b69",
+      "sanitized": false
+    },
+    {
+      "source": "recommendations/evaluations/20260928T170943-ffba356e75/verdict.json",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/recommendations/evaluations/20260928T170943-ffba356e75/verdict.json",
+      "source_sha256": "1049e16f4583be9f06bd78efd8f8fea2f85f00e1c2db8d490231f6caef151df4",
+      "package_sha256": "1049e16f4583be9f06bd78efd8f8fea2f85f00e1c2db8d490231f6caef151df4",
+      "sanitized": false
+    },
+    {
+      "source": "recommendations/evaluations/20260928T172017-9b65fae7da/baseline.json",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/recommendations/evaluations/20260928T172017-9b65fae7da/baseline.json",
+      "source_sha256": "4a42ff5bc7f7d82d1d6d0f35ae5bd0330f45d207ad95903b5ef7f1e2235c3010",
+      "package_sha256": "4a42ff5bc7f7d82d1d6d0f35ae5bd0330f45d207ad95903b5ef7f1e2235c3010",
+      "sanitized": false
+    },
+    {
+      "source": "recommendations/evaluations/20260928T172017-9b65fae7da/recommendation.json",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/recommendations/evaluations/20260928T172017-9b65fae7da/recommendation.json",
+      "source_sha256": "7de05bded08d00aca6063c6a9491797ec7ff7abc65905d985f15d1b4ee1397f1",
+      "package_sha256": "7de05bded08d00aca6063c6a9491797ec7ff7abc65905d985f15d1b4ee1397f1",
+      "sanitized": false
+    },
+    {
+      "source": "recommendations/evaluations/20260928T172017-9b65fae7da/verdict.json",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/recommendations/evaluations/20260928T172017-9b65fae7da/verdict.json",
+      "source_sha256": "47d69649a4c0aef72ac200cbd1fdcf47b7a499d0168e96f7fdde3772c3caa92f",
+      "package_sha256": "47d69649a4c0aef72ac200cbd1fdcf47b7a499d0168e96f7fdde3772c3caa92f",
+      "sanitized": false
+    },
+    {
+      "source": "recommendations/evaluations/20260929T094824-1f82c86398/baseline.json",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/recommendations/evaluations/20260929T094824-1f82c86398/baseline.json",
+      "source_sha256": "3d0048edb656455a91418720297fceaf8fab45da0e1d90da24c14e24d1a09f1e",
+      "package_sha256": "3d0048edb656455a91418720297fceaf8fab45da0e1d90da24c14e24d1a09f1e",
+      "sanitized": false
+    },
+    {
+      "source": "recommendations/evaluations/20260929T094824-1f82c86398/recommendation.json",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/recommendations/evaluations/20260929T094824-1f82c86398/recommendation.json",
+      "source_sha256": "b19656f3fc83b5eeed571d7891fc675c3e25063ffd4e535aa09ee3c7a1db0285",
+      "package_sha256": "b19656f3fc83b5eeed571d7891fc675c3e25063ffd4e535aa09ee3c7a1db0285",
+      "sanitized": false
+    },
+    {
+      "source": "recommendations/evaluations/20260929T094824-1f82c86398/verdict.json",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/recommendations/evaluations/20260929T094824-1f82c86398/verdict.json",
+      "source_sha256": "46bd107d5cafdc4cd77b19e132da5eee022ffe4339d6a521b22fe0c798bf7777",
+      "package_sha256": "46bd107d5cafdc4cd77b19e132da5eee022ffe4339d6a521b22fe0c798bf7777",
+      "sanitized": false
+    },
+    {
+      "source": "recommendations/evaluations/20260930T083323-45b97109f7/baseline.json",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/recommendations/evaluations/20260930T083323-45b97109f7/baseline.json",
+      "source_sha256": "4381918e55dd45f413553cd96ab6db112f88a61f71a4b9d757f84a6d41788dd2",
+      "package_sha256": "4381918e55dd45f413553cd96ab6db112f88a61f71a4b9d757f84a6d41788dd2",
+      "sanitized": false
+    },
+    {
+      "source": "recommendations/evaluations/20260930T083323-45b97109f7/recommendation.json",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/recommendations/evaluations/20260930T083323-45b97109f7/recommendation.json",
+      "source_sha256": "10288bd8d982e74ba1ca6997d9ed62847eb6be3f5024cfd92d452be7d809801d",
+      "package_sha256": "10288bd8d982e74ba1ca6997d9ed62847eb6be3f5024cfd92d452be7d809801d",
+      "sanitized": false
+    },
+    {
+      "source": "recommendations/evaluations/20260930T083323-45b97109f7/verdict.json",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/recommendations/evaluations/20260930T083323-45b97109f7/verdict.json",
+      "source_sha256": "9ed43ac97d69783166b2a72790577b0275748a3f864c54270c9108ef9793b40c",
+      "package_sha256": "9ed43ac97d69783166b2a72790577b0275748a3f864c54270c9108ef9793b40c",
+      "sanitized": false
+    },
+    {
+      "source": "recommendations/evaluations/20260930T093743-57870dcf65/baseline.json",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/recommendations/evaluations/20260930T093743-57870dcf65/baseline.json",
+      "source_sha256": "b4bd9bab39b8b49b801e3b822683b7373527a8e13f0a95c7f3d840907785bf17",
+      "package_sha256": "b4bd9bab39b8b49b801e3b822683b7373527a8e13f0a95c7f3d840907785bf17",
+      "sanitized": false
+    },
+    {
+      "source": "recommendations/evaluations/20260930T093743-57870dcf65/recommendation.json",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/recommendations/evaluations/20260930T093743-57870dcf65/recommendation.json",
+      "source_sha256": "c16e37f0a14a64bf31158b61fa56c6fe771f3df74f9ddaaea87522c04a0465e7",
+      "package_sha256": "c16e37f0a14a64bf31158b61fa56c6fe771f3df74f9ddaaea87522c04a0465e7",
+      "sanitized": false
+    },
+    {
+      "source": "recommendations/evaluations/20260930T093743-57870dcf65/verdict.json",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/recommendations/evaluations/20260930T093743-57870dcf65/verdict.json",
+      "source_sha256": "bc7fd44d0d8d60791aac0cfb5c2e366a0eda27e809ab106870b1238913fad8a2",
+      "package_sha256": "bc7fd44d0d8d60791aac0cfb5c2e366a0eda27e809ab106870b1238913fad8a2",
+      "sanitized": false
+    },
+    {
+      "source": "recommendations/evaluations/20260930T111344-54bb90e4c0/baseline.json",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/recommendations/evaluations/20260930T111344-54bb90e4c0/baseline.json",
+      "source_sha256": "56ae1279aba8689fb73aab6a5b552ca026a572592427bb0f6d41eebfda5a230a",
+      "package_sha256": "56ae1279aba8689fb73aab6a5b552ca026a572592427bb0f6d41eebfda5a230a",
+      "sanitized": false
+    },
+    {
+      "source": "recommendations/evaluations/20260930T111344-54bb90e4c0/recommendation.json",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/recommendations/evaluations/20260930T111344-54bb90e4c0/recommendation.json",
+      "source_sha256": "a6c8ab70c06662bf4ff79cda4f2156ff173608e5af947944fbfab8f421a0efb0",
+      "package_sha256": "a6c8ab70c06662bf4ff79cda4f2156ff173608e5af947944fbfab8f421a0efb0",
+      "sanitized": false
+    },
+    {
+      "source": "recommendations/evaluations/20260930T111344-54bb90e4c0/verdict.json",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/recommendations/evaluations/20260930T111344-54bb90e4c0/verdict.json",
+      "source_sha256": "d8e9853b067f5ca8714cfd92552e13b3270cffccdcd4e71ba4d57c4658771be2",
+      "package_sha256": "d8e9853b067f5ca8714cfd92552e13b3270cffccdcd4e71ba4d57c4658771be2",
+      "sanitized": false
+    },
+    {
+      "source": "recommendations/evaluations/20260930T112543-db9209ee3e/baseline.json",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/recommendations/evaluations/20260930T112543-db9209ee3e/baseline.json",
+      "source_sha256": "cf60fd1041c6b725cdd2964d28083bd682467a386ce1fc027a2ff89e7b05618c",
+      "package_sha256": "cf60fd1041c6b725cdd2964d28083bd682467a386ce1fc027a2ff89e7b05618c",
+      "sanitized": false
+    },
+    {
+      "source": "recommendations/evaluations/20260930T112543-db9209ee3e/recommendation.json",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/recommendations/evaluations/20260930T112543-db9209ee3e/recommendation.json",
+      "source_sha256": "101eb0dd477a255d3ec804c8ee52b702ff1da49f21e2d459fe6efc7b9de0762c",
+      "package_sha256": "101eb0dd477a255d3ec804c8ee52b702ff1da49f21e2d459fe6efc7b9de0762c",
+      "sanitized": false
+    },
+    {
+      "source": "recommendations/evaluations/20260930T112543-db9209ee3e/verdict.json",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/recommendations/evaluations/20260930T112543-db9209ee3e/verdict.json",
+      "source_sha256": "55dc03b07ec46358aa7890f682188fd323a63441cca73bb1d9d6df1a467703f9",
+      "package_sha256": "55dc03b07ec46358aa7890f682188fd323a63441cca73bb1d9d6df1a467703f9",
+      "sanitized": false
+    },
+    {
+      "source": "recommendations/evaluations/20260930T113143-ea116799d0/baseline.json",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/recommendations/evaluations/20260930T113143-ea116799d0/baseline.json",
+      "source_sha256": "0c2661ababc8c413a5c3500737cb000cf13e409fc6a87a24acbbce41cd506846",
+      "package_sha256": "0c2661ababc8c413a5c3500737cb000cf13e409fc6a87a24acbbce41cd506846",
+      "sanitized": false
+    },
+    {
+      "source": "recommendations/evaluations/20260930T113143-ea116799d0/recommendation.json",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/recommendations/evaluations/20260930T113143-ea116799d0/recommendation.json",
+      "source_sha256": "77b1039e6331042d1804c0b4750a823b9349168e70e1c526570a47b584b376ba",
+      "package_sha256": "77b1039e6331042d1804c0b4750a823b9349168e70e1c526570a47b584b376ba",
+      "sanitized": false
+    },
+    {
+      "source": "recommendations/evaluations/20260930T113143-ea116799d0/verdict.json",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/recommendations/evaluations/20260930T113143-ea116799d0/verdict.json",
+      "source_sha256": "8cb89097020ff55200d5352d167a4c759fee330f406b2ccad6bef7261e6dbd53",
+      "package_sha256": "8cb89097020ff55200d5352d167a4c759fee330f406b2ccad6bef7261e6dbd53",
+      "sanitized": false
+    },
+    {
+      "source": "recommendations/evaluations/20260930T113743-a4c8a82e49/baseline.json",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/recommendations/evaluations/20260930T113743-a4c8a82e49/baseline.json",
+      "source_sha256": "69313f993592701c67f224a4dc4a81eada7e7aa36de7503f923a9e9db51c81c8",
+      "package_sha256": "69313f993592701c67f224a4dc4a81eada7e7aa36de7503f923a9e9db51c81c8",
+      "sanitized": false
+    },
+    {
+      "source": "recommendations/evaluations/20260930T113743-a4c8a82e49/recommendation.json",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/recommendations/evaluations/20260930T113743-a4c8a82e49/recommendation.json",
+      "source_sha256": "3c05c779f8a6bb0b391d66f4251f56de11a7382112c0a76b5768cd4f7a4ee92d",
+      "package_sha256": "3c05c779f8a6bb0b391d66f4251f56de11a7382112c0a76b5768cd4f7a4ee92d",
+      "sanitized": false
+    },
+    {
+      "source": "recommendations/evaluations/20260930T113743-a4c8a82e49/verdict.json",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/recommendations/evaluations/20260930T113743-a4c8a82e49/verdict.json",
+      "source_sha256": "a04ae07429bd4dc633784beac1666f659fbe7a153ae2cc8b68a651bb77c618ba",
+      "package_sha256": "a04ae07429bd4dc633784beac1666f659fbe7a153ae2cc8b68a651bb77c618ba",
+      "sanitized": false
+    },
+    {
       "source": "recommendations/superseded/superseded-20260919T154340.json",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/recommendations/superseded/superseded-20260919T154340.json",
       "source_sha256": "5de549d74337e3ec88f40ff124b4973873ef026423a4d14c446790dee150713c",
@@ -4898,10 +5276,52 @@
       "sanitized": false
     },
     {
+      "source": "recommendations/superseded/superseded-20260928T172017-a35702518e0d475ab792adf70f8323f4.json",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/recommendations/superseded/superseded-20260928T172017-a35702518e0d475ab792adf70f8323f4.json",
+      "source_sha256": "4891a4337aacc2973e421a12f234793cbd751100c409a2776986048664130b69",
+      "package_sha256": "4891a4337aacc2973e421a12f234793cbd751100c409a2776986048664130b69",
+      "sanitized": false
+    },
+    {
+      "source": "recommendations/superseded/superseded-20260929T094824-ef2585569091459786e5a1035521e227.json",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/recommendations/superseded/superseded-20260929T094824-ef2585569091459786e5a1035521e227.json",
+      "source_sha256": "7de05bded08d00aca6063c6a9491797ec7ff7abc65905d985f15d1b4ee1397f1",
+      "package_sha256": "7de05bded08d00aca6063c6a9491797ec7ff7abc65905d985f15d1b4ee1397f1",
+      "sanitized": false
+    },
+    {
+      "source": "recommendations/superseded/superseded-20260930T093743-a45bb4cb994e4b1ba75f4835ffb12eaf.json",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/recommendations/superseded/superseded-20260930T093743-a45bb4cb994e4b1ba75f4835ffb12eaf.json",
+      "source_sha256": "10288bd8d982e74ba1ca6997d9ed62847eb6be3f5024cfd92d452be7d809801d",
+      "package_sha256": "10288bd8d982e74ba1ca6997d9ed62847eb6be3f5024cfd92d452be7d809801d",
+      "sanitized": false
+    },
+    {
+      "source": "recommendations/superseded/superseded-20260930T112543-82fb00f0892046ca991617e481dc9b45.json",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/recommendations/superseded/superseded-20260930T112543-82fb00f0892046ca991617e481dc9b45.json",
+      "source_sha256": "a6c8ab70c06662bf4ff79cda4f2156ff173608e5af947944fbfab8f421a0efb0",
+      "package_sha256": "a6c8ab70c06662bf4ff79cda4f2156ff173608e5af947944fbfab8f421a0efb0",
+      "sanitized": false
+    },
+    {
+      "source": "recommendations/superseded/superseded-20260930T113143-6cb746b63cca4643ad283b84adb32477.json",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/recommendations/superseded/superseded-20260930T113143-6cb746b63cca4643ad283b84adb32477.json",
+      "source_sha256": "101eb0dd477a255d3ec804c8ee52b702ff1da49f21e2d459fe6efc7b9de0762c",
+      "package_sha256": "101eb0dd477a255d3ec804c8ee52b702ff1da49f21e2d459fe6efc7b9de0762c",
+      "sanitized": false
+    },
+    {
+      "source": "recommendations/superseded/superseded-20260930T113743-580ff09217ed4eb08ebf44249ea4b696.json",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/research/recommendations/superseded/superseded-20260930T113743-580ff09217ed4eb08ebf44249ea4b696.json",
+      "source_sha256": "77b1039e6331042d1804c0b4750a823b9349168e70e1c526570a47b584b376ba",
+      "package_sha256": "77b1039e6331042d1804c0b4750a823b9349168e70e1c526570a47b584b376ba",
+      "sanitized": false
+    },
+    {
       "source": "FACTORY_INFO.json",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/work/factory/FACTORY_INFO.json",
-      "source_sha256": "c1dcebf82408fe2fb9bc05fa3bca8b2ea8f85e265602fa8000bea2cfcb88c483",
-      "package_sha256": "c1dcebf82408fe2fb9bc05fa3bca8b2ea8f85e265602fa8000bea2cfcb88c483",
+      "source_sha256": "4edb94c5d796dd046877d095be7b960c5fbb7197977fd3076ba4068bb596b575",
+      "package_sha256": "4edb94c5d796dd046877d095be7b960c5fbb7197977fd3076ba4068bb596b575",
       "sanitized": false
     },
     {
@@ -4970,8 +5390,8 @@
     {
       "source": "code/auto_trader.py",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/work/factory/code/auto_trader.py",
-      "source_sha256": "4a26eba0fc460eee20ff7fd70f31eb2f7a058fbf08d3b19f86851b6063d041ab",
-      "package_sha256": "4a26eba0fc460eee20ff7fd70f31eb2f7a058fbf08d3b19f86851b6063d041ab",
+      "source_sha256": "007b9d15e221ae5a619868dc37054cc228ee7fcb41cb77e6f8c35aefe8b62df4",
+      "package_sha256": "007b9d15e221ae5a619868dc37054cc228ee7fcb41cb77e6f8c35aefe8b62df4",
       "sanitized": false
     },
     {
@@ -4984,8 +5404,8 @@
     {
       "source": "code/choose_mode.py",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/work/factory/code/choose_mode.py",
-      "source_sha256": "cde8121e15c7bc9cf3029f12973bfe2268c3427d4a760efa4f0dc3a19e3cf834",
-      "package_sha256": "cde8121e15c7bc9cf3029f12973bfe2268c3427d4a760efa4f0dc3a19e3cf834",
+      "source_sha256": "8df522badfd84619e7dedd0a833ca9d16d7177920f108b86634dc8a5bbc7f239",
+      "package_sha256": "8df522badfd84619e7dedd0a833ca9d16d7177920f108b86634dc8a5bbc7f239",
       "sanitized": false
     },
     {
@@ -5012,8 +5432,8 @@
     {
       "source": "code/market_analyzer.py",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/work/factory/code/market_analyzer.py",
-      "source_sha256": "5a6a49018f0903f46007553e57794c0471f33d4c97162e5ea44becd3286d18ea",
-      "package_sha256": "5a6a49018f0903f46007553e57794c0471f33d4c97162e5ea44becd3286d18ea",
+      "source_sha256": "ec9b254a9aa14d3160779e76e42c66290c3cbf1be847053452e819e7a673e91c",
+      "package_sha256": "ec9b254a9aa14d3160779e76e42c66290c3cbf1be847053452e819e7a673e91c",
       "sanitized": false
     },
     {
@@ -5042,6 +5462,13 @@
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/work/factory/code/openrouter_agents.py",
       "source_sha256": "fe0848aafb1c302bf8dc957a10574c86077b4057e6080b09c60436ecae7b0535",
       "package_sha256": "fe0848aafb1c302bf8dc957a10574c86077b4057e6080b09c60436ecae7b0535",
+      "sanitized": false
+    },
+    {
+      "source": "code/position_protection.py",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/work/factory/code/position_protection.py",
+      "source_sha256": "93d5c3032d7d1551feba8e1dde60214a3a2cbbc2682f494a08aac3f4c944c546",
+      "package_sha256": "93d5c3032d7d1551feba8e1dde60214a3a2cbbc2682f494a08aac3f4c944c546",
       "sanitized": false
     },
     {
@@ -5096,8 +5523,8 @@
     {
       "source": "code/tools_admin_bot_round.py",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/work/factory/code/tools_admin_bot_round.py",
-      "source_sha256": "2cec3471455290af596e5213ffc576b8be7835209f4f6735b353ebf54b1b50f8",
-      "package_sha256": "2cec3471455290af596e5213ffc576b8be7835209f4f6735b353ebf54b1b50f8",
+      "source_sha256": "2f2f6676822c145669fb7001c41649b1347f2d2e05ae853a52940ba7d98de40e",
+      "package_sha256": "2f2f6676822c145669fb7001c41649b1347f2d2e05ae853a52940ba7d98de40e",
       "sanitized": false
     },
     {
@@ -5136,10 +5563,24 @@
       "sanitized": false
     },
     {
+      "source": "code/tools_concurrent_compare.py",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/work/factory/code/tools_concurrent_compare.py",
+      "source_sha256": "3e5af09eeb7b3c207f22749a1b5e1a28c60e9d46985fcadb1998b8a7caaee5b1",
+      "package_sha256": "3e5af09eeb7b3c207f22749a1b5e1a28c60e9d46985fcadb1998b8a7caaee5b1",
+      "sanitized": false
+    },
+    {
+      "source": "code/tools_concurrent_sim.py",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/work/factory/code/tools_concurrent_sim.py",
+      "source_sha256": "2f8679c99f8f52036bed486d149ec5517c623dae206d5a8427f99089a0034ded",
+      "package_sha256": "2f8679c99f8f52036bed486d149ec5517c623dae206d5a8427f99089a0034ded",
+      "sanitized": false
+    },
+    {
       "source": "code/tools_credit_guard.py",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/work/factory/code/tools_credit_guard.py",
-      "source_sha256": "8ac6a7add2d16e597edd4c63c753eebd6dd2b57c0d38cbe3291b32fbf7f715bc",
-      "package_sha256": "8ac6a7add2d16e597edd4c63c753eebd6dd2b57c0d38cbe3291b32fbf7f715bc",
+      "source_sha256": "d2d11a456b4865190ab2bb73c98630bc5a3b25c9cb888799190955f0e8f4e9b4",
+      "package_sha256": "d2d11a456b4865190ab2bb73c98630bc5a3b25c9cb888799190955f0e8f4e9b4",
       "sanitized": false
     },
     {
@@ -5166,8 +5607,8 @@
     {
       "source": "code/tools_full_audit.py",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/work/factory/code/tools_full_audit.py",
-      "source_sha256": "f6b45a0ee64cf8682048679c321400d2e712c294aa2810abc5d39c5aa2defdaa",
-      "package_sha256": "f6b45a0ee64cf8682048679c321400d2e712c294aa2810abc5d39c5aa2defdaa",
+      "source_sha256": "1d4b3dfea1055fa66679c15f586d57a30cfa52ac3850f6d2771e240c85ff583b",
+      "package_sha256": "1d4b3dfea1055fa66679c15f586d57a30cfa52ac3850f6d2771e240c85ff583b",
       "sanitized": false
     },
     {
@@ -5185,6 +5626,13 @@
       "sanitized": false
     },
     {
+      "source": "code/tools_human_behavior_research.py",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/work/factory/code/tools_human_behavior_research.py",
+      "source_sha256": "6f052a37fc1e1059bf28ab8eae75c47d0ccbf9215304908bbcc8b6ef6618e30c",
+      "package_sha256": "6f052a37fc1e1059bf28ab8eae75c47d0ccbf9215304908bbcc8b6ef6618e30c",
+      "sanitized": false
+    },
+    {
       "source": "code/tools_interbot.py",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/work/factory/code/tools_interbot.py",
       "source_sha256": "5b978ebe9c29c1cb512742bfd3bdc5b0c619491cfe43c49de30ab0991bfa3ff7",
@@ -5196,6 +5644,13 @@
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/work/factory/code/tools_jev.py",
       "source_sha256": "e81cccca2af3e45eea28db6c0b87affee14e9f9347d32dd9f9e4b012cc2e6715",
       "package_sha256": "e81cccca2af3e45eea28db6c0b87affee14e9f9347d32dd9f9e4b012cc2e6715",
+      "sanitized": false
+    },
+    {
+      "source": "code/tools_jev_advise.py",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/work/factory/code/tools_jev_advise.py",
+      "source_sha256": "2c34dbc25d934dd52dfd452471f5e2a23d063d00422d85e16d01f966fc2ec67e",
+      "package_sha256": "2c34dbc25d934dd52dfd452471f5e2a23d063d00422d85e16d01f966fc2ec67e",
       "sanitized": false
     },
     {
@@ -5227,10 +5682,31 @@
       "sanitized": false
     },
     {
+      "source": "code/tools_loss_analysis.py",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/work/factory/code/tools_loss_analysis.py",
+      "source_sha256": "b9474429981eee8d2c3942b9cddec13660867973cc0f53a1f30bb415a80e64d3",
+      "package_sha256": "b9474429981eee8d2c3942b9cddec13660867973cc0f53a1f30bb415a80e64d3",
+      "sanitized": false
+    },
+    {
       "source": "code/tools_loss_review.py",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/work/factory/code/tools_loss_review.py",
       "source_sha256": "3732d486436611310ee9243e166e49eb6094f4366359a34c3b0a2918b7b789ad",
       "package_sha256": "3732d486436611310ee9243e166e49eb6094f4366359a34c3b0a2918b7b789ad",
+      "sanitized": false
+    },
+    {
+      "source": "code/tools_m1_sweep.py",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/work/factory/code/tools_m1_sweep.py",
+      "source_sha256": "9f540f89b3a70b18df4b66d6e516d44f1211f227f9260ae79301989258c63348",
+      "package_sha256": "9f540f89b3a70b18df4b66d6e516d44f1211f227f9260ae79301989258c63348",
+      "sanitized": false
+    },
+    {
+      "source": "code/tools_mgmt_diagnosis.py",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/work/factory/code/tools_mgmt_diagnosis.py",
+      "source_sha256": "7d5941f12b1930e1706a0398eeb77c65ff79eebe73c2bcd8fa528471116cce8c",
+      "package_sha256": "7d5941f12b1930e1706a0398eeb77c65ff79eebe73c2bcd8fa528471116cce8c",
       "sanitized": false
     },
     {
@@ -5269,6 +5745,13 @@
       "sanitized": false
     },
     {
+      "source": "code/tools_question_board.py",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/work/factory/code/tools_question_board.py",
+      "source_sha256": "7bcd6b906d1c855513ff3dec10090c04a8ad6f8dfec166734ea232896faaa87d",
+      "package_sha256": "7bcd6b906d1c855513ff3dec10090c04a8ad6f8dfec166734ea232896faaa87d",
+      "sanitized": false
+    },
+    {
       "source": "code/tools_rec_contract.py",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/work/factory/code/tools_rec_contract.py",
       "source_sha256": "b7125ac11e8a9b0633df6008922fc3c0b77ef862b2cac053e8ea9c67addf1910",
@@ -5280,6 +5763,20 @@
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/work/factory/code/tools_rotate_audit.py",
       "source_sha256": "69df68c222c8b63b00ba6207618c96245554b9fcc69d84d4d77d24bbb6afe144",
       "package_sha256": "69df68c222c8b63b00ba6207618c96245554b9fcc69d84d4d77d24bbb6afe144",
+      "sanitized": false
+    },
+    {
+      "source": "code/tools_samedir_gap_sim.py",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/work/factory/code/tools_samedir_gap_sim.py",
+      "source_sha256": "9e17c521833a91a7eeb9a64d3004a796bbfa6d7b863d25a662accb622770caef",
+      "package_sha256": "9e17c521833a91a7eeb9a64d3004a796bbfa6d7b863d25a662accb622770caef",
+      "sanitized": false
+    },
+    {
+      "source": "code/tools_samedir_sim.py",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/work/factory/code/tools_samedir_sim.py",
+      "source_sha256": "59b8ef2489c73be8d0e55555bcd84653c6792aa7b72131ce18466aa3a189077f",
+      "package_sha256": "59b8ef2489c73be8d0e55555bcd84653c6792aa7b72131ce18466aa3a189077f",
       "sanitized": false
     },
     {
@@ -5313,15 +5810,15 @@
     {
       "source": "code/tools_system_qc.py",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/work/factory/code/tools_system_qc.py",
-      "source_sha256": "7f5095e68bbda4c6a6227b2fc50ae675f8d72de2cf8d412b61c122dc8edfa088",
-      "package_sha256": "7f5095e68bbda4c6a6227b2fc50ae675f8d72de2cf8d412b61c122dc8edfa088",
+      "source_sha256": "e3b75a686fbf171a380bf678c58732a04440fd560f91227389f1d53109eea8ab",
+      "package_sha256": "e3b75a686fbf171a380bf678c58732a04440fd560f91227389f1d53109eea8ab",
       "sanitized": false
     },
     {
       "source": "code/tools_system_status.py",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/work/factory/code/tools_system_status.py",
-      "source_sha256": "b9a94385ea04fea27cb2a402e8acb45da679af4f2d9aa7178157f3786002223d",
-      "package_sha256": "b9a94385ea04fea27cb2a402e8acb45da679af4f2d9aa7178157f3786002223d",
+      "source_sha256": "f08b2787fae81524a692b608940cbf9bb234e754c6337a91e1436ffb45ec597c",
+      "package_sha256": "f08b2787fae81524a692b608940cbf9bb234e754c6337a91e1436ffb45ec597c",
       "sanitized": false
     },
     {
@@ -5329,6 +5826,13 @@
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/work/factory/code/tools_tpsl_countertrend_sim.py",
       "source_sha256": "ca032fa45ba9de39379e138d706fe1d07ab2a7988382b7e4f50389a3bf0262ee",
       "package_sha256": "ca032fa45ba9de39379e138d706fe1d07ab2a7988382b7e4f50389a3bf0262ee",
+      "sanitized": false
+    },
+    {
+      "source": "code/tools_tpsl_review.py",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/work/factory/code/tools_tpsl_review.py",
+      "source_sha256": "ca67a67e8f1eb60b88abe594581f92edb57c0f31c67b6e5be22b668081113bfe",
+      "package_sha256": "ca67a67e8f1eb60b88abe594581f92edb57c0f31c67b6e5be22b668081113bfe",
       "sanitized": false
     },
     {
@@ -5346,6 +5850,13 @@
       "sanitized": false
     },
     {
+      "source": "code/tools_why_wrong.py",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/work/factory/code/tools_why_wrong.py",
+      "source_sha256": "796454d1a761d66e7ace4b8b2ee0dede90925cbd4bbde5964110f0770cb1d8b0",
+      "package_sha256": "796454d1a761d66e7ace4b8b2ee0dede90925cbd4bbde5964110f0770cb1d8b0",
+      "sanitized": false
+    },
+    {
       "source": "code/trade_guard.py",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/work/factory/code/trade_guard.py",
       "source_sha256": "015dd550f5c8125bd6071c2017fccdbfd257e300c00e569f42aeece0ab68f6fb",
@@ -5360,24 +5871,31 @@
       "sanitized": false
     },
     {
+      "source": "code/trader_ai.py",
+      "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/work/factory/code/trader_ai.py",
+      "source_sha256": "0f2fa8178d86f5f0cd6d6c73a7468dd3a98d6024ed7aabd60e2909d64fba2944",
+      "package_sha256": "b7f1a6855c3ef8ccb44cb0664176c7d69b16a08cdbfa960c49a4c6cb98cbd6bd",
+      "sanitized": true
+    },
+    {
       "source": "config/auto_config.factory.json",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/work/factory/config/auto_config.factory.json",
-      "source_sha256": "654aca2b0ca1d22570ba29e4454427c9de49f0982fe63fdfc8c3436a92154cfa",
-      "package_sha256": "654aca2b0ca1d22570ba29e4454427c9de49f0982fe63fdfc8c3436a92154cfa",
+      "source_sha256": "459b2683c4161d57d2237416b9620447c050870a90672a6e6d22f2ae3288764f",
+      "package_sha256": "459b2683c4161d57d2237416b9620447c050870a90672a6e6d22f2ae3288764f",
       "sanitized": false
     },
     {
       "source": "config/credit_guard.factory.json",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/work/factory/config/credit_guard.factory.json",
-      "source_sha256": "b6c9cfd7b38e214dc5f0f15fddd84c58957e43c54b811a9a7dca80d677f7a996",
-      "package_sha256": "b6c9cfd7b38e214dc5f0f15fddd84c58957e43c54b811a9a7dca80d677f7a996",
+      "source_sha256": "1d6067da204d7f61de6dda1ad556ad492756d638007fc879d050ff181a03331f",
+      "package_sha256": "1d6067da204d7f61de6dda1ad556ad492756d638007fc879d050ff181a03331f",
       "sanitized": false
     },
     {
       "source": "config/jev_config.factory.json",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/work/factory/config/jev_config.factory.json",
-      "source_sha256": "1fb88741f478c88e10f88da79ef32520fe319aa08bd9fc0a0055eea3b5d690f5",
-      "package_sha256": "e81735134cce7faf2ba76c906a85489305b1c1da5063ef903d1bf49fd7e7e3b6",
+      "source_sha256": "53e7f132a1500c92b14a82ec50ff14e3f1c59dba1375f17f2bc19cd401adce1c",
+      "package_sha256": "d02c9c4e2f67993e143879f98d1f6d1032d93f5c548e83ea48a1c5e39e5c58ca",
       "sanitized": true
     },
     {
@@ -5390,8 +5908,8 @@
     {
       "source": "cron/jobs.snapshot.json",
       "destination": "codex-cowork-cursor/pytron-mt5-quant-trading/work/factory/cron/jobs.snapshot.json",
-      "source_sha256": "b8c93e08f444abcd1f37fd78ec79d8be92f0c48b48e15be667c54b5586cbd683",
-      "package_sha256": "b8c93e08f444abcd1f37fd78ec79d8be92f0c48b48e15be667c54b5586cbd683",
+      "source_sha256": "dcf5d99f773d8e643a6006313240a3d976a9c1ac0664f31688a567f9f5913ee2",
+      "package_sha256": "dcf5d99f773d8e643a6006313240a3d976a9c1ac0664f31688a567f9f5913ee2",
       "sanitized": false
     },
     {
@@ -5439,15 +5957,15 @@
     {
       "source": "QC/qc_round1.py",
       "destination": "openclaw-hermes-clawhub-manus/pytron-engine-mt5-algo-trade/QC/qc_round1.py",
-      "source_sha256": "613be9b7a60a767f74a0c6b3ba2c9e4cb5e75dbe0f2da47dda620966c9fc3e0e",
-      "package_sha256": "613be9b7a60a767f74a0c6b3ba2c9e4cb5e75dbe0f2da47dda620966c9fc3e0e",
+      "source_sha256": "68ac3f3a29d0e858a6416894e2c81d16861e767ffc0d53888ec7cde9b0bdb089",
+      "package_sha256": "68ac3f3a29d0e858a6416894e2c81d16861e767ffc0d53888ec7cde9b0bdb089",
       "sanitized": false
     },
     {
       "source": "QC/qc_round2.py",
       "destination": "openclaw-hermes-clawhub-manus/pytron-engine-mt5-algo-trade/QC/qc_round2.py",
-      "source_sha256": "56ff09a27e15cc102cb9254ccc8faf43cdd94cdbd2e397226d81a72d783574a8",
-      "package_sha256": "56ff09a27e15cc102cb9254ccc8faf43cdd94cdbd2e397226d81a72d783574a8",
+      "source_sha256": "7ef7c305516647ff205613d66dafd2acb3321dc80a917407d5bb559cd09599cb",
+      "package_sha256": "7ef7c305516647ff205613d66dafd2acb3321dc80a917407d5bb559cd09599cb",
       "sanitized": false
     },
     {

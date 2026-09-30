@@ -57513,3 +57513,14543 @@ NOTE=ภายใน: แรงซื้อ/ขาย 0.177477/0.252201 (สุ�
 📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
    • weight>1: net เฉลี่ย $0.056/trade (n=2)
    • weight<1: net เฉลี่ย $-0.057/trade (n=2)
+
+## 2026-09-28 09:30 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 95995713 → 95995819)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (32124 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 7 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 16:29", "changes": [{"strategy": "trend", "side": "buy", "raw_low_from": 0.556, "raw_low_to": 0.636, "raw_high_from": 0.814, "raw_high_to": 0.744, "net_exp": -0.2167, "net_n": 9}, {"strategy": "range", "side": "buy", "raw_low_from": 0.208, "raw_low_to": 0.271, "raw_high_from": 0.335, "raw_high_to": 0.371, "net_exp": -0.1105, "net_n": 21}, {"strategy": "range", "side": "sell", "raw_low_from": 0.231, "raw_low_to": 0.311, "raw_high_from": 0.405, "raw_high_to": 0.411, "net_exp": -0.0343, "net_n": 75}, {"strategy": "mean_reversion", "side": "buy", "raw_low_from": 0.103, "raw_low_to": 0.183, "raw_high_from": 0.277, "raw_high_to": 0.283, "net_exp": -0.0691, "net_n": 54}, {"strategy": "mean_reversi
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 307 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   trend            n= 63 wr=0.59 win=0.34R loss=0.80R | SL=1.2 TP=1.3R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=110 wr=0.70 win=0.57R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 16:29", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 110, "wr": 0.7, "avg_win_R": 0.57, "avg_loss_R": 0.991,
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 311 ไม้ (2026-08-26T06:09 → 2026-09-16T05:54) | net -2.58 | เฉลี่ย -0.008 | ชนะ 62.7% | PF 0.95 ✗
+   · ยังไม่มีไม้ที่ระบุกลยุทธ์ได้ (311 ไม้ = รุ่นเก่าก่อนแก้ 19 ก.ย.)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (4 รอบ · 16:23→16:25 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 3 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 4 · คะแนนถ่วงน้ำหนักต่ำ 4
+      range_buy                คะแนนดิบต่ำ 4 · คะแนนถ่วงน้ำหนักต่ำ 4
+      range_sell               คะแนนดิบต่ำ 4 · คะแนนถ่วงน้ำหนักต่ำ 4
+      mean_reversion_sell      คะแนนดิบต่ำ 4 · คะแนนถ่วงน้ำหนักต่ำ 4
+      counter_trend_buy        คะแนนดิบต่ำ 4 · คะแนนถ่วงน้ำหนักต่ำ 4
+      trend_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 3 · คะแนนถ่วงน้ำหนักสูงเกินบน 3
+      mean_reversion_buy       คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.814/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.692/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 63%  (score -0.402)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=63
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.129688/0.226417 (สุทธิ -0.27) · engine เอน 0B/6S 24ชม. (-1.00) · ดูดวง bullish 0.35 (+0.35) · rolling20 $-1.65 · net72h $+0.000/trade · ลดความแรง 20% (rolling net ยังติดลบ)
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 16:29 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.82 · คะแนนหนุน 4 / กด 40) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 26 (หนุน 0 / กด 4) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 4 ข่าว · คะแนนรวม 25 (หนุน 1 / กด 3) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 4 ข่าว · คะแนนรวม 24 (หนุน 0 / กด 4) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 4) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (mark
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↓ ลง (bearish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 6, 9, 2, 1] (รวม 41) → ฐาน 9 = 5 · เลข 5 — เปลี่ยนแปลง ผันผวนลงได้ · เลขคู่เสียง 4
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 5 — เปลี่ยนแปลง ผันผวนลงได้ — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=6 ออเดอร์ (~2.0/วัน) → band สมดุล
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 311 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 trend: n=68 net=$-2.18 wr=63%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.057/trade (n=2)
+
+## 2026-09-28 09:41 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 96239354 → 96261083)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (32208 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 7 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 16:41", "changes": [{"strategy": "trend", "side": "buy", "raw_low_from": 0.556, "raw_low_to": 0.636, "raw_high_from": 0.814, "raw_high_to": 0.744, "net_exp": -0.2167, "net_n": 9}, {"strategy": "range", "side": "buy", "raw_low_from": 0.208, "raw_low_to": 0.271, "raw_high_from": 0.335, "raw_high_to": 0.371, "net_exp": -0.1105, "net_n": 21}, {"strategy": "range", "side": "sell", "raw_low_from": 0.231, "raw_low_to": 0.311, "raw_high_from": 0.405, "raw_high_to": 0.411, "net_exp": -0.0343, "net_n": 75}, {"strategy": "mean_reversion", "side": "buy", "raw_low_from": 0.103, "raw_low_to": 0.183, "raw_high_from": 0.277, "raw_high_to": 0.283, "net_exp": -0.0691, "net_n": 54}, {"strategy": "mean_reversi
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 6 รายการที่ควรปรับ (จาก R-multiple จริง 307 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   trend            n= 63 wr=0.59 win=0.34R loss=0.80R | SL=1.2 TP=1.3R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=110 wr=0.70 win=0.57R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 16:41", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.50R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.4, "reward_risk_from": 1.5}, {"action": "set_tpsl", "strategy": "counter_trend", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.44R < 55% ของเป้า 1.30R)", "evidence": "n=27 wr=0.52 avg_win=0.44R avg_loss=0.90R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 311 ไม้ (2026-08-26T06:09 → 2026-09-16T05:54) | net -2.58 | เฉลี่ย -0.008 | ชนะ 62.7% | PF 0.95 ✗
+   · ยังไม่มีไม้ที่ระบุกลยุทธ์ได้ (311 ไม้ = รุ่นเก่าก่อนแก้ 19 ก.ย.)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (4 รอบ · 16:23→16:25 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 3 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 4 · คะแนนถ่วงน้ำหนักต่ำ 4
+      range_buy                คะแนนดิบต่ำ 4 · คะแนนถ่วงน้ำหนักต่ำ 4
+      range_sell               คะแนนดิบต่ำ 4 · คะแนนถ่วงน้ำหนักต่ำ 4
+      mean_reversion_sell      คะแนนดิบต่ำ 4 · คะแนนถ่วงน้ำหนักต่ำ 4
+      counter_trend_buy        คะแนนดิบต่ำ 4 · คะแนนถ่วงน้ำหนักต่ำ 4
+      trend_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 3 · คะแนนถ่วงน้ำหนักสูงเกินบน 3
+      mean_reversion_buy       คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.814/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.692/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 64%  (score -0.460)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=64
+ASTRO=sideways:0.605
+NOTE=ภายใน: แรงซื้อ/ขาย 0.15831/0.260847 (สุทธิ -0.24) · engine เอน 0B/6S 24ชม. (-1.00) · ดูดวง sideways 0.605 (+0.00) · rolling20 $-1.65 · net72h $+0.000/trade · ลดความแรง 20% (rolling net ยังติดลบ)
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 1 รายการ
+
+## 2026-09-28 16:41 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.82 · คะแนนหนุน 4 / กด 40) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 26 (หนุน 0 / กด 4) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 4 ข่าว · คะแนนรวม 25 (หนุน 1 / กด 3) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 4 ข่าว · คะแนนรวม 24 (หนุน 0 / กด 4) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 4) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (mark
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 6, 1, 2, 1] (รวม 33) → ฐาน 9 = 6 · เลข 6 — เดินขึ้น เกื้อหนุน · เลขคู่เสียง 5
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 6 — เดินขึ้น เกื้อหนุน — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=6 ออเดอร์ (~2.0/วัน) → band สมดุล
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 311 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 trend: n=68 net=$-2.18 wr=63%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.057/trade (n=2)
+
+## 2026-09-28 09:53 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 96349898 → 96349898)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (32237 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 7 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 16:52", "changes": [{"strategy": "trend", "side": "buy", "raw_low_from": 0.556, "raw_low_to": 0.636, "raw_high_from": 0.814, "raw_high_to": 0.744, "net_exp": -0.2167, "net_n": 9}, {"strategy": "range", "side": "buy", "raw_low_from": 0.208, "raw_low_to": 0.271, "raw_high_from": 0.335, "raw_high_to": 0.371, "net_exp": -0.1105, "net_n": 21}, {"strategy": "range", "side": "sell", "raw_low_from": 0.231, "raw_low_to": 0.311, "raw_high_from": 0.405, "raw_high_to": 0.411, "net_exp": -0.0343, "net_n": 75}, {"strategy": "mean_reversion", "side": "buy", "raw_low_from": 0.103, "raw_low_to": 0.183, "raw_high_from": 0.277, "raw_high_to": 0.283, "net_exp": -0.0691, "net_n": 54}, {"strategy": "mean_reversi
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 307 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   trend            n= 63 wr=0.59 win=0.34R loss=0.80R | SL=1.2 TP=1.3R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=110 wr=0.70 win=0.57R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 16:52", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 110, "wr": 0.7, "avg_win_R": 0.57, "avg_loss_R": 0.991,
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 311 ไม้ (2026-08-26T06:09 → 2026-09-16T05:54) | net -2.58 | เฉลี่ย -0.008 | ชนะ 62.7% | PF 0.95 ✗
+   · ยังไม่มีไม้ที่ระบุกลยุทธ์ได้ (311 ไม้ = รุ่นเก่าก่อนแก้ 19 ก.ย.)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (4 รอบ · 16:23→16:25 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 3 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 4 · คะแนนถ่วงน้ำหนักต่ำ 4
+      range_buy                คะแนนดิบต่ำ 4 · คะแนนถ่วงน้ำหนักต่ำ 4
+      range_sell               คะแนนดิบต่ำ 4 · คะแนนถ่วงน้ำหนักต่ำ 4
+      mean_reversion_sell      คะแนนดิบต่ำ 4 · คะแนนถ่วงน้ำหนักต่ำ 4
+      counter_trend_buy        คะแนนดิบต่ำ 4 · คะแนนถ่วงน้ำหนักต่ำ 4
+      trend_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 3 · คะแนนถ่วงน้ำหนักสูงเกินบน 3
+      mean_reversion_buy       คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.814/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.692/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 68%  (score -0.547)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=68
+ASTRO=bearish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.131001/0.233461 (สุทธิ -0.28) · engine เอน 0B/6S 24ชม. (-1.00) · ดูดวง bearish 0.35 (-0.35) · rolling20 $-1.65 · net72h $+0.000/trade · ลดความแรง 20% (rolling net ยังติดลบ)
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 16:53 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.82 · คะแนนหนุน 4 / กด 40) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 26 (หนุน 0 / กด 4) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 4 ข่าว · คะแนนรวม 25 (หนุน 1 / กด 3) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 4 ข่าว · คะแนนรวม 24 (หนุน 0 / กด 4) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 4) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (mark
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 6, 3, 4, 1] (รวม 37) → ฐาน 9 = 1 · เลข 1 — จุดเริ่มเดินหน้า แนวโน้มขึ้น · เลขคู่เสียง 9
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 1 — จุดเริ่มเดินหน้า แนวโน้มขึ้น — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=6 ออเดอร์ (~2.0/วัน) → band สมดุล
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 311 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 trend: n=68 net=$-2.18 wr=63%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.057/trade (n=2)
+
+## 2026-09-28 10:16 UTC — งานวิจัยรวม (14 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 96351317 → 96351317)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1) ⚠️ timeout
+ไม่ตอบกลับภายใน 120s
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง) ⚠️ timeout
+ไม่ตอบกลับภายใน 150s
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 6 รายการที่ควรปรับ (จาก R-multiple จริง 308 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   trend            n= 64 wr=0.59 win=0.40R loss=0.80R | SL=1.2 TP=1.3R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=110 wr=0.70 win=0.57R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 17:13", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.50R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.4, "reward_risk_from": 1.5}, {"action": "set_tpsl", "strategy": "counter_trend", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.44R < 55% ของเป้า 1.30R)", "evidence": "n=27 wr=0.52 avg_win=0.44R avg_loss=0.90R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 312 ไม้ (2026-08-26T06:09 → 2026-09-28T10:08) | net -1.81 | เฉลี่ย -0.006 | ชนะ 62.8% | PF 0.96 ✗
+   · trend            ไม้   1 | net  +0.77 | PF 99.00 ✓ | 1 ล่าสุด: +0.770/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +0.77 (1 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (1 รอบ · 17:08→17:08 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_buy       คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.594/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.505/0.296
+      ✅ range_sell               ดิบ 0.257/0.231 · prob 0.53 · ถ่วงน้ำหนัก 0.295/0.266
+      ✅ mean_reversion_sell      ดิบ 0.227/0.132 · prob 0.56 · ถ่วงน้ำหนัก 0.193/0.113
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 65%  (score -0.473)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=65
+ASTRO=sideways:0.605
+NOTE=ภายใน: แรงซื้อ/ขาย 0.111116/0.19456 (สุทธิ -0.27) · engine เอน 0B/7S 24ชม. (-1.00) · ดูดวง sideways 0.605 (+0.00) · rolling20 $-0.89 · net72h $+0.770/trade · ลดความแรง 20% (rolling net ยังติดลบ)
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 17:13 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.82 · คะแนนหนุน 4 / กด 40) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 26 (หนุน 0 / กด 4) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 4 ข่าว · คะแนนรวม 25 (หนุน 1 / กด 3) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 4 ข่าว · คะแนนรวม 24 (หนุน 0 / กด 4) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 4) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [5] (markets) UBS sees dollar-franc support from yield gap after SNB meeting
+- 🔴 [5] (mark
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 7, 3, 10, 1] (รวม 44) → ฐาน 9 = 8 · เลข 8 — มั่งคั่ง เฟื่องฟู · เลขคู่เสียง 7
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 8 — มั่งคั่ง เฟื่องฟู — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### P/L Attribution ⚠️ timeout
+ไม่ตอบกลับภายใน 60s
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=7 ออเดอร์ (~2.3/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.770/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 312 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.046/trade (n=2)
+
+## 2026-09-28 10:32 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 96382830 → 96623145)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (32337 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง) ⚠️ timeout
+ไม่ตอบกลับภายใน 150s
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 308 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   trend            n= 64 wr=0.59 win=0.40R loss=0.80R | SL=1.2 TP=1.3R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=110 wr=0.70 win=0.57R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 17:25", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 110, "wr": 0.7, "avg_win_R": 0.57, "avg_loss_R": 0.991,
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 312 ไม้ (2026-08-26T06:09 → 2026-09-28T10:08) | net -1.81 | เฉลี่ย -0.006 | ชนะ 62.8% | PF 0.96 ✗
+   · trend            ไม้   1 | net  +0.77 | PF 99.00 ✓ | 1 ล่าสุด: +0.770/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +0.77 (1 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (1 รอบ · 17:08→17:08 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_buy       คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.594/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.505/0.296
+      ✅ range_sell               ดิบ 0.257/0.231 · prob 0.53 · ถ่วงน้ำหนัก 0.295/0.266
+      ✅ mean_reversion_sell      ดิบ 0.227/0.132 · prob 0.56 · ถ่วงน้ำหนัก 0.193/0.113
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM) ⚠️ timeout
+ไม่ตอบกลับภายใน 90s
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 2 รายการ
+
+## 2026-09-28 17:28 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.84 · คะแนนหนุน 4 / กด 46) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 5 ข่าว · คะแนนรวม 32 (หนุน 0 / กด 5) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 5 ข่าว · คะแนนรวม 31 (หนุน 1 / กด 4) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 5 ข่าว · คะแนนรวม 30 (หนุน 0 / กด 5) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 4) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (markets) Dollar firm as rising oil prices and heavy data alate keep Fed hawkish
+- 🔴 [
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 7, 8, 5, 1] (รวม 44) → ฐาน 9 = 8 · เลข 8 — มั่งคั่ง เฟื่องฟู · เลขคู่เสียง 7
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 8 — มั่งคั่ง เฟื่องฟู — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่) ⚠️ timeout
+ไม่ตอบกลับภายใน 60s
+
+### กลไก ↔ Net Profit ⚠️ timeout
+ไม่ตอบกลับภายใน 60s
+
+### Ranking prob/weight ⚠️ timeout
+ไม่ตอบกลับภายใน 60s
+
+## 2026-09-28 10:36 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 96774261 → 96904728)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (32442 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 8 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 17:34", "changes": [{"strategy": "trend", "side": "buy", "raw_low_from": 0.556, "raw_low_to": 0.636, "raw_high_from": 0.814, "raw_high_to": 0.744, "net_exp": -0.2167, "net_n": 9}, {"strategy": "trend", "side": "sell", "raw_low_from": 0.348, "raw_low_to": 0.323, "raw_high_from": 0.897, "raw_high_to": 0.897, "net_exp": 0.028, "net_n": 44}, {"strategy": "range", "side": "buy", "raw_low_from": 0.208, "raw_low_to": 0.271, "raw_high_from": 0.335, "raw_high_to": 0.371, "net_exp": -0.1105, "net_n": 21}, {"strategy": "range", "side": "sell", "raw_low_from": 0.231, "raw_low_to": 0.311, "raw_high_from": 0.411, "raw_high_to": 0.411, "net_exp": -0.0343, "net_n": 75}, {"strategy": "mean_reversion", "side
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 308 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   trend            n= 64 wr=0.59 win=0.40R loss=0.80R | SL=1.2 TP=1.3R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=110 wr=0.70 win=0.57R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 17:34", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 110, "wr": 0.7, "avg_win_R": 0.57, "avg_loss_R": 0.991,
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 312 ไม้ (2026-08-26T06:09 → 2026-09-28T10:08) | net -1.81 | เฉลี่ย -0.006 | ชนะ 62.8% | PF 0.96 ✗
+   · trend            ไม้   1 | net  +0.77 | PF 99.00 ✓ | 1 ล่าสุด: +0.770/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +0.77 (1 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (1 รอบ · 17:08→17:08 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_buy       คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.594/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.505/0.296
+      ✅ range_sell               ดิบ 0.257/0.231 · prob 0.53 · ถ่วงน้ำหนัก 0.295/0.266
+      ✅ mean_reversion_sell      ดิบ 0.227/0.132 · prob 0.56 · ถ่วงน้ำหนัก 0.193/0.113
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 63%  (score -0.400)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=63
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.109552/0.189025 (สุทธิ -0.27) · engine เอน 0B/7S 24ชม. (-1.00) · ดูดวง bullish 0.35 (+0.35) · rolling20 $-0.89 · net72h $+0.770/trade · ลดความแรง 20% (rolling net ยังติดลบ)
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 17:34 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.84 · คะแนนหนุน 4 / กด 46) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 5 ข่าว · คะแนนรวม 32 (หนุน 0 / กด 5) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 5 ข่าว · คะแนนรวม 31 (หนุน 1 / กด 4) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 5 ข่าว · คะแนนรวม 30 (หนุน 0 / กด 5) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 4) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (markets) Dollar firm as rising oil prices and heavy data alate keep Fed hawkish
+- 🔴 [
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 7, 4, 2, 1] (รวม 37) → ฐาน 9 = 1 · เลข 1 — จุดเริ่มเดินหน้า แนวโน้มขึ้น · เลขคู่เสียง 9
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 1 — จุดเริ่มเดินหน้า แนวโน้มขึ้น — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=7 ออเดอร์ (~2.3/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.770/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 312 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.046/trade (n=2)
+
+## 2026-09-28 10:51 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 97164562 → 97186374)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (32558 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 8 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 17:49", "changes": [{"strategy": "trend", "side": "buy", "raw_low_from": 0.556, "raw_low_to": 0.636, "raw_high_from": 0.814, "raw_high_to": 0.744, "net_exp": -0.2167, "net_n": 9}, {"strategy": "trend", "side": "sell", "raw_low_from": 0.348, "raw_low_to": 0.323, "raw_high_from": 0.897, "raw_high_to": 0.897, "net_exp": 0.0456, "net_n": 45}, {"strategy": "range", "side": "buy", "raw_low_from": 0.208, "raw_low_to": 0.271, "raw_high_from": 0.335, "raw_high_to": 0.371, "net_exp": -0.1105, "net_n": 21}, {"strategy": "range", "side": "sell", "raw_low_from": 0.231, "raw_low_to": 0.311, "raw_high_from": 0.411, "raw_high_to": 0.411, "net_exp": -0.0343, "net_n": 75}, {"strategy": "mean_reversion", "sid
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 6 รายการที่ควรปรับ (จาก R-multiple จริง 309 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   trend            n= 65 wr=0.60 win=0.46R loss=0.80R | SL=1.2 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=110 wr=0.70 win=0.57R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 17:49", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.50R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.4, "reward_risk_from": 1.5}, {"action": "set_tpsl", "strategy": "counter_trend", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.44R < 55% ของเป้า 1.30R)", "evidence": "n=27 wr=0.52 avg_win=0.44R avg_loss=0.90R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 313 ไม้ (2026-08-26T06:09 → 2026-09-28T10:37) | net -0.99 | เฉลี่ย -0.003 | ชนะ 62.9% | PF 0.98 ✗
+   · trend            ไม้   2 | net  +1.59 | PF 99.00 ✓ | 2 ล่าสุด: +0.795/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +1.59 (2 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (1 รอบ · 17:08→17:08 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_buy       คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.594/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.505/0.296
+      ✅ range_sell               ดิบ 0.257/0.231 · prob 0.53 · ถ่วงน้ำหนัก 0.295/0.266
+      ✅ mean_reversion_sell      ดิบ 0.227/0.132 · prob 0.56 · ถ่วงน้ำหนัก 0.193/0.113
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 65%  (score -0.466)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=65
+ASTRO=sideways:0.605
+NOTE=ภายใน: แรงซื้อ/ขาย 0.112454/0.19041 (สุทธิ -0.26) · engine เอน 0B/7S 24ชม. (-1.00) · ดูดวง sideways 0.605 (+0.00) · rolling20 $-0.11 · net72h $+0.795/trade · ลดความแรง 20% (rolling net ยังติดลบ)
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 17:49 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.84 · คะแนนหนุน 4 / กด 46) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 5 ข่าว · คะแนนรวม 32 (หนุน 0 / กด 5) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 5 ข่าว · คะแนนรวม 31 (หนุน 1 / กด 4) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 5 ข่าว · คะแนนรวม 30 (หนุน 0 / กด 5) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 4) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (markets) Dollar firm as rising oil prices and heavy data alate keep Fed hawkish
+- 🔴 [
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 7, 9, 8, 1] (รวม 48) → ฐาน 9 = 3 · เลข 3 — กำไรเสริม เลื่อนขึ้น · เลขคู่เสียง 2
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 3 — กำไรเสริม เลื่อนขึ้น — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=7 ออเดอร์ (~2.3/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.795/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 313 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.040/trade (n=2)
+
+## 2026-09-28 11:03 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 97402983 → 97490897)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (32664 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 8 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 18:02", "changes": [{"strategy": "trend", "side": "buy", "raw_low_from": 0.556, "raw_low_to": 0.636, "raw_high_from": 0.814, "raw_high_to": 0.744, "net_exp": -0.2167, "net_n": 9}, {"strategy": "trend", "side": "sell", "raw_low_from": 0.348, "raw_low_to": 0.324, "raw_high_from": 0.897, "raw_high_to": 0.897, "net_exp": 0.0456, "net_n": 45}, {"strategy": "range", "side": "buy", "raw_low_from": 0.208, "raw_low_to": 0.271, "raw_high_from": 0.335, "raw_high_to": 0.371, "net_exp": -0.1105, "net_n": 21}, {"strategy": "range", "side": "sell", "raw_low_from": 0.252, "raw_low_to": 0.332, "raw_high_from": 0.411, "raw_high_to": 0.432, "net_exp": -0.0343, "net_n": 75}, {"strategy": "mean_reversion", "sid
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 309 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   trend            n= 65 wr=0.60 win=0.46R loss=0.80R | SL=1.2 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=110 wr=0.70 win=0.57R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 18:02", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 110, "wr": 0.7, "avg_win_R": 0.57, "avg_loss_R": 0.991,
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 313 ไม้ (2026-08-26T06:09 → 2026-09-28T10:37) | net -0.99 | เฉลี่ย -0.003 | ชนะ 62.9% | PF 0.98 ✗
+   · trend            ไม้   2 | net  +1.59 | PF 99.00 ✓ | 2 ล่าสุด: +0.795/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +1.59 (2 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (1 รอบ · 18:00→18:00 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.636/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.541/0.296
+      ✅ range_sell               ดิบ 0.347/0.231 · prob 0.53 · ถ่วงน้ำหนัก 0.400/0.266
+      ✅ mean_reversion_sell      ดิบ 0.173/0.132 · prob 0.56 · ถ่วงน้ำหนัก 0.147/0.113
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 65%  (score -0.466)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=65
+ASTRO=sideways:0.605
+NOTE=ภายใน: แรงซื้อ/ขาย 0.116456/0.197239 (สุทธิ -0.26) · engine เอน 0B/8S 24ชม. (-1.00) · ดูดวง sideways 0.605 (+0.00) · rolling20 $-0.11 · net72h $+0.795/trade · ลดความแรง 20% (rolling net ยังติดลบ)
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 18:02 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.84 · คะแนนหนุน 4 / กด 46) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 5 ข่าว · คะแนนรวม 32 (หนุน 0 / กด 5) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 5 ข่าว · คะแนนรวม 31 (หนุน 1 / กด 4) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 5 ข่าว · คะแนนรวม 30 (หนุน 0 / กด 5) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 4) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (markets) Dollar firm as rising oil prices and heavy data alate keep Fed hawkish
+- 🔴 [
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 8, 2, 8, 1] (รวม 42) → ฐาน 9 = 6 · เลข 6 — เดินขึ้น เกื้อหนุน · เลขคู่เสียง 5
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 6 — เดินขึ้น เกื้อหนุน — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=8 ออเดอร์ (~2.7/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.795/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 313 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.040/trade (n=2)
+
+## 2026-09-28 11:15 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 97691227 → 97733438)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (32749 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 18:13", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0456, "n": 45}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 311}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 309 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   trend            n= 65 wr=0.60 win=0.46R loss=0.80R | SL=1.2 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=110 wr=0.70 win=0.57R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 18:13", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 110, "wr": 0.7, "avg_win_R": 0.57, "avg_loss_R": 0.991,
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 313 ไม้ (2026-08-26T06:09 → 2026-09-28T10:37) | net -0.99 | เฉลี่ย -0.003 | ชนะ 62.9% | PF 0.98 ✗
+   · trend            ไม้   2 | net  +1.59 | PF 99.00 ✓ | 2 ล่าสุด: +0.795/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +1.59 (2 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (1 รอบ · 18:00→18:00 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.636/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.541/0.296
+      ✅ range_sell               ดิบ 0.347/0.231 · prob 0.53 · ถ่วงน้ำหนัก 0.400/0.266
+      ✅ mean_reversion_sell      ดิบ 0.173/0.132 · prob 0.56 · ถ่วงน้ำหนัก 0.147/0.113
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 67%  (score -0.537)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=67
+ASTRO=bearish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.117479/0.199827 (สุทธิ -0.26) · engine เอน 0B/8S 24ชม. (-1.00) · ดูดวง bearish 0.35 (-0.35) · rolling20 $-0.11 · net72h $+0.795/trade · ลดความแรง 20% (rolling net ยังติดลบ)
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 18:13 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.84 · คะแนนหนุน 4 / กด 46) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 5 ข่าว · คะแนนรวม 32 (หนุน 0 / กด 5) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 5 ข่าว · คะแนนรวม 31 (หนุน 1 / กด 4) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 5 ข่าว · คะแนนรวม 30 (หนุน 0 / กด 5) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 4) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (markets) Dollar firm as rising oil prices and heavy data alate keep Fed hawkish
+- 🔴 [
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 8, 3, 9, 1] (รวม 44) → ฐาน 9 = 8 · เลข 8 — มั่งคั่ง เฟื่องฟู · เลขคู่เสียง 7
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 8 — มั่งคั่ง เฟื่องฟู — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=8 ออเดอร์ (~2.7/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.795/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 313 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.040/trade (n=2)
+
+## 2026-09-28 11:27 UTC — งานวิจัยรวม (14 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 97733651 → 97781744)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (32762 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 18:26", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0626, "n": 46}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 312}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 6 รายการที่ควรปรับ (จาก R-multiple จริง 310 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   trend            n= 65 wr=0.60 win=0.46R loss=0.80R | SL=1.2 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=111 wr=0.70 win=0.60R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 18:26", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.50R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.4, "reward_risk_from": 1.5}, {"action": "set_tpsl", "strategy": "counter_trend", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.44R < 55% ของเป้า 1.30R)", "evidence": "n=27 wr=0.52 avg_win=0.44R avg_loss=0.90R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 314 ไม้ (2026-08-26T06:09 → 2026-09-28T11:23) | net -0.16 | เฉลี่ย -0.001 | ชนะ 63.1% | PF 1.00 ✗
+   · trend            ไม้   3 | net  +2.42 | PF 99.00 ✓ | 3 ล่าสุด: +0.807/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +2.42 (3 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (3 รอบ · 18:23→18:26 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 0 รอบ · ไม่ผ่าน = 3 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+      trend_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 3 · คะแนนถ่วงน้ำหนักสูงเกินบน 3
+      range_sell               คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+      mean_reversion_sell      คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+      counter_trend_buy        คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+      mean_reversion_buy       คะแนนดิบสูงเกินบน(อิ่มตัว) 1 · คะแนนถ่วงน้ำหนักสูงเกินบน 1
+      range_buy                คะแนนดิบต่ำ 2
+    ไม่มีตัวผ่านด่าน 2 ในช่วงนี้
+   ตัวที่ใกล้ผ่านที่สุดต่อรอบ (ติดแค่เกณฑ์คะแนนดิบต่ำ):
+      (นับเฉพาะตัวที่ 'ติดแค่คะแนนดิบต่ำ' — ไม่รวมตัวที่เกินเกณฑ์แล้วไปติดด่านอื่น)
+       range_buy                ดิบ 0.208 / เกณฑ์ 0.208 = 100% ของเกณฑ์ ★ เกือบผ่าน
+       range_buy                ดิบ 0.208 / เกณฑ์ 0.208 = 100% ของเกณฑ์ ★ เกือบผ่าน
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 65%  (score -0.369)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=65
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.184138/0.27443 (สุทธิ -0.20) · engine เอน 0B/8S 24ชม. (-1.00) · ดูดวง bullish 0.35 (+0.35) · rolling20 $+0.70 · net72h $+0.807/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 18:26 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.84 · คะแนนหนุน 4 / กด 46) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 5 ข่าว · คะแนนรวม 32 (หนุน 0 / กด 5) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 5 ข่าว · คะแนนรวม 31 (หนุน 1 / กด 4) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 5 ข่าว · คะแนนรวม 30 (หนุน 0 / กด 5) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 4) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (markets) Dollar firm as rising oil prices and heavy data alate keep Fed hawkish
+- 🔴 [
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 8, 6, 8, 1] (รวม 46) → ฐาน 9 = 1 · เลข 1 — จุดเริ่มเดินหน้า แนวโน้มขึ้น · เลขคู่เสียง 9
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 1 — จุดเริ่มเดินหน้า แนวโน้มขึ้น — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### P/L Attribution
+## 2026-09-28 11:26 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=0 | errors=0
+- **✅ กำไร** 2026-09-28T11:23:47 | trend sell | net=$0.83 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=1 loss=0 net_total=$0.8300 | net เฉลี่ย $0.8300/trade ★ | winrate=100.0% (รายงานเท่านั้น)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=8 ออเดอร์ (~2.7/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.807/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 314 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.034/trade (n=2)
+
+## 2026-09-28 11:38 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 97964432 → 98030349)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (32828 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 18:37", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0626, "n": 46}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 312}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 310 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   trend            n= 65 wr=0.60 win=0.46R loss=0.80R | SL=1.2 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=111 wr=0.70 win=0.60R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 18:37", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 111, "wr": 0.703, "avg_win_R": 0.598, "avg_loss_R": 0.9
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 314 ไม้ (2026-08-26T06:09 → 2026-09-28T11:23) | net -0.16 | เฉลี่ย -0.001 | ชนะ 63.1% | PF 1.00 ✗
+   · trend            ไม้   3 | net  +2.42 | PF 99.00 ✓ | 3 ล่าสุด: +0.807/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +2.42 (3 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (7 รอบ · 18:23→18:30 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 6 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 7 · คะแนนถ่วงน้ำหนักต่ำ 7
+      trend_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 6 · คะแนนถ่วงน้ำหนักสูงเกินบน 6
+      range_sell               คะแนนดิบต่ำ 6 · คะแนนถ่วงน้ำหนักต่ำ 6
+      mean_reversion_sell      คะแนนดิบต่ำ 6 · คะแนนถ่วงน้ำหนักต่ำ 6
+      counter_trend_buy        คะแนนดิบต่ำ 6 · คะแนนถ่วงน้ำหนักต่ำ 6
+      range_buy                คะแนนดิบต่ำ 5
+      mean_reversion_buy       คะแนนดิบสูงเกินบน(อิ่มตัว) 1 · คะแนนถ่วงน้ำหนักสูงเกินบน 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.628/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.534/0.296
+      ✅ range_sell               ดิบ 0.311/0.231 · prob 0.53 · ถ่วงน้ำหนัก 0.357/0.266
+      ✅ mean_reversion_sell      ดิบ 0.135/0.132 · prob 0.56 · ถ่วงน้ำหนัก 0.114/0.113
+   ตัวที่ใกล้ผ่านที่สุดต่อรอบ (ติดแค่เกณฑ์คะแนนดิบต่ำ):
+      (นับเฉพาะตัวที่ 'ติดแค่คะแนนดิบต่ำ' — ไม่รวมตัวที่เกินเกณฑ์แล้วไปติดด่านอื่น)
+       range_buy                ดิบ 0.208 / เกณฑ์ 0.208 = 100% ของเกณฑ์ ★ เกือบผ่าน
+       range_buy                ดิบ 0.208 / เกณฑ์ 0.208 = 100% ของเกณฑ
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 67%  (score -0.415)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=67
+ASTRO=sideways:0.605
+NOTE=ภายใน: แรงซื้อ/ขาย 0.17432/0.233221 (สุทธิ -0.14) · engine เอน 0B/9S 24ชม. (-1.00) · ดูดวง sideways 0.605 (+0.00) · rolling20 $+0.70 · net72h $+0.807/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 2 รายการ
+
+## 2026-09-28 18:37 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.84 · คะแนนหนุน 4 / กด 46) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 5 ข่าว · คะแนนรวม 32 (หนุน 0 / กด 5) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 5 ข่าว · คะแนนรวม 31 (หนุน 1 / กด 4) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 5 ข่าว · คะแนนรวม 30 (หนุน 0 / กด 5) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 4) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (markets) Dollar firm as rising oil prices and heavy data alate keep Fed hawkish
+- 🔴 [
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: → ออกข้าง (sideways) · strength 0.605
+- เลข 7 ตัว: [8, 9, 6, 8, 7, 8, 1] (รวม 47) → ฐาน 9 = 2 · เลข 2 — คู่สมดุล รอจังหวะ · เลขคู่เสียง 1
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 2 — คู่สมดุล รอจังหวะ — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=9 ออเดอร์ (~3.0/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.807/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 314 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.034/trade (n=2)
+
+## 2026-09-28 11:48 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 98228754 → 98274579)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (32880 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 18:48", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0626, "n": 46}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 312}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 310 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   trend            n= 65 wr=0.60 win=0.46R loss=0.80R | SL=1.2 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=111 wr=0.70 win=0.60R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 18:48", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 111, "wr": 0.703, "avg_win_R": 0.598, "avg_loss_R": 0.9
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 314 ไม้ (2026-08-26T06:09 → 2026-09-28T11:23) | net -0.16 | เฉลี่ย -0.001 | ชนะ 63.1% | PF 1.00 ✗
+   · trend            ไม้   3 | net  +2.42 | PF 99.00 ✓ | 3 ล่าสุด: +0.807/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +2.42 (3 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (7 รอบ · 18:23→18:30 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 6 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 7 · คะแนนถ่วงน้ำหนักต่ำ 7
+      trend_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 6 · คะแนนถ่วงน้ำหนักสูงเกินบน 6
+      range_sell               คะแนนดิบต่ำ 6 · คะแนนถ่วงน้ำหนักต่ำ 6
+      mean_reversion_sell      คะแนนดิบต่ำ 6 · คะแนนถ่วงน้ำหนักต่ำ 6
+      counter_trend_buy        คะแนนดิบต่ำ 6 · คะแนนถ่วงน้ำหนักต่ำ 6
+      range_buy                คะแนนดิบต่ำ 5
+      mean_reversion_buy       คะแนนดิบสูงเกินบน(อิ่มตัว) 1 · คะแนนถ่วงน้ำหนักสูงเกินบน 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.628/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.534/0.296
+      ✅ range_sell               ดิบ 0.311/0.231 · prob 0.53 · ถ่วงน้ำหนัก 0.357/0.266
+      ✅ mean_reversion_sell      ดิบ 0.135/0.132 · prob 0.56 · ถ่วงน้ำหนัก 0.114/0.113
+   ตัวที่ใกล้ผ่านที่สุดต่อรอบ (ติดแค่เกณฑ์คะแนนดิบต่ำ):
+      (นับเฉพาะตัวที่ 'ติดแค่คะแนนดิบต่ำ' — ไม่รวมตัวที่เกินเกณฑ์แล้วไปติดด่านอื่น)
+       range_buy                ดิบ 0.208 / เกณฑ์ 0.208 = 100% ของเกณฑ์ ★ เกือบผ่าน
+       range_buy                ดิบ 0.208 / เกณฑ์ 0.208 = 100% ของเกณฑ
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 70%  (score -0.495)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=70
+ASTRO=bearish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.193131/0.270884 (สุทธิ -0.17) · engine เอน 0B/9S 24ชม. (-1.00) · ดูดวง bearish 0.35 (-0.35) · rolling20 $+0.70 · net72h $+0.807/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 18:48 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.84 · คะแนนหนุน 4 / กด 46) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 5 ข่าว · คะแนนรวม 32 (หนุน 0 / กด 5) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 5 ข่าว · คะแนนรวม 31 (หนุน 1 / กด 4) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 5 ข่าว · คะแนนรวม 30 (หนุน 0 / กด 5) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 4) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (markets) Dollar firm as rising oil prices and heavy data alate keep Fed hawkish
+- 🔴 [
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↓ ลง (bearish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 8, 8, 3, 1] (รวม 43) → ฐาน 9 = 7 · เลข 7 — เสี่ยง ดาวเสาร์กด · เลขคู่เสียง 6
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 7 — เสี่ยง ดาวเสาร์กด — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=9 ออเดอร์ (~3.0/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.807/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 314 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.034/trade (n=2)
+
+## 2026-09-28 12:00 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 98491478 → 98513135)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (32938 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 18:59", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0626, "n": 46}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 312}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 6 รายการที่ควรปรับ (จาก R-multiple จริง 310 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   trend            n= 65 wr=0.60 win=0.46R loss=0.80R | SL=1.2 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=111 wr=0.70 win=0.60R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 18:59", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.50R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.4, "reward_risk_from": 1.5}, {"action": "set_tpsl", "strategy": "counter_trend", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.44R < 55% ของเป้า 1.30R)", "evidence": "n=27 wr=0.52 avg_win=0.44R avg_loss=0.90R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 314 ไม้ (2026-08-26T06:09 → 2026-09-28T11:23) | net -0.16 | เฉลี่ย -0.001 | ชนะ 63.1% | PF 1.00 ✗
+   · trend            ไม้   3 | net  +2.42 | PF 99.00 ✓ | 3 ล่าสุด: +0.807/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +2.42 (3 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (7 รอบ · 18:23→18:30 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 6 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 7 · คะแนนถ่วงน้ำหนักต่ำ 7
+      trend_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 6 · คะแนนถ่วงน้ำหนักสูงเกินบน 6
+      range_sell               คะแนนดิบต่ำ 6 · คะแนนถ่วงน้ำหนักต่ำ 6
+      mean_reversion_sell      คะแนนดิบต่ำ 6 · คะแนนถ่วงน้ำหนักต่ำ 6
+      counter_trend_buy        คะแนนดิบต่ำ 6 · คะแนนถ่วงน้ำหนักต่ำ 6
+      range_buy                คะแนนดิบต่ำ 5
+      mean_reversion_buy       คะแนนดิบสูงเกินบน(อิ่มตัว) 1 · คะแนนถ่วงน้ำหนักสูงเกินบน 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.628/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.534/0.296
+      ✅ range_sell               ดิบ 0.311/0.231 · prob 0.53 · ถ่วงน้ำหนัก 0.357/0.266
+      ✅ mean_reversion_sell      ดิบ 0.135/0.132 · prob 0.56 · ถ่วงน้ำหนัก 0.114/0.113
+   ตัวที่ใกล้ผ่านที่สุดต่อรอบ (ติดแค่เกณฑ์คะแนนดิบต่ำ):
+      (นับเฉพาะตัวที่ 'ติดแค่คะแนนดิบต่ำ' — ไม่รวมตัวที่เกินเกณฑ์แล้วไปติดด่านอื่น)
+       range_buy                ดิบ 0.208 / เกณฑ์ 0.208 = 100% ของเกณฑ์ ★ เกือบผ่าน
+       range_buy                ดิบ 0.208 / เกณฑ์ 0.208 = 100% ของเกณฑ
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 62%  (score -0.311)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=62
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.233959/0.269082 (สุทธิ -0.07) · engine เอน 0B/9S 24ชม. (-1.00) · ดูดวง bullish 0.35 (+0.35) · rolling20 $+0.70 · net72h $+0.807/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 1 รายการ
+
+## 2026-09-28 18:59 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.86 · คะแนนหนุน 4 / กด 52) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 41 (หนุน 0 / กด 6) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 6 ข่าว · คะแนนรวม 40 (หนุน 1 / กด 5) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 6 ข่าว · คะแนนรวม 39 (หนุน 0 / กด 6) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 13 (หนุน 0 / กด 3) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets bui
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↓ ลง (bearish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 8, 9, 2, 1] (รวม 43) → ฐาน 9 = 7 · เลข 7 — เสี่ยง ดาวเสาร์กด · เลขคู่เสียง 6
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 7 — เสี่ยง ดาวเสาร์กด — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=9 ออเดอร์ (~3.0/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.807/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 314 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.034/trade (n=2)
+
+## 2026-09-28 12:10 UTC — งานวิจัยรวม (14 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ) ⚠️ error
+Traceback (most recent call last):
+  File "<USER_HOME>\AppData\Local\hermes\scripts\side_net_ledger.py", line 112, in <module>
+    os.replace(tmp, LEDGER)
+FileNotFoundError: [WinError 2] The system cannot find the file specified: 'D:\\AI WorkSpace\\Codex WorkSpace\\เทรดทองคำ\\work\\side_n
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (32996 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 19:10", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0626, "n": 46}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 312}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 310 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   trend            n= 65 wr=0.60 win=0.46R loss=0.80R | SL=1.2 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=111 wr=0.70 win=0.60R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 19:10", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 111, "wr": 0.703, "avg_win_R": 0.598, "avg_loss_R": 0.9
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 314 ไม้ (2026-08-26T06:09 → 2026-09-28T11:23) | net -0.16 | เฉลี่ย -0.001 | ชนะ 63.1% | PF 1.00 ✗
+   · trend            ไม้   3 | net  +2.42 | PF 99.00 ✓ | 3 ล่าสุด: +0.807/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +2.42 (3 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (6 รอบ · 19:01→19:05 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 5 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 6 · คะแนนถ่วงน้ำหนักต่ำ 6
+      range_buy                คะแนนดิบสูงเกินบน(อิ่มตัว) 5 · คะแนนถ่วงน้ำหนักสูงเกินบน 5 · คะแนนดิบต่ำ 1
+      mean_reversion_buy       คะแนนดิบสูงเกินบน(อิ่มตัว) 5 · คะแนนถ่วงน้ำหนักสูงเกินบน 5 · คะแนนดิบต่ำ 1
+      trend_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 5 · คะแนนถ่วงน้ำหนักสูงเกินบน 5
+      range_sell               คะแนนดิบต่ำ 5 · คะแนนถ่วงน้ำหนักต่ำ 5
+      mean_reversion_sell      คะแนนดิบต่ำ 5 · คะแนนถ่วงน้ำหนักต่ำ 5
+      counter_trend_buy        คะแนนดิบต่ำ 5 · คะแนนถ่วงน้ำหนักต่ำ 5
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.760/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.646/0.296
+      ✅ range_sell               ดิบ 0.333/0.231 · prob 0.53 · ถ่วงน้ำหนัก 0.383/0.266
+      ✅ mean_reversion_sell      ดิบ 0.274/0.132 · prob 0.56 · ถ่วงน้ำหนัก 0.233/0.113
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 71%  (score -0.528)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=71
+ASTRO=bearish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.144331/0.235408 (สุทธิ -0.24) · engine เอน 0B/10S 24ชม. (-1.00) · ดูดวง bearish 0.35 (-0.35) · rolling20 $+0.70 · net72h $+0.807/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 19:10 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.86 · คะแนนหนุน 4 / กด 52) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 41 (หนุน 0 / กด 6) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 6 ข่าว · คะแนนรวม 40 (หนุน 1 / กด 5) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 6 ข่าว · คะแนนรวม 39 (หนุน 0 / กด 6) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 13 (หนุน 0 / กด 3) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets bui
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 9, 10, 1, 1] (รวม 44) → ฐาน 9 = 8 · เลข 8 — มั่งคั่ง เฟื่องฟู · เลขคู่เสียง 7
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 8 — มั่งคั่ง เฟื่องฟู — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=10 ออเดอร์ (~3.3/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.807/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 314 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.034/trade (n=2)
+
+### 🛡️ Profit-Anchor Guard (เฝ้าโซนกำไร)
+📈 [Profit-Anchor] ทำ HWM ใหม่: rolling net $1.87 — snapshot ชุดค่า 36 ค่าเก็บแล้ว
+
+## 2026-09-28 12:22 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 98923036 → 99059602)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (33059 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 19:21", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0789, "n": 47}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 313}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 311 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   trend            n= 66 wr=0.61 win=0.51R loss=0.80R | SL=1.2 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=111 wr=0.70 win=0.60R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 19:22", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 111, "wr": 0.703, "avg_win_R": 0.598, "avg_loss_R": 0.9
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 315 ไม้ (2026-08-26T06:09 → 2026-09-28T12:10) | net +0.67 | เฉลี่ย +0.002 | ชนะ 63.2% | PF 1.01 ✓
+   · trend            ไม้   4 | net  +3.25 | PF 99.00 ✓ | 4 ล่าสุด: +0.812/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +3.25 (4 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (1 รอบ · 19:21→19:21 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_buy       คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.516/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.438/0.296
+      ✅ range_sell               ดิบ 0.377/0.231 · prob 0.53 · ถ่วงน้ำหนัก 0.433/0.266
+      ✅ mean_reversion_sell      ดิบ 0.313/0.132 · prob 0.56 · ถ่วงน้ำหนัก 0.266/0.113
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 66%  (score -0.395)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=66
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.10211/0.172143 (สุทธิ -0.26) · engine เอน 0B/11S 24ชม. (-1.00) · ดูดวง bullish 0.35 (+0.35) · rolling20 $+1.87 · net72h $+0.812/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 19:22 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.86 · คะแนนหนุน 4 / กด 52) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 41 (หนุน 0 / กด 6) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 6 ข่าว · คะแนนรวม 40 (หนุน 1 / กด 5) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 6 ข่าว · คะแนนรวม 39 (หนุน 0 / กด 6) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 13 (หนุน 0 / กด 3) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets bui
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: → ออกข้าง (sideways) · strength 0.605
+- เลข 7 ตัว: [8, 9, 6, 9, 2, 1, 1] (รวม 36) → ฐาน 9 = 9 · เลข 9 — ครบรอบ จบ-เริ่มใหม่ · เลขคู่เสียง 8
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 9 — ครบรอบ จบ-เริ่มใหม่ — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=11 ออเดอร์ (~3.7/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.812/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 315 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, trend: n=72 net=$1.07 wr=65%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.029/trade (n=2)
+
+## 2026-09-28 12:33 UTC — งานวิจัยรวม (14 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 99217896 → 99353961)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (33128 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 19:33", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0623, "n": 48}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 314}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 6 รายการที่ควรปรับ (จาก R-multiple จริง 312 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   trend            n= 67 wr=0.60 win=0.51R loss=0.85R | SL=1.2 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=111 wr=0.70 win=0.60R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 19:33", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.50R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.4, "reward_risk_from": 1.5}, {"action": "set_tpsl", "strategy": "counter_trend", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.44R < 55% ของเป้า 1.30R)", "evidence": "n=27 wr=0.52 avg_win=0.44R avg_loss=0.90R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 316 ไม้ (2026-08-26T06:09 → 2026-09-28T12:24) | net -0.05 | เฉลี่ย -0.000 | ชนะ 63.0% | PF 1.00 ✗
+   · trend            ไม้   5 | net  +2.53 | PF  4.51 ✓ | 5 ล่าสุด: +0.506/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +2.53 (5 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (2 รอบ · 19:25→19:31 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 2 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      mean_reversion_buy       คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      range_buy                คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_sell               คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_sell      คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      counter_trend_buy        คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.594/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.505/0.296
+      ✅ range_sell               ดิบ 0.239/0.231 · prob 0.53 · ถ่วงน้ำหนัก 0.275/0.266
+      ✅ mean_reversion_sell      ดิบ 0.204/0.132 · prob 0.56 · ถ่วงน้ำหนัก 0.173/0.113
+   ตัวที่ใกล้ผ่านที่สุดต่อรอบ (ติดแค่เกณฑ์คะแนนดิบต่ำ):
+      (นับเฉพาะตัวที่ 'ติดแค่คะแนนดิบต่ำ' — ไม่รวมตัวที่เกินเกณฑ์แล้วไปติดด่านอื่น)
+       range_buy                ดิบ 0.203 / เกณฑ์ 0.208 = 98% ของเกณฑ์ ★ เกือบผ่าน
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 68%  (score -0.453)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=68
+ASTRO=sideways:0.605
+NOTE=ภายใน: แรงซื้อ/ขาย 0.141626/0.226202 (สุทธิ -0.23) · engine เอน 0B/13S 24ชม. (-1.00) · ดูดวง sideways 0.605 (+0.00) · rolling20 $+1.07 · net72h $+0.506/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 19:33 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.86 · คะแนนหนุน 4 / กด 52) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 41 (หนุน 0 / กด 6) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 6 ข่าว · คะแนนรวม 40 (หนุน 1 / กด 5) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 6 ข่าว · คะแนนรวม 39 (หนุน 0 / กด 6) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 13 (หนุน 0 / กด 3) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets bui
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 9, 3, 1, 1] (รวม 37) → ฐาน 9 = 1 · เลข 1 — จุดเริ่มเดินหน้า แนวโน้มขึ้น · เลขคู่เสียง 9
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 1 — จุดเริ่มเดินหน้า แนวโน้มขึ้น — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### P/L Attribution
+## 2026-09-28 12:33 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=2 | errors=0
+- **❌ ขาดทุน** 2026-09-28T12:24:17 | trend sell | net=$-0.72 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=0 loss=1 net_total=$-0.7200 | net เฉลี่ย $-0.7200/trade ★ | winrate=0.0% (รายงานเท่านั้น)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=13 ออเดอร์ (~4.3/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.506/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 316 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.036/trade (n=2)
+
+## 2026-09-28 12:44 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 99507043 → 99595499)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (33186 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 19:44", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0623, "n": 48}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 314}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 312 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   trend            n= 67 wr=0.60 win=0.51R loss=0.85R | SL=1.2 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=111 wr=0.70 win=0.60R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 19:44", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 111, "wr": 0.703, "avg_win_R": 0.598, "avg_loss_R": 0.9
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 316 ไม้ (2026-08-26T06:09 → 2026-09-28T12:24) | net -0.05 | เฉลี่ย -0.000 | ชนะ 63.0% | PF 1.00 ✗
+   · trend            ไม้   5 | net  +2.53 | PF  4.51 ✓ | 5 ล่าสุด: +0.506/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +2.53 (5 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (2 รอบ · 19:25→19:31 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 2 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      mean_reversion_buy       คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      range_buy                คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_sell               คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_sell      คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      counter_trend_buy        คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.594/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.505/0.296
+      ✅ range_sell               ดิบ 0.239/0.231 · prob 0.53 · ถ่วงน้ำหนัก 0.275/0.266
+      ✅ mean_reversion_sell      ดิบ 0.204/0.132 · prob 0.56 · ถ่วงน้ำหนัก 0.173/0.113
+   ตัวที่ใกล้ผ่านที่สุดต่อรอบ (ติดแค่เกณฑ์คะแนนดิบต่ำ):
+      (นับเฉพาะตัวที่ 'ติดแค่คะแนนดิบต่ำ' — ไม่รวมตัวที่เกินเกณฑ์แล้วไปติดด่านอื่น)
+       range_buy                ดิบ 0.203 / เกณฑ์ 0.208 = 98% ของเกณฑ์ ★ เกือบผ่าน
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 66%  (score -0.396)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=66
+ASTRO=sideways:0.605
+NOTE=ภายใน: แรงซื้อ/ขาย 0.180663/0.221482 (สุทธิ -0.10) · engine เอน 0B/13S 24ชม. (-1.00) · ดูดวง sideways 0.605 (+0.00) · rolling20 $+1.07 · net72h $+0.506/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 19:44 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.86 · คะแนนหนุน 4 / กด 52) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 41 (หนุน 0 / กด 6) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 6 ข่าว · คะแนนรวม 40 (หนุน 1 / กด 5) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 6 ข่าว · คะแนนรวม 39 (หนุน 0 / กด 6) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 13 (หนุน 0 / กด 3) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets bui
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: → ออกข้าง (sideways) · strength 0.605
+- เลข 7 ตัว: [8, 9, 6, 9, 4, 10, 1] (รวม 47) → ฐาน 9 = 2 · เลข 2 — คู่สมดุล รอจังหวะ · เลขคู่เสียง 1
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 2 — คู่สมดุล รอจังหวะ — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=13 ออเดอร์ (~4.3/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.506/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 316 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.036/trade (n=2)
+
+## 2026-09-28 12:56 UTC — งานวิจัยรวม (14 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 99771092 → 99837063)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (33243 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 19:55", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0473, "n": 49}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 315}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 313 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   trend            n= 68 wr=0.59 win=0.51R loss=0.89R | SL=1.2 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=111 wr=0.70 win=0.60R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 19:55", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 111, "wr": 0.703, "avg_win_R": 0.598, "avg_loss_R": 0.9
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 317 ไม้ (2026-08-26T06:09 → 2026-09-28T12:48) | net -0.72 | เฉลี่ย -0.002 | ชนะ 62.8% | PF 0.99 ✗
+   · trend            ไม้   6 | net  +1.86 | PF  2.34 ✓ | 6 ล่าสุด: +0.310/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +1.86 (6 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (2 รอบ · 19:25→19:31 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 2 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      mean_reversion_buy       คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      range_buy                คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_sell               คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_sell      คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      counter_trend_buy        คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.594/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.505/0.296
+      ✅ range_sell               ดิบ 0.239/0.231 · prob 0.53 · ถ่วงน้ำหนัก 0.275/0.266
+      ✅ mean_reversion_sell      ดิบ 0.204/0.132 · prob 0.56 · ถ่วงน้ำหนัก 0.173/0.113
+   ตัวที่ใกล้ผ่านที่สุดต่อรอบ (ติดแค่เกณฑ์คะแนนดิบต่ำ):
+      (นับเฉพาะตัวที่ 'ติดแค่คะแนนดิบต่ำ' — ไม่รวมตัวที่เกินเกณฑ์แล้วไปติดด่านอื่น)
+       range_buy                ดิบ 0.203 / เกณฑ์ 0.208 = 98% ของเกณฑ์ ★ เกือบผ่าน
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 63%  (score -0.321)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=63
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.215721/0.258477 (สุทธิ -0.09) · engine เอน 0B/13S 24ชม. (-1.00) · ดูดวง bullish 0.35 (+0.35) · rolling20 $+0.35 · net72h $+0.310/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 19:55 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.86 · คะแนนหนุน 4 / กด 52) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 41 (หนุน 0 / กด 6) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 6 ข่าว · คะแนนรวม 40 (หนุน 1 / กด 5) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 6 ข่าว · คะแนนรวม 39 (หนุน 0 / กด 6) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 13 (หนุน 0 / กด 3) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets bui
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 9, 5, 4, 1] (รวม 42) → ฐาน 9 = 6 · เลข 6 — เดินขึ้น เกื้อหนุน · เลขคู่เสียง 5
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 6 — เดินขึ้น เกื้อหนุน — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### P/L Attribution
+## 2026-09-28 12:55 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=0 | errors=0
+- **❌ ขาดทุน** 2026-09-28T12:48:39 | trend sell | net=$-0.67 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=0 loss=1 net_total=$-0.6700 | net เฉลี่ย $-0.6700/trade ★ | winrate=0.0% (รายงานเท่านั้น)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=13 ออเดอร์ (~4.3/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.310/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 317 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.043/trade (n=2)
+
+## 2026-09-28 13:06 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 100036148 → 100078846)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (33297 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 20:06", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0473, "n": 49}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 315}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 6 รายการที่ควรปรับ (จาก R-multiple จริง 313 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   trend            n= 68 wr=0.59 win=0.51R loss=0.89R | SL=1.2 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=111 wr=0.70 win=0.60R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 20:06", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.50R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.4, "reward_risk_from": 1.5}, {"action": "set_tpsl", "strategy": "counter_trend", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.44R < 55% ของเป้า 1.30R)", "evidence": "n=27 wr=0.52 avg_win=0.44R avg_loss=0.90R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 317 ไม้ (2026-08-26T06:09 → 2026-09-28T12:48) | net -0.72 | เฉลี่ย -0.002 | ชนะ 62.8% | PF 0.99 ✗
+   · trend            ไม้   6 | net  +1.86 | PF  2.34 ✓ | 6 ล่าสุด: +0.310/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +1.86 (6 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (2 รอบ · 19:25→19:31 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 2 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      mean_reversion_buy       คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      range_buy                คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_sell               คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_sell      คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      counter_trend_buy        คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.594/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.505/0.296
+      ✅ range_sell               ดิบ 0.239/0.231 · prob 0.53 · ถ่วงน้ำหนัก 0.275/0.266
+      ✅ mean_reversion_sell      ดิบ 0.204/0.132 · prob 0.56 · ถ่วงน้ำหนัก 0.173/0.113
+   ตัวที่ใกล้ผ่านที่สุดต่อรอบ (ติดแค่เกณฑ์คะแนนดิบต่ำ):
+      (นับเฉพาะตัวที่ 'ติดแค่คะแนนดิบต่ำ' — ไม่รวมตัวที่เกินเกณฑ์แล้วไปติดด่านอื่น)
+       range_buy                ดิบ 0.203 / เกณฑ์ 0.208 = 98% ของเกณฑ์ ★ เกือบผ่าน
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 67%  (score -0.415)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=67
+ASTRO=sideways:0.605
+NOTE=ภายใน: แรงซื้อ/ขาย 0.169424/0.226576 (สุทธิ -0.14) · engine เอน 0B/13S 24ชม. (-1.00) · ดูดวง sideways 0.605 (+0.00) · rolling20 $+0.35 · net72h $+0.310/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 1 รายการ
+
+## 2026-09-28 20:06 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.86 · คะแนนหนุน 4 / กด 52) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 41 (หนุน 0 / กด 6) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 6 ข่าว · คะแนนรวม 40 (หนุน 1 / กด 5) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 6 ข่าว · คะแนนรวม 39 (หนุน 0 / กด 6) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 13 (หนุน 0 / กด 3) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets bui
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↓ ลง (bearish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 10, 6, 1, 1] (รวม 41) → ฐาน 9 = 5 · เลข 5 — เปลี่ยนแปลง ผันผวนลงได้ · เลขคู่เสียง 4
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 5 — เปลี่ยนแปลง ผันผวนลงได้ — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=13 ออเดอร์ (~4.3/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.310/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 317 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.043/trade (n=2)
+
+## 2026-09-28 13:17 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 100295246 → 100316933)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (33355 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 20:17", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0473, "n": 49}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 315}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 313 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   trend            n= 68 wr=0.59 win=0.51R loss=0.89R | SL=1.2 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=111 wr=0.70 win=0.60R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 20:17", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 111, "wr": 0.703, "avg_win_R": 0.598, "avg_loss_R": 0.9
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 317 ไม้ (2026-08-26T06:09 → 2026-09-28T12:48) | net -0.72 | เฉลี่ย -0.002 | ชนะ 62.8% | PF 0.99 ✗
+   · trend            ไม้   6 | net  +1.86 | PF  2.34 ✓ | 6 ล่าสุด: +0.310/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +1.86 (6 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (2 รอบ · 19:25→19:31 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 2 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      mean_reversion_buy       คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      range_buy                คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_sell               คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_sell      คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      counter_trend_buy        คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.594/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.505/0.296
+      ✅ range_sell               ดิบ 0.239/0.231 · prob 0.53 · ถ่วงน้ำหนัก 0.275/0.266
+      ✅ mean_reversion_sell      ดิบ 0.204/0.132 · prob 0.56 · ถ่วงน้ำหนัก 0.173/0.113
+   ตัวที่ใกล้ผ่านที่สุดต่อรอบ (ติดแค่เกณฑ์คะแนนดิบต่ำ):
+      (นับเฉพาะตัวที่ 'ติดแค่คะแนนดิบต่ำ' — ไม่รวมตัวที่เกินเกณฑ์แล้วไปติดด่านอื่น)
+       range_buy                ดิบ 0.203 / เกณฑ์ 0.208 = 98% ของเกณฑ์ ★ เกือบผ่าน
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 64%  (score -0.342)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=64
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.197064/0.26047 (สุทธิ -0.14) · engine เอน 0B/13S 24ชม. (-1.00) · ดูดวง bullish 0.35 (+0.35) · rolling20 $+0.35 · net72h $+0.310/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 20:17 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.86 · คะแนนหนุน 4 / กด 52) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 41 (หนุน 0 / กด 6) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 6 ข่าว · คะแนนรวม 40 (หนุน 1 / กด 5) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 6 ข่าว · คะแนนรวม 39 (หนุน 0 / กด 6) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 13 (หนุน 0 / กด 3) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets bui
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↓ ลง (bearish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 10, 7, 2, 1] (รวม 43) → ฐาน 9 = 7 · เลข 7 — เสี่ยง ดาวเสาร์กด · เลขคู่เสียง 6
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 7 — เสี่ยง ดาวเสาร์กด — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=13 ออเดอร์ (~4.3/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.310/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 317 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.043/trade (n=2)
+
+## 2026-09-28 13:29 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 100467473 → 100489080)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (33398 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 20:29", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0473, "n": 49}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 315}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 313 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   trend            n= 68 wr=0.59 win=0.51R loss=0.89R | SL=1.2 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=111 wr=0.70 win=0.60R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 20:29", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 111, "wr": 0.703, "avg_win_R": 0.598, "avg_loss_R": 0.9
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 317 ไม้ (2026-08-26T06:09 → 2026-09-28T12:48) | net -0.72 | เฉลี่ย -0.002 | ชนะ 62.8% | PF 0.99 ✗
+   · trend            ไม้   6 | net  +1.86 | PF  2.34 ✓ | 6 ล่าสุด: +0.310/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +1.86 (6 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (2 รอบ · 19:25→19:31 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 2 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      mean_reversion_buy       คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      range_buy                คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_sell               คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_sell      คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      counter_trend_buy        คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.594/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.505/0.296
+      ✅ range_sell               ดิบ 0.239/0.231 · prob 0.53 · ถ่วงน้ำหนัก 0.275/0.266
+      ✅ mean_reversion_sell      ดิบ 0.204/0.132 · prob 0.56 · ถ่วงน้ำหนัก 0.173/0.113
+   ตัวที่ใกล้ผ่านที่สุดต่อรอบ (ติดแค่เกณฑ์คะแนนดิบต่ำ):
+      (นับเฉพาะตัวที่ 'ติดแค่คะแนนดิบต่ำ' — ไม่รวมตัวที่เกินเกณฑ์แล้วไปติดด่านอื่น)
+       range_buy                ดิบ 0.203 / เกณฑ์ 0.208 = 98% ของเกณฑ์ ★ เกือบผ่าน
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 64%  (score -0.344)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=64
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.194526/0.259051 (สุทธิ -0.14) · engine เอน 0B/13S 24ชม. (-1.00) · ดูดวง bullish 0.35 (+0.35) · rolling20 $+0.35 · net72h $+0.310/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 20:29 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.86 · คะแนนหนุน 4 / กด 52) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 41 (หนุน 0 / กด 6) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 6 ข่าว · คะแนนรวม 40 (หนุน 1 / กด 5) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 6 ข่าว · คะแนนรวม 39 (หนุน 0 / กด 6) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 13 (หนุน 0 / กด 3) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets bui
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 10, 9, 10, 1] (รวม 53) → ฐาน 9 = 8 · เลข 8 — มั่งคั่ง เฟื่องฟู · เลขคู่เสียง 7
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 8 — มั่งคั่ง เฟื่องฟู — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=13 ออเดอร์ (~4.3/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.310/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 317 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.043/trade (n=2)
+
+## 2026-09-28 13:40 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 100489209 → 100489338)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (33400 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 20:40", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0473, "n": 49}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 315}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 6 รายการที่ควรปรับ (จาก R-multiple จริง 313 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   trend            n= 68 wr=0.59 win=0.51R loss=0.89R | SL=1.2 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=111 wr=0.70 win=0.60R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 20:40", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.50R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.4, "reward_risk_from": 1.5}, {"action": "set_tpsl", "strategy": "counter_trend", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.44R < 55% ของเป้า 1.30R)", "evidence": "n=27 wr=0.52 avg_win=0.44R avg_loss=0.90R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 317 ไม้ (2026-08-26T06:09 → 2026-09-28T12:48) | net -0.72 | เฉลี่ย -0.002 | ชนะ 62.8% | PF 0.99 ✗
+   · trend            ไม้   6 | net  +1.86 | PF  2.34 ✓ | 6 ล่าสุด: +0.310/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +1.86 (6 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (2 รอบ · 19:25→19:31 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 2 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      mean_reversion_buy       คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      range_buy                คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_sell               คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_sell      คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      counter_trend_buy        คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.594/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.505/0.296
+      ✅ range_sell               ดิบ 0.239/0.231 · prob 0.53 · ถ่วงน้ำหนัก 0.275/0.266
+      ✅ mean_reversion_sell      ดิบ 0.204/0.132 · prob 0.56 · ถ่วงน้ำหนัก 0.173/0.113
+   ตัวที่ใกล้ผ่านที่สุดต่อรอบ (ติดแค่เกณฑ์คะแนนดิบต่ำ):
+      (นับเฉพาะตัวที่ 'ติดแค่คะแนนดิบต่ำ' — ไม่รวมตัวที่เกินเกณฑ์แล้วไปติดด่านอื่น)
+       range_buy                ดิบ 0.203 / เกณฑ์ 0.208 = 98% ของเกณฑ์ ★ เกือบผ่าน
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 67%  (score -0.414)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=67
+ASTRO=sideways:0.605
+NOTE=ภายใน: แรงซื้อ/ขาย 0.194526/0.259051 (สุทธิ -0.14) · engine เอน 0B/13S 24ชม. (-1.00) · ดูดวง sideways 0.605 (+0.00) · rolling20 $+0.35 · net72h $+0.310/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 20:40 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.86 · คะแนนหนุน 4 / กด 52) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 41 (หนุน 0 / กด 6) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 6 ข่าว · คะแนนรวม 40 (หนุน 1 / กด 5) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 6 ข่าว · คะแนนรวม 39 (หนุน 0 / กด 6) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 13 (หนุน 0 / กด 3) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets bui
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 10, 10, 7, 1] (รวม 51) → ฐาน 9 = 6 · เลข 6 — เดินขึ้น เกื้อหนุน · เลขคู่เสียง 5
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 6 — เดินขึ้น เกื้อหนุน — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=13 ออเดอร์ (~4.3/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.310/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 317 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.043/trade (n=2)
+
+## 2026-09-28 13:51 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 100561050 → 100648588)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (33438 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 20:51", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0473, "n": 49}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 315}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 313 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   trend            n= 68 wr=0.59 win=0.51R loss=0.89R | SL=1.2 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=111 wr=0.70 win=0.60R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 20:51", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 111, "wr": 0.703, "avg_win_R": 0.598, "avg_loss_R": 0.9
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 317 ไม้ (2026-08-26T06:09 → 2026-09-28T12:48) | net -0.72 | เฉลี่ย -0.002 | ชนะ 62.8% | PF 0.99 ✗
+   · trend            ไม้   6 | net  +1.86 | PF  2.34 ✓ | 6 ล่าสุด: +0.310/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +1.86 (6 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (2 รอบ · 20:45→20:50 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 2 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      mean_reversion_buy       คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      range_sell               คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_sell      คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.646/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.549/0.296
+      ✅ range_sell               ดิบ 0.274/0.231 · prob 0.53 · ถ่วงน้ำหนัก 0.315/0.266
+      ✅ mean_reversion_sell      ดิบ 0.229/0.132 · prob 0.56 · ถ่วงน้ำหนัก 0.194/0.113
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 70%  (score -0.494)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=70
+ASTRO=bearish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.132367/0.184477 (สุทธิ -0.16) · engine เอน 0B/15S 24ชม. (-1.00) · ดูดวง bearish 0.35 (-0.35) · rolling20 $+0.35 · net72h $+0.310/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 20:51 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.86 · คะแนนหนุน 4 / กด 52) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 41 (หนุน 0 / กด 6) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 6 ข่าว · คะแนนรวม 40 (หนุน 1 / กด 5) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 6 ข่าว · คะแนนรวม 39 (หนุน 0 / กด 6) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 13 (หนุน 0 / กด 3) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets bui
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 10, 1, 7, 1] (รวม 42) → ฐาน 9 = 6 · เลข 6 — เดินขึ้น เกื้อหนุน · เลขคู่เสียง 5
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 6 — เดินขึ้น เกื้อหนุน — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=15 ออเดอร์ (~5.0/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.310/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 317 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.043/trade (n=2)
+
+## 2026-09-28 14:02 UTC — งานวิจัยรวม (14 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 100838383 → 100880409)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (33497 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 21:02", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.034, "n": 50}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 316}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 314 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   trend            n= 69 wr=0.58 win=0.51R loss=0.92R | SL=1.2 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=111 wr=0.70 win=0.60R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 21:02", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 111, "wr": 0.703, "avg_win_R": 0.598, "avg_loss_R": 0.9
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 318 ไม้ (2026-08-26T06:09 → 2026-09-28T14:00) | net -1.34 | เฉลี่ย -0.004 | ชนะ 62.6% | PF 0.97 ✗
+   · trend            ไม้   7 | net  +1.24 | PF  1.62 ✓ | 7 ล่าสุด: +0.177/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +1.24 (7 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (2 รอบ · 20:45→20:50 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 2 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      mean_reversion_buy       คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      range_sell               คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_sell      คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.646/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.549/0.296
+      ✅ range_sell               ดิบ 0.274/0.231 · prob 0.53 · ถ่วงน้ำหนัก 0.315/0.266
+      ✅ mean_reversion_sell      ดิบ 0.229/0.132 · prob 0.56 · ถ่วงน้ำหนัก 0.194/0.113
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 64%  (score -0.344)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=64
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.134647/0.179006 (สุทธิ -0.14) · engine เอน 0B/15S 24ชม. (-1.00) · ดูดวง bullish 0.35 (+0.35) · rolling20 $+0.10 · net72h $+0.177/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 2 รายการ
+
+## 2026-09-28 21:02 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.86 · คะแนนหนุน 4 / กด 53) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **พลังงาน** — 7 ข่าว · คะแนนรวม 44 (หนุน 1 / กด 6) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 41 (หนุน 0 / กด 6) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **ดอกเบี้ย/Fed** — 6 ข่าว · คะแนนรวม 39 (หนุน 0 / กด 6) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 14 (หนุน 0 / กด 3) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets bui
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: → ออกข้าง (sideways) · strength 0.605
+- เลข 7 ตัว: [8, 9, 6, 1, 2, 2, 1] (รวม 29) → ฐาน 9 = 2 · เลข 2 — คู่สมดุล รอจังหวะ · เลขคู่เสียง 1
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 2 — คู่สมดุล รอจังหวะ — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### P/L Attribution
+## 2026-09-28 14:02 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=0 | errors=0
+- **❌ ขาดทุน** 2026-09-28T14:00:12 | trend sell | net=$-0.62 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=0 loss=1 net_total=$-0.6200 | net เฉลี่ย $-0.6200/trade ★ | winrate=0.0% (รายงานเท่านั้น)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=15 ออเดอร์ (~5.0/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.177/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 318 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.043/trade (n=2)
+
+## 2026-09-28 14:13 UTC — งานวิจัยรวม (14 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 101108962 → 101130634)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (33555 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 21:13", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0465, "n": 51}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 317}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 6 รายการที่ควรปรับ (จาก R-multiple จริง 315 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   trend            n= 70 wr=0.59 win=0.54R loss=0.92R | SL=1.2 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=111 wr=0.70 win=0.60R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 21:13", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.50R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.4, "reward_risk_from": 1.5}, {"action": "set_tpsl", "strategy": "counter_trend", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.44R < 55% ของเป้า 1.30R)", "evidence": "n=27 wr=0.52 avg_win=0.44R avg_loss=0.90R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 319 ไม้ (2026-08-26T06:09 → 2026-09-28T14:13) | net -0.67 | เฉลี่ย -0.002 | ชนะ 62.7% | PF 0.99 ✗
+   · trend            ไม้   8 | net  +1.91 | PF  1.95 ✓ | 8 ล่าสุด: +0.239/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +1.91 (8 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (1 รอบ · 21:04→21:04 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_buy       คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.587/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.499/0.296
+      ✅ range_sell               ดิบ 0.252/0.231 · prob 0.53 · ถ่วงน้ำหนัก 0.289/0.266
+      ✅ mean_reversion_sell      ดิบ 0.260/0.132 · prob 0.56 · ถ่วงน้ำหนัก 0.221/0.113
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 62%  (score -0.292)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=62
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.203321/0.214914 (สุทธิ -0.03) · engine เอน 0B/16S 24ชม. (-1.00) · ดูดวง bullish 0.35 (+0.35) · rolling20 $+1.13 · net72h $+0.239/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 21:13 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.86 · คะแนนหนุน 4 / กด 53) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **พลังงาน** — 7 ข่าว · คะแนนรวม 44 (หนุน 1 / กด 6) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 41 (หนุน 0 / กด 6) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **ดอกเบี้ย/Fed** — 6 ข่าว · คะแนนรวม 39 (หนุน 0 / กด 6) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 14 (หนุน 0 / กด 3) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets bui
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↓ ลง (bearish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 1, 3, 4, 1] (รวม 32) → ฐาน 9 = 5 · เลข 5 — เปลี่ยนแปลง ผันผวนลงได้ · เลขคู่เสียง 4
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 5 — เปลี่ยนแปลง ผันผวนลงได้ — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### P/L Attribution
+## 2026-09-28 14:13 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=1 | errors=0
+- **✅ กำไร** 2026-09-28T14:13:32 | trend sell | net=$0.67 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=1 loss=0 net_total=$0.6700 | net เฉลี่ย $0.6700/trade ★ | winrate=100.0% (รายงานเท่านั้น)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=16 ออเดอร์ (~5.3/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.239/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 319 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.042/trade (n=2)
+
+## 2026-09-28 14:24 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 101399929 → 101399929)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (33615 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 21:24", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0465, "n": 51}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 317}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 315 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   trend            n= 70 wr=0.59 win=0.54R loss=0.92R | SL=1.2 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=111 wr=0.70 win=0.60R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 21:24", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 111, "wr": 0.703, "avg_win_R": 0.598, "avg_loss_R": 0.9
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 319 ไม้ (2026-08-26T06:09 → 2026-09-28T14:13) | net -0.67 | เฉลี่ย -0.002 | ชนะ 62.7% | PF 0.99 ✗
+   · trend            ไม้   8 | net  +1.91 | PF  1.95 ✓ | 8 ล่าสุด: +0.239/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +1.91 (8 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (6 รอบ · 21:19→21:23 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 0 รอบ · ไม่ผ่าน = 6 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 6 · คะแนนถ่วงน้ำหนักต่ำ 6
+      trend_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 6 · คะแนนถ่วงน้ำหนักสูงเกินบน 6
+      range_sell               คะแนนดิบต่ำ 6 · คะแนนถ่วงน้ำหนักต่ำ 6
+      mean_reversion_buy       คะแนนดิบสูงเกินบน(อิ่มตัว) 6 · คะแนนถ่วงน้ำหนักสูงเกินบน 6
+      mean_reversion_sell      คะแนนดิบต่ำ 6 · คะแนนถ่วงน้ำหนักต่ำ 6
+      counter_trend_buy        คะแนนดิบต่ำ 6 · คะแนนถ่วงน้ำหนักต่ำ 6
+    ไม่มีตัวผ่านด่าน 2 ในช่วงนี้
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 62%  (score -0.299)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=62
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.224763/0.245123 (สุทธิ -0.04) · engine เอน 0B/16S 24ชม. (-1.00) · ดูดวง bullish 0.35 (+0.35) · rolling20 $+1.13 · net72h $+0.239/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 2 รายการ
+
+## 2026-09-28 21:24 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.85 · คะแนนหนุน 4 / กด 50) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **พลังงาน** — 8 ข่าว · คะแนนรวม 50 (หนุน 1 / กด 6) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ค่าเงินดอลลาร์** — 7 ข่าว · คะแนนรวม 47 (หนุน 0 / กด 6) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **ดอกเบี้ย/Fed** — 6 ข่าว · คะแนนรวม 42 (หนุน 0 / กด 5) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 14 (หนุน 0 / กด 3) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets bui
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 1, 4, 8, 1] (รวม 37) → ฐาน 9 = 1 · เลข 1 — จุดเริ่มเดินหน้า แนวโน้มขึ้น · เลขคู่เสียง 9
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 1 — จุดเริ่มเดินหน้า แนวโน้มขึ้น — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=16 ออเดอร์ (~5.3/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.239/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 319 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.042/trade (n=2)
+
+## 2026-09-28 14:36 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 101538162 → 101653244)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (33661 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 21:35", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0465, "n": 51}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 317}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 315 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   trend            n= 70 wr=0.59 win=0.54R loss=0.92R | SL=1.2 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=111 wr=0.70 win=0.60R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 21:35", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 111, "wr": 0.703, "avg_win_R": 0.598, "avg_loss_R": 0.9
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 319 ไม้ (2026-08-26T06:09 → 2026-09-28T14:13) | net -0.67 | เฉลี่ย -0.002 | ชนะ 62.7% | PF 0.99 ✗
+   · trend            ไม้   8 | net  +1.91 | PF  1.95 ✓ | 8 ล่าสุด: +0.239/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +1.91 (8 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (10 รอบ · 21:25→21:34 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 0 รอบ · ไม่ผ่าน = 10 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 10 · คะแนนถ่วงน้ำหนักต่ำ 10
+      trend_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 10 · คะแนนถ่วงน้ำหนักสูงเกินบน 10
+      range_sell               คะแนนดิบต่ำ 10 · คะแนนถ่วงน้ำหนักต่ำ 10
+      mean_reversion_sell      คะแนนดิบต่ำ 10 · คะแนนถ่วงน้ำหนักต่ำ 10
+      counter_trend_buy        คะแนนดิบต่ำ 10 · คะแนนถ่วงน้ำหนักต่ำ 10
+    ไม่มีตัวผ่านด่าน 2 ในช่วงนี้
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 66%  (score -0.408)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=66
+ASTRO=sideways:0.605
+NOTE=ภายใน: แรงซื้อ/ขาย 0.197236/0.255182 (สุทธิ -0.13) · engine เอน 0B/16S 24ชม. (-1.00) · ดูดวง sideways 0.605 (+0.00) · rolling20 $+1.13 · net72h $+0.239/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 21:35 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.85 · คะแนนหนุน 4 / กด 50) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **พลังงาน** — 8 ข่าว · คะแนนรวม 50 (หนุน 1 / กด 6) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ค่าเงินดอลลาร์** — 7 ข่าว · คะแนนรวม 47 (หนุน 0 / กด 6) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **ดอกเบี้ย/Fed** — 6 ข่าว · คะแนนรวม 42 (หนุน 0 / กด 5) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 14 (หนุน 0 / กด 3) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets bui
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↓ ลง (bearish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 1, 5, 2, 1] (รวม 32) → ฐาน 9 = 5 · เลข 5 — เปลี่ยนแปลง ผันผวนลงได้ · เลขคู่เสียง 4
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 5 — เปลี่ยนแปลง ผันผวนลงได้ — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=16 ออเดอร์ (~5.3/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.239/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 319 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.042/trade (n=2)
+
+## 2026-09-28 14:46 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 101751066 → 101782019)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (33686 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 21:46", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0465, "n": 51}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 317}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 6 รายการที่ควรปรับ (จาก R-multiple จริง 315 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   trend            n= 70 wr=0.59 win=0.54R loss=0.92R | SL=1.2 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=111 wr=0.70 win=0.60R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 21:46", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.50R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.4, "reward_risk_from": 1.5}, {"action": "set_tpsl", "strategy": "counter_trend", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.44R < 55% ของเป้า 1.30R)", "evidence": "n=27 wr=0.52 avg_win=0.44R avg_loss=0.90R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 319 ไม้ (2026-08-26T06:09 → 2026-09-28T14:13) | net -0.67 | เฉลี่ย -0.002 | ชนะ 62.7% | PF 0.99 ✗
+   · trend            ไม้   8 | net  +1.91 | PF  1.95 ✓ | 8 ล่าสุด: +0.239/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +1.91 (8 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (5 รอบ · 21:36→21:45 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 4 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 5 · คะแนนถ่วงน้ำหนักต่ำ 5
+      range_sell               คะแนนดิบต่ำ 5 · คะแนนถ่วงน้ำหนักต่ำ 5
+      mean_reversion_sell      คะแนนดิบต่ำ 5 · คะแนนถ่วงน้ำหนักต่ำ 5
+      counter_trend_buy        คะแนนดิบต่ำ 4 · คะแนนถ่วงน้ำหนักต่ำ 4 · คะแนนดิบสูงเกินบน(อิ่มตัว) 1
+      trend_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 4 · คะแนนถ่วงน้ำหนักสูงเกินบน 4
+      mean_reversion_buy       คะแนนดิบสูงเกินบน(อิ่มตัว) 4 · คะแนนถ่วงน้ำหนักสูงเกินบน 4
+      range_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      breakout_sell            คะแนนดิบสูงเกินบน(อิ่มตัว) 1 · คะแนนถ่วงน้ำหนักสูงเกินบน 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.883/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.751/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 65%  (score -0.371)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=65
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.129755/0.195981 (สุทธิ -0.20) · engine เอน 0B/17S 24ชม. (-1.00) · ดูดวง bullish 0.35 (+0.35) · rolling20 $+1.13 · net72h $+0.239/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 2 รายการ
+
+## 2026-09-28 21:46 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.85 · คะแนนหนุน 4 / กด 50) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **พลังงาน** — 8 ข่าว · คะแนนรวม 50 (หนุน 1 / กด 6) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ค่าเงินดอลลาร์** — 7 ข่าว · คะแนนรวม 47 (หนุน 0 / กด 6) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **ดอกเบี้ย/Fed** — 6 ข่าว · คะแนนรวม 42 (หนุน 0 / กด 5) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 14 (หนุน 0 / กด 3) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets bui
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↓ ลง (bearish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 1, 6, 10, 1] (รวม 41) → ฐาน 9 = 5 · เลข 5 — เปลี่ยนแปลง ผันผวนลงได้ · เลขคู่เสียง 4
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 5 — เปลี่ยนแปลง ผันผวนลงได้ — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=17 ออเดอร์ (~5.7/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.239/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 319 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.042/trade (n=2)
+
+## 2026-09-28 14:57 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 101967098 → 102033592)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (33744 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 21:57", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0465, "n": 51}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 317}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 315 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   trend            n= 70 wr=0.59 win=0.54R loss=0.92R | SL=1.2 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=111 wr=0.70 win=0.60R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 21:57", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 111, "wr": 0.703, "avg_win_R": 0.598, "avg_loss_R": 0.9
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 319 ไม้ (2026-08-26T06:09 → 2026-09-28T14:13) | net -0.67 | เฉลี่ย -0.002 | ชนะ 62.7% | PF 0.99 ✗
+   · trend            ไม้   8 | net  +1.91 | PF  1.95 ✓ | 8 ล่าสุด: +0.239/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +1.91 (8 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (5 รอบ · 21:36→21:45 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 4 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 5 · คะแนนถ่วงน้ำหนักต่ำ 5
+      range_sell               คะแนนดิบต่ำ 5 · คะแนนถ่วงน้ำหนักต่ำ 5
+      mean_reversion_sell      คะแนนดิบต่ำ 5 · คะแนนถ่วงน้ำหนักต่ำ 5
+      counter_trend_buy        คะแนนดิบต่ำ 4 · คะแนนถ่วงน้ำหนักต่ำ 4 · คะแนนดิบสูงเกินบน(อิ่มตัว) 1
+      trend_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 4 · คะแนนถ่วงน้ำหนักสูงเกินบน 4
+      mean_reversion_buy       คะแนนดิบสูงเกินบน(อิ่มตัว) 4 · คะแนนถ่วงน้ำหนักสูงเกินบน 4
+      range_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      breakout_sell            คะแนนดิบสูงเกินบน(อิ่มตัว) 1 · คะแนนถ่วงน้ำหนักสูงเกินบน 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.883/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.751/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 68%  (score -0.440)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=68
+ASTRO=sideways:0.605
+NOTE=ภายใน: แรงซื้อ/ขาย 0.135702/0.203717 (สุทธิ -0.20) · engine เอน 0B/17S 24ชม. (-1.00) · ดูดวง sideways 0.605 (+0.00) · rolling20 $+1.13 · net72h $+0.239/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 21:57 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.85 · คะแนนหนุน 4 / กด 50) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **พลังงาน** — 8 ข่าว · คะแนนรวม 50 (หนุน 1 / กด 6) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ค่าเงินดอลลาร์** — 7 ข่าว · คะแนนรวม 47 (หนุน 0 / กด 6) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **ดอกเบี้ย/Fed** — 6 ข่าว · คะแนนรวม 42 (หนุน 0 / กด 5) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 14 (หนุน 0 / กด 3) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets bui
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↓ ลง (bearish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 1, 7, 9, 1] (รวม 41) → ฐาน 9 = 5 · เลข 5 — เปลี่ยนแปลง ผันผวนลงได้ · เลขคู่เสียง 4
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 5 — เปลี่ยนแปลง ผันผวนลงได้ — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=17 ออเดอร์ (~5.7/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.239/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 319 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.042/trade (n=2)
+
+## 2026-09-28 15:08 UTC — งานวิจัยรวม (14 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 102233655 → 102276542)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (33801 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 22:08", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0581, "n": 52}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 318}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 316 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   trend            n= 71 wr=0.59 win=0.57R loss=0.92R | SL=1.2 TP=1.3R
+   mean_reversion   n=111 wr=0.70 win=0.60R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 22:08", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 111, "wr": 0.703, "avg_win_R": 0.598, "avg_loss_R": 0.9
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 320 ไม้ (2026-08-26T06:09 → 2026-09-28T15:02) | net -0.02 | เฉลี่ย -0.000 | ชนะ 62.8% | PF 1.00 ✗
+   · trend            ไม้   9 | net  +2.56 | PF  2.27 ✓ | 9 ล่าสุด: +0.284/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +2.56 (9 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (5 รอบ · 21:36→21:45 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 4 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 5 · คะแนนถ่วงน้ำหนักต่ำ 5
+      range_sell               คะแนนดิบต่ำ 5 · คะแนนถ่วงน้ำหนักต่ำ 5
+      mean_reversion_sell      คะแนนดิบต่ำ 5 · คะแนนถ่วงน้ำหนักต่ำ 5
+      counter_trend_buy        คะแนนดิบต่ำ 4 · คะแนนถ่วงน้ำหนักต่ำ 4 · คะแนนดิบสูงเกินบน(อิ่มตัว) 1
+      trend_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 4 · คะแนนถ่วงน้ำหนักสูงเกินบน 4
+      mean_reversion_buy       คะแนนดิบสูงเกินบน(อิ่มตัว) 4 · คะแนนถ่วงน้ำหนักสูงเกินบน 4
+      range_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      breakout_sell            คะแนนดิบสูงเกินบน(อิ่มตัว) 1 · คะแนนถ่วงน้ำหนักสูงเกินบน 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.883/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.751/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 62%  (score -0.303)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=62
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.200816/0.222518 (สุทธิ -0.05) · engine เอน 0B/17S 24ชม. (-1.00) · ดูดวง bullish 0.35 (+0.35) · rolling20 $+1.51 · net72h $+0.284/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 22:08 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.85 · คะแนนหนุน 4 / กด 50) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **พลังงาน** — 8 ข่าว · คะแนนรวม 50 (หนุน 1 / กด 6) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ค่าเงินดอลลาร์** — 7 ข่าว · คะแนนรวม 47 (หนุน 0 / กด 6) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **ดอกเบี้ย/Fed** — 6 ข่าว · คะแนนรวม 42 (หนุน 0 / กด 5) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 14 (หนุน 0 / กด 3) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets bui
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↓ ลง (bearish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 2, 8, 7, 1] (รวม 41) → ฐาน 9 = 5 · เลข 5 — เปลี่ยนแปลง ผันผวนลงได้ · เลขคู่เสียง 4
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 5 — เปลี่ยนแปลง ผันผวนลงได้ — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### P/L Attribution
+## 2026-09-28 15:08 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=0 | errors=0
+- **✅ กำไร** 2026-09-28T15:02:43 | trend sell | net=$0.65 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=1 loss=0 net_total=$0.6500 | net เฉลี่ย $0.6500/trade ★ | winrate=100.0% (รายงานเท่านั้น)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=17 ออเดอร์ (~5.7/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.284/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 320 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.037/trade (n=2)
+
+## 2026-09-28 15:19 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 102491100 → 102512479)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (33853 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 22:19", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0581, "n": 52}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 318}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 6 รายการที่ควรปรับ (จาก R-multiple จริง 316 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   trend            n= 71 wr=0.59 win=0.57R loss=0.92R | SL=1.2 TP=1.3R
+   mean_reversion   n=111 wr=0.70 win=0.60R loss=0.99R | SL=1.1 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 22:19", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.50R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.4, "reward_risk_from": 1.5}, {"action": "set_tpsl", "strategy": "counter_trend", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.44R < 55% ของเป้า 1.30R)", "evidence": "n=27 wr=0.52 avg_win=0.44R avg_loss=0.90R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 320 ไม้ (2026-08-26T06:09 → 2026-09-28T15:02) | net -0.02 | เฉลี่ย -0.000 | ชนะ 62.8% | PF 1.00 ✗
+   · trend            ไม้   9 | net  +2.56 | PF  2.27 ✓ | 9 ล่าสุด: +0.284/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +2.56 (9 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (5 รอบ · 21:36→21:45 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 4 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 5 · คะแนนถ่วงน้ำหนักต่ำ 5
+      range_sell               คะแนนดิบต่ำ 5 · คะแนนถ่วงน้ำหนักต่ำ 5
+      mean_reversion_sell      คะแนนดิบต่ำ 5 · คะแนนถ่วงน้ำหนักต่ำ 5
+      counter_trend_buy        คะแนนดิบต่ำ 4 · คะแนนถ่วงน้ำหนักต่ำ 4 · คะแนนดิบสูงเกินบน(อิ่มตัว) 1
+      trend_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 4 · คะแนนถ่วงน้ำหนักสูงเกินบน 4
+      mean_reversion_buy       คะแนนดิบสูงเกินบน(อิ่มตัว) 4 · คะแนนถ่วงน้ำหนักสูงเกินบน 4
+      range_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      breakout_sell            คะแนนดิบสูงเกินบน(อิ่มตัว) 1 · คะแนนถ่วงน้ำหนักสูงเกินบน 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.883/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.751/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 65%  (score -0.363)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=65
+ASTRO=sideways:0.605
+NOTE=ภายใน: แรงซื้อ/ขาย 0.207255/0.219301 (สุทธิ -0.03) · engine เอน 0B/17S 24ชม. (-1.00) · ดูดวง sideways 0.605 (+0.00) · rolling20 $+1.51 · net72h $+0.284/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 22:19 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.85 · คะแนนหนุน 4 / กด 50) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **พลังงาน** — 8 ข่าว · คะแนนรวม 50 (หนุน 1 / กด 6) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ค่าเงินดอลลาร์** — 7 ข่าว · คะแนนรวม 47 (หนุน 0 / กด 6) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **ดอกเบี้ย/Fed** — 6 ข่าว · คะแนนรวม 42 (หนุน 0 / กด 5) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 14 (หนุน 0 / กด 3) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets bui
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 2, 9, 7, 1] (รวม 42) → ฐาน 9 = 6 · เลข 6 — เดินขึ้น เกื้อหนุน · เลขคู่เสียง 5
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 6 — เดินขึ้น เกื้อหนุน — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=17 ออเดอร์ (~5.7/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.284/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 320 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.037/trade (n=2)
+
+## 2026-09-28 15:30 UTC — งานวิจัยรวม (14 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 102753899 → 102753899)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (33908 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 22:30", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0598, "n": 54}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 320}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 318 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=111 wr=0.70 win=0.60R loss=0.99R | SL=1.1 TP=1.3R
+   trend            n= 73 wr=0.59 win=0.61R loss=0.94R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 22:30", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 111, "wr": 0.703, "avg_win_R": 0.598, "avg_loss_R": 0.9
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 322 ไม้ (2026-08-26T06:09 → 2026-09-28T15:24) | net +0.19 | เฉลี่ย +0.001 | ชนะ 62.7% | PF 1.00 ✓
+   · trend            ไม้  11 | net  +2.77 | PF  2.05 ✓ | 11 ล่าสุด: +0.252/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +2.77 (11 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (5 รอบ · 21:36→21:45 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 4 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 5 · คะแนนถ่วงน้ำหนักต่ำ 5
+      range_sell               คะแนนดิบต่ำ 5 · คะแนนถ่วงน้ำหนักต่ำ 5
+      mean_reversion_sell      คะแนนดิบต่ำ 5 · คะแนนถ่วงน้ำหนักต่ำ 5
+      counter_trend_buy        คะแนนดิบต่ำ 4 · คะแนนถ่วงน้ำหนักต่ำ 4 · คะแนนดิบสูงเกินบน(อิ่มตัว) 1
+      trend_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 4 · คะแนนถ่วงน้ำหนักสูงเกินบน 4
+      mean_reversion_buy       คะแนนดิบสูงเกินบน(อิ่มตัว) 4 · คะแนนถ่วงน้ำหนักสูงเกินบน 4
+      range_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      breakout_sell            คะแนนดิบสูงเกินบน(อิ่มตัว) 1 · คะแนนถ่วงน้ำหนักสูงเกินบน 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.883/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.751/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 64%  (score -0.342)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=64
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.144161/0.190032 (สุทธิ -0.14) · engine เอน 0B/17S 24ชม. (-1.00) · ดูดวง bullish 0.35 (+0.35) · rolling20 $+1.44 · net72h $+0.252/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 22:30 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.85 · คะแนนหนุน 4 / กด 50) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **พลังงาน** — 8 ข่าว · คะแนนรวม 50 (หนุน 1 / กด 6) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ค่าเงินดอลลาร์** — 7 ข่าว · คะแนนรวม 47 (หนุน 0 / กด 6) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **ดอกเบี้ย/Fed** — 6 ข่าว · คะแนนรวม 42 (หนุน 0 / กด 5) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 14 (หนุน 0 / กด 3) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets bui
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↓ ลง (bearish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 2, 10, 7, 1] (รวม 43) → ฐาน 9 = 7 · เลข 7 — เสี่ยง ดาวเสาร์กด · เลขคู่เสียง 6
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 7 — เสี่ยง ดาวเสาร์กด — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### P/L Attribution
+## 2026-09-28 15:30 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=2 | opened(10m)=0 | errors=0
+- **❌ ขาดทุน** 2026-09-28T15:20:54 | trend sell | net=$-0.62 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+- **✅ กำไร** 2026-09-28T15:24:57 | trend sell | net=$0.83 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=1 loss=1 net_total=$0.2100 | net เฉลี่ย $0.1050/trade ★ | winrate=50.0% (รายงานเท่านั้น)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=17 ออเดอร์ (~5.7/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.252/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 322 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.028/trade (n=2)
+
+## 2026-09-28 15:41 UTC — งานวิจัยรวม (14 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 102883594 → 102990285)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (33960 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 22:41", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0756, "n": 55}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 321}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 319 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=111 wr=0.70 win=0.60R loss=0.99R | SL=1.1 TP=1.3R
+   trend            n= 74 wr=0.59 win=0.66R loss=0.94R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 22:41", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 111, "wr": 0.703, "avg_win_R": 0.598, "avg_loss_R": 0.9
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 323 ไม้ (2026-08-26T06:09 → 2026-09-28T15:31) | net +1.12 | เฉลี่ย +0.003 | ชนะ 62.8% | PF 1.02 ✓
+   · trend            ไม้  12 | net  +3.70 | PF  2.41 ✓ | 12 ล่าสุด: +0.308/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +3.70 (12 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (5 รอบ · 21:36→21:45 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 4 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 5 · คะแนนถ่วงน้ำหนักต่ำ 5
+      range_sell               คะแนนดิบต่ำ 5 · คะแนนถ่วงน้ำหนักต่ำ 5
+      mean_reversion_sell      คะแนนดิบต่ำ 5 · คะแนนถ่วงน้ำหนักต่ำ 5
+      counter_trend_buy        คะแนนดิบต่ำ 4 · คะแนนถ่วงน้ำหนักต่ำ 4 · คะแนนดิบสูงเกินบน(อิ่มตัว) 1
+      trend_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 4 · คะแนนถ่วงน้ำหนักสูงเกินบน 4
+      mean_reversion_buy       คะแนนดิบสูงเกินบน(อิ่มตัว) 4 · คะแนนถ่วงน้ำหนักสูงเกินบน 4
+      range_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      breakout_sell            คะแนนดิบสูงเกินบน(อิ่มตัว) 1 · คะแนนถ่วงน้ำหนักสูงเกินบน 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.883/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.751/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 69%  (score -0.481)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=69
+ASTRO=bearish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.16664/0.219131 (สุทธิ -0.14) · engine เอน 0B/17S 24ชม. (-1.00) · ดูดวง bearish 0.35 (-0.35) · rolling20 $+2.38 · net72h $+0.308/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 1 รายการ
+
+## 2026-09-28 22:41 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.85 · คะแนนหนุน 4 / กด 50) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **พลังงาน** — 8 ข่าว · คะแนนรวม 50 (หนุน 1 / กด 6) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ค่าเงินดอลลาร์** — 7 ข่าว · คะแนนรวม 47 (หนุน 0 / กด 6) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **ดอกเบี้ย/Fed** — 6 ข่าว · คะแนนรวม 42 (หนุน 0 / กด 5) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 14 (หนุน 0 / กด 3) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets bui
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↓ ลง (bearish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 2, 1, 7, 1] (รวม 34) → ฐาน 9 = 7 · เลข 7 — เสี่ยง ดาวเสาร์กด · เลขคู่เสียง 6
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 7 — เสี่ยง ดาวเสาร์กด — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=17 ออเดอร์ (~5.7/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.308/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 323 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.021/trade (n=2)
+
+### 🛡️ Profit-Anchor Guard (เฝ้าโซนกำไร)
+📈 [Profit-Anchor] ทำ HWM ใหม่: rolling net $2.38 — snapshot ชุดค่า 36 ค่าเก็บแล้ว
+
+## 2026-09-28 15:52 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 103120596 → 103206447)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (34011 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 22:52", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0756, "n": 55}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 321}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 6 รายการที่ควรปรับ (จาก R-multiple จริง 319 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=111 wr=0.70 win=0.60R loss=0.99R | SL=1.1 TP=1.3R
+   trend            n= 74 wr=0.59 win=0.66R loss=0.94R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 22:52", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.50R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.4, "reward_risk_from": 1.5}, {"action": "set_tpsl", "strategy": "counter_trend", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.44R < 55% ของเป้า 1.30R)", "evidence": "n=27 wr=0.52 avg_win=0.44R avg_loss=0.90R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 323 ไม้ (2026-08-26T06:09 → 2026-09-28T15:31) | net +1.12 | เฉลี่ย +0.003 | ชนะ 62.8% | PF 1.02 ✓
+   · trend            ไม้  12 | net  +3.70 | PF  2.41 ✓ | 12 ล่าสุด: +0.308/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +3.70 (12 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (5 รอบ · 21:36→21:45 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 4 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 5 · คะแนนถ่วงน้ำหนักต่ำ 5
+      range_sell               คะแนนดิบต่ำ 5 · คะแนนถ่วงน้ำหนักต่ำ 5
+      mean_reversion_sell      คะแนนดิบต่ำ 5 · คะแนนถ่วงน้ำหนักต่ำ 5
+      counter_trend_buy        คะแนนดิบต่ำ 4 · คะแนนถ่วงน้ำหนักต่ำ 4 · คะแนนดิบสูงเกินบน(อิ่มตัว) 1
+      trend_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 4 · คะแนนถ่วงน้ำหนักสูงเกินบน 4
+      mean_reversion_buy       คะแนนดิบสูงเกินบน(อิ่มตัว) 4 · คะแนนถ่วงน้ำหนักสูงเกินบน 4
+      range_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      breakout_sell            คะแนนดิบสูงเกินบน(อิ่มตัว) 1 · คะแนนถ่วงน้ำหนักสูงเกินบน 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.883/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.751/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 63%  (score -0.321)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=63
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.184042/0.220449 (สุทธิ -0.09) · engine เอน 0B/17S 24ชม. (-1.00) · ดูดวง bullish 0.35 (+0.35) · rolling20 $+2.38 · net72h $+0.308/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 22:52 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.85 · คะแนนหนุน 4 / กด 50) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **พลังงาน** — 8 ข่าว · คะแนนรวม 50 (หนุน 1 / กด 6) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ค่าเงินดอลลาร์** — 7 ข่าว · คะแนนรวม 47 (หนุน 0 / กด 6) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **ดอกเบี้ย/Fed** — 6 ข่าว · คะแนนรวม 42 (หนุน 0 / กด 5) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 14 (หนุน 0 / กด 3) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets bui
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 2, 2, 7, 1] (รวม 35) → ฐาน 9 = 8 · เลข 8 — มั่งคั่ง เฟื่องฟู · เลขคู่เสียง 7
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 8 — มั่งคั่ง เฟื่องฟู — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=17 ออเดอร์ (~5.7/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.308/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 323 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.021/trade (n=2)
+
+## 2026-09-28 16:05 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 103380214 → 103446889)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (34066 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 23:03", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0756, "n": 55}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 321}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 319 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=111 wr=0.70 win=0.60R loss=0.99R | SL=1.1 TP=1.3R
+   trend            n= 74 wr=0.59 win=0.66R loss=0.94R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 23:03", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 111, "wr": 0.703, "avg_win_R": 0.598, "avg_loss_R": 0.9
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 323 ไม้ (2026-08-26T06:09 → 2026-09-28T15:31) | net +1.12 | เฉลี่ย +0.003 | ชนะ 62.8% | PF 1.02 ✓
+   · trend            ไม้  12 | net  +3.70 | PF  2.41 ✓ | 12 ล่าสุด: +0.308/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +3.70 (12 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (5 รอบ · 21:36→21:45 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 4 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 5 · คะแนนถ่วงน้ำหนักต่ำ 5
+      range_sell               คะแนนดิบต่ำ 5 · คะแนนถ่วงน้ำหนักต่ำ 5
+      mean_reversion_sell      คะแนนดิบต่ำ 5 · คะแนนถ่วงน้ำหนักต่ำ 5
+      counter_trend_buy        คะแนนดิบต่ำ 4 · คะแนนถ่วงน้ำหนักต่ำ 4 · คะแนนดิบสูงเกินบน(อิ่มตัว) 1
+      trend_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 4 · คะแนนถ่วงน้ำหนักสูงเกินบน 4
+      mean_reversion_buy       คะแนนดิบสูงเกินบน(อิ่มตัว) 4 · คะแนนถ่วงน้ำหนักสูงเกินบน 4
+      range_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      breakout_sell            คะแนนดิบสูงเกินบน(อิ่มตัว) 1 · คะแนนถ่วงน้ำหนักสูงเกินบน 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.883/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.751/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 65%  (score -0.368)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=65
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.136915/0.203447 (สุทธิ -0.20) · engine เอน 0B/17S 24ชม. (-1.00) · ดูดวง bullish 0.35 (+0.35) · rolling20 $+2.38 · net72h $+0.308/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 23:05 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.85 · คะแนนหนุน 4 / กด 50) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **พลังงาน** — 8 ข่าว · คะแนนรวม 50 (หนุน 1 / กด 6) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ค่าเงินดอลลาร์** — 7 ข่าว · คะแนนรวม 47 (หนุน 0 / กด 6) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **ดอกเบี้ย/Fed** — 6 ข่าว · คะแนนรวม 42 (หนุน 0 / กด 5) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 14 (หนุน 0 / กด 3) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets bui
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 3, 5, 7, 1] (รวม 39) → ฐาน 9 = 3 · เลข 3 — กำไรเสริม เลื่อนขึ้น · เลขคู่เสียง 2
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 3 — กำไรเสริม เลื่อนขึ้น — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=17 ออเดอร์ (~5.7/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.308/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 323 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.021/trade (n=2)
+
+## 2026-09-28 16:18 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 103620081 → 103707539)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (34128 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 23:16", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0756, "n": 55}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 321}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 319 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=111 wr=0.70 win=0.60R loss=0.99R | SL=1.1 TP=1.3R
+   trend            n= 74 wr=0.59 win=0.66R loss=0.94R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 23:16", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 111, "wr": 0.703, "avg_win_R": 0.598, "avg_loss_R": 0.9
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 323 ไม้ (2026-08-26T06:09 → 2026-09-28T15:31) | net +1.12 | เฉลี่ย +0.003 | ชนะ 62.8% | PF 1.02 ✓
+   · trend            ไม้  12 | net  +3.70 | PF  2.41 ✓ | 12 ล่าสุด: +0.308/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +3.70 (12 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (5 รอบ · 21:36→21:45 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 4 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 5 · คะแนนถ่วงน้ำหนักต่ำ 5
+      range_sell               คะแนนดิบต่ำ 5 · คะแนนถ่วงน้ำหนักต่ำ 5
+      mean_reversion_sell      คะแนนดิบต่ำ 5 · คะแนนถ่วงน้ำหนักต่ำ 5
+      counter_trend_buy        คะแนนดิบต่ำ 4 · คะแนนถ่วงน้ำหนักต่ำ 4 · คะแนนดิบสูงเกินบน(อิ่มตัว) 1
+      trend_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 4 · คะแนนถ่วงน้ำหนักสูงเกินบน 4
+      mean_reversion_buy       คะแนนดิบสูงเกินบน(อิ่มตัว) 4 · คะแนนถ่วงน้ำหนักสูงเกินบน 4
+      range_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      breakout_sell            คะแนนดิบสูงเกินบน(อิ่มตัว) 1 · คะแนนถ่วงน้ำหนักสูงเกินบน 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.883/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.751/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 61%  (score -0.280)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=61
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.220005/0.220101 (สุทธิ -0.00) · engine เอน 0B/17S 24ชม. (-1.00) · ดูดวง bullish 0.35 (+0.35) · rolling20 $+2.38 · net72h $+0.308/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 1 รายการ
+
+## 2026-09-28 23:18 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.85 · คะแนนหนุน 4 / กด 50) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **พลังงาน** — 8 ข่าว · คะแนนรวม 50 (หนุน 1 / กด 6) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ค่าเงินดอลลาร์** — 7 ข่าว · คะแนนรวม 47 (หนุน 0 / กด 6) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **ดอกเบี้ย/Fed** — 6 ข่าว · คะแนนรวม 42 (หนุน 0 / กด 5) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 14 (หนุน 0 / กด 3) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets bui
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↓ ลง (bearish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 3, 8, 8, 1] (รวม 43) → ฐาน 9 = 7 · เลข 7 — เสี่ยง ดาวเสาร์กด · เลขคู่เสียง 6
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 7 — เสี่ยง ดาวเสาร์กด — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=17 ออเดอร์ (~5.7/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.308/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 323 ออเดอร์
+🏆 breakout: n=14 net=$1.16 wr=50%, range: n=80 net=$1.03 wr=68%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.021/trade (n=2)
+
+## 2026-09-28 16:31 UTC — งานวิจัยรวม (15 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 103907237 → 104067825)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (34208 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 23:29", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0756, "n": 55}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 321}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 6 รายการที่ควรปรับ (จาก R-multiple จริง 319 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=111 wr=0.70 win=0.60R loss=0.99R | SL=1.1 TP=1.3R
+   trend            n= 74 wr=0.59 win=0.66R loss=0.94R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 23:29", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.50R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.4, "reward_risk_from": 1.5}, {"action": "set_tpsl", "strategy": "counter_trend", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.44R < 55% ของเป้า 1.30R)", "evidence": "n=27 wr=0.52 avg_win=0.44R avg_loss=0.90R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 323 ไม้ (2026-08-26T06:09 → 2026-09-28T15:31) | net +1.12 | เฉลี่ย +0.003 | ชนะ 62.8% | PF 1.02 ✓
+   · trend            ไม้  12 | net  +3.70 | PF  2.41 ✓ | 12 ล่าสุด: +0.308/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +3.70 (12 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (3 รอบ · 23:20→23:27 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 3 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+      range_buy                คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+      mean_reversion_buy       คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+      range_sell               คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.802/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.682/0.296
+      ✅ mean_reversion_sell      ดิบ 0.301/0.132 · prob 0.56 · ถ่วงน้ำหนัก 0.256/0.113
+      ✅ range_sell               ดิบ 0.235/0.231 · prob 0.53 · ถ่วงน้ำหนัก 0.271/0.266
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 64%  (score -0.358)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=64
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.13491/0.19176 (สุทธิ -0.17) · engine เอน 0B/20S 24ชม. (-1.00) · ดูดวง bullish 0.35 (+0.35) · rolling20 $+2.38 · net72h $+0.308/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 1 รายการ
+
+## 2026-09-28 23:31 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.85 · คะแนนหนุน 4 / กด 50) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **พลังงาน** — 8 ข่าว · คะแนนรวม 50 (หนุน 1 / กด 6) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ค่าเงินดอลลาร์** — 7 ข่าว · คะแนนรวม 47 (หนุน 0 / กด 6) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **ดอกเบี้ย/Fed** — 6 ข่าว · คะแนนรวม 42 (หนุน 0 / กด 5) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 14 (หนุน 0 / กด 3) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets bui
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: → ออกข้าง (sideways) · strength 0.605
+- เลข 7 ตัว: [8, 9, 6, 3, 1, 8, 1] (รวม 36) → ฐาน 9 = 9 · เลข 9 — ครบรอบ จบ-เริ่มใหม่ · เลขคู่เสียง 8
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 9 — ครบรอบ จบ-เริ่มใหม่ — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### P/L Attribution
+## 2026-09-28 16:31 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=2 | errors=0
+- **✅ กำไร** 2026-09-28T16:30:40 | trend sell | net=$0.95 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=1 loss=0 net_total=$0.9500 | net เฉลี่ย $0.9500/trade ★ | winrate=100.0% (รายงานเท่านั้น)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=20 ออเดอร์ (~6.7/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.358/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 324 ออเดอร์
+🏆 mean_reversion: n=115 net=$1.66 wr=63%, breakout: n=14 net=$1.16 wr=50%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.010/trade (n=2)
+
+### 🛡️ Profit-Anchor Guard (เฝ้าโซนกำไร)
+📈 [Profit-Anchor] ทำ HWM ใหม่: rolling net $3.27 — snapshot ชุดค่า 36 ค่าเก็บแล้ว
+
+## 2026-09-28 16:44 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 104374262 → 104374262)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (34283 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 23:42", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0912, "n": 56}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 322}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 320 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=111 wr=0.70 win=0.60R loss=0.99R | SL=1.1 TP=1.3R
+   trend            n= 75 wr=0.60 win=0.71R loss=0.94R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 23:42", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 111, "wr": 0.703, "avg_win_R": 0.598, "avg_loss_R": 0.9
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 324 ไม้ (2026-08-26T06:09 → 2026-09-28T16:30) | net +2.07 | เฉลี่ย +0.006 | ชนะ 63.0% | PF 1.04 ✓
+   · trend            ไม้  13 | net  +4.65 | PF  2.77 ✓ | 13 ล่าสุด: +0.358/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +4.65 (13 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (2 รอบ · 23:27→23:35 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 2 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      range_buy                คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      mean_reversion_buy       คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      range_sell               คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.761/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.647/0.296
+      ✅ range_sell               ดิบ 0.235/0.231 · prob 0.53 · ถ่วงน้ำหนัก 0.271/0.266
+      ✅ mean_reversion_sell      ดิบ 0.213/0.132 · prob 0.56 · ถ่วงน้ำหนัก 0.181/0.113
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 63%  (score -0.321)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=63
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.124864/0.149915 (สุทธิ -0.09) · engine เอน 0B/21S 24ชม. (-1.00) · ดูดวง bullish 0.35 (+0.35) · rolling20 $+3.27 · net72h $+0.358/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-28 23:44 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.85 · คะแนนหนุน 4 / กด 50) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **พลังงาน** — 8 ข่าว · คะแนนรวม 50 (หนุน 1 / กด 6) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ค่าเงินดอลลาร์** — 7 ข่าว · คะแนนรวม 47 (หนุน 0 / กด 6) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **ดอกเบี้ย/Fed** — 6 ข่าว · คะแนนรวม 42 (หนุน 0 / กด 5) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 14 (หนุน 0 / กด 3) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- 🔴 [6] (macro) Dollar firms as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets bui
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 3, 4, 8, 1] (รวม 39) → ฐาน 9 = 3 · เลข 3 — กำไรเสริม เลื่อนขึ้น · เลขคู่เสียง 2
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 3 — กำไรเสริม เลื่อนขึ้น — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=21 ออเดอร์ (~7.0/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.358/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 324 ออเดอร์
+🏆 mean_reversion: n=115 net=$1.66 wr=63%, breakout: n=14 net=$1.16 wr=50%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.010/trade (n=2)
+
+## 2026-09-28 16:57 UTC — งานวิจัยรวม (14 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 104629743 → 104650816)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (34352 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-28 23:55", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.076, "n": 57}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 323}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 321 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=111 wr=0.70 win=0.60R loss=0.99R | SL=1.1 TP=1.3R
+   trend            n= 76 wr=0.59 win=0.71R loss=0.99R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-28 23:55", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 111, "wr": 0.703, "avg_win_R": 0.598, "avg_loss_R": 0.9
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 325 ไม้ (2026-08-26T06:09 → 2026-09-28T16:49) | net +1.29 | เฉลี่ย +0.004 | ชนะ 62.8% | PF 1.02 ✓
+   · trend            ไม้  14 | net  +3.87 | PF  2.13 ✓ | 14 ล่าสุด: +0.276/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +3.87 (14 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (2 รอบ · 23:27→23:35 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 2 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      range_buy                คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      mean_reversion_buy       คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      range_sell               คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.761/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.647/0.296
+      ✅ range_sell               ดิบ 0.235/0.231 · prob 0.53 · ถ่วงน้ำหนัก 0.271/0.266
+      ✅ mean_reversion_sell      ดิบ 0.213/0.132 · prob 0.56 · ถ่วงน้ำหนัก 0.181/0.113
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 64%  (score -0.341)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=64
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.120009/0.15759 (สุทธิ -0.14) · engine เอน 0B/21S 24ชม. (-1.00) · ดูดวง bullish 0.35 (+0.35) · rolling20 $+2.23 · net72h $+0.276/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 1 รายการ
+
+## 2026-09-28 23:57 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.86 · คะแนนหนุน 3 / กด 40) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **พลังงาน** — 6 ข่าว · คะแนนรวม 40 (หนุน 0 / กด 5) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 6 ข่าว · คะแนนรวม 39 (หนุน 0 / กด 4) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 5 ข่าว · คะแนนรวม 36 (หนุน 0 / กด 4) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 3) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **เงินเฟ้อ** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **เศรษฐกิจมหภาค** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+-
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↓ ลง (bearish) · strength 0.35
+- เลข 7 ตัว: [8, 9, 6, 3, 7, 7, 1] (รวม 41) → ฐาน 9 = 5 · เลข 5 — เปลี่ยนแปลง ผันผวนลงได้ · เลขคู่เสียง 4
+- ดาวประจำวัน: จันทร์ · ไหลขึ้นลง (น้ำ)
+- คำทำนาย: เลข 5 — เปลี่ยนแปลง ผันผวนลงได้ — วันจันทร์ ลักษณะไหลขึ้นลง
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### P/L Attribution
+## 2026-09-28 16:57 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=0 | errors=0
+- **❌ ขาดทุน** 2026-09-28T16:49:53 | trend sell | net=$-0.78 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=0 loss=1 net_total=$-0.7800 | net เฉลี่ย $-0.7800/trade ★ | winrate=0.0% (รายงานเท่านั้น)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=21 ออเดอร์ (~7.0/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.276/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 325 ออเดอร์
+🏆 mean_reversion: n=115 net=$1.66 wr=63%, breakout: n=14 net=$1.16 wr=50%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.019/trade (n=2)
+
+## 2026-09-28 17:10 UTC — งานวิจัยรวม (15 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 104883486 → 104925519)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (34422 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 00:08", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0941, "n": 58}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 324}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 5 รายการที่ควรปรับ (จาก R-multiple จริง 322 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=111 wr=0.70 win=0.60R loss=0.99R | SL=1.1 TP=1.3R
+   trend            n= 77 wr=0.60 win=0.76R loss=0.99R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 00:08", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.50R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.4, "reward_risk_from": 1.5}, {"action": "set_tpsl", "strategy": "counter_trend", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.44R < 55% ของเป้า 1.30R)", "evidence": "n=27 wr=0.52 avg_win=0.44R avg_loss=0.90R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 326 ไม้ (2026-08-26T06:09 → 2026-09-28T17:04) | net +2.42 | เฉลี่ย +0.007 | ชนะ 62.9% | PF 1.04 ✓
+   · trend            ไม้  15 | net  +5.00 | PF  2.47 ✓ | 15 ล่าสุด: +0.333/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +5.00 (15 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (2 รอบ · 23:27→23:35 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 2 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      range_buy                คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      mean_reversion_buy       คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      range_sell               คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.761/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.647/0.296
+      ✅ range_sell               ดิบ 0.235/0.231 · prob 0.53 · ถ่วงน้ำหนัก 0.271/0.266
+      ✅ mean_reversion_sell      ดิบ 0.213/0.132 · prob 0.56 · ถ่วงน้ำหนัก 0.181/0.113
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 62%  (score -0.294)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=62
+ASTRO=bullish:0.68
+NOTE=ภายใน: แรงซื้อ/ขาย 0.13049/0.187052 (สุทธิ -0.18) · engine เอน 0B/21S 24ชม. (-1.00) · ดูดวง bullish 0.68 (+0.68) · rolling20 $+3.80 · net72h $+0.333/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-29 00:10 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.86 · คะแนนหนุน 3 / กด 40) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **พลังงาน** — 6 ข่าว · คะแนนรวม 40 (หนุน 0 / กด 5) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 6 ข่าว · คะแนนรวม 39 (หนุน 0 / กด 4) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 5 ข่าว · คะแนนรวม 36 (หนุน 0 / กด 4) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 3) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **เงินเฟ้อ** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **เศรษฐกิจมหภาค** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+-
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.68
+- เลข 7 ตัว: [9, 9, 6, 10, 10, 8, 1] (รวม 53) → ฐาน 9 = 8 · เลข 8 — มั่งคั่ง เฟื่องฟู · เลขคู่เสียง 7
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 8 — มั่งคั่ง เฟื่องฟู — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### P/L Attribution
+## 2026-09-28 17:10 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=0 | errors=0
+- **✅ กำไร** 2026-09-28T17:04:10 | trend sell | net=$1.13 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=1 loss=0 net_total=$1.1300 | net เฉลี่ย $1.1300/trade ★ | winrate=100.0% (รายงานเท่านั้น)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=21 ออเดอร์ (~7.0/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.333/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 326 ออเดอร์
+🏆 mean_reversion: n=115 net=$1.66 wr=63%, trend: n=78 net=$1.51 wr=64%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.056/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.007/trade (n=2)
+
+### 🛡️ Profit-Anchor Guard (เฝ้าโซนกำไร)
+📈 [Profit-Anchor] ทำ HWM ใหม่: rolling net $3.80 — snapshot ชุดค่า 36 ค่าเก็บแล้ว
+📊 [โซน Net Profit] รายงานรายวัน (เวลาไทย 2026-09-29)
+• % วันที่ปิดบวก: 7 วัน = 42.9% | 30 วัน = 54.5% (จาก 11 วันเทรด)
+• ความถี่เทรด: 7 วันล่าสุด = 15 trades (~2.1/วัน) — ⚠️ ความถี่ห้ามถูกปิดกั้น
+• rolling net (K=20): $3.80 | HWM: $3.80 (ห่าง $0.00)
+• กลไк 4 ชั้น: auto_threshold + adaptive_shadow + REC gate + profit-anchor guard
+
+## 2026-09-28 17:23 UTC — งานวิจัยรวม (15 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 105172577 → 105236508)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (34494 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 00:21", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.1073, "n": 59}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 325}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 323 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=112 wr=0.70 win=0.62R loss=0.99R | SL=1.1 TP=1.3R
+   trend            n= 77 wr=0.60 win=0.76R loss=0.99R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 00:21", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 112, "wr": 0.705, "avg_win_R": 0.624, "avg_loss_R": 0.9
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 327 ไม้ (2026-08-26T06:09 → 2026-09-28T17:20) | net +3.29 | เฉลี่ย +0.010 | ชนะ 63.0% | PF 1.06 ✓
+   · trend            ไม้  16 | net  +5.87 | PF  2.72 ✓ | 16 ล่าสุด: +0.367/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +5.87 (16 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (3 รอบ · 00:12→00:13 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 3 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+      range_buy                คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+      range_sell               คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+      mean_reversion_buy       คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+      mean_reversion_sell      คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.818/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.696/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 66%  (score -0.404)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=66
+ASTRO=sideways:0.25
+NOTE=ภายใน: แรงซื้อ/ขาย 0.126093/0.160775 (สุทธิ -0.12) · engine เอน 0B/24S 24ชม. (-1.00) · ดูดวง sideways 0.25 (+0.00) · rolling20 $+5.11 · net72h $+0.367/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 1 รายการ
+
+## 2026-09-29 00:23 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.86 · คะแนนหนุน 3 / กด 40) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **พลังงาน** — 6 ข่าว · คะแนนรวม 40 (หนุน 0 / กด 5) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 6 ข่าว · คะแนนรวม 39 (หนุน 0 / กด 4) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 5 ข่าว · คะแนนรวม 36 (หนุน 0 / กด 4) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 3) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **เงินเฟ้อ** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **เศรษฐกิจมหภาค** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+-
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.68
+- เลข 7 ตัว: [9, 9, 6, 10, 3, 10, 1] (รวม 48) → ฐาน 9 = 3 · เลข 3 — กำไรเสริม เลื่อนขึ้น · เลขคู่เสียง 2
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 3 — กำไรเสริม เลื่อนขึ้น — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### P/L Attribution
+## 2026-09-28 17:23 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=0 | errors=0
+- **✅ กำไร** 2026-09-28T17:20:21 | trend sell | net=$0.87 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=1 loss=0 net_total=$0.8700 | net เฉลี่ย $0.8700/trade ★ | winrate=100.0% (รายงานเท่านั้น)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=22 ออเดอร์ (~7.3/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.367/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 327 ออเดอร์
+🏆 trend: n=79 net=$2.38 wr=65%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.061/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.007/trade (n=2)
+
+### 🛡️ Profit-Anchor Guard (เฝ้าโซนกำไร)
+📈 [Profit-Anchor] ทำ HWM ใหม่: rolling net $5.11 — snapshot ชุดค่า 36 ค่าเก็บแล้ว
+
+## 2026-09-28 17:36 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 105404378 → 105488278)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (34557 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 00:34", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.1073, "n": 59}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 325}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 323 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=112 wr=0.70 win=0.62R loss=0.99R | SL=1.1 TP=1.3R
+   trend            n= 77 wr=0.60 win=0.76R loss=0.99R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 00:34", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 112, "wr": 0.705, "avg_win_R": 0.624, "avg_loss_R": 0.9
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 327 ไม้ (2026-08-26T06:09 → 2026-09-28T17:20) | net +3.29 | เฉลี่ย +0.010 | ชนะ 63.0% | PF 1.06 ✓
+   · trend            ไม้  16 | net  +5.87 | PF  2.72 ✓ | 16 ล่าสุด: +0.367/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +5.87 (16 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (3 รอบ · 00:12→00:13 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 3 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+      range_buy                คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+      range_sell               คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+      mean_reversion_buy       คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+      mean_reversion_sell      คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.818/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.696/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 61%  (score -0.267)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=61
+ASTRO=bullish:0.68
+NOTE=ภายใน: แรงซื้อ/ขาย 0.130504/0.165367 (สุทธิ -0.12) · engine เอน 0B/24S 24ชม. (-1.00) · ดูดวง bullish 0.68 (+0.68) · rolling20 $+5.11 · net72h $+0.367/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 2 รายการ
+
+## 2026-09-29 00:36 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.86 · คะแนนหนุน 3 / กด 40) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **พลังงาน** — 6 ข่าว · คะแนนรวม 40 (หนุน 0 / กด 5) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 6 ข่าว · คะแนนรวม 39 (หนุน 0 / กด 4) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 5 ข่าว · คะแนนรวม 36 (หนุน 0 / กด 4) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 3) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **เงินเฟ้อ** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **เศรษฐกิจมหภาค** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+-
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [9, 9, 6, 10, 6, 8, 1] (รวม 49) → ฐาน 9 = 4 · เลข 4 — เสถียร ทรงตัว · เลขคู่เสียง 3
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 4 — เสถียร ทรงตัว — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=22 ออเดอร์ (~7.3/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.367/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 327 ออเดอร์
+🏆 trend: n=79 net=$2.38 wr=65%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.061/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.007/trade (n=2)
+
+## 2026-09-28 17:49 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 105656792 → 105761670)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (34625 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 00:47", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.1073, "n": 59}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 325}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 5 รายการที่ควรปรับ (จาก R-multiple จริง 323 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=112 wr=0.70 win=0.62R loss=0.99R | SL=1.1 TP=1.3R
+   trend            n= 77 wr=0.60 win=0.76R loss=0.99R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 00:47", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.50R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.4, "reward_risk_from": 1.5}, {"action": "set_tpsl", "strategy": "counter_trend", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.44R < 55% ของเป้า 1.30R)", "evidence": "n=27 wr=0.52 avg_win=0.44R avg_loss=0.90R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 327 ไม้ (2026-08-26T06:09 → 2026-09-28T17:20) | net +3.29 | เฉลี่ย +0.010 | ชนะ 63.0% | PF 1.06 ✓
+   · trend            ไม้  16 | net  +5.87 | PF  2.72 ✓ | 16 ล่าสุด: +0.367/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +5.87 (16 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (3 รอบ · 00:12→00:13 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 3 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+      range_buy                คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+      range_sell               คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+      mean_reversion_buy       คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+      mean_reversion_sell      คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.818/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.696/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 63%  (score -0.330)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=63
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.130839/0.163198 (สุทธิ -0.11) · engine เอน 0B/24S 24ชม. (-1.00) · ดูดวง bullish 0.35 (+0.35) · rolling20 $+5.11 · net72h $+0.367/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-29 00:49 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.86 · คะแนนหนุน 3 / กด 40) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **พลังงาน** — 6 ข่าว · คะแนนรวม 40 (หนุน 0 / กด 5) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ดอกเบี้ย/Fed** — 6 ข่าว · คะแนนรวม 39 (หนุน 0 / กด 4) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 5 ข่าว · คะแนนรวม 36 (หนุน 0 / กด 4) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 3) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **เงินเฟ้อ** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **เศรษฐกิจมหภาค** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+-
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: → ออกข้าง (sideways) · strength 0.25
+- เลข 7 ตัว: [9, 9, 6, 10, 9, 8, 1] (รวม 52) → ฐาน 9 = 7 · เลข 7 — เสี่ยง ดาวเสาร์กด · เลขคู่เสียง 6
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 7 — เสี่ยง ดาวเสาร์กด — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=22 ออเดอร์ (~7.3/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.367/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 327 ออเดอร์
+🏆 trend: n=79 net=$2.38 wr=65%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.061/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.007/trade (n=2)
+
+## 2026-09-28 18:02 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 106034438 → 106034438)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (34694 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 01:00", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.1073, "n": 59}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 325}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 323 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=112 wr=0.70 win=0.62R loss=0.99R | SL=1.1 TP=1.3R
+   trend            n= 77 wr=0.60 win=0.76R loss=0.99R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 01:00", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 112, "wr": 0.705, "avg_win_R": 0.624, "avg_loss_R": 0.9
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 327 ไม้ (2026-08-26T06:09 → 2026-09-28T17:20) | net +3.29 | เฉลี่ย +0.010 | ชนะ 63.0% | PF 1.06 ✓
+   · trend            ไม้  16 | net  +5.87 | PF  2.72 ✓ | 16 ล่าสุด: +0.367/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +5.87 (16 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (3 รอบ · 00:12→00:13 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 3 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+      range_buy                คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+      range_sell               คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+      mean_reversion_buy       คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+      mean_reversion_sell      คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.818/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.696/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 66%  (score -0.399)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=66
+ASTRO=sideways:0.25
+NOTE=ภายใน: แรงซื้อ/ขาย 0.128234/0.159709 (สุทธิ -0.11) · engine เอน 0B/24S 24ชม. (-1.00) · ดูดวง sideways 0.25 (+0.00) · rolling20 $+5.11 · net72h $+0.367/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 1 รายการ
+
+## 2026-09-29 01:02 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -1.00 · คะแนนหนุน 0 / กด 40) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 7 ข่าว · คะแนนรวม 46 (หนุน 0 / กด 4) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พลังงาน** — 6 ข่าว · คะแนนรวม 40 (หนุน 0 / กด 5) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ค่าเงินดอลลาร์** — 5 ข่าว · คะแนนรวม 36 (หนุน 0 / กด 4) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 17 (หนุน 0 / กด 3) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed rates
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (markets) Dollar firm as rising oil prices and heavy dat
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [9, 9, 6, 1, 2, 8, 1] (รวม 36) → ฐาน 9 = 9 · เลข 9 — ครบรอบ จบ-เริ่มใหม่ · เลขคู่เสียง 8
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 9 — ครบรอบ จบ-เริ่มใหม่ — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=22 ออเดอร์ (~7.3/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.367/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 327 ออเดอร์
+🏆 trend: n=79 net=$2.38 wr=65%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.061/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.007/trade (n=2)
+
+## 2026-09-28 18:15 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 106286339 → 106307435)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (34762 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 01:13", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.1073, "n": 59}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 325}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 323 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=112 wr=0.70 win=0.62R loss=0.99R | SL=1.1 TP=1.3R
+   trend            n= 77 wr=0.60 win=0.76R loss=0.99R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 01:13", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 112, "wr": 0.705, "avg_win_R": 0.624, "avg_loss_R": 0.9
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 327 ไม้ (2026-08-26T06:09 → 2026-09-28T17:20) | net +3.29 | เฉลี่ย +0.010 | ชนะ 63.0% | PF 1.06 ✓
+   · trend            ไม้  16 | net  +5.87 | PF  2.72 ✓ | 16 ล่าสุด: +0.367/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +5.87 (16 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (3 รอบ · 00:12→00:13 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 3 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+      range_buy                คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+      range_sell               คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+      mean_reversion_buy       คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+      mean_reversion_sell      คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.818/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.696/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 66%  (score -0.393)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=66
+ASTRO=sideways:0.25
+NOTE=ภายใน: แรงซื้อ/ขาย 0.129293/0.156447 (สุทธิ -0.10) · engine เอน 0B/24S 24ชม. (-1.00) · ดูดวง sideways 0.25 (+0.00) · rolling20 $+5.11 · net72h $+0.367/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 1 รายการ
+
+## 2026-09-29 01:15 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -1.00 · คะแนนหนุน 0 / กด 40) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 7 ข่าว · คะแนนรวม 46 (หนุน 0 / กด 4) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พลังงาน** — 6 ข่าว · คะแนนรวม 40 (หนุน 0 / กด 5) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ค่าเงินดอลลาร์** — 5 ข่าว · คะแนนรวม 36 (หนุน 0 / กด 4) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 17 (หนุน 0 / กด 3) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed rates
+- 🔴 [6] (macro) Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build
+- 🔴 [6] (markets) Dollar firm as rising oil prices and heavy dat
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.68
+- เลข 7 ตัว: [9, 9, 6, 1, 5, 8, 1] (รวม 39) → ฐาน 9 = 3 · เลข 3 — กำไรเสริม เลื่อนขึ้น · เลขคู่เสียง 2
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 3 — กำไรเสริม เลื่อนขึ้น — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=22 ออเดอร์ (~7.3/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.367/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 327 ออเดอร์
+🏆 trend: n=79 net=$2.38 wr=65%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.061/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.007/trade (n=2)
+
+## 2026-09-28 18:28 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 106542398 → 106584430)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (34830 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 01:26", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.1073, "n": 59}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 325}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 5 รายการที่ควรปรับ (จาก R-multiple จริง 323 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=112 wr=0.70 win=0.62R loss=0.99R | SL=1.1 TP=1.3R
+   trend            n= 77 wr=0.60 win=0.76R loss=0.99R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 01:26", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.50R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.4, "reward_risk_from": 1.5}, {"action": "set_tpsl", "strategy": "counter_trend", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.44R < 55% ของเป้า 1.30R)", "evidence": "n=27 wr=0.52 avg_win=0.44R avg_loss=0.90R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 327 ไม้ (2026-08-26T06:09 → 2026-09-28T17:20) | net +3.29 | เฉลี่ย +0.010 | ชนะ 63.0% | PF 1.06 ✓
+   · trend            ไม้  16 | net  +5.87 | PF  2.72 ✓ | 16 ล่าสุด: +0.367/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +5.87 (16 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (3 รอบ · 00:12→00:13 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 3 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+      range_buy                คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+      range_sell               คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+      mean_reversion_buy       คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+      mean_reversion_sell      คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.818/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.696/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 60%  (score -0.261)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=60
+ASTRO=bullish:0.68
+NOTE=ภายใน: แรงซื้อ/ขาย 0.136374/0.168465 (สุทธิ -0.11) · engine เอน 0B/24S 24ชม. (-1.00) · ดูดวง bullish 0.68 (+0.68) · rolling20 $+5.11 · net72h $+0.367/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-29 01:28 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.82 · คะแนนหนุน 3 / กด 31) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 7 ข่าว · คะแนนรวม 43 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พลังงาน** — 5 ข่าว · คะแนนรวม 34 (หนุน 0 / กด 4) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 30 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 14 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **เงินเฟ้อ** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **เศรษฐกิจมหภาค** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed r
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.68
+- เลข 7 ตัว: [9, 9, 6, 1, 8, 8, 1] (รวม 42) → ฐาน 9 = 6 · เลข 6 — เดินขึ้น เกื้อหนุน · เลขคู่เสียง 5
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 6 — เดินขึ้น เกื้อหนุน — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=22 ออเดอร์ (~7.3/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.367/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 327 ออเดอร์
+🏆 trend: n=79 net=$2.38 wr=65%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.061/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.007/trade (n=2)
+
+## 2026-09-28 18:41 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 106818279 → 106881744)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (34903 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 01:39", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.1073, "n": 59}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 325}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 323 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=112 wr=0.70 win=0.62R loss=0.99R | SL=1.1 TP=1.3R
+   trend            n= 77 wr=0.60 win=0.76R loss=0.99R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 01:39", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 112, "wr": 0.705, "avg_win_R": 0.624, "avg_loss_R": 0.9
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 327 ไม้ (2026-08-26T06:09 → 2026-09-28T17:20) | net +3.29 | เฉลี่ย +0.010 | ชนะ 63.0% | PF 1.06 ✓
+   · trend            ไม้  16 | net  +5.87 | PF  2.72 ✓ | 16 ล่าสุด: +0.367/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +5.87 (16 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (1 รอบ · 01:34→01:34 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_sell      คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.629/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.534/0.296
+      ✅ range_sell               ดิบ 0.262/0.231 · prob 0.53 · ถ่วงน้ำหนัก 0.301/0.266
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 63%  (score -0.331)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=63
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.136123/0.17064 (สุทธิ -0.11) · engine เอน 0B/25S 24ชม. (-1.00) · ดูดวง bullish 0.35 (+0.35) · rolling20 $+5.11 · net72h $+0.367/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 1 รายการ
+
+## 2026-09-29 01:41 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.82 · คะแนนหนุน 3 / กด 31) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 7 ข่าว · คะแนนรวม 43 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พลังงาน** — 5 ข่าว · คะแนนรวม 34 (หนุน 0 / กด 4) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 30 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 14 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **เงินเฟ้อ** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **เศรษฐกิจมหภาค** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed r
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.68
+- เลข 7 ตัว: [9, 9, 6, 1, 1, 8, 1] (รวม 35) → ฐาน 9 = 8 · เลข 8 — มั่งคั่ง เฟื่องฟู · เลขคู่เสียง 7
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 8 — มั่งคั่ง เฟื่องฟู — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=24 ออเดอร์ (~8.0/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.367/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 327 ออเดอร์
+🏆 trend: n=79 net=$2.38 wr=65%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.061/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.007/trade (n=2)
+
+## 2026-09-28 18:54 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 107099018 → 107163796)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (34976 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 01:52", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.1073, "n": 59}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 325}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 323 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=112 wr=0.70 win=0.62R loss=0.99R | SL=1.1 TP=1.3R
+   trend            n= 77 wr=0.60 win=0.76R loss=0.99R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 01:52", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 112, "wr": 0.705, "avg_win_R": 0.624, "avg_loss_R": 0.9
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 327 ไม้ (2026-08-26T06:09 → 2026-09-28T17:20) | net +3.29 | เฉลี่ย +0.010 | ชนะ 63.0% | PF 1.06 ✓
+   · trend            ไม้  16 | net  +5.87 | PF  2.72 ✓ | 16 ล่าสุด: +0.367/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +5.87 (16 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (2 รอบ · 01:34→01:41 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 2 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      mean_reversion_sell      คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.629/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.534/0.296
+      ✅ range_sell               ดิบ 0.262/0.231 · prob 0.53 · ถ่วงน้ำหนัก 0.301/0.266
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 65%  (score -0.371)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=65
+ASTRO=sideways:0.25
+NOTE=ภายใน: แรงซื้อ/ขาย 0.152867/0.167593 (สุทธิ -0.05) · engine เอน 0B/26S 24ชม. (-1.00) · ดูดวง sideways 0.25 (+0.00) · rolling20 $+5.11 · net72h $+0.367/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-29 01:54 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.82 · คะแนนหนุน 3 / กด 31) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 7 ข่าว · คะแนนรวม 43 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พลังงาน** — 5 ข่าว · คะแนนรวม 34 (หนุน 0 / กด 4) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 30 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 14 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **เงินเฟ้อ** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **เศรษฐกิจมหภาค** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed r
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [9, 9, 6, 1, 4, 8, 1] (รวม 38) → ฐาน 9 = 2 · เลข 2 — คู่สมดุล รอจังหวะ · เลขคู่เสียง 1
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 2 — คู่สมดุล รอจังหวะ — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=24 ออเดอร์ (~8.0/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.367/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 327 ออเดอร์
+🏆 trend: n=79 net=$2.38 wr=65%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.061/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.007/trade (n=2)
+
+## 2026-09-28 19:07 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 107334120 → 107443793)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (35039 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 02:05", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.1073, "n": 59}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 325}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 5 รายการที่ควรปรับ (จาก R-multiple จริง 323 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=112 wr=0.70 win=0.62R loss=0.99R | SL=1.1 TP=1.3R
+   trend            n= 77 wr=0.60 win=0.76R loss=0.99R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 02:05", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.50R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.4, "reward_risk_from": 1.5}, {"action": "set_tpsl", "strategy": "counter_trend", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.44R < 55% ของเป้า 1.30R)", "evidence": "n=27 wr=0.52 avg_win=0.44R avg_loss=0.90R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 327 ไม้ (2026-08-26T06:09 → 2026-09-28T17:20) | net +3.29 | เฉลี่ย +0.010 | ชนะ 63.0% | PF 1.06 ✓
+   · trend            ไม้  16 | net  +5.87 | PF  2.72 ✓ | 16 ล่าสุด: +0.367/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +5.87 (16 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (2 รอบ · 01:34→01:41 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 2 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      mean_reversion_sell      คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.629/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.534/0.296
+      ✅ range_sell               ดิบ 0.262/0.231 · prob 0.53 · ถ่วงน้ำหนัก 0.301/0.266
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 60%  (score -0.257)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=60
+ASTRO=bullish:0.68
+NOTE=ภายใน: แรงซื้อ/ขาย 0.13048/0.157965 (สุทธิ -0.10) · engine เอน 0B/26S 24ชม. (-1.00) · ดูดวง bullish 0.68 (+0.68) · rolling20 $+5.11 · net72h $+0.367/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 1 รายการ
+
+## 2026-09-29 02:07 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.65 · คะแนนหนุน 6 / กด 28) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 7 ข่าว · คะแนนรวม 43 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พลังงาน** — 5 ข่าว · คะแนนรวม 34 (หนุน 0 / กด 4) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 30 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 11 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **เงินเฟ้อ** — 2 ข่าว · คะแนนรวม 6 (หนุน 2 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **เศรษฐกิจมหภาค** — 2 ข่าว · คะแนนรวม 6 (หนุน 2 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed r
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: → ออกข้าง (sideways) · strength 0.25
+- เลข 7 ตัว: [9, 9, 6, 2, 7, 9, 1] (รวม 43) → ฐาน 9 = 7 · เลข 7 — เสี่ยง ดาวเสาร์กด · เลขคู่เสียง 6
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 7 — เสี่ยง ดาวเสาร์กด — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=24 ออเดอร์ (~8.0/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.367/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 327 ออเดอร์
+🏆 trend: n=79 net=$2.38 wr=65%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.061/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.007/trade (n=2)
+
+## 2026-09-28 19:20 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 107721517 → 107721517)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (35108 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 02:18", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.1073, "n": 59}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 325}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 323 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=112 wr=0.70 win=0.62R loss=0.99R | SL=1.1 TP=1.3R
+   trend            n= 77 wr=0.60 win=0.76R loss=0.99R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 02:18", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 112, "wr": 0.705, "avg_win_R": 0.624, "avg_loss_R": 0.9
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 327 ไม้ (2026-08-26T06:09 → 2026-09-28T17:20) | net +3.29 | เฉลี่ย +0.010 | ชนะ 63.0% | PF 1.06 ✓
+   · trend            ไม้  16 | net  +5.87 | PF  2.72 ✓ | 16 ล่าสุด: +0.367/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +5.87 (16 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (2 รอบ · 01:34→01:41 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 2 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      mean_reversion_sell      คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.629/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.534/0.296
+      ✅ range_sell               ดิบ 0.262/0.231 · prob 0.53 · ถ่วงน้ำหนัก 0.301/0.266
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 64%  (score -0.357)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=64
+ASTRO=sideways:0.25
+NOTE=ภายใน: แรงซื้อ/ขาย 0.191974/0.197781 (สุทธิ -0.01) · engine เอน 0B/26S 24ชม. (-1.00) · ดูดวง sideways 0.25 (+0.00) · rolling20 $+5.11 · net72h $+0.367/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-29 02:20 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.65 · คะแนนหนุน 6 / กด 28) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 7 ข่าว · คะแนนรวม 43 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พลังงาน** — 5 ข่าว · คะแนนรวม 34 (หนุน 0 / กด 4) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 30 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 11 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **เงินเฟ้อ** — 2 ข่าว · คะแนนรวม 6 (หนุน 2 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **เศรษฐกิจมหภาค** — 2 ข่าว · คะแนนรวม 6 (หนุน 2 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed r
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [9, 9, 6, 2, 10, 8, 1] (รวม 45) → ฐาน 9 = 9 · เลข 9 — ครบรอบ จบ-เริ่มใหม่ · เลขคู่เสียง 8
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 9 — ครบรอบ จบ-เริ่มใหม่ — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=24 ออเดอร์ (~8.0/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.367/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 328 ออเดอร์
+🏆 trend: n=79 net=$2.38 wr=65%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.061/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.014/trade (n=2)
+
+## 2026-09-28 19:33 UTC — งานวิจัยรวม (14 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 107980781 → 108002373)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (35179 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 02:31", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0634, "n": 62}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 328}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 326 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 81 wr=0.56 win=0.54R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.3R
+   trend            n= 77 wr=0.60 win=0.76R loss=0.99R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 02:31", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 115, "wr": 0.687, "avg_win_R": 0.624, "avg_loss_R": 1.0
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 330 ไม้ (2026-08-26T06:09 → 2026-09-28T19:26) | net +0.89 | เฉลี่ย +0.003 | ชนะ 62.4% | PF 1.02 ✓
+   · trend            ไม้  19 | net  +3.47 | PF  1.60 ✓ | 19 ล่าสุด: +0.183/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +3.47 (19 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (2 รอบ · 01:34→01:41 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 2 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      mean_reversion_sell      คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.629/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.534/0.296
+      ✅ range_sell               ดิบ 0.262/0.231 · prob 0.53 · ถ่วงน้ำหนัก 0.301/0.266
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 66%  (score -0.394)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=66
+ASTRO=sideways:0.25
+NOTE=ภายใน: แรงซื้อ/ขาย 0.189534/0.230114 (สุทธิ -0.10) · engine เอน 0B/26S 24ชม. (-1.00) · ดูดวง sideways 0.25 (+0.00) · rolling20 $+2.98 · net72h $+0.183/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 1 รายการ
+
+## 2026-09-29 02:33 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.81 · คะแนนหนุน 3 / กด 28) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 7 ข่าว · คะแนนรวม 43 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 5 ข่าว · คะแนนรวม 35 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 5 ข่าว · คะแนนรวม 34 (หนุน 0 / กด 4) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 11 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **เงินเฟ้อ** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **เศรษฐกิจมหภาค** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed r
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [9, 9, 6, 2, 3, 8, 1] (รวม 38) → ฐาน 9 = 2 · เลข 2 — คู่สมดุล รอจังหวะ · เลขคู่เสียง 1
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 2 — คู่สมดุล รอจังหวะ — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### P/L Attribution
+## 2026-09-28 19:33 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=2 | opened(10m)=0 | errors=0
+- **❌ ขาดทุน** 2026-09-28T19:25:47 | trend sell | net=$-0.72 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+- **❌ ขาดทุน** 2026-09-28T19:26:48 | trend sell | net=$-0.84 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=0 loss=2 net_total=$-1.5600 | net เฉลี่ย $-0.7800/trade ★ | winrate=0.0% (รายงานเท่านั้น)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=24 ออเดอร์ (~8.0/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.183/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 330 ออเดอร์
+🏆 trend: n=79 net=$2.38 wr=65%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 range: n=84 net=$-2.15 wr=64%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.053/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.021/trade (n=2)
+
+## 2026-09-28 19:46 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 108282020 → 108328115)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (35243 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 02:44", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0786, "n": 63}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 329}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 5 รายการที่ควรปรับ (จาก R-multiple จริง 327 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 82 wr=0.56 win=0.59R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.3R
+   trend            n= 77 wr=0.60 win=0.76R loss=0.99R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 02:44", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.50R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.4, "reward_risk_from": 1.5}, {"action": "set_tpsl", "strategy": "counter_trend", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.44R < 55% ของเป้า 1.30R)", "evidence": "n=27 wr=0.52 avg_win=0.44R avg_loss=0.90R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 331 ไม้ (2026-08-26T06:09 → 2026-09-28T19:34) | net +1.91 | เฉลี่ย +0.006 | ชนะ 62.5% | PF 1.03 ✓
+   · trend            ไม้  20 | net  +4.49 | PF  1.77 ✓ | 20 ล่าสุด: +0.225/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +4.49 (20 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (10 รอบ · 02:34→02:44 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 0 รอบ · ไม่ผ่าน = 10 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 10 · คะแนนถ่วงน้ำหนักต่ำ 10
+      trend_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 10 · คะแนนถ่วงน้ำหนักสูงเกินบน 10
+      range_sell               คะแนนดิบต่ำ 10 · คะแนนถ่วงน้ำหนักต่ำ 10
+      mean_reversion_sell      คะแนนดิบต่ำ 10 · คะแนนถ่วงน้ำหนักต่ำ 10
+      counter_trend_buy        คะแนนดิบต่ำ 10 · คะแนนถ่วงน้ำหนักต่ำ 10
+      range_buy                คะแนนดิบสูงเกินบน(อิ่มตัว) 9 · คะแนนถ่วงน้ำหนักสูงเกินบน 9
+      mean_reversion_buy       คะแนนดิบสูงเกินบน(อิ่มตัว) 9 · คะแนนถ่วงน้ำหนักสูงเกินบน 9
+    ไม่มีตัวผ่านด่าน 2 ในช่วงนี้
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 58%  (score -0.198)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=58
+ASTRO=bullish:0.68
+NOTE=ภายใน: แรงซื้อ/ขาย 0.245709/0.229028 (สุทธิ +0.04) · engine เอน 0B/26S 24ชม. (-1.00) · ดูดวง bullish 0.68 (+0.68) · rolling20 $+4.49 · net72h $+0.225/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-29 02:46 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.81 · คะแนนหนุน 3 / กด 28) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 7 ข่าว · คะแนนรวม 43 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 5 ข่าว · คะแนนรวม 35 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 5 ข่าว · คะแนนรวม 34 (หนุน 0 / กด 4) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 11 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **เงินเฟ้อ** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **เศรษฐกิจมหภาค** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed r
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: → ออกข้าง (sideways) · strength 0.25
+- เลข 7 ตัว: [9, 9, 6, 2, 6, 8, 1] (รวม 41) → ฐาน 9 = 5 · เลข 5 — เปลี่ยนแปลง ผันผวนลงได้ · เลขคู่เสียง 4
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 5 — เปลี่ยนแปลง ผันผวนลงได้ — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=24 ออเดอร์ (~8.0/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.225/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 331 ออเดอร์
+🏆 trend: n=79 net=$2.38 wr=65%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.064/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.021/trade (n=2)
+
+## 2026-09-28 19:59 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 108563750 → 108639437)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (35300 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 02:57", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0786, "n": 63}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 329}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 327 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 82 wr=0.56 win=0.59R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.3R
+   trend            n= 77 wr=0.60 win=0.76R loss=0.99R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 02:57", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 115, "wr": 0.687, "avg_win_R": 0.624, "avg_loss_R": 1.0
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 331 ไม้ (2026-08-26T06:09 → 2026-09-28T19:34) | net +1.91 | เฉลี่ย +0.006 | ชนะ 62.5% | PF 1.03 ✓
+   · trend            ไม้  20 | net  +4.49 | PF  1.77 ✓ | 20 ล่าสุด: +0.225/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +4.49 (20 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (10 รอบ · 02:46→02:55 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 9 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 10 · คะแนนถ่วงน้ำหนักต่ำ 10
+      range_sell               คะแนนดิบต่ำ 10 · คะแนนถ่วงน้ำหนักต่ำ 10
+      mean_reversion_buy       คะแนนดิบสูงเกินบน(อิ่มตัว) 10 · คะแนนถ่วงน้ำหนักสูงเกินบน 10
+      mean_reversion_sell      คะแนนดิบต่ำ 10 · คะแนนถ่วงน้ำหนักต่ำ 10
+      trend_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 9 · คะแนนถ่วงน้ำหนักสูงเกินบน 9
+      range_buy                คะแนนดิบสูงเกินบน(อิ่มตัว) 9 · คะแนนถ่วงน้ำหนักสูงเกินบน 9
+      counter_trend_buy        คะแนนดิบต่ำ 9 · คะแนนถ่วงน้ำหนักต่ำ 9
+      breakout_sell            คะแนนดิบสูงเกินบน(อิ่มตัว) 1 · คะแนนถ่วงน้ำหนักสูงเกินบน 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.891/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.757/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 65%  (score -0.366)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=65
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.128365/0.18914 (สุทธิ -0.19) · engine เอน 0B/27S 24ชม. (-1.00) · ดูดวง bullish 0.35 (+0.35) · rolling20 $+4.49 · net72h $+0.225/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-29 02:59 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.81 · คะแนนหนุน 3 / กด 28) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 7 ข่าว · คะแนนรวม 43 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 5 ข่าว · คะแนนรวม 35 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 5 ข่าว · คะแนนรวม 34 (หนุน 0 / กด 4) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 11 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **เงินเฟ้อ** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **เศรษฐกิจมหภาค** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed r
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.68
+- เลข 7 ตัว: [9, 9, 6, 2, 9, 8, 1] (รวม 44) → ฐาน 9 = 8 · เลข 8 — มั่งคั่ง เฟื่องฟู · เลขคู่เสียง 7
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 8 — มั่งคั่ง เฟื่องฟู — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=25 ออเดอร์ (~8.3/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.225/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 331 ออเดอร์
+🏆 trend: n=79 net=$2.38 wr=65%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.064/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.021/trade (n=2)
+
+## 2026-09-28 20:12 UTC — งานวิจัยรวม (14 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 108839704 → 108937335)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (35368 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 03:10", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0786, "n": 63}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 329}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 327 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 82 wr=0.56 win=0.59R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.3R
+   trend            n= 77 wr=0.60 win=0.76R loss=0.99R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 03:10", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 115, "wr": 0.687, "avg_win_R": 0.624, "avg_loss_R": 1.0
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 331 ไม้ (2026-08-26T06:09 → 2026-09-28T19:34) | net +1.91 | เฉลี่ย +0.006 | ชนะ 62.5% | PF 1.03 ✓
+   · trend            ไม้  20 | net  +4.49 | PF  1.77 ✓ | 20 ล่าสุด: +0.225/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +4.49 (20 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (10 รอบ · 02:46→02:55 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 9 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 10 · คะแนนถ่วงน้ำหนักต่ำ 10
+      range_sell               คะแนนดิบต่ำ 10 · คะแนนถ่วงน้ำหนักต่ำ 10
+      mean_reversion_buy       คะแนนดิบสูงเกินบน(อิ่มตัว) 10 · คะแนนถ่วงน้ำหนักสูงเกินบน 10
+      mean_reversion_sell      คะแนนดิบต่ำ 10 · คะแนนถ่วงน้ำหนักต่ำ 10
+      trend_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 9 · คะแนนถ่วงน้ำหนักสูงเกินบน 9
+      range_buy                คะแนนดิบสูงเกินบน(อิ่มตัว) 9 · คะแนนถ่วงน้ำหนักสูงเกินบน 9
+      counter_trend_buy        คะแนนดิบต่ำ 9 · คะแนนถ่วงน้ำหนักต่ำ 9
+      breakout_sell            คะแนนดิบสูงเกินบน(อิ่มตัว) 1 · คะแนนถ่วงน้ำหนักสูงเกินบน 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.891/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.757/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 62%  (score -0.292)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=62
+ASTRO=bullish:0.68
+NOTE=ภายใน: แรงซื้อ/ขาย 0.129459/0.183904 (สุทธิ -0.17) · engine เอน 0B/27S 24ชม. (-1.00) · ดูดวง bullish 0.68 (+0.68) · rolling20 $+4.49 · net72h $+0.225/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-29 03:12 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.81 · คะแนนหนุน 3 / กด 28) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 7 ข่าว · คะแนนรวม 43 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 5 ข่าว · คะแนนรวม 35 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 5 ข่าว · คะแนนรวม 34 (หนุน 0 / กด 4) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 11 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **เงินเฟ้อ** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **เศรษฐกิจมหภาค** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed r
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [9, 9, 6, 3, 2, 8, 1] (รวม 38) → ฐาน 9 = 2 · เลข 2 — คู่สมดุล รอจังหวะ · เลขคู่เสียง 1
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 2 — คู่สมดุล รอจังหวะ — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### P/L Attribution
+## 2026-09-28 20:12 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=0 | errors=0
+- **❌ ขาดทุน** 2026-09-28T20:12:20 | trend sell | net=$-0.86 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=0 loss=1 net_total=$-0.8600 | net เฉลี่ย $-0.8600/trade ★ | winrate=0.0% (รายงานเท่านั้น)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=25 ออเดอร์ (~8.3/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.173/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 332 ออเดอร์
+🏆 trend: n=79 net=$2.38 wr=65%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 range: n=86 net=$-1.99 wr=64%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.054/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.021/trade (n=2)
+
+## 2026-09-28 20:25 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 109097034 → 109205837)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (35432 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 03:23", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0639, "n": 64}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 330}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 5 รายการที่ควรปรับ (จาก R-multiple จริง 328 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 82 wr=0.56 win=0.59R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.3R
+   trend            n= 78 wr=0.59 win=0.76R loss=1.01R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 03:23", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.50R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.4, "reward_risk_from": 1.5}, {"action": "set_tpsl", "strategy": "counter_trend", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.44R < 55% ของเป้า 1.30R)", "evidence": "n=27 wr=0.52 avg_win=0.44R avg_loss=0.90R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 332 ไม้ (2026-08-26T06:09 → 2026-09-28T20:12) | net +1.05 | เฉลี่ย +0.003 | ชนะ 62.3% | PF 1.02 ✓
+   · trend            ไม้  21 | net  +3.63 | PF  1.54 ✓ | 21 ล่าสุด: +0.173/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +3.63 (21 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (10 รอบ · 02:46→02:55 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 9 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 10 · คะแนนถ่วงน้ำหนักต่ำ 10
+      range_sell               คะแนนดิบต่ำ 10 · คะแนนถ่วงน้ำหนักต่ำ 10
+      mean_reversion_buy       คะแนนดิบสูงเกินบน(อิ่มตัว) 10 · คะแนนถ่วงน้ำหนักสูงเกินบน 10
+      mean_reversion_sell      คะแนนดิบต่ำ 10 · คะแนนถ่วงน้ำหนักต่ำ 10
+      trend_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 9 · คะแนนถ่วงน้ำหนักสูงเกินบน 9
+      range_buy                คะแนนดิบสูงเกินบน(อิ่มตัว) 9 · คะแนนถ่วงน้ำหนักสูงเกินบน 9
+      counter_trend_buy        คะแนนดิบต่ำ 9 · คะแนนถ่วงน้ำหนักต่ำ 9
+      breakout_sell            คะแนนดิบสูงเกินบน(อิ่มตัว) 1 · คะแนนถ่วงน้ำหนักสูงเกินบน 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.891/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.757/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 60%  (score -0.245)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=60
+ASTRO=bullish:0.68
+NOTE=ภายใน: แรงซื้อ/ขาย 0.186247/0.213794 (สุทธิ -0.07) · engine เอน 0B/27S 24ชม. (-1.00) · ดูดวง bullish 0.68 (+0.68) · rolling20 $+2.86 · net72h $+0.173/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 2 รายการ
+
+## 2026-09-29 03:25 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.85 · คะแนนหนุน 3 / กด 36) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 7 ข่าว · คะแนนรวม 48 (หนุน 0 / กด 4) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 43 (หนุน 0 / กด 4) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 5 ข่าว · คะแนนรวม 34 (หนุน 0 / กด 4) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 11 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **เงินเฟ้อ** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **เศรษฐกิจมหภาค** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- 🔴 [8] (markets) Dollar pinned at two-month high as bond rout extends, Fed rate hike be
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.68
+- เลข 7 ตัว: [9, 9, 6, 3, 5, 9, 1] (รวม 42) → ฐาน 9 = 6 · เลข 6 — เดินขึ้น เกื้อหนุน · เลขคู่เสียง 5
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 6 — เดินขึ้น เกื้อหนุน — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=25 ออเดอร์ (~8.3/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.173/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 332 ออเดอร์
+🏆 trend: n=79 net=$2.38 wr=65%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 range: n=86 net=$-1.99 wr=64%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.054/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.021/trade (n=2)
+
+## 2026-09-28 20:38 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 109519513 → 109519513)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (35504 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 03:36", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0639, "n": 64}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 330}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 328 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 82 wr=0.56 win=0.59R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.3R
+   trend            n= 78 wr=0.59 win=0.76R loss=1.01R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 03:36", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 115, "wr": 0.687, "avg_win_R": 0.624, "avg_loss_R": 1.0
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 332 ไม้ (2026-08-26T06:09 → 2026-09-28T20:12) | net +1.05 | เฉลี่ย +0.003 | ชนะ 62.3% | PF 1.02 ✓
+   · trend            ไม้  21 | net  +3.63 | PF  1.54 ✓ | 21 ล่าสุด: +0.173/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +3.63 (21 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (4 รอบ · 03:28→03:30 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 3 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 4 · คะแนนถ่วงน้ำหนักต่ำ 4
+      range_buy                คะแนนดิบต่ำ 4 · คะแนนถ่วงน้ำหนักต่ำ 4
+      range_sell               คะแนนดิบต่ำ 4 · คะแนนถ่วงน้ำหนักต่ำ 4
+      mean_reversion_sell      คะแนนดิบต่ำ 4 · คะแนนถ่วงน้ำหนักต่ำ 4
+      counter_trend_buy        คะแนนดิบต่ำ 4 · คะแนนถ่วงน้ำหนักต่ำ 4
+      trend_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 3 · คะแนนถ่วงน้ำหนักสูงเกินบน 3
+      mean_reversion_buy       คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.881/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.748/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 60%  (score -0.259)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=60
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.219899/0.200397 (สุทธิ +0.05) · engine เอน 0B/28S 24ชม. (-1.00) · ดูดวง bullish 0.35 (+0.35) · rolling20 $+2.86 · net72h $+0.173/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-29 03:38 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.85 · คะแนนหนุน 3 / กด 36) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 7 ข่าว · คะแนนรวม 48 (หนุน 0 / กด 4) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 43 (หนุน 0 / กด 4) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 5 ข่าว · คะแนนรวม 34 (หนุน 0 / กด 4) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 11 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **เงินเฟ้อ** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **เศรษฐกิจมหภาค** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- 🔴 [8] (markets) Dollar pinned at two-month high as bond rout extends, Fed rate hike be
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.68
+- เลข 7 ตัว: [9, 9, 6, 3, 8, 8, 1] (รวม 44) → ฐาน 9 = 8 · เลข 8 — มั่งคั่ง เฟื่องฟู · เลขคู่เสียง 7
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 8 — มั่งคั่ง เฟื่องฟู — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=26 ออเดอร์ (~8.7/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.173/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 332 ออเดอร์
+🏆 trend: n=79 net=$2.38 wr=65%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 range: n=86 net=$-1.99 wr=64%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.054/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.021/trade (n=2)
+
+## 2026-09-28 20:51 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 109785650 → 109831829)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (35577 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 03:49", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0639, "n": 64}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 330}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 328 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 82 wr=0.56 win=0.59R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.3R
+   trend            n= 78 wr=0.59 win=0.76R loss=1.01R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 03:49", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 115, "wr": 0.687, "avg_win_R": 0.624, "avg_loss_R": 1.0
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 332 ไม้ (2026-08-26T06:09 → 2026-09-28T20:12) | net +1.05 | เฉลี่ย +0.003 | ชนะ 62.3% | PF 1.02 ✓
+   · trend            ไม้  21 | net  +3.63 | PF  1.54 ✓ | 21 ล่าสุด: +0.173/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +3.63 (21 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (1 รอบ · 03:48→03:48 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_sell               คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_sell      คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.860/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.731/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 63%  (score -0.323)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=63
+ASTRO=sideways:0.25
+NOTE=ภายใน: แรงซื้อ/ขาย 0.222549/0.197257 (สุทธิ +0.06) · engine เอน 0B/29S 24ชม. (-1.00) · ดูดวง sideways 0.25 (+0.00) · rolling20 $+2.86 · net72h $+0.173/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-29 03:51 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.85 · คะแนนหนุน 3 / กด 36) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 7 ข่าว · คะแนนรวม 48 (หนุน 0 / กด 4) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 43 (หนุน 0 / กด 4) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 5 ข่าว · คะแนนรวม 34 (หนุน 0 / กด 4) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 11 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **เงินเฟ้อ** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **เศรษฐกิจมหภาค** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar steadies near two-month high as US-Iran stalemate lifts oil, Fed rate hike bets build
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- 🔴 [8] (markets) Dollar pinned at two-month high as bond rout extends, Fed rate hike be
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.68
+- เลข 7 ตัว: [9, 9, 6, 3, 1, 8, 1] (รวม 37) → ฐาน 9 = 1 · เลข 1 — จุดเริ่มเดินหน้า แนวโน้มขึ้น · เลขคู่เสียง 9
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 1 — จุดเริ่มเดินหน้า แนวโน้มขึ้น — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=27 ออเดอร์ (~9.0/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.173/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 332 ออเดอร์
+🏆 trend: n=79 net=$2.38 wr=65%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 range: n=86 net=$-1.99 wr=64%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.054/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.021/trade (n=2)
+
+## 2026-09-28 21:04 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 110084472 → 110084719)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (35639 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 04:02", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0639, "n": 64}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 330}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 5 รายการที่ควรปรับ (จาก R-multiple จริง 328 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 82 wr=0.56 win=0.59R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.3R
+   trend            n= 78 wr=0.59 win=0.76R loss=1.01R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 04:02", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.50R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.4, "reward_risk_from": 1.5}, {"action": "set_tpsl", "strategy": "counter_trend", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.44R < 55% ของเป้า 1.30R)", "evidence": "n=27 wr=0.52 avg_win=0.44R avg_loss=0.90R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 332 ไม้ (2026-08-26T06:09 → 2026-09-28T20:12) | net +1.05 | เฉลี่ย +0.003 | ชนะ 62.3% | PF 1.02 ✓
+   · trend            ไม้  21 | net  +3.63 | PF  1.54 ✓ | 21 ล่าสุด: +0.173/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +3.63 (21 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (1 รอบ · 03:58→03:58 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_sell               คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_buy       คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_sell      คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      counter_trend_buy        คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      breakout_reversal_buy    คะแนนดิบสูงเกินบน(อิ่มตัว) 1 · คะแนนถ่วงน้ำหนักสูงเกินบน 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.883/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.750/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 58%  (score -0.201)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=58
+ASTRO=bullish:0.68
+NOTE=ภายใน: แรงซื้อ/ขาย 0.21467/0.202825 (สุทธิ +0.03) · engine เอน 0B/30S 24ชม. (-1.00) · ดูดวง bullish 0.68 (+0.68) · rolling20 $+2.86 · net72h $+0.173/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-29 04:04 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.80 · คะแนนหนุน 3 / กด 27) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 7 ข่าว · คะแนนรวม 42 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 5 ข่าว · คะแนนรวม 34 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 4 ข่าว · คะแนนรวม 25 (หนุน 0 / กด 3) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 11 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **เงินเฟ้อ** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **เศรษฐกิจมหภาค** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- 🔴 [8] (markets) Dollar pinned at two-month high as bond rout extends, Fed rate hike bets rise
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed rates
+- 🔴 [6]
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: → ออกข้าง (sideways) · strength 0.25
+- เลข 7 ตัว: [9, 9, 6, 4, 4, 8, 1] (รวม 41) → ฐาน 9 = 5 · เลข 5 — เปลี่ยนแปลง ผันผวนลงได้ · เลขคู่เสียง 4
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 5 — เปลี่ยนแปลง ผันผวนลงได้ — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=28 ออเดอร์ (~9.3/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.173/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 332 ออเดอร์
+🏆 trend: n=79 net=$2.38 wr=65%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 range: n=86 net=$-1.99 wr=64%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.054/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.021/trade (n=2)
+
+## 2026-09-28 21:17 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 110084966 → 110085095)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (35642 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 04:15", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0639, "n": 64}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 330}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 328 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 82 wr=0.56 win=0.59R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.3R
+   trend            n= 78 wr=0.59 win=0.76R loss=1.01R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 04:15", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 115, "wr": 0.687, "avg_win_R": 0.624, "avg_loss_R": 1.0
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 332 ไม้ (2026-08-26T06:09 → 2026-09-28T20:12) | net +1.05 | เฉลี่ย +0.003 | ชนะ 62.3% | PF 1.02 ✓
+   · trend            ไม้  21 | net  +3.63 | PF  1.54 ✓ | 21 ล่าสุด: +0.173/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +3.63 (21 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (1 รอบ · 03:58→03:58 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_sell               คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_buy       คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_sell      คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      counter_trend_buy        คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      breakout_reversal_buy    คะแนนดิบสูงเกินบน(อิ่มตัว) 1 · คะแนนถ่วงน้ำหนักสูงเกินบน 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.883/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.750/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 61%  (score -0.267)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=61
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.21467/0.202825 (สุทธิ +0.03) · engine เอน 0B/30S 24ชม. (-1.00) · ดูดวง bullish 0.35 (+0.35) · rolling20 $+2.86 · net72h $+0.173/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-29 04:17 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.80 · คะแนนหนุน 3 / กด 27) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 7 ข่าว · คะแนนรวม 42 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 5 ข่าว · คะแนนรวม 34 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 4 ข่าว · คะแนนรวม 25 (หนุน 0 / กด 3) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 11 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **เงินเฟ้อ** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **เศรษฐกิจมหภาค** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- 🔴 [8] (markets) Dollar pinned at two-month high as bond rout extends, Fed rate hike bets rise
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed rates
+- 🔴 [6]
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.68
+- เลข 7 ตัว: [9, 9, 6, 4, 7, 8, 1] (รวม 44) → ฐาน 9 = 8 · เลข 8 — มั่งคั่ง เฟื่องฟู · เลขคู่เสียง 7
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 8 — มั่งคั่ง เฟื่องฟู — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=28 ออเดอร์ (~9.3/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.173/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 332 ออเดอร์
+🏆 trend: n=79 net=$2.38 wr=65%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 range: n=86 net=$-1.99 wr=64%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.054/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.021/trade (n=2)
+
+## 2026-09-28 21:30 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 110085342 → 110085471)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (35645 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 04:28", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0639, "n": 64}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 330}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 328 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 82 wr=0.56 win=0.59R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.3R
+   trend            n= 78 wr=0.59 win=0.76R loss=1.01R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 04:28", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 115, "wr": 0.687, "avg_win_R": 0.624, "avg_loss_R": 1.0
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 332 ไม้ (2026-08-26T06:09 → 2026-09-28T20:12) | net +1.05 | เฉลี่ย +0.003 | ชนะ 62.3% | PF 1.02 ✓
+   · trend            ไม้  21 | net  +3.63 | PF  1.54 ✓ | 21 ล่าสุด: +0.173/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +3.63 (21 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (1 รอบ · 03:58→03:58 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_sell               คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_buy       คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_sell      คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      counter_trend_buy        คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      breakout_reversal_buy    คะแนนดิบสูงเกินบน(อิ่มตัว) 1 · คะแนนถ่วงน้ำหนักสูงเกินบน 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.883/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.750/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 61%  (score -0.267)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=61
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.21467/0.202825 (สุทธิ +0.03) · engine เอน 0B/30S 24ชม. (-1.00) · ดูดวง bullish 0.35 (+0.35) · rolling20 $+2.86 · net72h $+0.173/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 1 รายการ
+
+## 2026-09-29 04:30 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.80 · คะแนนหนุน 3 / กด 27) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 7 ข่าว · คะแนนรวม 42 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 5 ข่าว · คะแนนรวม 34 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 4 ข่าว · คะแนนรวม 25 (หนุน 0 / กด 3) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 11 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **เงินเฟ้อ** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **เศรษฐกิจมหภาค** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- 🔴 [8] (markets) Dollar pinned at two-month high as bond rout extends, Fed rate hike bets rise
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed rates
+- 🔴 [6]
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [9, 9, 6, 4, 10, 10, 1] (รวม 49) → ฐาน 9 = 4 · เลข 4 — เสถียร ทรงตัว · เลขคู่เสียง 3
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 4 — เสถียร ทรงตัว — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=28 ออเดอร์ (~9.3/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.173/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 332 ออเดอร์
+🏆 trend: n=79 net=$2.38 wr=65%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 range: n=86 net=$-1.99 wr=64%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.054/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.021/trade (n=2)
+
+## 2026-09-28 21:43 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 110085718 → 110085965)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (35649 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 04:41", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0639, "n": 64}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 330}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 5 รายการที่ควรปรับ (จาก R-multiple จริง 328 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 82 wr=0.56 win=0.59R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.3R
+   trend            n= 78 wr=0.59 win=0.76R loss=1.01R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 04:41", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.50R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.4, "reward_risk_from": 1.5}, {"action": "set_tpsl", "strategy": "counter_trend", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.44R < 55% ของเป้า 1.30R)", "evidence": "n=27 wr=0.52 avg_win=0.44R avg_loss=0.90R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 332 ไม้ (2026-08-26T06:09 → 2026-09-28T20:12) | net +1.05 | เฉลี่ย +0.003 | ชนะ 62.3% | PF 1.02 ✓
+   · trend            ไม้  21 | net  +3.63 | PF  1.54 ✓ | 21 ล่าสุด: +0.173/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +3.63 (21 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (1 รอบ · 03:58→03:58 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_sell               คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_buy       คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_sell      คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      counter_trend_buy        คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      breakout_reversal_buy    คะแนนดิบสูงเกินบน(อิ่มตัว) 1 · คะแนนถ่วงน้ำหนักสูงเกินบน 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.883/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.750/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 61%  (score -0.267)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=61
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.21467/0.202825 (สุทธิ +0.03) · engine เอน 0B/30S 24ชม. (-1.00) · ดูดวง bullish 0.35 (+0.35) · rolling20 $+2.86 · net72h $+0.173/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-29 04:43 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.80 · คะแนนหนุน 3 / กด 27) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 7 ข่าว · คะแนนรวม 42 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 5 ข่าว · คะแนนรวม 34 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 4 ข่าว · คะแนนรวม 25 (หนุน 0 / กด 3) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 11 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **เงินเฟ้อ** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **เศรษฐกิจมหภาค** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- 🔴 [8] (markets) Dollar pinned at two-month high as bond rout extends, Fed rate hike bets rise
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed rates
+- 🔴 [6]
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [9, 9, 6, 4, 3, 8, 1] (รวม 40) → ฐาน 9 = 4 · เลข 4 — เสถียร ทรงตัว · เลขคู่เสียง 3
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 4 — เสถียร ทรงตัว — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=28 ออเดอร์ (~9.3/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.173/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 332 ออเดอร์
+🏆 trend: n=79 net=$2.38 wr=65%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 range: n=86 net=$-1.99 wr=64%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.054/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.021/trade (n=2)
+
+## 2026-09-28 21:56 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 110086341 → 110086341)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (35653 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 04:54", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0639, "n": 64}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 330}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 328 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 82 wr=0.56 win=0.59R loss=0.91R | SL=1.0 TP=1.3R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.3R
+   trend            n= 78 wr=0.59 win=0.76R loss=1.01R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 04:54", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 115, "wr": 0.687, "avg_win_R": 0.624, "avg_loss_R": 1.0
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 332 ไม้ (2026-08-26T06:09 → 2026-09-28T20:12) | net +1.05 | เฉลี่ย +0.003 | ชนะ 62.3% | PF 1.02 ✓
+   · trend            ไม้  21 | net  +3.63 | PF  1.54 ✓ | 21 ล่าสุด: +0.173/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +3.63 (21 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (1 รอบ · 03:58→03:58 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_sell               คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_buy       คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_sell      คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      counter_trend_buy        คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      breakout_reversal_buy    คะแนนดิบสูงเกินบน(อิ่มตัว) 1 · คะแนนถ่วงน้ำหนักสูงเกินบน 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.883/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.750/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 58%  (score -0.201)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=58
+ASTRO=bullish:0.68
+NOTE=ภายใน: แรงซื้อ/ขาย 0.21467/0.202825 (สุทธิ +0.03) · engine เอน 0B/30S 24ชม. (-1.00) · ดูดวง bullish 0.68 (+0.68) · rolling20 $+2.86 · net72h $+0.173/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-29 04:56 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.80 · คะแนนหนุน 3 / กด 27) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 7 ข่าว · คะแนนรวม 42 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 5 ข่าว · คะแนนรวม 34 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 4 ข่าว · คะแนนรวม 25 (หนุน 0 / กด 3) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 11 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **เงินเฟ้อ** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **เศรษฐกิจมหภาค** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- 🔴 [8] (markets) Dollar pinned at two-month high as bond rout extends, Fed rate hike bets rise
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed rates
+- 🔴 [6]
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: → ออกข้าง (sideways) · strength 0.25
+- เลข 7 ตัว: [9, 9, 6, 4, 6, 8, 1] (รวม 43) → ฐาน 9 = 7 · เลข 7 — เสี่ยง ดาวเสาร์กด · เลขคู่เสียง 6
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 7 — เสี่ยง ดาวเสาร์กด — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=28 ออเดอร์ (~9.3/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.173/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 332 ออเดอร์
+🏆 trend: n=79 net=$2.38 wr=65%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 range: n=86 net=$-1.99 wr=64%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.054/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.021/trade (n=2)
+
+## 2026-09-28 22:09 UTC — งานวิจัยรวม (14 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 110163574 → 110186759)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (35676 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 05:07", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0679, "n": 66}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 332}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 330 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 83 wr=0.55 win=0.59R loss=0.92R | SL=1.0 TP=1.3R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.3R
+   trend            n= 79 wr=0.59 win=0.79R loss=1.01R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 05:07", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 115, "wr": 0.687, "avg_win_R": 0.624, "avg_loss_R": 1.0
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 334 ไม้ (2026-08-26T06:09 → 2026-09-28T22:05) | net +1.44 | เฉลี่ย +0.004 | ชนะ 62.3% | PF 1.02 ✓
+   · trend            ไม้  23 | net  +4.02 | PF  1.56 ✓ | 23 ล่าสุด: +0.175/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +4.02 (23 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (3 รอบ · 05:05→05:06 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 3 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+      range_buy                คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+      range_sell               คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+      mean_reversion_buy       คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+      mean_reversion_sell      คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+      counter_trend_buy        คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.891/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.758/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 65%  (score -0.367)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=65
+ASTRO=sideways:0.25
+NOTE=ภายใน: แรงซื้อ/ขาย 0.192192/0.20761 (สุทธิ -0.04) · engine เอน 0B/33S 24ชม. (-1.00) · ดูดวง sideways 0.25 (+0.00) · rolling20 $+1.60 · net72h $+0.175/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-29 05:09 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.80 · คะแนนหนุน 3 / กด 27) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 7 ข่าว · คะแนนรวม 42 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 5 ข่าว · คะแนนรวม 34 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 4 ข่าว · คะแนนรวม 25 (หนุน 0 / กด 3) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 11 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **เงินเฟ้อ** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **เศรษฐกิจมหภาค** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- 🔴 [8] (markets) Dollar pinned at two-month high as bond rout extends, Fed rate hike bets rise
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed rates
+- 🔴 [6]
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [9, 9, 6, 5, 9, 8, 1] (รวม 47) → ฐาน 9 = 2 · เลข 2 — คู่สมดุล รอจังหวะ · เลขคู่เสียง 1
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 2 — คู่สมดุล รอจังหวะ — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### P/L Attribution
+## 2026-09-28 22:09 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=2 | opened(10m)=1 | errors=0
+- **✅ กำไร** 2026-09-28T22:05:02 | trend sell | net=$0.95 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+- **❌ ขาดทุน** 2026-09-28T22:05:02 | trend sell | net=$-0.56 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=1 loss=1 net_total=$0.3900 | net เฉลี่ย $0.1950/trade ★ | winrate=50.0% (รายงานเท่านั้น)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=29 ออเดอร์ (~9.7/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.175/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 334 ออเดอร์
+🏆 trend: n=80 net=$1.82 wr=64%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.059/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.021/trade (n=2)
+
+## 2026-09-28 22:22 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 110419138 → 110461331)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (35743 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 05:20", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0679, "n": 66}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 332}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 5 รายการที่ควรปรับ (จาก R-multiple จริง 330 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 83 wr=0.55 win=0.59R loss=0.92R | SL=1.0 TP=1.3R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.3R
+   trend            n= 79 wr=0.59 win=0.79R loss=1.01R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 05:20", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.50R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.4, "reward_risk_from": 1.5}, {"action": "set_tpsl", "strategy": "counter_trend", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.44R < 55% ของเป้า 1.30R)", "evidence": "n=27 wr=0.52 avg_win=0.44R avg_loss=0.90R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 334 ไม้ (2026-08-26T06:09 → 2026-09-28T22:05) | net +1.44 | เฉลี่ย +0.004 | ชนะ 62.3% | PF 1.02 ✓
+   · trend            ไม้  23 | net  +4.02 | PF  1.56 ✓ | 23 ล่าสุด: +0.175/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +4.02 (23 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (3 รอบ · 05:05→05:06 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 3 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+      range_buy                คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+      range_sell               คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+      mean_reversion_buy       คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+      mean_reversion_sell      คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+      counter_trend_buy        คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.891/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.758/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 62%  (score -0.305)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=62
+ASTRO=bullish:0.68
+NOTE=ภายใน: แรงซื้อ/ขาย 0.127393/0.191963 (สุทธิ -0.20) · engine เอน 0B/33S 24ชม. (-1.00) · ดูดวง bullish 0.68 (+0.68) · rolling20 $+1.60 · net72h $+0.175/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-29 05:22 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.80 · คะแนนหนุน 3 / กด 27) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 7 ข่าว · คะแนนรวม 42 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 5 ข่าว · คะแนนรวม 34 (หนุน 0 / กด 3) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 4 ข่าว · คะแนนรวม 25 (หนุน 0 / กด 3) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 11 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **เงินเฟ้อ** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **เศรษฐกิจมหภาค** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- 🔴 [8] (markets) Dollar pinned at two-month high as bond rout extends, Fed rate hike bets rise
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed rates
+- 🔴 [6]
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [9, 9, 6, 5, 2, 8, 1] (รวม 40) → ฐาน 9 = 4 · เลข 4 — เสถียร ทรงตัว · เลขคู่เสียง 3
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 4 — เสถียร ทรงตัว — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=30 ออเดอร์ (~10.0/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.175/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 334 ออเดอร์
+🏆 trend: n=80 net=$1.82 wr=64%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.059/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.021/trade (n=2)
+
+## 2026-09-28 22:35 UTC — งานวิจัยรวม (14 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 110698017 → 110739898)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (35819 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 05:33", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0679, "n": 66}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 332}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 330 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 83 wr=0.55 win=0.59R loss=0.92R | SL=1.0 TP=1.3R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.3R
+   trend            n= 79 wr=0.59 win=0.79R loss=1.01R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 05:33", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 115, "wr": 0.687, "avg_win_R": 0.624, "avg_loss_R": 1.0
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 334 ไม้ (2026-08-26T06:09 → 2026-09-28T22:05) | net +1.44 | เฉลี่ย +0.004 | ชนะ 62.3% | PF 1.02 ✓
+   · trend            ไม้  23 | net  +4.02 | PF  1.56 ✓ | 23 ล่าสุด: +0.175/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +4.02 (23 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (1 รอบ · 05:21→05:21 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_sell               คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_buy       คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_sell      คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.779/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.663/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 61%  (score -0.280)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=61
+ASTRO=bullish:0.68
+NOTE=ภายใน: แรงซื้อ/ขาย 0.112799/0.151321 (สุทธิ -0.15) · engine เอน 0B/34S 24ชม. (-1.00) · ดูดวง bullish 0.68 (+0.68) · rolling20 $+1.60 · net72h $+0.175/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-29 05:35 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.56 · คะแนนหนุน 6 / กด 21) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 6 ข่าว · คะแนนรวม 36 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 28 (หนุน 0 / กด 2) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 3 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 11 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **เงินเฟ้อ** — 2 ข่าว · คะแนนรวม 6 (หนุน 2 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **เศรษฐกิจมหภาค** — 2 ข่าว · คะแนนรวม 6 (หนุน 2 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- 🔴 [8] (markets) Dollar pinned at two-month high as bond rout extends, Fed rate hike bets rise
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed rates
+- ⚪ [6]
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: → ออกข้าง (sideways) · strength 0.25
+- เลข 7 ตัว: [9, 9, 6, 5, 5, 8, 1] (รวม 43) → ฐาน 9 = 7 · เลข 7 — เสี่ยง ดาวเสาร์กด · เลขคู่เสียง 6
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 7 — เสี่ยง ดาวเสาร์กด — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### P/L Attribution
+## 2026-09-28 22:35 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=0 | errors=0
+- **✅ กำไร** 2026-09-28T22:34:24 | trend sell | net=$0.69 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=1 loss=0 net_total=$0.6900 | net เฉลี่ย $0.6900/trade ★ | winrate=100.0% (รายงานเท่านั้น)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=30 ออเดอร์ (~10.0/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.196/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 335 ออเดอร์
+🏆 trend: n=81 net=$2.51 wr=64%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.021/trade (n=2)
+
+## 2026-09-28 22:48 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 110928336 → 111013339)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (35882 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 05:46", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0772, "n": 67}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 333}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 331 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 84 wr=0.56 win=0.61R loss=0.92R | SL=1.0 TP=1.3R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.3R
+   trend            n= 79 wr=0.59 win=0.79R loss=1.01R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 05:46", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 115, "wr": 0.687, "avg_win_R": 0.624, "avg_loss_R": 1.0
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 335 ไม้ (2026-08-26T06:09 → 2026-09-28T22:34) | net +2.13 | เฉลี่ย +0.006 | ชนะ 62.4% | PF 1.04 ✓
+   · trend            ไม้  24 | net  +4.71 | PF  1.65 ✓ | 24 ล่าสุด: +0.196/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +4.71 (24 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (1 รอบ · 05:21→05:21 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_sell               คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_buy       คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_sell      คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.779/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.663/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 62%  (score -0.302)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=62
+ASTRO=bullish:0.68
+NOTE=ภายใน: แรงซื้อ/ขาย 0.107736/0.160375 (สุทธิ -0.20) · engine เอน 0B/34S 24ชม. (-1.00) · ดูดวง bullish 0.68 (+0.68) · rolling20 $+1.46 · net72h $+0.196/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-29 05:48 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.56 · คะแนนหนุน 6 / กด 21) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 6 ข่าว · คะแนนรวม 36 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 28 (หนุน 0 / กด 2) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 3 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 11 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **เงินเฟ้อ** — 2 ข่าว · คะแนนรวม 6 (หนุน 2 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **เศรษฐกิจมหภาค** — 2 ข่าว · คะแนนรวม 6 (หนุน 2 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- 🔴 [8] (markets) Dollar pinned at two-month high as bond rout extends, Fed rate hike bets rise
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed rates
+- ⚪ [6]
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [9, 9, 6, 5, 8, 9, 1] (รวม 47) → ฐาน 9 = 2 · เลข 2 — คู่สมดุล รอจังหวะ · เลขคู่เสียง 1
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 2 — คู่สมดุล รอจังหวะ — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=30 ออเดอร์ (~10.0/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.196/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 335 ออเดอร์
+🏆 trend: n=81 net=$2.51 wr=64%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.021/trade (n=2)
+
+## 2026-09-28 23:01 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 111181026 → 111285521)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (35949 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 05:59", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0772, "n": 67}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 333}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 5 รายการที่ควรปรับ (จาก R-multiple จริง 331 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 84 wr=0.56 win=0.61R loss=0.92R | SL=1.0 TP=1.3R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.3R
+   trend            n= 79 wr=0.59 win=0.79R loss=1.01R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 05:59", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.50R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.4, "reward_risk_from": 1.5}, {"action": "set_tpsl", "strategy": "counter_trend", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.44R < 55% ของเป้า 1.30R)", "evidence": "n=27 wr=0.52 avg_win=0.44R avg_loss=0.90R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 335 ไม้ (2026-08-26T06:09 → 2026-09-28T22:34) | net +2.13 | เฉลี่ย +0.006 | ชนะ 62.4% | PF 1.04 ✓
+   · trend            ไม้  24 | net  +4.71 | PF  1.65 ✓ | 24 ล่าสุด: +0.196/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +4.71 (24 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (1 รอบ · 05:21→05:21 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_sell               คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_buy       คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_sell      คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.779/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.663/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 65%  (score -0.386)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=65
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.119081/0.192803 (สุทธิ -0.24) · engine เอน 0B/34S 24ชม. (-1.00) · ดูดวง bullish 0.35 (+0.35) · rolling20 $+1.46 · net72h $+0.196/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-29 06:01 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.56 · คะแนนหนุน 6 / กด 21) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 6 ข่าว · คะแนนรวม 36 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 28 (หนุน 0 / กด 2) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 3 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 11 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **เงินเฟ้อ** — 2 ข่าว · คะแนนรวม 6 (หนุน 2 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **เศรษฐกิจมหภาค** — 2 ข่าว · คะแนนรวม 6 (หนุน 2 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- 🔴 [8] (markets) Dollar pinned at two-month high as bond rout extends, Fed rate hike bets rise
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed rates
+- ⚪ [6]
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [9, 9, 6, 6, 1, 8, 1] (รวม 40) → ฐาน 9 = 4 · เลข 4 — เสถียร ทรงตัว · เลขคู่เสียง 3
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 4 — เสถียร ทรงตัว — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=30 ออเดอร์ (~10.0/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.196/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 335 ออเดอร์
+🏆 trend: n=81 net=$2.51 wr=64%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.021/trade (n=2)
+
+## 2026-09-28 23:14 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 111558029 → 111558029)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (36018 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 06:12", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0772, "n": 67}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 333}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 331 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 84 wr=0.56 win=0.61R loss=0.92R | SL=1.0 TP=1.3R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.3R
+   trend            n= 79 wr=0.59 win=0.79R loss=1.01R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 06:12", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 115, "wr": 0.687, "avg_win_R": 0.624, "avg_loss_R": 1.0
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 335 ไม้ (2026-08-26T06:09 → 2026-09-28T22:34) | net +2.13 | เฉลี่ย +0.006 | ชนะ 62.4% | PF 1.04 ✓
+   · trend            ไม้  24 | net  +4.71 | PF  1.65 ✓ | 24 ล่าสุด: +0.196/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +4.71 (24 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (1 รอบ · 05:21→05:21 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_sell               คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_buy       คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_sell      คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.779/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.663/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 63%  (score -0.319)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=63
+ASTRO=bullish:0.68
+NOTE=ภายใน: แรงซื้อ/ขาย 0.120798/0.194756 (สุทธิ -0.23) · engine เอน 0B/34S 24ชม. (-1.00) · ดูดวง bullish 0.68 (+0.68) · rolling20 $+1.46 · net72h $+0.196/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-29 06:14 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.56 · คะแนนหนุน 6 / กด 21) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 6 ข่าว · คะแนนรวม 36 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 28 (หนุน 0 / กด 2) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 3 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 11 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **เงินเฟ้อ** — 2 ข่าว · คะแนนรวม 6 (หนุน 2 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **เศรษฐกิจมหภาค** — 2 ข่าว · คะแนนรวม 6 (หนุน 2 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- 🔴 [8] (markets) Dollar pinned at two-month high as bond rout extends, Fed rate hike bets rise
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed rates
+- ⚪ [6]
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.68
+- เลข 7 ตัว: [9, 9, 6, 6, 4, 9, 1] (รวม 44) → ฐาน 9 = 8 · เลข 8 — มั่งคั่ง เฟื่องฟู · เลขคู่เสียง 7
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 8 — มั่งคั่ง เฟื่องฟู — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=30 ออเดอร์ (~10.0/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.196/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 335 ออเดอร์
+🏆 trend: n=81 net=$2.51 wr=64%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.021/trade (n=2)
+
+## 2026-09-28 23:27 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 111815579 → 111836747)
+   6 คีย์ ไม่ผ่าน (ถูกชะลอ) · 6 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell, trend_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (36086 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 06:25", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0772, "n": 67}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 333}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 331 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   range            n= 84 wr=0.56 win=0.61R loss=0.92R | SL=1.0 TP=1.3R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.3R
+   trend            n= 79 wr=0.59 win=0.79R loss=1.01R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 06:25", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 115, "wr": 0.687, "avg_win_R": 0.624, "avg_loss_R": 1.0
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 335 ไม้ (2026-08-26T06:09 → 2026-09-28T22:34) | net +2.13 | เฉลี่ย +0.006 | ชนะ 62.4% | PF 1.04 ✓
+   · trend            ไม้  24 | net  +4.71 | PF  1.65 ✓ | 24 ล่าสุด: +0.196/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +4.71 (24 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (1 รอบ · 05:21→05:21 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_sell               คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_buy       คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_sell      คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.779/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.663/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 62%  (score -0.308)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=62
+ASTRO=bullish:0.68
+NOTE=ภายใน: แรงซื้อ/ขาย 0.110169/0.168178 (สุทธิ -0.21) · engine เอน 0B/34S 24ชม. (-1.00) · ดูดวง bullish 0.68 (+0.68) · rolling20 $+1.46 · net72h $+0.196/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-29 06:27 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.56 · คะแนนหนุน 6 / กด 21) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 6 ข่าว · คะแนนรวม 36 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 28 (หนุน 0 / กด 2) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 3 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 11 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **เงินเฟ้อ** — 2 ข่าว · คะแนนรวม 6 (หนุน 2 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **เศรษฐกิจมหภาค** — 2 ข่าว · คะแนนรวม 6 (หนุน 2 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- 🔴 [8] (markets) Dollar pinned at two-month high as bond rout extends, Fed rate hike bets rise
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed rates
+- ⚪ [6]
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.68
+- เลข 7 ตัว: [9, 9, 6, 6, 7, 8, 1] (รวม 46) → ฐาน 9 = 1 · เลข 1 — จุดเริ่มเดินหน้า แนวโน้มขึ้น · เลขคู่เสียง 9
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 1 — จุดเริ่มเดินหน้า แนวโน้มขึ้น — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=31 ออเดอร์ (~10.3/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.196/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 335 ออเดอร์
+🏆 trend: n=81 net=$2.51 wr=64%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.021/trade (n=2)
+
+## 2026-09-28 23:40 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 112101234 → 112144376)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (36160 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 06:38", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0854, "n": 68}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 334}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 5 รายการที่ควรปรับ (จาก R-multiple จริง 332 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.3R
+   range            n= 85 wr=0.56 win=0.62R loss=0.92R | SL=1.0 TP=1.3R
+   trend            n= 79 wr=0.59 win=0.79R loss=1.01R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 06:38", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.50R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.4, "reward_risk_from": 1.5}, {"action": "set_tpsl", "strategy": "counter_trend", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.44R < 55% ของเป้า 1.30R)", "evidence": "n=27 wr=0.52 avg_win=0.44R avg_loss=0.90R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 336 ไม้ (2026-08-26T06:09 → 2026-09-28T23:29) | net +2.77 | เฉลี่ย +0.008 | ชนะ 62.5% | PF 1.05 ✓
+   · trend            ไม้  25 | net  +5.35 | PF  1.74 ✓ | 25 ล่าสุด: +0.214/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +5.35 (25 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (1 รอบ · 06:26→06:26 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 1 · คะแนนถ่วงน้ำหนักสูงเกินบน 1
+      mean_reversion_buy       คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.537/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.456/0.296
+      ✅ mean_reversion_sell      ดิบ 0.302/0.132 · prob 0.56 · ถ่วงน้ำหนัก 0.257/0.113
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: กลาง · น้ำหนัก 54%  (score -0.100)
+[INTERNAL-SIGNAL]
+DIRECTION=NEUTRAL
+WEIGHT=54
+ASTRO=bullish:0.68
+NOTE=ภายใน: แรงซื้อ/ขาย 0.128087/0.076447 (สุทธิ +0.25) · engine เอน 0B/35S 24ชม. (-1.00) · ดูดวง bullish 0.68 (+0.68) · rolling20 $+2.82 · net72h $+0.214/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-29 06:40 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.60 · คะแนนหนุน 6 / กด 24) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 5 ข่าว · คะแนนรวม 33 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 28 (หนุน 0 / กด 2) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 3 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 14 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **เงินเฟ้อ** — 2 ข่าว · คะแนนรวม 6 (หนุน 2 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **เศรษฐกิจมหภาค** — 2 ข่าว · คะแนนรวม 6 (หนุน 2 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- 🔴 [8] (markets) Dollar pinned at two-month high as bond rout extends, Fed rate hike bets rise
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed rates
+- ⚪ [6]
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.68
+- เลข 7 ตัว: [9, 9, 6, 6, 10, 1, 1] (รวม 42) → ฐาน 9 = 6 · เลข 6 — เดินขึ้น เกื้อหนุน · เลขคู่เสียง 5
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 6 — เดินขึ้น เกื้อหนุน — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=31 ออเดอร์ (~10.3/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.214/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 336 ออเดอร์
+🏆 trend: n=82 net=$3.15 wr=65%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.018/trade (n=2)
+
+## 2026-09-28 23:53 UTC — งานวิจัยรวม (14 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 112384778 → 112449279)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (36234 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 06:51", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0935, "n": 69}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 335}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 333 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.3R
+   range            n= 86 wr=0.57 win=0.64R loss=0.92R | SL=1.0 TP=1.3R
+   trend            n= 79 wr=0.59 win=0.79R loss=1.01R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 06:51", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 115, "wr": 0.687, "avg_win_R": 0.624, "avg_loss_R": 1.0
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 337 ไม้ (2026-08-26T06:09 → 2026-09-28T23:48) | net +3.41 | เฉลี่ย +0.010 | ชนะ 62.6% | PF 1.06 ✓
+   · trend            ไม้  26 | net  +5.99 | PF  1.83 ✓ | 26 ล่าสุด: +0.230/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +5.99 (26 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (1 รอบ · 06:47→06:47 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_buy       คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.525/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.446/0.296
+      ✅ range_sell               ดิบ 0.321/0.231 · prob 0.53 · ถ่วงน้ำหนัก 0.369/0.266
+      ✅ mean_reversion_sell      ดิบ 0.228/0.132 · prob 0.56 · ถ่วงน้ำหนัก 0.194/0.113
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 63%  (score -0.313)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=63
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.109967/0.127175 (สุทธิ -0.07) · engine เอน 0B/36S 24ชม. (-1.00) · ดูดวง bullish 0.35 (+0.35) · rolling20 $+4.13 · net72h $+0.230/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-29 06:53 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.60 · คะแนนหนุน 6 / กด 24) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 5 ข่าว · คะแนนรวม 33 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 28 (หนุน 0 / กด 2) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 3 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 14 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **เงินเฟ้อ** — 2 ข่าว · คะแนนรวม 6 (หนุน 2 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **เศรษฐกิจมหภาค** — 2 ข่าว · คะแนนรวม 6 (หนุน 2 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets
+- 🔴 [8] (markets) Dollar pinned at two-month high as bond rout extends, Fed rate hike bets rise
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed rates
+- ⚪ [6]
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.68
+- เลข 7 ตัว: [9, 9, 6, 6, 3, 10, 1] (รวม 44) → ฐาน 9 = 8 · เลข 8 — มั่งคั่ง เฟื่องฟู · เลขคู่เสียง 7
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 8 — มั่งคั่ง เฟื่องฟู — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### P/L Attribution
+## 2026-09-28 23:53 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=1 | errors=0
+- **✅ กำไร** 2026-09-28T23:48:18 | trend sell | net=$0.64 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=1 loss=0 net_total=$0.6400 | net เฉลี่ย $0.6400/trade ★ | winrate=100.0% (รายงานเท่านั้น)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=32 ออเดอร์ (~10.7/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.230/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 337 ออเดอร์
+🏆 trend: n=83 net=$3.79 wr=65%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.008/trade (n=2)
+
+## 2026-09-29 00:06 UTC — งานวิจัยรวม (14 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 112644204 → 112731532)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (36303 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 07:04", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0871, "n": 70}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 336}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 334 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.3R
+   range            n= 87 wr=0.56 win=0.64R loss=0.92R | SL=1.0 TP=1.3R
+   trend            n= 79 wr=0.59 win=0.79R loss=1.01R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 07:04", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 115, "wr": 0.687, "avg_win_R": 0.624, "avg_loss_R": 1.0
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 338 ไม้ (2026-08-26T06:09 → 2026-09-28T23:59) | net +3.06 | เฉลี่ย +0.009 | ชนะ 62.4% | PF 1.05 ✓
+   · trend            ไม้  27 | net  +5.64 | PF  1.74 ✓ | 27 ล่าสุด: +0.209/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +5.64 (27 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (1 รอบ · 06:58→06:58 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_buy       คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_sell      คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.582/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.495/0.296
+      ✅ range_sell               ดิบ 0.244/0.231 · prob 0.53 · ถ่วงน้ำหนัก 0.281/0.266
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 69%  (score -0.482)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=69
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.087315/0.229122 (สุทธิ -0.45) · engine เอน 0B/37S 24ชม. (-1.00) · ดูดวง bullish 0.35 (+0.35) · rolling20 $+4.40 · net72h $+0.209/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-29 07:06 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.43 · คะแนนหนุน 6 / กด 15) → ระดับความระวัง: **ปกติ (ข่าวสองทาง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 5 ข่าว · คะแนนรวม 27 (หนุน 0 / กด 1) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 3 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 14 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 1) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **เงินเฟ้อ** — 2 ข่าว · คะแนนรวม 6 (หนุน 2 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **เศรษฐกิจมหภาค** — 2 ข่าว · คะแนนรวม 6 (หนุน 2 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [8] (markets) Dollar pinned at two-month high as bond rout extends, Fed rate hike bets rise
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed rates
+- ⚪ [6] (markets) Dollar holds near two-month high as oil, data bolster Fed rate bets
+- ⚪ [5] (commoditie
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: → ออกข้าง (sideways) · strength 0.25
+- เลข 7 ตัว: [9, 9, 6, 7, 6, 5, 1] (รวม 43) → ฐาน 9 = 7 · เลข 7 — เสี่ยง ดาวเสาร์กด · เลขคู่เสียง 6
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 7 — เสี่ยง ดาวเสาร์กด — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### P/L Attribution
+## 2026-09-29 00:06 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=1 | errors=0
+- **❌ ขาดทุน** 2026-09-28T23:59:26 | trend sell | net=$-0.35 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=0 loss=1 net_total=$-0.3500 | net เฉลี่ย $-0.3500/trade ★ | winrate=0.0% (รายงานเท่านั้น)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=33 ออเดอร์ (~11.0/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.209/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 338 ออเดอร์
+🏆 trend: n=84 net=$3.44 wr=64%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.006/trade (n=2)
+
+## 2026-09-29 00:19 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 112939318 → 113072660)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (36380 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 07:17", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0871, "n": 70}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 336}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 5 รายการที่ควรปรับ (จาก R-multiple จริง 334 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.3R
+   range            n= 87 wr=0.56 win=0.64R loss=0.92R | SL=1.0 TP=1.3R
+   trend            n= 79 wr=0.59 win=0.79R loss=1.01R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 07:17", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.50R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.4, "reward_risk_from": 1.5}, {"action": "set_tpsl", "strategy": "counter_trend", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.44R < 55% ของเป้า 1.30R)", "evidence": "n=27 wr=0.52 avg_win=0.44R avg_loss=0.90R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 338 ไม้ (2026-08-26T06:09 → 2026-09-28T23:59) | net +3.06 | เฉลี่ย +0.009 | ชนะ 62.4% | PF 1.05 ✓
+   · trend            ไม้  27 | net  +5.64 | PF  1.74 ✓ | 27 ล่าสุด: +0.209/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +5.64 (27 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (2 รอบ · 07:10→07:16 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 2 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      range_buy                คะแนนดิบสูงเกินบน(อิ่มตัว) 2 · คะแนนถ่วงน้ำหนักสูงเกินบน 2
+      range_sell               คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      mean_reversion_buy       คะแนนดิบสูงเกินบน(อิ่มตัว) 2 · คะแนนถ่วงน้ำหนักสูงเกินบน 2
+      mean_reversion_sell      คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      counter_trend_buy        คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.594/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.504/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 60%  (score -0.259)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=60
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.176341/0.160704 (สุทธิ +0.05) · engine เอน 0B/39S 24ชม. (-1.00) · ดูดวง bullish 0.35 (+0.35) · rolling20 $+4.40 · net72h $+0.209/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-29 07:19 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.43 · คะแนนหนุน 6 / กด 15) → ระดับความระวัง: **ปกติ (ข่าวสองทาง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 5 ข่าว · คะแนนรวม 27 (หนุน 0 / กด 1) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 3 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 14 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 1) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **เงินเฟ้อ** — 2 ข่าว · คะแนนรวม 6 (หนุน 2 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **เศรษฐกิจมหภาค** — 2 ข่าว · คะแนนรวม 6 (หนุน 2 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [8] (markets) Dollar pinned at two-month high as bond rout extends, Fed rate hike bets rise
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed rates
+- ⚪ [6] (markets) Dollar holds near two-month high as oil, data bolster Fed rate bets
+- ⚪ [5] (commoditie
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.68
+- เลข 7 ตัว: [9, 9, 6, 7, 9, 1, 1] (รวม 42) → ฐาน 9 = 6 · เลข 6 — เดินขึ้น เกื้อหนุน · เลขคู่เสียง 5
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 6 — เดินขึ้น เกื้อหนุน — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=37 ออเดอร์ (~12.3/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.209/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 338 ออเดอร์
+🏆 trend: n=84 net=$3.44 wr=64%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.006/trade (n=2)
+
+## 2026-09-29 00:33 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 113316031 → 113489495)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (36471 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 07:30", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0871, "n": 70}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 336}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 334 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.3R
+   range            n= 87 wr=0.56 win=0.64R loss=0.92R | SL=1.0 TP=1.3R
+   trend            n= 79 wr=0.59 win=0.79R loss=1.01R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 07:30", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 115, "wr": 0.687, "avg_win_R": 0.624, "avg_loss_R": 1.0
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 338 ไม้ (2026-08-26T06:09 → 2026-09-28T23:59) | net +3.06 | เฉลี่ย +0.009 | ชนะ 62.4% | PF 1.05 ✓
+   · trend            ไม้  27 | net  +5.64 | PF  1.74 ✓ | 27 ล่าสุด: +0.209/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +5.64 (27 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (2 รอบ · 07:19→07:28 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 2 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      range_buy                คะแนนดิบสูงเกินบน(อิ่มตัว) 2 · คะแนนถ่วงน้ำหนักสูงเกินบน 2
+      range_sell               คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      mean_reversion_buy       คะแนนดิบสูงเกินบน(อิ่มตัว) 2 · คะแนนถ่วงน้ำหนักสูงเกินบน 2
+      mean_reversion_sell      คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      counter_trend_buy        คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      breakout_sell            คะแนนดิบสูงเกินบน(อิ่มตัว) 1 · คะแนนถ่วงน้ำหนักสูงเกินบน 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.766/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.652/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 69%  (score -0.469)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=69
+ASTRO=sideways:0.25
+NOTE=ภายใน: แรงซื้อ/ขาย 0.128356/0.220287 (สุทธิ -0.26) · engine เอน 0B/43S 24ชม. (-1.00) · ดูดวง sideways 0.25 (+0.00) · rolling20 $+4.40 · net72h $+0.209/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-29 07:32 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.43 · คะแนนหนุน 6 / กด 15) → ระดับความระวัง: **ปกติ (ข่าวสองทาง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 5 ข่าว · คะแนนรวม 27 (หนุน 0 / กด 1) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 3 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 14 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 1) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **เงินเฟ้อ** — 2 ข่าว · คะแนนรวม 6 (หนุน 2 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **เศรษฐกิจมหภาค** — 2 ข่าว · คะแนนรวม 6 (หนุน 2 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [8] (markets) Dollar pinned at two-month high as bond rout extends, Fed rate hike bets rise
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed rates
+- ⚪ [6] (markets) Dollar holds near two-month high as oil, data bolster Fed rate bets
+- ⚪ [5] (commoditie
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.68
+- เลข 7 ตัว: [9, 9, 6, 7, 2, 3, 1] (รวม 37) → ฐาน 9 = 1 · เลข 1 — จุดเริ่มเดินหน้า แนวโน้มขึ้น · เลขคู่เสียง 9
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 1 — จุดเริ่มเดินหน้า แนวโน้มขึ้น — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=39 ออเดอร์ (~13.0/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.209/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 338 ออเดอร์
+🏆 trend: n=84 net=$3.44 wr=64%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.006/trade (n=2)
+
+## 2026-09-29 00:45 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 113806355 → 113828171)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (36547 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 07:43", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0871, "n": 70}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 336}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 334 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.3R
+   range            n= 87 wr=0.56 win=0.64R loss=0.92R | SL=1.0 TP=1.3R
+   trend            n= 79 wr=0.59 win=0.79R loss=1.01R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 07:43", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 115, "wr": 0.687, "avg_win_R": 0.624, "avg_loss_R": 1.0
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 338 ไม้ (2026-08-26T06:09 → 2026-09-28T23:59) | net +3.06 | เฉลี่ย +0.009 | ชนะ 62.4% | PF 1.05 ✓
+   · trend            ไม้  27 | net  +5.64 | PF  1.74 ✓ | 27 ล่าสุด: +0.209/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +5.64 (27 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (2 รอบ · 07:35→07:40 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 2 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      range_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_buy       คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_sell      คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      counter_trend_buy        คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.724/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.616/0.296
+      ✅ range_sell               ดิบ 0.372/0.231 · prob 0.53 · ถ่วงน้ำหนัก 0.427/0.266
+      ✅ mean_reversion_sell      ดิบ 0.191/0.132 · prob 0.56 · ถ่วงน้ำหนัก 0.163/0.113
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 60%  (score -0.260)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=60
+ASTRO=bullish:0.68
+NOTE=ภายใน: แรงซื้อ/ขาย 0.126252/0.155236 (สุทธิ -0.10) · engine เอน 0B/45S 24ชม. (-1.00) · ดูดวง bullish 0.68 (+0.68) · rolling20 $+4.40 · net72h $+0.209/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-29 07:45 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.43 · คะแนนหนุน 6 / กด 15) → ระดับความระวัง: **ปกติ (ข่าวสองทาง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 5 ข่าว · คะแนนรวม 27 (หนุน 0 / กด 1) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 3 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 14 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 1) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **เงินเฟ้อ** — 2 ข่าว · คะแนนรวม 6 (หนุน 2 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **เศรษฐกิจมหภาค** — 2 ข่าว · คะแนนรวม 6 (หนุน 2 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [8] (markets) Dollar pinned at two-month high as bond rout extends, Fed rate hike bets rise
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed rates
+- ⚪ [6] (markets) Dollar holds near two-month high as oil, data bolster Fed rate bets
+- ⚪ [5] (commoditie
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [9, 9, 6, 7, 5, 1, 1] (รวม 38) → ฐาน 9 = 2 · เลข 2 — คู่สมดุล รอจังหวะ · เลขคู่เสียง 1
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 2 — คู่สมดุล รอจังหวะ — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=42 ออเดอร์ (~14.0/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.209/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 338 ออเดอร์
+🏆 trend: n=84 net=$3.44 wr=64%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.006/trade (n=2)
+
+## 2026-09-29 00:59 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 114142542 → 114187739)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (36618 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 07:56", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0871, "n": 70}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 336}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 5 รายการที่ควรปรับ (จาก R-multiple จริง 334 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.3R
+   range            n= 87 wr=0.56 win=0.64R loss=0.92R | SL=1.0 TP=1.3R
+   trend            n= 79 wr=0.59 win=0.79R loss=1.01R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 07:56", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.50R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.4, "reward_risk_from": 1.5}, {"action": "set_tpsl", "strategy": "counter_trend", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.44R < 55% ของเป้า 1.30R)", "evidence": "n=27 wr=0.52 avg_win=0.44R avg_loss=0.90R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 338 ไม้ (2026-08-26T06:09 → 2026-09-28T23:59) | net +3.06 | เฉลี่ย +0.009 | ชนะ 62.4% | PF 1.05 ✓
+   · trend            ไม้  27 | net  +5.64 | PF  1.74 ✓ | 27 ล่าสุด: +0.209/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +5.64 (27 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (8 รอบ · 07:49→07:55 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 3 รอบ · ไม่ผ่าน = 5 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      range_buy                คะแนนดิบสูงเกินบน(อิ่มตัว) 8 · คะแนนถ่วงน้ำหนักสูงเกินบน 8 · ด่าน 3 ไม่เทรด(ฝั่งตรงข้ามแรงกว่า) 2
+      trend_buy                คะแนนดิบต่ำ 8 · คะแนนถ่วงน้ำหนักต่ำ 8
+      mean_reversion_buy       คะแนนดิบสูงเกินบน(อิ่มตัว) 8 · คะแนนถ่วงน้ำหนักสูงเกินบน 8
+      mean_reversion_sell      คะแนนดิบต่ำ 8 · คะแนนถ่วงน้ำหนักต่ำ 8
+      counter_trend_buy        คะแนนดิบต่ำ 8 · คะแนนถ่วงน้ำหนักต่ำ 8
+      trend_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 7 · คะแนนถ่วงน้ำหนักสูงเกินบน 7
+      range_sell               คะแนนดิบต่ำ 6 · คะแนนถ่วงน้ำหนักต่ำ 6
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ range_sell               ดิบ 0.239/0.231 · prob 0.53 · ถ่วงน้ำหนัก 0.274/0.266
+      ✅ trend_sell               ดิบ 0.894/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.760/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 58%  (score -0.197)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=58
+ASTRO=bullish:0.68
+NOTE=ภายใน: แรงซื้อ/ขาย 0.224565/0.208429 (สุทธิ +0.04) · engine เอน 0B/47S 24ชม. (-1.00) · ดูดวง bullish 0.68 (+0.68) · rolling20 $+4.40 · net72h $+0.209/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-29 07:58 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.43 · คะแนนหนุน 6 / กด 15) → ระดับความระวัง: **ปกติ (ข่าวสองทาง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 5 ข่าว · คะแนนรวม 27 (หนุน 0 / กด 1) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 3 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 14 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 1) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **เงินเฟ้อ** — 2 ข่าว · คะแนนรวม 6 (หนุน 2 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **เศรษฐกิจมหภาค** — 2 ข่าว · คะแนนรวม 6 (หนุน 2 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [8] (markets) Dollar pinned at two-month high as bond rout extends, Fed rate hike bets rise
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed rates
+- ⚪ [6] (markets) Dollar holds near two-month high as oil, data bolster Fed rate bets
+- ⚪ [5] (commoditie
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [9, 9, 6, 7, 8, 7, 1] (รวม 47) → ฐาน 9 = 2 · เลข 2 — คู่สมดุล รอจังหวะ · เลขคู่เสียง 1
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 2 — คู่สมดุล รอจังหวะ — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=43 ออเดอร์ (~14.3/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.209/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 338 ออเดอร์
+🏆 trend: n=84 net=$3.44 wr=64%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.006/trade (n=2)
+
+## 2026-09-29 01:11 UTC — งานวิจัยรวม (14 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 114435685 → 114512961)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (36680 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 08:09", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0772, "n": 71}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 337}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 335 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.3R
+   range            n= 88 wr=0.56 win=0.64R loss=0.93R | SL=1.0 TP=1.3R
+   trend            n= 79 wr=0.59 win=0.79R loss=1.01R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 08:09", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 115, "wr": 0.687, "avg_win_R": 0.624, "avg_loss_R": 1.0
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 339 ไม้ (2026-08-26T06:09 → 2026-09-29T01:05) | net +2.44 | เฉลี่ย +0.007 | ชนะ 62.2% | PF 1.04 ✓
+   · trend            ไม้  28 | net  +5.02 | PF  1.61 ✓ | 28 ล่าสุด: +0.179/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +5.02 (28 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (9 รอบ · 08:02→08:09 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 0 รอบ · ไม่ผ่าน = 9 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 9 · คะแนนถ่วงน้ำหนักต่ำ 9
+      trend_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 9 · คะแนนถ่วงน้ำหนักสูงเกินบน 9
+      range_buy                คะแนนดิบสูงเกินบน(อิ่มตัว) 9 · คะแนนถ่วงน้ำหนักสูงเกินบน 9
+      range_sell               คะแนนดิบต่ำ 9 · คะแนนถ่วงน้ำหนักต่ำ 9
+      mean_reversion_buy       คะแนนดิบสูงเกินบน(อิ่มตัว) 9 · คะแนนถ่วงน้ำหนักสูงเกินบน 9
+      mean_reversion_sell      คะแนนดิบต่ำ 9 · คะแนนถ่วงน้ำหนักต่ำ 9
+      counter_trend_buy        คะแนนดิบต่ำ 9 · คะแนนถ่วงน้ำหนักต่ำ 9
+    ไม่มีตัวผ่านด่าน 2 ในช่วงนี้
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 62%  (score -0.301)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=62
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.214379/0.235001 (สุทธิ -0.05) · engine เอน 0B/47S 24ชม. (-1.00) · ดูดวง bullish 0.35 (+0.35) · rolling20 $+3.11 · net72h $+0.179/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-29 08:11 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.43 · คะแนนหนุน 6 / กด 15) → ระดับความระวัง: **ปกติ (ข่าวสองทาง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 5 ข่าว · คะแนนรวม 27 (หนุน 0 / กด 1) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 3 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 14 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 1) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **เงินเฟ้อ** — 2 ข่าว · คะแนนรวม 6 (หนุน 2 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **เศรษฐกิจมหภาค** — 2 ข่าว · คะแนนรวม 6 (หนุน 2 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [8] (markets) Dollar pinned at two-month high as bond rout extends, Fed rate hike bets rise
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed rates
+- ⚪ [6] (markets) Dollar holds near two-month high as oil, data bolster Fed rate bets
+- ⚪ [5] (commoditie
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.68
+- เลข 7 ตัว: [9, 9, 6, 8, 1, 10, 1] (รวม 44) → ฐาน 9 = 8 · เลข 8 — มั่งคั่ง เฟื่องฟู · เลขคู่เสียง 7
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 8 — มั่งคั่ง เฟื่องฟู — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### P/L Attribution
+## 2026-09-29 01:11 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=2 | errors=0
+- **❌ ขาดทุน** 2026-09-29T01:05:27 | trend sell | net=$-0.62 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=0 loss=1 net_total=$-0.6200 | net เฉลี่ย $-0.6200/trade ★ | winrate=0.0% (รายงานเท่านั้น)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=45 ออเดอร์ (~15.0/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.179/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 339 ออเดอร์
+🏆 trend: n=85 net=$2.82 wr=64%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.015/trade (n=2)
+
+## 2026-09-29 01:25 UTC — งานวิจัยรวม (14 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 114778500 → 114872480)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (36760 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 08:22", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0711, "n": 72}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 338}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 336 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.3R
+   range            n= 88 wr=0.56 win=0.64R loss=0.93R | SL=1.0 TP=1.3R
+   trend            n= 80 wr=0.59 win=0.79R loss=1.00R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 08:22", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 115, "wr": 0.687, "avg_win_R": 0.624, "avg_loss_R": 1.0
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 340 ไม้ (2026-08-26T06:09 → 2026-09-29T01:21) | net +2.08 | เฉลี่ย +0.006 | ชนะ 62.1% | PF 1.03 ✓
+   · trend            ไม้  29 | net  +4.66 | PF  1.54 ✓ | 29 ล่าสุด: +0.161/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +4.66 (29 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (9 รอบ · 08:04→08:13 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 3 รอบ · ไม่ผ่าน = 6 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 9 · คะแนนถ่วงน้ำหนักต่ำ 9
+      mean_reversion_sell      คะแนนดิบต่ำ 9 · คะแนนถ่วงน้ำหนักต่ำ 9
+      counter_trend_buy        คะแนนดิบต่ำ 9 · คะแนนถ่วงน้ำหนักต่ำ 9
+      trend_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 6 · คะแนนถ่วงน้ำหนักสูงเกินบน 6
+      range_buy                คะแนนดิบสูงเกินบน(อิ่มตัว) 6 · คะแนนถ่วงน้ำหนักสูงเกินบน 6
+      range_sell               คะแนนดิบต่ำ 6 · คะแนนถ่วงน้ำหนักต่ำ 6
+      mean_reversion_buy       คะแนนดิบสูงเกินบน(อิ่มตัว) 6 · คะแนนถ่วงน้ำหนักสูงเกินบน 6
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.761/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.647/0.296
+      ✅ range_sell               ดิบ 0.298/0.231 · prob 0.53 · ถ่วงน้ำหนัก 0.342/0.266
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 69%  (score -0.469)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=69
+ASTRO=sideways:0.25
+NOTE=ภายใน: แรงซื้อ/ขาย 0.141659/0.243197 (สุทธิ -0.26) · engine เอน 0B/50S 24ชม. (-1.00) · ดูดวง sideways 0.25 (+0.00) · rolling20 $+2.10 · net72h $+0.161/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-29 08:24 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.43 · คะแนนหนุน 6 / กด 15) → ระดับความระวัง: **ปกติ (ข่าวสองทาง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 5 ข่าว · คะแนนรวม 27 (หนุน 0 / กด 1) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 3 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 14 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 1) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **เงินเฟ้อ** — 2 ข่าว · คะแนนรวม 6 (หนุน 2 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **เศรษฐกิจมหภาค** — 2 ข่าว · คะแนนรวม 6 (หนุน 2 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [8] (markets) Dollar pinned at two-month high as bond rout extends, Fed rate hike bets rise
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed rates
+- ⚪ [6] (markets) Dollar holds near two-month high as oil, data bolster Fed rate bets
+- ⚪ [5] (commoditie
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [9, 9, 6, 8, 4, 8, 1] (รวม 45) → ฐาน 9 = 9 · เลข 9 — ครบรอบ จบ-เริ่มใหม่ · เลขคู่เสียง 8
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 9 — ครบรอบ จบ-เริ่มใหม่ — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### P/L Attribution
+## 2026-09-29 01:24 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=1 | errors=0
+- **❌ ขาดทุน** 2026-09-29T01:21:44 | trend sell | net=$-0.36 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=0 loss=1 net_total=$-0.3600 | net เฉลี่ย $-0.3600/trade ★ | winrate=0.0% (รายงานเท่านั้น)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=47 ออเดอร์ (~15.7/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.161/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 340 ออเดอร์
+🏆 trend: n=86 net=$2.46 wr=63%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.015/trade (n=2)
+
+## 2026-09-29 01:37 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 115068908 → 115180063)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (36833 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 08:35", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0711, "n": 72}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 338}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 5 รายการที่ควรปรับ (จาก R-multiple จริง 336 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.3R
+   range            n= 88 wr=0.56 win=0.64R loss=0.93R | SL=1.0 TP=1.3R
+   trend            n= 80 wr=0.59 win=0.79R loss=1.00R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 08:35", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.50R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.4, "reward_risk_from": 1.5}, {"action": "set_tpsl", "strategy": "counter_trend", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.44R < 55% ของเป้า 1.30R)", "evidence": "n=27 wr=0.52 avg_win=0.44R avg_loss=0.90R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 340 ไม้ (2026-08-26T06:09 → 2026-09-29T01:21) | net +2.08 | เฉลี่ย +0.006 | ชนะ 62.1% | PF 1.03 ✓
+   · trend            ไม้  29 | net  +4.66 | PF  1.54 ✓ | 29 ล่าสุด: +0.161/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +4.66 (29 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (1 รอบ · 08:24→08:24 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 1 · คะแนนถ่วงน้ำหนักสูงเกินบน 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.554/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.471/0.296
+      ✅ mean_reversion_sell      ดิบ 0.332/0.132 · prob 0.56 · ถ่วงน้ำหนัก 0.282/0.113
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 61%  (score -0.287)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=61
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.086398/0.089206 (สุทธิ -0.02) · engine เอน 0B/51S 24ชม. (-1.00) · ดูดวง bullish 0.35 (+0.35) · rolling20 $+2.10 · net72h $+0.161/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-29 08:37 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.43 · คะแนนหนุน 6 / กด 15) → ระดับความระวัง: **ปกติ (ข่าวสองทาง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 5 ข่าว · คะแนนรวม 27 (หนุน 0 / กด 1) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 3 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 14 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 1) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **เงินเฟ้อ** — 2 ข่าว · คะแนนรวม 6 (หนุน 2 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **เศรษฐกิจมหภาค** — 2 ข่าว · คะแนนรวม 6 (หนุน 2 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [8] (markets) Dollar pinned at two-month high as bond rout extends, Fed rate hike bets rise
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed rates
+- ⚪ [6] (markets) Dollar holds near two-month high as oil, data bolster Fed rate bets
+- ⚪ [5] (commoditie
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: → ออกข้าง (sideways) · strength 0.25
+- เลข 7 ตัว: [9, 9, 6, 8, 7, 1, 1] (รวม 41) → ฐาน 9 = 5 · เลข 5 — เปลี่ยนแปลง ผันผวนลงได้ · เลขคู่เสียง 4
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 5 — เปลี่ยนแปลง ผันผวนลงได้ — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=47 ออเดอร์ (~15.7/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.161/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 340 ออเดอร์
+🏆 trend: n=86 net=$2.46 wr=63%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.015/trade (n=2)
+
+## 2026-09-29 01:50 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 115456886 → 115456886)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (36897 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 08:48", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0711, "n": 72}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 338}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 336 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.3R
+   range            n= 88 wr=0.56 win=0.64R loss=0.93R | SL=1.0 TP=1.3R
+   trend            n= 80 wr=0.59 win=0.79R loss=1.00R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 08:48", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 115, "wr": 0.687, "avg_win_R": 0.624, "avg_loss_R": 1.0
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 340 ไม้ (2026-08-26T06:09 → 2026-09-29T01:21) | net +2.08 | เฉลี่ย +0.006 | ชนะ 62.1% | PF 1.03 ✓
+   · trend            ไม้  29 | net  +4.66 | PF  1.54 ✓ | 29 ล่าสุด: +0.161/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +4.66 (29 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (1 รอบ · 08:24→08:24 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 1 · คะแนนถ่วงน้ำหนักสูงเกินบน 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.554/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.471/0.296
+      ✅ mean_reversion_sell      ดิบ 0.332/0.132 · prob 0.56 · ถ่วงน้ำหนัก 0.282/0.113
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 73%  (score -0.568)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=73
+ASTRO=sideways:0.25
+NOTE=ภายใน: แรงซื้อ/ขาย 0.100064/0.288856 (สุทธิ -0.49) · engine เอน 0B/51S 24ชม. (-1.00) · ดูดวง sideways 0.25 (+0.00) · rolling20 $+2.10 · net72h $+0.161/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-29 08:50 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.43 · คะแนนหนุน 6 / กด 15) → ระดับความระวัง: **ปกติ (ข่าวสองทาง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 5 ข่าว · คะแนนรวม 27 (หนุน 0 / กด 1) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 3 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 14 (หนุน 0 / กด 2) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 1) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **เงินเฟ้อ** — 2 ข่าว · คะแนนรวม 6 (หนุน 2 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **เศรษฐกิจมหภาค** — 2 ข่าว · คะแนนรวม 6 (หนุน 2 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [8] (markets) Dollar pinned at two-month high as bond rout extends, Fed rate hike bets rise
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed rates
+- ⚪ [6] (markets) Dollar holds near two-month high as oil, data bolster Fed rate bets
+- ⚪ [5] (commoditie
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.68
+- เลข 7 ตัว: [9, 9, 6, 8, 10, 1, 1] (รวม 44) → ฐาน 9 = 8 · เลข 8 — มั่งคั่ง เฟื่องฟู · เลขคู่เสียง 7
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 8 — มั่งคั่ง เฟื่องฟู — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=47 ออเดอร์ (~15.7/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.161/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 340 ออเดอร์
+🏆 trend: n=86 net=$2.46 wr=63%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.015/trade (n=2)
+
+## 2026-09-29 02:03 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 115731279 → 115751928)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (36952 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 09:01", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0711, "n": 72}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 338}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 336 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.3R
+   range            n= 88 wr=0.56 win=0.64R loss=0.93R | SL=1.0 TP=1.3R
+   trend            n= 80 wr=0.59 win=0.79R loss=1.00R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 09:01", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 115, "wr": 0.687, "avg_win_R": 0.624, "avg_loss_R": 1.0
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 340 ไม้ (2026-08-26T06:09 → 2026-09-29T01:21) | net +2.08 | เฉลี่ย +0.006 | ชนะ 62.1% | PF 1.03 ✓
+   · trend            ไม้  29 | net  +4.66 | PF  1.54 ✓ | 29 ล่าสุด: +0.161/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +4.66 (29 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (1 รอบ · 08:24→08:24 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 1 · คะแนนถ่วงน้ำหนักสูงเกินบน 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.554/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.471/0.296
+      ✅ mean_reversion_sell      ดิบ 0.332/0.132 · prob 0.56 · ถ่วงน้ำหนัก 0.282/0.113
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 66%  (score -0.391)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=66
+ASTRO=bullish:0.68
+NOTE=ภายใน: แรงซื้อ/ขาย 0.099594/0.228226 (สุทธิ -0.39) · engine เอน 0B/51S 24ชม. (-1.00) · ดูดวง bullish 0.68 (+0.68) · rolling20 $+2.10 · net72h $+0.161/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-29 09:03 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.29 · คะแนนหนุน 6 / กด 11) → ระดับความระวัง: **ปกติ (ข่าวสองทาง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 5 ข่าว · คะแนนรวม 27 (หนุน 0 / กด 1) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 3 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 13 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 9 (หนุน 0 / กด 0) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **เงินเฟ้อ** — 2 ข่าว · คะแนนรวม 6 (หนุน 2 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **เศรษฐกิจมหภาค** — 2 ข่าว · คะแนนรวม 6 (หนุน 2 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [8] (markets) Dollar pinned at two-month high as bond rout extends, Fed rate hike bets rise
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed rates
+- ⚪ [6] (markets) Dollar holds near two-month high as oil, data bolster Fed rate bets
+- ⚪ [5] (commodities
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.68
+- เลข 7 ตัว: [9, 9, 6, 9, 3, 9, 1] (รวม 46) → ฐาน 9 = 1 · เลข 1 — จุดเริ่มเดินหน้า แนวโน้มขึ้น · เลขคู่เสียง 9
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 1 — จุดเริ่มเดินหน้า แนวโน้มขึ้น — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=47 ออเดอร์ (~15.7/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.161/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 340 ออเดอร์
+🏆 trend: n=86 net=$2.46 wr=63%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.015/trade (n=2)
+
+## 2026-09-29 02:17 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 115971365 → 116013466)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (37012 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 09:14", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0711, "n": 72}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1537, "n": 38}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 338}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 5 รายการที่ควรปรับ (จาก R-multiple จริง 336 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.3R
+   range            n= 88 wr=0.56 win=0.64R loss=0.93R | SL=1.0 TP=1.3R
+   trend            n= 80 wr=0.59 win=0.79R loss=1.00R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 09:14", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.50R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.4, "reward_risk_from": 1.5}, {"action": "set_tpsl", "strategy": "counter_trend", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.44R < 55% ของเป้า 1.30R)", "evidence": "n=27 wr=0.52 avg_win=0.44R avg_loss=0.90R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 340 ไม้ (2026-08-26T06:09 → 2026-09-29T01:21) | net +2.08 | เฉลี่ย +0.006 | ชนะ 62.1% | PF 1.03 ✓
+   · trend            ไม้  29 | net  +4.66 | PF  1.54 ✓ | 29 ล่าสุด: +0.161/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +4.66 (29 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (1 รอบ · 08:24→08:24 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 1 · คะแนนถ่วงน้ำหนักสูงเกินบน 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.554/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.471/0.296
+      ✅ mean_reversion_sell      ดิบ 0.332/0.132 · prob 0.56 · ถ่วงน้ำหนัก 0.282/0.113
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 62%  (score -0.303)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=62
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.134663/0.149003 (สุทธิ -0.05) · engine เอน 0B/51S 24ชม. (-1.00) · ดูดวง bullish 0.35 (+0.35) · rolling20 $+2.10 · net72h $+0.161/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 1 รายการ
+
+## 2026-09-29 09:16 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.29 · คะแนนหนุน 6 / กด 11) → ระดับความระวัง: **ปกติ (ข่าวสองทาง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 5 ข่าว · คะแนนรวม 27 (หนุน 0 / กด 1) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 3 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 13 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 9 (หนุน 0 / กด 0) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **เงินเฟ้อ** — 2 ข่าว · คะแนนรวม 6 (หนุน 2 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **เศรษฐกิจมหภาค** — 2 ข่าว · คะแนนรวม 6 (หนุน 2 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [8] (markets) Dollar pinned at two-month high as bond rout extends, Fed rate hike bets rise
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed rates
+- ⚪ [6] (markets) Dollar holds near two-month high as oil, data bolster Fed rate bets
+- ⚪ [5] (commodities
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.68
+- เลข 7 ตัว: [9, 9, 6, 9, 6, 6, 1] (รวม 46) → ฐาน 9 = 1 · เลข 1 — จุดเริ่มเดินหน้า แนวโน้มขึ้น · เลขคู่เสียง 9
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 1 — จุดเริ่มเดินหน้า แนวโน้มขึ้น — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=48 ออเดอร์ (~16.0/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.161/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 340 ออเดอร์
+🏆 trend: n=86 net=$2.46 wr=63%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.015/trade (n=2)
+
+## 2026-09-29 02:30 UTC — งานวิจัยรวม (14 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 1 ไม้ (offset 116257643 → 116348173)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (37095 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 09:27", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0711, "n": 72}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1387, "n": 39}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 339}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 337 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.3R
+   range            n= 88 wr=0.56 win=0.64R loss=0.93R | SL=1.0 TP=1.3R
+   trend            n= 81 wr=0.58 win=0.79R loss=0.99R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 09:27", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 115, "wr": 0.687, "avg_win_R": 0.624, "avg_loss_R": 1.0
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 341 ไม้ (2026-08-26T06:09 → 2026-09-29T02:26) | net +1.65 | เฉลี่ย +0.005 | ชนะ 61.9% | PF 1.03 ✓
+   · trend            ไม้  30 | net  +4.23 | PF  1.47 ✓ | 30 ล่าสุด: +0.141/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +4.23 (30 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (1 รอบ · 09:25→09:25 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      trend_sell               คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 1 · คะแนนถ่วงน้ำหนักสูงเกินบน 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ mean_reversion_buy       ดิบ 0.112/0.103 · prob 0.56 · ถ่วงน้ำหนัก 0.095/0.087
+      ✅ mean_reversion_sell      ดิบ 0.331/0.132 · prob 0.56 · ถ่วงน้ำหนัก 0.282/0.113
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 64%  (score -0.344)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=64
+ASTRO=bullish:0.68
+NOTE=ภายใน: แรงซื้อ/ขาย 0.115433/0.222998 (สุทธิ -0.32) · engine เอน 1B/52S 24ชม. (-0.96) · ดูดวง bullish 0.68 (+0.68) · rolling20 $+2.29 · net72h $+0.141/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 1 รายการ
+
+## 2026-09-29 09:29 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.57 · คะแนนหนุน 3 / กด 11) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 6 ข่าว · คะแนนรวม 29 (หนุน 0 / กด 1) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 3 ข่าว · คะแนนรวม 18 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 13 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **เงินเฟ้อ** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **พลังงาน** — 1 ข่าว · คะแนนรวม 3 (หนุน 0 / กด 0) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **เศรษฐกิจมหภาค** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [8] (markets) Dollar pinned at two-month high as bond rout extends, Fed rate hike bets rise
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed rates
+- ⚪ [5] (commodities) Dollar Index stalls at 101.15 resistance on bearish divergence: Live
+- ⚪ [5] (macro)
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.68
+- เลข 7 ตัว: [9, 9, 6, 9, 9, 5, 1] (รวม 48) → ฐาน 9 = 3 · เลข 3 — กำไรเสริม เลื่อนขึ้น · เลขคู่เสียง 2
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 3 — กำไรเสริม เลื่อนขึ้น — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### P/L Attribution
+## 2026-09-29 02:29 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=1 | errors=0
+- **❌ ขาดทุน** 2026-09-29T02:26:40 | trend sell | net=$-0.43 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=0 loss=1 net_total=$-0.4300 | net เฉลี่ย $-0.4300/trade ★ | winrate=0.0% (รายงานเท่านั้น)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=49 ออเดอร์ (~16.3/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.141/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 341 ออเดอร์
+🏆 trend: n=87 net=$2.03 wr=62%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.020/trade (n=2)
+
+## 2026-09-29 02:41 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 116542998 → 116607918)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (37149 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 09:39", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0711, "n": 72}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1387, "n": 39}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 339}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 337 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.3R
+   range            n= 88 wr=0.56 win=0.64R loss=0.93R | SL=1.0 TP=1.3R
+   trend            n= 81 wr=0.58 win=0.79R loss=0.99R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 09:39", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 115, "wr": 0.687, "avg_win_R": 0.624, "avg_loss_R": 1.0
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 341 ไม้ (2026-08-26T06:09 → 2026-09-29T02:26) | net +1.65 | เฉลี่ย +0.005 | ชนะ 61.9% | PF 1.03 ✓
+   · trend            ไม้  30 | net  +4.23 | PF  1.47 ✓ | 30 ล่าสุด: +0.141/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +4.23 (30 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (1 รอบ · 09:25→09:25 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      trend_sell               คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 1 · คะแนนถ่วงน้ำหนักสูงเกินบน 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ mean_reversion_buy       ดิบ 0.112/0.103 · prob 0.56 · ถ่วงน้ำหนัก 0.095/0.087
+      ✅ mean_reversion_sell      ดิบ 0.331/0.132 · prob 0.56 · ถ่วงน้ำหนัก 0.282/0.113
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 69%  (score -0.472)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=69
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.111672/0.299729 (สุทธิ -0.46) · engine เอน 1B/52S 24ชม. (-0.96) · ดูดวง bullish 0.35 (+0.35) · rolling20 $+2.29 · net72h $+0.141/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-29 09:41 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.57 · คะแนนหนุน 3 / กด 11) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 6 ข่าว · คะแนนรวม 29 (หนุน 0 / กด 1) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 3 ข่าว · คะแนนรวม 18 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 13 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **เงินเฟ้อ** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **พลังงาน** — 1 ข่าว · คะแนนรวม 3 (หนุน 0 / กด 0) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **เศรษฐกิจมหภาค** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [8] (markets) Dollar pinned at two-month high as bond rout extends, Fed rate hike bets rise
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed rates
+- ⚪ [5] (commodities) Dollar Index stalls at 101.15 resistance on bearish divergence: Live
+- ⚪ [5] (macro)
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: → ออกข้าง (sideways) · strength 0.25
+- เลข 7 ตัว: [9, 9, 6, 9, 1, 8, 1] (รวม 43) → ฐาน 9 = 7 · เลข 7 — เสี่ยง ดาวเสาร์กด · เลขคู่เสียง 6
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 7 — เสี่ยง ดาวเสาร์กด — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=49 ออเดอร์ (~16.3/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.141/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 341 ออเดอร์
+🏆 trend: n=87 net=$2.03 wr=62%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.020/trade (n=2)
+
+## 2026-09-29 02:43 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 116607918 → 116629508)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (37153 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 09:40", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0711, "n": 72}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1387, "n": 39}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 339}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 337 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.3R
+   range            n= 88 wr=0.56 win=0.64R loss=0.93R | SL=1.0 TP=1.3R
+   trend            n= 81 wr=0.58 win=0.79R loss=0.99R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 09:40", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.5}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.3}, "mean_reversion": {"n": 115, "wr": 0.687, "avg_win_R": 0.624, "avg_loss_R": 1.0
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 341 ไม้ (2026-08-26T06:09 → 2026-09-29T02:26) | net +1.65 | เฉลี่ย +0.005 | ชนะ 61.9% | PF 1.03 ✓
+   · trend            ไม้  30 | net  +4.23 | PF  1.47 ✓ | 30 ล่าสุด: +0.141/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +4.23 (30 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (1 รอบ · 09:25→09:25 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      trend_sell               คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 1 · คะแนนถ่วงน้ำหนักสูงเกินบน 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ mean_reversion_buy       ดิบ 0.112/0.103 · prob 0.56 · ถ่วงน้ำหนัก 0.095/0.087
+      ✅ mean_reversion_sell      ดิบ 0.331/0.132 · prob 0.56 · ถ่วงน้ำหนัก 0.282/0.113
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 69%  (score -0.472)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=69
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.111675/0.299742 (สุทธิ -0.46) · engine เอน 1B/52S 24ชม. (-0.96) · ดูดวง bullish 0.35 (+0.35) · rolling20 $+2.29 · net72h $+0.141/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-29 09:42 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.57 · คะแนนหนุน 3 / กด 11) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 6 ข่าว · คะแนนรวม 29 (หนุน 0 / กด 1) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 3 ข่าว · คะแนนรวม 18 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 13 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **เงินเฟ้อ** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **พลังงาน** — 1 ข่าว · คะแนนรวม 3 (หนุน 0 / กด 0) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **เศรษฐกิจมหภาค** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [8] (markets) Dollar pinned at two-month high as bond rout extends, Fed rate hike bets rise
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed rates
+- ⚪ [5] (commodities) Dollar Index stalls at 101.15 resistance on bearish divergence: Live
+- ⚪ [5] (macro)
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: → ออกข้าง (sideways) · strength 0.25
+- เลข 7 ตัว: [9, 9, 6, 9, 2, 5, 1] (รวม 41) → ฐาน 9 = 5 · เลข 5 — เปลี่ยนแปลง ผันผวนลงได้ · เลขคู่เสียง 4
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 5 — เปลี่ยนแปลง ผันผวนลงได้ — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=49 ออเดอร์ (~16.3/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.141/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 341 ออเดอร์
+🏆 trend: n=87 net=$2.03 wr=62%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.020/trade (n=2)
+
+## 2026-09-29 02:48 UTC — งานวิจัยรวม (14 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 116672828 → 116737924)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (37180 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 09:46", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0711, "n": 72}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1387, "n": 39}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 339}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 5 รายการที่ควรปรับ (จาก R-multiple จริง 337 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.5R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.3R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.3R
+   range            n= 88 wr=0.56 win=0.64R loss=0.93R | SL=1.0 TP=1.3R
+   trend            n= 81 wr=0.58 win=0.79R loss=0.99R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 09:46", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.50R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.4, "reward_risk_from": 1.5}, {"action": "set_tpsl", "strategy": "counter_trend", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.44R < 55% ของเป้า 1.30R)", "evidence": "n=27 wr=0.52 avg_win=0.44R avg_loss=0.90R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 341 ไม้ (2026-08-26T06:09 → 2026-09-29T02:26) | net +1.65 | เฉลี่ย +0.005 | ชนะ 61.9% | PF 1.03 ✓
+   · trend            ไม้  30 | net  +4.23 | PF  1.47 ✓ | 30 ล่าสุด: +0.141/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +4.23 (30 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (1 รอบ · 09:25→09:25 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      trend_sell               คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 1 · คะแนนถ่วงน้ำหนักสูงเกินบน 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ mean_reversion_buy       ดิบ 0.112/0.103 · prob 0.56 · ถ่วงน้ำหนัก 0.095/0.087
+      ✅ mean_reversion_sell      ดิบ 0.331/0.132 · prob 0.56 · ถ่วงน้ำหนัก 0.282/0.113
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 [จำลองก่อนเสนอ] จำลอง 5/5 รายการ (แท่งเทียน 800)
+   ของเดิม: total_r 0.7762994448890536 · DD 11.110769444009719 · ไม้ 76 · PF 1.0188069864469755
+   ✅ breakout set_tpsl                  total_r 0.7762994448890536 (ไม้ 76)
+   ✅ counter_trend set_tpsl             total_r 0.7762994448890536 (ไม้ 76)
+   ✅ mean_reversion set_tpsl            total_r 2.1762994448890534 (ไม้ 79)
+   ❌ range set_tpsl                     total_r 0.3762994448890532 (ไม้ 76)
+   ✅ global set_tpsl                    total_r 0.7762994448890536 (ไม้ 76)
+   → ชุดรวม: passed (total_r 2.1762994448890534)
+   สรุป: อนุมัติ 4 รายการ · ไม่ผ่าน 1 รายการ
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 68%  (score -0.447)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=68
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.119352/0.278738 (สุทธิ -0.40) · engine เอน 1B/52S 24ชม. (-0.96) · ดูดวง bullish 0.35 (+0.35) · rolling20 $+2.29 · net72h $+0.141/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-29 09:48 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.57 · คะแนนหนุน 3 / กด 11) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 5 ข่าว · คะแนนรวม 26 (หนุน 0 / กด 1) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 21 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 13 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 6 (หนุน 0 / กด 0) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **เงินเฟ้อ** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **เศรษฐกิจมหภาค** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [8] (markets) Dollar pinned at two-month high as bond rout extends, Fed rate hike bets rise
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed rates
+- ⚪ [5] (commodities) Dollar Index stalls at 101.15 resistance on bearish divergence: Live
+- ⚪ [5] (macro)
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: → ออกข้าง (sideways) · strength 0.25
+- เลข 7 ตัว: [9, 9, 6, 9, 8, 10, 1] (รวม 52) → ฐาน 9 = 7 · เลข 7 — เสี่ยง ดาวเสาร์กด · เลขคู่เสียง 6
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 7 — เสี่ยง ดาวเสาร์กด — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### P/L Attribution
+## 2026-09-29 02:48 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=0 | errors=0
+- **✅ กำไร** 2026-09-29T02:46:56 | trend sell | net=$0.46 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=1 loss=0 net_total=$0.4600 | net เฉลี่ย $0.4600/trade ★ | winrate=100.0% (รายงานเท่านั้น)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=49 ออเดอร์ (~16.3/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.151/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 342 ออเดอร์
+🏆 trend: n=88 net=$2.49 wr=62%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.011/trade (n=2)
+
+## 2026-09-29 02:55 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 116802860 → 116946409)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (37216 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 09:53", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0711, "n": 72}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1467, "n": 40}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 340}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 338 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.4R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.2R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.2R
+   range            n= 88 wr=0.56 win=0.64R loss=0.93R | SL=1.0 TP=1.3R
+   trend            n= 82 wr=0.58 win=0.79R loss=0.99R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 09:53", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.4}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.2}, "mean_reversion": {"n": 115, "wr": 0.687, "avg_win_R": 0.624, "avg_loss_R": 1.0
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 342 ไม้ (2026-08-26T06:09 → 2026-09-29T02:46) | net +2.11 | เฉลี่ย +0.006 | ชนะ 62.0% | PF 1.04 ✓
+   · trend            ไม้  31 | net  +4.69 | PF  1.52 ✓ | 31 ล่าสุด: +0.151/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +4.69 (31 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (6 รอบ · 09:48→09:53 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 6 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      mean_reversion_sell      คะแนนดิบสูงเกินบน(อิ่มตัว) 6 · คะแนนถ่วงน้ำหนักสูงเกินบน 6 · ด่าน 3 ไม่เทรด(ฝั่งตรงข้ามแรงกว่า) 6
+      trend_buy                คะแนนดิบต่ำ 6 · คะแนนถ่วงน้ำหนักต่ำ 6
+      trend_sell               คะแนนดิบต่ำ 6 · คะแนนถ่วงน้ำหนักต่ำ 6
+      range_buy                คะแนนดิบต่ำ 6 · คะแนนถ่วงน้ำหนักต่ำ 6
+      range_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 6 · คะแนนถ่วงน้ำหนักสูงเกินบน 6
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ mean_reversion_buy       ดิบ 0.142/0.103 · prob 0.56 · ถ่วงน้ำหนัก 0.121/0.087
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 66%  (score -0.412)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=66
+ASTRO=bullish:0.68
+NOTE=ภายใน: แรงซื้อ/ขาย 0.105667/0.293145 (สุทธิ -0.47) · engine เอน 1B/52S 24ชม. (-0.96) · ดูดวง bullish 0.68 (+0.68) · rolling20 $+1.92 · net72h $+0.151/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-29 09:55 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.57 · คะแนนหนุน 3 / กด 11) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 5 ข่าว · คะแนนรวม 26 (หนุน 0 / กด 1) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 21 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 13 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 6 (หนุน 0 / กด 0) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **เงินเฟ้อ** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **เศรษฐกิจมหภาค** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [8] (markets) Dollar pinned at two-month high as bond rout extends, Fed rate hike bets rise
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed rates
+- ⚪ [5] (commodities) Dollar Index stalls at 101.15 resistance on bearish divergence: Live
+- ⚪ [5] (macro)
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [9, 9, 6, 9, 5, 10, 1] (รวม 49) → ฐาน 9 = 4 · เลข 4 — เสถียร ทรงตัว · เลขคู่เสียง 3
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 4 — เสถียร ทรงตัว — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=49 ออเดอร์ (~16.3/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.151/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 342 ออเดอร์
+🏆 trend: n=88 net=$2.49 wr=62%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.011/trade (n=2)
+
+## 2026-09-29 03:08 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 117114546 → 117257108)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (37273 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 10:06", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0711, "n": 72}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1351, "n": 41}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 341}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 339 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.4R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.2R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.2R
+   range            n= 88 wr=0.56 win=0.64R loss=0.93R | SL=1.0 TP=1.3R
+   trend            n= 83 wr=0.58 win=0.79R loss=0.98R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 10:06", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.4}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.2}, "mean_reversion": {"n": 115, "wr": 0.687, "avg_win_R": 0.624, "avg_loss_R": 1.0
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 343 ไม้ (2026-08-26T06:09 → 2026-09-29T02:57) | net +1.78 | เฉลี่ย +0.005 | ชนะ 61.8% | PF 1.03 ✓
+   · trend            ไม้  32 | net  +4.36 | PF  1.47 ✓ | 32 ล่าสุด: +0.136/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +4.36 (32 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (11 รอบ · 09:56→10:05 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 11 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      mean_reversion_sell      คะแนนดิบสูงเกินบน(อิ่มตัว) 10 · คะแนนถ่วงน้ำหนักสูงเกินบน 10 · ด่าน 3 ไม่เทรด(ฝั่งตรงข้ามแรงกว่า) 10
+      trend_buy                คะแนนดิบต่ำ 11 · คะแนนถ่วงน้ำหนักต่ำ 11
+      trend_sell               คะแนนดิบต่ำ 11 · คะแนนถ่วงน้ำหนักต่ำ 11
+      range_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 11 · คะแนนถ่วงน้ำหนักสูงเกินบน 11
+      range_buy                คะแนนดิบต่ำ 10 · คะแนนถ่วงน้ำหนักต่ำ 10
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ mean_reversion_buy       ดิบ 0.140/0.103 · prob 0.56 · ถ่วงน้ำหนัก 0.119/0.087
+      ✅ range_buy                ดิบ 0.270/0.208 · prob 0.53 · ถ่วงน้ำหนัก 0.310/0.220
+      ✅ mean_reversion_sell      ดิบ 0.221/0.132 · prob 0.56 · ถ่วงน้ำหนัก 0.188/0.113
+      ✅ range_sell               ดิบ 0.000/0.000 · prob 0.00 · ถ่วงน้ำหนัก 0.000/0.000
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 62%  (score -0.289)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=62
+ASTRO=bullish:0.68
+NOTE=ภายใน: แรงซื้อ/ขาย 0.137048/0.203741 (สุทธิ -0.20) · engine เอน 1B/53S 24ชม. (-0.96) · ดูดวง bullish 0.68 (+0.68) · rolling20 $+0.66 · net72h $+0.136/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-29 10:08 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.57 · คะแนนหนุน 3 / กด 11) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 5 ข่าว · คะแนนรวม 26 (หนุน 0 / กด 1) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 21 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 13 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 6 (หนุน 0 / กด 0) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **เงินเฟ้อ** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **เศรษฐกิจมหภาค** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [8] (markets) Dollar pinned at two-month high as bond rout extends, Fed rate hike bets rise
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed rates
+- ⚪ [5] (commodities) Dollar Index stalls at 101.15 resistance on bearish divergence: Live
+- ⚪ [5] (macro)
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [9, 9, 6, 10, 8, 4, 1] (รวม 47) → ฐาน 9 = 2 · เลข 2 — คู่สมดุล รอจังหวะ · เลขคู่เสียง 1
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 2 — คู่สมดุล รอจังหวะ — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=49 ออเดอร์ (~16.3/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.136/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 343 ออเดอร์
+🏆 trend: n=89 net=$2.16 wr=62%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.008/trade (n=2)
+
+## 2026-09-29 03:22 UTC — งานวิจัยรวม (14 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 117536501 → 117558863)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (37335 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 10:19", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0711, "n": 72}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.144, "n": 45}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 345}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 3 รายการที่ควรปรับ (จาก R-multiple จริง 343 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.4R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.2R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.2R
+   range            n= 88 wr=0.56 win=0.64R loss=0.93R | SL=1.0 TP=1.3R
+   trend            n= 87 wr=0.60 win=0.75R loss=0.98R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 10:19", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.40R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.3, "reward_risk_from": 1.4}, {"action": "set_tpsl", "strategy": "range", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.64R < 55% ของเป้า 1.30R)", "evidence": "n=88 wr=0.56 avg_win=0.64R avg_loss=0.93R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set_tpsl",
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 347 ไม้ (2026-08-26T06:09 → 2026-09-29T03:19) | net +2.72 | เฉลี่ย +0.008 | ชนะ 62.2% | PF 1.05 ✓
+   · trend            ไม้  36 | net  +5.30 | PF  1.57 ✓ | 36 ล่าสุด: +0.147/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +5.30 (36 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (10 รอบ · 10:03→10:12 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 10 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 10 · คะแนนถ่วงน้ำหนักต่ำ 10
+      trend_sell               คะแนนดิบต่ำ 10 · คะแนนถ่วงน้ำหนักต่ำ 10
+      range_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 10 · คะแนนถ่วงน้ำหนักสูงเกินบน 10
+      mean_reversion_sell      คะแนนดิบสูงเกินบน(อิ่มตัว) 2 · คะแนนถ่วงน้ำหนักสูงเกินบน 2 · ด่าน 3 ไม่เทรด(ฝั่งตรงข้ามแรงกว่า) 2
+      range_buy                คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ mean_reversion_buy       ดิบ 0.128/0.103 · prob 0.56 · ถ่วงน้ำหนัก 0.109/0.087
+      ✅ range_buy                ดิบ 0.270/0.208 · prob 0.53 · ถ่วงน้ำหนัก 0.310/0.220
+      ✅ mean_reversion_sell      ดิบ 0.221/0.132 · prob 0.56 · ถ่วงน้ำหนัก 0.188/0.113
+      ✅ range_sell               ดิบ 0.000/0.000 · prob 0.00 · ถ่วงน้ำหนัก 0.000/0.000
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 59%  (score -0.287)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=59
+ASTRO=bullish:0.68
+NOTE=ภายใน: แรงซื้อ/ขาย 0.139821/0.204576 (สุทธิ -0.19) · engine เอน 1B/60S 24ชม. (-0.97) · ดูดวง bullish 0.68 (+0.68) · rolling20 $-0.57 · net72h $+0.147/trade · ลดความแรง 20% (rolling net ยังติดลบ)
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 2 รายการ
+
+## 2026-09-29 10:21 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.57 · คะแนนหนุน 3 / กด 11) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 5 ข่าว · คะแนนรวม 26 (หนุน 0 / กด 1) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 21 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 13 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 6 (หนุน 0 / กด 0) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **เงินเฟ้อ** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **เศรษฐกิจมหภาค** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [8] (markets) Dollar pinned at two-month high as bond rout extends, Fed rate hike bets rise
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed rates
+- ⚪ [5] (commodities) Dollar Index stalls at 101.15 resistance on bearish divergence: Live
+- ⚪ [5] (macro)
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: → ออกข้าง (sideways) · strength 0.25
+- เลข 7 ตัว: [9, 9, 6, 10, 1, 7, 1] (รวม 43) → ฐาน 9 = 7 · เลข 7 — เสี่ยง ดาวเสาร์กด · เลขคู่เสียง 6
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 7 — เสี่ยง ดาวเสาร์กด — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### P/L Attribution
+## 2026-09-29 03:21 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=4 | opened(10m)=1 | errors=0
+- **✅ กำไร** 2026-09-29T03:16:59 | trend sell | net=$0.12 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+- **✅ กำไร** 2026-09-29T03:17:59 | trend sell | net=$0.32 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+- **✅ กำไร** 2026-09-29T03:19:00 | trend sell | net=$0.06 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+- **❌ ขาดทุน** 2026-09-29T03:20:01 | trend sell | net=$-0.31 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=3 loss=1 net_total=$0.1900 | net เฉลี่ย $0.0475/trade ★ | winrate=75.0% (รายงานเท่านั้น)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=50 ออเดอร์ (~16.7/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.135/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 348 ออเดอร์
+🏆 trend: n=94 net=$2.79 wr=63%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $0.002/trade (n=2)
+
+## 2026-09-29 03:34 UTC — งานวิจัยรวม (14 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 117812429 → 117860821)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (37399 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 6 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 10:32", "changes": [{"strategy": "trend", "side": "buy", "raw_low_from": 0.556, "raw_low_to": 0.556, "raw_high_from": 0.814, "raw_high_to": 0.754, "net_exp": -0.2167, "net_n": 9}, {"strategy": "trend", "side": "sell", "raw_low_from": 0.348, "raw_low_to": 0.288, "raw_high_from": 0.897, "raw_high_to": 0.837, "net_exp": 0.0711, "net_n": 72}, {"strategy": "range", "side": "buy", "raw_low_from": 0.208, "raw_low_to": 0.208, "raw_high_from": 0.335, "raw_high_to": 0.308, "net_exp": -0.1105, "net_n": 21}, {"strategy": "range", "side": "sell", "raw_low_from": 0.231, "raw_low_to": 0.291, "raw_high_from": 0.411, "raw_high_to": 0.471, "net_exp": -0.0343, "net_n": 75}, {"strategy": "mean_reversion", "sid
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 345 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.4R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.2R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.2R
+   range            n= 88 wr=0.56 win=0.64R loss=0.93R | SL=1.0 TP=1.3R
+   trend            n= 89 wr=0.58 win=0.75R loss=0.95R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 10:32", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.4}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.2}, "mean_reversion": {"n": 115, "wr": 0.687, "avg_win_R": 0.624, "avg_loss_R": 1.0
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 349 ไม้ (2026-08-26T06:09 → 2026-09-29T03:29) | net +2.03 | เฉลี่ย +0.006 | ชนะ 61.9% | PF 1.03 ✓
+   · trend            ไม้  38 | net  +4.61 | PF  1.46 ✓ | 38 ล่าสุด: +0.121/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +4.61 (38 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (5 รอบ · 10:29→10:32 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 5 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 5 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      range_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 5 · คะแนนถ่วงน้ำหนักสูงเกินบน 5 · ด่าน 3 ไม่เทรด(ฝั่งตรงข้ามแรงกว่า) 2
+      trend_buy                คะแนนดิบต่ำ 5 · คะแนนถ่วงน้ำหนักต่ำ 5
+      trend_sell               คะแนนดิบต่ำ 5 · คะแนนถ่วงน้ำหนักต่ำ 5
+      mean_reversion_sell      ด่าน 1 ชะลอ(net) 5 · ด่าน 3 ไม่เทรด(ฝั่งตรงข้ามแรงกว่า) 3
+      range_buy                คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ range_buy                ดิบ 0.238/0.208 · prob 0.53 · ถ่วงน้ำหนัก 0.274/0.220
+      ✅ mean_reversion_buy       ดิบ 0.175/0.103 · prob 0.56 · ถ่วงน้ำหนัก 0.149/0.087
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 67%  (score -0.420)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=67
+ASTRO=bullish:0.68
+NOTE=ภายใน: แรงซื้อ/ขาย 0.119787/0.343904 (สุทธิ -0.48) · engine เอน 1B/60S 24ชม. (-0.97) · ดูดวง bullish 0.68 (+0.68) · rolling20 $+0.30 · net72h $+0.121/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-29 10:34 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.57 · คะแนนหนุน 3 / กด 11) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 5 ข่าว · คะแนนรวม 26 (หนุน 0 / กด 1) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 21 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 13 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 6 (หนุน 0 / กด 0) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **เงินเฟ้อ** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **เศรษฐกิจมหภาค** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [8] (markets) Dollar pinned at two-month high as bond rout extends, Fed rate hike bets rise
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed rates
+- ⚪ [5] (commodities) Dollar Index stalls at 101.15 resistance on bearish divergence: Live
+- ⚪ [5] (macro)
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [9, 9, 6, 10, 4, 10, 1] (รวม 49) → ฐาน 9 = 4 · เลข 4 — เสถียร ทรงตัว · เลขคู่เสียง 3
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 4 — เสถียร ทรงตัว — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### P/L Attribution
+## 2026-09-29 03:34 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=0 | errors=0
+- **❌ ขาดทุน** 2026-09-29T03:29:00 | trend sell | net=$-0.38 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=0 loss=1 net_total=$-0.3800 | net เฉลี่ย $-0.3800/trade ★ | winrate=0.0% (รายงานเท่านั้น)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=50 ออเดอร์ (~16.7/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.121/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 349 ออเดอร์
+🏆 trend: n=95 net=$2.41 wr=62%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $0.004/trade (n=2)
+
+## 2026-09-29 03:47 UTC — งานวิจัยรวม (14 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 118098775 → 118169440)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (37460 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 10:45", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0711, "n": 72}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.113, "n": 50}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 350}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 348 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.4R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.2R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.2R
+   range            n= 88 wr=0.56 win=0.64R loss=0.93R | SL=1.0 TP=1.3R
+   trend            n= 92 wr=0.59 win=0.73R loss=0.95R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 10:45", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.4}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.2}, "mean_reversion": {"n": 115, "wr": 0.687, "avg_win_R": 0.624, "avg_loss_R": 1.0
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 352 ไม้ (2026-08-26T06:09 → 2026-09-29T03:44) | net +1.89 | เฉลี่ย +0.005 | ชนะ 61.9% | PF 1.03 ✓
+   · trend            ไม้  41 | net  +4.47 | PF  1.43 ✓ | 40 ล่าสุด: +0.092/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +4.47 (41 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (10 รอบ · 10:36→10:45 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 10 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 10 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      range_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 10 · ด่าน 3 ไม่เทรด(ฝั่งตรงข้ามแรงกว่า) 9 · คะแนนถ่วงน้ำหนักสูงเกินบน 5
+      trend_buy                คะแนนดิบต่ำ 10 · คะแนนถ่วงน้ำหนักต่ำ 10
+      trend_sell               คะแนนดิบต่ำ 10 · คะแนนถ่วงน้ำหนักต่ำ 10
+      mean_reversion_sell      ด่าน 1 ชะลอ(net) 10 · ด่าน 3 ไม่เทรด(ฝั่งตรงข้ามแรงกว่า) 1
+      range_buy                คะแนนดิบสูงเกินบน(อิ่มตัว) 1 · คะแนนถ่วงน้ำหนักสูงเกินบน 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ range_buy                ดิบ 0.219/0.169 · prob 0.53 · ถ่วงน้ำหนัก 0.252/0.194
+      ✅ mean_reversion_buy       ดิบ 0.172/0.117 · prob 0.56 · ถ่วงน้ำหนัก 0.146/0.116
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 65%  (score -0.367)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=65
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.16132/0.251152 (สุทธิ -0.22) · engine เอน 1B/60S 24ชม. (-0.97) · ดูดวง bullish 0.35 (+0.35) · rolling20 $+0.84 · net72h $+0.109/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-29 10:47 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -1.00 · คะแนนหนุน 0 / กด 11) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 5 ข่าว · คะแนนรวม 26 (หนุน 0 / กด 1) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 21 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 3 ข่าว · คะแนนรวม 9 (หนุน 0 / กด 0) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+
+**ข่าวเด่น:**
+- 🔴 [8] (markets) Dollar pinned at two-month high as bond rout extends, Fed rate hike bets rise
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed rates
+- ⚪ [5] (commodities) Dollar Index stalls at 101.15 resistance on bearish divergence: Live
+- ⚪ [5] (macro) Dollar hold near two-month peak as yields rise, Fed data looms
+- 🔴 [3] (commodities) Goldman warns high-yield bond supply surge pressuring markets
+- ⚪ [3]
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.68
+- เลข 7 ตัว: [9, 9, 6, 10, 7, 9, 1] (รวม 51) → ฐาน 9 = 6 · เลข 6 — เดินขึ้น เกื้อหนุน · เลขคู่เสียง 5
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 6 — เดินขึ้น เกื้อหนุน — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### P/L Attribution
+## 2026-09-29 03:47 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=2 | opened(10m)=0 | errors=0
+- **✅ กำไร** 2026-09-29T03:40:09 | trend sell | net=$0.23 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+- **✅ กำไร** 2026-09-29T03:44:12 | trend sell | net=$0.05 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=2 loss=0 net_total=$0.2800 | net เฉลี่ย $0.1400/trade ★ | winrate=100.0% (รายงานเท่านั้น)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=50 ออเดอร์ (~16.7/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.109/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 352 ออเดอร์
+🏆 trend: n=98 net=$2.27 wr=62%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $0.002/trade (n=2)
+
+## 2026-09-29 04:01 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 118386854 → 118456964)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (37516 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 6 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 10:58", "changes": [{"strategy": "trend", "side": "buy", "raw_low_from": 0.472, "raw_low_to": 0.522, "raw_high_from": 0.694, "raw_high_to": 0.634, "net_exp": -0.2167, "net_n": 9}, {"strategy": "trend", "side": "sell", "raw_low_from": 0.264, "raw_low_to": 0.264, "raw_high_from": 0.777, "raw_high_to": 0.717, "net_exp": 0.0711, "net_n": 72}, {"strategy": "range", "side": "buy", "raw_low_from": 0.229, "raw_low_to": 0.289, "raw_high_from": 0.334, "raw_high_to": 0.389, "net_exp": -0.1105, "net_n": 21}, {"strategy": "range", "side": "sell", "raw_low_from": 0.351, "raw_low_to": 0.411, "raw_high_from": 0.531, "raw_high_to": 0.591, "net_exp": -0.0343, "net_n": 75}, {"strategy": "mean_reversion", "sid
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 3 รายการที่ควรปรับ (จาก R-multiple จริง 349 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.4R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.2R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.2R
+   range            n= 88 wr=0.56 win=0.64R loss=0.93R | SL=1.0 TP=1.3R
+   trend            n= 93 wr=0.59 win=0.73R loss=0.95R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 10:58", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.40R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.3, "reward_risk_from": 1.4}, {"action": "set_tpsl", "strategy": "range", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.64R < 55% ของเป้า 1.30R)", "evidence": "n=88 wr=0.56 avg_win=0.64R avg_loss=0.93R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set_tpsl",
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 353 ไม้ (2026-08-26T06:09 → 2026-09-29T03:49) | net +2.45 | เฉลี่ย +0.007 | ชนะ 62.0% | PF 1.04 ✓
+   · trend            ไม้  42 | net  +5.03 | PF  1.48 ✓ | 40 ล่าสุด: +0.086/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +5.03 (42 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (10 รอบ · 10:49→10:58 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 7 รอบ · ไม่ผ่าน = 3 รอบ · ด่าน 1 ชะลอก่อน = 10 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 10 · คะแนนถ่วงน้ำหนักต่ำ 10 · ด่าน 3 ไม่เทรด(ฝั่งตรงข้ามแรงกว่า) 1
+      range_sell               คะแนนดิบสูงเกินบน(อิ่มตัว) 10 · คะแนนถ่วงน้ำหนักต่ำ 10
+      range_buy                คะแนนดิบสูงเกินบน(อิ่มตัว) 10 · คะแนนถ่วงน้ำหนักสูงเกินบน 9
+      trend_sell               คะแนนดิบต่ำ 9 · คะแนนถ่วงน้ำหนักต่ำ 9
+      mean_reversion_sell      ด่าน 1 ชะลอ(net) 10 · ด่าน 3 ไม่เทรด(ฝั่งตรงข้ามแรงกว่า) 6
+      mean_reversion_buy       คะแนนดิบสูงเกินบน(อิ่มตัว) 4 · คะแนนถ่วงน้ำหนักสูงเกินบน 4
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ mean_reversion_buy       ดิบ 0.190/0.117 · prob 0.56 · ถ่วงน้ำหนัก 0.162/0.116
+      ✅ trend_sell               ดิบ 0.311/0.264 · prob 0.58 · ถ่วงน้ำหนัก 0.265/0.220
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 64%  (score -0.346)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=64
+ASTRO=sideways:0.25
+NOTE=ภายใน: แรงซื้อ/ขาย 0.218179/0.225474 (สุทธิ -0.02) · engine เอน 1B/60S 24ชม. (-0.97) · ดูดวง sideways 0.25 (+0.00) · rolling20 $+0.45 · net72h $+0.120/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-29 11:00 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -1.00 · คะแนนหนุน 0 / กด 11) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 5 ข่าว · คะแนนรวม 26 (หนุน 0 / กด 1) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 21 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 3 ข่าว · คะแนนรวม 9 (หนุน 0 / กด 0) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+
+**ข่าวเด่น:**
+- 🔴 [8] (markets) Dollar pinned at two-month high as bond rout extends, Fed rate hike bets rise
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed rates
+- ⚪ [5] (commodities) Dollar Index stalls at 101.15 resistance on bearish divergence: Live
+- ⚪ [5] (macro) Dollar hold near two-month peak as yields rise, Fed data looms
+- 🔴 [3] (commodities) Goldman warns high-yield bond supply surge pressuring markets
+- ⚪ [3]
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.68
+- เลข 7 ตัว: [9, 9, 6, 1, 10, 8, 1] (รวม 44) → ฐาน 9 = 8 · เลข 8 — มั่งคั่ง เฟื่องฟู · เลขคู่เสียง 7
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 8 — มั่งคั่ง เฟื่องฟู — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=51 ออเดอร์ (~17.0/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.120/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 353 ออเดอร์
+🏆 trend: n=99 net=$2.83 wr=63%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $0.006/trade (n=2)
+
+## 2026-09-29 04:15 UTC — งานวิจัยรวม (15 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 118691554 → 118796856)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (37617 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 11:13", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0649, "n": 74}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1218, "n": 51}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 353}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 351 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.4R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.2R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.2R
+   range            n= 88 wr=0.56 win=0.64R loss=0.93R | SL=1.0 TP=1.3R
+   trend            n= 95 wr=0.59 win=0.72R loss=0.94R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 11:13", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.4}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.2}, "mean_reversion": {"n": 115, "wr": 0.687, "avg_win_R": 0.624, "avg_loss_R": 1.0
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 355 ไม้ (2026-08-26T06:09 → 2026-09-29T04:11) | net +2.13 | เฉลี่ย +0.006 | ชนะ 62.0% | PF 1.03 ✓
+   · trend            ไม้  44 | net  +4.71 | PF  1.43 ✓ | 40 ล่าสุด: +0.036/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +4.71 (44 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (10 รอบ · 10:50→10:59 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 7 รอบ · ไม่ผ่าน = 3 รอบ · ด่าน 1 ชะลอก่อน = 10 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 10 · คะแนนถ่วงน้ำหนักต่ำ 10 · ด่าน 3 ไม่เทรด(ฝั่งตรงข้ามแรงกว่า) 1
+      range_sell               คะแนนถ่วงน้ำหนักต่ำ 10 · คะแนนดิบสูงเกินบน(อิ่มตัว) 9
+      range_buy                คะแนนดิบสูงเกินบน(อิ่มตัว) 9 · คะแนนถ่วงน้ำหนักสูงเกินบน 8
+      trend_sell               คะแนนดิบต่ำ 8 · คะแนนถ่วงน้ำหนักต่ำ 8
+      mean_reversion_sell      ด่าน 1 ชะลอ(net) 10 · ด่าน 3 ไม่เทรด(ฝั่งตรงข้ามแรงกว่า) 5
+      mean_reversion_buy       คะแนนดิบสูงเกินบน(อิ่มตัว) 5 · คะแนนถ่วงน้ำหนักสูงเกินบน 5
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ mean_reversion_buy       ดิบ 0.188/0.117 · prob 0.56 · ถ่วงน้ำหนัก 0.160/0.116
+      ✅ trend_sell               ดิบ 0.311/0.264 · prob 0.58 · ถ่วงน้ำหนัก 0.265/0.220
+      ✅ range_buy                ดิบ 0.386/0.289 · prob 0.53 · ถ่วงน้ำหนัก 0.444/0.361
+      ✅ range_sell               ดิบ 0.000/0.000 · prob 0.00 · ถ่วงน้ำหนัก 0.000/0.000
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: กลาง · น้ำหนัก 52%  (score -0.051)
+[INTERNAL-SIGNAL]
+DIRECTION=NEUTRAL
+WEIGHT=52
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.315132/0.109788 (สุทธิ +0.48) · engine เอน 1B/61S 24ชม. (-0.97) · ดูดวง bullish 0.35 (+0.35) · rolling20 $-1.13 · net72h $+0.094/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-29 11:15 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -1.00 · คะแนนหนุน 0 / กด 11) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 5 ข่าว · คะแนนรวม 26 (หนุน 0 / กด 1) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 21 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 3 ข่าว · คะแนนรวม 9 (หนุน 0 / กด 0) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+
+**ข่าวเด่น:**
+- 🔴 [8] (markets) Dollar pinned at two-month high as bond rout extends, Fed rate hike bets rise
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed rates
+- ⚪ [5] (commodities) Dollar Index stalls at 101.15 resistance on bearish divergence: Live
+- ⚪ [5] (macro) Dollar hold near two-month peak as yields rise, Fed data looms
+- 🔴 [3] (commodities) Goldman warns high-yield bond supply surge pressuring markets
+- ⚪ [3]
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: → ออกข้าง (sideways) · strength 0.25
+- เลข 7 ตัว: [9, 9, 6, 1, 5, 10, 1] (รวม 41) → ฐาน 9 = 5 · เลข 5 — เปลี่ยนแปลง ผันผวนลงได้ · เลขคู่เสียง 4
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 5 — เปลี่ยนแปลง ผันผวนลงได้ — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### P/L Attribution
+## 2026-09-29 04:15 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=2 | opened(10m)=0 | errors=0
+- **✅ กำไร** 2026-09-29T04:11:35 | trend sell | net=$0.21 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+- **❌ ขาดทุน** 2026-09-29T04:13:36 | trend sell | net=$-0.49 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=1 loss=1 net_total=$-0.2800 | net เฉลี่ย $-0.1400/trade ★ | winrate=50.0% (รายงานเท่านั้น)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=51 ออเดอร์ (~17.0/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.094/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 356 ออเดอร์
+🏆 trend: n=102 net=$2.02 wr=62%, mean_reversion: n=115 net=$1.66 wr=63%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.004/trade (n=2)
+
+### 🛡️ Profit-Anchor Guard (เฝ้าโซนกำไร)
+🛡️ [Profit-Anchor] คืนค่าเข้าโซนกำไรอัตโนมัติ (hot reload — ไม่รีสตาร์ท)
+• rolling net (K=20) อยู่ที่ $-1.13 — HWM ที่เคยทำได้ $5.11
+• คืนค่า 97 รายการ (36 ค่า/weights/risk) จาก snapshot 2026-09-28T17:20
+• backup ค่าเดิม: work/profit_anchor/backups/ | log: research/profit-anchor-log.md
+
+## 2026-09-29 04:29 UTC — งานวิจัยรวม (14 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 118946023 → 119071600)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (37691 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 11:26", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0474, "n": 76}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1218, "n": 51}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 355}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 353 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.4R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.2R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.2R
+   range            n= 88 wr=0.56 win=0.64R loss=0.93R | SL=1.0 TP=1.3R
+   trend            n= 97 wr=0.58 win=0.72R loss=0.93R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 11:26", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.4}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.2}, "mean_reversion": {"n": 115, "wr": 0.687, "avg_win_R": 0.624, "avg_loss_R": 1.0
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 357 ไม้ (2026-08-26T06:09 → 2026-09-29T04:24) | net +0.93 | เฉลี่ย +0.003 | ชนะ 61.6% | PF 1.01 ✓
+   · trend            ไม้  46 | net  +3.51 | PF  1.29 ✓ | 40 ล่าสุด: +0.041/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +3.51 (46 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (10 รอบ · 10:50→10:59 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 7 รอบ · ไม่ผ่าน = 3 รอบ · ด่าน 1 ชะลอก่อน = 10 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 10 · คะแนนถ่วงน้ำหนักต่ำ 10 · ด่าน 3 ไม่เทรด(ฝั่งตรงข้ามแรงกว่า) 1
+      range_sell               คะแนนถ่วงน้ำหนักต่ำ 10 · คะแนนดิบสูงเกินบน(อิ่มตัว) 9
+      range_buy                คะแนนดิบสูงเกินบน(อิ่มตัว) 9 · คะแนนถ่วงน้ำหนักสูงเกินบน 8
+      trend_sell               คะแนนดิบต่ำ 8 · คะแนนถ่วงน้ำหนักต่ำ 8
+      mean_reversion_sell      ด่าน 1 ชะลอ(net) 10 · ด่าน 3 ไม่เทรด(ฝั่งตรงข้ามแรงกว่า) 5
+      mean_reversion_buy       คะแนนดิบสูงเกินบน(อิ่มตัว) 5 · คะแนนถ่วงน้ำหนักสูงเกินบน 5
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ mean_reversion_buy       ดิบ 0.188/0.117 · prob 0.56 · ถ่วงน้ำหนัก 0.160/0.116
+      ✅ trend_sell               ดิบ 0.311/0.264 · prob 0.58 · ถ่วงน้ำหนัก 0.265/0.220
+      ✅ range_buy                ดิบ 0.386/0.289 · prob 0.53 · ถ่วงน้ำหนัก 0.444/0.361
+      ✅ range_sell               ดิบ 0.000/0.000 · prob 0.00 · ถ่วงน้ำหนัก 0.000/0.000
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: กลาง · น้ำหนัก 52%  (score +0.052)
+[INTERNAL-SIGNAL]
+DIRECTION=NEUTRAL
+WEIGHT=52
+ASTRO=bullish:0.68
+NOTE=ภายใน: แรงซื้อ/ขาย 0.284722/0.07901 (สุทธิ +0.57) · engine เอน 1B/61S 24ชม. (-0.97) · ดูดวง bullish 0.68 (+0.68) · rolling20 $-2.48 · net72h $+0.076/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-29 11:28 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -1.00 · คะแนนหนุน 0 / กด 8) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 5 ข่าว · คะแนนรวม 26 (หนุน 0 / กด 1) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 21 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 0) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 4 ข่าว · คะแนนรวม 12 (หนุน 0 / กด 0) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+
+**ข่าวเด่น:**
+- 🔴 [8] (markets) Dollar pinned at two-month high as bond rout extends, Fed rate hike bets rise
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed rates
+- ⚪ [5] (commodities) Dollar Index stalls at 101.15 resistance on bearish divergence: Live
+- ⚪ [5] (macro) Dollar hold near two-month peak as yields rise, Fed data looms
+- ⚪ [3] (macro) Fed watchdog flags apparent data breaches by retiring staff member
+- ⚪ [3] (
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.68
+- เลข 7 ตัว: [9, 9, 6, 1, 8, 3, 1] (รวม 37) → ฐาน 9 = 1 · เลข 1 — จุดเริ่มเดินหน้า แนวโน้มขึ้น · เลขคู่เสียง 9
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 1 — จุดเริ่มเดินหน้า แนวโน้มขึ้น — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### P/L Attribution
+## 2026-09-29 04:28 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=0 | errors=0
+- **❌ ขาดทุน** 2026-09-29T04:24:45 | trend sell | net=$-0.71 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=0 loss=1 net_total=$-0.7100 | net เฉลี่ย $-0.7100/trade ★ | winrate=0.0% (รายงานเท่านั้น)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=51 ออเดอร์ (~17.0/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.076/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 357 ออเดอร์
+🏆 mean_reversion: n=115 net=$1.66 wr=63%, trend: n=103 net=$1.31 wr=61%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.012/trade (n=2)
+
+## 2026-09-29 04:42 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 119354339 → 119354468)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (37759 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 11:39", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0474, "n": 76}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1218, "n": 51}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 355}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 3 รายการที่ควรปรับ (จาก R-multiple จริง 353 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.4R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.2R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.2R
+   range            n= 88 wr=0.56 win=0.64R loss=0.93R | SL=1.0 TP=1.3R
+   trend            n= 97 wr=0.58 win=0.72R loss=0.93R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 11:39", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.40R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.3, "reward_risk_from": 1.4}, {"action": "set_tpsl", "strategy": "range", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.64R < 55% ของเป้า 1.30R)", "evidence": "n=88 wr=0.56 avg_win=0.64R avg_loss=0.93R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set_tpsl",
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 357 ไม้ (2026-08-26T06:09 → 2026-09-29T04:24) | net +0.93 | เฉลี่ย +0.003 | ชนะ 61.6% | PF 1.01 ✓
+   · trend            ไม้  46 | net  +3.51 | PF  1.29 ✓ | 40 ล่าสุด: +0.041/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +3.51 (46 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (6 รอบ · 11:34→11:39 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 2 รอบ · ไม่ผ่าน = 4 รอบ · ด่าน 1 ชะลอก่อน = 6 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 6 · คะแนนถ่วงน้ำหนักต่ำ 6
+      range_buy                คะแนนดิบสูงเกินบน(อิ่มตัว) 6 · คะแนนถ่วงน้ำหนักสูงเกินบน 6
+      range_sell               คะแนนดิบต่ำ 6 · คะแนนถ่วงน้ำหนักต่ำ 6
+      mean_reversion_buy       คะแนนดิบสูงเกินบน(อิ่มตัว) 6 · คะแนนถ่วงน้ำหนักสูงเกินบน 6
+      trend_sell               คะแนนดิบต่ำ 4 · คะแนนถ่วงน้ำหนักต่ำ 4
+      mean_reversion_sell      ด่าน 1 ชะลอ(net) 6
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.359/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.305/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: กลาง · น้ำหนัก 53%  (score -0.068)
+[INTERNAL-SIGNAL]
+DIRECTION=NEUTRAL
+WEIGHT=53
+ASTRO=sideways:0.25
+NOTE=ภายใน: แรงซื้อ/ขาย 0.24798/0.061578 (สุทธิ +0.60) · engine เอน 1B/63S 24ชม. (-0.97) · ดูดวง sideways 0.25 (+0.00) · rolling20 $-2.48 · net72h $+0.076/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-29 11:41 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -1.00 · คะแนนหนุน 0 / กด 8) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 5 ข่าว · คะแนนรวม 26 (หนุน 0 / กด 1) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 21 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 0) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 4 ข่าว · คะแนนรวม 12 (หนุน 0 / กด 0) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+
+**ข่าวเด่น:**
+- 🔴 [8] (markets) Dollar pinned at two-month high as bond rout extends, Fed rate hike bets rise
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed rates
+- ⚪ [5] (commodities) Dollar Index stalls at 101.15 resistance on bearish divergence: Live
+- ⚪ [5] (macro) Dollar hold near two-month peak as yields rise, Fed data looms
+- ⚪ [3] (commodities) Stocks fall, squeezed by rising oil prices and Treasury yields
+- ⚪ [3]
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.68
+- เลข 7 ตัว: [9, 9, 6, 1, 1, 8, 1] (รวม 35) → ฐาน 9 = 8 · เลข 8 — มั่งคั่ง เฟื่องฟู · เลขคู่เสียง 7
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 8 — มั่งคั่ง เฟื่องฟู — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=51 ออเดอร์ (~17.0/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.076/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 357 ออเดอร์
+🏆 mean_reversion: n=115 net=$1.66 wr=63%, trend: n=103 net=$1.31 wr=61%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.012/trade (n=2)
+
+## 2026-09-29 04:55 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 119625346 → 119667251)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (37822 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 11:52", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0474, "n": 76}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1218, "n": 51}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 355}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 353 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.4R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.2R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.2R
+   range            n= 88 wr=0.56 win=0.64R loss=0.93R | SL=1.0 TP=1.3R
+   trend            n= 97 wr=0.58 win=0.72R loss=0.93R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 11:52", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.4}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.2}, "mean_reversion": {"n": 115, "wr": 0.687, "avg_win_R": 0.624, "avg_loss_R": 1.0
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 357 ไม้ (2026-08-26T06:09 → 2026-09-29T04:24) | net +0.93 | เฉลี่ย +0.003 | ชนะ 61.6% | PF 1.01 ✓
+   · trend            ไม้  46 | net  +3.51 | PF  1.29 ✓ | 40 ล่าสุด: +0.041/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +3.51 (46 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (8 รอบ · 11:39→11:48 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 2 รอบ · ไม่ผ่าน = 6 รอบ · ด่าน 1 ชะลอก่อน = 8 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 8 · คะแนนถ่วงน้ำหนักต่ำ 8
+      range_buy                คะแนนดิบสูงเกินบน(อิ่มตัว) 8 · คะแนนถ่วงน้ำหนักสูงเกินบน 8
+      range_sell               คะแนนดิบต่ำ 8 · คะแนนถ่วงน้ำหนักต่ำ 8
+      mean_reversion_buy       คะแนนดิบสูงเกินบน(อิ่มตัว) 8 · คะแนนถ่วงน้ำหนักสูงเกินบน 8
+      trend_sell               คะแนนดิบต่ำ 6 · คะแนนถ่วงน้ำหนักต่ำ 6
+      breakout_sell            คะแนนดิบสูงเกินบน(อิ่มตัว) 5 · คะแนนถ่วงน้ำหนักสูงเกินบน 5
+      mean_reversion_sell      ด่าน 1 ชะลอ(net) 8
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.372/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.316/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 58%  (score -0.244)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=58
+ASTRO=sideways:0.25
+NOTE=ภายใน: แรงซื้อ/ขาย 0.111359/0.072549 (สุทธิ +0.21) · engine เอน 1B/65S 24ชม. (-0.97) · ดูดวง sideways 0.25 (+0.00) · rolling20 $-2.48 · net72h $+0.076/trade · ลดความแรง 20% (rolling net ยังติดลบ)
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 1 รายการ
+
+## 2026-09-29 11:54 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -1.00 · คะแนนหนุน 0 / กด 8) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 5 ข่าว · คะแนนรวม 26 (หนุน 0 / กด 1) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 21 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 4 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 0) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 4 ข่าว · คะแนนรวม 12 (หนุน 0 / กด 0) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+
+**ข่าวเด่น:**
+- 🔴 [8] (markets) Dollar pinned at two-month high as bond rout extends, Fed rate hike bets rise
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed rates
+- ⚪ [5] (commodities) Dollar Index stalls at 101.15 resistance on bearish divergence: Live
+- ⚪ [5] (macro) Dollar hold near two-month peak as yields rise, Fed data looms
+- ⚪ [3] (commodities) Stocks fall, squeezed by rising oil prices and Treasury yields
+- ⚪ [3]
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [9, 9, 6, 1, 4, 8, 1] (รวม 38) → ฐาน 9 = 2 · เลข 2 — คู่สมดุล รอจังหวะ · เลขคู่เสียง 1
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 2 — คู่สมดุล รอจังหวะ — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=53 ออเดอร์ (~17.7/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.076/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 357 ออเดอร์
+🏆 mean_reversion: n=115 net=$1.66 wr=63%, trend: n=103 net=$1.31 wr=61%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.012/trade (n=2)
+
+## 2026-09-29 05:08 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 119882366 → 119946907)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (37891 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 12:05", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0474, "n": 76}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1218, "n": 51}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 355}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 353 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.4R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.2R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.2R
+   range            n= 88 wr=0.56 win=0.64R loss=0.93R | SL=1.0 TP=1.3R
+   trend            n= 97 wr=0.58 win=0.72R loss=0.93R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 12:05", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.4}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.2}, "mean_reversion": {"n": 115, "wr": 0.687, "avg_win_R": 0.624, "avg_loss_R": 1.0
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 357 ไม้ (2026-08-26T06:09 → 2026-09-29T04:24) | net +0.93 | เฉลี่ย +0.003 | ชนะ 61.6% | PF 1.01 ✓
+   · trend            ไม้  46 | net  +3.51 | PF  1.29 ✓ | 40 ล่าสุด: +0.041/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +3.51 (46 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (8 รอบ · 11:39→11:48 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 2 รอบ · ไม่ผ่าน = 6 รอบ · ด่าน 1 ชะลอก่อน = 8 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 8 · คะแนนถ่วงน้ำหนักต่ำ 8
+      range_buy                คะแนนดิบสูงเกินบน(อิ่มตัว) 8 · คะแนนถ่วงน้ำหนักสูงเกินบน 8
+      range_sell               คะแนนดิบต่ำ 8 · คะแนนถ่วงน้ำหนักต่ำ 8
+      mean_reversion_buy       คะแนนดิบสูงเกินบน(อิ่มตัว) 8 · คะแนนถ่วงน้ำหนักสูงเกินบน 8
+      trend_sell               คะแนนดิบต่ำ 6 · คะแนนถ่วงน้ำหนักต่ำ 6
+      breakout_sell            คะแนนดิบสูงเกินบน(อิ่มตัว) 5 · คะแนนถ่วงน้ำหนักสูงเกินบน 5
+      mean_reversion_sell      ด่าน 1 ชะลอ(net) 8
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.372/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.316/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 58%  (score -0.259)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=58
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.118698/0.113486 (สุทธิ +0.02) · engine เอน 1B/65S 24ชม. (-0.97) · ดูดวง bullish 0.35 (+0.35) · rolling20 $-2.48 · net72h $+0.076/trade · ลดความแรง 20% (rolling net ยังติดลบ)
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 1 รายการ
+
+## 2026-09-29 12:07 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.60 · คะแนนหนุน 2 / กด 8) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 5 ข่าว · คะแนนรวม 26 (หนุน 0 / กด 1) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 21 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 13 (หนุน 0 / กด 0) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 3 ข่าว · คะแนนรวม 9 (หนุน 0 / กด 0) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 2 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [8] (markets) Dollar pinned at two-month high as bond rout extends, Fed rate hike bets rise
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed rates
+- ⚪ [5] (commodities) Dollar Index stalls at 101.15 resistance on bearish divergence: Live
+- ⚪ [5] (macro) Dollar hold near two-month peak as yields rise, Fed data looms
+- ⚪ [3] (macro)
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.68
+- เลข 7 ตัว: [9, 9, 6, 2, 7, 8, 1] (รวม 42) → ฐาน 9 = 6 · เลข 6 — เดินขึ้น เกื้อหนุน · เลขคู่เสียง 5
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 6 — เดินขึ้น เกื้อหนุน — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=53 ออเดอร์ (~17.7/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.076/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 357 ออเดอร์
+🏆 mean_reversion: n=115 net=$1.66 wr=63%, trend: n=103 net=$1.31 wr=61%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.012/trade (n=2)
+
+## 2026-09-29 05:21 UTC — งานวิจัยรวม (14 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 120169191 → 120255596)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (37966 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 12:18", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0445, "n": 77}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1218, "n": 51}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 356}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 3 รายการที่ควรปรับ (จาก R-multiple จริง 354 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.4R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.2R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.2R
+   range            n= 88 wr=0.56 win=0.64R loss=0.93R | SL=1.0 TP=1.3R
+   trend            n= 98 wr=0.57 win=0.72R loss=0.91R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 12:18", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.40R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.3, "reward_risk_from": 1.4}, {"action": "set_tpsl", "strategy": "range", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.64R < 55% ของเป้า 1.30R)", "evidence": "n=88 wr=0.56 avg_win=0.64R avg_loss=0.93R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set_tpsl",
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 358 ไม้ (2026-08-26T06:09 → 2026-09-29T05:15) | net +0.76 | เฉลี่ย +0.002 | ชนะ 61.5% | PF 1.01 ✓
+   · trend            ไม้  47 | net  +3.34 | PF  1.27 ✓ | 40 ล่าสุด: +0.053/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +3.34 (47 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (1 รอบ · 12:09→12:09 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 1 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_buy                คะแนนดิบสูงเกินบน(อิ่มตัว) 1 · คะแนนถ่วงน้ำหนักสูงเกินบน 1
+      range_sell               คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_sell      ด่าน 1 ชะลอ(net) 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.552/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.469/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 60%  (score -0.304)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=60
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.178777/0.208276 (สุทธิ -0.08) · engine เอน 1B/66S 24ชม. (-0.97) · ดูดวง bullish 0.35 (+0.35) · rolling20 $-2.30 · net72h $+0.071/trade · ลดความแรง 20% (rolling net ยังติดลบ)
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-29 12:20 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.60 · คะแนนหนุน 2 / กด 8) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 5 ข่าว · คะแนนรวม 26 (หนุน 0 / กด 1) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 21 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 13 (หนุน 0 / กด 0) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 3 ข่าว · คะแนนรวม 9 (หนุน 0 / กด 0) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 2 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [8] (markets) Dollar pinned at two-month high as bond rout extends, Fed rate hike bets rise
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed rates
+- ⚪ [5] (commodities) Dollar Index stalls at 101.15 resistance on bearish divergence: Live
+- ⚪ [5] (macro) Dollar hold near two-month peak as yields rise, Fed data looms
+- ⚪ [3] (macro)
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: → ออกข้าง (sideways) · strength 0.25
+- เลข 7 ตัว: [9, 9, 6, 2, 10, 6, 1] (รวม 43) → ฐาน 9 = 7 · เลข 7 — เสี่ยง ดาวเสาร์กด · เลขคู่เสียง 6
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 7 — เสี่ยง ดาวเสาร์กด — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### P/L Attribution
+## 2026-09-29 05:20 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=0 | errors=0
+- **❌ ขาดทุน** 2026-09-29T05:15:50 | trend sell | net=$-0.17 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=0 loss=1 net_total=$-0.1700 | net เฉลี่ย $-0.1700/trade ★ | winrate=0.0% (รายงานเท่านั้น)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=54 ออเดอร์ (~18.0/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.071/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 358 ออเดอร์
+🏆 mean_reversion: n=115 net=$1.66 wr=63%, breakout: n=14 net=$1.16 wr=50%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.015/trade (n=2)
+
+## 2026-09-29 05:35 UTC — งานวิจัยรวม (14 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 120434335 → 120543947)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (38035 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 12:31", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0441, "n": 78}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1218, "n": 51}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 357}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 1 รายการที่ควรปรับ (จาก R-multiple จริง 355 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.4R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.2R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.2R
+   range            n= 88 wr=0.56 win=0.64R loss=0.93R | SL=1.0 TP=1.3R
+   trend            n= 99 wr=0.58 win=0.71R loss=0.91R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 12:31", "changes": [{"action": "set_tpsl", "strategy": "trend", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.71R < 55% ของเป้า 1.30R)", "evidence": "n=99 wr=0.58 avg_win=0.71R avg_loss=0.91R", "reward_risk": 1.2, "reward_risk_from": 1.3}], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.4}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 359 ไม้ (2026-08-26T06:09 → 2026-09-29T05:27) | net +0.77 | เฉลี่ย +0.002 | ชนะ 61.6% | PF 1.01 ✓
+   · trend            ไม้  47 | net  +3.34 | PF  1.27 ✓ | 40 ล่าสุด: +0.053/ไม้ แย่ลง ✗
+   · mean_reversion   ไม้   1 | net  +0.01 | PF 99.00 ✓ | 1 ล่าสุด: +0.010/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +3.34 (47 ไม้) · buy +0.01 (1 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (1 รอบ · 12:09→12:09 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 1 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_buy                คะแนนดิบสูงเกินบน(อิ่มตัว) 1 · คะแนนถ่วงน้ำหนักสูงเกินบน 1
+      range_sell               คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_sell      ด่าน 1 ชะลอ(net) 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.552/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.469/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 56%  (score -0.210)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=56
+ASTRO=bullish:0.68
+NOTE=ภายใน: แรงซื้อ/ขาย 0.169479/0.174026 (สุทธิ -0.01) · engine เอน 1B/66S 24ชม. (-0.97) · ดูดวง bullish 0.68 (+0.68) · rolling20 $-1.67 · net72h $+0.070/trade · ลดความแรง 20% (rolling net ยังติดลบ)
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-29 12:33 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -1.00 · คะแนนหนุน 0 / กด 8) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 5 ข่าว · คะแนนรวม 26 (หนุน 0 / กด 1) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 21 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 13 (หนุน 0 / กด 0) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 3 ข่าว · คะแนนรวม 9 (หนุน 0 / กด 0) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ภูมิรัฐศาสตร์** — 1 ข่าว · คะแนนรวม 2 (หนุน 0 / กด 0) · ตึงเครียด=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [8] (markets) Dollar pinned at two-month high as bond rout extends, Fed rate hike bets rise
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed rates
+- ⚪ [5] (commodities) Dollar Index stalls at 101.15 resistance on bearish divergence: Live
+- ⚪ [5] (macro) Dollar hold near two-month peak as yields rise, Fed data looms
+- ⚪ [3] (macro)
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.68
+- เลข 7 ตัว: [9, 9, 6, 2, 3, 9, 1] (รวม 39) → ฐาน 9 = 3 · เลข 3 — กำไรเสริม เลื่อนขึ้น · เลขคู่เสียง 2
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 3 — กำไรเสริม เลื่อนขึ้น — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### P/L Attribution
+## 2026-09-29 05:34 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=1 | errors=0
+- **✅ กำไร** 2026-09-29T05:27:11 | mean_reversion buy | net=$0.01 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=1 loss=0 net_total=$0.0100 | net เฉลี่ย $0.0100/trade ★ | winrate=100.0% (รายงานเท่านั้น)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=55 ออเดอร์ (~18.3/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.070/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 359 ออเดอร์
+🏆 mean_reversion: n=115 net=$1.66 wr=63%, breakout: n=14 net=$1.16 wr=50%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.016/trade (n=2)
+
+## 2026-09-29 05:47 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 120871915 → 120924587)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (38117 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 0 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 12:45", "changes": [], "nets": {"trend_legacy_sell": {"mean": 0.1625, "n": 4}, "trend_sell": {"mean": 0.0441, "n": 78}, "range_buy": {"mean": -0.1105, "n": 21}, "range_sell": {"mean": -0.0343, "n": 75}, "breakout_sell": {"mean": 0.005, "n": 6}, "trend_buy": {"mean": -0.2167, "n": 9}, "breakout_buy": {"mean": 0.14, "n": 5}, "mean_reversion_sell": {"mean": 0.1218, "n": 51}, "mean_reversion_buy": {"mean": -0.0691, "n": 54}, "counter_trend_buy": {"mean": 0.0519, "n": 27}, "counter_trend_sell": {"mean": -0.06, "n": 13}, "breakout_reversal_buy": {"mean": 0.16, "n": 2}, "breakout_reversal_sell": {"mean": -0.0683, "n": 12}}, "net_used": 357}
+[/BAND-PLAN]
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 355 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.4R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.2R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.2R
+   range            n= 88 wr=0.56 win=0.64R loss=0.93R | SL=1.0 TP=1.3R
+   trend            n= 99 wr=0.58 win=0.71R loss=0.91R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 12:45", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.4}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.2}, "mean_reversion": {"n": 115, "wr": 0.687, "avg_win_R": 0.624, "avg_loss_R": 1.0
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 359 ไม้ (2026-08-26T06:09 → 2026-09-29T05:27) | net +0.77 | เฉลี่ย +0.002 | ชนะ 61.6% | PF 1.01 ✓
+   · trend            ไม้  47 | net  +3.34 | PF  1.27 ✓ | 40 ล่าสุด: +0.053/ไม้ แย่ลง ✗
+   · mean_reversion   ไม้   1 | net  +0.01 | PF 99.00 ✓ | 1 ล่าสุด: +0.010/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +3.34 (47 ไม้) · buy +0.01 (1 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (4 รอบ · 12:38→12:45 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 4 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 4 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 4 · คะแนนถ่วงน้ำหนักต่ำ 4 · ด่าน 3 ไม่เทรด(ฝั่งตรงข้ามแรงกว่า) 2
+      range_buy                คะแนนดิบสูงเกินบน(อิ่มตัว) 2 · คะแนนถ่วงน้ำหนักสูงเกินบน 2 · คะแนนดิบต่ำ 2
+      range_sell               คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2 · คะแนนดิบสูงเกินบน(อิ่มตัว) 2
+      mean_reversion_buy       คะแนนดิบสูงเกินบน(อิ่มตัว) 2 · คะแนนถ่วงน้ำหนักสูงเกินบน 2 · คะแนนดิบต่ำ 2
+      mean_reversion_sell      ด่าน 1 ชะลอ(net) 4
+      counter_trend_buy        คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.778/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.661/0.296
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 60%  (score -0.330)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=60
+ASTRO=bullish:0.68
+NOTE=ภายใน: แรงซื้อ/ขาย 0.08883/0.157753 (สุทธิ -0.28) · engine เอน 1B/69S 24ชม. (-0.97) · ดูดวง bullish 0.68 (+0.68) · rolling20 $-1.67 · net72h $+0.070/trade · ลดความแรง 20% (rolling net ยังติดลบ)
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-29 12:47 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -1.00 · คะแนนหนุน 0 / กด 8) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 4 ข่าว · คะแนนรวม 23 (หนุน 0 / กด 1) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 3 ข่าว · คะแนนรวม 18 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 3 ข่าว · คะแนนรวม 13 (หนุน 0 / กด 0) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 6 (หนุน 0 / กด 0) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ภูมิรัฐศาสตร์** — 2 ข่าว · คะแนนรวม 4 (หนุน 0 / กด 0) · ตึงเครียด=หนุนทอง
+- **เงินเฟ้อ** — 1 ข่าว · คะแนนรวม 2 (หนุน 0 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+
+**ข่าวเด่น:**
+- 🔴 [8] (markets) Dollar pinned at two-month high as bond rout extends, Fed rate hike bets rise
+- ⚪ [7] (macro) Gold’s lustre dims as Treasury yields surge, markets bet on higher Fed rates
+- ⚪ [5] (commodities) Dollar Index stalls at 101.15 resistance on bearish divergence: Live
+- ⚪ [5] (macr
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [9, 9, 6, 2, 7, 2, 1] (รวม 36) → ฐาน 9 = 9 · เลข 9 — ครบรอบ จบ-เริ่มใหม่ · เลขคู่เสียง 8
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 9 — ครบรอบ จบ-เริ่มใหม่ — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=57 ออเดอร์ (~19.0/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.070/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 359 ออเดอร์
+🏆 mean_reversion: n=115 net=$1.66 wr=63%, breakout: n=14 net=$1.16 wr=50%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.016/trade (n=2)
+
+## 2026-09-29 06:01 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 121197587 → 121249963)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (38187 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 7 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 12:58", "changes": [{"strategy": "trend", "side": "buy", "raw_low_from": 0.467, "raw_low_to": 0.542, "raw_high_from": 0.634, "raw_high_to": 0.642, "net_exp": -0.2167, "net_n": 9}, {"strategy": "trend", "side": "sell", "raw_low_from": 0.618, "raw_low_to": 0.618, "raw_high_from": 0.85, "raw_high_to": 0.91, "net_exp": 0.0357, "net_n": 79}, {"strategy": "range", "side": "buy", "raw_low_from": 0.327, "raw_low_to": 0.407, "raw_high_from": 0.433, "raw_high_to": 0.507, "net_exp": -0.1105, "net_n": 21}, {"strategy": "range", "side": "sell", "raw_low_from": 0.411, "raw_low_to": 0.501, "raw_high_from": 0.591, "raw_high_to": 0.601, "net_exp": -0.0343, "net_n": 75}, {"strategy": "mean_reversion", "side"
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 3 รายการที่ควรปรับ (จาก R-multiple จริง 356 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.4R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.2R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.2R
+   range            n= 88 wr=0.56 win=0.64R loss=0.93R | SL=1.0 TP=1.3R
+   trend            n=100 wr=0.57 win=0.71R loss=0.91R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 12:58", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.40R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.3, "reward_risk_from": 1.4}, {"action": "set_tpsl", "strategy": "range", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.64R < 55% ของเป้า 1.30R)", "evidence": "n=88 wr=0.56 avg_win=0.64R avg_loss=0.93R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set_tpsl",
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 360 ไม้ (2026-08-26T06:09 → 2026-09-29T05:49) | net +0.15 | เฉลี่ย +0.000 | ชนะ 61.4% | PF 1.00 ✓
+   · trend            ไม้  47 | net  +3.34 | PF  1.27 ✓ | 40 ล่าสุด: +0.053/ไม้ แย่ลง ✗
+   · mean_reversion   ไม้   2 | net  -0.61 | PF  0.02 ✗ | 2 ล่าสุด: -0.305/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +2.72 (48 ไม้) · buy +0.01 (1 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (10 รอบ · 12:49→12:58 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 6 รอบ · ไม่ผ่าน = 4 รอบ · ด่าน 1 ชะลอก่อน = 10 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 10 · คะแนนถ่วงน้ำหนักต่ำ 10 · ด่าน 3 ไม่เทรด(ฝั่งตรงข้ามแรงกว่า) 1
+      range_buy                คะแนนดิบต่ำ 10 · คะแนนถ่วงน้ำหนักต่ำ 10
+      mean_reversion_buy       คะแนนดิบต่ำ 10 · คะแนนถ่วงน้ำหนักต่ำ 10
+      mean_reversion_sell      ด่าน 1 ชะลอ(net) 10
+      breakout_buy             คะแนนดิบสูงเกินบน(อิ่มตัว) 5 · คะแนนถ่วงน้ำหนักสูงเกินบน 5
+      trend_sell               คะแนนดิบต่ำ 4 · คะแนนถ่วงน้ำหนักต่ำ 4
+      range_sell               คะแนนถ่วงน้ำหนักต่ำ 3 · คะแนนดิบสูงเกินบน(อิ่มตัว) 2 · คะแนนถ่วงน้ำหนักสูงเกินบน 2
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.398/0.348 · prob 0.58 · ถ่วงน้ำหนัก 0.338/0.296
+      ✅ range_sell               ดิบ 0.374/0.231 · prob 0.53 · ถ่วงน้ำหนัก 0.430/0.266
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 64%  (score -0.449)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=64
+ASTRO=sideways:0.25
+NOTE=ภายใน: แรงซื้อ/ขาย 0.087176/0.142572 (สุทธิ -0.24) · engine เอน 1B/74S 24ชม. (-0.97) · ดูดวง sideways 0.25 (+0.00) · rolling20 $-1.93 · net72h $+0.056/trade · ลดความแรง 20% (rolling net ยังติดลบ)
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-29 13:00 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -1.00 · คะแนนหนุน 0 / กด 8) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 20 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **ดอกเบี้ย/Fed** — 3 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 1) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 6 (หนุน 0 / กด 0) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 6 (หนุน 0 / กด 0) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ภูมิรัฐศาสตร์** — 2 ข่าว · คะแนนรวม 4 (หนุน 0 / กด 0) · ตึงเครียด=หนุนทอง
+- **เงินเฟ้อ** — 1 ข่าว · คะแนนรวม 2 (หนุน 0 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+
+**ข่าวเด่น:**
+- 🔴 [8] (markets) Dollar pinned at two-month high as bond rout extends, Fed rate hike bets rise
+- ⚪ [5] (commodities) Dollar Index stalls at 101.15 resistance on bearish divergence: Live
+- ⚪ [5] (macro) Dollar hold near two-month peak as yields rise, Fed data looms
+- ⚪ [3] (macro) Wall St decl
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.68
+- เลข 7 ตัว: [9, 9, 6, 3, 10, 8, 1] (รวม 46) → ฐาน 9 = 1 · เลข 1 — จุดเริ่มเดินหน้า แนวโน้มขึ้น · เลขคู่เสียง 9
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 1 — จุดเริ่มเดินหน้า แนวโน้มขึ้น — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=57 ออเดอร์ (~19.0/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.056/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 360 ออเดอร์
+🏆 mean_reversion: n=115 net=$1.66 wr=63%, breakout: n=14 net=$1.16 wr=50%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.017/trade (n=2)
+
+## 2026-09-29 06:13 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 121497488 → 121571940)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (38307 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 6 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-29 13:11", "changes": [{"strategy": "trend", "side": "buy", "raw_low_from": 0.452, "raw_low_to": 0.542, "raw_high_from": 0.552, "raw_high_to": 0.642, "net_exp": -0.2167, "net_n": 9}, {"strategy": "trend", "side": "sell", "raw_low_from": 0.515, "raw_low_to": 0.455, "raw_high_from": 0.837, "raw_high_to": 0.897, "net_exp": 0.0197, "net_n": 87}, {"strategy": "range", "side": "buy", "raw_low_from": 0.327, "raw_low_to": 0.401, "raw_high_from": 0.433, "raw_high_to": 0.501, "net_exp": -0.1105, "net_n": 21}, {"strategy": "range", "side": "sell", "raw_low_from": 0.445, "raw_low_to": 0.525, "raw_high_from": 0.651, "raw_high_to": 0.625, "net_exp": -0.0343, "net_n": 75}, {"strategy": "mean_reversion", "sid
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 1 รายการที่ควรปรับ (จาก R-multiple จริง 364 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.4R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.2R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.2R
+   range            n= 88 wr=0.56 win=0.64R loss=0.93R | SL=1.0 TP=1.3R
+   trend            n=108 wr=0.56 win=0.71R loss=0.91R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-29 13:11", "changes": [{"action": "set_tpsl", "strategy": "trend", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.71R < 55% ของเป้า 1.30R)", "evidence": "n=108 wr=0.56 avg_win=0.71R avg_loss=0.91R", "reward_risk": 1.2, "reward_risk_from": 1.3}], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.4}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_ris
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 368 ไม้ (2026-08-26T06:09 → 2026-09-29T06:01) | net -0.96 | เฉลี่ย -0.003 | ชนะ 60.9% | PF 0.99 ✗
+   · trend            ไม้  54 | net  +2.76 | PF  1.20 ✓ | 40 ล่าสุด: -0.028/ไม้ แย่ลง ✗
+   · mean_reversion   ไม้   3 | net  -1.14 | PF  0.01 ✗ | 3 ล่าสุด: -0.380/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +1.61 (56 ไม้) · buy +0.01 (1 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (11 รอบ · 13:01→13:10 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 11 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 11 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_sell               คะแนนดิบต่ำ 11 · คะแนนถ่วงน้ำหนักต่ำ 11
+      range_buy                คะแนนดิบต่ำ 11 · คะแนนถ่วงน้ำหนักต่ำ 11
+      range_sell               คะแนนดิบต่ำ 11 · คะแนนถ่วงน้ำหนักต่ำ 11
+      mean_reversion_buy       คะแนนดิบต่ำ 11 · คะแนนถ่วงน้ำหนักต่ำ 11
+      mean_reversion_sell      ด่าน 1 ชะลอ(net) 11
+      breakout_reversal_sell   คะแนนดิบสูงเกินบน(อิ่มตัว) 5 · คะแนนถ่วงน้ำหนักสูงเกินบน 5
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_buy                ดิบ 0.504/0.447 · prob 0.58 · ถ่วงน้ำหนัก 0.428/0.397
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ขาย · น้ำหนัก 58%  (score -0.246)
+[INTERNAL-SIGNAL]
+DIRECTION=SELL
+WEIGHT=58
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.089668/0.122989 (สุทธิ -0.16) · engine เอน 13B/74S 24ชม. (-0.70) · ดูดวง bullish 0.35 (+0.35) · rolling20 $-3.37 · net72h $+0.028/trade · ลดความแรง 20% (rolling net ยังติดลบ)
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-29 13:13 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.60 · คะแนนหนุน 2 / กด 8) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 20 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **ดอกเบี้ย/Fed** — 3 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 1) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 6 (หนุน 0 / กด 0) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 2 ข่าว · คะแนนรวม 6 (หนุน 0 / กด 0) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **ภูมิรัฐศาสตร์** — 2 ข่าว · คะแนนรวม 4 (หนุน 1 / กด 0) · ตึงเครียด=หนุนทอง
+- **เงินเฟ้อ** — 1 ข่าว · คะแนนรวม 2 (หนุน 0 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+
+**ข่าวเด่น:**
+- 🔴 [8] (markets) Dollar pinned at two-month high as bond rout extends, Fed rate hike bets rise
+- ⚪ [5] (commodities) Dollar Index stalls at 101.15 resistance on bearish divergence: Live
+- ⚪ [5] (macro) Dollar hold near two-month peak as yields rise, Fed data looms
+- ⚪ [3] (macro) Wall St decl
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: → ออกข้าง (sideways) · strength 0.25
+- เลข 7 ตัว: [9, 9, 6, 3, 3, 1, 1] (รวม 32) → ฐาน 9 = 5 · เลข 5 — เปลี่ยนแปลง ผันผวนลงได้ · เลขคู่เสียง 4
+- ดาวประจำวัน: อังคาร · ดุเดือด (ไฟ)
+- คำทำนาย: เลข 5 — เปลี่ยนแปลง ผันผวนลงได้ — วันอังคาร ลักษณะดุเดือด
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=57 ออเดอร์ (~19.0/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.028/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 368 ออเดอร์
+🏆 mean_reversion: n=115 net=$1.66 wr=63%, breakout: n=14 net=$1.16 wr=50%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.012/trade (n=2)
+
+## 2026-09-30 01:31 UTC — งานวิจัยรวม (14 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 121792764 → 121903719)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (38417 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 6 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-30 08:28", "changes": [{"strategy": "trend", "side": "buy", "raw_low_from": 0.452, "raw_low_to": 0.542, "raw_high_from": 0.552, "raw_high_to": 0.642, "net_exp": -0.2167, "net_n": 9}, {"strategy": "trend", "side": "sell", "raw_low_from": 0.426, "raw_low_to": 0.366, "raw_high_from": 0.83, "raw_high_to": 0.89, "net_exp": 0.0197, "net_n": 87}, {"strategy": "range", "side": "buy", "raw_low_from": 0.27, "raw_low_to": 0.35, "raw_high_from": 0.433, "raw_high_to": 0.45, "net_exp": -0.1105, "net_n": 21}, {"strategy": "range", "side": "sell", "raw_low_from": 0.445, "raw_low_to": 0.525, "raw_high_from": 0.651, "raw_high_to": 0.625, "net_exp": -0.0343, "net_n": 75}, {"strategy": "mean_reversion", "side": "
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 4 รายการที่ควรปรับ (จาก R-multiple จริง 364 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.4R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.2R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.2R
+   range            n= 88 wr=0.56 win=0.64R loss=0.93R | SL=1.0 TP=1.3R
+   trend            n=108 wr=0.56 win=0.71R loss=0.91R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-30 08:28", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.40R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.3, "reward_risk_from": 1.4}, {"action": "set_tpsl", "strategy": "range", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.64R < 55% ของเป้า 1.30R)", "evidence": "n=88 wr=0.56 avg_win=0.64R avg_loss=0.93R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set_tpsl",
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 368 ไม้ (2026-08-26T06:09 → 2026-09-29T06:01) | net -0.96 | เฉลี่ย -0.003 | ชนะ 60.9% | PF 0.99 ✗
+   · trend            ไม้  54 | net  +2.76 | PF  1.20 ✓ | 40 ล่าสุด: -0.028/ไม้ แย่ลง ✗
+   · mean_reversion   ไม้   3 | net  -1.14 | PF  0.01 ✗ | 3 ล่าสุด: -0.380/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +1.61 (56 ไม้) · buy +0.01 (1 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (1 รอบ · 08:26→08:26 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      trend_sell               คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_sell               คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_sell      คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      breakout_sell            คะแนนดิบสูงเกินบน(อิ่มตัว) 1 · คะแนนถ่วงน้ำหนักสูงเกินบน 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ range_buy                ดิบ 0.375/0.270 · prob 0.53 · ถ่วงน้ำหนัก 0.431/0.310
+      ✅ mean_reversion_buy       ดิบ 0.315/0.181 · prob 0.56 · ถ่วงน้ำหนัก 0.268/0.154
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: กลาง · น้ำหนัก 54%  (score -0.100)
+[INTERNAL-SIGNAL]
+DIRECTION=NEUTRAL
+WEIGHT=54
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.046297/0.102579 (สุทธิ -0.38) · engine เอน 23B/23S 24ชม. (+0.00) · ดูดวง bullish 0.35 (+0.35) · rolling20 $-3.37 · net72h $+0.028/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 5 รายการ
+
+## 2026-09-30 08:30 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -1.00 · คะแนนหนุน 0 / กด 14) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 2 ข่าว · คะแนนรวม 14 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 11 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **ค่าเงินดอลลาร์** — 3 ข่าว · คะแนนรวม 10 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พลังงาน** — 1 ข่าว · คะแนนรวม 3 (หนุน 0 / กด 0) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Stocks dip, 2-year US yield falls after Fed’s Williams cools rate hike bets
+- 🔴 [5] (markets) Wells Fargo revises dollar, yen, euro estimates amid rate hike outlook
+- ⚪ [3] (markets) Sterling today: Pound slips as oil-fuelled dollar demand builds
+- ⚪ [2] (markets) Dollar firms, Aussie drops after RBA hike, and sterling slips on Burnham speech
+- ⚪ [2] (markets) U.S. Treasury yields ease while Aussie yields retreat  after 2011-era pe
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: → ออกข้าง (sideways) · strength 0.62
+- เลข 7 ตัว: [10, 9, 6, 8, 10, 5, 1] (รวม 49) → ฐาน 9 = 4 · เลข 4 — เสถียร ทรงตัว · เลขคู่เสียง 3
+- ดาวประจำวัน: พุธ · แปรปรวน (ดิน)
+- คำทำนาย: เลข 4 — เสถียร ทรงตัว — วันพุธ ลักษณะแปรปรวน
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=11 ออเดอร์ (~19.3/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.028/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 368 ออเดอร์
+🏆 mean_reversion: n=115 net=$1.66 wr=63%, breakout: n=14 net=$1.16 wr=50%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.012/trade (n=2)
+
+### 🛡️ Profit-Anchor Guard (เฝ้าโซนกำไร)
+📊 [โซน Net Profit] รายงานรายวัน (เวลาไทย 2026-09-30)
+• % วันที่ปิดบวก: 7 วัน = 28.6% | 30 วัน = 45.5% (จาก 11 วันเทรด)
+• ความถี่เทรด: 7 วันล่าสุด = 57 trades (~8.1/วัน) — ⚠️ ความถี่ห้ามถูกปิดกั้น
+• rolling net (K=20): $-3.37 | HWM: $5.11 (ห่าง $8.48)
+• กลไк 4 ชั้น: auto_threshold + adaptive_shadow + REC gate + profit-anchor guard
+
+## 2026-09-30 01:50 UTC — งานวิจัยรวม (14 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 122209629 → 122232009)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (38545 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 6 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-30 08:41", "changes": [{"strategy": "trend", "side": "buy", "raw_low_from": 0.452, "raw_low_to": 0.542, "raw_high_from": 0.552, "raw_high_to": 0.642, "net_exp": -0.2167, "net_n": 9}, {"strategy": "trend", "side": "sell", "raw_low_from": 0.425, "raw_low_to": 0.365, "raw_high_from": 0.83, "raw_high_to": 0.89, "net_exp": 0.0212, "net_n": 88}, {"strategy": "range", "side": "buy", "raw_low_from": 0.27, "raw_low_to": 0.344, "raw_high_from": 0.433, "raw_high_to": 0.444, "net_exp": -0.1105, "net_n": 21}, {"strategy": "range", "side": "sell", "raw_low_from": 0.445, "raw_low_to": 0.525, "raw_high_from": 0.651, "raw_high_to": 0.625, "net_exp": -0.0343, "net_n": 75}, {"strategy": "mean_reversion", "side":
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 365 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.4R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.2R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.2R
+   range            n= 88 wr=0.56 win=0.64R loss=0.93R | SL=1.0 TP=1.3R
+   trend            n=109 wr=0.56 win=0.71R loss=0.91R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-30 08:41", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.4}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.2}, "mean_reversion": {"n": 115, "wr": 0.687, "avg_win_R": 0.624, "avg_loss_R": 1.0
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 369 ไม้ (2026-08-26T06:09 → 2026-09-30T01:36) | net -0.80 | เฉลี่ย -0.002 | ชนะ 61.0% | PF 0.99 ✗
+   · trend            ไม้  54 | net  +2.76 | PF  1.20 ✓ | 40 ล่าสุด: -0.028/ไม้ แย่ลง ✗
+   · range            ไม้   1 | net  +0.16 | PF 99.00 ✓ | 1 ล่าสุด: +0.160/ไม้ แย่ลง ✗
+   · mean_reversion   ไม้   3 | net  -1.14 | PF  0.01 ✗ | 3 ล่าสุด: -0.380/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +1.61 (56 ไม้) · buy +0.17 (2 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (2 รอบ · 08:26→08:35 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 2 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      range_sell               คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      mean_reversion_sell      คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      trend_sell               คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      breakout_sell            คะแนนดิบสูงเกินบน(อิ่มตัว) 1 · คะแนนถ่วงน้ำหนักสูงเกินบน 1
+      range_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      breakout_reversal_buy    คะแนนดิบสูงเกินบน(อิ่มตัว) 1 · คะแนนถ่วงน้ำหนักสูงเกินบน 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ range_buy                ดิบ 0.375/0.270 · prob 0.53 · ถ่วงน้ำหนัก 0.431/0.310
+      ✅ mean_reversion_buy       ดิบ 0.315/0.181 · prob 0.56 · ถ่วงน้ำหนัก 0.268/0.154
+      ✅ trend_sell               ดิบ 0.491/0.426 · prob 0.58 · ถ่วงน้ำหนัก 0.417/0.344
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: กลาง · น้ำหนัก 52%  (score -0.057)
+[INTERNAL-SIGNAL]
+DIRECTION=NEUTRAL
+WEIGHT=52
+ASTRO=sideways:0.62
+NOTE=ภายใน: แรงซื้อ/ขาย 0.088501/0.11063 (สุทธิ -0.11) · engine เอน 23B/24S 24ชม. (-0.02) · ดูดวง sideways 0.62 (+0.00) · rolling20 $-2.83 · net72h $+0.031/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro) ⚠️ timeout
+ไม่ตอบกลับภายใน 150s
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: → ออกข้าง (sideways) · strength 0.62
+- เลข 7 ตัว: [10, 9, 6, 8, 4, 2, 1] (รวม 40) → ฐาน 9 = 4 · เลข 4 — เสถียร ทรงตัว · เลขคู่เสียง 3
+- ดาวประจำวัน: พุธ · แปรปรวน (ดิน)
+- คำทำนาย: เลข 4 — เสถียร ทรงตัว — วันพุธ ลักษณะแปรปรวน
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### P/L Attribution ⚠️ timeout
+ไม่ตอบกลับภายใน 60s
+
+### AT vs การเทรด (ความถี่) ⚠️ timeout
+ไม่ตอบกลับภายใน 60s
+
+### กลไก ↔ Net Profit ⚠️ timeout
+ไม่ตอบกลับภายใน 60s
+
+### Ranking prob/weight ⚠️ timeout
+ไม่ตอบกลับภายใน 60s
+
+## 2026-09-30 02:03 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 122389749 → 122504136)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (38650 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 6 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-30 09:00", "changes": [{"strategy": "trend", "side": "buy", "raw_low_from": 0.452, "raw_low_to": 0.542, "raw_high_from": 0.552, "raw_high_to": 0.642, "net_exp": -0.2167, "net_n": 9}, {"strategy": "trend", "side": "sell", "raw_low_from": 0.425, "raw_low_to": 0.365, "raw_high_from": 0.83, "raw_high_to": 0.89, "net_exp": 0.0212, "net_n": 88}, {"strategy": "range", "side": "buy", "raw_low_from": 0.27, "raw_low_to": 0.344, "raw_high_from": 0.433, "raw_high_to": 0.444, "net_exp": -0.1105, "net_n": 21}, {"strategy": "range", "side": "sell", "raw_low_from": 0.445, "raw_low_to": 0.525, "raw_high_from": 0.651, "raw_high_to": 0.625, "net_exp": -0.0343, "net_n": 75}, {"strategy": "mean_reversion", "side":
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 4 รายการที่ควรปรับ (จาก R-multiple จริง 365 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.4R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.2R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.2R
+   range            n= 88 wr=0.56 win=0.64R loss=0.93R | SL=1.0 TP=1.3R
+   trend            n=109 wr=0.56 win=0.71R loss=0.91R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-30 09:01", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.40R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.3, "reward_risk_from": 1.4}, {"action": "set_tpsl", "strategy": "range", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.64R < 55% ของเป้า 1.30R)", "evidence": "n=88 wr=0.56 avg_win=0.64R avg_loss=0.93R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set_tpsl",
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 369 ไม้ (2026-08-26T06:09 → 2026-09-30T01:36) | net -0.80 | เฉลี่ย -0.002 | ชนะ 61.0% | PF 0.99 ✗
+   · trend            ไม้  54 | net  +2.76 | PF  1.20 ✓ | 40 ล่าสุด: -0.028/ไม้ แย่ลง ✗
+   · range            ไม้   1 | net  +0.16 | PF 99.00 ✓ | 1 ล่าสุด: +0.160/ไม้ แย่ลง ✗
+   · mean_reversion   ไม้   3 | net  -1.14 | PF  0.01 ✗ | 3 ล่าสุด: -0.380/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +1.61 (56 ไม้) · buy +0.17 (2 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (2 รอบ · 08:26→08:35 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 2 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      range_sell               คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      mean_reversion_sell      คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      trend_sell               คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      breakout_sell            คะแนนดิบสูงเกินบน(อิ่มตัว) 1 · คะแนนถ่วงน้ำหนักสูงเกินบน 1
+      range_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      breakout_reversal_buy    คะแนนดิบสูงเกินบน(อิ่มตัว) 1 · คะแนนถ่วงน้ำหนักสูงเกินบน 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ range_buy                ดิบ 0.375/0.270 · prob 0.53 · ถ่วงน้ำหนัก 0.431/0.310
+      ✅ mean_reversion_buy       ดิบ 0.315/0.181 · prob 0.56 · ถ่วงน้ำหนัก 0.268/0.154
+      ✅ trend_sell               ดิบ 0.491/0.426 · prob 0.58 · ถ่วงน้ำหนัก 0.417/0.344
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: กลาง · น้ำหนัก 54%  (score +0.105)
+[INTERNAL-SIGNAL]
+DIRECTION=NEUTRAL
+WEIGHT=54
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.089887/0.074313 (สุทธิ +0.09) · engine เอน 23B/24S 24ชม. (-0.02) · ดูดวง bullish 0.35 (+0.35) · rolling20 $-2.83 · net72h $+0.031/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 1 รายการ
+
+## 2026-09-30 09:03 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -1.00 · คะแนนหนุน 0 / กด 14) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 2 ข่าว · คะแนนรวม 14 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 12 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 11 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 1 ข่าว · คะแนนรวม 3 (หนุน 0 / กด 0) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Stocks dip, 2-year US yield falls after Fed’s Williams cools rate hike bets
+- 🔴 [5] (markets) Wells Fargo revises dollar, yen, euro estimates amid rate hike outlook
+- ⚪ [3] (markets) Sterling today: Pound slips as oil-fuelled dollar demand builds
+- ⚪ [2] (markets) Dollar firms, Aussie drops after RBA hike, and sterling slips on Burnham speech
+- ⚪ [2] (markets) U.S. Treasury yields ease while Aussie yields retreat  after 2011-era pe
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: → ออกข้าง (sideways) · strength 0.62
+- เลข 7 ตัว: [10, 9, 6, 9, 3, 9, 1] (รวม 47) → ฐาน 9 = 2 · เลข 2 — คู่สมดุล รอจังหวะ · เลขคู่เสียง 1
+- ดาวประจำวัน: พุธ · แปรปรวน (ดิน)
+- คำทำนาย: เลข 2 — คู่สมดุล รอจังหวะ — วันพุธ ลักษณะแปรปรวน
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=12 ออเดอร์ (~19.7/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.031/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 369 ออเดอร์
+🏆 mean_reversion: n=115 net=$1.66 wr=63%, breakout: n=14 net=$1.16 wr=50%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.016/trade (n=2)
+
+## 2026-09-30 02:16 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 122648917 → 122798057)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (38758 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 6 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-30 09:13", "changes": [{"strategy": "trend", "side": "buy", "raw_low_from": 0.452, "raw_low_to": 0.542, "raw_high_from": 0.552, "raw_high_to": 0.642, "net_exp": -0.2167, "net_n": 9}, {"strategy": "trend", "side": "sell", "raw_low_from": 0.425, "raw_low_to": 0.365, "raw_high_from": 0.821, "raw_high_to": 0.881, "net_exp": 0.0162, "net_n": 89}, {"strategy": "range", "side": "buy", "raw_low_from": 0.27, "raw_low_to": 0.34, "raw_high_from": 0.433, "raw_high_to": 0.44, "net_exp": -0.1105, "net_n": 21}, {"strategy": "range", "side": "sell", "raw_low_from": 0.445, "raw_low_to": 0.525, "raw_high_from": 0.651, "raw_high_to": 0.625, "net_exp": -0.0343, "net_n": 75}, {"strategy": "mean_reversion", "side":
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 366 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.4R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.2R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.2R
+   range            n= 88 wr=0.56 win=0.64R loss=0.93R | SL=1.0 TP=1.3R
+   trend            n=110 wr=0.56 win=0.71R loss=0.92R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-30 09:14", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.4}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.2}, "mean_reversion": {"n": 115, "wr": 0.687, "avg_win_R": 0.624, "avg_loss_R": 1.0
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 370 ไม้ (2026-08-26T06:09 → 2026-09-30T02:05) | net -1.23 | เฉลี่ย -0.003 | ชนะ 60.8% | PF 0.98 ✗
+   · trend            ไม้  55 | net  +2.33 | PF  1.16 ✓ | 40 ล่าสุด: -0.067/ไม้ แย่ลง ✗
+   · range            ไม้   1 | net  +0.16 | PF 99.00 ✓ | 1 ล่าสุด: +0.160/ไม้ แย่ลง ✗
+   · mean_reversion   ไม้   3 | net  -1.14 | PF  0.01 ✗ | 3 ล่าสุด: -0.380/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +1.18 (57 ไม้) · buy +0.17 (2 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (8 รอบ · 09:05→09:13 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 0 รอบ · ไม่ผ่าน = 8 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 8 · คะแนนถ่วงน้ำหนักต่ำ 8
+      trend_sell               คะแนนดิบต่ำ 8 · คะแนนถ่วงน้ำหนักต่ำ 8
+      range_buy                คะแนนดิบต่ำ 8 · คะแนนถ่วงน้ำหนักต่ำ 8
+      range_sell               คะแนนดิบต่ำ 8 · คะแนนถ่วงน้ำหนักต่ำ 8
+      mean_reversion_buy       คะแนนดิบต่ำ 8 · คะแนนถ่วงน้ำหนักต่ำ 8
+      mean_reversion_sell      คะแนนดิบต่ำ 8 · คะแนนถ่วงน้ำหนักต่ำ 8
+    ไม่มีตัวผ่านด่าน 2 ในช่วงนี้
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: กลาง · น้ำหนัก 51%  (score +0.037)
+[INTERNAL-SIGNAL]
+DIRECTION=NEUTRAL
+WEIGHT=51
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.081802/0.09162 (สุทธิ -0.06) · engine เอน 23B/24S 24ชม. (-0.02) · ดูดวง bullish 0.35 (+0.35) · rolling20 $-2.84 · net72h $+0.023/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+   หมายเหตุ: markets: <urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>
+
+## 2026-09-30 09:15 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -1.00 · คะแนนหนุน 0 / กด 14) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 2 ข่าว · คะแนนรวม 14 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 12 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 11 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 1 ข่าว · คะแนนรวม 3 (หนุน 0 / กด 0) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Stocks dip, 2-year US yield falls after Fed’s Williams cools rate hike bets
+- 🔴 [5] (markets) Wells Fargo revises dollar, yen, euro estimates amid rate hike outlook
+- ⚪ [3] (markets) Sterling today: Pound slips as oil-fuelled dollar demand builds
+- ⚪ [2] (markets) Dollar firms, Aussie drops after RBA hike, and sterli
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [10, 9, 6, 9, 5, 4, 1] (รวม 44) → ฐาน 9 = 8 · เลข 8 — มั่งคั่ง เฟื่องฟู · เลขคู่เสียง 7
+- ดาวประจำวัน: พุธ · แปรปรวน (ดิน)
+- คำทำนาย: เลข 8 — มั่งคั่ง เฟื่องฟู — วันพุธ ลักษณะแปรปรวน
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=12 ออเดอร์ (~20.0/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.023/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 370 ออเดอร์
+🏆 mean_reversion: n=115 net=$1.66 wr=63%, breakout: n=14 net=$1.16 wr=50%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.020/trade (n=2)
+
+## 2026-09-30 02:29 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 123051674 → 123074117)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (38876 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 6 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.217(n=9) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-30 09:26", "changes": [{"strategy": "trend", "side": "buy", "raw_low_from": 0.452, "raw_low_to": 0.542, "raw_high_from": 0.552, "raw_high_to": 0.642, "net_exp": -0.2167, "net_n": 9}, {"strategy": "trend", "side": "sell", "raw_low_from": 0.422, "raw_low_to": 0.362, "raw_high_from": 0.821, "raw_high_to": 0.881, "net_exp": 0.0162, "net_n": 89}, {"strategy": "range", "side": "buy", "raw_low_from": 0.27, "raw_low_to": 0.34, "raw_high_from": 0.433, "raw_high_to": 0.44, "net_exp": -0.1105, "net_n": 21}, {"strategy": "range", "side": "sell", "raw_low_from": 0.445, "raw_low_to": 0.525, "raw_high_from": 0.651, "raw_high_to": 0.625, "net_exp": -0.0343, "net_n": 75}, {"strategy": "mean_reversion", "side":
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 366 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.4R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.2R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.2R
+   range            n= 88 wr=0.56 win=0.64R loss=0.93R | SL=1.0 TP=1.3R
+   trend            n=110 wr=0.56 win=0.71R loss=0.92R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-30 09:27", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.4}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.2}, "mean_reversion": {"n": 115, "wr": 0.687, "avg_win_R": 0.624, "avg_loss_R": 1.0
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 370 ไม้ (2026-08-26T06:09 → 2026-09-30T02:05) | net -1.23 | เฉลี่ย -0.003 | ชนะ 60.8% | PF 0.98 ✗
+   · trend            ไม้  55 | net  +2.33 | PF  1.16 ✓ | 40 ล่าสุด: -0.067/ไม้ แย่ลง ✗
+   · range            ไม้   1 | net  +0.16 | PF 99.00 ✓ | 1 ล่าสุด: +0.160/ไม้ แย่ลง ✗
+   · mean_reversion   ไม้   3 | net  -1.14 | PF  0.01 ✗ | 3 ล่าสุด: -0.380/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +1.18 (57 ไม้) · buy +0.17 (2 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (9 รอบ · 09:07→09:15 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 8 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_sell               คะแนนดิบต่ำ 9 · คะแนนถ่วงน้ำหนักต่ำ 9
+      range_buy                คะแนนดิบต่ำ 9 · คะแนนถ่วงน้ำหนักต่ำ 9
+      range_sell               คะแนนดิบต่ำ 9 · คะแนนถ่วงน้ำหนักต่ำ 9
+      mean_reversion_buy       คะแนนดิบต่ำ 9 · คะแนนถ่วงน้ำหนักต่ำ 9
+      mean_reversion_sell      คะแนนดิบต่ำ 9 · คะแนนถ่วงน้ำหนักต่ำ 9
+      trend_buy                คะแนนดิบต่ำ 8 · คะแนนถ่วงน้ำหนักต่ำ 8
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_buy                ดิบ 0.534/0.452 · prob 0.58 · ถ่วงน้ำหนัก 0.454/0.401
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: กลาง · น้ำหนัก 56%  (score +0.140)
+[INTERNAL-SIGNAL]
+DIRECTION=NEUTRAL
+WEIGHT=56
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.126095/0.092239 (สุทธิ +0.16) · engine เอน 23B/23S 24ชม. (+0.00) · ดูดวง bullish 0.35 (+0.35) · rolling20 $-2.84 · net72h $+0.023/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-30 09:29 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.75 · คะแนนหนุน 2 / กด 14) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 2 ข่าว · คะแนนรวม 14 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 12 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 11 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 1 ข่าว · คะแนนรวม 3 (หนุน 0 / กด 0) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **เงินเฟ้อ** — 1 ข่าว · คะแนนรวม 2 (หนุน 1 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Stocks dip, 2-year US yield falls after Fed’s Williams cools rate hike bets
+- 🔴 [5] (markets) Wells Fargo revises dollar, yen, euro estimates amid rate hike outlook
+- ⚪ [3] (markets) Sterling today: Pound slips as oil-fuelled dollar demand builds
+- ⚪ [2] (markets) Dollar firms, Aussie drops after RBA hike, and sterling slips on Burnham speech
+- ⚪ [2] (
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↓ ลง (bearish) · strength 0.35
+- เลข 7 ตัว: [10, 9, 6, 9, 9, 8, 1] (รวม 52) → ฐาน 9 = 7 · เลข 7 — เสี่ยง ดาวเสาร์กด · เลขคู่เสียง 6
+- ดาวประจำวัน: พุธ · แปรปรวน (ดิน)
+- คำทำนาย: เลข 7 — เสี่ยง ดาวเสาร์กด — วันพุธ ลักษณะแปรปรวน
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=11 ออเดอร์ (~20.0/วัน) → band สมดุล
+🟩 net เฉลี่ย +$0.023/trade → อยู่ในโซนกำไร อาจผ่อน low รับสัญญาณเพิ่ม
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 370 ออเดอร์
+🏆 mean_reversion: n=115 net=$1.66 wr=63%, breakout: n=14 net=$1.16 wr=50%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.020/trade (n=2)
+
+## 2026-09-30 02:35 UTC — งานวิจัยรวม (14 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 123188880 → 123236853)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (38942 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 5 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.237(n=10) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-30 09:32", "changes": [{"strategy": "trend", "side": "buy", "raw_low_from": 0.452, "raw_low_to": 0.542, "raw_high_from": 0.552, "raw_high_to": 0.642, "net_exp": -0.237, "net_n": 10}, {"strategy": "trend", "side": "sell", "raw_low_from": 0.422, "raw_low_to": 0.362, "raw_high_from": 0.821, "raw_high_to": 0.871, "net_exp": 0.0162, "net_n": 89}, {"strategy": "range", "side": "buy", "raw_low_from": 0.27, "raw_low_to": 0.34, "raw_high_from": 0.433, "raw_high_to": 0.44, "net_exp": -0.1105, "net_n": 21}, {"strategy": "range", "side": "sell", "raw_low_from": 0.445, "raw_low_to": 0.525, "raw_high_from": 0.651, "raw_high_to": 0.625, "net_exp": -0.0343, "net_n": 75}, {"strategy": "mean_reversion", "side"
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 4 รายการที่ควรปรับ (จาก R-multiple จริง 367 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.4R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.2R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.2R
+   range            n= 88 wr=0.56 win=0.64R loss=0.93R | SL=1.0 TP=1.3R
+   trend            n=111 wr=0.55 win=0.71R loss=0.93R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-30 09:32", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.40R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.3, "reward_risk_from": 1.4}, {"action": "set_tpsl", "strategy": "range", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.64R < 55% ของเป้า 1.30R)", "evidence": "n=88 wr=0.56 avg_win=0.64R avg_loss=0.93R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set_tpsl",
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 371 ไม้ (2026-08-26T06:09 → 2026-09-30T02:32) | net -1.65 | เฉลี่ย -0.004 | ชนะ 60.6% | PF 0.98 ✗
+   · trend            ไม้  56 | net  +1.91 | PF  1.13 ✓ | 40 ล่าสุด: -0.099/ไม้ แย่ลง ✗
+   · range            ไม้   1 | net  +0.16 | PF 99.00 ✓ | 1 ล่าสุด: +0.160/ไม้ แย่ลง ✗
+   · mean_reversion   ไม้   3 | net  -1.14 | PF  0.01 ✗ | 3 ล่าสุด: -0.380/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +1.18 (57 ไม้) · buy -0.25 (3 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (2 รอบ · 09:32→09:32 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 2 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_sell               คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      range_buy                คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      range_sell               คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      mean_reversion_buy       คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      mean_reversion_sell      คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_buy                ดิบ 0.527/0.452 · prob 0.58 · ถ่วงน้ำหนัก 0.448/0.401
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 [จำลองก่อนเสนอ] จำลอง 8/8 รายการ (แท่งเทียน 800)
+   ของเดิม: total_r 7.2607591305312305 · DD 4.799999999999997 · ไม้ 58 · PF 1.2544131837192198
+   ❌ trend_buy set_gate                 total_r 5.0335851870975725 (ไม้ 55)
+   ❌ trend_sell set_gate                total_r 3.5607591305312307 (ไม้ 64)
+   ✅ range_buy set_gate                 total_r 9.16075913053123 (ไม้ 56)
+   ❌ range_sell set_gate                total_r 6.7443113074128656 (ไม้ 57)
+   ❌ mean_reversion_buy set_gate        total_r 6.160759130531231 (ไม้ 57)
+   ✅ breakout set_tpsl                  total_r 7.2607591305312305 (ไม้ 58)
+   ❌ range set_tpsl                     total_r 6.66075913053123 (ไม้ 58)
+   ❌ trend set_tpsl                     total_r 5.660759130531229 (ไม้ 58)
+   → ชุดรวม: passed (total_r 9.16075913053123)
+   สรุป: อนุมัติ 2 รายการ · ไม่ผ่าน 6 รายการ
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ซื้อ · น้ำหนัก 55%  (score +0.154)
+[INTERNAL-SIGNAL]
+DIRECTION=BUY
+WEIGHT=55
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.128786/0.094344 (สุทธิ +0.15) · engine เอน 25B/23S 24ชม. (+0.04) · ดูดวง bullish 0.35 (+0.35) · rolling20 $-3.49 · net72h $+0.015/trade · ลดความแรง 20% (rolling net ยังติดลบ)
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-30 09:35 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.75 · คะแนนหนุน 2 / กด 14) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 2 ข่าว · คะแนนรวม 14 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 12 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 11 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 1 ข่าว · คะแนนรวม 3 (หนุน 0 / กด 0) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **เงินเฟ้อ** — 1 ข่าว · คะแนนรวม 2 (หนุน 1 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Stocks dip, 2-year US yield falls after Fed’s Williams cools rate hike bets
+- 🔴 [5] (markets) Wells Fargo revises dollar, yen, euro estimates amid rate hike outlook
+- ⚪ [3] (markets) Sterling today: Pound slips as oil-fuelled dollar demand builds
+- ⚪ [2] (markets) Dollar firms, Aussie drops after RBA hike, and sterling slips on Burnham speech
+- ⚪ [2] (
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [10, 9, 6, 9, 5, 8, 1] (รวม 48) → ฐาน 9 = 3 · เลข 3 — กำไรเสริม เลื่อนขึ้น · เลขคู่เสียง 2
+- ดาวประจำวัน: พุธ · แปรปรวน (ดิน)
+- คำทำนาย: เลข 3 — กำไรเสริม เลื่อนขึ้น — วันพุธ ลักษณะแปรปรวน
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### P/L Attribution
+## 2026-09-30 02:35 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=0 | errors=0
+- **❌ ขาดทุน** 2026-09-30T02:32:12 | trend buy | net=$-0.42 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=0 loss=1 net_total=$-0.4200 | net เฉลี่ย $-0.4200/trade ★ | winrate=0.0% (รายงานเท่านั้น)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=11 ออเดอร์ (~20.0/วัน) → band สมดุล
+⬜ net เฉลี่ย +$0.015/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 371 ออเดอร์
+🏆 mean_reversion: n=115 net=$1.66 wr=63%, breakout: n=14 net=$1.16 wr=50%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.020/trade (n=2)
+
+## 2026-09-30 02:42 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 123366335 → 123421610)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (38999 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 5 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.237(n=10) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-30 09:40", "changes": [{"strategy": "trend", "side": "buy", "raw_low_from": 0.458, "raw_low_to": 0.548, "raw_high_from": 0.558, "raw_high_to": 0.648, "net_exp": -0.237, "net_n": 10}, {"strategy": "trend", "side": "sell", "raw_low_from": 0.422, "raw_low_to": 0.362, "raw_high_from": 0.801, "raw_high_to": 0.861, "net_exp": 0.0162, "net_n": 89}, {"strategy": "range", "side": "buy", "raw_low_from": 0.238, "raw_low_to": 0.318, "raw_high_from": 0.44, "raw_high_to": 0.418, "net_exp": -0.1105, "net_n": 21}, {"strategy": "range", "side": "sell", "raw_low_from": 0.414, "raw_low_to": 0.494, "raw_high_from": 0.651, "raw_high_to": 0.594, "net_exp": -0.0343, "net_n": 75}, {"strategy": "mean_reversion", "sid
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 367 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.3R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.2R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.2R
+   range            n= 88 wr=0.56 win=0.64R loss=0.93R | SL=1.0 TP=1.3R
+   trend            n=111 wr=0.55 win=0.71R loss=0.93R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-30 09:40", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.3}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.2}, "mean_reversion": {"n": 115, "wr": 0.687, "avg_win_R": 0.624, "avg_loss_R": 1.0
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 371 ไม้ (2026-08-26T06:09 → 2026-09-30T02:32) | net -1.65 | เฉลี่ย -0.004 | ชนะ 60.6% | PF 0.98 ✗
+   · trend            ไม้  56 | net  +1.91 | PF  1.13 ✓ | 40 ล่าสุด: -0.099/ไม้ แย่ลง ✗
+   · range            ไม้   1 | net  +0.16 | PF 99.00 ✓ | 1 ล่าสุด: +0.160/ไม้ แย่ลง ✗
+   · mean_reversion   ไม้   3 | net  -1.14 | PF  0.01 ✗ | 3 ล่าสุด: -0.380/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +1.18 (57 ไม้) · buy -0.25 (3 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (9 รอบ · 09:32→09:39 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 9 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      range_buy                คะแนนดิบต่ำ 9 · คะแนนถ่วงน้ำหนักต่ำ 9
+      range_sell               คะแนนดิบต่ำ 9 · คะแนนถ่วงน้ำหนักต่ำ 9
+      mean_reversion_buy       คะแนนดิบต่ำ 9 · คะแนนถ่วงน้ำหนักต่ำ 9
+      mean_reversion_sell      คะแนนดิบต่ำ 9 · คะแนนถ่วงน้ำหนักต่ำ 9
+      trend_buy                คะแนนถ่วงน้ำหนักต่ำ 5 · ด่าน 3 ไม่เทรด(ฝั่งตรงข้ามแรงกว่า) 5
+      trend_sell               คะแนนดิบต่ำ 4 · คะแนนถ่วงน้ำหนักต่ำ 4
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_buy                ดิบ 0.527/0.452 · prob 0.58 · ถ่วงน้ำหนัก 0.448/0.401
+      ✅ trend_sell               ดิบ 0.449/0.414 · prob 0.58 · ถ่วงน้ำหนัก 0.382/0.334
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: กลาง · น้ำหนัก 52%  (score -0.049)
+[INTERNAL-SIGNAL]
+DIRECTION=NEUTRAL
+WEIGHT=52
+ASTRO=bearish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.104413/0.110701 (สุทธิ -0.03) · engine เอน 28B/23S 24ชม. (+0.10) · ดูดวง bearish 0.35 (-0.35) · rolling20 $-3.49 · net72h $+0.015/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 1 รายการ
+
+## 2026-09-30 09:42 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.75 · คะแนนหนุน 2 / กด 14) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 2 ข่าว · คะแนนรวม 14 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 5 ข่าว · คะแนนรวม 14 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 11 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 1 ข่าว · คะแนนรวม 3 (หนุน 0 / กด 0) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **เงินเฟ้อ** — 1 ข่าว · คะแนนรวม 2 (หนุน 1 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Stocks dip, 2-year US yield falls after Fed’s Williams cools rate hike bets
+- 🔴 [5] (markets) Wells Fargo revises dollar, yen, euro estimates amid rate hike outlook
+- ⚪ [3] (markets) Sterling today: Pound slips as oil-fuelled dollar demand builds
+- ⚪ [2] (markets) Dollar firms, Aussie drops after RBA hike, and sterling slips on Burnham speech
+- ⚪ [2] (
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [10, 9, 6, 9, 2, 9, 1] (รวม 46) → ฐาน 9 = 1 · เลข 1 — จุดเริ่มเดินหน้า แนวโน้มขึ้น · เลขคู่เสียง 9
+- ดาวประจำวัน: พุธ · แปรปรวน (ดิน)
+- คำทำนาย: เลข 1 — จุดเริ่มเดินหน้า แนวโน้มขึ้น — วันพุธ ลักษณะแปรปรวน
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=11 ออเดอร์ (~20.0/วัน) → band สมดุล
+⬜ net เฉลี่ย +$0.015/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 371 ออเดอร์
+🏆 mean_reversion: n=115 net=$1.66 wr=63%, breakout: n=14 net=$1.16 wr=50%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.020/trade (n=2)
+
+## 2026-09-30 02:42 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 123421610 → 123421610)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (38999 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 5 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.237(n=10) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-30 09:40", "changes": [{"strategy": "trend", "side": "buy", "raw_low_from": 0.458, "raw_low_to": 0.548, "raw_high_from": 0.558, "raw_high_to": 0.648, "net_exp": -0.237, "net_n": 10}, {"strategy": "trend", "side": "sell", "raw_low_from": 0.422, "raw_low_to": 0.362, "raw_high_from": 0.801, "raw_high_to": 0.861, "net_exp": 0.0162, "net_n": 89}, {"strategy": "range", "side": "buy", "raw_low_from": 0.238, "raw_low_to": 0.318, "raw_high_from": 0.44, "raw_high_to": 0.418, "net_exp": -0.1105, "net_n": 21}, {"strategy": "range", "side": "sell", "raw_low_from": 0.414, "raw_low_to": 0.494, "raw_high_from": 0.651, "raw_high_to": 0.594, "net_exp": -0.0343, "net_n": 75}, {"strategy": "mean_reversion", "sid
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 367 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.3R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.2R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.2R
+   range            n= 88 wr=0.56 win=0.64R loss=0.93R | SL=1.0 TP=1.3R
+   trend            n=111 wr=0.55 win=0.71R loss=0.93R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-30 09:40", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.3}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.2}, "mean_reversion": {"n": 115, "wr": 0.687, "avg_win_R": 0.624, "avg_loss_R": 1.0
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 371 ไม้ (2026-08-26T06:09 → 2026-09-30T02:32) | net -1.65 | เฉลี่ย -0.004 | ชนะ 60.6% | PF 0.98 ✗
+   · trend            ไม้  56 | net  +1.91 | PF  1.13 ✓ | 40 ล่าสุด: -0.099/ไม้ แย่ลง ✗
+   · range            ไม้   1 | net  +0.16 | PF 99.00 ✓ | 1 ล่าสุด: +0.160/ไม้ แย่ลง ✗
+   · mean_reversion   ไม้   3 | net  -1.14 | PF  0.01 ✗ | 3 ล่าสุด: -0.380/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +1.18 (57 ไม้) · buy -0.25 (3 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (10 รอบ · 09:32→09:40 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 10 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      range_buy                คะแนนดิบต่ำ 10 · คะแนนถ่วงน้ำหนักต่ำ 10
+      range_sell               คะแนนดิบต่ำ 10 · คะแนนถ่วงน้ำหนักต่ำ 10
+      mean_reversion_buy       คะแนนดิบต่ำ 10 · คะแนนถ่วงน้ำหนักต่ำ 10
+      mean_reversion_sell      คะแนนดิบต่ำ 10 · คะแนนถ่วงน้ำหนักต่ำ 10
+      trend_sell               คะแนนดิบต่ำ 5 · คะแนนถ่วงน้ำหนักต่ำ 5
+      trend_buy                คะแนนถ่วงน้ำหนักต่ำ 5 · ด่าน 3 ไม่เทรด(ฝั่งตรงข้ามแรงกว่า) 5
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_buy                ดิบ 0.527/0.452 · prob 0.58 · ถ่วงน้ำหนัก 0.448/0.401
+      ✅ trend_sell               ดิบ 0.449/0.414 · prob 0.58 · ถ่วงน้ำหนัก 0.382/0.334
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: กลาง · น้ำหนัก 51%  (score +0.021)
+[INTERNAL-SIGNAL]
+DIRECTION=NEUTRAL
+WEIGHT=51
+ASTRO=sideways:0.62
+NOTE=ภายใน: แรงซื้อ/ขาย 0.104413/0.110701 (สุทธิ -0.03) · engine เอน 28B/23S 24ชม. (+0.10) · ดูดวง sideways 0.62 (+0.00) · rolling20 $-3.49 · net72h $+0.015/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 1 รายการ
+
+## 2026-09-30 09:42 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.75 · คะแนนหนุน 2 / กด 14) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 2 ข่าว · คะแนนรวม 14 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 5 ข่าว · คะแนนรวม 14 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 11 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 1 ข่าว · คะแนนรวม 3 (หนุน 0 / กด 0) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **เงินเฟ้อ** — 1 ข่าว · คะแนนรวม 2 (หนุน 1 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Stocks dip, 2-year US yield falls after Fed’s Williams cools rate hike bets
+- 🔴 [5] (markets) Wells Fargo revises dollar, yen, euro estimates amid rate hike outlook
+- ⚪ [3] (markets) Sterling today: Pound slips as oil-fuelled dollar demand builds
+- ⚪ [2] (markets) Dollar firms, Aussie drops after RBA hike, and sterling slips on Burnham speech
+- ⚪ [2] (
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: → ออกข้าง (sideways) · strength 0.62
+- เลข 7 ตัว: [10, 9, 6, 9, 2, 1, 1] (รวม 38) → ฐาน 9 = 2 · เลข 2 — คู่สมดุล รอจังหวะ · เลขคู่เสียง 1
+- ดาวประจำวัน: พุธ · แปรปรวน (ดิน)
+- คำทำนาย: เลข 2 — คู่สมดุล รอจังหวะ — วันพุธ ลักษณะแปรปรวน
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=11 ออเดอร์ (~20.0/วัน) → band สมดุล
+⬜ net เฉลี่ย +$0.015/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 371 ออเดอร์
+🏆 mean_reversion: n=115 net=$1.66 wr=63%, breakout: n=14 net=$1.16 wr=50%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.020/trade (n=2)
+
+## 2026-09-30 02:56 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 123675406 → 123769675)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (39121 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 5 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.237(n=10) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-30 09:53", "changes": [{"strategy": "trend", "side": "buy", "raw_low_from": 0.465, "raw_low_to": 0.555, "raw_high_from": 0.565, "raw_high_to": 0.655, "net_exp": -0.237, "net_n": 10}, {"strategy": "trend", "side": "sell", "raw_low_from": 0.41, "raw_low_to": 0.35, "raw_high_from": 0.708, "raw_high_to": 0.768, "net_exp": 0.0162, "net_n": 89}, {"strategy": "range", "side": "buy", "raw_low_from": 0.238, "raw_low_to": 0.299, "raw_high_from": 0.414, "raw_high_to": 0.399, "net_exp": -0.1105, "net_n": 21}, {"strategy": "range", "side": "sell", "raw_low_from": 0.414, "raw_low_to": 0.494, "raw_high_from": 0.651, "raw_high_to": 0.594, "net_exp": -0.0343, "net_n": 75}, {"strategy": "mean_reversion", "side
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 367 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.0 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.25 TP=1.3R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.0 TP=1.2R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.1 TP=1.2R
+   range            n= 88 wr=0.56 win=0.64R loss=0.93R | SL=1.0 TP=1.3R
+   trend            n=111 wr=0.55 win=0.71R loss=0.93R | SL=1.2 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-30 09:53", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.25, "reward_risk": 1.3}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.0, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.0, "reward_risk": 1.2}, "mean_reversion": {"n": 115, "wr": 0.687, "avg_win_R": 0.624, "avg_loss_R": 1.0
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 371 ไม้ (2026-08-26T06:09 → 2026-09-30T02:32) | net -1.65 | เฉลี่ย -0.004 | ชนะ 60.6% | PF 0.98 ✗
+   · trend            ไม้  56 | net  +1.91 | PF  1.13 ✓ | 40 ล่าสุด: -0.099/ไม้ แย่ลง ✗
+   · range            ไม้   1 | net  +0.16 | PF 99.00 ✓ | 1 ล่าสุด: +0.160/ไม้ แย่ลง ✗
+   · mean_reversion   ไม้   3 | net  -1.14 | PF  0.01 ✗ | 3 ล่าสุด: -0.380/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +1.18 (57 ไม้) · buy -0.25 (3 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (11 รอบ · 09:38→09:48 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 11 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      range_buy                คะแนนดิบต่ำ 11 · คะแนนถ่วงน้ำหนักต่ำ 11
+      range_sell               คะแนนดิบต่ำ 11 · คะแนนถ่วงน้ำหนักต่ำ 11
+      mean_reversion_buy       คะแนนดิบต่ำ 11 · คะแนนถ่วงน้ำหนักต่ำ 11
+      mean_reversion_sell      คะแนนดิบต่ำ 11 · คะแนนถ่วงน้ำหนักต่ำ 11
+      trend_sell               คะแนนดิบต่ำ 9 · คะแนนถ่วงน้ำหนักต่ำ 9
+      trend_buy                คะแนนถ่วงน้ำหนักต่ำ 2 · ด่าน 3 ไม่เทรด(ฝั่งตรงข้ามแรงกว่า) 2
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.449/0.422 · prob 0.58 · ถ่วงน้ำหนัก 0.382/0.341
+      ✅ trend_buy                ดิบ 0.538/0.458 · prob 0.58 · ถ่วงน้ำหนัก 0.457/0.406
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ซื้อ · น้ำหนัก 56%  (score +0.180)
+[INTERNAL-SIGNAL]
+DIRECTION=BUY
+WEIGHT=56
+ASTRO=sideways:0.62
+NOTE=ภายใน: แรงซื้อ/ขาย 0.156576/0.098506 (สุทธิ +0.23) · engine เอน 36B/23S 24ชม. (+0.22) · ดูดวง sideways 0.62 (+0.00) · rolling20 $-3.49 · net72h $+0.015/trade · ลดความแรง 20% (rolling net ยังติดลบ)
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-30 09:56 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.75 · คะแนนหนุน 2 / กด 14) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 2 ข่าว · คะแนนรวม 14 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 5 ข่าว · คะแนนรวม 14 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 11 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 1 ข่าว · คะแนนรวม 3 (หนุน 0 / กด 0) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **เงินเฟ้อ** — 1 ข่าว · คะแนนรวม 2 (หนุน 1 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Stocks dip, 2-year US yield falls after Fed’s Williams cools rate hike bets
+- 🔴 [5] (markets) Wells Fargo revises dollar, yen, euro estimates amid rate hike outlook
+- ⚪ [3] (markets) Sterling today: Pound slips as oil-fuelled dollar demand builds
+- ⚪ [2] (markets) Dollar firms, Aussie drops after RBA hike, and sterling slips on Burnham speech
+- ⚪ [2] (
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [10, 9, 6, 9, 6, 1, 1] (รวม 42) → ฐาน 9 = 6 · เลข 6 — เดินขึ้น เกื้อหนุน · เลขคู่เสียง 5
+- ดาวประจำวัน: พุธ · แปรปรวน (ดิน)
+- คำทำนาย: เลข 6 — เดินขึ้น เกื้อหนุน — วันพุธ ลักษณะแปรปรวน
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=12 ออเดอร์ (~20.3/วัน) → band สมดุล
+⬜ net เฉลี่ย +$0.015/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 371 ออเดอร์
+🏆 mean_reversion: n=115 net=$1.66 wr=63%, breakout: n=14 net=$1.16 wr=50%
+💸 breakout_reversal: n=9 net=$-1.49 wr=44%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.020/trade (n=2)
+
+## 2026-09-30 03:09 UTC — งานวิจัยรวม (14 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 123993265 → 124117964)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.30 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (39237 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 5 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.259(n=11) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-30 10:06", "changes": [{"strategy": "trend", "side": "buy", "raw_low_from": 0.486, "raw_low_to": 0.57, "raw_high_from": 0.586, "raw_high_to": 0.67, "net_exp": -0.2591, "net_n": 11}, {"strategy": "trend", "side": "sell", "raw_low_from": 0.409, "raw_low_to": 0.349, "raw_high_from": 0.509, "raw_high_to": 0.449, "net_exp": 0.0162, "net_n": 89}, {"strategy": "range", "side": "buy", "raw_low_from": 0.202, "raw_low_to": 0.282, "raw_high_from": 0.389, "raw_high_to": 0.382, "net_exp": -0.1105, "net_n": 21}, {"strategy": "range", "side": "sell", "raw_low_from": 0.445, "raw_low_to": 0.525, "raw_high_from": 0.651, "raw_high_to": 0.625, "net_exp": -0.0343, "net_n": 75}, {"strategy": "mean_reversion", "sid
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 4 รายการที่ควรปรับ (จาก R-multiple จริง 368 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.25 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.55 TP=1.3R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.25 TP=1.2R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.4 TP=1.2R
+   range            n= 88 wr=0.56 win=0.64R loss=0.93R | SL=1.25 TP=1.3R
+   trend            n=112 wr=0.55 win=0.71R loss=0.94R | SL=1.5 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-30 10:06", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.30R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set_tpsl", "strategy": "range", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.64R < 55% ของเป้า 1.30R)", "evidence": "n=88 wr=0.56 avg_win=0.64R avg_loss=0.93R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set_tpsl
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 372 ไม้ (2026-08-26T06:09 → 2026-09-30T02:59) | net -2.13 | เฉลี่ย -0.006 | ชนะ 60.5% | PF 0.97 ✗
+   · trend            ไม้  57 | net  +1.43 | PF  1.09 ✓ | 40 ล่าสุด: -0.090/ไม้ แย่ลง ✗
+   · range            ไม้   1 | net  +0.16 | PF 99.00 ✓ | 1 ล่าสุด: +0.160/ไม้ แย่ลง ✗
+   · mean_reversion   ไม้   3 | net  -1.14 | PF  0.01 ✗ | 3 ล่าสุด: -0.380/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +1.18 (57 ไม้) · buy -0.73 (4 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (9 รอบ · 09:59→10:06 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 0 รอบ · ไม่ผ่าน = 9 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบสูงเกินบน(อิ่มตัว) 9 · คะแนนถ่วงน้ำหนักสูงเกินบน 9
+      trend_sell               คะแนนดิบต่ำ 9 · คะแนนถ่วงน้ำหนักต่ำ 9
+      range_buy                คะแนนดิบต่ำ 9 · คะแนนถ่วงน้ำหนักต่ำ 9
+      range_sell               คะแนนดิบต่ำ 9 · คะแนนถ่วงน้ำหนักต่ำ 9
+      mean_reversion_buy       คะแนนดิบต่ำ 9 · คะแนนถ่วงน้ำหนักต่ำ 9
+      mean_reversion_sell      คะแนนดิบต่ำ 9 · คะแนนถ่วงน้ำหนักต่ำ 9
+      counter_trend_sell       คะแนนดิบต่ำ 9 · คะแนนถ่วงน้ำหนักต่ำ 9
+      breakout_buy             คะแนนดิบสูงเกินบน(อิ่มตัว) 2 · คะแนนถ่วงน้ำหนักสูงเกินบน 2
+    ไม่มีตัวผ่านด่าน 2 ในช่วงนี้
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ซื้อ · น้ำหนัก 58%  (score +0.257)
+[INTERNAL-SIGNAL]
+DIRECTION=BUY
+WEIGHT=58
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.16599/0.108092 (สุทธิ +0.21) · engine เอน 36B/21S 24ชม. (+0.26) · ดูดวง bullish 0.35 (+0.35) · rolling20 $-4.02 · net72h $+0.007/trade · ลดความแรง 20% (rolling net ยังติดลบ)
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 1 รายการ
+
+## 2026-09-30 10:09 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.75 · คะแนนหนุน 2 / กด 14) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 3 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 5 ข่าว · คะแนนรวม 14 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 11 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **เงินเฟ้อ** — 2 ข่าว · คะแนนรวม 7 (หนุน 1 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **พลังงาน** — 1 ข่าว · คะแนนรวม 3 (หนุน 0 / กด 0) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Stocks dip, 2-year US yield falls after Fed’s Williams cools rate hike bets
+- 🔴 [5] (markets) Wells Fargo revises dollar, yen, euro estimates amid rate hike outlook
+- ⚪ [5] (macro) Australia inflation stubbornly high in August, defying run of rate hikes
+- ⚪ [3] (markets) Sterling today: Pound slips as oil-fuelled dollar demand builds
+- ⚪ [2] (markets)
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: → ออกข้าง (sideways) · strength 0.62
+- เลข 7 ตัว: [10, 9, 6, 10, 9, 4, 1] (รวม 49) → ฐาน 9 = 4 · เลข 4 — เสถียร ทรงตัว · เลขคู่เสียง 3
+- ดาวประจำวัน: พุธ · แปรปรวน (ดิน)
+- คำทำนาย: เลข 4 — เสถียร ทรงตัว — วันพุธ ลักษณะแปรปรวน
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### P/L Attribution
+## 2026-09-30 03:09 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=0 | errors=0
+- **❌ ขาดทุน** 2026-09-30T02:59:19 | trend buy | net=$-0.48 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=0 loss=1 net_total=$-0.4800 | net เฉลี่ย $-0.4800/trade ★ | winrate=0.0% (รายงานเท่านั้น)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=12 ออเดอร์ (~20.3/วัน) → band สมดุล
+⬜ net เฉลี่ย +$0.007/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 372 ออเดอร์
+🏆 mean_reversion: n=115 net=$1.66 wr=63%, breakout: n=14 net=$1.16 wr=50%
+💸 trend: n=118 net=$-1.75 wr=58%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.025/trade (n=2)
+
+## 2026-09-30 03:22 UTC — งานวิจัยรวม (14 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 124437775 → 124437775)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.47 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (39348 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 5 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.228(n=12) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-30 10:19", "changes": [{"strategy": "trend", "side": "buy", "raw_low_from": 0.486, "raw_low_to": 0.573, "raw_high_from": 0.586, "raw_high_to": 0.673, "net_exp": -0.2283, "net_n": 12}, {"strategy": "trend", "side": "sell", "raw_low_from": 0.404, "raw_low_to": 0.344, "raw_high_from": 0.504, "raw_high_to": 0.444, "net_exp": 0.0162, "net_n": 89}, {"strategy": "range", "side": "buy", "raw_low_from": 0.174, "raw_low_to": 0.249, "raw_high_from": 0.389, "raw_high_to": 0.359, "net_exp": -0.1105, "net_n": 21}, {"strategy": "range", "side": "sell", "raw_low_from": 0.414, "raw_low_to": 0.494, "raw_high_from": 0.651, "raw_high_to": 0.594, "net_exp": -0.0343, "net_n": 75}, {"strategy": "mean_reversion", "s
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 369 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.25 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.55 TP=1.3R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.25 TP=1.2R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.4 TP=1.2R
+   range            n= 88 wr=0.56 win=0.64R loss=0.93R | SL=1.25 TP=1.3R
+   trend            n=113 wr=0.55 win=0.70R loss=0.94R | SL=1.5 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-30 10:19", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.55, "reward_risk": 1.3}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.25, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.25, "reward_risk": 1.2}, "mean_reversion": {"n": 115, "wr": 0.687, "avg_win_R": 0.624, "avg_loss_R"
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 373 ไม้ (2026-08-26T06:09 → 2026-09-30T03:19) | net -2.02 | เฉลี่ย -0.005 | ชนะ 60.6% | PF 0.97 ✗
+   · trend            ไม้  58 | net  +1.54 | PF  1.10 ✓ | 40 ล่าสุด: -0.069/ไม้ แย่ลง ✗
+   · range            ไม้   1 | net  +0.16 | PF 99.00 ✓ | 1 ล่าสุด: +0.160/ไม้ แย่ลง ✗
+   · mean_reversion   ไม้   3 | net  -1.14 | PF  0.01 ✗ | 3 ล่าสุด: -0.380/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +1.18 (57 ไม้) · buy -0.62 (5 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (8 รอบ · 10:09→10:19 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 2 รอบ · ไม่ผ่าน = 6 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_sell               คะแนนดิบต่ำ 8 · คะแนนถ่วงน้ำหนักต่ำ 8
+      range_buy                คะแนนดิบต่ำ 8 · คะแนนถ่วงน้ำหนักต่ำ 8
+      range_sell               คะแนนดิบต่ำ 8 · คะแนนถ่วงน้ำหนักต่ำ 8
+      mean_reversion_buy       คะแนนดิบต่ำ 8 · คะแนนถ่วงน้ำหนักต่ำ 8
+      mean_reversion_sell      คะแนนดิบต่ำ 8 · คะแนนถ่วงน้ำหนักต่ำ 8
+      trend_buy                คะแนนดิบสูงเกินบน(อิ่มตัว) 6 · คะแนนถ่วงน้ำหนักสูงเกินบน 6
+      counter_trend_sell       คะแนนดิบต่ำ 6 · คะแนนถ่วงน้ำหนักต่ำ 6
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_buy                ดิบ 0.532/0.486 · prob 0.58 · ถ่วงน้ำหนัก 0.453/0.419
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ซื้อ · น้ำหนัก 56%  (score +0.166)
+[INTERNAL-SIGNAL]
+DIRECTION=BUY
+WEIGHT=56
+ASTRO=sideways:0.62
+NOTE=ภายใน: แรงซื้อ/ขาย 0.105875/0.099476 (สุทธิ +0.03) · engine เอน 38B/15S 24ชม. (+0.43) · ดูดวง sideways 0.62 (+0.00) · rolling20 $-4.47 · net72h $+0.009/trade · ลดความแรง 20% (rolling net ยังติดลบ)
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 1 รายการ
+
+## 2026-09-30 10:22 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.75 · คะแนนหนุน 2 / กด 14) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 3 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 11 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **เงินเฟ้อ** — 2 ข่าว · คะแนนรวม 7 (หนุน 1 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **พลังงาน** — 1 ข่าว · คะแนนรวม 3 (หนุน 0 / กด 0) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Stocks dip, 2-year US yield falls after Fed’s Williams cools rate hike bets
+- 🔴 [5] (markets) Wells Fargo revises dollar, yen, euro estimates amid rate hike outlook
+- ⚪ [5] (macro) Australia inflation stubbornly high in August, defying run of rate hikes
+- ⚪ [3] (markets) Sterling today: Pound slips as oil-fuelled dollar demand builds
+- ⚪ [2] (markets)
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [10, 9, 6, 10, 2, 1, 1] (รวม 39) → ฐาน 9 = 3 · เลข 3 — กำไรเสริม เลื่อนขึ้น · เลขคู่เสียง 2
+- ดาวประจำวัน: พุธ · แปรปรวน (ดิน)
+- คำทำนาย: เลข 3 — กำไรเสริม เลื่อนขึ้น — วันพุธ ลักษณะแปรปรวน
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### P/L Attribution
+## 2026-09-30 03:22 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=2 | errors=0
+- **✅ กำไร** 2026-09-30T03:19:19 | trend buy | net=$0.11 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=1 loss=0 net_total=$0.1100 | net เฉลี่ย $0.1100/trade ★ | winrate=100.0% (รายงานเท่านั้น)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=13 ออเดอร์ (~21.0/วัน) → band สมดุล
+⬜ net เฉลี่ย +$0.009/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 373 ออเดอร์
+🏆 mean_reversion: n=115 net=$1.66 wr=63%, breakout: n=14 net=$1.16 wr=50%
+💸 trend: n=119 net=$-1.64 wr=58%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.024/trade (n=2)
+
+## 2026-09-30 03:35 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 124714123 → 124737000)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.47 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (39466 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 5 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.228(n=12) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-30 10:32", "changes": [{"strategy": "trend", "side": "buy", "raw_low_from": 0.486, "raw_low_to": 0.573, "raw_high_from": 0.586, "raw_high_to": 0.673, "net_exp": -0.2283, "net_n": 12}, {"strategy": "trend", "side": "sell", "raw_low_from": 0.403, "raw_low_to": 0.343, "raw_high_from": 0.503, "raw_high_to": 0.443, "net_exp": 0.0162, "net_n": 89}, {"strategy": "range", "side": "buy", "raw_low_from": 0.174, "raw_low_to": 0.249, "raw_high_from": 0.389, "raw_high_to": 0.359, "net_exp": -0.1105, "net_n": 21}, {"strategy": "range", "side": "sell", "raw_low_from": 0.414, "raw_low_to": 0.494, "raw_high_from": 0.651, "raw_high_to": 0.594, "net_exp": -0.0343, "net_n": 75}, {"strategy": "mean_reversion", "s
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 369 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.25 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.55 TP=1.3R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.25 TP=1.2R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.4 TP=1.2R
+   range            n= 88 wr=0.56 win=0.64R loss=0.93R | SL=1.25 TP=1.3R
+   trend            n=113 wr=0.55 win=0.70R loss=0.94R | SL=1.5 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-30 10:32", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.55, "reward_risk": 1.3}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.25, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.25, "reward_risk": 1.2}, "mean_reversion": {"n": 115, "wr": 0.687, "avg_win_R": 0.624, "avg_loss_R"
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 373 ไม้ (2026-08-26T06:09 → 2026-09-30T03:19) | net -2.02 | เฉลี่ย -0.005 | ชนะ 60.6% | PF 0.97 ✗
+   · trend            ไม้  58 | net  +1.54 | PF  1.10 ✓ | 40 ล่าสุด: -0.069/ไม้ แย่ลง ✗
+   · range            ไม้   1 | net  +0.16 | PF 99.00 ✓ | 1 ล่าสุด: +0.160/ไม้ แย่ลง ✗
+   · mean_reversion   ไม้   3 | net  -1.14 | PF  0.01 ✗ | 3 ล่าสุด: -0.380/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +1.18 (57 ไม้) · buy -0.62 (5 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (8 รอบ · 10:09→10:19 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 2 รอบ · ไม่ผ่าน = 6 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_sell               คะแนนดิบต่ำ 8 · คะแนนถ่วงน้ำหนักต่ำ 8
+      range_buy                คะแนนดิบต่ำ 8 · คะแนนถ่วงน้ำหนักต่ำ 8
+      range_sell               คะแนนดิบต่ำ 8 · คะแนนถ่วงน้ำหนักต่ำ 8
+      mean_reversion_buy       คะแนนดิบต่ำ 8 · คะแนนถ่วงน้ำหนักต่ำ 8
+      mean_reversion_sell      คะแนนดิบต่ำ 8 · คะแนนถ่วงน้ำหนักต่ำ 8
+      trend_buy                คะแนนดิบสูงเกินบน(อิ่มตัว) 6 · คะแนนถ่วงน้ำหนักสูงเกินบน 6
+      counter_trend_sell       คะแนนดิบต่ำ 6 · คะแนนถ่วงน้ำหนักต่ำ 6
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_buy                ดิบ 0.532/0.486 · prob 0.58 · ถ่วงน้ำหนัก 0.453/0.419
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ซื้อ · น้ำหนัก 58%  (score +0.241)
+[INTERNAL-SIGNAL]
+DIRECTION=BUY
+WEIGHT=58
+ASTRO=sideways:0.62
+NOTE=ภายใน: แรงซื้อ/ขาย 0.164151/0.109997 (สุทธิ +0.20) · engine เอน 38B/15S 24ชม. (+0.43) · ดูดวง sideways 0.62 (+0.00) · rolling20 $-4.47 · net72h $+0.009/trade · ลดความแรง 20% (rolling net ยังติดลบ)
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-30 10:35 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.75 · คะแนนหนุน 2 / กด 14) → ระดับความระวัง: **ระวัง (ข่าวกดทอง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 3 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 6 ข่าว · คะแนนรวม 16 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 11 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **เงินเฟ้อ** — 2 ข่าว · คะแนนรวม 7 (หนุน 1 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **พลังงาน** — 1 ข่าว · คะแนนรวม 3 (หนุน 0 / กด 0) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Stocks dip, 2-year US yield falls after Fed’s Williams cools rate hike bets
+- 🔴 [5] (markets) Wells Fargo revises dollar, yen, euro estimates amid rate hike outlook
+- ⚪ [5] (macro) Australia inflation stubbornly high in August, defying run of rate hikes
+- ⚪ [3] (markets) Sterling today: Pound slips as oil-fuelled dollar demand builds
+- ⚪ [2] (markets)
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [10, 9, 6, 10, 5, 10, 1] (รวม 51) → ฐาน 9 = 6 · เลข 6 — เดินขึ้น เกื้อหนุน · เลขคู่เสียง 5
+- ดาวประจำวัน: พุธ · แปรปรวน (ดิน)
+- คำทำนาย: เลข 6 — เดินขึ้น เกื้อหนุน — วันพุธ ลักษณะแปรปรวน
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=13 ออเดอร์ (~21.0/วัน) → band สมดุล
+⬜ net เฉลี่ย +$0.009/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 373 ออเดอร์
+🏆 mean_reversion: n=115 net=$1.66 wr=63%, breakout: n=14 net=$1.16 wr=50%
+💸 trend: n=119 net=$-1.64 wr=58%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.024/trade (n=2)
+
+## 2026-09-30 03:48 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 124997486 → 125041730)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.47 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (39578 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 5 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.252(n=13) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-30 10:45", "changes": [{"strategy": "trend", "side": "buy", "raw_low_from": 0.486, "raw_low_to": 0.573, "raw_high_from": 0.586, "raw_high_to": 0.673, "net_exp": -0.2515, "net_n": 13}, {"strategy": "trend", "side": "sell", "raw_low_from": 0.403, "raw_low_to": 0.343, "raw_high_from": 0.503, "raw_high_to": 0.443, "net_exp": 0.0162, "net_n": 89}, {"strategy": "range", "side": "buy", "raw_low_from": 0.174, "raw_low_to": 0.249, "raw_high_from": 0.389, "raw_high_to": 0.359, "net_exp": -0.1105, "net_n": 21}, {"strategy": "range", "side": "sell", "raw_low_from": 0.414, "raw_low_to": 0.494, "raw_high_from": 0.651, "raw_high_to": 0.594, "net_exp": -0.0343, "net_n": 75}, {"strategy": "mean_reversion", "s
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 4 รายการที่ควรปรับ (จาก R-multiple จริง 370 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.25 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.55 TP=1.3R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.25 TP=1.2R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.4 TP=1.2R
+   range            n= 88 wr=0.56 win=0.64R loss=0.93R | SL=1.25 TP=1.3R
+   trend            n=114 wr=0.54 win=0.70R loss=0.95R | SL=1.5 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-30 10:45", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.30R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set_tpsl", "strategy": "range", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.64R < 55% ของเป้า 1.30R)", "evidence": "n=88 wr=0.56 avg_win=0.64R avg_loss=0.93R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set_tpsl
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 374 ไม้ (2026-08-26T06:09 → 2026-09-30T03:35) | net -2.55 | เฉลี่ย -0.007 | ชนะ 60.4% | PF 0.96 ✗
+   · trend            ไม้  59 | net  +1.01 | PF  1.06 ✓ | 40 ล่าสุด: -0.061/ไม้ แย่ลง ✗
+   · range            ไม้   1 | net  +0.16 | PF 99.00 ✓ | 1 ล่าสุด: +0.160/ไม้ แย่ลง ✗
+   · mean_reversion   ไม้   3 | net  -1.14 | PF  0.01 ✗ | 3 ล่าสุด: -0.380/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +1.18 (57 ไม้) · buy -1.15 (6 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (1 รอบ · 10:35→10:35 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      trend_sell               คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_sell               คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_sell      คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ range_buy                ดิบ 0.281/0.174 · prob 0.53 · ถ่วงน้ำหนัก 0.323/0.200
+      ✅ mean_reversion_buy       ดิบ 0.233/0.149 · prob 0.56 · ถ่วงน้ำหนัก 0.198/0.119
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ซื้อ · น้ำหนัก 56%  (score +0.200)
+[INTERNAL-SIGNAL]
+DIRECTION=BUY
+WEIGHT=56
+ASTRO=bearish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.191634/0.114034 (สุทธิ +0.25) · engine เอน 39B/15S 24ชม. (+0.44) · ดูดวง bearish 0.35 (-0.35) · rolling20 $-4.47 · net72h $+0.000/trade · ลดความแรง 20% (rolling net ยังติดลบ)
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 1 รายการ
+
+## 2026-09-30 10:48 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.47 · คะแนนหนุน 5 / กด 14) → ระดับความระวัง: **ปกติ (ข่าวสองทาง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 3 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 5 ข่าว · คะแนนรวม 14 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 11 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **เงินเฟ้อ** — 2 ข่าว · คะแนนรวม 7 (หนุน 1 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **พลังงาน** — 1 ข่าว · คะแนนรวม 3 (หนุน 0 / กด 0) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **เศรษฐกิจมหภาค** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Stocks dip, 2-year US yield falls after Fed’s Williams cools rate hike bets
+- 🔴 [5] (markets) Wells Fargo revises dollar, yen, euro estimates amid rate hike outlook
+- ⚪ [5] (macro) Australia inflation stubbornly high in August, defying run of rate hikes
+- ⚪ [3] (markets) Sterlin
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [10, 9, 6, 10, 8, 2, 1] (รวม 46) → ฐาน 9 = 1 · เลข 1 — จุดเริ่มเดินหน้า แนวโน้มขึ้น · เลขคู่เสียง 9
+- ดาวประจำวัน: พุธ · แปรปรวน (ดิน)
+- คำทำนาย: เลข 1 — จุดเริ่มเดินหน้า แนวโน้มขึ้น — วันพุธ ลักษณะแปรปรวน
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=13 ออเดอร์ (~21.0/วัน) → band สมดุล
+⬜ net เฉลี่ย +$0.000/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 374 ออเดอร์
+🏆 mean_reversion: n=115 net=$1.66 wr=63%, breakout: n=14 net=$1.16 wr=50%
+💸 trend: n=120 net=$-2.17 wr=58%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.029/trade (n=2)
+
+## 2026-09-30 04:01 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 125249212 → 125316243)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.47 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (39674 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 5 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.252(n=13) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-30 10:58", "changes": [{"strategy": "trend", "side": "buy", "raw_low_from": 0.486, "raw_low_to": 0.573, "raw_high_from": 0.586, "raw_high_to": 0.673, "net_exp": -0.2515, "net_n": 13}, {"strategy": "trend", "side": "sell", "raw_low_from": 0.403, "raw_low_to": 0.343, "raw_high_from": 0.503, "raw_high_to": 0.443, "net_exp": 0.0162, "net_n": 89}, {"strategy": "range", "side": "buy", "raw_low_from": 0.174, "raw_low_to": 0.249, "raw_high_from": 0.389, "raw_high_to": 0.359, "net_exp": -0.1105, "net_n": 21}, {"strategy": "range", "side": "sell", "raw_low_from": 0.414, "raw_low_to": 0.494, "raw_high_from": 0.651, "raw_high_to": 0.594, "net_exp": -0.0343, "net_n": 75}, {"strategy": "mean_reversion", "s
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 370 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.25 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.55 TP=1.3R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.25 TP=1.2R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.4 TP=1.2R
+   range            n= 88 wr=0.56 win=0.64R loss=0.93R | SL=1.25 TP=1.3R
+   trend            n=114 wr=0.54 win=0.70R loss=0.95R | SL=1.5 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-30 10:58", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.55, "reward_risk": 1.3}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.25, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.25, "reward_risk": 1.2}, "mean_reversion": {"n": 115, "wr": 0.687, "avg_win_R": 0.624, "avg_loss_R"
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 374 ไม้ (2026-08-26T06:09 → 2026-09-30T03:35) | net -2.55 | เฉลี่ย -0.007 | ชนะ 60.4% | PF 0.96 ✗
+   · trend            ไม้  59 | net  +1.01 | PF  1.06 ✓ | 40 ล่าสุด: -0.061/ไม้ แย่ลง ✗
+   · range            ไม้   1 | net  +0.16 | PF 99.00 ✓ | 1 ล่าสุด: +0.160/ไม้ แย่ลง ✗
+   · mean_reversion   ไม้   3 | net  -1.14 | PF  0.01 ✗ | 3 ล่าสุด: -0.380/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +1.18 (57 ไม้) · buy -1.15 (6 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (1 รอบ · 10:35→10:35 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      trend_sell               คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_sell               คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_sell      คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ range_buy                ดิบ 0.281/0.174 · prob 0.53 · ถ่วงน้ำหนัก 0.323/0.200
+      ✅ mean_reversion_buy       ดิบ 0.233/0.149 · prob 0.56 · ถ่วงน้ำหนัก 0.198/0.119
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ซื้อ · น้ำหนัก 56%  (score +0.200)
+[INTERNAL-SIGNAL]
+DIRECTION=BUY
+WEIGHT=56
+ASTRO=bearish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.125418/0.074584 (สุทธิ +0.25) · engine เอน 39B/15S 24ชม. (+0.44) · ดูดวง bearish 0.35 (-0.35) · rolling20 $-4.47 · net72h $+0.000/trade · ลดความแรง 20% (rolling net ยังติดลบ)
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-30 11:01 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.47 · คะแนนหนุน 5 / กด 14) → ระดับความระวัง: **ปกติ (ข่าวสองทาง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 3 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 5 ข่าว · คะแนนรวม 14 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 11 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **เงินเฟ้อ** — 2 ข่าว · คะแนนรวม 7 (หนุน 1 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **พลังงาน** — 1 ข่าว · คะแนนรวม 3 (หนุน 0 / กด 0) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **เศรษฐกิจมหภาค** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Stocks dip, 2-year US yield falls after Fed’s Williams cools rate hike bets
+- 🔴 [5] (markets) Wells Fargo revises dollar, yen, euro estimates amid rate hike outlook
+- ⚪ [5] (macro) Australia inflation stubbornly high in August, defying run of rate hikes
+- ⚪ [3] (markets) Sterlin
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: → ออกข้าง (sideways) · strength 0.62
+- เลข 7 ตัว: [10, 9, 6, 1, 1, 10, 1] (รวม 38) → ฐาน 9 = 2 · เลข 2 — คู่สมดุล รอจังหวะ · เลขคู่เสียง 1
+- ดาวประจำวัน: พุธ · แปรปรวน (ดิน)
+- คำทำนาย: เลข 2 — คู่สมดุล รอจังหวะ — วันพุธ ลักษณะแปรปรวน
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=12 ออเดอร์ (~21.0/วัน) → band สมดุล
+⬜ net เฉลี่ย +$0.000/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 374 ออเดอร์
+🏆 mean_reversion: n=115 net=$1.66 wr=63%, breakout: n=14 net=$1.16 wr=50%
+💸 trend: n=120 net=$-2.17 wr=58%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.029/trade (n=2)
+
+## 2026-09-30 04:16 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 125516824 → 125626021)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.47 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (39784 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 5 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.252(n=13) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-30 11:11", "changes": [{"strategy": "trend", "side": "buy", "raw_low_from": 0.486, "raw_low_to": 0.573, "raw_high_from": 0.586, "raw_high_to": 0.673, "net_exp": -0.2515, "net_n": 13}, {"strategy": "trend", "side": "sell", "raw_low_from": 0.403, "raw_low_to": 0.343, "raw_high_from": 0.503, "raw_high_to": 0.443, "net_exp": 0.0162, "net_n": 89}, {"strategy": "range", "side": "buy", "raw_low_from": 0.174, "raw_low_to": 0.249, "raw_high_from": 0.389, "raw_high_to": 0.359, "net_exp": -0.1105, "net_n": 21}, {"strategy": "range", "side": "sell", "raw_low_from": 0.414, "raw_low_to": 0.494, "raw_high_from": 0.651, "raw_high_to": 0.594, "net_exp": -0.0343, "net_n": 75}, {"strategy": "mean_reversion", "s
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 370 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.25 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.55 TP=1.3R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.25 TP=1.2R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.4 TP=1.2R
+   range            n= 88 wr=0.56 win=0.64R loss=0.93R | SL=1.25 TP=1.3R
+   trend            n=114 wr=0.54 win=0.70R loss=0.95R | SL=1.5 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-30 11:11", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.55, "reward_risk": 1.3}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.25, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.25, "reward_risk": 1.2}, "mean_reversion": {"n": 115, "wr": 0.687, "avg_win_R": 0.624, "avg_loss_R"
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 374 ไม้ (2026-08-26T06:09 → 2026-09-30T03:35) | net -2.55 | เฉลี่ย -0.007 | ชนะ 60.4% | PF 0.96 ✗
+   · trend            ไม้  59 | net  +1.01 | PF  1.06 ✓ | 40 ล่าสุด: -0.061/ไม้ แย่ลง ✗
+   · range            ไม้   1 | net  +0.16 | PF 99.00 ✓ | 1 ล่าสุด: +0.160/ไม้ แย่ลง ✗
+   · mean_reversion   ไม้   3 | net  -1.14 | PF  0.01 ✗ | 3 ล่าสุด: -0.380/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +1.18 (57 ไม้) · buy -1.15 (6 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (1 รอบ · 10:35→10:35 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 1 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      trend_sell               คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      range_sell               คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+      mean_reversion_sell      คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ range_buy                ดิบ 0.281/0.174 · prob 0.53 · ถ่วงน้ำหนัก 0.323/0.200
+      ✅ mean_reversion_buy       ดิบ 0.233/0.149 · prob 0.56 · ถ่วงน้ำหนัก 0.198/0.119
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ซื้อ · น้ำหนัก 58%  (score +0.242)
+[INTERNAL-SIGNAL]
+DIRECTION=BUY
+WEIGHT=58
+ASTRO=sideways:0.62
+NOTE=ภายใน: แรงซื้อ/ขาย 0.131653/0.093267 (สุทธิ +0.17) · engine เอน 39B/14S 24ชม. (+0.47) · ดูดวง sideways 0.62 (+0.00) · rolling20 $-4.47 · net72h $+0.000/trade · ลดความแรง 20% (rolling net ยังติดลบ)
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-30 11:14 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.47 · คะแนนหนุน 5 / กด 14) → ระดับความระวัง: **ปกติ (ข่าวสองทาง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 3 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 5 ข่าว · คะแนนรวม 14 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 11 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **เงินเฟ้อ** — 2 ข่าว · คะแนนรวม 7 (หนุน 1 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **พลังงาน** — 1 ข่าว · คะแนนรวม 3 (หนุน 0 / กด 0) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **เศรษฐกิจมหภาค** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Stocks dip, 2-year US yield falls after Fed’s Williams cools rate hike bets
+- 🔴 [5] (markets) Wells Fargo revises dollar, yen, euro estimates amid rate hike outlook
+- ⚪ [5] (macro) Australia inflation stubbornly high in August, defying run of rate hikes
+- ⚪ [3] (markets) Sterlin
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↓ ลง (bearish) · strength 0.35
+- เลข 7 ตัว: [10, 9, 6, 1, 4, 1, 1] (รวม 32) → ฐาน 9 = 5 · เลข 5 — เปลี่ยนแปลง ผันผวนลงได้ · เลขคู่เสียง 4
+- ดาวประจำวัน: พุธ · แปรปรวน (ดิน)
+- คำทำนาย: เลข 5 — เปลี่ยนแปลง ผันผวนลงได้ — วันพุธ ลักษณะแปรปรวน
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=12 ออเดอร์ (~21.0/วัน) → band สมดุล
+⬜ net เฉลี่ย +$0.000/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit ⚠️ timeout
+ไม่ตอบกลับภายใน 60s
+
+### Ranking prob/weight ⚠️ timeout
+ไม่ตอบกลับภายใน 60s
+
+## 2026-09-30 04:30 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 125936023 → 126036860)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.47 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (39943 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 6 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.252(n=13) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-30 11:27", "changes": [{"strategy": "trend", "side": "buy", "raw_low_from": 0.486, "raw_low_to": 0.57, "raw_high_from": 0.586, "raw_high_to": 0.67, "net_exp": -0.2515, "net_n": 13}, {"strategy": "trend", "side": "sell", "raw_low_from": 0.403, "raw_low_to": 0.343, "raw_high_from": 0.503, "raw_high_to": 0.443, "net_exp": 0.0162, "net_n": 89}, {"strategy": "range", "side": "buy", "raw_low_from": 0.174, "raw_low_to": 0.264, "raw_high_from": 0.389, "raw_high_to": 0.364, "net_exp": -0.1105, "net_n": 21}, {"strategy": "range", "side": "sell", "raw_low_from": 0.374, "raw_low_to": 0.454, "raw_high_from": 0.651, "raw_high_to": 0.589, "net_exp": -0.0343, "net_n": 75}, {"strategy": "mean_reversion", "sid
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 4 รายการที่ควรปรับ (จาก R-multiple จริง 370 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.25 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.55 TP=1.3R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.25 TP=1.2R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.4 TP=1.2R
+   range            n= 88 wr=0.56 win=0.64R loss=0.93R | SL=1.25 TP=1.3R
+   trend            n=114 wr=0.54 win=0.70R loss=0.95R | SL=1.5 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-30 11:27", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.30R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set_tpsl", "strategy": "range", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.64R < 55% ของเป้า 1.30R)", "evidence": "n=88 wr=0.56 avg_win=0.64R avg_loss=0.93R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set_tpsl
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 374 ไม้ (2026-08-26T06:09 → 2026-09-30T03:35) | net -2.55 | เฉลี่ย -0.007 | ชนะ 60.4% | PF 0.96 ✗
+   · trend            ไม้  59 | net  +1.01 | PF  1.06 ✓ | 40 ล่าสุด: -0.061/ไม้ แย่ลง ✗
+   · range            ไม้   1 | net  +0.16 | PF 99.00 ✓ | 1 ล่าสุด: +0.160/ไม้ แย่ลง ✗
+   · mean_reversion   ไม้   3 | net  -1.14 | PF  0.01 ✗ | 3 ล่าสุด: -0.380/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +1.18 (57 ไม้) · buy -1.15 (6 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (8 รอบ · 11:16→11:26 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 8 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 8 · คะแนนถ่วงน้ำหนักต่ำ 8
+      range_sell               คะแนนดิบต่ำ 8 · คะแนนถ่วงน้ำหนักต่ำ 8
+      mean_reversion_sell      คะแนนดิบต่ำ 8 · คะแนนถ่วงน้ำหนักต่ำ 8
+      trend_sell               คะแนนดิบต่ำ 4 · คะแนนถ่วงน้ำหนักต่ำ 4
+      mean_reversion_buy       คะแนนดิบต่ำ 4 · คะแนนถ่วงน้ำหนักต่ำ 4
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_sell               ดิบ 0.427/0.403 · prob 0.58 · ถ่วงน้ำหนัก 0.363/0.325
+      ✅ range_buy                ดิบ 0.385/0.174 · prob 0.53 · ถ่วงน้ำหนัก 0.443/0.200
+      ✅ mean_reversion_buy       ดิบ 0.329/0.149 · prob 0.56 · ถ่วงน้ำหนัก 0.280/0.119
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ซื้อ · น้ำหนัก 58%  (score +0.254)
+[INTERNAL-SIGNAL]
+DIRECTION=BUY
+WEIGHT=58
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.133183/0.136644 (สุทธิ -0.01) · engine เอน 47B/14S 24ชม. (+0.54) · ดูดวง bullish 0.35 (+0.35) · rolling20 $-4.47 · net72h $+0.000/trade · ลดความแรง 20% (rolling net ยังติดลบ)
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-30 11:30 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.22 · คะแนนหนุน 9 / กด 14) → ระดับความระวัง: **ปกติ (ข่าวสองทาง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 3 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 12 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **เงินเฟ้อ** — 3 ข่าว · คะแนนรวม 11 (หนุน 2 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 11 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 1 ข่าว · คะแนนรวม 3 (หนุน 0 / กด 0) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **เศรษฐกิจมหภาค** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Stocks dip, 2-year US yield falls after Fed’s Williams cools rate hike bets
+- 🔴 [5] (markets) Wells Fargo revises dollar, yen, euro estimates amid rate hike outlook
+- ⚪ [5] (macro) Australia inflation stubbornly high in August, defying run of rate hikes
+- 🟢 [4] (commodities) As
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: → ออกข้าง (sideways) · strength 0.62
+- เลข 7 ตัว: [10, 9, 6, 1, 10, 1, 1] (รวม 38) → ฐาน 9 = 2 · เลข 2 — คู่สมดุล รอจังหวะ · เลขคู่เสียง 1
+- ดาวประจำวัน: พุธ · แปรปรวน (ดิน)
+- คำทำนาย: เลข 2 — คู่สมดุล รอจังหวะ — วันพุธ ลักษณะแปรปรวน
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=20 ออเดอร์ (~23.7/วัน) → band สมดุล
+⬜ net เฉลี่ย +$0.000/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 374 ออเดอร์
+🏆 mean_reversion: n=115 net=$1.66 wr=63%, breakout: n=14 net=$1.16 wr=50%
+💸 trend: n=120 net=$-2.17 wr=58%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.029/trade (n=2)
+
+## 2026-09-30 04:43 UTC — งานวิจัยรวม (14 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 126314232 → 126395413)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.47 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (40075 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 6 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.252(n=13) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-30 11:40", "changes": [{"strategy": "trend", "side": "buy", "raw_low_from": 0.486, "raw_low_to": 0.573, "raw_high_from": 0.586, "raw_high_to": 0.673, "net_exp": -0.2515, "net_n": 13}, {"strategy": "trend", "side": "sell", "raw_low_from": 0.403, "raw_low_to": 0.343, "raw_high_from": 0.503, "raw_high_to": 0.443, "net_exp": 0.0162, "net_n": 89}, {"strategy": "range", "side": "buy", "raw_low_from": 0.202, "raw_low_to": 0.282, "raw_high_from": 0.389, "raw_high_to": 0.382, "net_exp": -0.1105, "net_n": 21}, {"strategy": "range", "side": "sell", "raw_low_from": 0.374, "raw_low_to": 0.452, "raw_high_from": 0.651, "raw_high_to": 0.57, "net_exp": -0.0343, "net_n": 75}, {"strategy": "mean_reversion", "si
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 370 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.25 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.55 TP=1.3R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.25 TP=1.2R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.4 TP=1.2R
+   range            n= 88 wr=0.56 win=0.64R loss=0.93R | SL=1.25 TP=1.3R
+   trend            n=114 wr=0.54 win=0.70R loss=0.95R | SL=1.5 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-30 11:41", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.55, "reward_risk": 1.3}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.25, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.25, "reward_risk": 1.2}, "mean_reversion": {"n": 115, "wr": 0.687, "avg_win_R": 0.624, "avg_loss_R"
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 374 ไม้ (2026-08-26T06:09 → 2026-09-30T03:35) | net -2.55 | เฉลี่ย -0.007 | ชนะ 60.4% | PF 0.96 ✗
+   · trend            ไม้  59 | net  +1.01 | PF  1.06 ✓ | 40 ล่าสุด: -0.061/ไม้ แย่ลง ✗
+   · range            ไม้   1 | net  +0.16 | PF 99.00 ✓ | 1 ล่าสุด: +0.160/ไม้ แย่ลง ✗
+   · mean_reversion   ไม้   3 | net  -1.14 | PF  0.01 ✗ | 3 ล่าสุด: -0.380/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +1.18 (57 ไม้) · buy -1.15 (6 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (6 รอบ · 11:36→11:40 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 6 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      range_sell               คะแนนดิบต่ำ 5 · คะแนนถ่วงน้ำหนักต่ำ 5 · ด่าน 3 ไม่เทรด(ฝั่งตรงข้ามแรงกว่า) 5
+      trend_sell               คะแนนดิบต่ำ 6 · คะแนนถ่วงน้ำหนักต่ำ 6
+      mean_reversion_buy       คะแนนดิบต่ำ 6 · คะแนนถ่วงน้ำหนักต่ำ 6
+      counter_trend_sell       คะแนนดิบต่ำ 6 · คะแนนถ่วงน้ำหนักต่ำ 6
+      mean_reversion_sell      คะแนนดิบต่ำ 5 · คะแนนถ่วงน้ำหนักต่ำ 5
+      trend_buy                คะแนนดิบสูงเกินบน(อิ่มตัว) 5
+      range_buy                คะแนนดิบต่ำ 1 · คะแนนถ่วงน้ำหนักต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ range_buy                ดิบ 0.246/0.174 · prob 0.53 · ถ่วงน้ำหนัก 0.283/0.200
+      ✅ trend_buy                ดิบ 0.561/0.486 · prob 0.58 · ถ่วงน้ำหนัก 0.477/0.416
+      ✅ range_sell               ดิบ 0.442/0.374 · prob 0.53 · ถ่วงน้ำหนัก 0.509/0.427
+      ✅ mean_reversion_sell      ดิบ 0.375/0.279 · prob 0.56 · ถ่วงน้ำหนัก 0.318/0.237
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+🧪 plan_sim: ไม่มีรายการให้จำลองในรอบนี้
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: กลาง · น้ำหนัก 52%  (score +0.042)
+[INTERNAL-SIGNAL]
+DIRECTION=NEUTRAL
+WEIGHT=52
+ASTRO=bearish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.099953/0.147086 (สุทธิ -0.19) · engine เอน 47B/13S 24ชม. (+0.57) · ดูดวง bearish 0.35 (-0.35) · rolling20 $-4.47 · net72h $+0.000/trade
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 1 รายการ
+
+## 2026-09-30 11:43 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.22 · คะแนนหนุน 9 / กด 14) → ระดับความระวัง: **ปกติ (ข่าวสองทาง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 3 ข่าว · คะแนนรวม 19 (หนุน 0 / กด 2) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 12 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **เงินเฟ้อ** — 3 ข่าว · คะแนนรวม 11 (หนุน 2 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 11 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **พลังงาน** — 1 ข่าว · คะแนนรวม 3 (หนุน 0 / กด 0) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **เศรษฐกิจมหภาค** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Stocks dip, 2-year US yield falls after Fed’s Williams cools rate hike bets
+- 🔴 [5] (markets) Wells Fargo revises dollar, yen, euro estimates amid rate hike outlook
+- ⚪ [5] (macro) Australia inflation stubbornly high in August, defying run of rate hikes
+- 🟢 [4] (commodities) As
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [10, 9, 6, 1, 3, 7, 1] (รวม 37) → ฐาน 9 = 1 · เลข 1 — จุดเริ่มเดินหน้า แนวโน้มขึ้น · เลขคู่เสียง 9
+- ดาวประจำวัน: พุธ · แปรปรวน (ดิน)
+- คำทำนาย: เลข 1 — จุดเริ่มเดินหน้า แนวโน้มขึ้น — วันพุธ ลักษณะแปรปรวน
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### P/L Attribution
+## 2026-09-30 04:43 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=1 | errors=0
+- **✅ กำไร** 2026-09-30T04:41:15 | range sell | net=$0.05 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=1 loss=0 net_total=$0.0500 | net เฉลี่ย $0.0500/trade ★ | winrate=100.0% (รายงานเท่านั้น)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=21 ออเดอร์ (~24.0/วัน) → band สมดุล
+⬜ net เฉลี่ย +$0.001/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 375 ออเดอร์
+🏆 mean_reversion: n=115 net=$1.66 wr=63%, breakout: n=14 net=$1.16 wr=50%
+💸 trend: n=121 net=$-2.12 wr=58%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.029/trade (n=2)
+
+## 2026-09-30 04:56 UTC — งานวิจัยรวม (14 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 126588871 → 126684811)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.47 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (40206 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 6 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.252(n=13) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-30 11:53", "changes": [{"strategy": "trend", "side": "buy", "raw_low_from": 0.486, "raw_low_to": 0.573, "raw_high_from": 0.612, "raw_high_to": 0.673, "net_exp": -0.2515, "net_n": 13}, {"strategy": "trend", "side": "sell", "raw_low_from": 0.403, "raw_low_to": 0.343, "raw_high_from": 0.503, "raw_high_to": 0.443, "net_exp": 0.0162, "net_n": 89}, {"strategy": "range", "side": "buy", "raw_low_from": 0.202, "raw_low_to": 0.282, "raw_high_from": 0.389, "raw_high_to": 0.382, "net_exp": -0.1105, "net_n": 21}, {"strategy": "range", "side": "sell", "raw_low_from": 0.374, "raw_low_to": 0.44, "raw_high_from": 0.627, "raw_high_to": 0.557, "net_exp": -0.0332, "net_n": 76}, {"strategy": "mean_reversion", "si
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 371 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.25 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.55 TP=1.3R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.25 TP=1.2R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.4 TP=1.2R
+   range            n= 88 wr=0.56 win=0.64R loss=0.93R | SL=1.25 TP=1.3R
+   trend            n=115 wr=0.55 win=0.69R loss=0.95R | SL=1.5 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-30 11:54", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.55, "reward_risk": 1.3}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.25, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.25, "reward_risk": 1.2}, "mean_reversion": {"n": 115, "wr": 0.687, "avg_win_R": 0.624, "avg_loss_R"
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 375 ไม้ (2026-08-26T06:09 → 2026-09-30T04:41) | net -2.50 | เฉลี่ย -0.007 | ชนะ 60.5% | PF 0.96 ✗
+   · trend            ไม้  59 | net  +1.01 | PF  1.06 ✓ | 40 ล่าสุด: -0.061/ไม้ แย่ลง ✗
+   · range            ไม้   2 | net  +0.21 | PF 99.00 ✓ | 2 ล่าสุด: +0.105/ไม้ แย่ลง ✗
+   · mean_reversion   ไม้   3 | net  -1.14 | PF  0.01 ✗ | 3 ล่าสุด: -0.380/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +1.23 (58 ไม้) · buy -1.15 (6 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (3 รอบ · 11:45→11:51 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 2 รอบ · ไม่ผ่าน = 1 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_sell               คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+      range_buy                คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+      range_sell               คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+      mean_reversion_buy       คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+      mean_reversion_sell      คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+      counter_trend_sell       คะแนนดิบต่ำ 3 · คะแนนถ่วงน้ำหนักต่ำ 3
+      breakout_reversal_sell   คะแนนดิบสูงเกินบน(อิ่มตัว) 2 · คะแนนถ่วงน้ำหนักสูงเกินบน 2
+      trend_buy                คะแนนดิบสูงเกินบน(อิ่มตัว) 1 · คะแนนถ่วงน้ำหนักสูงเกินบน 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_buy                ดิบ 0.612/0.486 · prob 0.58 · ถ่วงน้ำหนัก 0.520/0.419
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ซื้อ · น้ำหนัก 59%  (score +0.283)
+[INTERNAL-SIGNAL]
+DIRECTION=BUY
+WEIGHT=59
+ASTRO=sideways:0.62
+NOTE=ภายใน: แรงซื้อ/ขาย 0.117429/0.089096 (สุทธิ +0.14) · engine เอน 49B/11S 24ชม. (+0.63) · ดูดวง sideways 0.62 (+0.00) · rolling20 $-4.63 · net72h $+0.001/trade · ลดความแรง 20% (rolling net ยังติดลบ)
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 1 รายการ
+
+## 2026-09-30 11:56 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.48 · คะแนนหนุน 7 / กด 20) → ระดับความระวัง: **ปกติ (ข่าวสองทาง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 4 ข่าว · คะแนนรวม 25 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 12 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 11 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **เงินเฟ้อ** — 2 ข่าว · คะแนนรวม 9 (หนุน 1 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **พลังงาน** — 1 ข่าว · คะแนนรวม 3 (หนุน 0 / กด 0) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **เศรษฐกิจมหภาค** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Stocks dip, 2-year US yield falls after Fed’s Williams cools rate hike bets
+- 🔴 [6] (macro) Fed rate hike bets for Oct fall sharply on soft data, dovish comments
+- 🔴 [5] (markets) Wells Fargo revises dollar, yen, euro estimates amid rate hike outlook
+- ⚪ [5] (macro) Australia in
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [10, 9, 6, 1, 6, 9, 1] (รวม 42) → ฐาน 9 = 6 · เลข 6 — เดินขึ้น เกื้อหนุน · เลขคู่เสียง 5
+- ดาวประจำวัน: พุธ · แปรปรวน (ดิน)
+- คำทำนาย: เลข 6 — เดินขึ้น เกื้อหนุน — วันพุธ ลักษณะแปรปรวน
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### P/L Attribution
+## 2026-09-30 04:56 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=2 | errors=0
+- **✅ กำไร** 2026-09-30T04:54:28 | trend buy | net=$0.07 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=1 loss=0 net_total=$0.0700 | net เฉลี่ย $0.0700/trade ★ | winrate=100.0% (รายงานเท่านั้น)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=21 ออเดอร์ (~24.7/วัน) → band สมดุล
+⬜ net เฉลี่ย +$0.002/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 376 ออเดอร์
+🏆 mean_reversion: n=115 net=$1.66 wr=63%, breakout: n=14 net=$1.16 wr=50%
+💸 trend: n=122 net=$-2.05 wr=58%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.029/trade (n=2)
+
+## 2026-09-30 05:09 UTC — งานวิจัยรวม (14 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 126905448 → 127024652)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.40 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (40370 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 6 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.207(n=15) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-30 12:06", "changes": [{"strategy": "trend", "side": "buy", "raw_low_from": 0.486, "raw_low_to": 0.57, "raw_high_from": 0.612, "raw_high_to": 0.67, "net_exp": -0.2067, "net_n": 15}, {"strategy": "trend", "side": "sell", "raw_low_from": 0.409, "raw_low_to": 0.349, "raw_high_from": 0.509, "raw_high_to": 0.449, "net_exp": 0.0162, "net_n": 89}, {"strategy": "range", "side": "buy", "raw_low_from": 0.202, "raw_low_to": 0.292, "raw_high_from": 0.389, "raw_high_to": 0.392, "net_exp": -0.1105, "net_n": 21}, {"strategy": "range", "side": "sell", "raw_low_from": 0.374, "raw_low_to": 0.44, "raw_high_from": 0.627, "raw_high_to": 0.557, "net_exp": -0.0332, "net_n": 76}, {"strategy": "mean_reversion", "side
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 4 รายการที่ควรปรับ (จาก R-multiple จริง 373 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.25 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.55 TP=1.3R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.25 TP=1.2R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.4 TP=1.2R
+   range            n= 88 wr=0.56 win=0.64R loss=0.93R | SL=1.25 TP=1.3R
+   trend            n=117 wr=0.56 win=0.68R loss=0.95R | SL=1.5 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-30 12:06", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.30R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set_tpsl", "strategy": "range", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.64R < 55% ของเป้า 1.30R)", "evidence": "n=88 wr=0.56 avg_win=0.64R avg_loss=0.93R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set_tpsl
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 377 ไม้ (2026-08-26T06:09 → 2026-09-30T05:00) | net -2.33 | เฉลี่ย -0.006 | ชนะ 60.7% | PF 0.97 ✗
+   · trend            ไม้  61 | net  +1.18 | PF  1.07 ✓ | 40 ล่าสุด: -0.061/ไม้ แย่ลง ✗
+   · range            ไม้   2 | net  +0.21 | PF 99.00 ✓ | 2 ล่าสุด: +0.105/ไม้ แย่ลง ✗
+   · mean_reversion   ไม้   3 | net  -1.14 | PF  0.01 ✗ | 3 ล่าสุด: -0.380/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +1.23 (58 ไม้) · buy -0.98 (8 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (2 รอบ · 11:56→12:01 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 2 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_sell               คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      range_buy                คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      range_sell               คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      mean_reversion_buy       คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      mean_reversion_sell      คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+      counter_trend_sell       คะแนนดิบต่ำ 2 · คะแนนถ่วงน้ำหนักต่ำ 2
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ trend_buy                ดิบ 0.595/0.486 · prob 0.58 · ถ่วงน้ำหนัก 0.506/0.419
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ซื้อ · น้ำหนัก 60%  (score +0.317)
+[INTERNAL-SIGNAL]
+DIRECTION=BUY
+WEIGHT=60
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.112526/0.102278 (สุทธิ +0.05) · engine เอน 51B/11S 24ชม. (+0.65) · ดูดวง bullish 0.35 (+0.35) · rolling20 $-3.26 · net72h $+0.004/trade · ลดความแรง 20% (rolling net ยังติดลบ)
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-30 12:09 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.48 · คะแนนหนุน 7 / กด 20) → ระดับความระวัง: **ปกติ (ข่าวสองทาง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 4 ข่าว · คะแนนรวม 25 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 12 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 11 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **เงินเฟ้อ** — 2 ข่าว · คะแนนรวม 9 (หนุน 1 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **พลังงาน** — 1 ข่าว · คะแนนรวม 3 (หนุน 0 / กด 0) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **เศรษฐกิจมหภาค** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Stocks dip, 2-year US yield falls after Fed’s Williams cools rate hike bets
+- 🔴 [6] (macro) Fed rate hike bets for Oct fall sharply on soft data, dovish comments
+- 🔴 [5] (markets) Wells Fargo revises dollar, yen, euro estimates amid rate hike outlook
+- ⚪ [5] (macro) Australia in
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [10, 9, 6, 2, 9, 7, 1] (รวม 44) → ฐาน 9 = 8 · เลข 8 — มั่งคั่ง เฟื่องฟู · เลขคู่เสียง 7
+- ดาวประจำวัน: พุธ · แปรปรวน (ดิน)
+- คำทำนาย: เลข 8 — มั่งคั่ง เฟื่องฟู — วันพุธ ลักษณะแปรปรวน
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### P/L Attribution
+## 2026-09-30 05:09 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=1 | errors=0
+- **✅ กำไร** 2026-09-30T05:00:34 | trend buy | net=$0.1 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=1 loss=0 net_total=$0.1000 | net เฉลี่ย $0.1000/trade ★ | winrate=100.0% (รายงานเท่านั้น)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=23 ออเดอร์ (~25.3/วัน) → band สมดุล
+⬜ net เฉลี่ย +$0.004/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 377 ออเดอร์
+🏆 mean_reversion: n=115 net=$1.66 wr=63%, breakout: n=14 net=$1.16 wr=50%
+💸 trend: n=123 net=$-1.95 wr=59%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.030/trade (n=2)
+
+## 2026-09-30 05:22 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 127360623 → 127360623)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.40 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (40482 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 6 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.236(n=17) · range_buy $-0.111(n=21) · mean_reversion_buy $-0.069(n=54) · breakout_reversal_sell $-0.068(n=12) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-30 12:19", "changes": [{"strategy": "trend", "side": "sell", "raw_low_from": 0.395, "raw_low_to": 0.335, "raw_high_from": 0.495, "raw_high_to": 0.435, "net_exp": 0.0162, "net_n": 89}, {"strategy": "range", "side": "buy", "raw_low_from": 0.202, "raw_low_to": 0.292, "raw_high_from": 0.389, "raw_high_to": 0.407, "net_exp": -0.1105, "net_n": 21}, {"strategy": "range", "side": "sell", "raw_low_from": 0.314, "raw_low_to": 0.392, "raw_high_from": 0.627, "raw_high_to": 0.557, "net_exp": -0.0332, "net_n": 76}, {"strategy": "mean_reversion", "side": "buy", "raw_low_from": 0.097, "raw_low_to": 0.177, "raw_high_from": 0.372, "raw_high_to": 0.342, "net_exp": -0.0691, "net_n": 54}, {"strategy": "mean_rever
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 375 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.25 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.55 TP=1.3R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.25 TP=1.2R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.4 TP=1.2R
+   range            n= 88 wr=0.56 win=0.64R loss=0.93R | SL=1.25 TP=1.3R
+   trend            n=119 wr=0.55 win=0.68R loss=0.95R | SL=1.5 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-30 12:20", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.55, "reward_risk": 1.3}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.25, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.25, "reward_risk": 1.2}, "mean_reversion": {"n": 115, "wr": 0.687, "avg_win_R": 0.624, "avg_loss_R"
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 379 ไม้ (2026-08-26T06:09 → 2026-09-30T05:09) | net -3.25 | เฉลี่ย -0.009 | ชนะ 60.4% | PF 0.95 ✗
+   · trend            ไม้  63 | net  +0.26 | PF  1.02 ✓ | 40 ล่าสุด: -0.094/ไม้ แย่ลง ✗
+   · range            ไม้   2 | net  +0.21 | PF 99.00 ✓ | 2 ล่าสุด: +0.105/ไม้ แย่ลง ✗
+   · mean_reversion   ไม้   3 | net  -1.14 | PF  0.01 ✗ | 3 ล่าสุด: -0.380/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +1.23 (58 ไม้) · buy -1.90 (10 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (10 รอบ · 12:10→12:19 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 10 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 10 · คะแนนถ่วงน้ำหนักต่ำ 10
+      trend_sell               คะแนนดิบต่ำ 10 · คะแนนถ่วงน้ำหนักต่ำ 10
+      range_sell               คะแนนดิบต่ำ 10 · คะแนนถ่วงน้ำหนักต่ำ 10
+      mean_reversion_sell      คะแนนดิบต่ำ 10 · คะแนนถ่วงน้ำหนักต่ำ 10
+      mean_reversion_buy       คะแนนดิบต่ำ 5 · คะแนนถ่วงน้ำหนักต่ำ 5
+      range_buy                คะแนนดิบสูงเกินบน(อิ่มตัว) 5 · คะแนนถ่วงน้ำหนักสูงเกินบน 5
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ range_buy                ดิบ 0.247/0.202 · prob 0.53 · ถ่วงน้ำหนัก 0.284/0.252
+      ✅ mean_reversion_buy       ดิบ 0.369/0.097 · prob 0.56 · ถ่วงน้ำหนัก 0.314/0.082
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ซื้อ · น้ำหนัก 66%  (score +0.488)
+[INTERNAL-SIGNAL]
+DIRECTION=BUY
+WEIGHT=66
+ASTRO=sideways:0.62
+NOTE=ภายใน: แรงซื้อ/ขาย 0.209768/0.065184 (สุทธิ +0.53) · engine เอน 61B/10S 24ชม. (+0.72) · ดูดวง sideways 0.62 (+0.00) · rolling20 $-4.02 · net72h $-0.010/trade · ลดความแรง 20% (rolling net ยังติดลบ)
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-30 12:22 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.48 · คะแนนหนุน 7 / กด 20) → ระดับความระวัง: **ปกติ (ข่าวสองทาง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 4 ข่าว · คะแนนรวม 25 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 12 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 11 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **เงินเฟ้อ** — 2 ข่าว · คะแนนรวม 9 (หนุน 1 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **พลังงาน** — 1 ข่าว · คะแนนรวม 3 (หนุน 0 / กด 0) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **เศรษฐกิจมหภาค** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Stocks dip, 2-year US yield falls after Fed’s Williams cools rate hike bets
+- 🔴 [6] (macro) Fed rate hike bets for Oct fall sharply on soft data, dovish comments
+- 🔴 [5] (markets) Wells Fargo revises dollar, yen, euro estimates amid rate hike outlook
+- ⚪ [5] (macro) Australia in
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [10, 9, 6, 2, 2, 9, 1] (รวม 39) → ฐาน 9 = 3 · เลข 3 — กำไรเสริม เลื่อนขึ้น · เลขคู่เสียง 2
+- ดาวประจำวัน: พุธ · แปรปรวน (ดิน)
+- คำทำนาย: เลข 3 — กำไรเสริม เลื่อนขึ้น — วันพุธ ลักษณะแปรปรวน
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=22 ออเดอร์ (~25.3/วัน) → band สมดุล
+🟨 net เฉลี่ย $-0.010/trade (72ชม.) ติดลบ + เทrulดเยอะ → โซนผิด/หลวม ควร tighten
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 379 ออเดอร์
+🏆 mean_reversion: n=115 net=$1.66 wr=63%, breakout: n=14 net=$1.16 wr=50%
+💸 trend: n=125 net=$-2.87 wr=58%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.030/trade (n=2)
+
+## 2026-09-30 05:35 UTC — งานวิจัยรวม (14 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 127636920 → 127682405)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.40 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (40609 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 6 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.236(n=17) · range_buy $-0.088(n=22) · breakout_reversal_sell $-0.068(n=12) · mean_reversion_buy $-0.061(n=55) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-30 12:32", "changes": [{"strategy": "trend", "side": "sell", "raw_low_from": 0.402, "raw_low_to": 0.342, "raw_high_from": 0.502, "raw_high_to": 0.442, "net_exp": 0.0162, "net_n": 89}, {"strategy": "range", "side": "buy", "raw_low_from": 0.202, "raw_low_to": 0.292, "raw_high_from": 0.437, "raw_high_to": 0.407, "net_exp": -0.0877, "net_n": 22}, {"strategy": "range", "side": "sell", "raw_low_from": 0.314, "raw_low_to": 0.391, "raw_high_from": 0.627, "raw_high_to": 0.552, "net_exp": -0.0332, "net_n": 76}, {"strategy": "mean_reversion", "side": "buy", "raw_low_from": 0.097, "raw_low_to": 0.177, "raw_high_from": 0.372, "raw_high_to": 0.342, "net_exp": -0.0611, "net_n": 55}, {"strategy": "mean_rever
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 0 รายการที่ควรปรับ (จาก R-multiple จริง 377 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.25 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.55 TP=1.3R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.25 TP=1.2R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.4 TP=1.2R
+   range            n= 88 wr=0.56 win=0.64R loss=0.93R | SL=1.25 TP=1.3R
+   trend            n=121 wr=0.55 win=0.68R loss=0.95R | SL=1.5 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-30 12:33", "changes": [], "stats": {"breakout": {"n": 15, "wr": 0.667, "avg_win_R": 0.346, "avg_loss_R": 0.674, "stop_atr": 1.55, "reward_risk": 1.3}, "breakout_reversal": {"n": 9, "wr": 1.0, "avg_win_R": 0.293, "avg_loss_R": 0.0, "stop_atr": 1.25, "reward_risk": 1.2}, "counter_trend": {"n": 27, "wr": 0.519, "avg_win_R": 0.435, "avg_loss_R": 0.898, "stop_atr": 1.25, "reward_risk": 1.2}, "mean_reversion": {"n": 115, "wr": 0.687, "avg_win_R": 0.624, "avg_loss_R"
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 381 ไม้ (2026-08-26T06:09 → 2026-09-30T05:32) | net -2.49 | เฉลี่ย -0.007 | ชนะ 60.6% | PF 0.96 ✗
+   · range            ไม้   3 | net  +0.60 | PF 99.00 ✓ | 3 ล่าสุด: +0.200/ไม้ แย่ลง ✗
+   · trend            ไม้  63 | net  +0.26 | PF  1.02 ✓ | 40 ล่าสุด: -0.094/ไม้ แย่ลง ✗
+   · mean_reversion   ไม้   4 | net  -0.77 | PF  0.33 ✗ | 4 ล่าสุด: -0.193/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +1.23 (58 ไม้) · buy -1.14 (12 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (5 รอบ · 12:20→12:30 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 5 รอบ · ไม่ผ่าน = 0 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      trend_buy                คะแนนดิบต่ำ 5 · คะแนนถ่วงน้ำหนักต่ำ 5
+      range_sell               คะแนนดิบต่ำ 5 · คะแนนถ่วงน้ำหนักต่ำ 5
+      mean_reversion_sell      คะแนนดิบต่ำ 5 · คะแนนถ่วงน้ำหนักต่ำ 5
+      trend_sell               คะแนนดิบต่ำ 4 · คะแนนถ่วงน้ำหนักต่ำ 4
+      breakout_sell            คะแนนดิบสูงเกินบน(อิ่มตัว) 1 · คะแนนถ่วงน้ำหนักสูงเกินบน 1
+      range_buy                คะแนนถ่วงน้ำหนักต่ำ 1
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ range_buy                ดิบ 0.346/0.202 · prob 0.53 · ถ่วงน้ำหนัก 0.397/0.252
+      ✅ mean_reversion_buy       ดิบ 0.284/0.097 · prob 0.56 · ถ่วงน้ำหนัก 0.241/0.082
+      ✅ trend_sell               ดิบ 0.406/0.395 · prob 0.58 · ถ่วงน้ำหนัก 0.345/0.318
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ซื้อ · น้ำหนัก 58%  (score +0.257)
+[INTERNAL-SIGNAL]
+DIRECTION=BUY
+WEIGHT=58
+ASTRO=sideways:0.62
+NOTE=ภายใน: แรงซื้อ/ขาย 0.075579/0.075911 (สุทธิ -0.00) · engine เอน 66B/10S 24ชม. (+0.74) · ดูดวง sideways 0.62 (+0.00) · rolling20 $-2.11 · net72h $+0.001/trade · ลดความแรง 20% (rolling net ยังติดลบ)
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-30 12:35 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.48 · คะแนนหนุน 7 / กด 20) → ระดับความระวัง: **ปกติ (ข่าวสองทาง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 4 ข่าว · คะแนนรวม 25 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 12 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 11 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **เงินเฟ้อ** — 2 ข่าว · คะแนนรวม 9 (หนุน 1 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **พลังงาน** — 1 ข่าว · คะแนนรวม 3 (หนุน 0 / กด 0) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **เศรษฐกิจมหภาค** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Stocks dip, 2-year US yield falls after Fed’s Williams cools rate hike bets
+- 🔴 [6] (macro) Fed rate hike bets for Oct fall sharply on soft data, dovish comments
+- 🔴 [5] (markets) Wells Fargo revises dollar, yen, euro estimates amid rate hike outlook
+- ⚪ [5] (macro) Australia in
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [10, 9, 6, 2, 5, 9, 1] (รวม 42) → ฐาน 9 = 6 · เลข 6 — เดินขึ้น เกื้อหนุน · เลขคู่เสียง 5
+- ดาวประจำวัน: พุธ · แปรปรวน (ดิน)
+- คำทำนาย: เลข 6 — เดินขึ้น เกื้อหนุน — วันพุธ ลักษณะแปรปรวน
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### P/L Attribution
+## 2026-09-30 05:35 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=2 | opened(10m)=2 | errors=0
+- **✅ กำไร** 2026-09-30T05:30:18 | range buy | net=$0.39 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+- **✅ กำไร** 2026-09-30T05:32:21 | mean_reversion buy | net=$0.37 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=2 loss=0 net_total=$0.7600 | net เฉลี่ย $0.3800/trade ★ | winrate=100.0% (รายงานเท่านั้น)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=23 ออเดอร์ (~26.0/วัน) → band สมดุล
+⬜ net เฉลี่ย +$0.001/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 381 ออเดอร์
+🏆 mean_reversion: n=116 net=$2.03 wr=63%, breakout: n=14 net=$1.16 wr=50%
+💸 trend: n=126 net=$-2.48 wr=58%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'weight' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.067/trade (n=2)
+   • weight<1: net เฉลี่ย $-0.026/trade (n=2)
+
+## 2026-09-30 05:48 UTC — งานวิจัยรวม (13 ส่วน)
+
+### 🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง (ใครผ่าน/ใครถูกชะลอ)
+🚦 ด่าน 1 · ประตู net ต่อกลยุทธ์-ทิศทาง — บวกไม้ใหม่ 0 ไม้ (offset 127898593 → 127979648)
+   5 คีย์ ไม่ผ่าน (ถูกชะลอ) · 7 คีย์ ผ่าน · 0 คีย์ รอหลักฐาน
+   ⛔ ไม่ผ่านด่าน 1 (ชะลอไว้): breakout_buy, breakout_sell, counter_trend_sell, mean_reversion_sell, range_sell
+   · รอหลักฐาน (ไม้ < 2): ไม่มี
+   ✅ ผ่านด่าน 1 (รายละเอียด — ตัวที่ได้ไปแข่งที่ด่าน 2):
+      ✅ breakout_reversal_buy    net 3 ล่าสุด +0.45 | ย้อนหลัง 5 ไม้: [0.09, 0.38, 0.2, 0.14, 0.11]
+      ✅ breakout_reversal_sell   net 3 ล่าสุด +0.34 | ย้อนหลัง 2 ไม้: [0.05, 0.29]
+      ✅ counter_trend_buy        net 3 ล่าสุด +0.05 | ย้อนหลัง 5 ไม้: [-0.46, 0.19, 0.14, 0.05, -0.14]
+      ✅ mean_reversion_buy       net 3 ล่าสุด +0.56 | ย้อนหลัง 5 ไม้: [0.54, -0.58, 0.1, 0.34, 0.12]
+      ✅ range_buy                net 3 ล่าสุด +0.19 | ย้อนหลัง 5 ไม้: [0.21, -0.42, -0.43, 0.12, 0.5]
+      ✅ trend_buy                net 3 ล่าสุด +0.40 | ย้อนหลั
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · Auto-Threshold 36 ค่า (ของคีย์ที่ผ่านด่าน 1)
+📊 Auto-Threshold (ทุก 10 นาที): วิเคราะห์จากทุกการเช็คราย 1 นาที (40707 records) — อัปเดต 36 ค่า ลง research\auto-threshold-stats
+
+### 🧭 ด่าน 2 · แผนปรับ 36 ค่า (band plan จาก net จริง)
+🧭 [แผนปรับ 36 ค่า] พบ 6 strategy-side ที่ควรขยับ (จาก net + percentile จริง)
+   net ต่อ strategy-side (แย่→ดี): trend_buy $-0.236(n=17) · range_buy $-0.088(n=22) · breakout_reversal_sell $-0.068(n=12) · mean_reversion_buy $-0.061(n=55) · counter_trend_sell $-0.060(n=13)
+[BAND-PLAN]
+{"ts": "2026-09-30 12:45", "changes": [{"strategy": "trend", "side": "sell", "raw_low_from": 0.402, "raw_low_to": 0.342, "raw_high_from": 0.502, "raw_high_to": 0.442, "net_exp": 0.0162, "net_n": 89}, {"strategy": "range", "side": "buy", "raw_low_from": 0.202, "raw_low_to": 0.292, "raw_high_from": 0.437, "raw_high_to": 0.407, "net_exp": -0.0877, "net_n": 22}, {"strategy": "range", "side": "sell", "raw_low_from": 0.292, "raw_low_to": 0.363, "raw_high_from": 0.547, "raw_high_to": 0.463, "net_exp": -0.0332, "net_n": 76}, {"strategy": "mean_reversion", "side": "buy", "raw_low_from": 0.097, "raw_low_to": 0.175, "raw_high_from": 0.372, "raw_high_to": 0.342, "net_exp": -0.0611, "net_n": 55}, {"strategy": "mean_rever
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 ด่าน 2 · เกณฑ์สร้าง TP/SL (จาก R-multiple จริง)
+🎯 [แผนเกณฑ์ TP/SL] พบ 4 รายการที่ควรปรับ (จาก R-multiple จริง 377 ไม้)
+   breakout_reversal n=  9 wr=1.00 win=0.29R loss=0.00R | SL=1.25 TP=1.2R
+   breakout         n= 15 wr=0.67 win=0.35R loss=0.67R | SL=1.55 TP=1.3R
+   counter_trend    n= 27 wr=0.52 win=0.43R loss=0.90R | SL=1.25 TP=1.2R
+   mean_reversion   n=115 wr=0.69 win=0.62R loss=1.09R | SL=1.4 TP=1.2R
+   range            n= 88 wr=0.56 win=0.64R loss=0.93R | SL=1.25 TP=1.3R
+   trend            n=121 wr=0.55 win=0.68R loss=0.95R | SL=1.5 TP=1.3R
+[TPSL-PLAN]
+{"ts": "2026-09-30 12:45", "changes": [{"action": "set_tpsl", "strategy": "breakout", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.35R < 55% ของเป้า 1.30R)", "evidence": "n=15 wr=0.67 avg_win=0.35R avg_loss=0.67R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set_tpsl", "strategy": "range", "reason": "TP ไกลเกิน (ไม้ชนะได้ 0.64R < 55% ของเป้า 1.30R)", "evidence": "n=88 wr=0.56 avg_win=0.64R avg_loss=0.93R", "reward_risk": 1.2, "reward_risk_from": 1.3}, {"action": "set_tpsl
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🎯 กระดานคะแนนกลยุทธ์ (กำไรจริงรายกลยุทธ์ · วัดว่าวิวัฒนาการได้ผลไหม)
+📊 กระดานคะแนนกลยุทธ์: 381 ไม้ (2026-08-26T06:09 → 2026-09-30T05:32) | net -2.49 | เฉลี่ย -0.007 | ชนะ 60.6% | PF 0.96 ✗
+   · range            ไม้   3 | net  +0.60 | PF 99.00 ✓ | 3 ล่าสุด: +0.200/ไม้ แย่ลง ✗
+   · trend            ไม้  63 | net  +0.26 | PF  1.02 ✓ | 40 ล่าสุด: -0.094/ไม้ แย่ลง ✗
+   · mean_reversion   ไม้   4 | net  -0.77 | PF  0.33 ✗ | 4 ล่าสุด: -0.193/ไม้ แย่ลง ✗
+   · ทิศทาง: sell +1.23 (58 ไม้) · buy -1.14 (12 ไม้)
+   → กลยุทธ์ net ติดลบ+PF<0.85 ควรถูกกด · หน้าต่างล่าสุดดีขึ้น = การปรับตัวได้ผล ✓
+
+### ⏱️ การเช็คเทรดทุก 1 นาที (ตัวไหนไม่ผ่าน เพราะอะไร)
+⏱️ เช็คเทรดทุก 1 นาที — 10 นาทีล่าสุด (10 รอบ · 12:35→12:44 เวลาไทย)
+   ผล: ผ่านด่าน 2 = 5 รอบ · ไม่ผ่าน = 5 รอบ · ด่าน 1 ชะลอก่อน = 0 ครั้ง
+   เหตุผลที่ไม่ผ่าน (นับครั้ง ต่อกลยุทธ์-ทิศทาง → เหตุผล):
+      range_sell               คะแนนดิบต่ำ 10 · คะแนนถ่วงน้ำหนักต่ำ 10 · ด่าน 3 ไม่เทรด(ฝั่งตรงข้ามแรงกว่า) 5
+      trend_buy                คะแนนดิบต่ำ 10 · คะแนนถ่วงน้ำหนักต่ำ 10
+      trend_sell               คะแนนดิบต่ำ 10 · คะแนนถ่วงน้ำหนักต่ำ 10
+      mean_reversion_sell      คะแนนดิบต่ำ 10 · คะแนนถ่วงน้ำหนักต่ำ 10
+      range_buy                คะแนนดิบต่ำ 5 · คะแนนถ่วงน้ำหนักต่ำ 5
+      mean_reversion_buy       คะแนนดิบต่ำ 5 · คะแนนถ่วงน้ำหนักต่ำ 5
+   ✅ ผ่านด่าน 2 ในช่วงนี้ (คะแนนจริง/เกณฑ์):
+      ✅ range_buy                ดิบ 0.220/0.202 · prob 0.53 · ถ่วงน้ำหนัก 0.253/0.252
+      ✅ mean_reversion_buy       ดิบ 0.107/0.097 · prob 0.56 · ถ่วงน้ำหนัก 0.091/0.082
+   ตัวที่ใกล้ผ่านที่สุด: ไม่มี (ทุกรอบตัวที่ตกติดหลายเงื่อนไขพร้อมกัน = สัญญาณอ่อนจริง)
+
+### 🧪 จำลองก่อนเสนอ (กั้นด้วยผลทดสอบจริง)
+⚠️ plan_sim: import โมดูลจำลองไม่สำเร็จ: numpy._core.multiarray failed to import
+
+### 🧭 สัญญาณภายใน (เสียงของงานวิเคราะห์ภายใน — ศักดิ์เท่าเทียม LLM)
+🧭 [สัญญาณภายใน] ทิศทาง: ซื้อ · น้ำหนัก 62%  (score +0.375)
+[INTERNAL-SIGNAL]
+DIRECTION=BUY
+WEIGHT=62
+ASTRO=bullish:0.35
+NOTE=ภายใน: แรงซื้อ/ขาย 0.126524/0.11451 (สุทธิ +0.05) · engine เอน 66B/7S 24ชม. (+0.81) · ดูดวง bullish 0.35 (+0.35) · rolling20 $-2.11 · net72h $+0.001/trade · ลดความแรง 20% (rolling net ยังติดลบ)
+[/INTERNAL-SIGNAL]
+
+### ข่าวทองคำล่าสุด (investing.com: commodities/markets/macro)
+📰 [News] งานวิจัยข่าวทองคำ — ข่าวใหม่ 0 รายการ
+
+## 2026-09-30 12:48 — งานวิจัยข่าวทองคำ (investing.com RSS · 12 ชม.)
+
+**สรุปทิศทาง:** ข่าวเอียงกดทอง (สัดส่วน -0.48 · คะแนนหนุน 7 / กด 20) → ระดับความระวัง: **ปกติ (ข่าวสองทาง)**
+
+**ธีมมหภาคที่เด่น (เรียงตามคะแนนผลกระทบ):**
+- **ดอกเบี้ย/Fed** — 4 ข่าว · คะแนนรวม 25 (หนุน 0 / กด 3) · ขึ้น=กดทอง · ลด=หนุนทอง
+- **ค่าเงินดอลลาร์** — 4 ข่าว · คะแนนรวม 12 (หนุน 0 / กด 1) · ดอลล์แข็ง=กดทอง · อ่อน=หนุนทอง
+- **พันธบัตร/ยีลด์** — 2 ข่าว · คะแนนรวม 11 (หนุน 0 / กด 1) · ยีลด์ขึ้น=กดทอง · ลง=หนุนทอง
+- **เงินเฟ้อ** — 2 ข่าว · คะแนนรวม 9 (หนุน 1 / กด 0) · สูง=หนุนทอง (กันเงินเฟ้อ)
+- **พลังงาน** — 1 ข่าว · คะแนนรวม 3 (หนุน 0 / กด 0) · น้ำมันขึ้น=แรงกดเงินเฟ้อ=หนุนทองทางอ้อม
+- **เศรษฐกิจมหภาค** — 1 ข่าว · คะแนนรวม 3 (หนุน 1 / กด 0) · อ่อนแอ=หนุนทอง
+
+**ข่าวเด่น:**
+- 🔴 [9] (macro) Stocks dip, 2-year US yield falls after Fed’s Williams cools rate hike bets
+- 🔴 [6] (macro) Fed rate hike bets for Oct fall sharply on soft data, dovish comments
+- 🔴 [5] (markets) Wells Fargo revises dollar, yen, euro estimates amid rate hike outlook
+- ⚪ [5] (macro) Australia in
+… (ตัดข้อความ; ดูเต็มใน research/consolidated-research-log.md)
+
+### 🔮 โหราศาสตร์ไทย (โหรทายหนู + เลข 7 ตัว 9 ฐาน)
+ทิศทางตามตำรา: ↑ ขึ้น (bullish) · strength 0.35
+- เลข 7 ตัว: [10, 9, 6, 2, 8, 1, 1] (รวม 37) → ฐาน 9 = 1 · เลข 1 — จุดเริ่มเดินหน้า แนวโน้มขึ้น · เลขคู่เสียง 9
+- ดาวประจำวัน: พุธ · แปรปรวน (ดิน)
+- คำทำนาย: เลข 1 — จุดเริ่มเดินหน้า แนวโน้มขึ้น — วันพุธ ลักษณะแปรปรวน
+- ตำรา: โหรทายหนู + เลข 7 ตัว 9 ฐาน (สัญญาณร่วม secondary ~0.3-0.4 ไม่ใช่ตัวตัดสินหลัก)
+
+### AT vs การเทรด (ความถี่)
+📊 [AT-vs-Trade]
+🟩 เทrulดปกติ: 24ชม.=21 ออเดอร์ (~26.0/วัน) → band สมดุล
+⬜ net เฉลี่ย +$0.001/trade (บวกเล็กน้อย) — ยังไม่ถึงเป้าโซนกำไร
+(บันทึก <PROJECT_ROOT>\research\2026-09-12-auto-threshold-vs-trading.md)
+
+### กลไก ↔ Net Profit
+📊 [กลไก↔P/L] ปิด 70 ออเดอร์
+🏆 trend: n=59 net=$1.01 wr=49%, range: n=8 net=$0.22 wr=75%
+💸 mean_reversion: n=3 net=$-1.14 wr=33%
+
+### Ranking prob/weight
+📊 [Ranking Research] เลือก ranking ด้วย 'prob' (ก่อน: weight)
+   • weight>1: net เฉลี่ย $0.028/trade (n=1)
+   • weight<1: net เฉลี่ย $-0.181/trade (n=2)

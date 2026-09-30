@@ -15,7 +15,7 @@
 คุมครบ 3 กลุ่มที่ใช้ AI จริง (ไล่ตรวจทั้งระบบ):
   ① งานเอเจนต์ Hermes 3 งาน (research-bot · admin-bot · brain-consult) → สลับด้วยโหมด
   ② Jev ทุกจุด (news_feed · admin_bot_round · llm_research_packet · งานอื่น) → jev_config.enabled
-  ③ ตัวเทรด AI ในตัว (auto_trader/market_analyzer → openrouter_agents) → openrouter.enabled
+  ③ AI ของตัวเทรด → ★ ห้ามแตะเด็ดขาด: เป็นอำนาจเจ้าของระบบเท่านั้น (ตัวเฝ้าเปิด/ปิดได้เฉพาะ AI ตัวอื่น)
      (มีประตูโหมดในตัวอยู่แล้ว: โหมด 1 = blocked_by_mode)
 
 กติกาความปลอดภัย:
@@ -43,6 +43,9 @@ BR = os.path.dirname(HERE)
 ROOT = os.path.dirname(os.path.dirname(BR))
 WORK = os.path.join(ROOT, "work")
 CFG = os.path.join(BR, "credit_guard.json")
+
+# ★ ล็อกถาวร: AI ของตัวเทรดเปิด/ปิดได้โดยมนุษย์เท่านั้น (ตัวเฝ้าเครดิตห้ามแตะ)
+HUMAN_ONLY_TRADER_AI = True
 STATE = os.path.join(WORK, "credit_guard_state.json")
 AUDIT = os.path.join(WORK, "credit_guard_audit.jsonl")
 JEV_CFG = os.path.join(BR, "jev_config.json")
@@ -56,7 +59,7 @@ DEFAULT_CFG = {
     "enabled": True,
     "low_usd": 1.00,           # ต่ำกว่านี้ → เทรดเฉพาะสัญญาณภายใน (ไม่ใช้ AI เลย)
     "resume_usd": 1.20,        # กลับมาใช้ AI เมื่อเกินระดับนี้ (กันกระพริบที่ขอบ 1.00)
-    "manage_trader_ai": True,  # คุมสวิตช์ AI ของตัวเทรด (openrouter.enabled) ด้วย
+    "manage_trader_ai": False,  # ★ ล็อกถาวร: ห้ามแตะ AI ของตัวเทรด — อำนาจเจ้าของระบบเท่านั้น (29 ก.ย. 2026)
     "max_consecutive_failures": 3,
     "notify_telegram": True,
 }
@@ -163,7 +166,8 @@ def ai_state():
         return "off"
     if mode == "internal_llm_join" and jev:
         # คำสั่งเจ้าของระบบ: เครดิตสูง = พร้อมใช้ AI ทุกรูปแบบ → นับสวิตช์ AI ของตัวเทรดด้วย
-        if _load(CFG, DEFAULT_CFG).get("manage_trader_ai", True):
+        # ★ ล็อกถาวร (เจ้าของระบบ 29 ก.ย. 2026): AI ของตัวเทรดเป็นอำนาจมนุษย์เท่านั้น
+        if False and _load(CFG, DEFAULT_CFG).get("manage_trader_ai", False):
             if not bool(_load(AUTO_CFG, {}).get("openrouter", {}).get("enabled", False)):
                 return "mixed"
         return "on"
@@ -219,7 +223,7 @@ def turn_off(reason):
     if "jobs" not in st["prev"]:
         st["prev"]["jobs"] = _enabled_ai_jobs()
 
-    cfg = _load(CFG, DEFAULT_CFG)
+    _ = _load(CFG, DEFAULT_CFG)  # ค่าเดิมถูกใช้ผ่านเส้นทางอื่น · pyflakes: ไม่มีตัวแปรค้าง
     # ① โหมด → เทรดด้วยสัญญาณภายใน (หยุดงานเอเจนต์ AI + ประตูโหมดของตัวเทรด)
     try:
         set_mode("internal_only")
@@ -231,7 +235,7 @@ def turn_off(reason):
     jc["_credit_guard_note"] = "ปิดโดยตัวเฝ้าเครดิต: %s" % reason
     _save(JEV_CFG, jc)
     # ③ AI ในตัวเทรด/ตัววิเคราะห์ตลาด
-    if cfg.get("manage_trader_ai", True):
+    if False:  # ★ ล็อกถาวร AI ของตัวเทรด=อำนาจเจ้าของระบบ (29 ก.ย. 2026):
         ac = _load(AUTO_CFG, {})
         if isinstance(ac.get("openrouter"), dict):
             ac["openrouter"]["enabled"] = False
@@ -239,7 +243,7 @@ def turn_off(reason):
     st.update({"llm": "off", "reason": reason, "at": time.strftime("%Y-%m-%dT%H:%M:%S")})
     _save(STATE, st)
     log("llm_off", reason=reason, mode=mode_now().get("mode"), jev=False,
-        trader_ai=False if cfg.get("manage_trader_ai", True) else "untouched")
+        trader_ai="untouched (อำนาจเจ้าของระบบ)")
     return "off"
 
 
@@ -247,7 +251,7 @@ def turn_on(reason):
     """เปิดคืน — คืนค่าที่เจ้าของระบบตั้งไว้เดิม (ไม่คิดค่าแทนเจ้าของ)"""
     st = _load(STATE, {})
     prev = st.get("prev", {})
-    cfg = _load(CFG, DEFAULT_CFG)
+    _ = _load(CFG, DEFAULT_CFG)  # ค่าเดิมถูกใช้ผ่านเส้นทางอื่น · pyflakes: ไม่มีตัวแปรค้าง
     try:
         set_mode("internal_llm_join")
     except Exception as exc:
@@ -257,7 +261,7 @@ def turn_on(reason):
     jc.pop("_credit_guard_note", None)
     _save(JEV_CFG, jc)
     trader_ai = "untouched"
-    if cfg.get("manage_trader_ai", True):
+    if False:  # ★ ล็อกถาวร AI ของตัวเทรด=อำนาจเจ้าของระบบ (29 ก.ย. 2026):
         ac = _load(AUTO_CFG, {})
         if isinstance(ac.get("openrouter"), dict):
             # เครดิตสูง = เปิด AI ตัวเทรดตามคำสั่งเจ้าของระบบ ("พร้อมครบทุก AI รูปแบบ")
@@ -387,7 +391,7 @@ def status():
     print("   สถานะฝั่ง AI ปัจจุบัน: %s · โหมดระบบ: %s" % (
         st.get("llm", "-"), mode_now().get("mode", "-")))
     print("   จุดที่คุม: ① งานเอเจนต์ 3 งาน ② Jev ทุกจุด ③ AI ในตัวเทรด/วิเคราะห์ตลาด%s" % (
-        "" if cfg.get("manage_trader_ai", True) else " (ปิดการคุมข้อ ③ ตามตั้งค่า)"))
+        " (ปิดการคุมข้อ ③ ตามตั้งค่า — อำนาจเจ้าของระบบ)"))
     print("   ค่าที่เจ้าของระบบตั้งไว้เดิม: %s" % json.dumps(st.get("prev", {}), ensure_ascii=False))
     return 0
 

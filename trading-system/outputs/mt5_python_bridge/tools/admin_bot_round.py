@@ -113,6 +113,19 @@ STRUCTURE_BOUNDS = {
     'strategy_router.auto_threshold.band_min_widths.weighted': (0.10, 0.20),
     'atr_stop_multiplier': (0.80, 2.00),
     'min_reward_risk': (1.00, 2.00),
+    # ★ 30 ก.ย. 2026: ยกหน้าที่ 'ระยะ TP/SL รายกลยุทธ์' ให้แอดมินบอท (หลักฐานจริงเท่านั้น)
+    'strategy_router.trend_stop_atr': (0.80, 2.00),
+    'strategy_router.trend_reward_risk': (0.80, 2.00),
+    'strategy_router.range_stop_atr': (0.80, 2.00),
+    'strategy_router.range_reward_risk': (0.80, 2.00),
+    'strategy_router.mean_reversion_stop_atr': (0.80, 2.00),
+    'strategy_router.mean_reversion_reward_risk': (0.80, 2.00),
+    'strategy_router.breakout_stop_atr': (0.80, 2.00),
+    'strategy_router.breakout_reward_risk': (0.80, 2.00),
+    'strategy_router.counter_trend_stop_atr': (0.80, 2.00),
+    'strategy_router.counter_trend_reward_risk': (0.80, 2.00),
+    'strategy_router.breakout_reversal_stop_atr': (0.80, 2.00),
+    'strategy_router.breakout_reversal_reward_risk': (0.80, 2.00),
     # ★ 19 ก.ย. 2026: เพดานเดิม 2.00 ต่ำกว่าค่าจริงของเจ้าของระบบ (8.0)
     #   → บอทจะ 'ลดความเสี่ยง' ผิดเจตนาเมื่อ apply · ตั้งเพดาน = ค่าที่เจ้าของกำหนด
     'max_risk_pct': (0.20, 8.00),
@@ -184,6 +197,71 @@ def gather(hours=24):
     }
 
 
+def gather_by_strategy(hours=48):
+    """สถิติแยกรายกลยุทธ์ + ตัวชี้วัดการดูแล TP/SL (★ 30 ก.ย. 2026 — หน้าที่แอดมินบอท)
+
+    อ่านเฉพาะเหตุการณ์ที่จำเป็น: position_closed (ผลจริง) · profit_exit_hold (ความคืบหน้าถึง TP)
+    · same_direction_cut_loss_evaluation (ระยะที่ลากไปถึง SL) — จับคู่ด้วยเลข position
+    """
+    cut = now_utc() - datetime.timedelta(hours=hours)
+    closed = {}          # position -> record
+    progress = {}        # position -> ความคืบหน้าสูงสุดถึง TP
+    l2sl = {}            # position -> ระยะขาดทุนสูงสุดเทียบระยะ SL
+    with io.open(AUDIT, encoding='utf-8', errors='ignore') as fh:
+        for line in fh:
+            if not any(k in line for k in ('"position_closed"', '"profit_exit_hold"',
+                                           'same_direction_cut_loss_evaluation')):
+                continue
+            try:
+                e = json.loads(line)
+            except Exception:
+                continue
+            ev = e.get('event')
+            try:
+                t = datetime.datetime.fromisoformat(str(e.get('time')).replace('Z', '+00:00'))
+            except Exception:
+                continue
+            if t < cut:
+                continue
+            if ev == 'position_closed':
+                closed[e.get('position_id')] = e
+            elif ev == 'profit_exit_hold':
+                k = e.get('ticket')
+                progress[k] = max(progress.get(k, 0.0), float(e.get('tp_progress') or 0.0))
+            elif ev == 'same_direction_cut_loss_evaluation':
+                k = e.get('ticket')
+                l2sl[k] = max(l2sl.get(k, 0.0), float(e.get('loss_to_sl') or 0.0))
+
+    by = {}
+    for pos, rec in closed.items():
+        st = str(rec.get('strategy') or 'unknown')
+        net = float(rec.get('net') or 0.0)
+        d = by.setdefault(st, {'trades': 0, 'wins': 0, 'losses': 0, 'net': 0.0,
+                               'avg_win': 0.0, 'avg_loss': 0.0, 'rode_to_sl': 0,
+                               'gave_back': 0})
+        d['trades'] += 1
+        d['net'] += net
+        if net > 0:
+            d['wins'] += 1
+        elif net < 0:
+            d['losses'] += 1
+            if l2sl.get(pos, 0.0) >= 0.85:
+                d['rode_to_sl'] += 1
+        if progress.get(pos, 0.0) >= 0.5 and net <= 0.0:
+            d['gave_back'] += 1
+    for st, d in by.items():
+        d['win_rate'] = (100.0 * d['wins'] / d['trades']) if d['trades'] else 0.0
+        d['avg_loss'] = d['net']  # ใช้ประกอบกับตัวนับด้านบน (ค่าเฉลี่ยคำนวณด้านล่าง)
+        # ค่าเฉลี่ยจริงจากบันทึกซ้ำ (คำนวณครั้งเดียว)
+        wins = [float((closed[p].get('net') or 0)) for p in closed
+                if str(closed[p].get('strategy') or 'unknown') == st and float(closed[p].get('net') or 0) > 0]
+        losses = [float((closed[p].get('net') or 0)) for p in closed
+                  if str(closed[p].get('strategy') or 'unknown') == st and float(closed[p].get('net') or 0) < 0]
+        d['avg_win'] = (sum(wins) / len(wins)) if wins else 0.0
+        d['avg_loss'] = (sum(losses) / len(losses)) if losses else 0.0
+    return by
+
+
 def get_path(cfg, dotted):
     cur = cfg
     for part in dotted.split('.'):
@@ -230,6 +308,35 @@ def recommend(cfg, stats, news_summary=None):
         rr = float(get_path(cfg, 'min_reward_risk') or 1.4)
         out.append(('min_reward_risk', round(min(2.0, rr + 0.1), 2),
                     'win rate ดีแต่ไม้แพ้ใหญ่ → เพิ่มสัดส่วนกำไรต่อความเสี่ยง'))
+
+    # ── ★ 30 ก.ย. 2026: ดูแล 'ระยะ TP/SL รายกลยุทธ์' (เจ้าของระบบมอบหน้าที่นี้ให้แอดมินบอท) ──
+    #   เกณฑ์หลักฐานขั้นต่ำ: ≥12 ไม้ปิดของกลยุทธ์นั้นใน 48 ชม. · ปรับได้ครั้งละ ≤0.10 · อยู่ในขอบเขตปลอดภัย
+    #   ที่ปรึกษา (Hermes) ยังดูแลได้ทั้งหมด — ตรวจ/จำลอง/ซ่อมได้เสมอ
+    try:
+        bys = gather_by_strategy(48)
+        for st, d in sorted(bys.items()):
+            if d['trades'] < 12:
+                continue
+            sa_key = 'strategy_router.%s_stop_atr' % st
+            rr_key = 'strategy_router.%s_reward_risk' % st
+            sa = get_path(cfg, sa_key)
+            rr = get_path(cfg, rr_key)
+            ride_ratio = (100.0 * d['rode_to_sl'] / d['losses']) if d['losses'] else 0.0
+            # (ก) แพ้บ่อย + ไม้แพ้ลากถึง ~SL เต็ม → ขยาย SL เล็กน้อย (กันโดนเขี่ยแล้วกลับทาง)
+            if sa is not None and d['win_rate'] < 45.0 and d['rode_to_sl'] >= 3 and ride_ratio >= 50.0:
+                out.append((sa_key, round(min(2.00, float(sa) + 0.10), 2),
+                            "%s: ชนะ %.0f%% + ไม้แพ้ลากถึง SL เต็ม %.0f%% (%d ไม้) → ขยาย SL"
+                            % (st, d['win_rate'], ride_ratio, d['rode_to_sl'])))
+            # (ข) ชนะบ่อยแต่กำไรต่อไม้เล็กกว่าไม้แพ้ → ให้ TP ไกลขึ้นเพื่อเก็บกำไรให้คุ้ม
+            if rr is not None and d['win_rate'] >= 60.0 and d['net'] > 0 and d['avg_loss'] < 0 \
+                    and d['avg_win'] < abs(d['avg_loss']):
+                out.append((rr_key, round(min(2.00, float(rr) + 0.10), 2),
+                            "%s: ชนะ %.0f%% แต่กำไร/ไม้ %.2f < ขาดทุน/ไม้ %.2f → ขยาย TP"
+                            % (st, d['win_rate'], d['avg_win'], abs(d['avg_loss']))))
+            # (ค) กำไรถูกคืนบ่อย (ขึ้นถึงครึ่งทาง TP แล้วจบไม่กำไร) → บันทึกเป็นหลักฐานให้ที่ปรึกษาออกแบบกฎล็อกกำไร
+            #     (แอดมินบอทไม่ปรับเอง เพราะต้องมีกฎระดับโค้ดที่ผ่านการจำลองก่อน)
+    except Exception as exc:
+        stats['tpsl_duty_error'] = str(exc)
 
     # ── ★ ขยาย 19 ก.ย. 2026: ใช้คีย์ที่ประกาศกรอบไว้ครบ (เดิมเสนอได้จริงแค่ 5 จาก 11) ──
     #   ทุกข้ออ้างสถิติจริง 24 ชม. และอยู่ในกรอบ STRUCTURE_BOUNDS เสมอ

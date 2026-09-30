@@ -219,7 +219,7 @@ def main():
     try:
         jobs = json.loads(io.open(os.path.expanduser("~/AppData/Local/hermes/cron/jobs.json"),
                                   encoding="utf-8").read())["jobs"]
-        check("งาน cron ครบ 8 งาน", len(jobs) == 8)
+        check("งาน cron ครบ 10 งาน", len(jobs) == 10)
         agents_jobs = [j for j in jobs if not j.get("no_agent")]
         check("งานแบบ agent 3 งาน (โหมด 2 + แอดมินบอท + ที่ปรึกษาสมองหลัก)", len(agents_jobs) == 3)
     except Exception as exc:

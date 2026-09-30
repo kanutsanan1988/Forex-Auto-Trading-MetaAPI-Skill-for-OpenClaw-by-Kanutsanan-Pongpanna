@@ -17,8 +17,24 @@ from pathlib import Path
 import MetaTrader5 as mt5  # noqa: E402
 
 from strategy_engine import decide_market, summarize_rows
-from openrouter_agents import run_dual_agents
 
+# ★ หลักการเจ้าของระบบ (29 ก.ย. 2026): "ตัวเทรดไม่จำเป็นต้องมี AI"
+#   ชั้น LLM ต้องเป็น "ตัวเลือก" — ถ้าไม่มีโมดูลนี้ ตัวเทรดยังต้องวิเคราะห์/ตัดสินใจด้วย Python ได้
+#   เดิมบรรทัดนี้ import ตรง ๆ (ไม่มี try/except) ทำให้ตัวเทรดสตาร์ทไม่ขึ้นเมื่อไม่มีชั้น LLM = ผิดหลักการ
+try:
+    from openrouter_agents import run_dual_agents
+except Exception:  # pragma: no cover - เทรดคอร์ต้องไม่ล้มเพราะชั้น LLM
+    def run_dual_agents(config, frames, python_decision):  # type: ignore
+        """fallback: ไม่มีชั้น LLM → ใช้คำตัดสินใจจาก Python ล้วน (พฤติกรรมเดียวกับ status=disabled)"""
+        return {
+            "enabled": False,
+            "status": "llm_layer_unavailable",
+            "trade_decision": python_decision,
+        }
+
+# ★ ชั้น AI ของตัวเทรด = Jev เท่านั้น (เจ้าของระบบ 29 ก.ย. 2026)
+#   ปิดไว้โดยปริยาย · เปิด/ปิดเป็นอำนาจเจ้าของระบบเท่านั้น · ห้ามระบบ/ตัวเฝ้าเปิดเอง
+from trader_ai import run_trader_ai  # noqa: E402
 
 TERMINAL = r"C:\Program Files\MetaTrader 5\terminal64.exe"
 SYMBOL = "XAUUSD.sml"
@@ -63,7 +79,8 @@ def main() -> int:
         # Read-only view uses the exact same deterministic Python decision path
         # as the live trader; no external service or persisted router state.
         technical_decision = decide_market(frames, config)
-        dual_agents = run_dual_agents(config, frames, technical_decision)
+        # ★ ชั้น AI = Jev เท่านั้น (ไม่เรียก OpenRouter dual agents อีก) · fail-closed
+        dual_agents = run_trader_ai(config, frames, technical_decision)
         decision = dual_agents["trade_decision"]
         side = decision["side"]
         entry = float(tick.ask if side == "buy" else tick.bid)

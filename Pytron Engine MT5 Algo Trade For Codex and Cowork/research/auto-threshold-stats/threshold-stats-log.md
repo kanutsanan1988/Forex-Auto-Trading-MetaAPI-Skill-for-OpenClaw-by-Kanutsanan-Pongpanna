@@ -28485,3 +28485,4923 @@
 | breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
 | breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
 | breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-28 16:29 (ทุก 1 นาทีเช็ค, records=32124)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4145 | 0.2843 | 0.3894 | 0.4961 | 0.6341 | 0.8372 | 0.0% |
+| trend_buy | prob | 4145 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4145 | 0.2417 | 0.331 | 0.4217 | 0.539 | 0.7117 |  |
+| trend_sell | raw | 4145 | 0.2701 | 0.3635 | 0.642 | 0.8284 | 0.9595 | 0.0% |
+| trend_sell | prob | 4145 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4145 | 0.2296 | 0.309 | 0.5457 | 0.7041 | 0.8156 |  |
+| range_buy | raw | 4145 | 0.0834 | 0.157 | 0.2379 | 0.3294 | 0.7125 | 10.3% |
+| range_buy | prob | 4145 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4145 | 0.0959 | 0.1806 | 0.2736 | 0.3788 | 0.8194 |  |
+| range_sell | raw | 4145 | 0.0804 | 0.1568 | 0.2246 | 0.299 | 0.6216 | 10.0% |
+| range_sell | prob | 4145 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4145 | 0.0925 | 0.1804 | 0.2583 | 0.3438 | 0.7149 |  |
+| mean_reversion_buy | raw | 4145 | 0.0518 | 0.0856 | 0.1552 | 0.2609 | 0.6027 | 13.0% |
+| mean_reversion_buy | prob | 4145 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4145 | 0.044 | 0.0727 | 0.1319 | 0.2218 | 0.5123 |  |
+| mean_reversion_sell | raw | 4145 | 0.0439 | 0.0822 | 0.1475 | 0.2249 | 0.5764 | 16.4% |
+| mean_reversion_sell | prob | 4145 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4145 | 0.0373 | 0.0699 | 0.1254 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 918 | 0.1294 | 0.2793 | 0.4175 | 0.5581 | 0.8129 | 19.4% |
+| counter_trend_buy | prob | 918 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 918 | 0.1229 | 0.2653 | 0.3967 | 0.5302 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 143 | 0.9236 | 0.9803 | 0.9961 | 0.9979 | 1.0 | 7.0% |
+| breakout_sell | prob | 143 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 143 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-28 16:40 (ทุก 1 นาทีเช็ค, records=32208)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4145 | 0.2843 | 0.3894 | 0.4961 | 0.6341 | 0.8372 | 0.0% |
+| trend_buy | prob | 4145 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4145 | 0.2417 | 0.331 | 0.4217 | 0.539 | 0.7117 |  |
+| trend_sell | raw | 4145 | 0.2701 | 0.3635 | 0.642 | 0.8284 | 0.9595 | 0.0% |
+| trend_sell | prob | 4145 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4145 | 0.2296 | 0.309 | 0.5457 | 0.7041 | 0.8156 |  |
+| range_buy | raw | 4145 | 0.0834 | 0.157 | 0.2379 | 0.3294 | 0.7125 | 10.3% |
+| range_buy | prob | 4145 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4145 | 0.0959 | 0.1806 | 0.2736 | 0.3788 | 0.8194 |  |
+| range_sell | raw | 4145 | 0.0804 | 0.1568 | 0.2246 | 0.299 | 0.6216 | 10.0% |
+| range_sell | prob | 4145 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4145 | 0.0925 | 0.1804 | 0.2583 | 0.3438 | 0.7149 |  |
+| mean_reversion_buy | raw | 4145 | 0.0518 | 0.0856 | 0.1552 | 0.2609 | 0.6027 | 13.0% |
+| mean_reversion_buy | prob | 4145 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4145 | 0.044 | 0.0727 | 0.1319 | 0.2218 | 0.5123 |  |
+| mean_reversion_sell | raw | 4145 | 0.0439 | 0.0822 | 0.1475 | 0.2249 | 0.5764 | 16.4% |
+| mean_reversion_sell | prob | 4145 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4145 | 0.0373 | 0.0699 | 0.1254 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 918 | 0.1294 | 0.2793 | 0.4175 | 0.5581 | 0.8129 | 19.4% |
+| counter_trend_buy | prob | 918 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 918 | 0.1229 | 0.2653 | 0.3967 | 0.5302 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 143 | 0.9236 | 0.9803 | 0.9961 | 0.9979 | 1.0 | 7.0% |
+| breakout_sell | prob | 143 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 143 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-28 16:52 (ทุก 1 นาทีเช็ค, records=32237)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4145 | 0.2843 | 0.3894 | 0.4961 | 0.6341 | 0.8372 | 0.0% |
+| trend_buy | prob | 4145 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4145 | 0.2417 | 0.331 | 0.4217 | 0.539 | 0.7117 |  |
+| trend_sell | raw | 4145 | 0.2701 | 0.3635 | 0.642 | 0.8284 | 0.9595 | 0.0% |
+| trend_sell | prob | 4145 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4145 | 0.2296 | 0.309 | 0.5457 | 0.7041 | 0.8156 |  |
+| range_buy | raw | 4145 | 0.0834 | 0.157 | 0.2379 | 0.3294 | 0.7125 | 10.3% |
+| range_buy | prob | 4145 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4145 | 0.0959 | 0.1806 | 0.2736 | 0.3788 | 0.8194 |  |
+| range_sell | raw | 4145 | 0.0804 | 0.1568 | 0.2246 | 0.299 | 0.6216 | 10.0% |
+| range_sell | prob | 4145 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4145 | 0.0925 | 0.1804 | 0.2583 | 0.3438 | 0.7149 |  |
+| mean_reversion_buy | raw | 4145 | 0.0518 | 0.0856 | 0.1552 | 0.2609 | 0.6027 | 13.0% |
+| mean_reversion_buy | prob | 4145 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4145 | 0.044 | 0.0727 | 0.1319 | 0.2218 | 0.5123 |  |
+| mean_reversion_sell | raw | 4145 | 0.0439 | 0.0822 | 0.1475 | 0.2249 | 0.5764 | 16.4% |
+| mean_reversion_sell | prob | 4145 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4145 | 0.0373 | 0.0699 | 0.1254 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 918 | 0.1294 | 0.2793 | 0.4175 | 0.5581 | 0.8129 | 19.4% |
+| counter_trend_buy | prob | 918 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 918 | 0.1229 | 0.2653 | 0.3967 | 0.5302 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 143 | 0.9236 | 0.9803 | 0.9961 | 0.9979 | 1.0 | 7.0% |
+| breakout_sell | prob | 143 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 143 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-28 17:20 (ทุก 1 นาทีเช็ค, records=32337)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4146 | 0.2843 | 0.3894 | 0.4961 | 0.6341 | 0.8372 | 0.0% |
+| trend_buy | prob | 4146 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4146 | 0.2417 | 0.331 | 0.4217 | 0.539 | 0.7117 |  |
+| trend_sell | raw | 4146 | 0.2701 | 0.3635 | 0.642 | 0.8284 | 0.9595 | 0.0% |
+| trend_sell | prob | 4146 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4146 | 0.2296 | 0.309 | 0.5457 | 0.7041 | 0.8156 |  |
+| range_buy | raw | 4146 | 0.0834 | 0.1566 | 0.2379 | 0.3294 | 0.7125 | 10.3% |
+| range_buy | prob | 4146 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4146 | 0.0959 | 0.1801 | 0.2736 | 0.3788 | 0.8194 |  |
+| range_sell | raw | 4146 | 0.0804 | 0.1568 | 0.2246 | 0.299 | 0.6216 | 10.0% |
+| range_sell | prob | 4146 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4146 | 0.0925 | 0.1804 | 0.2583 | 0.3438 | 0.7149 |  |
+| mean_reversion_buy | raw | 4146 | 0.0514 | 0.0856 | 0.1552 | 0.2609 | 0.6027 | 13.0% |
+| mean_reversion_buy | prob | 4146 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4146 | 0.0437 | 0.0727 | 0.1319 | 0.2218 | 0.5123 |  |
+| mean_reversion_sell | raw | 4146 | 0.0439 | 0.0822 | 0.1475 | 0.2249 | 0.5764 | 16.4% |
+| mean_reversion_sell | prob | 4146 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4146 | 0.0373 | 0.0699 | 0.1254 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 918 | 0.1294 | 0.2793 | 0.4175 | 0.5581 | 0.8129 | 19.4% |
+| counter_trend_buy | prob | 918 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 918 | 0.1229 | 0.2653 | 0.3967 | 0.5302 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 143 | 0.9236 | 0.9803 | 0.9961 | 0.9979 | 1.0 | 7.0% |
+| breakout_sell | prob | 143 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 143 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-28 17:34 (ทุก 1 นาทีเช็ค, records=32442)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4146 | 0.2843 | 0.3894 | 0.4961 | 0.6341 | 0.8372 | 0.0% |
+| trend_buy | prob | 4146 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4146 | 0.2417 | 0.331 | 0.4217 | 0.539 | 0.7117 |  |
+| trend_sell | raw | 4146 | 0.2701 | 0.3635 | 0.642 | 0.8284 | 0.9595 | 0.0% |
+| trend_sell | prob | 4146 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4146 | 0.2296 | 0.309 | 0.5457 | 0.7041 | 0.8156 |  |
+| range_buy | raw | 4146 | 0.0834 | 0.1566 | 0.2379 | 0.3294 | 0.7125 | 10.3% |
+| range_buy | prob | 4146 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4146 | 0.0959 | 0.1801 | 0.2736 | 0.3788 | 0.8194 |  |
+| range_sell | raw | 4146 | 0.0804 | 0.1568 | 0.2246 | 0.299 | 0.6216 | 10.0% |
+| range_sell | prob | 4146 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4146 | 0.0925 | 0.1804 | 0.2583 | 0.3438 | 0.7149 |  |
+| mean_reversion_buy | raw | 4146 | 0.0514 | 0.0856 | 0.1552 | 0.2609 | 0.6027 | 13.0% |
+| mean_reversion_buy | prob | 4146 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4146 | 0.0437 | 0.0727 | 0.1319 | 0.2218 | 0.5123 |  |
+| mean_reversion_sell | raw | 4146 | 0.0439 | 0.0822 | 0.1475 | 0.2249 | 0.5764 | 16.4% |
+| mean_reversion_sell | prob | 4146 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4146 | 0.0373 | 0.0699 | 0.1254 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 918 | 0.1294 | 0.2793 | 0.4175 | 0.5581 | 0.8129 | 19.4% |
+| counter_trend_buy | prob | 918 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 918 | 0.1229 | 0.2653 | 0.3967 | 0.5302 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 143 | 0.9236 | 0.9803 | 0.9961 | 0.9979 | 1.0 | 7.0% |
+| breakout_sell | prob | 143 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 143 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-28 17:47 (ทุก 1 นาทีเช็ค, records=32558)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4146 | 0.2843 | 0.3894 | 0.4961 | 0.6341 | 0.8372 | 0.0% |
+| trend_buy | prob | 4146 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4146 | 0.2417 | 0.331 | 0.4217 | 0.539 | 0.7117 |  |
+| trend_sell | raw | 4146 | 0.2701 | 0.3635 | 0.642 | 0.8284 | 0.9595 | 0.0% |
+| trend_sell | prob | 4146 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4146 | 0.2296 | 0.309 | 0.5457 | 0.7041 | 0.8156 |  |
+| range_buy | raw | 4146 | 0.0834 | 0.1566 | 0.2379 | 0.3294 | 0.7125 | 10.3% |
+| range_buy | prob | 4146 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4146 | 0.0959 | 0.1801 | 0.2736 | 0.3788 | 0.8194 |  |
+| range_sell | raw | 4146 | 0.0804 | 0.1568 | 0.2246 | 0.299 | 0.6216 | 10.0% |
+| range_sell | prob | 4146 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4146 | 0.0925 | 0.1804 | 0.2583 | 0.3438 | 0.7149 |  |
+| mean_reversion_buy | raw | 4146 | 0.0514 | 0.0856 | 0.1552 | 0.2609 | 0.6027 | 13.0% |
+| mean_reversion_buy | prob | 4146 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4146 | 0.0437 | 0.0727 | 0.1319 | 0.2218 | 0.5123 |  |
+| mean_reversion_sell | raw | 4146 | 0.0439 | 0.0822 | 0.1475 | 0.2249 | 0.5764 | 16.4% |
+| mean_reversion_sell | prob | 4146 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4146 | 0.0373 | 0.0699 | 0.1254 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 918 | 0.1294 | 0.2793 | 0.4175 | 0.5581 | 0.8129 | 19.4% |
+| counter_trend_buy | prob | 918 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 918 | 0.1229 | 0.2653 | 0.3967 | 0.5302 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 143 | 0.9236 | 0.9803 | 0.9961 | 0.9979 | 1.0 | 7.0% |
+| breakout_sell | prob | 143 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 143 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-28 18:01 (ทุก 1 นาทีเช็ค, records=32664)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4147 | 0.2843 | 0.3894 | 0.4961 | 0.6341 | 0.8372 | 0.0% |
+| trend_buy | prob | 4147 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4147 | 0.2417 | 0.331 | 0.4217 | 0.539 | 0.7117 |  |
+| trend_sell | raw | 4147 | 0.2701 | 0.3635 | 0.642 | 0.8284 | 0.9595 | 0.0% |
+| trend_sell | prob | 4147 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4147 | 0.2296 | 0.309 | 0.5457 | 0.7041 | 0.8156 |  |
+| range_buy | raw | 4147 | 0.0834 | 0.157 | 0.2379 | 0.3294 | 0.7125 | 10.2% |
+| range_buy | prob | 4147 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4147 | 0.0959 | 0.1806 | 0.2736 | 0.3788 | 0.8194 |  |
+| range_sell | raw | 4147 | 0.0804 | 0.1568 | 0.2246 | 0.3005 | 0.6216 | 10.0% |
+| range_sell | prob | 4147 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4147 | 0.0925 | 0.1804 | 0.2583 | 0.3455 | 0.7149 |  |
+| mean_reversion_buy | raw | 4147 | 0.0514 | 0.0856 | 0.1552 | 0.2609 | 0.6027 | 13.0% |
+| mean_reversion_buy | prob | 4147 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4147 | 0.0437 | 0.0727 | 0.1319 | 0.2218 | 0.5123 |  |
+| mean_reversion_sell | raw | 4147 | 0.0439 | 0.0822 | 0.1475 | 0.2249 | 0.5764 | 16.4% |
+| mean_reversion_sell | prob | 4147 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4147 | 0.0373 | 0.0699 | 0.1254 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 918 | 0.1294 | 0.2793 | 0.4175 | 0.5581 | 0.8129 | 19.4% |
+| counter_trend_buy | prob | 918 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 918 | 0.1229 | 0.2653 | 0.3967 | 0.5302 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 143 | 0.9236 | 0.9803 | 0.9961 | 0.9979 | 1.0 | 7.0% |
+| breakout_sell | prob | 143 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 143 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-28 18:13 (ทุก 1 นาทีเช็ค, records=32749)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4147 | 0.2843 | 0.3894 | 0.4961 | 0.6341 | 0.8372 | 0.0% |
+| trend_buy | prob | 4147 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4147 | 0.2417 | 0.331 | 0.4217 | 0.539 | 0.7117 |  |
+| trend_sell | raw | 4147 | 0.2701 | 0.3635 | 0.642 | 0.8284 | 0.9595 | 0.0% |
+| trend_sell | prob | 4147 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4147 | 0.2296 | 0.309 | 0.5457 | 0.7041 | 0.8156 |  |
+| range_buy | raw | 4147 | 0.0834 | 0.157 | 0.2379 | 0.3294 | 0.7125 | 10.2% |
+| range_buy | prob | 4147 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4147 | 0.0959 | 0.1806 | 0.2736 | 0.3788 | 0.8194 |  |
+| range_sell | raw | 4147 | 0.0804 | 0.1568 | 0.2246 | 0.3005 | 0.6216 | 10.0% |
+| range_sell | prob | 4147 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4147 | 0.0925 | 0.1804 | 0.2583 | 0.3455 | 0.7149 |  |
+| mean_reversion_buy | raw | 4147 | 0.0514 | 0.0856 | 0.1552 | 0.2609 | 0.6027 | 13.0% |
+| mean_reversion_buy | prob | 4147 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4147 | 0.0437 | 0.0727 | 0.1319 | 0.2218 | 0.5123 |  |
+| mean_reversion_sell | raw | 4147 | 0.0439 | 0.0822 | 0.1475 | 0.2249 | 0.5764 | 16.4% |
+| mean_reversion_sell | prob | 4147 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4147 | 0.0373 | 0.0699 | 0.1254 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 918 | 0.1294 | 0.2793 | 0.4175 | 0.5581 | 0.8129 | 19.4% |
+| counter_trend_buy | prob | 918 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 918 | 0.1229 | 0.2653 | 0.3967 | 0.5302 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 143 | 0.9236 | 0.9803 | 0.9961 | 0.9979 | 1.0 | 7.0% |
+| breakout_sell | prob | 143 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 143 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-28 18:25 (ทุก 1 นาทีเช็ค, records=32762)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4149 | 0.2849 | 0.3894 | 0.4961 | 0.6341 | 0.8372 | 0.0% |
+| trend_buy | prob | 4149 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4149 | 0.2422 | 0.331 | 0.4217 | 0.539 | 0.7117 |  |
+| trend_sell | raw | 4149 | 0.2701 | 0.3635 | 0.6439 | 0.8287 | 0.9634 | 0.0% |
+| trend_sell | prob | 4149 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4149 | 0.2296 | 0.309 | 0.5473 | 0.7044 | 0.8189 |  |
+| range_buy | raw | 4149 | 0.0834 | 0.1573 | 0.2379 | 0.3294 | 0.7125 | 10.3% |
+| range_buy | prob | 4149 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4149 | 0.0959 | 0.1808 | 0.2736 | 0.3788 | 0.8194 |  |
+| range_sell | raw | 4149 | 0.0804 | 0.1568 | 0.2246 | 0.3005 | 0.6216 | 10.0% |
+| range_sell | prob | 4149 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4149 | 0.0925 | 0.1804 | 0.2583 | 0.3455 | 0.7149 |  |
+| mean_reversion_buy | raw | 4149 | 0.0518 | 0.0856 | 0.1552 | 0.2609 | 0.6027 | 13.0% |
+| mean_reversion_buy | prob | 4149 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4149 | 0.044 | 0.0727 | 0.1319 | 0.2218 | 0.5123 |  |
+| mean_reversion_sell | raw | 4149 | 0.0439 | 0.0822 | 0.1475 | 0.2249 | 0.5764 | 16.4% |
+| mean_reversion_sell | prob | 4149 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4149 | 0.0373 | 0.0699 | 0.1254 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 920 | 0.1294 | 0.2793 | 0.4175 | 0.5581 | 0.8129 | 19.5% |
+| counter_trend_buy | prob | 920 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 920 | 0.1229 | 0.2653 | 0.3967 | 0.5302 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 143 | 0.9236 | 0.9803 | 0.9961 | 0.9979 | 1.0 | 7.0% |
+| breakout_sell | prob | 143 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 143 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-28 18:37 (ทุก 1 นาทีเช็ค, records=32828)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4154 | 0.2849 | 0.3896 | 0.4961 | 0.6311 | 0.8372 | 0.0% |
+| trend_buy | prob | 4154 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4154 | 0.2422 | 0.3312 | 0.4217 | 0.5364 | 0.7117 |  |
+| trend_sell | raw | 4154 | 0.2704 | 0.3642 | 0.6439 | 0.8287 | 0.9634 | 0.0% |
+| trend_sell | prob | 4154 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4154 | 0.2298 | 0.3096 | 0.5473 | 0.7044 | 0.8189 |  |
+| range_buy | raw | 4154 | 0.0835 | 0.1573 | 0.2379 | 0.3294 | 0.7125 | 10.3% |
+| range_buy | prob | 4154 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4154 | 0.096 | 0.1808 | 0.2736 | 0.3788 | 0.8194 |  |
+| range_sell | raw | 4154 | 0.0804 | 0.1577 | 0.2246 | 0.3005 | 0.6216 | 10.0% |
+| range_sell | prob | 4154 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4154 | 0.0925 | 0.1813 | 0.2583 | 0.3455 | 0.7149 |  |
+| mean_reversion_buy | raw | 4154 | 0.0518 | 0.0859 | 0.1552 | 0.2609 | 0.6027 | 13.1% |
+| mean_reversion_buy | prob | 4154 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4154 | 0.044 | 0.073 | 0.1319 | 0.2218 | 0.5123 |  |
+| mean_reversion_sell | raw | 4154 | 0.0442 | 0.0822 | 0.1473 | 0.2249 | 0.5764 | 16.4% |
+| mean_reversion_sell | prob | 4154 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4154 | 0.0376 | 0.0699 | 0.1252 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 924 | 0.1294 | 0.2793 | 0.4175 | 0.5564 | 0.8129 | 19.4% |
+| counter_trend_buy | prob | 924 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 924 | 0.1229 | 0.2653 | 0.3967 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 143 | 0.9236 | 0.9803 | 0.9961 | 0.9979 | 1.0 | 7.0% |
+| breakout_sell | prob | 143 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 143 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-28 18:48 (ทุก 1 นาทีเช็ค, records=32880)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4154 | 0.2849 | 0.3896 | 0.4961 | 0.6311 | 0.8372 | 0.0% |
+| trend_buy | prob | 4154 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4154 | 0.2422 | 0.3312 | 0.4217 | 0.5364 | 0.7117 |  |
+| trend_sell | raw | 4154 | 0.2704 | 0.3642 | 0.6439 | 0.8287 | 0.9634 | 0.0% |
+| trend_sell | prob | 4154 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4154 | 0.2298 | 0.3096 | 0.5473 | 0.7044 | 0.8189 |  |
+| range_buy | raw | 4154 | 0.0835 | 0.1573 | 0.2379 | 0.3294 | 0.7125 | 10.3% |
+| range_buy | prob | 4154 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4154 | 0.096 | 0.1808 | 0.2736 | 0.3788 | 0.8194 |  |
+| range_sell | raw | 4154 | 0.0804 | 0.1577 | 0.2246 | 0.3005 | 0.6216 | 10.0% |
+| range_sell | prob | 4154 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4154 | 0.0925 | 0.1813 | 0.2583 | 0.3455 | 0.7149 |  |
+| mean_reversion_buy | raw | 4154 | 0.0518 | 0.0859 | 0.1552 | 0.2609 | 0.6027 | 13.1% |
+| mean_reversion_buy | prob | 4154 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4154 | 0.044 | 0.073 | 0.1319 | 0.2218 | 0.5123 |  |
+| mean_reversion_sell | raw | 4154 | 0.0442 | 0.0822 | 0.1473 | 0.2249 | 0.5764 | 16.4% |
+| mean_reversion_sell | prob | 4154 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4154 | 0.0376 | 0.0699 | 0.1252 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 924 | 0.1294 | 0.2793 | 0.4175 | 0.5564 | 0.8129 | 19.4% |
+| counter_trend_buy | prob | 924 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 924 | 0.1229 | 0.2653 | 0.3967 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 143 | 0.9236 | 0.9803 | 0.9961 | 0.9979 | 1.0 | 7.0% |
+| breakout_sell | prob | 143 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 143 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-28 18:59 (ทุก 1 นาทีเช็ค, records=32938)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4154 | 0.2849 | 0.3896 | 0.4961 | 0.6311 | 0.8372 | 0.0% |
+| trend_buy | prob | 4154 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4154 | 0.2422 | 0.3312 | 0.4217 | 0.5364 | 0.7117 |  |
+| trend_sell | raw | 4154 | 0.2704 | 0.3642 | 0.6439 | 0.8287 | 0.9634 | 0.0% |
+| trend_sell | prob | 4154 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4154 | 0.2298 | 0.3096 | 0.5473 | 0.7044 | 0.8189 |  |
+| range_buy | raw | 4154 | 0.0835 | 0.1573 | 0.2379 | 0.3294 | 0.7125 | 10.3% |
+| range_buy | prob | 4154 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4154 | 0.096 | 0.1808 | 0.2736 | 0.3788 | 0.8194 |  |
+| range_sell | raw | 4154 | 0.0804 | 0.1577 | 0.2246 | 0.3005 | 0.6216 | 10.0% |
+| range_sell | prob | 4154 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4154 | 0.0925 | 0.1813 | 0.2583 | 0.3455 | 0.7149 |  |
+| mean_reversion_buy | raw | 4154 | 0.0518 | 0.0859 | 0.1552 | 0.2609 | 0.6027 | 13.1% |
+| mean_reversion_buy | prob | 4154 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4154 | 0.044 | 0.073 | 0.1319 | 0.2218 | 0.5123 |  |
+| mean_reversion_sell | raw | 4154 | 0.0442 | 0.0822 | 0.1473 | 0.2249 | 0.5764 | 16.4% |
+| mean_reversion_sell | prob | 4154 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4154 | 0.0376 | 0.0699 | 0.1252 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 924 | 0.1294 | 0.2793 | 0.4175 | 0.5564 | 0.8129 | 19.4% |
+| counter_trend_buy | prob | 924 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 924 | 0.1229 | 0.2653 | 0.3967 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 143 | 0.9236 | 0.9803 | 0.9961 | 0.9979 | 1.0 | 7.0% |
+| breakout_sell | prob | 143 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 143 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-28 19:10 (ทุก 1 นาทีเช็ค, records=32996)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4160 | 0.2849 | 0.3896 | 0.4966 | 0.6311 | 0.8372 | 0.0% |
+| trend_buy | prob | 4160 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4160 | 0.2422 | 0.3312 | 0.4221 | 0.5364 | 0.7117 |  |
+| trend_sell | raw | 4160 | 0.2704 | 0.3643 | 0.6448 | 0.8296 | 0.9655 | 0.0% |
+| trend_sell | prob | 4160 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4160 | 0.2298 | 0.3097 | 0.5481 | 0.7052 | 0.8207 |  |
+| range_buy | raw | 4160 | 0.0835 | 0.1578 | 0.2384 | 0.3296 | 0.7125 | 10.2% |
+| range_buy | prob | 4160 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4160 | 0.096 | 0.1814 | 0.2742 | 0.3791 | 0.8194 |  |
+| range_sell | raw | 4160 | 0.0804 | 0.1568 | 0.2246 | 0.3005 | 0.6216 | 10.0% |
+| range_sell | prob | 4160 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4160 | 0.0925 | 0.1804 | 0.2583 | 0.3455 | 0.7149 |  |
+| mean_reversion_buy | raw | 4160 | 0.0518 | 0.086 | 0.1559 | 0.2616 | 0.6027 | 13.1% |
+| mean_reversion_buy | prob | 4160 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4160 | 0.044 | 0.0731 | 0.1325 | 0.2224 | 0.5123 |  |
+| mean_reversion_sell | raw | 4160 | 0.0442 | 0.0824 | 0.1473 | 0.2249 | 0.5764 | 16.4% |
+| mean_reversion_sell | prob | 4160 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4160 | 0.0376 | 0.07 | 0.1252 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 929 | 0.1323 | 0.2793 | 0.4175 | 0.5564 | 0.8129 | 19.3% |
+| counter_trend_buy | prob | 929 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 929 | 0.1256 | 0.2653 | 0.3967 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 143 | 0.9236 | 0.9803 | 0.9961 | 0.9979 | 1.0 | 7.0% |
+| breakout_sell | prob | 143 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 143 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-28 19:21 (ทุก 1 นาทีเช็ค, records=33059)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4161 | 0.2849 | 0.3896 | 0.4966 | 0.6311 | 0.8372 | 0.0% |
+| trend_buy | prob | 4161 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4161 | 0.2422 | 0.3312 | 0.4221 | 0.5364 | 0.7117 |  |
+| trend_sell | raw | 4161 | 0.2704 | 0.3643 | 0.6448 | 0.8296 | 0.9655 | 0.0% |
+| trend_sell | prob | 4161 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4161 | 0.2298 | 0.3097 | 0.5481 | 0.7052 | 0.8207 |  |
+| range_buy | raw | 4161 | 0.0835 | 0.1578 | 0.2384 | 0.3296 | 0.7125 | 10.2% |
+| range_buy | prob | 4161 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4161 | 0.096 | 0.1814 | 0.2742 | 0.3791 | 0.8194 |  |
+| range_sell | raw | 4161 | 0.0804 | 0.1577 | 0.2246 | 0.3005 | 0.6216 | 10.0% |
+| range_sell | prob | 4161 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4161 | 0.0925 | 0.1813 | 0.2583 | 0.3455 | 0.7149 |  |
+| mean_reversion_buy | raw | 4161 | 0.0518 | 0.086 | 0.1559 | 0.2616 | 0.6027 | 13.1% |
+| mean_reversion_buy | prob | 4161 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4161 | 0.044 | 0.0731 | 0.1325 | 0.2224 | 0.5123 |  |
+| mean_reversion_sell | raw | 4161 | 0.0442 | 0.0825 | 0.1475 | 0.2249 | 0.5764 | 16.4% |
+| mean_reversion_sell | prob | 4161 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4161 | 0.0376 | 0.0701 | 0.1254 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 929 | 0.1323 | 0.2793 | 0.4175 | 0.5564 | 0.8129 | 19.3% |
+| counter_trend_buy | prob | 929 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 929 | 0.1256 | 0.2653 | 0.3967 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 143 | 0.9236 | 0.9803 | 0.9961 | 0.9979 | 1.0 | 7.0% |
+| breakout_sell | prob | 143 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 143 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-28 19:33 (ทุก 1 นาทีเช็ค, records=33128)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4163 | 0.2849 | 0.3897 | 0.4966 | 0.6297 | 0.8372 | 0.0% |
+| trend_buy | prob | 4163 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4163 | 0.2422 | 0.3312 | 0.4221 | 0.5352 | 0.7117 |  |
+| trend_sell | raw | 4163 | 0.2704 | 0.3643 | 0.6448 | 0.8296 | 0.9655 | 0.0% |
+| trend_sell | prob | 4163 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4163 | 0.2298 | 0.3097 | 0.5481 | 0.7052 | 0.8207 |  |
+| range_buy | raw | 4163 | 0.0835 | 0.1578 | 0.2381 | 0.3296 | 0.7125 | 10.2% |
+| range_buy | prob | 4163 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4163 | 0.096 | 0.1814 | 0.2738 | 0.3791 | 0.8194 |  |
+| range_sell | raw | 4163 | 0.0804 | 0.1577 | 0.2246 | 0.3005 | 0.6216 | 10.0% |
+| range_sell | prob | 4163 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4163 | 0.0925 | 0.1813 | 0.2583 | 0.3455 | 0.7149 |  |
+| mean_reversion_buy | raw | 4163 | 0.0518 | 0.086 | 0.1559 | 0.2616 | 0.6027 | 13.1% |
+| mean_reversion_buy | prob | 4163 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4163 | 0.044 | 0.0731 | 0.1325 | 0.2224 | 0.5123 |  |
+| mean_reversion_sell | raw | 4163 | 0.0442 | 0.0825 | 0.1475 | 0.2249 | 0.5764 | 16.4% |
+| mean_reversion_sell | prob | 4163 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4163 | 0.0376 | 0.0701 | 0.1254 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 930 | 0.1294 | 0.2793 | 0.4173 | 0.5564 | 0.8129 | 19.2% |
+| counter_trend_buy | prob | 930 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 930 | 0.1229 | 0.2653 | 0.3965 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 143 | 0.9236 | 0.9803 | 0.9961 | 0.9979 | 1.0 | 7.0% |
+| breakout_sell | prob | 143 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 143 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-28 19:44 (ทุก 1 นาทีเช็ค, records=33186)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4163 | 0.2849 | 0.3897 | 0.4966 | 0.6297 | 0.8372 | 0.0% |
+| trend_buy | prob | 4163 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4163 | 0.2422 | 0.3312 | 0.4221 | 0.5352 | 0.7117 |  |
+| trend_sell | raw | 4163 | 0.2704 | 0.3643 | 0.6448 | 0.8296 | 0.9655 | 0.0% |
+| trend_sell | prob | 4163 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4163 | 0.2298 | 0.3097 | 0.5481 | 0.7052 | 0.8207 |  |
+| range_buy | raw | 4163 | 0.0835 | 0.1578 | 0.2381 | 0.3296 | 0.7125 | 10.2% |
+| range_buy | prob | 4163 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4163 | 0.096 | 0.1814 | 0.2738 | 0.3791 | 0.8194 |  |
+| range_sell | raw | 4163 | 0.0804 | 0.1577 | 0.2246 | 0.3005 | 0.6216 | 10.0% |
+| range_sell | prob | 4163 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4163 | 0.0925 | 0.1813 | 0.2583 | 0.3455 | 0.7149 |  |
+| mean_reversion_buy | raw | 4163 | 0.0518 | 0.086 | 0.1559 | 0.2616 | 0.6027 | 13.1% |
+| mean_reversion_buy | prob | 4163 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4163 | 0.044 | 0.0731 | 0.1325 | 0.2224 | 0.5123 |  |
+| mean_reversion_sell | raw | 4163 | 0.0442 | 0.0825 | 0.1475 | 0.2249 | 0.5764 | 16.4% |
+| mean_reversion_sell | prob | 4163 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4163 | 0.0376 | 0.0701 | 0.1254 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 930 | 0.1294 | 0.2793 | 0.4173 | 0.5564 | 0.8129 | 19.2% |
+| counter_trend_buy | prob | 930 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 930 | 0.1229 | 0.2653 | 0.3965 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 143 | 0.9236 | 0.9803 | 0.9961 | 0.9979 | 1.0 | 7.0% |
+| breakout_sell | prob | 143 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 143 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-28 19:55 (ทุก 1 นาทีเช็ค, records=33243)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4163 | 0.2849 | 0.3897 | 0.4966 | 0.6297 | 0.8372 | 0.0% |
+| trend_buy | prob | 4163 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4163 | 0.2422 | 0.3312 | 0.4221 | 0.5352 | 0.7117 |  |
+| trend_sell | raw | 4163 | 0.2704 | 0.3643 | 0.6448 | 0.8296 | 0.9655 | 0.0% |
+| trend_sell | prob | 4163 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4163 | 0.2298 | 0.3097 | 0.5481 | 0.7052 | 0.8207 |  |
+| range_buy | raw | 4163 | 0.0835 | 0.1578 | 0.2381 | 0.3296 | 0.7125 | 10.2% |
+| range_buy | prob | 4163 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4163 | 0.096 | 0.1814 | 0.2738 | 0.3791 | 0.8194 |  |
+| range_sell | raw | 4163 | 0.0804 | 0.1577 | 0.2246 | 0.3005 | 0.6216 | 10.0% |
+| range_sell | prob | 4163 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4163 | 0.0925 | 0.1813 | 0.2583 | 0.3455 | 0.7149 |  |
+| mean_reversion_buy | raw | 4163 | 0.0518 | 0.086 | 0.1559 | 0.2616 | 0.6027 | 13.1% |
+| mean_reversion_buy | prob | 4163 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4163 | 0.044 | 0.0731 | 0.1325 | 0.2224 | 0.5123 |  |
+| mean_reversion_sell | raw | 4163 | 0.0442 | 0.0825 | 0.1475 | 0.2249 | 0.5764 | 16.4% |
+| mean_reversion_sell | prob | 4163 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4163 | 0.0376 | 0.0701 | 0.1254 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 930 | 0.1294 | 0.2793 | 0.4173 | 0.5564 | 0.8129 | 19.2% |
+| counter_trend_buy | prob | 930 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 930 | 0.1229 | 0.2653 | 0.3965 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 143 | 0.9236 | 0.9803 | 0.9961 | 0.9979 | 1.0 | 7.0% |
+| breakout_sell | prob | 143 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 143 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-28 20:06 (ทุก 1 นาทีเช็ค, records=33297)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4163 | 0.2849 | 0.3897 | 0.4966 | 0.6297 | 0.8372 | 0.0% |
+| trend_buy | prob | 4163 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4163 | 0.2422 | 0.3312 | 0.4221 | 0.5352 | 0.7117 |  |
+| trend_sell | raw | 4163 | 0.2704 | 0.3643 | 0.6448 | 0.8296 | 0.9655 | 0.0% |
+| trend_sell | prob | 4163 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4163 | 0.2298 | 0.3097 | 0.5481 | 0.7052 | 0.8207 |  |
+| range_buy | raw | 4163 | 0.0835 | 0.1578 | 0.2381 | 0.3296 | 0.7125 | 10.2% |
+| range_buy | prob | 4163 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4163 | 0.096 | 0.1814 | 0.2738 | 0.3791 | 0.8194 |  |
+| range_sell | raw | 4163 | 0.0804 | 0.1577 | 0.2246 | 0.3005 | 0.6216 | 10.0% |
+| range_sell | prob | 4163 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4163 | 0.0925 | 0.1813 | 0.2583 | 0.3455 | 0.7149 |  |
+| mean_reversion_buy | raw | 4163 | 0.0518 | 0.086 | 0.1559 | 0.2616 | 0.6027 | 13.1% |
+| mean_reversion_buy | prob | 4163 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4163 | 0.044 | 0.0731 | 0.1325 | 0.2224 | 0.5123 |  |
+| mean_reversion_sell | raw | 4163 | 0.0442 | 0.0825 | 0.1475 | 0.2249 | 0.5764 | 16.4% |
+| mean_reversion_sell | prob | 4163 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4163 | 0.0376 | 0.0701 | 0.1254 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 930 | 0.1294 | 0.2793 | 0.4173 | 0.5564 | 0.8129 | 19.2% |
+| counter_trend_buy | prob | 930 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 930 | 0.1229 | 0.2653 | 0.3965 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 143 | 0.9236 | 0.9803 | 0.9961 | 0.9979 | 1.0 | 7.0% |
+| breakout_sell | prob | 143 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 143 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-28 20:17 (ทุก 1 นาทีเช็ค, records=33355)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4163 | 0.2849 | 0.3897 | 0.4966 | 0.6297 | 0.8372 | 0.0% |
+| trend_buy | prob | 4163 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4163 | 0.2422 | 0.3312 | 0.4221 | 0.5352 | 0.7117 |  |
+| trend_sell | raw | 4163 | 0.2704 | 0.3643 | 0.6448 | 0.8296 | 0.9655 | 0.0% |
+| trend_sell | prob | 4163 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4163 | 0.2298 | 0.3097 | 0.5481 | 0.7052 | 0.8207 |  |
+| range_buy | raw | 4163 | 0.0835 | 0.1578 | 0.2381 | 0.3296 | 0.7125 | 10.2% |
+| range_buy | prob | 4163 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4163 | 0.096 | 0.1814 | 0.2738 | 0.3791 | 0.8194 |  |
+| range_sell | raw | 4163 | 0.0804 | 0.1577 | 0.2246 | 0.3005 | 0.6216 | 10.0% |
+| range_sell | prob | 4163 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4163 | 0.0925 | 0.1813 | 0.2583 | 0.3455 | 0.7149 |  |
+| mean_reversion_buy | raw | 4163 | 0.0518 | 0.086 | 0.1559 | 0.2616 | 0.6027 | 13.1% |
+| mean_reversion_buy | prob | 4163 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4163 | 0.044 | 0.0731 | 0.1325 | 0.2224 | 0.5123 |  |
+| mean_reversion_sell | raw | 4163 | 0.0442 | 0.0825 | 0.1475 | 0.2249 | 0.5764 | 16.4% |
+| mean_reversion_sell | prob | 4163 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4163 | 0.0376 | 0.0701 | 0.1254 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 930 | 0.1294 | 0.2793 | 0.4173 | 0.5564 | 0.8129 | 19.2% |
+| counter_trend_buy | prob | 930 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 930 | 0.1229 | 0.2653 | 0.3965 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 143 | 0.9236 | 0.9803 | 0.9961 | 0.9979 | 1.0 | 7.0% |
+| breakout_sell | prob | 143 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 143 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-28 20:29 (ทุก 1 นาทีเช็ค, records=33398)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4163 | 0.2849 | 0.3897 | 0.4966 | 0.6297 | 0.8372 | 0.0% |
+| trend_buy | prob | 4163 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4163 | 0.2422 | 0.3312 | 0.4221 | 0.5352 | 0.7117 |  |
+| trend_sell | raw | 4163 | 0.2704 | 0.3643 | 0.6448 | 0.8296 | 0.9655 | 0.0% |
+| trend_sell | prob | 4163 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4163 | 0.2298 | 0.3097 | 0.5481 | 0.7052 | 0.8207 |  |
+| range_buy | raw | 4163 | 0.0835 | 0.1578 | 0.2381 | 0.3296 | 0.7125 | 10.2% |
+| range_buy | prob | 4163 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4163 | 0.096 | 0.1814 | 0.2738 | 0.3791 | 0.8194 |  |
+| range_sell | raw | 4163 | 0.0804 | 0.1577 | 0.2246 | 0.3005 | 0.6216 | 10.0% |
+| range_sell | prob | 4163 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4163 | 0.0925 | 0.1813 | 0.2583 | 0.3455 | 0.7149 |  |
+| mean_reversion_buy | raw | 4163 | 0.0518 | 0.086 | 0.1559 | 0.2616 | 0.6027 | 13.1% |
+| mean_reversion_buy | prob | 4163 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4163 | 0.044 | 0.0731 | 0.1325 | 0.2224 | 0.5123 |  |
+| mean_reversion_sell | raw | 4163 | 0.0442 | 0.0825 | 0.1475 | 0.2249 | 0.5764 | 16.4% |
+| mean_reversion_sell | prob | 4163 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4163 | 0.0376 | 0.0701 | 0.1254 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 930 | 0.1294 | 0.2793 | 0.4173 | 0.5564 | 0.8129 | 19.2% |
+| counter_trend_buy | prob | 930 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 930 | 0.1229 | 0.2653 | 0.3965 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 143 | 0.9236 | 0.9803 | 0.9961 | 0.9979 | 1.0 | 7.0% |
+| breakout_sell | prob | 143 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 143 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-28 20:40 (ทุก 1 นาทีเช็ค, records=33400)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4163 | 0.2849 | 0.3897 | 0.4966 | 0.6297 | 0.8372 | 0.0% |
+| trend_buy | prob | 4163 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4163 | 0.2422 | 0.3312 | 0.4221 | 0.5352 | 0.7117 |  |
+| trend_sell | raw | 4163 | 0.2704 | 0.3643 | 0.6448 | 0.8296 | 0.9655 | 0.0% |
+| trend_sell | prob | 4163 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4163 | 0.2298 | 0.3097 | 0.5481 | 0.7052 | 0.8207 |  |
+| range_buy | raw | 4163 | 0.0835 | 0.1578 | 0.2381 | 0.3296 | 0.7125 | 10.2% |
+| range_buy | prob | 4163 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4163 | 0.096 | 0.1814 | 0.2738 | 0.3791 | 0.8194 |  |
+| range_sell | raw | 4163 | 0.0804 | 0.1577 | 0.2246 | 0.3005 | 0.6216 | 10.0% |
+| range_sell | prob | 4163 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4163 | 0.0925 | 0.1813 | 0.2583 | 0.3455 | 0.7149 |  |
+| mean_reversion_buy | raw | 4163 | 0.0518 | 0.086 | 0.1559 | 0.2616 | 0.6027 | 13.1% |
+| mean_reversion_buy | prob | 4163 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4163 | 0.044 | 0.0731 | 0.1325 | 0.2224 | 0.5123 |  |
+| mean_reversion_sell | raw | 4163 | 0.0442 | 0.0825 | 0.1475 | 0.2249 | 0.5764 | 16.4% |
+| mean_reversion_sell | prob | 4163 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4163 | 0.0376 | 0.0701 | 0.1254 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 930 | 0.1294 | 0.2793 | 0.4173 | 0.5564 | 0.8129 | 19.2% |
+| counter_trend_buy | prob | 930 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 930 | 0.1229 | 0.2653 | 0.3965 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 143 | 0.9236 | 0.9803 | 0.9961 | 0.9979 | 1.0 | 7.0% |
+| breakout_sell | prob | 143 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 143 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-28 20:51 (ทุก 1 นาทีเช็ค, records=33438)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4165 | 0.2849 | 0.3897 | 0.4966 | 0.6297 | 0.8372 | 0.0% |
+| trend_buy | prob | 4165 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4165 | 0.2422 | 0.3312 | 0.4221 | 0.5352 | 0.7117 |  |
+| trend_sell | raw | 4165 | 0.2704 | 0.3643 | 0.6448 | 0.8296 | 0.9655 | 0.0% |
+| trend_sell | prob | 4165 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4165 | 0.2298 | 0.3097 | 0.5481 | 0.7052 | 0.8207 |  |
+| range_buy | raw | 4165 | 0.0835 | 0.1578 | 0.2384 | 0.3296 | 0.7125 | 10.3% |
+| range_buy | prob | 4165 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4165 | 0.096 | 0.1814 | 0.2742 | 0.3791 | 0.8194 |  |
+| range_sell | raw | 4165 | 0.0804 | 0.1577 | 0.2246 | 0.3005 | 0.6216 | 10.0% |
+| range_sell | prob | 4165 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4165 | 0.0925 | 0.1813 | 0.2583 | 0.3455 | 0.7149 |  |
+| mean_reversion_buy | raw | 4165 | 0.0518 | 0.086 | 0.1559 | 0.2616 | 0.6027 | 13.1% |
+| mean_reversion_buy | prob | 4165 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4165 | 0.044 | 0.0731 | 0.1325 | 0.2224 | 0.5123 |  |
+| mean_reversion_sell | raw | 4165 | 0.0442 | 0.0825 | 0.1475 | 0.2249 | 0.5764 | 16.4% |
+| mean_reversion_sell | prob | 4165 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4165 | 0.0376 | 0.0701 | 0.1254 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 930 | 0.1294 | 0.2793 | 0.4173 | 0.5564 | 0.8129 | 19.2% |
+| counter_trend_buy | prob | 930 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 930 | 0.1229 | 0.2653 | 0.3965 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 143 | 0.9236 | 0.9803 | 0.9961 | 0.9979 | 1.0 | 7.0% |
+| breakout_sell | prob | 143 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 143 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-28 21:02 (ทุก 1 นาทีเช็ค, records=33497)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4165 | 0.2849 | 0.3897 | 0.4966 | 0.6297 | 0.8372 | 0.0% |
+| trend_buy | prob | 4165 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4165 | 0.2422 | 0.3312 | 0.4221 | 0.5352 | 0.7117 |  |
+| trend_sell | raw | 4165 | 0.2704 | 0.3643 | 0.6448 | 0.8296 | 0.9655 | 0.0% |
+| trend_sell | prob | 4165 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4165 | 0.2298 | 0.3097 | 0.5481 | 0.7052 | 0.8207 |  |
+| range_buy | raw | 4165 | 0.0835 | 0.1578 | 0.2384 | 0.3296 | 0.7125 | 10.3% |
+| range_buy | prob | 4165 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4165 | 0.096 | 0.1814 | 0.2742 | 0.3791 | 0.8194 |  |
+| range_sell | raw | 4165 | 0.0804 | 0.1577 | 0.2246 | 0.3005 | 0.6216 | 10.0% |
+| range_sell | prob | 4165 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4165 | 0.0925 | 0.1813 | 0.2583 | 0.3455 | 0.7149 |  |
+| mean_reversion_buy | raw | 4165 | 0.0518 | 0.086 | 0.1559 | 0.2616 | 0.6027 | 13.1% |
+| mean_reversion_buy | prob | 4165 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4165 | 0.044 | 0.0731 | 0.1325 | 0.2224 | 0.5123 |  |
+| mean_reversion_sell | raw | 4165 | 0.0442 | 0.0825 | 0.1475 | 0.2249 | 0.5764 | 16.4% |
+| mean_reversion_sell | prob | 4165 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4165 | 0.0376 | 0.0701 | 0.1254 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 930 | 0.1294 | 0.2793 | 0.4173 | 0.5564 | 0.8129 | 19.2% |
+| counter_trend_buy | prob | 930 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 930 | 0.1229 | 0.2653 | 0.3965 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 143 | 0.9236 | 0.9803 | 0.9961 | 0.9979 | 1.0 | 7.0% |
+| breakout_sell | prob | 143 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 143 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-28 21:13 (ทุก 1 นาทีเช็ค, records=33555)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4166 | 0.2849 | 0.3897 | 0.4966 | 0.6297 | 0.8372 | 0.0% |
+| trend_buy | prob | 4166 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4166 | 0.2422 | 0.3312 | 0.4221 | 0.5352 | 0.7117 |  |
+| trend_sell | raw | 4166 | 0.2704 | 0.3643 | 0.6448 | 0.8296 | 0.9655 | 0.0% |
+| trend_sell | prob | 4166 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4166 | 0.2298 | 0.3097 | 0.5481 | 0.7052 | 0.8207 |  |
+| range_buy | raw | 4166 | 0.0835 | 0.1578 | 0.2381 | 0.3296 | 0.7125 | 10.2% |
+| range_buy | prob | 4166 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4166 | 0.096 | 0.1814 | 0.2738 | 0.3791 | 0.8194 |  |
+| range_sell | raw | 4166 | 0.0804 | 0.1577 | 0.2246 | 0.3005 | 0.6216 | 10.1% |
+| range_sell | prob | 4166 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4166 | 0.0925 | 0.1813 | 0.2583 | 0.3455 | 0.7149 |  |
+| mean_reversion_buy | raw | 4166 | 0.0518 | 0.086 | 0.1559 | 0.2616 | 0.6027 | 13.1% |
+| mean_reversion_buy | prob | 4166 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4166 | 0.044 | 0.0731 | 0.1325 | 0.2224 | 0.5123 |  |
+| mean_reversion_sell | raw | 4166 | 0.0442 | 0.0825 | 0.1475 | 0.2249 | 0.5764 | 16.4% |
+| mean_reversion_sell | prob | 4166 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4166 | 0.0376 | 0.0701 | 0.1254 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 930 | 0.1294 | 0.2793 | 0.4173 | 0.5564 | 0.8129 | 19.2% |
+| counter_trend_buy | prob | 930 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 930 | 0.1229 | 0.2653 | 0.3965 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 143 | 0.9236 | 0.9803 | 0.9961 | 0.9979 | 1.0 | 7.0% |
+| breakout_sell | prob | 143 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 143 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-28 21:24 (ทุก 1 นาทีเช็ค, records=33615)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4172 | 0.285 | 0.391 | 0.4966 | 0.6297 | 0.8372 | 0.0% |
+| trend_buy | prob | 4172 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4172 | 0.2423 | 0.3324 | 0.4221 | 0.5352 | 0.7117 |  |
+| trend_sell | raw | 4172 | 0.2706 | 0.3649 | 0.6455 | 0.8348 | 0.9655 | 0.0% |
+| trend_sell | prob | 4172 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4172 | 0.2301 | 0.3101 | 0.5487 | 0.7096 | 0.8207 |  |
+| range_buy | raw | 4172 | 0.0835 | 0.1582 | 0.2387 | 0.3294 | 0.7125 | 10.2% |
+| range_buy | prob | 4172 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4172 | 0.096 | 0.1819 | 0.2745 | 0.3788 | 0.8194 |  |
+| range_sell | raw | 4172 | 0.0804 | 0.1568 | 0.2246 | 0.3005 | 0.6216 | 10.0% |
+| range_sell | prob | 4172 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4172 | 0.0925 | 0.1804 | 0.2583 | 0.3455 | 0.7149 |  |
+| mean_reversion_buy | raw | 4172 | 0.0519 | 0.086 | 0.1561 | 0.2616 | 0.6027 | 13.1% |
+| mean_reversion_buy | prob | 4172 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4172 | 0.0441 | 0.0731 | 0.1327 | 0.2224 | 0.5123 |  |
+| mean_reversion_sell | raw | 4172 | 0.0442 | 0.0823 | 0.1475 | 0.2249 | 0.5764 | 16.3% |
+| mean_reversion_sell | prob | 4172 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4172 | 0.0376 | 0.0699 | 0.1254 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 936 | 0.1323 | 0.2825 | 0.4175 | 0.5564 | 0.8129 | 19.3% |
+| counter_trend_buy | prob | 936 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 936 | 0.1256 | 0.2683 | 0.3967 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 143 | 0.9236 | 0.9803 | 0.9961 | 0.9979 | 1.0 | 7.0% |
+| breakout_sell | prob | 143 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 143 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-28 21:35 (ทุก 1 นาทีเช็ค, records=33661)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4183 | 0.285 | 0.3914 | 0.4969 | 0.6225 | 0.8372 | 0.0% |
+| trend_buy | prob | 4183 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4183 | 0.2423 | 0.3327 | 0.4224 | 0.5291 | 0.7117 |  |
+| trend_sell | raw | 4183 | 0.2706 | 0.3651 | 0.6482 | 0.8351 | 0.9735 | 0.0% |
+| trend_sell | prob | 4183 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4183 | 0.2301 | 0.3104 | 0.5509 | 0.7099 | 0.8275 |  |
+| range_buy | raw | 4183 | 0.0837 | 0.1585 | 0.2392 | 0.3294 | 0.7125 | 10.4% |
+| range_buy | prob | 4183 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4183 | 0.0963 | 0.1823 | 0.2751 | 0.3788 | 0.8194 |  |
+| range_sell | raw | 4183 | 0.0805 | 0.156 | 0.2246 | 0.299 | 0.6216 | 10.0% |
+| range_sell | prob | 4183 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4183 | 0.0926 | 0.1794 | 0.2583 | 0.3438 | 0.7149 |  |
+| mean_reversion_buy | raw | 4183 | 0.0521 | 0.0865 | 0.1569 | 0.2616 | 0.6027 | 13.3% |
+| mean_reversion_buy | prob | 4183 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4183 | 0.0442 | 0.0735 | 0.1333 | 0.2224 | 0.5123 |  |
+| mean_reversion_sell | raw | 4183 | 0.0442 | 0.0822 | 0.1473 | 0.2249 | 0.5764 | 16.3% |
+| mean_reversion_sell | prob | 4183 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4183 | 0.0376 | 0.0699 | 0.1252 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 947 | 0.1323 | 0.2793 | 0.4173 | 0.5564 | 0.8129 | 19.1% |
+| counter_trend_buy | prob | 947 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 947 | 0.1256 | 0.2653 | 0.3965 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 143 | 0.9236 | 0.9803 | 0.9961 | 0.9979 | 1.0 | 7.0% |
+| breakout_sell | prob | 143 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 143 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-28 21:46 (ทุก 1 นาทีเช็ค, records=33686)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4188 | 0.285 | 0.3914 | 0.4969 | 0.6225 | 0.8372 | 0.0% |
+| trend_buy | prob | 4188 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4188 | 0.2423 | 0.3327 | 0.4224 | 0.5291 | 0.7117 |  |
+| trend_sell | raw | 4188 | 0.2706 | 0.3669 | 0.6498 | 0.8367 | 0.9735 | 0.0% |
+| trend_sell | prob | 4188 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4188 | 0.2301 | 0.3118 | 0.5523 | 0.7112 | 0.8275 |  |
+| range_buy | raw | 4188 | 0.0846 | 0.1585 | 0.2393 | 0.3294 | 0.7125 | 10.4% |
+| range_buy | prob | 4188 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4188 | 0.0973 | 0.1823 | 0.2753 | 0.3788 | 0.8194 |  |
+| range_sell | raw | 4188 | 0.0804 | 0.1555 | 0.2246 | 0.299 | 0.6216 | 10.0% |
+| range_sell | prob | 4188 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4188 | 0.0925 | 0.1788 | 0.2583 | 0.3438 | 0.7149 |  |
+| mean_reversion_buy | raw | 4188 | 0.0521 | 0.0865 | 0.1569 | 0.2616 | 0.6027 | 13.3% |
+| mean_reversion_buy | prob | 4188 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4188 | 0.0442 | 0.0735 | 0.1333 | 0.2224 | 0.5123 |  |
+| mean_reversion_sell | raw | 4188 | 0.0442 | 0.0821 | 0.1473 | 0.2249 | 0.5764 | 16.3% |
+| mean_reversion_sell | prob | 4188 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4188 | 0.0376 | 0.0698 | 0.1252 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 952 | 0.1323 | 0.2793 | 0.4173 | 0.5564 | 0.8129 | 19.0% |
+| counter_trend_buy | prob | 952 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 952 | 0.1256 | 0.2653 | 0.3965 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 144 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.9% |
+| breakout_sell | prob | 144 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 144 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-28 21:57 (ทุก 1 นาทีเช็ค, records=33744)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4188 | 0.285 | 0.3914 | 0.4969 | 0.6225 | 0.8372 | 0.0% |
+| trend_buy | prob | 4188 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4188 | 0.2423 | 0.3327 | 0.4224 | 0.5291 | 0.7117 |  |
+| trend_sell | raw | 4188 | 0.2706 | 0.3669 | 0.6498 | 0.8367 | 0.9735 | 0.0% |
+| trend_sell | prob | 4188 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4188 | 0.2301 | 0.3118 | 0.5523 | 0.7112 | 0.8275 |  |
+| range_buy | raw | 4188 | 0.0846 | 0.1585 | 0.2393 | 0.3294 | 0.7125 | 10.4% |
+| range_buy | prob | 4188 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4188 | 0.0973 | 0.1823 | 0.2753 | 0.3788 | 0.8194 |  |
+| range_sell | raw | 4188 | 0.0804 | 0.1555 | 0.2246 | 0.299 | 0.6216 | 10.0% |
+| range_sell | prob | 4188 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4188 | 0.0925 | 0.1788 | 0.2583 | 0.3438 | 0.7149 |  |
+| mean_reversion_buy | raw | 4188 | 0.0521 | 0.0865 | 0.1569 | 0.2616 | 0.6027 | 13.3% |
+| mean_reversion_buy | prob | 4188 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4188 | 0.0442 | 0.0735 | 0.1333 | 0.2224 | 0.5123 |  |
+| mean_reversion_sell | raw | 4188 | 0.0442 | 0.0821 | 0.1473 | 0.2249 | 0.5764 | 16.3% |
+| mean_reversion_sell | prob | 4188 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4188 | 0.0376 | 0.0698 | 0.1252 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 952 | 0.1323 | 0.2793 | 0.4173 | 0.5564 | 0.8129 | 19.0% |
+| counter_trend_buy | prob | 952 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 952 | 0.1256 | 0.2653 | 0.3965 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 144 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.9% |
+| breakout_sell | prob | 144 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 144 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-28 22:08 (ทุก 1 นาทีเช็ค, records=33801)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4188 | 0.285 | 0.3914 | 0.4969 | 0.6225 | 0.8372 | 0.0% |
+| trend_buy | prob | 4188 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4188 | 0.2423 | 0.3327 | 0.4224 | 0.5291 | 0.7117 |  |
+| trend_sell | raw | 4188 | 0.2706 | 0.3669 | 0.6498 | 0.8367 | 0.9735 | 0.0% |
+| trend_sell | prob | 4188 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4188 | 0.2301 | 0.3118 | 0.5523 | 0.7112 | 0.8275 |  |
+| range_buy | raw | 4188 | 0.0846 | 0.1585 | 0.2393 | 0.3294 | 0.7125 | 10.4% |
+| range_buy | prob | 4188 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4188 | 0.0973 | 0.1823 | 0.2753 | 0.3788 | 0.8194 |  |
+| range_sell | raw | 4188 | 0.0804 | 0.1555 | 0.2246 | 0.299 | 0.6216 | 10.0% |
+| range_sell | prob | 4188 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4188 | 0.0925 | 0.1788 | 0.2583 | 0.3438 | 0.7149 |  |
+| mean_reversion_buy | raw | 4188 | 0.0521 | 0.0865 | 0.1569 | 0.2616 | 0.6027 | 13.3% |
+| mean_reversion_buy | prob | 4188 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4188 | 0.0442 | 0.0735 | 0.1333 | 0.2224 | 0.5123 |  |
+| mean_reversion_sell | raw | 4188 | 0.0442 | 0.0821 | 0.1473 | 0.2249 | 0.5764 | 16.3% |
+| mean_reversion_sell | prob | 4188 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4188 | 0.0376 | 0.0698 | 0.1252 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 952 | 0.1323 | 0.2793 | 0.4173 | 0.5564 | 0.8129 | 19.0% |
+| counter_trend_buy | prob | 952 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 952 | 0.1256 | 0.2653 | 0.3965 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 144 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.9% |
+| breakout_sell | prob | 144 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 144 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-28 22:19 (ทุก 1 นาทีเช็ค, records=33853)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4188 | 0.285 | 0.3914 | 0.4969 | 0.6225 | 0.8372 | 0.0% |
+| trend_buy | prob | 4188 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4188 | 0.2423 | 0.3327 | 0.4224 | 0.5291 | 0.7117 |  |
+| trend_sell | raw | 4188 | 0.2706 | 0.3669 | 0.6498 | 0.8367 | 0.9735 | 0.0% |
+| trend_sell | prob | 4188 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4188 | 0.2301 | 0.3118 | 0.5523 | 0.7112 | 0.8275 |  |
+| range_buy | raw | 4188 | 0.0846 | 0.1585 | 0.2393 | 0.3294 | 0.7125 | 10.4% |
+| range_buy | prob | 4188 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4188 | 0.0973 | 0.1823 | 0.2753 | 0.3788 | 0.8194 |  |
+| range_sell | raw | 4188 | 0.0804 | 0.1555 | 0.2246 | 0.299 | 0.6216 | 10.0% |
+| range_sell | prob | 4188 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4188 | 0.0925 | 0.1788 | 0.2583 | 0.3438 | 0.7149 |  |
+| mean_reversion_buy | raw | 4188 | 0.0521 | 0.0865 | 0.1569 | 0.2616 | 0.6027 | 13.3% |
+| mean_reversion_buy | prob | 4188 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4188 | 0.0442 | 0.0735 | 0.1333 | 0.2224 | 0.5123 |  |
+| mean_reversion_sell | raw | 4188 | 0.0442 | 0.0821 | 0.1473 | 0.2249 | 0.5764 | 16.3% |
+| mean_reversion_sell | prob | 4188 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4188 | 0.0376 | 0.0698 | 0.1252 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 952 | 0.1323 | 0.2793 | 0.4173 | 0.5564 | 0.8129 | 19.0% |
+| counter_trend_buy | prob | 952 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 952 | 0.1256 | 0.2653 | 0.3965 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 144 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.9% |
+| breakout_sell | prob | 144 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 144 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-28 22:30 (ทุก 1 นาทีเช็ค, records=33908)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4188 | 0.285 | 0.3914 | 0.4969 | 0.6225 | 0.8372 | 0.0% |
+| trend_buy | prob | 4188 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4188 | 0.2423 | 0.3327 | 0.4224 | 0.5291 | 0.7117 |  |
+| trend_sell | raw | 4188 | 0.2706 | 0.3669 | 0.6498 | 0.8367 | 0.9735 | 0.0% |
+| trend_sell | prob | 4188 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4188 | 0.2301 | 0.3118 | 0.5523 | 0.7112 | 0.8275 |  |
+| range_buy | raw | 4188 | 0.0846 | 0.1585 | 0.2393 | 0.3294 | 0.7125 | 10.4% |
+| range_buy | prob | 4188 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4188 | 0.0973 | 0.1823 | 0.2753 | 0.3788 | 0.8194 |  |
+| range_sell | raw | 4188 | 0.0804 | 0.1555 | 0.2246 | 0.299 | 0.6216 | 10.0% |
+| range_sell | prob | 4188 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4188 | 0.0925 | 0.1788 | 0.2583 | 0.3438 | 0.7149 |  |
+| mean_reversion_buy | raw | 4188 | 0.0521 | 0.0865 | 0.1569 | 0.2616 | 0.6027 | 13.3% |
+| mean_reversion_buy | prob | 4188 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4188 | 0.0442 | 0.0735 | 0.1333 | 0.2224 | 0.5123 |  |
+| mean_reversion_sell | raw | 4188 | 0.0442 | 0.0821 | 0.1473 | 0.2249 | 0.5764 | 16.3% |
+| mean_reversion_sell | prob | 4188 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4188 | 0.0376 | 0.0698 | 0.1252 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 952 | 0.1323 | 0.2793 | 0.4173 | 0.5564 | 0.8129 | 19.0% |
+| counter_trend_buy | prob | 952 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 952 | 0.1256 | 0.2653 | 0.3965 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 144 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.9% |
+| breakout_sell | prob | 144 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 144 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-28 22:41 (ทุก 1 นาทีเช็ค, records=33960)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4188 | 0.285 | 0.3914 | 0.4969 | 0.6225 | 0.8372 | 0.0% |
+| trend_buy | prob | 4188 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4188 | 0.2423 | 0.3327 | 0.4224 | 0.5291 | 0.7117 |  |
+| trend_sell | raw | 4188 | 0.2706 | 0.3669 | 0.6498 | 0.8367 | 0.9735 | 0.0% |
+| trend_sell | prob | 4188 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4188 | 0.2301 | 0.3118 | 0.5523 | 0.7112 | 0.8275 |  |
+| range_buy | raw | 4188 | 0.0846 | 0.1585 | 0.2393 | 0.3294 | 0.7125 | 10.4% |
+| range_buy | prob | 4188 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4188 | 0.0973 | 0.1823 | 0.2753 | 0.3788 | 0.8194 |  |
+| range_sell | raw | 4188 | 0.0804 | 0.1555 | 0.2246 | 0.299 | 0.6216 | 10.0% |
+| range_sell | prob | 4188 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4188 | 0.0925 | 0.1788 | 0.2583 | 0.3438 | 0.7149 |  |
+| mean_reversion_buy | raw | 4188 | 0.0521 | 0.0865 | 0.1569 | 0.2616 | 0.6027 | 13.3% |
+| mean_reversion_buy | prob | 4188 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4188 | 0.0442 | 0.0735 | 0.1333 | 0.2224 | 0.5123 |  |
+| mean_reversion_sell | raw | 4188 | 0.0442 | 0.0821 | 0.1473 | 0.2249 | 0.5764 | 16.3% |
+| mean_reversion_sell | prob | 4188 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4188 | 0.0376 | 0.0698 | 0.1252 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 952 | 0.1323 | 0.2793 | 0.4173 | 0.5564 | 0.8129 | 19.0% |
+| counter_trend_buy | prob | 952 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 952 | 0.1256 | 0.2653 | 0.3965 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 144 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.9% |
+| breakout_sell | prob | 144 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 144 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-28 22:52 (ทุก 1 นาทีเช็ค, records=34011)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4188 | 0.285 | 0.3914 | 0.4969 | 0.6225 | 0.8372 | 0.0% |
+| trend_buy | prob | 4188 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4188 | 0.2423 | 0.3327 | 0.4224 | 0.5291 | 0.7117 |  |
+| trend_sell | raw | 4188 | 0.2706 | 0.3669 | 0.6498 | 0.8367 | 0.9735 | 0.0% |
+| trend_sell | prob | 4188 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4188 | 0.2301 | 0.3118 | 0.5523 | 0.7112 | 0.8275 |  |
+| range_buy | raw | 4188 | 0.0846 | 0.1585 | 0.2393 | 0.3294 | 0.7125 | 10.4% |
+| range_buy | prob | 4188 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4188 | 0.0973 | 0.1823 | 0.2753 | 0.3788 | 0.8194 |  |
+| range_sell | raw | 4188 | 0.0804 | 0.1555 | 0.2246 | 0.299 | 0.6216 | 10.0% |
+| range_sell | prob | 4188 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4188 | 0.0925 | 0.1788 | 0.2583 | 0.3438 | 0.7149 |  |
+| mean_reversion_buy | raw | 4188 | 0.0521 | 0.0865 | 0.1569 | 0.2616 | 0.6027 | 13.3% |
+| mean_reversion_buy | prob | 4188 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4188 | 0.0442 | 0.0735 | 0.1333 | 0.2224 | 0.5123 |  |
+| mean_reversion_sell | raw | 4188 | 0.0442 | 0.0821 | 0.1473 | 0.2249 | 0.5764 | 16.3% |
+| mean_reversion_sell | prob | 4188 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4188 | 0.0376 | 0.0698 | 0.1252 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 952 | 0.1323 | 0.2793 | 0.4173 | 0.5564 | 0.8129 | 19.0% |
+| counter_trend_buy | prob | 952 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 952 | 0.1256 | 0.2653 | 0.3965 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 144 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.9% |
+| breakout_sell | prob | 144 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 144 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-28 23:03 (ทุก 1 นาทีเช็ค, records=34066)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4188 | 0.285 | 0.3914 | 0.4969 | 0.6225 | 0.8372 | 0.0% |
+| trend_buy | prob | 4188 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4188 | 0.2423 | 0.3327 | 0.4224 | 0.5291 | 0.7117 |  |
+| trend_sell | raw | 4188 | 0.2706 | 0.3669 | 0.6498 | 0.8367 | 0.9735 | 0.0% |
+| trend_sell | prob | 4188 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4188 | 0.2301 | 0.3118 | 0.5523 | 0.7112 | 0.8275 |  |
+| range_buy | raw | 4188 | 0.0846 | 0.1585 | 0.2393 | 0.3294 | 0.7125 | 10.4% |
+| range_buy | prob | 4188 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4188 | 0.0973 | 0.1823 | 0.2753 | 0.3788 | 0.8194 |  |
+| range_sell | raw | 4188 | 0.0804 | 0.1555 | 0.2246 | 0.299 | 0.6216 | 10.0% |
+| range_sell | prob | 4188 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4188 | 0.0925 | 0.1788 | 0.2583 | 0.3438 | 0.7149 |  |
+| mean_reversion_buy | raw | 4188 | 0.0521 | 0.0865 | 0.1569 | 0.2616 | 0.6027 | 13.3% |
+| mean_reversion_buy | prob | 4188 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4188 | 0.0442 | 0.0735 | 0.1333 | 0.2224 | 0.5123 |  |
+| mean_reversion_sell | raw | 4188 | 0.0442 | 0.0821 | 0.1473 | 0.2249 | 0.5764 | 16.3% |
+| mean_reversion_sell | prob | 4188 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4188 | 0.0376 | 0.0698 | 0.1252 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 952 | 0.1323 | 0.2793 | 0.4173 | 0.5564 | 0.8129 | 19.0% |
+| counter_trend_buy | prob | 952 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 952 | 0.1256 | 0.2653 | 0.3965 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 144 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.9% |
+| breakout_sell | prob | 144 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 144 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-28 23:16 (ทุก 1 นาทีเช็ค, records=34128)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4188 | 0.285 | 0.3914 | 0.4969 | 0.6225 | 0.8372 | 0.0% |
+| trend_buy | prob | 4188 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4188 | 0.2423 | 0.3327 | 0.4224 | 0.5291 | 0.7117 |  |
+| trend_sell | raw | 4188 | 0.2706 | 0.3669 | 0.6498 | 0.8367 | 0.9735 | 0.0% |
+| trend_sell | prob | 4188 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4188 | 0.2301 | 0.3118 | 0.5523 | 0.7112 | 0.8275 |  |
+| range_buy | raw | 4188 | 0.0846 | 0.1585 | 0.2393 | 0.3294 | 0.7125 | 10.4% |
+| range_buy | prob | 4188 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4188 | 0.0973 | 0.1823 | 0.2753 | 0.3788 | 0.8194 |  |
+| range_sell | raw | 4188 | 0.0804 | 0.1555 | 0.2246 | 0.299 | 0.6216 | 10.0% |
+| range_sell | prob | 4188 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4188 | 0.0925 | 0.1788 | 0.2583 | 0.3438 | 0.7149 |  |
+| mean_reversion_buy | raw | 4188 | 0.0521 | 0.0865 | 0.1569 | 0.2616 | 0.6027 | 13.3% |
+| mean_reversion_buy | prob | 4188 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4188 | 0.0442 | 0.0735 | 0.1333 | 0.2224 | 0.5123 |  |
+| mean_reversion_sell | raw | 4188 | 0.0442 | 0.0821 | 0.1473 | 0.2249 | 0.5764 | 16.3% |
+| mean_reversion_sell | prob | 4188 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4188 | 0.0376 | 0.0698 | 0.1252 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 952 | 0.1323 | 0.2793 | 0.4173 | 0.5564 | 0.8129 | 19.0% |
+| counter_trend_buy | prob | 952 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 952 | 0.1256 | 0.2653 | 0.3965 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 144 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.9% |
+| breakout_sell | prob | 144 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 144 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-28 23:29 (ทุก 1 นาทีเช็ค, records=34208)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4191 | 0.2852 | 0.3921 | 0.4969 | 0.6225 | 0.8372 | 0.0% |
+| trend_buy | prob | 4191 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4191 | 0.2424 | 0.3333 | 0.4224 | 0.5291 | 0.7117 |  |
+| trend_sell | raw | 4191 | 0.2708 | 0.3669 | 0.6498 | 0.8367 | 0.9735 | 0.0% |
+| trend_sell | prob | 4191 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4191 | 0.2302 | 0.3118 | 0.5523 | 0.7112 | 0.8275 |  |
+| range_buy | raw | 4191 | 0.0837 | 0.1585 | 0.2393 | 0.3294 | 0.7125 | 10.4% |
+| range_buy | prob | 4191 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4191 | 0.0963 | 0.1823 | 0.2753 | 0.3788 | 0.8194 |  |
+| range_sell | raw | 4191 | 0.0804 | 0.156 | 0.2246 | 0.299 | 0.6216 | 10.0% |
+| range_sell | prob | 4191 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4191 | 0.0925 | 0.1794 | 0.2583 | 0.3438 | 0.7149 |  |
+| mean_reversion_buy | raw | 4191 | 0.0521 | 0.0865 | 0.1569 | 0.2616 | 0.6027 | 13.2% |
+| mean_reversion_buy | prob | 4191 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4191 | 0.0442 | 0.0735 | 0.1333 | 0.2224 | 0.5123 |  |
+| mean_reversion_sell | raw | 4191 | 0.0443 | 0.0821 | 0.1473 | 0.2249 | 0.5764 | 16.3% |
+| mean_reversion_sell | prob | 4191 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4191 | 0.0377 | 0.0698 | 0.1252 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 952 | 0.1323 | 0.2793 | 0.4173 | 0.5564 | 0.8129 | 19.0% |
+| counter_trend_buy | prob | 952 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 952 | 0.1256 | 0.2653 | 0.3965 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 144 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.9% |
+| breakout_sell | prob | 144 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 144 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-28 23:42 (ทุก 1 นาทีเช็ค, records=34283)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4192 | 0.2852 | 0.3921 | 0.4969 | 0.6224 | 0.8372 | 0.0% |
+| trend_buy | prob | 4192 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4192 | 0.2424 | 0.3333 | 0.4224 | 0.529 | 0.7117 |  |
+| trend_sell | raw | 4192 | 0.2708 | 0.3669 | 0.6498 | 0.8367 | 0.9735 | 0.0% |
+| trend_sell | prob | 4192 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4192 | 0.2302 | 0.3118 | 0.5523 | 0.7112 | 0.8275 |  |
+| range_buy | raw | 4192 | 0.0837 | 0.1585 | 0.2393 | 0.3294 | 0.7125 | 10.4% |
+| range_buy | prob | 4192 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4192 | 0.0963 | 0.1823 | 0.2753 | 0.3788 | 0.8194 |  |
+| range_sell | raw | 4192 | 0.0804 | 0.156 | 0.2246 | 0.299 | 0.6216 | 10.0% |
+| range_sell | prob | 4192 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4192 | 0.0925 | 0.1794 | 0.2583 | 0.3438 | 0.7149 |  |
+| mean_reversion_buy | raw | 4192 | 0.0521 | 0.0865 | 0.1569 | 0.2613 | 0.6027 | 13.2% |
+| mean_reversion_buy | prob | 4192 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4192 | 0.0442 | 0.0735 | 0.1333 | 0.2221 | 0.5123 |  |
+| mean_reversion_sell | raw | 4192 | 0.0443 | 0.0821 | 0.1473 | 0.2249 | 0.5764 | 16.3% |
+| mean_reversion_sell | prob | 4192 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4192 | 0.0377 | 0.0698 | 0.1252 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 952 | 0.1323 | 0.2793 | 0.4173 | 0.5564 | 0.8129 | 19.0% |
+| counter_trend_buy | prob | 952 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 952 | 0.1256 | 0.2653 | 0.3965 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 144 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.9% |
+| breakout_sell | prob | 144 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 144 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-28 23:55 (ทุก 1 นาทีเช็ค, records=34352)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4192 | 0.2852 | 0.3921 | 0.4969 | 0.6224 | 0.8372 | 0.0% |
+| trend_buy | prob | 4192 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4192 | 0.2424 | 0.3333 | 0.4224 | 0.529 | 0.7117 |  |
+| trend_sell | raw | 4192 | 0.2708 | 0.3669 | 0.6498 | 0.8367 | 0.9735 | 0.0% |
+| trend_sell | prob | 4192 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4192 | 0.2302 | 0.3118 | 0.5523 | 0.7112 | 0.8275 |  |
+| range_buy | raw | 4192 | 0.0837 | 0.1585 | 0.2393 | 0.3294 | 0.7125 | 10.4% |
+| range_buy | prob | 4192 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4192 | 0.0963 | 0.1823 | 0.2753 | 0.3788 | 0.8194 |  |
+| range_sell | raw | 4192 | 0.0804 | 0.156 | 0.2246 | 0.299 | 0.6216 | 10.0% |
+| range_sell | prob | 4192 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4192 | 0.0925 | 0.1794 | 0.2583 | 0.3438 | 0.7149 |  |
+| mean_reversion_buy | raw | 4192 | 0.0521 | 0.0865 | 0.1569 | 0.2613 | 0.6027 | 13.2% |
+| mean_reversion_buy | prob | 4192 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4192 | 0.0442 | 0.0735 | 0.1333 | 0.2221 | 0.5123 |  |
+| mean_reversion_sell | raw | 4192 | 0.0443 | 0.0821 | 0.1473 | 0.2249 | 0.5764 | 16.3% |
+| mean_reversion_sell | prob | 4192 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4192 | 0.0377 | 0.0698 | 0.1252 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 952 | 0.1323 | 0.2793 | 0.4173 | 0.5564 | 0.8129 | 19.0% |
+| counter_trend_buy | prob | 952 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 952 | 0.1256 | 0.2653 | 0.3965 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 144 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.9% |
+| breakout_sell | prob | 144 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 144 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 00:08 (ทุก 1 นาทีเช็ค, records=34422)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4192 | 0.2852 | 0.3921 | 0.4969 | 0.6224 | 0.8372 | 0.0% |
+| trend_buy | prob | 4192 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4192 | 0.2424 | 0.3333 | 0.4224 | 0.529 | 0.7117 |  |
+| trend_sell | raw | 4192 | 0.2708 | 0.3669 | 0.6498 | 0.8367 | 0.9735 | 0.0% |
+| trend_sell | prob | 4192 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4192 | 0.2302 | 0.3118 | 0.5523 | 0.7112 | 0.8275 |  |
+| range_buy | raw | 4192 | 0.0837 | 0.1585 | 0.2393 | 0.3294 | 0.7125 | 10.4% |
+| range_buy | prob | 4192 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4192 | 0.0963 | 0.1823 | 0.2753 | 0.3788 | 0.8194 |  |
+| range_sell | raw | 4192 | 0.0804 | 0.156 | 0.2246 | 0.299 | 0.6216 | 10.0% |
+| range_sell | prob | 4192 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4192 | 0.0925 | 0.1794 | 0.2583 | 0.3438 | 0.7149 |  |
+| mean_reversion_buy | raw | 4192 | 0.0521 | 0.0865 | 0.1569 | 0.2613 | 0.6027 | 13.2% |
+| mean_reversion_buy | prob | 4192 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4192 | 0.0442 | 0.0735 | 0.1333 | 0.2221 | 0.5123 |  |
+| mean_reversion_sell | raw | 4192 | 0.0443 | 0.0821 | 0.1473 | 0.2249 | 0.5764 | 16.3% |
+| mean_reversion_sell | prob | 4192 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4192 | 0.0377 | 0.0698 | 0.1252 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 952 | 0.1323 | 0.2793 | 0.4173 | 0.5564 | 0.8129 | 19.0% |
+| counter_trend_buy | prob | 952 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 952 | 0.1256 | 0.2653 | 0.3965 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 144 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.9% |
+| breakout_sell | prob | 144 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 144 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 00:21 (ทุก 1 นาทีเช็ค, records=34494)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4195 | 0.2852 | 0.3922 | 0.4969 | 0.6224 | 0.8372 | 0.0% |
+| trend_buy | prob | 4195 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4195 | 0.2424 | 0.3333 | 0.4224 | 0.529 | 0.7117 |  |
+| trend_sell | raw | 4195 | 0.2708 | 0.3673 | 0.6525 | 0.8367 | 0.9735 | 0.0% |
+| trend_sell | prob | 4195 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4195 | 0.2302 | 0.3122 | 0.5546 | 0.7112 | 0.8275 |  |
+| range_buy | raw | 4195 | 0.0846 | 0.1585 | 0.2392 | 0.3294 | 0.7125 | 10.4% |
+| range_buy | prob | 4195 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4195 | 0.0973 | 0.1823 | 0.2751 | 0.3788 | 0.8194 |  |
+| range_sell | raw | 4195 | 0.0804 | 0.1555 | 0.2246 | 0.299 | 0.6216 | 10.0% |
+| range_sell | prob | 4195 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4195 | 0.0925 | 0.1788 | 0.2583 | 0.3438 | 0.7149 |  |
+| mean_reversion_buy | raw | 4195 | 0.0519 | 0.0865 | 0.1569 | 0.2613 | 0.6027 | 13.2% |
+| mean_reversion_buy | prob | 4195 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4195 | 0.0441 | 0.0735 | 0.1333 | 0.2221 | 0.5123 |  |
+| mean_reversion_sell | raw | 4195 | 0.0442 | 0.0821 | 0.1473 | 0.2249 | 0.5764 | 16.3% |
+| mean_reversion_sell | prob | 4195 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4195 | 0.0376 | 0.0698 | 0.1252 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 952 | 0.1323 | 0.2793 | 0.4173 | 0.5564 | 0.8129 | 19.0% |
+| counter_trend_buy | prob | 952 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 952 | 0.1256 | 0.2653 | 0.3965 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 144 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.9% |
+| breakout_sell | prob | 144 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 144 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 00:34 (ทุก 1 นาทีเช็ค, records=34557)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4195 | 0.2852 | 0.3922 | 0.4969 | 0.6224 | 0.8372 | 0.0% |
+| trend_buy | prob | 4195 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4195 | 0.2424 | 0.3333 | 0.4224 | 0.529 | 0.7117 |  |
+| trend_sell | raw | 4195 | 0.2708 | 0.3673 | 0.6525 | 0.8367 | 0.9735 | 0.0% |
+| trend_sell | prob | 4195 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4195 | 0.2302 | 0.3122 | 0.5546 | 0.7112 | 0.8275 |  |
+| range_buy | raw | 4195 | 0.0846 | 0.1585 | 0.2392 | 0.3294 | 0.7125 | 10.4% |
+| range_buy | prob | 4195 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4195 | 0.0973 | 0.1823 | 0.2751 | 0.3788 | 0.8194 |  |
+| range_sell | raw | 4195 | 0.0804 | 0.1555 | 0.2246 | 0.299 | 0.6216 | 10.0% |
+| range_sell | prob | 4195 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4195 | 0.0925 | 0.1788 | 0.2583 | 0.3438 | 0.7149 |  |
+| mean_reversion_buy | raw | 4195 | 0.0519 | 0.0865 | 0.1569 | 0.2613 | 0.6027 | 13.2% |
+| mean_reversion_buy | prob | 4195 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4195 | 0.0441 | 0.0735 | 0.1333 | 0.2221 | 0.5123 |  |
+| mean_reversion_sell | raw | 4195 | 0.0442 | 0.0821 | 0.1473 | 0.2249 | 0.5764 | 16.3% |
+| mean_reversion_sell | prob | 4195 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4195 | 0.0376 | 0.0698 | 0.1252 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 952 | 0.1323 | 0.2793 | 0.4173 | 0.5564 | 0.8129 | 19.0% |
+| counter_trend_buy | prob | 952 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 952 | 0.1256 | 0.2653 | 0.3965 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 144 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.9% |
+| breakout_sell | prob | 144 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 144 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 00:47 (ทุก 1 นาทีเช็ค, records=34625)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4195 | 0.2852 | 0.3922 | 0.4969 | 0.6224 | 0.8372 | 0.0% |
+| trend_buy | prob | 4195 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4195 | 0.2424 | 0.3333 | 0.4224 | 0.529 | 0.7117 |  |
+| trend_sell | raw | 4195 | 0.2708 | 0.3673 | 0.6525 | 0.8367 | 0.9735 | 0.0% |
+| trend_sell | prob | 4195 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4195 | 0.2302 | 0.3122 | 0.5546 | 0.7112 | 0.8275 |  |
+| range_buy | raw | 4195 | 0.0846 | 0.1585 | 0.2392 | 0.3294 | 0.7125 | 10.4% |
+| range_buy | prob | 4195 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4195 | 0.0973 | 0.1823 | 0.2751 | 0.3788 | 0.8194 |  |
+| range_sell | raw | 4195 | 0.0804 | 0.1555 | 0.2246 | 0.299 | 0.6216 | 10.0% |
+| range_sell | prob | 4195 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4195 | 0.0925 | 0.1788 | 0.2583 | 0.3438 | 0.7149 |  |
+| mean_reversion_buy | raw | 4195 | 0.0519 | 0.0865 | 0.1569 | 0.2613 | 0.6027 | 13.2% |
+| mean_reversion_buy | prob | 4195 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4195 | 0.0441 | 0.0735 | 0.1333 | 0.2221 | 0.5123 |  |
+| mean_reversion_sell | raw | 4195 | 0.0442 | 0.0821 | 0.1473 | 0.2249 | 0.5764 | 16.3% |
+| mean_reversion_sell | prob | 4195 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4195 | 0.0376 | 0.0698 | 0.1252 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 952 | 0.1323 | 0.2793 | 0.4173 | 0.5564 | 0.8129 | 19.0% |
+| counter_trend_buy | prob | 952 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 952 | 0.1256 | 0.2653 | 0.3965 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 144 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.9% |
+| breakout_sell | prob | 144 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 144 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 01:00 (ทุก 1 นาทีเช็ค, records=34694)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4195 | 0.2852 | 0.3922 | 0.4969 | 0.6224 | 0.8372 | 0.0% |
+| trend_buy | prob | 4195 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4195 | 0.2424 | 0.3333 | 0.4224 | 0.529 | 0.7117 |  |
+| trend_sell | raw | 4195 | 0.2708 | 0.3673 | 0.6525 | 0.8367 | 0.9735 | 0.0% |
+| trend_sell | prob | 4195 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4195 | 0.2302 | 0.3122 | 0.5546 | 0.7112 | 0.8275 |  |
+| range_buy | raw | 4195 | 0.0846 | 0.1585 | 0.2392 | 0.3294 | 0.7125 | 10.4% |
+| range_buy | prob | 4195 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4195 | 0.0973 | 0.1823 | 0.2751 | 0.3788 | 0.8194 |  |
+| range_sell | raw | 4195 | 0.0804 | 0.1555 | 0.2246 | 0.299 | 0.6216 | 10.0% |
+| range_sell | prob | 4195 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4195 | 0.0925 | 0.1788 | 0.2583 | 0.3438 | 0.7149 |  |
+| mean_reversion_buy | raw | 4195 | 0.0519 | 0.0865 | 0.1569 | 0.2613 | 0.6027 | 13.2% |
+| mean_reversion_buy | prob | 4195 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4195 | 0.0441 | 0.0735 | 0.1333 | 0.2221 | 0.5123 |  |
+| mean_reversion_sell | raw | 4195 | 0.0442 | 0.0821 | 0.1473 | 0.2249 | 0.5764 | 16.3% |
+| mean_reversion_sell | prob | 4195 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4195 | 0.0376 | 0.0698 | 0.1252 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 952 | 0.1323 | 0.2793 | 0.4173 | 0.5564 | 0.8129 | 19.0% |
+| counter_trend_buy | prob | 952 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 952 | 0.1256 | 0.2653 | 0.3965 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 144 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.9% |
+| breakout_sell | prob | 144 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 144 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 01:13 (ทุก 1 นาทีเช็ค, records=34762)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4195 | 0.2852 | 0.3922 | 0.4969 | 0.6224 | 0.8372 | 0.0% |
+| trend_buy | prob | 4195 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4195 | 0.2424 | 0.3333 | 0.4224 | 0.529 | 0.7117 |  |
+| trend_sell | raw | 4195 | 0.2708 | 0.3673 | 0.6525 | 0.8367 | 0.9735 | 0.0% |
+| trend_sell | prob | 4195 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4195 | 0.2302 | 0.3122 | 0.5546 | 0.7112 | 0.8275 |  |
+| range_buy | raw | 4195 | 0.0846 | 0.1585 | 0.2392 | 0.3294 | 0.7125 | 10.4% |
+| range_buy | prob | 4195 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4195 | 0.0973 | 0.1823 | 0.2751 | 0.3788 | 0.8194 |  |
+| range_sell | raw | 4195 | 0.0804 | 0.1555 | 0.2246 | 0.299 | 0.6216 | 10.0% |
+| range_sell | prob | 4195 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4195 | 0.0925 | 0.1788 | 0.2583 | 0.3438 | 0.7149 |  |
+| mean_reversion_buy | raw | 4195 | 0.0519 | 0.0865 | 0.1569 | 0.2613 | 0.6027 | 13.2% |
+| mean_reversion_buy | prob | 4195 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4195 | 0.0441 | 0.0735 | 0.1333 | 0.2221 | 0.5123 |  |
+| mean_reversion_sell | raw | 4195 | 0.0442 | 0.0821 | 0.1473 | 0.2249 | 0.5764 | 16.3% |
+| mean_reversion_sell | prob | 4195 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4195 | 0.0376 | 0.0698 | 0.1252 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 952 | 0.1323 | 0.2793 | 0.4173 | 0.5564 | 0.8129 | 19.0% |
+| counter_trend_buy | prob | 952 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 952 | 0.1256 | 0.2653 | 0.3965 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 144 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.9% |
+| breakout_sell | prob | 144 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 144 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 01:26 (ทุก 1 นาทีเช็ค, records=34830)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4195 | 0.2852 | 0.3922 | 0.4969 | 0.6224 | 0.8372 | 0.0% |
+| trend_buy | prob | 4195 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4195 | 0.2424 | 0.3333 | 0.4224 | 0.529 | 0.7117 |  |
+| trend_sell | raw | 4195 | 0.2708 | 0.3673 | 0.6525 | 0.8367 | 0.9735 | 0.0% |
+| trend_sell | prob | 4195 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4195 | 0.2302 | 0.3122 | 0.5546 | 0.7112 | 0.8275 |  |
+| range_buy | raw | 4195 | 0.0846 | 0.1585 | 0.2392 | 0.3294 | 0.7125 | 10.4% |
+| range_buy | prob | 4195 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4195 | 0.0973 | 0.1823 | 0.2751 | 0.3788 | 0.8194 |  |
+| range_sell | raw | 4195 | 0.0804 | 0.1555 | 0.2246 | 0.299 | 0.6216 | 10.0% |
+| range_sell | prob | 4195 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4195 | 0.0925 | 0.1788 | 0.2583 | 0.3438 | 0.7149 |  |
+| mean_reversion_buy | raw | 4195 | 0.0519 | 0.0865 | 0.1569 | 0.2613 | 0.6027 | 13.2% |
+| mean_reversion_buy | prob | 4195 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4195 | 0.0441 | 0.0735 | 0.1333 | 0.2221 | 0.5123 |  |
+| mean_reversion_sell | raw | 4195 | 0.0442 | 0.0821 | 0.1473 | 0.2249 | 0.5764 | 16.3% |
+| mean_reversion_sell | prob | 4195 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4195 | 0.0376 | 0.0698 | 0.1252 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 952 | 0.1323 | 0.2793 | 0.4173 | 0.5564 | 0.8129 | 19.0% |
+| counter_trend_buy | prob | 952 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 952 | 0.1256 | 0.2653 | 0.3965 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 144 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.9% |
+| breakout_sell | prob | 144 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 144 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 01:39 (ทุก 1 นาทีเช็ค, records=34903)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4196 | 0.2852 | 0.3922 | 0.4969 | 0.6224 | 0.8372 | 0.0% |
+| trend_buy | prob | 4196 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4196 | 0.2424 | 0.3333 | 0.4224 | 0.529 | 0.7117 |  |
+| trend_sell | raw | 4196 | 0.2708 | 0.3673 | 0.6525 | 0.8367 | 0.9735 | 0.0% |
+| trend_sell | prob | 4196 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4196 | 0.2302 | 0.3122 | 0.5546 | 0.7112 | 0.8275 |  |
+| range_buy | raw | 4196 | 0.0846 | 0.1585 | 0.2393 | 0.3294 | 0.7125 | 10.4% |
+| range_buy | prob | 4196 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4196 | 0.0973 | 0.1823 | 0.2753 | 0.3788 | 0.8194 |  |
+| range_sell | raw | 4196 | 0.0804 | 0.1555 | 0.2246 | 0.299 | 0.6216 | 10.0% |
+| range_sell | prob | 4196 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4196 | 0.0925 | 0.1788 | 0.2583 | 0.3438 | 0.7149 |  |
+| mean_reversion_buy | raw | 4196 | 0.0519 | 0.0865 | 0.1569 | 0.2613 | 0.6027 | 13.2% |
+| mean_reversion_buy | prob | 4196 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4196 | 0.0441 | 0.0735 | 0.1333 | 0.2221 | 0.5123 |  |
+| mean_reversion_sell | raw | 4196 | 0.0442 | 0.0821 | 0.1473 | 0.2249 | 0.5764 | 16.3% |
+| mean_reversion_sell | prob | 4196 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4196 | 0.0376 | 0.0698 | 0.1252 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 952 | 0.1323 | 0.2793 | 0.4173 | 0.5564 | 0.8129 | 19.0% |
+| counter_trend_buy | prob | 952 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 952 | 0.1256 | 0.2653 | 0.3965 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 144 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.9% |
+| breakout_sell | prob | 144 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 144 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 01:52 (ทุก 1 นาทีเช็ค, records=34976)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4197 | 0.2852 | 0.3922 | 0.4969 | 0.6224 | 0.8372 | 0.0% |
+| trend_buy | prob | 4197 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4197 | 0.2424 | 0.3333 | 0.4224 | 0.529 | 0.7117 |  |
+| trend_sell | raw | 4197 | 0.2708 | 0.3673 | 0.6525 | 0.8367 | 0.9735 | 0.0% |
+| trend_sell | prob | 4197 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4197 | 0.2302 | 0.3122 | 0.5546 | 0.7112 | 0.8275 |  |
+| range_buy | raw | 4197 | 0.0846 | 0.1585 | 0.2393 | 0.3294 | 0.7125 | 10.4% |
+| range_buy | prob | 4197 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4197 | 0.0973 | 0.1823 | 0.2753 | 0.3788 | 0.8194 |  |
+| range_sell | raw | 4197 | 0.0804 | 0.156 | 0.2246 | 0.299 | 0.6216 | 10.0% |
+| range_sell | prob | 4197 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4197 | 0.0925 | 0.1794 | 0.2583 | 0.3438 | 0.7149 |  |
+| mean_reversion_buy | raw | 4197 | 0.0521 | 0.0865 | 0.1569 | 0.2613 | 0.6027 | 13.2% |
+| mean_reversion_buy | prob | 4197 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4197 | 0.0442 | 0.0735 | 0.1333 | 0.2221 | 0.5123 |  |
+| mean_reversion_sell | raw | 4197 | 0.0442 | 0.0821 | 0.1473 | 0.2249 | 0.5764 | 16.3% |
+| mean_reversion_sell | prob | 4197 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4197 | 0.0376 | 0.0698 | 0.1252 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 952 | 0.1323 | 0.2793 | 0.4173 | 0.5564 | 0.8129 | 19.0% |
+| counter_trend_buy | prob | 952 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 952 | 0.1256 | 0.2653 | 0.3965 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 144 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.9% |
+| breakout_sell | prob | 144 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 144 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 02:05 (ทุก 1 นาทีเช็ค, records=35039)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4197 | 0.2852 | 0.3922 | 0.4969 | 0.6224 | 0.8372 | 0.0% |
+| trend_buy | prob | 4197 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4197 | 0.2424 | 0.3333 | 0.4224 | 0.529 | 0.7117 |  |
+| trend_sell | raw | 4197 | 0.2708 | 0.3673 | 0.6525 | 0.8367 | 0.9735 | 0.0% |
+| trend_sell | prob | 4197 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4197 | 0.2302 | 0.3122 | 0.5546 | 0.7112 | 0.8275 |  |
+| range_buy | raw | 4197 | 0.0846 | 0.1585 | 0.2393 | 0.3294 | 0.7125 | 10.4% |
+| range_buy | prob | 4197 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4197 | 0.0973 | 0.1823 | 0.2753 | 0.3788 | 0.8194 |  |
+| range_sell | raw | 4197 | 0.0804 | 0.156 | 0.2246 | 0.299 | 0.6216 | 10.0% |
+| range_sell | prob | 4197 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4197 | 0.0925 | 0.1794 | 0.2583 | 0.3438 | 0.7149 |  |
+| mean_reversion_buy | raw | 4197 | 0.0521 | 0.0865 | 0.1569 | 0.2613 | 0.6027 | 13.2% |
+| mean_reversion_buy | prob | 4197 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4197 | 0.0442 | 0.0735 | 0.1333 | 0.2221 | 0.5123 |  |
+| mean_reversion_sell | raw | 4197 | 0.0442 | 0.0821 | 0.1473 | 0.2249 | 0.5764 | 16.3% |
+| mean_reversion_sell | prob | 4197 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4197 | 0.0376 | 0.0698 | 0.1252 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 952 | 0.1323 | 0.2793 | 0.4173 | 0.5564 | 0.8129 | 19.0% |
+| counter_trend_buy | prob | 952 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 952 | 0.1256 | 0.2653 | 0.3965 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 144 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.9% |
+| breakout_sell | prob | 144 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 144 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 02:18 (ทุก 1 นาทีเช็ค, records=35108)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4197 | 0.2852 | 0.3922 | 0.4969 | 0.6224 | 0.8372 | 0.0% |
+| trend_buy | prob | 4197 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4197 | 0.2424 | 0.3333 | 0.4224 | 0.529 | 0.7117 |  |
+| trend_sell | raw | 4197 | 0.2708 | 0.3673 | 0.6525 | 0.8367 | 0.9735 | 0.0% |
+| trend_sell | prob | 4197 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4197 | 0.2302 | 0.3122 | 0.5546 | 0.7112 | 0.8275 |  |
+| range_buy | raw | 4197 | 0.0846 | 0.1585 | 0.2393 | 0.3294 | 0.7125 | 10.4% |
+| range_buy | prob | 4197 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4197 | 0.0973 | 0.1823 | 0.2753 | 0.3788 | 0.8194 |  |
+| range_sell | raw | 4197 | 0.0804 | 0.156 | 0.2246 | 0.299 | 0.6216 | 10.0% |
+| range_sell | prob | 4197 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4197 | 0.0925 | 0.1794 | 0.2583 | 0.3438 | 0.7149 |  |
+| mean_reversion_buy | raw | 4197 | 0.0521 | 0.0865 | 0.1569 | 0.2613 | 0.6027 | 13.2% |
+| mean_reversion_buy | prob | 4197 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4197 | 0.0442 | 0.0735 | 0.1333 | 0.2221 | 0.5123 |  |
+| mean_reversion_sell | raw | 4197 | 0.0442 | 0.0821 | 0.1473 | 0.2249 | 0.5764 | 16.3% |
+| mean_reversion_sell | prob | 4197 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4197 | 0.0376 | 0.0698 | 0.1252 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 952 | 0.1323 | 0.2793 | 0.4173 | 0.5564 | 0.8129 | 19.0% |
+| counter_trend_buy | prob | 952 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 952 | 0.1256 | 0.2653 | 0.3965 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 144 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.9% |
+| breakout_sell | prob | 144 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 144 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 02:31 (ทุก 1 นาทีเช็ค, records=35179)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4197 | 0.2852 | 0.3922 | 0.4969 | 0.6224 | 0.8372 | 0.0% |
+| trend_buy | prob | 4197 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4197 | 0.2424 | 0.3333 | 0.4224 | 0.529 | 0.7117 |  |
+| trend_sell | raw | 4197 | 0.2708 | 0.3673 | 0.6525 | 0.8367 | 0.9735 | 0.0% |
+| trend_sell | prob | 4197 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4197 | 0.2302 | 0.3122 | 0.5546 | 0.7112 | 0.8275 |  |
+| range_buy | raw | 4197 | 0.0846 | 0.1585 | 0.2393 | 0.3294 | 0.7125 | 10.4% |
+| range_buy | prob | 4197 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4197 | 0.0973 | 0.1823 | 0.2753 | 0.3788 | 0.8194 |  |
+| range_sell | raw | 4197 | 0.0804 | 0.156 | 0.2246 | 0.299 | 0.6216 | 10.0% |
+| range_sell | prob | 4197 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4197 | 0.0925 | 0.1794 | 0.2583 | 0.3438 | 0.7149 |  |
+| mean_reversion_buy | raw | 4197 | 0.0521 | 0.0865 | 0.1569 | 0.2613 | 0.6027 | 13.2% |
+| mean_reversion_buy | prob | 4197 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4197 | 0.0442 | 0.0735 | 0.1333 | 0.2221 | 0.5123 |  |
+| mean_reversion_sell | raw | 4197 | 0.0442 | 0.0821 | 0.1473 | 0.2249 | 0.5764 | 16.3% |
+| mean_reversion_sell | prob | 4197 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4197 | 0.0376 | 0.0698 | 0.1252 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 952 | 0.1323 | 0.2793 | 0.4173 | 0.5564 | 0.8129 | 19.0% |
+| counter_trend_buy | prob | 952 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 952 | 0.1256 | 0.2653 | 0.3965 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 144 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.9% |
+| breakout_sell | prob | 144 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 144 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 02:44 (ทุก 1 นาทีเช็ค, records=35243)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4209 | 0.2852 | 0.3922 | 0.4969 | 0.6224 | 0.8372 | 0.0% |
+| trend_buy | prob | 4209 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4209 | 0.2424 | 0.3334 | 0.4224 | 0.529 | 0.7117 |  |
+| trend_sell | raw | 4209 | 0.2713 | 0.3677 | 0.6572 | 0.84 | 0.9735 | 0.0% |
+| trend_sell | prob | 4209 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4209 | 0.2306 | 0.3125 | 0.5586 | 0.714 | 0.8275 |  |
+| range_buy | raw | 4209 | 0.0846 | 0.1592 | 0.2397 | 0.3299 | 0.7125 | 10.5% |
+| range_buy | prob | 4209 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4209 | 0.0973 | 0.183 | 0.2757 | 0.3794 | 0.8194 |  |
+| range_sell | raw | 4209 | 0.0804 | 0.1549 | 0.2246 | 0.2983 | 0.6216 | 10.0% |
+| range_sell | prob | 4209 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4209 | 0.0925 | 0.1782 | 0.2583 | 0.343 | 0.7149 |  |
+| mean_reversion_buy | raw | 4209 | 0.0521 | 0.0866 | 0.1569 | 0.2616 | 0.6027 | 13.3% |
+| mean_reversion_buy | prob | 4209 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4209 | 0.0442 | 0.0736 | 0.1333 | 0.2224 | 0.5123 |  |
+| mean_reversion_sell | raw | 4209 | 0.0443 | 0.082 | 0.1473 | 0.2249 | 0.5764 | 16.2% |
+| mean_reversion_sell | prob | 4209 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4209 | 0.0377 | 0.0697 | 0.1252 | 0.1912 | 0.49 |  |
+| counter_trend_buy | raw | 964 | 0.1343 | 0.2841 | 0.4173 | 0.5564 | 0.8129 | 19.7% |
+| counter_trend_buy | prob | 964 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 964 | 0.1276 | 0.2699 | 0.3965 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 144 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.9% |
+| breakout_sell | prob | 144 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 144 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 02:57 (ทุก 1 นาทีเช็ค, records=35300)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4220 | 0.2852 | 0.393 | 0.4966 | 0.6224 | 0.8372 | 0.0% |
+| trend_buy | prob | 4220 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4220 | 0.2424 | 0.334 | 0.4221 | 0.529 | 0.7117 |  |
+| trend_sell | raw | 4220 | 0.2713 | 0.3678 | 0.6619 | 0.8418 | 0.9735 | 0.0% |
+| trend_sell | prob | 4220 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4220 | 0.2306 | 0.3127 | 0.5626 | 0.7155 | 0.8275 |  |
+| range_buy | raw | 4220 | 0.0847 | 0.1592 | 0.2429 | 0.3309 | 0.7125 | 10.4% |
+| range_buy | prob | 4220 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4220 | 0.0974 | 0.1831 | 0.2794 | 0.3805 | 0.8194 |  |
+| range_sell | raw | 4220 | 0.0804 | 0.1545 | 0.2246 | 0.2983 | 0.6216 | 10.0% |
+| range_sell | prob | 4220 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4220 | 0.0924 | 0.1777 | 0.2583 | 0.343 | 0.7149 |  |
+| mean_reversion_buy | raw | 4220 | 0.0522 | 0.0877 | 0.1584 | 0.2671 | 0.6027 | 13.2% |
+| mean_reversion_buy | prob | 4220 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4220 | 0.0444 | 0.0745 | 0.1347 | 0.227 | 0.5123 |  |
+| mean_reversion_sell | raw | 4220 | 0.0443 | 0.082 | 0.147 | 0.2242 | 0.5764 | 16.2% |
+| mean_reversion_sell | prob | 4220 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4220 | 0.0377 | 0.0697 | 0.125 | 0.1905 | 0.49 |  |
+| counter_trend_buy | raw | 975 | 0.1357 | 0.2855 | 0.4206 | 0.5564 | 0.8129 | 20.5% |
+| counter_trend_buy | prob | 975 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 975 | 0.1289 | 0.2712 | 0.3995 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 145 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.9% |
+| breakout_sell | prob | 145 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 145 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 03:10 (ทุก 1 นาทีเช็ค, records=35368)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4220 | 0.2852 | 0.393 | 0.4966 | 0.6224 | 0.8372 | 0.0% |
+| trend_buy | prob | 4220 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4220 | 0.2424 | 0.334 | 0.4221 | 0.529 | 0.7117 |  |
+| trend_sell | raw | 4220 | 0.2713 | 0.3678 | 0.6619 | 0.8418 | 0.9735 | 0.0% |
+| trend_sell | prob | 4220 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4220 | 0.2306 | 0.3127 | 0.5626 | 0.7155 | 0.8275 |  |
+| range_buy | raw | 4220 | 0.0847 | 0.1592 | 0.2429 | 0.3309 | 0.7125 | 10.4% |
+| range_buy | prob | 4220 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4220 | 0.0974 | 0.1831 | 0.2794 | 0.3805 | 0.8194 |  |
+| range_sell | raw | 4220 | 0.0804 | 0.1545 | 0.2246 | 0.2983 | 0.6216 | 10.0% |
+| range_sell | prob | 4220 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4220 | 0.0924 | 0.1777 | 0.2583 | 0.343 | 0.7149 |  |
+| mean_reversion_buy | raw | 4220 | 0.0522 | 0.0877 | 0.1584 | 0.2671 | 0.6027 | 13.2% |
+| mean_reversion_buy | prob | 4220 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4220 | 0.0444 | 0.0745 | 0.1347 | 0.227 | 0.5123 |  |
+| mean_reversion_sell | raw | 4220 | 0.0443 | 0.082 | 0.147 | 0.2242 | 0.5764 | 16.2% |
+| mean_reversion_sell | prob | 4220 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4220 | 0.0377 | 0.0697 | 0.125 | 0.1905 | 0.49 |  |
+| counter_trend_buy | raw | 975 | 0.1357 | 0.2855 | 0.4206 | 0.5564 | 0.8129 | 20.5% |
+| counter_trend_buy | prob | 975 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 975 | 0.1289 | 0.2712 | 0.3995 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 145 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.9% |
+| breakout_sell | prob | 145 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 145 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 03:23 (ทุก 1 นาทีเช็ค, records=35432)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4220 | 0.2852 | 0.393 | 0.4966 | 0.6224 | 0.8372 | 0.0% |
+| trend_buy | prob | 4220 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4220 | 0.2424 | 0.334 | 0.4221 | 0.529 | 0.7117 |  |
+| trend_sell | raw | 4220 | 0.2713 | 0.3678 | 0.6619 | 0.8418 | 0.9735 | 0.0% |
+| trend_sell | prob | 4220 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4220 | 0.2306 | 0.3127 | 0.5626 | 0.7155 | 0.8275 |  |
+| range_buy | raw | 4220 | 0.0847 | 0.1592 | 0.2429 | 0.3309 | 0.7125 | 10.4% |
+| range_buy | prob | 4220 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4220 | 0.0974 | 0.1831 | 0.2794 | 0.3805 | 0.8194 |  |
+| range_sell | raw | 4220 | 0.0804 | 0.1545 | 0.2246 | 0.2983 | 0.6216 | 10.0% |
+| range_sell | prob | 4220 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4220 | 0.0924 | 0.1777 | 0.2583 | 0.343 | 0.7149 |  |
+| mean_reversion_buy | raw | 4220 | 0.0522 | 0.0877 | 0.1584 | 0.2671 | 0.6027 | 13.2% |
+| mean_reversion_buy | prob | 4220 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4220 | 0.0444 | 0.0745 | 0.1347 | 0.227 | 0.5123 |  |
+| mean_reversion_sell | raw | 4220 | 0.0443 | 0.082 | 0.147 | 0.2242 | 0.5764 | 16.2% |
+| mean_reversion_sell | prob | 4220 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4220 | 0.0377 | 0.0697 | 0.125 | 0.1905 | 0.49 |  |
+| counter_trend_buy | raw | 975 | 0.1357 | 0.2855 | 0.4206 | 0.5564 | 0.8129 | 20.5% |
+| counter_trend_buy | prob | 975 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 975 | 0.1289 | 0.2712 | 0.3995 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 145 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.9% |
+| breakout_sell | prob | 145 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 145 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 03:36 (ทุก 1 นาทีเช็ค, records=35504)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4224 | 0.2852 | 0.393 | 0.4966 | 0.6214 | 0.8372 | 0.0% |
+| trend_buy | prob | 4224 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4224 | 0.2424 | 0.334 | 0.4221 | 0.5282 | 0.7117 |  |
+| trend_sell | raw | 4224 | 0.2713 | 0.3681 | 0.6632 | 0.844 | 0.9735 | 0.0% |
+| trend_sell | prob | 4224 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4224 | 0.2306 | 0.3129 | 0.5637 | 0.7174 | 0.8275 |  |
+| range_buy | raw | 4224 | 0.0847 | 0.1592 | 0.242 | 0.3309 | 0.7125 | 10.4% |
+| range_buy | prob | 4224 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4224 | 0.0974 | 0.1831 | 0.2782 | 0.3805 | 0.8194 |  |
+| range_sell | raw | 4224 | 0.0804 | 0.1535 | 0.2244 | 0.2983 | 0.6216 | 10.0% |
+| range_sell | prob | 4224 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4224 | 0.0924 | 0.1765 | 0.258 | 0.343 | 0.7149 |  |
+| mean_reversion_buy | raw | 4224 | 0.0522 | 0.0877 | 0.1584 | 0.2671 | 0.6027 | 13.2% |
+| mean_reversion_buy | prob | 4224 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4224 | 0.0444 | 0.0745 | 0.1347 | 0.227 | 0.5123 |  |
+| mean_reversion_sell | raw | 4224 | 0.0443 | 0.0814 | 0.147 | 0.2235 | 0.5764 | 16.2% |
+| mean_reversion_sell | prob | 4224 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4224 | 0.0377 | 0.0692 | 0.125 | 0.19 | 0.49 |  |
+| counter_trend_buy | raw | 979 | 0.1357 | 0.2855 | 0.4206 | 0.5564 | 0.8129 | 20.8% |
+| counter_trend_buy | prob | 979 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 979 | 0.1289 | 0.2712 | 0.3995 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 145 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.9% |
+| breakout_sell | prob | 145 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 145 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 03:49 (ทุก 1 นาทีเช็ค, records=35577)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4225 | 0.2852 | 0.393 | 0.4966 | 0.6214 | 0.8372 | 0.0% |
+| trend_buy | prob | 4225 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4225 | 0.2424 | 0.334 | 0.4221 | 0.5282 | 0.7117 |  |
+| trend_sell | raw | 4225 | 0.2713 | 0.3681 | 0.6686 | 0.844 | 0.9735 | 0.0% |
+| trend_sell | prob | 4225 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4225 | 0.2306 | 0.3129 | 0.5683 | 0.7174 | 0.8275 |  |
+| range_buy | raw | 4225 | 0.0847 | 0.1592 | 0.242 | 0.3309 | 0.7125 | 10.4% |
+| range_buy | prob | 4225 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4225 | 0.0974 | 0.1831 | 0.2782 | 0.3805 | 0.8194 |  |
+| range_sell | raw | 4225 | 0.0804 | 0.1535 | 0.2244 | 0.2983 | 0.6216 | 10.0% |
+| range_sell | prob | 4225 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4225 | 0.0924 | 0.1765 | 0.258 | 0.343 | 0.7149 |  |
+| mean_reversion_buy | raw | 4225 | 0.0522 | 0.0877 | 0.1584 | 0.2671 | 0.6027 | 13.2% |
+| mean_reversion_buy | prob | 4225 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4225 | 0.0444 | 0.0745 | 0.1347 | 0.227 | 0.5123 |  |
+| mean_reversion_sell | raw | 4225 | 0.0443 | 0.0814 | 0.147 | 0.2235 | 0.5764 | 16.2% |
+| mean_reversion_sell | prob | 4225 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4225 | 0.0377 | 0.0692 | 0.125 | 0.19 | 0.49 |  |
+| counter_trend_buy | raw | 980 | 0.1357 | 0.2855 | 0.4206 | 0.5564 | 0.8129 | 20.8% |
+| counter_trend_buy | prob | 980 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 980 | 0.1289 | 0.2712 | 0.3995 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 145 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.9% |
+| breakout_sell | prob | 145 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 145 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.5% |
+| breakout_reversal_buy | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 74 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 04:02 (ทุก 1 นาทีเช็ค, records=35639)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4226 | 0.2852 | 0.393 | 0.4966 | 0.6214 | 0.8372 | 0.0% |
+| trend_buy | prob | 4226 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4226 | 0.2424 | 0.334 | 0.4221 | 0.5282 | 0.7117 |  |
+| trend_sell | raw | 4226 | 0.2713 | 0.3681 | 0.6686 | 0.844 | 0.9735 | 0.0% |
+| trend_sell | prob | 4226 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4226 | 0.2306 | 0.3129 | 0.5683 | 0.7174 | 0.8275 |  |
+| range_buy | raw | 4226 | 0.0847 | 0.1592 | 0.2416 | 0.3309 | 0.7125 | 10.4% |
+| range_buy | prob | 4226 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4226 | 0.0974 | 0.1831 | 0.2779 | 0.3805 | 0.8194 |  |
+| range_sell | raw | 4226 | 0.0803 | 0.1531 | 0.2244 | 0.2983 | 0.6216 | 10.0% |
+| range_sell | prob | 4226 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4226 | 0.0924 | 0.1761 | 0.258 | 0.343 | 0.7149 |  |
+| mean_reversion_buy | raw | 4226 | 0.0522 | 0.0877 | 0.1584 | 0.2671 | 0.6027 | 13.2% |
+| mean_reversion_buy | prob | 4226 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4226 | 0.0444 | 0.0745 | 0.1347 | 0.227 | 0.5123 |  |
+| mean_reversion_sell | raw | 4226 | 0.0443 | 0.0804 | 0.147 | 0.2235 | 0.5764 | 16.2% |
+| mean_reversion_sell | prob | 4226 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4226 | 0.0377 | 0.0683 | 0.1249 | 0.19 | 0.49 |  |
+| counter_trend_buy | raw | 981 | 0.1357 | 0.2884 | 0.4206 | 0.5564 | 0.8129 | 20.9% |
+| counter_trend_buy | prob | 981 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 981 | 0.1289 | 0.2739 | 0.3995 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 145 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.9% |
+| breakout_sell | prob | 145 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 145 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.7% |
+| breakout_reversal_buy | prob | 75 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 04:15 (ทุก 1 นาทีเช็ค, records=35642)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4226 | 0.2852 | 0.393 | 0.4966 | 0.6214 | 0.8372 | 0.0% |
+| trend_buy | prob | 4226 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4226 | 0.2424 | 0.334 | 0.4221 | 0.5282 | 0.7117 |  |
+| trend_sell | raw | 4226 | 0.2713 | 0.3681 | 0.6686 | 0.844 | 0.9735 | 0.0% |
+| trend_sell | prob | 4226 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4226 | 0.2306 | 0.3129 | 0.5683 | 0.7174 | 0.8275 |  |
+| range_buy | raw | 4226 | 0.0847 | 0.1592 | 0.2416 | 0.3309 | 0.7125 | 10.4% |
+| range_buy | prob | 4226 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4226 | 0.0974 | 0.1831 | 0.2779 | 0.3805 | 0.8194 |  |
+| range_sell | raw | 4226 | 0.0803 | 0.1531 | 0.2244 | 0.2983 | 0.6216 | 10.0% |
+| range_sell | prob | 4226 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4226 | 0.0924 | 0.1761 | 0.258 | 0.343 | 0.7149 |  |
+| mean_reversion_buy | raw | 4226 | 0.0522 | 0.0877 | 0.1584 | 0.2671 | 0.6027 | 13.2% |
+| mean_reversion_buy | prob | 4226 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4226 | 0.0444 | 0.0745 | 0.1347 | 0.227 | 0.5123 |  |
+| mean_reversion_sell | raw | 4226 | 0.0443 | 0.0804 | 0.147 | 0.2235 | 0.5764 | 16.2% |
+| mean_reversion_sell | prob | 4226 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4226 | 0.0377 | 0.0683 | 0.1249 | 0.19 | 0.49 |  |
+| counter_trend_buy | raw | 981 | 0.1357 | 0.2884 | 0.4206 | 0.5564 | 0.8129 | 20.9% |
+| counter_trend_buy | prob | 981 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 981 | 0.1289 | 0.2739 | 0.3995 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 145 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.9% |
+| breakout_sell | prob | 145 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 145 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.7% |
+| breakout_reversal_buy | prob | 75 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 04:28 (ทุก 1 นาทีเช็ค, records=35645)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4226 | 0.2852 | 0.393 | 0.4966 | 0.6214 | 0.8372 | 0.0% |
+| trend_buy | prob | 4226 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4226 | 0.2424 | 0.334 | 0.4221 | 0.5282 | 0.7117 |  |
+| trend_sell | raw | 4226 | 0.2713 | 0.3681 | 0.6686 | 0.844 | 0.9735 | 0.0% |
+| trend_sell | prob | 4226 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4226 | 0.2306 | 0.3129 | 0.5683 | 0.7174 | 0.8275 |  |
+| range_buy | raw | 4226 | 0.0847 | 0.1592 | 0.2416 | 0.3309 | 0.7125 | 10.4% |
+| range_buy | prob | 4226 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4226 | 0.0974 | 0.1831 | 0.2779 | 0.3805 | 0.8194 |  |
+| range_sell | raw | 4226 | 0.0803 | 0.1531 | 0.2244 | 0.2983 | 0.6216 | 10.0% |
+| range_sell | prob | 4226 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4226 | 0.0924 | 0.1761 | 0.258 | 0.343 | 0.7149 |  |
+| mean_reversion_buy | raw | 4226 | 0.0522 | 0.0877 | 0.1584 | 0.2671 | 0.6027 | 13.2% |
+| mean_reversion_buy | prob | 4226 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4226 | 0.0444 | 0.0745 | 0.1347 | 0.227 | 0.5123 |  |
+| mean_reversion_sell | raw | 4226 | 0.0443 | 0.0804 | 0.147 | 0.2235 | 0.5764 | 16.2% |
+| mean_reversion_sell | prob | 4226 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4226 | 0.0377 | 0.0683 | 0.1249 | 0.19 | 0.49 |  |
+| counter_trend_buy | raw | 981 | 0.1357 | 0.2884 | 0.4206 | 0.5564 | 0.8129 | 20.9% |
+| counter_trend_buy | prob | 981 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 981 | 0.1289 | 0.2739 | 0.3995 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 145 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.9% |
+| breakout_sell | prob | 145 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 145 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.7% |
+| breakout_reversal_buy | prob | 75 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 04:41 (ทุก 1 นาทีเช็ค, records=35649)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4226 | 0.2852 | 0.393 | 0.4966 | 0.6214 | 0.8372 | 0.0% |
+| trend_buy | prob | 4226 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4226 | 0.2424 | 0.334 | 0.4221 | 0.5282 | 0.7117 |  |
+| trend_sell | raw | 4226 | 0.2713 | 0.3681 | 0.6686 | 0.844 | 0.9735 | 0.0% |
+| trend_sell | prob | 4226 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4226 | 0.2306 | 0.3129 | 0.5683 | 0.7174 | 0.8275 |  |
+| range_buy | raw | 4226 | 0.0847 | 0.1592 | 0.2416 | 0.3309 | 0.7125 | 10.4% |
+| range_buy | prob | 4226 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4226 | 0.0974 | 0.1831 | 0.2779 | 0.3805 | 0.8194 |  |
+| range_sell | raw | 4226 | 0.0803 | 0.1531 | 0.2244 | 0.2983 | 0.6216 | 10.0% |
+| range_sell | prob | 4226 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4226 | 0.0924 | 0.1761 | 0.258 | 0.343 | 0.7149 |  |
+| mean_reversion_buy | raw | 4226 | 0.0522 | 0.0877 | 0.1584 | 0.2671 | 0.6027 | 13.2% |
+| mean_reversion_buy | prob | 4226 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4226 | 0.0444 | 0.0745 | 0.1347 | 0.227 | 0.5123 |  |
+| mean_reversion_sell | raw | 4226 | 0.0443 | 0.0804 | 0.147 | 0.2235 | 0.5764 | 16.2% |
+| mean_reversion_sell | prob | 4226 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4226 | 0.0377 | 0.0683 | 0.1249 | 0.19 | 0.49 |  |
+| counter_trend_buy | raw | 981 | 0.1357 | 0.2884 | 0.4206 | 0.5564 | 0.8129 | 20.9% |
+| counter_trend_buy | prob | 981 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 981 | 0.1289 | 0.2739 | 0.3995 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 145 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.9% |
+| breakout_sell | prob | 145 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 145 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.7% |
+| breakout_reversal_buy | prob | 75 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 04:54 (ทุก 1 นาทีเช็ค, records=35653)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4226 | 0.2852 | 0.393 | 0.4966 | 0.6214 | 0.8372 | 0.0% |
+| trend_buy | prob | 4226 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4226 | 0.2424 | 0.334 | 0.4221 | 0.5282 | 0.7117 |  |
+| trend_sell | raw | 4226 | 0.2713 | 0.3681 | 0.6686 | 0.844 | 0.9735 | 0.0% |
+| trend_sell | prob | 4226 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4226 | 0.2306 | 0.3129 | 0.5683 | 0.7174 | 0.8275 |  |
+| range_buy | raw | 4226 | 0.0847 | 0.1592 | 0.2416 | 0.3309 | 0.7125 | 10.4% |
+| range_buy | prob | 4226 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4226 | 0.0974 | 0.1831 | 0.2779 | 0.3805 | 0.8194 |  |
+| range_sell | raw | 4226 | 0.0803 | 0.1531 | 0.2244 | 0.2983 | 0.6216 | 10.0% |
+| range_sell | prob | 4226 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4226 | 0.0924 | 0.1761 | 0.258 | 0.343 | 0.7149 |  |
+| mean_reversion_buy | raw | 4226 | 0.0522 | 0.0877 | 0.1584 | 0.2671 | 0.6027 | 13.2% |
+| mean_reversion_buy | prob | 4226 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4226 | 0.0444 | 0.0745 | 0.1347 | 0.227 | 0.5123 |  |
+| mean_reversion_sell | raw | 4226 | 0.0443 | 0.0804 | 0.147 | 0.2235 | 0.5764 | 16.2% |
+| mean_reversion_sell | prob | 4226 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4226 | 0.0377 | 0.0683 | 0.1249 | 0.19 | 0.49 |  |
+| counter_trend_buy | raw | 981 | 0.1357 | 0.2884 | 0.4206 | 0.5564 | 0.8129 | 20.9% |
+| counter_trend_buy | prob | 981 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 981 | 0.1289 | 0.2739 | 0.3995 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 145 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.9% |
+| breakout_sell | prob | 145 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 145 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.7% |
+| breakout_reversal_buy | prob | 75 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 05:07 (ทุก 1 นาทีเช็ค, records=35676)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4229 | 0.2856 | 0.393 | 0.4966 | 0.6214 | 0.8372 | 0.0% |
+| trend_buy | prob | 4229 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4229 | 0.2427 | 0.334 | 0.4221 | 0.5282 | 0.7117 |  |
+| trend_sell | raw | 4229 | 0.2713 | 0.3681 | 0.6686 | 0.8463 | 0.9735 | 0.0% |
+| trend_sell | prob | 4229 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4229 | 0.2306 | 0.3129 | 0.5683 | 0.7194 | 0.8275 |  |
+| range_buy | raw | 4229 | 0.0847 | 0.1592 | 0.2416 | 0.3309 | 0.7125 | 10.4% |
+| range_buy | prob | 4229 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4229 | 0.0974 | 0.183 | 0.2779 | 0.3805 | 0.8194 |  |
+| range_sell | raw | 4229 | 0.0803 | 0.1531 | 0.2244 | 0.2983 | 0.6216 | 10.0% |
+| range_sell | prob | 4229 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4229 | 0.0924 | 0.1761 | 0.258 | 0.343 | 0.7149 |  |
+| mean_reversion_buy | raw | 4229 | 0.0522 | 0.0877 | 0.1584 | 0.2671 | 0.6027 | 13.2% |
+| mean_reversion_buy | prob | 4229 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4229 | 0.0444 | 0.0745 | 0.1347 | 0.227 | 0.5123 |  |
+| mean_reversion_sell | raw | 4229 | 0.0442 | 0.0804 | 0.147 | 0.2235 | 0.5764 | 16.2% |
+| mean_reversion_sell | prob | 4229 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4229 | 0.0376 | 0.0683 | 0.1249 | 0.19 | 0.49 |  |
+| counter_trend_buy | raw | 984 | 0.1357 | 0.2884 | 0.4206 | 0.5564 | 0.8129 | 20.8% |
+| counter_trend_buy | prob | 984 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 984 | 0.1289 | 0.2739 | 0.3995 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 145 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.9% |
+| breakout_sell | prob | 145 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 145 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.7% |
+| breakout_reversal_buy | prob | 75 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 05:20 (ทุก 1 นาทีเช็ค, records=35743)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4229 | 0.2856 | 0.393 | 0.4966 | 0.6214 | 0.8372 | 0.0% |
+| trend_buy | prob | 4229 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4229 | 0.2427 | 0.334 | 0.4221 | 0.5282 | 0.7117 |  |
+| trend_sell | raw | 4229 | 0.2713 | 0.3681 | 0.6686 | 0.8463 | 0.9735 | 0.0% |
+| trend_sell | prob | 4229 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4229 | 0.2306 | 0.3129 | 0.5683 | 0.7194 | 0.8275 |  |
+| range_buy | raw | 4229 | 0.0847 | 0.1592 | 0.2416 | 0.3309 | 0.7125 | 10.4% |
+| range_buy | prob | 4229 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4229 | 0.0974 | 0.183 | 0.2779 | 0.3805 | 0.8194 |  |
+| range_sell | raw | 4229 | 0.0803 | 0.1531 | 0.2244 | 0.2983 | 0.6216 | 10.0% |
+| range_sell | prob | 4229 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4229 | 0.0924 | 0.1761 | 0.258 | 0.343 | 0.7149 |  |
+| mean_reversion_buy | raw | 4229 | 0.0522 | 0.0877 | 0.1584 | 0.2671 | 0.6027 | 13.2% |
+| mean_reversion_buy | prob | 4229 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4229 | 0.0444 | 0.0745 | 0.1347 | 0.227 | 0.5123 |  |
+| mean_reversion_sell | raw | 4229 | 0.0442 | 0.0804 | 0.147 | 0.2235 | 0.5764 | 16.2% |
+| mean_reversion_sell | prob | 4229 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4229 | 0.0376 | 0.0683 | 0.1249 | 0.19 | 0.49 |  |
+| counter_trend_buy | raw | 984 | 0.1357 | 0.2884 | 0.4206 | 0.5564 | 0.8129 | 20.8% |
+| counter_trend_buy | prob | 984 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 984 | 0.1289 | 0.2739 | 0.3995 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 145 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.9% |
+| breakout_sell | prob | 145 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 145 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.7% |
+| breakout_reversal_buy | prob | 75 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 05:33 (ทุก 1 นาทีเช็ค, records=35819)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4230 | 0.2856 | 0.393 | 0.4966 | 0.6214 | 0.8372 | 0.0% |
+| trend_buy | prob | 4230 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4230 | 0.2427 | 0.334 | 0.4221 | 0.5282 | 0.7117 |  |
+| trend_sell | raw | 4230 | 0.2713 | 0.3681 | 0.6686 | 0.8463 | 0.9735 | 0.0% |
+| trend_sell | prob | 4230 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4230 | 0.2306 | 0.3129 | 0.5683 | 0.7194 | 0.8275 |  |
+| range_buy | raw | 4230 | 0.0847 | 0.1592 | 0.2416 | 0.3309 | 0.7125 | 10.4% |
+| range_buy | prob | 4230 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4230 | 0.0974 | 0.183 | 0.2779 | 0.3805 | 0.8194 |  |
+| range_sell | raw | 4230 | 0.0803 | 0.1531 | 0.2244 | 0.2983 | 0.6216 | 10.0% |
+| range_sell | prob | 4230 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4230 | 0.0924 | 0.1761 | 0.258 | 0.343 | 0.7149 |  |
+| mean_reversion_buy | raw | 4230 | 0.0522 | 0.0877 | 0.1584 | 0.2671 | 0.6027 | 13.2% |
+| mean_reversion_buy | prob | 4230 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4230 | 0.0444 | 0.0745 | 0.1346 | 0.227 | 0.5123 |  |
+| mean_reversion_sell | raw | 4230 | 0.0442 | 0.0804 | 0.1467 | 0.2235 | 0.5764 | 16.1% |
+| mean_reversion_sell | prob | 4230 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4230 | 0.0376 | 0.0683 | 0.1247 | 0.19 | 0.49 |  |
+| counter_trend_buy | raw | 984 | 0.1357 | 0.2884 | 0.4206 | 0.5564 | 0.8129 | 20.8% |
+| counter_trend_buy | prob | 984 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 984 | 0.1289 | 0.2739 | 0.3995 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 145 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.9% |
+| breakout_sell | prob | 145 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 145 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.7% |
+| breakout_reversal_buy | prob | 75 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 05:46 (ทุก 1 นาทีเช็ค, records=35882)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4230 | 0.2856 | 0.393 | 0.4966 | 0.6214 | 0.8372 | 0.0% |
+| trend_buy | prob | 4230 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4230 | 0.2427 | 0.334 | 0.4221 | 0.5282 | 0.7117 |  |
+| trend_sell | raw | 4230 | 0.2713 | 0.3681 | 0.6686 | 0.8463 | 0.9735 | 0.0% |
+| trend_sell | prob | 4230 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4230 | 0.2306 | 0.3129 | 0.5683 | 0.7194 | 0.8275 |  |
+| range_buy | raw | 4230 | 0.0847 | 0.1592 | 0.2416 | 0.3309 | 0.7125 | 10.4% |
+| range_buy | prob | 4230 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4230 | 0.0974 | 0.183 | 0.2779 | 0.3805 | 0.8194 |  |
+| range_sell | raw | 4230 | 0.0803 | 0.1531 | 0.2244 | 0.2983 | 0.6216 | 10.0% |
+| range_sell | prob | 4230 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4230 | 0.0924 | 0.1761 | 0.258 | 0.343 | 0.7149 |  |
+| mean_reversion_buy | raw | 4230 | 0.0522 | 0.0877 | 0.1584 | 0.2671 | 0.6027 | 13.2% |
+| mean_reversion_buy | prob | 4230 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4230 | 0.0444 | 0.0745 | 0.1346 | 0.227 | 0.5123 |  |
+| mean_reversion_sell | raw | 4230 | 0.0442 | 0.0804 | 0.1467 | 0.2235 | 0.5764 | 16.1% |
+| mean_reversion_sell | prob | 4230 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4230 | 0.0376 | 0.0683 | 0.1247 | 0.19 | 0.49 |  |
+| counter_trend_buy | raw | 984 | 0.1357 | 0.2884 | 0.4206 | 0.5564 | 0.8129 | 20.8% |
+| counter_trend_buy | prob | 984 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 984 | 0.1289 | 0.2739 | 0.3995 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 145 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.9% |
+| breakout_sell | prob | 145 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 145 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.7% |
+| breakout_reversal_buy | prob | 75 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 05:59 (ทุก 1 นาทีเช็ค, records=35949)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4230 | 0.2856 | 0.393 | 0.4966 | 0.6214 | 0.8372 | 0.0% |
+| trend_buy | prob | 4230 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4230 | 0.2427 | 0.334 | 0.4221 | 0.5282 | 0.7117 |  |
+| trend_sell | raw | 4230 | 0.2713 | 0.3681 | 0.6686 | 0.8463 | 0.9735 | 0.0% |
+| trend_sell | prob | 4230 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4230 | 0.2306 | 0.3129 | 0.5683 | 0.7194 | 0.8275 |  |
+| range_buy | raw | 4230 | 0.0847 | 0.1592 | 0.2416 | 0.3309 | 0.7125 | 10.4% |
+| range_buy | prob | 4230 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4230 | 0.0974 | 0.183 | 0.2779 | 0.3805 | 0.8194 |  |
+| range_sell | raw | 4230 | 0.0803 | 0.1531 | 0.2244 | 0.2983 | 0.6216 | 10.0% |
+| range_sell | prob | 4230 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4230 | 0.0924 | 0.1761 | 0.258 | 0.343 | 0.7149 |  |
+| mean_reversion_buy | raw | 4230 | 0.0522 | 0.0877 | 0.1584 | 0.2671 | 0.6027 | 13.2% |
+| mean_reversion_buy | prob | 4230 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4230 | 0.0444 | 0.0745 | 0.1346 | 0.227 | 0.5123 |  |
+| mean_reversion_sell | raw | 4230 | 0.0442 | 0.0804 | 0.1467 | 0.2235 | 0.5764 | 16.1% |
+| mean_reversion_sell | prob | 4230 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4230 | 0.0376 | 0.0683 | 0.1247 | 0.19 | 0.49 |  |
+| counter_trend_buy | raw | 984 | 0.1357 | 0.2884 | 0.4206 | 0.5564 | 0.8129 | 20.8% |
+| counter_trend_buy | prob | 984 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 984 | 0.1289 | 0.2739 | 0.3995 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 145 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.9% |
+| breakout_sell | prob | 145 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 145 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.7% |
+| breakout_reversal_buy | prob | 75 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 06:12 (ทุก 1 นาทีเช็ค, records=36018)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4230 | 0.2856 | 0.393 | 0.4966 | 0.6214 | 0.8372 | 0.0% |
+| trend_buy | prob | 4230 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4230 | 0.2427 | 0.334 | 0.4221 | 0.5282 | 0.7117 |  |
+| trend_sell | raw | 4230 | 0.2713 | 0.3681 | 0.6686 | 0.8463 | 0.9735 | 0.0% |
+| trend_sell | prob | 4230 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4230 | 0.2306 | 0.3129 | 0.5683 | 0.7194 | 0.8275 |  |
+| range_buy | raw | 4230 | 0.0847 | 0.1592 | 0.2416 | 0.3309 | 0.7125 | 10.4% |
+| range_buy | prob | 4230 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4230 | 0.0974 | 0.183 | 0.2779 | 0.3805 | 0.8194 |  |
+| range_sell | raw | 4230 | 0.0803 | 0.1531 | 0.2244 | 0.2983 | 0.6216 | 10.0% |
+| range_sell | prob | 4230 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4230 | 0.0924 | 0.1761 | 0.258 | 0.343 | 0.7149 |  |
+| mean_reversion_buy | raw | 4230 | 0.0522 | 0.0877 | 0.1584 | 0.2671 | 0.6027 | 13.2% |
+| mean_reversion_buy | prob | 4230 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4230 | 0.0444 | 0.0745 | 0.1346 | 0.227 | 0.5123 |  |
+| mean_reversion_sell | raw | 4230 | 0.0442 | 0.0804 | 0.1467 | 0.2235 | 0.5764 | 16.1% |
+| mean_reversion_sell | prob | 4230 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4230 | 0.0376 | 0.0683 | 0.1247 | 0.19 | 0.49 |  |
+| counter_trend_buy | raw | 984 | 0.1357 | 0.2884 | 0.4206 | 0.5564 | 0.8129 | 20.8% |
+| counter_trend_buy | prob | 984 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 984 | 0.1289 | 0.2739 | 0.3995 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 145 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.9% |
+| breakout_sell | prob | 145 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 145 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.7% |
+| breakout_reversal_buy | prob | 75 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 06:25 (ทุก 1 นาทีเช็ค, records=36086)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4230 | 0.2856 | 0.393 | 0.4966 | 0.6214 | 0.8372 | 0.0% |
+| trend_buy | prob | 4230 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4230 | 0.2427 | 0.334 | 0.4221 | 0.5282 | 0.7117 |  |
+| trend_sell | raw | 4230 | 0.2713 | 0.3681 | 0.6686 | 0.8463 | 0.9735 | 0.0% |
+| trend_sell | prob | 4230 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4230 | 0.2306 | 0.3129 | 0.5683 | 0.7194 | 0.8275 |  |
+| range_buy | raw | 4230 | 0.0847 | 0.1592 | 0.2416 | 0.3309 | 0.7125 | 10.4% |
+| range_buy | prob | 4230 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4230 | 0.0974 | 0.183 | 0.2779 | 0.3805 | 0.8194 |  |
+| range_sell | raw | 4230 | 0.0803 | 0.1531 | 0.2244 | 0.2983 | 0.6216 | 10.0% |
+| range_sell | prob | 4230 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4230 | 0.0924 | 0.1761 | 0.258 | 0.343 | 0.7149 |  |
+| mean_reversion_buy | raw | 4230 | 0.0522 | 0.0877 | 0.1584 | 0.2671 | 0.6027 | 13.2% |
+| mean_reversion_buy | prob | 4230 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4230 | 0.0444 | 0.0745 | 0.1346 | 0.227 | 0.5123 |  |
+| mean_reversion_sell | raw | 4230 | 0.0442 | 0.0804 | 0.1467 | 0.2235 | 0.5764 | 16.1% |
+| mean_reversion_sell | prob | 4230 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4230 | 0.0376 | 0.0683 | 0.1247 | 0.19 | 0.49 |  |
+| counter_trend_buy | raw | 984 | 0.1357 | 0.2884 | 0.4206 | 0.5564 | 0.8129 | 20.8% |
+| counter_trend_buy | prob | 984 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 984 | 0.1289 | 0.2739 | 0.3995 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 145 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.9% |
+| breakout_sell | prob | 145 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 145 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.7% |
+| breakout_reversal_buy | prob | 75 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 06:38 (ทุก 1 นาทีเช็ค, records=36160)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4231 | 0.2856 | 0.393 | 0.4966 | 0.6214 | 0.8372 | 0.0% |
+| trend_buy | prob | 4231 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4231 | 0.2427 | 0.334 | 0.4221 | 0.5282 | 0.7117 |  |
+| trend_sell | raw | 4231 | 0.2713 | 0.3686 | 0.6686 | 0.8463 | 0.9735 | 0.0% |
+| trend_sell | prob | 4231 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4231 | 0.2306 | 0.3133 | 0.5683 | 0.7194 | 0.8275 |  |
+| range_buy | raw | 4231 | 0.0847 | 0.1592 | 0.2416 | 0.3309 | 0.7125 | 10.4% |
+| range_buy | prob | 4231 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4231 | 0.0974 | 0.183 | 0.2779 | 0.3805 | 0.8194 |  |
+| range_sell | raw | 4231 | 0.0803 | 0.1531 | 0.2244 | 0.2983 | 0.6216 | 10.0% |
+| range_sell | prob | 4231 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4231 | 0.0924 | 0.1761 | 0.258 | 0.343 | 0.7149 |  |
+| mean_reversion_buy | raw | 4231 | 0.0522 | 0.0877 | 0.1584 | 0.2671 | 0.6027 | 13.2% |
+| mean_reversion_buy | prob | 4231 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4231 | 0.0444 | 0.0745 | 0.1346 | 0.227 | 0.5123 |  |
+| mean_reversion_sell | raw | 4231 | 0.0442 | 0.0804 | 0.147 | 0.2242 | 0.5764 | 16.1% |
+| mean_reversion_sell | prob | 4231 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4231 | 0.0376 | 0.0683 | 0.1249 | 0.1905 | 0.49 |  |
+| counter_trend_buy | raw | 984 | 0.1357 | 0.2884 | 0.4206 | 0.5564 | 0.8129 | 20.8% |
+| counter_trend_buy | prob | 984 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 984 | 0.1289 | 0.2739 | 0.3995 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 145 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.9% |
+| breakout_sell | prob | 145 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 145 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.7% |
+| breakout_reversal_buy | prob | 75 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 06:51 (ทุก 1 นาทีเช็ค, records=36234)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4232 | 0.2856 | 0.393 | 0.4966 | 0.6183 | 0.8372 | 0.0% |
+| trend_buy | prob | 4232 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4232 | 0.2427 | 0.334 | 0.4221 | 0.5255 | 0.7117 |  |
+| trend_sell | raw | 4232 | 0.2713 | 0.3686 | 0.6686 | 0.8463 | 0.9735 | 0.0% |
+| trend_sell | prob | 4232 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4232 | 0.2306 | 0.3133 | 0.5683 | 0.7194 | 0.8275 |  |
+| range_buy | raw | 4232 | 0.0847 | 0.1588 | 0.2416 | 0.3309 | 0.7125 | 10.4% |
+| range_buy | prob | 4232 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4232 | 0.0974 | 0.1826 | 0.2779 | 0.3805 | 0.8194 |  |
+| range_sell | raw | 4232 | 0.0803 | 0.1531 | 0.2244 | 0.2983 | 0.6216 | 9.9% |
+| range_sell | prob | 4232 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4232 | 0.0924 | 0.1761 | 0.258 | 0.343 | 0.7149 |  |
+| mean_reversion_buy | raw | 4232 | 0.0522 | 0.0877 | 0.1584 | 0.2671 | 0.6027 | 13.2% |
+| mean_reversion_buy | prob | 4232 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4232 | 0.0444 | 0.0745 | 0.1346 | 0.227 | 0.5123 |  |
+| mean_reversion_sell | raw | 4232 | 0.0442 | 0.0804 | 0.147 | 0.2242 | 0.5764 | 16.1% |
+| mean_reversion_sell | prob | 4232 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4232 | 0.0376 | 0.0683 | 0.125 | 0.1905 | 0.49 |  |
+| counter_trend_buy | raw | 984 | 0.1357 | 0.2884 | 0.4206 | 0.5564 | 0.8129 | 20.8% |
+| counter_trend_buy | prob | 984 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 984 | 0.1289 | 0.2739 | 0.3995 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 145 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.9% |
+| breakout_sell | prob | 145 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 145 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.7% |
+| breakout_reversal_buy | prob | 75 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 07:04 (ทุก 1 นาทีเช็ค, records=36303)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4233 | 0.2856 | 0.393 | 0.4966 | 0.6183 | 0.8372 | 0.0% |
+| trend_buy | prob | 4233 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4233 | 0.2427 | 0.334 | 0.4221 | 0.5255 | 0.7117 |  |
+| trend_sell | raw | 4233 | 0.2713 | 0.3686 | 0.6686 | 0.8463 | 0.9735 | 0.0% |
+| trend_sell | prob | 4233 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4233 | 0.2306 | 0.3133 | 0.5683 | 0.7194 | 0.8275 |  |
+| range_buy | raw | 4233 | 0.0847 | 0.1592 | 0.2416 | 0.3309 | 0.7125 | 10.4% |
+| range_buy | prob | 4233 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4233 | 0.0974 | 0.183 | 0.2779 | 0.3805 | 0.8194 |  |
+| range_sell | raw | 4233 | 0.0803 | 0.1531 | 0.2246 | 0.2983 | 0.6216 | 10.0% |
+| range_sell | prob | 4233 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4233 | 0.0924 | 0.1761 | 0.2583 | 0.343 | 0.7149 |  |
+| mean_reversion_buy | raw | 4233 | 0.0522 | 0.0877 | 0.1584 | 0.2671 | 0.6027 | 13.2% |
+| mean_reversion_buy | prob | 4233 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4233 | 0.0444 | 0.0745 | 0.1346 | 0.227 | 0.5123 |  |
+| mean_reversion_sell | raw | 4233 | 0.0442 | 0.0814 | 0.147 | 0.2242 | 0.5764 | 16.1% |
+| mean_reversion_sell | prob | 4233 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4233 | 0.0376 | 0.0692 | 0.125 | 0.1905 | 0.49 |  |
+| counter_trend_buy | raw | 984 | 0.1357 | 0.2884 | 0.4206 | 0.5564 | 0.8129 | 20.8% |
+| counter_trend_buy | prob | 984 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 984 | 0.1289 | 0.2739 | 0.3995 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 145 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.9% |
+| breakout_sell | prob | 145 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 145 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.7% |
+| breakout_reversal_buy | prob | 75 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 07:17 (ทุก 1 นาทีเช็ค, records=36380)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4235 | 0.2856 | 0.393 | 0.4966 | 0.6183 | 0.8372 | 0.0% |
+| trend_buy | prob | 4235 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4235 | 0.2427 | 0.334 | 0.4221 | 0.5255 | 0.7117 |  |
+| trend_sell | raw | 4235 | 0.2713 | 0.3686 | 0.6686 | 0.8463 | 0.9735 | 0.0% |
+| trend_sell | prob | 4235 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4235 | 0.2306 | 0.3133 | 0.5683 | 0.7194 | 0.8275 |  |
+| range_buy | raw | 4235 | 0.0847 | 0.1592 | 0.2416 | 0.3309 | 0.7125 | 10.4% |
+| range_buy | prob | 4235 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4235 | 0.0974 | 0.183 | 0.2779 | 0.3805 | 0.8194 |  |
+| range_sell | raw | 4235 | 0.0803 | 0.1535 | 0.2244 | 0.2983 | 0.6216 | 10.0% |
+| range_sell | prob | 4235 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4235 | 0.0924 | 0.1765 | 0.258 | 0.343 | 0.7149 |  |
+| mean_reversion_buy | raw | 4235 | 0.0522 | 0.0877 | 0.1584 | 0.2671 | 0.6027 | 13.2% |
+| mean_reversion_buy | prob | 4235 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4235 | 0.0444 | 0.0745 | 0.1347 | 0.227 | 0.5123 |  |
+| mean_reversion_sell | raw | 4235 | 0.0442 | 0.0819 | 0.147 | 0.2242 | 0.5764 | 16.1% |
+| mean_reversion_sell | prob | 4235 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4235 | 0.0376 | 0.0696 | 0.1249 | 0.1905 | 0.49 |  |
+| counter_trend_buy | raw | 985 | 0.1389 | 0.2884 | 0.4206 | 0.5564 | 0.8129 | 20.8% |
+| counter_trend_buy | prob | 985 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 985 | 0.1319 | 0.2739 | 0.3995 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 145 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.9% |
+| breakout_sell | prob | 145 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 145 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.7% |
+| breakout_reversal_buy | prob | 75 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 07:30 (ทุก 1 นาทีเช็ค, records=36471)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4239 | 0.2856 | 0.393 | 0.4961 | 0.6183 | 0.8372 | 0.0% |
+| trend_buy | prob | 4239 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4239 | 0.2427 | 0.334 | 0.4217 | 0.5255 | 0.7117 |  |
+| trend_sell | raw | 4239 | 0.2714 | 0.3686 | 0.6696 | 0.8463 | 0.9735 | 0.0% |
+| trend_sell | prob | 4239 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4239 | 0.2307 | 0.3133 | 0.5692 | 0.7194 | 0.8275 |  |
+| range_buy | raw | 4239 | 0.0847 | 0.1592 | 0.2432 | 0.3322 | 0.7125 | 10.4% |
+| range_buy | prob | 4239 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4239 | 0.0974 | 0.1831 | 0.2797 | 0.3821 | 0.8194 |  |
+| range_sell | raw | 4239 | 0.0803 | 0.1545 | 0.2244 | 0.2983 | 0.6216 | 10.0% |
+| range_sell | prob | 4239 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4239 | 0.0924 | 0.1777 | 0.258 | 0.343 | 0.7149 |  |
+| mean_reversion_buy | raw | 4239 | 0.0523 | 0.0877 | 0.1584 | 0.2706 | 0.6027 | 13.2% |
+| mean_reversion_buy | prob | 4239 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4239 | 0.0445 | 0.0746 | 0.1347 | 0.23 | 0.5123 |  |
+| mean_reversion_sell | raw | 4239 | 0.0443 | 0.082 | 0.1467 | 0.2242 | 0.5764 | 16.1% |
+| mean_reversion_sell | prob | 4239 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4239 | 0.0377 | 0.0697 | 0.1247 | 0.1905 | 0.49 |  |
+| counter_trend_buy | raw | 989 | 0.1389 | 0.2884 | 0.4206 | 0.5564 | 0.8129 | 20.8% |
+| counter_trend_buy | prob | 989 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 989 | 0.1319 | 0.2739 | 0.3995 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 146 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.8% |
+| breakout_sell | prob | 146 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 146 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.7% |
+| breakout_reversal_buy | prob | 75 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 07:43 (ทุก 1 นาทีเช็ค, records=36547)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4241 | 0.2856 | 0.3932 | 0.4961 | 0.6183 | 0.8372 | 0.0% |
+| trend_buy | prob | 4241 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4241 | 0.2427 | 0.3342 | 0.4217 | 0.5255 | 0.7117 |  |
+| trend_sell | raw | 4241 | 0.2714 | 0.3692 | 0.6696 | 0.8463 | 0.9735 | 0.0% |
+| trend_sell | prob | 4241 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4241 | 0.2307 | 0.3138 | 0.5692 | 0.7194 | 0.8275 |  |
+| range_buy | raw | 4241 | 0.0847 | 0.1592 | 0.2432 | 0.3322 | 0.7125 | 10.4% |
+| range_buy | prob | 4241 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4241 | 0.0974 | 0.1831 | 0.2797 | 0.3821 | 0.8194 |  |
+| range_sell | raw | 4241 | 0.0804 | 0.1545 | 0.2246 | 0.2983 | 0.6216 | 10.0% |
+| range_sell | prob | 4241 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4241 | 0.0924 | 0.1777 | 0.2583 | 0.343 | 0.7149 |  |
+| mean_reversion_buy | raw | 4241 | 0.0523 | 0.0877 | 0.1584 | 0.2706 | 0.6027 | 13.2% |
+| mean_reversion_buy | prob | 4241 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4241 | 0.0445 | 0.0746 | 0.1347 | 0.23 | 0.5123 |  |
+| mean_reversion_sell | raw | 4241 | 0.0443 | 0.082 | 0.147 | 0.2242 | 0.5764 | 16.1% |
+| mean_reversion_sell | prob | 4241 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4241 | 0.0377 | 0.0697 | 0.1249 | 0.1905 | 0.49 |  |
+| counter_trend_buy | raw | 990 | 0.1389 | 0.2855 | 0.4206 | 0.5564 | 0.8129 | 20.8% |
+| counter_trend_buy | prob | 990 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 990 | 0.1319 | 0.2712 | 0.3995 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 146 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.8% |
+| breakout_sell | prob | 146 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 146 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.7% |
+| breakout_reversal_buy | prob | 75 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 07:56 (ทุก 1 นาทีเช็ค, records=36618)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4250 | 0.2864 | 0.3934 | 0.4961 | 0.6183 | 0.8372 | 0.0% |
+| trend_buy | prob | 4250 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4250 | 0.2435 | 0.3344 | 0.4217 | 0.5255 | 0.7117 |  |
+| trend_sell | raw | 4250 | 0.2714 | 0.3692 | 0.6698 | 0.8464 | 0.9735 | 0.0% |
+| trend_sell | prob | 4250 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4250 | 0.2307 | 0.3138 | 0.5693 | 0.7195 | 0.8275 |  |
+| range_buy | raw | 4250 | 0.0847 | 0.1592 | 0.2443 | 0.3349 | 0.7125 | 10.4% |
+| range_buy | prob | 4250 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4250 | 0.0974 | 0.1831 | 0.2809 | 0.3852 | 0.8194 |  |
+| range_sell | raw | 4250 | 0.0804 | 0.1546 | 0.2246 | 0.2983 | 0.6216 | 10.0% |
+| range_sell | prob | 4250 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4250 | 0.0924 | 0.1778 | 0.2583 | 0.343 | 0.7149 |  |
+| mean_reversion_buy | raw | 4250 | 0.0523 | 0.0878 | 0.1599 | 0.2725 | 0.6027 | 13.2% |
+| mean_reversion_buy | prob | 4250 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4250 | 0.0445 | 0.0746 | 0.1359 | 0.2316 | 0.5123 |  |
+| mean_reversion_sell | raw | 4250 | 0.0443 | 0.082 | 0.1467 | 0.2235 | 0.5764 | 16.1% |
+| mean_reversion_sell | prob | 4250 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4250 | 0.0377 | 0.0697 | 0.1247 | 0.19 | 0.49 |  |
+| counter_trend_buy | raw | 999 | 0.1389 | 0.293 | 0.4206 | 0.5564 | 0.8129 | 21.2% |
+| counter_trend_buy | prob | 999 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 999 | 0.1319 | 0.2783 | 0.3995 | 0.5286 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 146 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.8% |
+| breakout_sell | prob | 146 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 146 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.7% |
+| breakout_reversal_buy | prob | 75 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 08:09 (ทุก 1 นาทีเช็ค, records=36680)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4258 | 0.2864 | 0.3935 | 0.4958 | 0.6182 | 0.8372 | 0.0% |
+| trend_buy | prob | 4258 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4258 | 0.2435 | 0.3344 | 0.4215 | 0.5255 | 0.7117 |  |
+| trend_sell | raw | 4258 | 0.2715 | 0.3694 | 0.6701 | 0.847 | 0.9735 | 0.0% |
+| trend_sell | prob | 4258 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4258 | 0.2308 | 0.3139 | 0.5696 | 0.7199 | 0.8275 |  |
+| range_buy | raw | 4258 | 0.0847 | 0.1595 | 0.2444 | 0.3357 | 0.7125 | 10.4% |
+| range_buy | prob | 4258 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4258 | 0.0974 | 0.1834 | 0.281 | 0.3861 | 0.8194 |  |
+| range_sell | raw | 4258 | 0.0804 | 0.1555 | 0.2244 | 0.2983 | 0.6216 | 10.0% |
+| range_sell | prob | 4258 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4258 | 0.0925 | 0.1788 | 0.258 | 0.343 | 0.7149 |  |
+| mean_reversion_buy | raw | 4258 | 0.0524 | 0.0878 | 0.1601 | 0.2729 | 0.6027 | 13.2% |
+| mean_reversion_buy | prob | 4258 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4258 | 0.0445 | 0.0746 | 0.1361 | 0.232 | 0.5123 |  |
+| mean_reversion_sell | raw | 4258 | 0.0447 | 0.082 | 0.1467 | 0.2235 | 0.5764 | 16.1% |
+| mean_reversion_sell | prob | 4258 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4258 | 0.038 | 0.0697 | 0.1247 | 0.19 | 0.49 |  |
+| counter_trend_buy | raw | 1007 | 0.1389 | 0.293 | 0.4206 | 0.5559 | 0.8129 | 21.1% |
+| counter_trend_buy | prob | 1007 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 1007 | 0.1319 | 0.2783 | 0.3995 | 0.5281 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 146 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.8% |
+| breakout_sell | prob | 146 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 146 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.7% |
+| breakout_reversal_buy | prob | 75 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 08:22 (ทุก 1 นาทีเช็ค, records=36760)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4262 | 0.2864 | 0.3939 | 0.4958 | 0.6182 | 0.8372 | 0.0% |
+| trend_buy | prob | 4262 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4262 | 0.2435 | 0.3348 | 0.4215 | 0.5255 | 0.7117 |  |
+| trend_sell | raw | 4262 | 0.2715 | 0.3695 | 0.6741 | 0.847 | 0.9735 | 0.0% |
+| trend_sell | prob | 4262 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4262 | 0.2308 | 0.3141 | 0.5729 | 0.7199 | 0.8275 |  |
+| range_buy | raw | 4262 | 0.0847 | 0.16 | 0.2445 | 0.3357 | 0.7125 | 10.4% |
+| range_buy | prob | 4262 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4262 | 0.0974 | 0.184 | 0.2811 | 0.3861 | 0.8194 |  |
+| range_sell | raw | 4262 | 0.0804 | 0.1555 | 0.2246 | 0.2983 | 0.6216 | 9.9% |
+| range_sell | prob | 4262 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4262 | 0.0925 | 0.1788 | 0.2583 | 0.343 | 0.7149 |  |
+| mean_reversion_buy | raw | 4262 | 0.0524 | 0.0882 | 0.1604 | 0.2729 | 0.6027 | 13.2% |
+| mean_reversion_buy | prob | 4262 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4262 | 0.0445 | 0.0749 | 0.1363 | 0.232 | 0.5123 |  |
+| mean_reversion_sell | raw | 4262 | 0.0447 | 0.0821 | 0.1466 | 0.2235 | 0.5764 | 16.0% |
+| mean_reversion_sell | prob | 4262 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4262 | 0.038 | 0.0698 | 0.1246 | 0.19 | 0.49 |  |
+| counter_trend_buy | raw | 1011 | 0.1389 | 0.2884 | 0.4206 | 0.5559 | 0.8129 | 21.0% |
+| counter_trend_buy | prob | 1011 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 1011 | 0.1319 | 0.2739 | 0.3995 | 0.5281 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 146 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.8% |
+| breakout_sell | prob | 146 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 146 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.7% |
+| breakout_reversal_buy | prob | 75 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 08:35 (ทุก 1 นาทีเช็ค, records=36833)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4263 | 0.2864 | 0.3939 | 0.4958 | 0.6182 | 0.8372 | 0.0% |
+| trend_buy | prob | 4263 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4263 | 0.2435 | 0.3348 | 0.4215 | 0.5255 | 0.7117 |  |
+| trend_sell | raw | 4263 | 0.2715 | 0.3695 | 0.6741 | 0.847 | 0.9735 | 0.0% |
+| trend_sell | prob | 4263 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4263 | 0.2308 | 0.3141 | 0.5729 | 0.7199 | 0.8275 |  |
+| range_buy | raw | 4263 | 0.0847 | 0.1603 | 0.2445 | 0.3357 | 0.7125 | 10.4% |
+| range_buy | prob | 4263 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4263 | 0.0974 | 0.1844 | 0.2811 | 0.3861 | 0.8194 |  |
+| range_sell | raw | 4263 | 0.0804 | 0.1555 | 0.2246 | 0.2983 | 0.6216 | 9.9% |
+| range_sell | prob | 4263 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4263 | 0.0925 | 0.1788 | 0.2583 | 0.343 | 0.7149 |  |
+| mean_reversion_buy | raw | 4263 | 0.0524 | 0.0882 | 0.1604 | 0.2729 | 0.6027 | 13.3% |
+| mean_reversion_buy | prob | 4263 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4263 | 0.0445 | 0.0749 | 0.1363 | 0.232 | 0.5123 |  |
+| mean_reversion_sell | raw | 4263 | 0.0447 | 0.0821 | 0.1467 | 0.2235 | 0.5764 | 16.0% |
+| mean_reversion_sell | prob | 4263 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4263 | 0.038 | 0.0698 | 0.1247 | 0.19 | 0.49 |  |
+| counter_trend_buy | raw | 1011 | 0.1389 | 0.2884 | 0.4206 | 0.5559 | 0.8129 | 21.0% |
+| counter_trend_buy | prob | 1011 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 1011 | 0.1319 | 0.2739 | 0.3995 | 0.5281 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 146 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.8% |
+| breakout_sell | prob | 146 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 146 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.7% |
+| breakout_reversal_buy | prob | 75 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 08:48 (ทุก 1 นาทีเช็ค, records=36897)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4263 | 0.2864 | 0.3939 | 0.4958 | 0.6182 | 0.8372 | 0.0% |
+| trend_buy | prob | 4263 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4263 | 0.2435 | 0.3348 | 0.4215 | 0.5255 | 0.7117 |  |
+| trend_sell | raw | 4263 | 0.2715 | 0.3695 | 0.6741 | 0.847 | 0.9735 | 0.0% |
+| trend_sell | prob | 4263 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4263 | 0.2308 | 0.3141 | 0.5729 | 0.7199 | 0.8275 |  |
+| range_buy | raw | 4263 | 0.0847 | 0.1603 | 0.2445 | 0.3357 | 0.7125 | 10.4% |
+| range_buy | prob | 4263 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4263 | 0.0974 | 0.1844 | 0.2811 | 0.3861 | 0.8194 |  |
+| range_sell | raw | 4263 | 0.0804 | 0.1555 | 0.2246 | 0.2983 | 0.6216 | 9.9% |
+| range_sell | prob | 4263 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4263 | 0.0925 | 0.1788 | 0.2583 | 0.343 | 0.7149 |  |
+| mean_reversion_buy | raw | 4263 | 0.0524 | 0.0882 | 0.1604 | 0.2729 | 0.6027 | 13.3% |
+| mean_reversion_buy | prob | 4263 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4263 | 0.0445 | 0.0749 | 0.1363 | 0.232 | 0.5123 |  |
+| mean_reversion_sell | raw | 4263 | 0.0447 | 0.0821 | 0.1467 | 0.2235 | 0.5764 | 16.0% |
+| mean_reversion_sell | prob | 4263 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4263 | 0.038 | 0.0698 | 0.1247 | 0.19 | 0.49 |  |
+| counter_trend_buy | raw | 1011 | 0.1389 | 0.2884 | 0.4206 | 0.5559 | 0.8129 | 21.0% |
+| counter_trend_buy | prob | 1011 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 1011 | 0.1319 | 0.2739 | 0.3995 | 0.5281 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 146 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.8% |
+| breakout_sell | prob | 146 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 146 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.7% |
+| breakout_reversal_buy | prob | 75 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 09:01 (ทุก 1 นาทีเช็ค, records=36952)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4263 | 0.2864 | 0.3939 | 0.4958 | 0.6182 | 0.8372 | 0.0% |
+| trend_buy | prob | 4263 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4263 | 0.2435 | 0.3348 | 0.4215 | 0.5255 | 0.7117 |  |
+| trend_sell | raw | 4263 | 0.2715 | 0.3695 | 0.6741 | 0.847 | 0.9735 | 0.0% |
+| trend_sell | prob | 4263 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4263 | 0.2308 | 0.3141 | 0.5729 | 0.7199 | 0.8275 |  |
+| range_buy | raw | 4263 | 0.0847 | 0.1603 | 0.2445 | 0.3357 | 0.7125 | 10.4% |
+| range_buy | prob | 4263 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4263 | 0.0974 | 0.1844 | 0.2811 | 0.3861 | 0.8194 |  |
+| range_sell | raw | 4263 | 0.0804 | 0.1555 | 0.2246 | 0.2983 | 0.6216 | 9.9% |
+| range_sell | prob | 4263 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4263 | 0.0925 | 0.1788 | 0.2583 | 0.343 | 0.7149 |  |
+| mean_reversion_buy | raw | 4263 | 0.0524 | 0.0882 | 0.1604 | 0.2729 | 0.6027 | 13.3% |
+| mean_reversion_buy | prob | 4263 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4263 | 0.0445 | 0.0749 | 0.1363 | 0.232 | 0.5123 |  |
+| mean_reversion_sell | raw | 4263 | 0.0447 | 0.0821 | 0.1467 | 0.2235 | 0.5764 | 16.0% |
+| mean_reversion_sell | prob | 4263 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4263 | 0.038 | 0.0698 | 0.1247 | 0.19 | 0.49 |  |
+| counter_trend_buy | raw | 1011 | 0.1389 | 0.2884 | 0.4206 | 0.5559 | 0.8129 | 21.0% |
+| counter_trend_buy | prob | 1011 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 1011 | 0.1319 | 0.2739 | 0.3995 | 0.5281 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 146 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.8% |
+| breakout_sell | prob | 146 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 146 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.7% |
+| breakout_reversal_buy | prob | 75 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 09:14 (ทุก 1 นาทีเช็ค, records=37012)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4263 | 0.2864 | 0.3939 | 0.4958 | 0.6182 | 0.8372 | 0.0% |
+| trend_buy | prob | 4263 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4263 | 0.2435 | 0.3348 | 0.4215 | 0.5255 | 0.7117 |  |
+| trend_sell | raw | 4263 | 0.2715 | 0.3695 | 0.6741 | 0.847 | 0.9735 | 0.0% |
+| trend_sell | prob | 4263 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4263 | 0.2308 | 0.3141 | 0.5729 | 0.7199 | 0.8275 |  |
+| range_buy | raw | 4263 | 0.0847 | 0.1603 | 0.2445 | 0.3357 | 0.7125 | 10.4% |
+| range_buy | prob | 4263 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4263 | 0.0974 | 0.1844 | 0.2811 | 0.3861 | 0.8194 |  |
+| range_sell | raw | 4263 | 0.0804 | 0.1555 | 0.2246 | 0.2983 | 0.6216 | 9.9% |
+| range_sell | prob | 4263 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4263 | 0.0925 | 0.1788 | 0.2583 | 0.343 | 0.7149 |  |
+| mean_reversion_buy | raw | 4263 | 0.0524 | 0.0882 | 0.1604 | 0.2729 | 0.6027 | 13.3% |
+| mean_reversion_buy | prob | 4263 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4263 | 0.0445 | 0.0749 | 0.1363 | 0.232 | 0.5123 |  |
+| mean_reversion_sell | raw | 4263 | 0.0447 | 0.0821 | 0.1467 | 0.2235 | 0.5764 | 16.0% |
+| mean_reversion_sell | prob | 4263 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4263 | 0.038 | 0.0698 | 0.1247 | 0.19 | 0.49 |  |
+| counter_trend_buy | raw | 1011 | 0.1389 | 0.2884 | 0.4206 | 0.5559 | 0.8129 | 21.0% |
+| counter_trend_buy | prob | 1011 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 1011 | 0.1319 | 0.2739 | 0.3995 | 0.5281 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 146 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.8% |
+| breakout_sell | prob | 146 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 146 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.7% |
+| breakout_reversal_buy | prob | 75 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 09:27 (ทุก 1 นาทีเช็ค, records=37095)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4265 | 0.2864 | 0.3939 | 0.4958 | 0.6182 | 0.8372 | 0.0% |
+| trend_buy | prob | 4265 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4265 | 0.2435 | 0.3348 | 0.4215 | 0.5255 | 0.7117 |  |
+| trend_sell | raw | 4265 | 0.2715 | 0.3695 | 0.6741 | 0.847 | 0.9735 | 0.0% |
+| trend_sell | prob | 4265 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4265 | 0.2308 | 0.3141 | 0.5729 | 0.7199 | 0.8275 |  |
+| range_buy | raw | 4265 | 0.0847 | 0.1603 | 0.2445 | 0.3357 | 0.7125 | 10.4% |
+| range_buy | prob | 4265 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4265 | 0.0974 | 0.1844 | 0.2811 | 0.3861 | 0.8194 |  |
+| range_sell | raw | 4265 | 0.0804 | 0.156 | 0.2246 | 0.2983 | 0.6216 | 9.9% |
+| range_sell | prob | 4265 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4265 | 0.0925 | 0.1794 | 0.2583 | 0.343 | 0.7149 |  |
+| mean_reversion_buy | raw | 4265 | 0.0524 | 0.0882 | 0.1604 | 0.2729 | 0.6027 | 13.2% |
+| mean_reversion_buy | prob | 4265 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4265 | 0.0445 | 0.0749 | 0.1363 | 0.232 | 0.5123 |  |
+| mean_reversion_sell | raw | 4265 | 0.0447 | 0.0822 | 0.1467 | 0.2242 | 0.5764 | 16.0% |
+| mean_reversion_sell | prob | 4265 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4265 | 0.038 | 0.0699 | 0.1247 | 0.1905 | 0.49 |  |
+| counter_trend_buy | raw | 1011 | 0.1389 | 0.2884 | 0.4206 | 0.5559 | 0.8129 | 21.0% |
+| counter_trend_buy | prob | 1011 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 1011 | 0.1319 | 0.2739 | 0.3995 | 0.5281 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 146 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.8% |
+| breakout_sell | prob | 146 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 146 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.7% |
+| breakout_reversal_buy | prob | 75 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 09:39 (ทุก 1 นาทีเช็ค, records=37149)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4265 | 0.2864 | 0.3939 | 0.4958 | 0.6182 | 0.8372 | 0.0% |
+| trend_buy | prob | 4265 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4265 | 0.2435 | 0.3348 | 0.4215 | 0.5255 | 0.7117 |  |
+| trend_sell | raw | 4265 | 0.2715 | 0.3695 | 0.6741 | 0.847 | 0.9735 | 0.0% |
+| trend_sell | prob | 4265 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4265 | 0.2308 | 0.3141 | 0.5729 | 0.7199 | 0.8275 |  |
+| range_buy | raw | 4265 | 0.0847 | 0.1603 | 0.2445 | 0.3357 | 0.7125 | 10.4% |
+| range_buy | prob | 4265 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4265 | 0.0974 | 0.1844 | 0.2811 | 0.3861 | 0.8194 |  |
+| range_sell | raw | 4265 | 0.0804 | 0.156 | 0.2246 | 0.2983 | 0.6216 | 9.9% |
+| range_sell | prob | 4265 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4265 | 0.0925 | 0.1794 | 0.2583 | 0.343 | 0.7149 |  |
+| mean_reversion_buy | raw | 4265 | 0.0524 | 0.0882 | 0.1604 | 0.2729 | 0.6027 | 13.2% |
+| mean_reversion_buy | prob | 4265 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4265 | 0.0445 | 0.0749 | 0.1363 | 0.232 | 0.5123 |  |
+| mean_reversion_sell | raw | 4265 | 0.0447 | 0.0822 | 0.1467 | 0.2242 | 0.5764 | 16.0% |
+| mean_reversion_sell | prob | 4265 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4265 | 0.038 | 0.0699 | 0.1247 | 0.1905 | 0.49 |  |
+| counter_trend_buy | raw | 1011 | 0.1389 | 0.2884 | 0.4206 | 0.5559 | 0.8129 | 21.0% |
+| counter_trend_buy | prob | 1011 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 1011 | 0.1319 | 0.2739 | 0.3995 | 0.5281 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 146 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.8% |
+| breakout_sell | prob | 146 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 146 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.7% |
+| breakout_reversal_buy | prob | 75 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 09:40 (ทุก 1 นาทีเช็ค, records=37153)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4265 | 0.2864 | 0.3939 | 0.4958 | 0.6182 | 0.8372 | 0.0% |
+| trend_buy | prob | 4265 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4265 | 0.2435 | 0.3348 | 0.4215 | 0.5255 | 0.7117 |  |
+| trend_sell | raw | 4265 | 0.2715 | 0.3695 | 0.6741 | 0.847 | 0.9735 | 0.0% |
+| trend_sell | prob | 4265 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4265 | 0.2308 | 0.3141 | 0.5729 | 0.7199 | 0.8275 |  |
+| range_buy | raw | 4265 | 0.0847 | 0.1603 | 0.2445 | 0.3357 | 0.7125 | 10.4% |
+| range_buy | prob | 4265 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4265 | 0.0974 | 0.1844 | 0.2811 | 0.3861 | 0.8194 |  |
+| range_sell | raw | 4265 | 0.0804 | 0.156 | 0.2246 | 0.2983 | 0.6216 | 9.9% |
+| range_sell | prob | 4265 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4265 | 0.0925 | 0.1794 | 0.2583 | 0.343 | 0.7149 |  |
+| mean_reversion_buy | raw | 4265 | 0.0524 | 0.0882 | 0.1604 | 0.2729 | 0.6027 | 13.2% |
+| mean_reversion_buy | prob | 4265 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4265 | 0.0445 | 0.0749 | 0.1363 | 0.232 | 0.5123 |  |
+| mean_reversion_sell | raw | 4265 | 0.0447 | 0.0822 | 0.1467 | 0.2242 | 0.5764 | 16.0% |
+| mean_reversion_sell | prob | 4265 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4265 | 0.038 | 0.0699 | 0.1247 | 0.1905 | 0.49 |  |
+| counter_trend_buy | raw | 1011 | 0.1389 | 0.2884 | 0.4206 | 0.5559 | 0.8129 | 21.0% |
+| counter_trend_buy | prob | 1011 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 1011 | 0.1319 | 0.2739 | 0.3995 | 0.5281 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 146 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.8% |
+| breakout_sell | prob | 146 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 146 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.7% |
+| breakout_reversal_buy | prob | 75 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 09:45 (ทุก 1 นาทีเช็ค, records=37180)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4265 | 0.2864 | 0.3939 | 0.4958 | 0.6182 | 0.8372 | 0.0% |
+| trend_buy | prob | 4265 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4265 | 0.2435 | 0.3348 | 0.4215 | 0.5255 | 0.7117 |  |
+| trend_sell | raw | 4265 | 0.2715 | 0.3695 | 0.6741 | 0.847 | 0.9735 | 0.0% |
+| trend_sell | prob | 4265 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4265 | 0.2308 | 0.3141 | 0.5729 | 0.7199 | 0.8275 |  |
+| range_buy | raw | 4265 | 0.0847 | 0.1603 | 0.2445 | 0.3357 | 0.7125 | 10.4% |
+| range_buy | prob | 4265 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4265 | 0.0974 | 0.1844 | 0.2811 | 0.3861 | 0.8194 |  |
+| range_sell | raw | 4265 | 0.0804 | 0.156 | 0.2246 | 0.2983 | 0.6216 | 9.9% |
+| range_sell | prob | 4265 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4265 | 0.0925 | 0.1794 | 0.2583 | 0.343 | 0.7149 |  |
+| mean_reversion_buy | raw | 4265 | 0.0524 | 0.0882 | 0.1604 | 0.2729 | 0.6027 | 13.2% |
+| mean_reversion_buy | prob | 4265 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4265 | 0.0445 | 0.0749 | 0.1363 | 0.232 | 0.5123 |  |
+| mean_reversion_sell | raw | 4265 | 0.0447 | 0.0822 | 0.1467 | 0.2242 | 0.5764 | 16.0% |
+| mean_reversion_sell | prob | 4265 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4265 | 0.038 | 0.0699 | 0.1247 | 0.1905 | 0.49 |  |
+| counter_trend_buy | raw | 1011 | 0.1389 | 0.2884 | 0.4206 | 0.5559 | 0.8129 | 21.0% |
+| counter_trend_buy | prob | 1011 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 1011 | 0.1319 | 0.2739 | 0.3995 | 0.5281 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 146 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.8% |
+| breakout_sell | prob | 146 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 146 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.7% |
+| breakout_reversal_buy | prob | 75 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 09:53 (ทุก 1 นาทีเช็ค, records=37216)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4271 | 0.2869 | 0.3941 | 0.4958 | 0.6182 | 0.8372 | 0.0% |
+| trend_buy | prob | 4271 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4271 | 0.2438 | 0.335 | 0.4215 | 0.5255 | 0.7117 |  |
+| trend_sell | raw | 4271 | 0.2715 | 0.3694 | 0.6741 | 0.847 | 0.9735 | 0.0% |
+| trend_sell | prob | 4271 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4271 | 0.2308 | 0.3139 | 0.5729 | 0.7199 | 0.8275 |  |
+| range_buy | raw | 4271 | 0.0847 | 0.1603 | 0.2445 | 0.3357 | 0.7125 | 10.4% |
+| range_buy | prob | 4271 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4271 | 0.0974 | 0.1844 | 0.2811 | 0.3861 | 0.8194 |  |
+| range_sell | raw | 4271 | 0.0804 | 0.156 | 0.2246 | 0.3005 | 0.659 | 9.9% |
+| range_sell | prob | 4271 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4271 | 0.0925 | 0.1794 | 0.2583 | 0.3455 | 0.7578 |  |
+| mean_reversion_buy | raw | 4271 | 0.0524 | 0.0883 | 0.1601 | 0.2729 | 0.6027 | 13.3% |
+| mean_reversion_buy | prob | 4271 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4271 | 0.0445 | 0.075 | 0.1361 | 0.232 | 0.5123 |  |
+| mean_reversion_sell | raw | 4271 | 0.0447 | 0.0822 | 0.147 | 0.2266 | 0.5764 | 16.0% |
+| mean_reversion_sell | prob | 4271 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4271 | 0.038 | 0.0699 | 0.125 | 0.1926 | 0.49 |  |
+| counter_trend_buy | raw | 1011 | 0.1389 | 0.2884 | 0.4206 | 0.5559 | 0.8129 | 21.0% |
+| counter_trend_buy | prob | 1011 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 1011 | 0.1319 | 0.2739 | 0.3995 | 0.5281 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 146 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.8% |
+| breakout_sell | prob | 146 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 146 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.7% |
+| breakout_reversal_buy | prob | 75 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 10:06 (ทุก 1 นาทีเช็ค, records=37273)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4284 | 0.2869 | 0.3944 | 0.4961 | 0.6182 | 0.8372 | 0.0% |
+| trend_buy | prob | 4284 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4284 | 0.2438 | 0.3352 | 0.4217 | 0.5255 | 0.7117 |  |
+| trend_sell | raw | 4284 | 0.2716 | 0.3692 | 0.6701 | 0.847 | 0.9735 | 0.0% |
+| trend_sell | prob | 4284 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4284 | 0.2308 | 0.3138 | 0.5696 | 0.7199 | 0.8275 |  |
+| range_buy | raw | 4284 | 0.0849 | 0.1603 | 0.2444 | 0.3357 | 0.7125 | 10.4% |
+| range_buy | prob | 4284 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4284 | 0.0976 | 0.1844 | 0.281 | 0.3861 | 0.8194 |  |
+| range_sell | raw | 4284 | 0.0804 | 0.1577 | 0.2248 | 0.3026 | 0.659 | 9.9% |
+| range_sell | prob | 4284 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4284 | 0.0925 | 0.1813 | 0.2586 | 0.3479 | 0.7578 |  |
+| mean_reversion_buy | raw | 4284 | 0.0525 | 0.0885 | 0.1601 | 0.2729 | 0.6027 | 13.2% |
+| mean_reversion_buy | prob | 4284 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4284 | 0.0446 | 0.0752 | 0.1361 | 0.232 | 0.5123 |  |
+| mean_reversion_sell | raw | 4284 | 0.0449 | 0.0825 | 0.1475 | 0.23 | 0.5764 | 16.0% |
+| mean_reversion_sell | prob | 4284 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4284 | 0.0381 | 0.0701 | 0.1254 | 0.1955 | 0.49 |  |
+| counter_trend_buy | raw | 1011 | 0.1389 | 0.2884 | 0.4206 | 0.5559 | 0.8129 | 21.0% |
+| counter_trend_buy | prob | 1011 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 1011 | 0.1319 | 0.2739 | 0.3995 | 0.5281 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 146 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.8% |
+| breakout_sell | prob | 146 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 146 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.7% |
+| breakout_reversal_buy | prob | 75 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 10:19 (ทุก 1 นาทีเช็ค, records=37335)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4291 | 0.2871 | 0.3944 | 0.4961 | 0.6182 | 0.8372 | 0.0% |
+| trend_buy | prob | 4291 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4291 | 0.244 | 0.3352 | 0.4217 | 0.5255 | 0.7117 |  |
+| trend_sell | raw | 4291 | 0.2718 | 0.3686 | 0.6701 | 0.847 | 0.9735 | 0.0% |
+| trend_sell | prob | 4291 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4291 | 0.231 | 0.3133 | 0.5696 | 0.7199 | 0.8275 |  |
+| range_buy | raw | 4291 | 0.0849 | 0.1607 | 0.2445 | 0.3357 | 0.7125 | 10.5% |
+| range_buy | prob | 4291 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4291 | 0.0976 | 0.1848 | 0.2811 | 0.3861 | 0.8194 |  |
+| range_sell | raw | 4291 | 0.0804 | 0.1581 | 0.2258 | 0.3053 | 0.659 | 9.9% |
+| range_sell | prob | 4291 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4291 | 0.0925 | 0.1818 | 0.2597 | 0.3511 | 0.7578 |  |
+| mean_reversion_buy | raw | 4291 | 0.0525 | 0.0885 | 0.1599 | 0.2729 | 0.6027 | 13.2% |
+| mean_reversion_buy | prob | 4291 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4291 | 0.0446 | 0.0752 | 0.1359 | 0.232 | 0.5123 |  |
+| mean_reversion_sell | raw | 4291 | 0.0449 | 0.0828 | 0.1476 | 0.2302 | 0.5764 | 15.9% |
+| mean_reversion_sell | prob | 4291 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4291 | 0.0381 | 0.0704 | 0.1255 | 0.1957 | 0.49 |  |
+| counter_trend_buy | raw | 1011 | 0.1389 | 0.2884 | 0.4206 | 0.5559 | 0.8129 | 21.0% |
+| counter_trend_buy | prob | 1011 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 1011 | 0.1319 | 0.2739 | 0.3995 | 0.5281 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 146 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.8% |
+| breakout_sell | prob | 146 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 146 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.7% |
+| breakout_reversal_buy | prob | 75 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 10:32 (ทุก 1 นาทีเช็ค, records=37399)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4296 | 0.2871 | 0.3944 | 0.4961 | 0.6182 | 0.8372 | 0.0% |
+| trend_buy | prob | 4296 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4296 | 0.244 | 0.3352 | 0.4217 | 0.5255 | 0.7117 |  |
+| trend_sell | raw | 4296 | 0.2718 | 0.3682 | 0.6701 | 0.847 | 0.9735 | 0.0% |
+| trend_sell | prob | 4296 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4296 | 0.231 | 0.313 | 0.5696 | 0.7199 | 0.8275 |  |
+| range_buy | raw | 4296 | 0.0852 | 0.1607 | 0.2444 | 0.3349 | 0.7125 | 10.5% |
+| range_buy | prob | 4296 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4296 | 0.098 | 0.1848 | 0.281 | 0.3852 | 0.8194 |  |
+| range_sell | raw | 4296 | 0.0804 | 0.1592 | 0.226 | 0.3053 | 0.7564 | 9.9% |
+| range_sell | prob | 4296 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4296 | 0.0925 | 0.183 | 0.2599 | 0.3511 | 0.8699 |  |
+| mean_reversion_buy | raw | 4296 | 0.0525 | 0.0886 | 0.1601 | 0.2725 | 0.6027 | 13.3% |
+| mean_reversion_buy | prob | 4296 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4296 | 0.0446 | 0.0753 | 0.1361 | 0.2316 | 0.5123 |  |
+| mean_reversion_sell | raw | 4296 | 0.0449 | 0.0828 | 0.1478 | 0.2302 | 0.6223 | 15.9% |
+| mean_reversion_sell | prob | 4296 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4296 | 0.0381 | 0.0704 | 0.1256 | 0.1957 | 0.5289 |  |
+| counter_trend_buy | raw | 1011 | 0.1389 | 0.2884 | 0.4206 | 0.5559 | 0.8129 | 21.0% |
+| counter_trend_buy | prob | 1011 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 1011 | 0.1319 | 0.2739 | 0.3995 | 0.5281 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 146 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.8% |
+| breakout_sell | prob | 146 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 146 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.7% |
+| breakout_reversal_buy | prob | 75 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 10:45 (ทุก 1 นาทีเช็ค, records=37460)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4309 | 0.2872 | 0.3946 | 0.496 | 0.6155 | 0.8372 | 0.0% |
+| trend_buy | prob | 4309 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4309 | 0.2442 | 0.3354 | 0.4216 | 0.5231 | 0.7117 |  |
+| trend_sell | raw | 4309 | 0.2723 | 0.3678 | 0.6698 | 0.8469 | 0.9735 | 0.0% |
+| trend_sell | prob | 4309 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4309 | 0.2315 | 0.3127 | 0.5693 | 0.7199 | 0.8275 |  |
+| range_buy | raw | 4309 | 0.0852 | 0.1608 | 0.2444 | 0.3349 | 0.7125 | 10.5% |
+| range_buy | prob | 4309 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4309 | 0.098 | 0.185 | 0.281 | 0.3852 | 0.8194 |  |
+| range_sell | raw | 4309 | 0.0807 | 0.16 | 0.2264 | 0.3078 | 0.7635 | 9.8% |
+| range_sell | prob | 4309 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4309 | 0.0929 | 0.184 | 0.2604 | 0.354 | 0.878 |  |
+| mean_reversion_buy | raw | 4309 | 0.0528 | 0.0893 | 0.1609 | 0.2725 | 0.6027 | 13.6% |
+| mean_reversion_buy | prob | 4309 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4309 | 0.0449 | 0.0759 | 0.1368 | 0.2316 | 0.5123 |  |
+| mean_reversion_sell | raw | 4309 | 0.045 | 0.0829 | 0.1481 | 0.2316 | 0.6223 | 15.9% |
+| mean_reversion_sell | prob | 4309 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4309 | 0.0383 | 0.0705 | 0.1259 | 0.1968 | 0.5289 |  |
+| counter_trend_buy | raw | 1011 | 0.1389 | 0.2884 | 0.4206 | 0.5559 | 0.8129 | 21.0% |
+| counter_trend_buy | prob | 1011 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 1011 | 0.1319 | 0.2739 | 0.3995 | 0.5281 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 146 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.8% |
+| breakout_sell | prob | 146 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 146 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.7% |
+| breakout_reversal_buy | prob | 75 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 10:58 (ทุก 1 นาทีเช็ค, records=37516)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4322 | 0.2877 | 0.3944 | 0.496 | 0.6155 | 0.8372 | 0.0% |
+| trend_buy | prob | 4322 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4322 | 0.2445 | 0.3352 | 0.4216 | 0.5231 | 0.7117 |  |
+| trend_sell | raw | 4322 | 0.2726 | 0.3677 | 0.6696 | 0.8469 | 0.9735 | 0.0% |
+| trend_sell | prob | 4322 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4322 | 0.2317 | 0.3125 | 0.5692 | 0.7199 | 0.8275 |  |
+| range_buy | raw | 4322 | 0.0854 | 0.1609 | 0.2451 | 0.3357 | 0.7125 | 10.4% |
+| range_buy | prob | 4322 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4322 | 0.0983 | 0.1851 | 0.2819 | 0.3861 | 0.8194 |  |
+| range_sell | raw | 4322 | 0.081 | 0.1603 | 0.2272 | 0.3107 | 0.7635 | 9.8% |
+| range_sell | prob | 4322 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4322 | 0.0932 | 0.1843 | 0.2612 | 0.3574 | 0.878 |  |
+| mean_reversion_buy | raw | 4322 | 0.0529 | 0.0897 | 0.1619 | 0.2729 | 0.6027 | 13.7% |
+| mean_reversion_buy | prob | 4322 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4322 | 0.045 | 0.0762 | 0.1376 | 0.232 | 0.5123 |  |
+| mean_reversion_sell | raw | 4322 | 0.0453 | 0.083 | 0.1485 | 0.2329 | 0.6223 | 15.9% |
+| mean_reversion_sell | prob | 4322 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4322 | 0.0385 | 0.0705 | 0.1262 | 0.198 | 0.5289 |  |
+| counter_trend_buy | raw | 1011 | 0.1389 | 0.2884 | 0.4206 | 0.5559 | 0.8129 | 21.0% |
+| counter_trend_buy | prob | 1011 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 1011 | 0.1319 | 0.2739 | 0.3995 | 0.5281 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 146 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.8% |
+| breakout_sell | prob | 146 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 146 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.7% |
+| breakout_reversal_buy | prob | 75 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 11:13 (ทุก 1 นาทีเช็ค, records=37617)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4323 | 0.2877 | 0.3944 | 0.496 | 0.6155 | 0.8372 | 0.0% |
+| trend_buy | prob | 4323 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4323 | 0.2445 | 0.3352 | 0.4216 | 0.5231 | 0.7117 |  |
+| trend_sell | raw | 4323 | 0.2726 | 0.3677 | 0.6696 | 0.8469 | 0.9735 | 0.0% |
+| trend_sell | prob | 4323 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4323 | 0.2317 | 0.3125 | 0.5692 | 0.7199 | 0.8275 |  |
+| range_buy | raw | 4323 | 0.0854 | 0.161 | 0.2451 | 0.3357 | 0.7125 | 10.4% |
+| range_buy | prob | 4323 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4323 | 0.0983 | 0.1851 | 0.2819 | 0.3861 | 0.8194 |  |
+| range_sell | raw | 4323 | 0.081 | 0.1603 | 0.2279 | 0.3107 | 0.7635 | 9.8% |
+| range_sell | prob | 4323 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4323 | 0.0932 | 0.1843 | 0.2621 | 0.3574 | 0.878 |  |
+| mean_reversion_buy | raw | 4323 | 0.0529 | 0.0897 | 0.1619 | 0.2729 | 0.6027 | 13.7% |
+| mean_reversion_buy | prob | 4323 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4323 | 0.045 | 0.0762 | 0.1376 | 0.232 | 0.5123 |  |
+| mean_reversion_sell | raw | 4323 | 0.0453 | 0.083 | 0.1486 | 0.2329 | 0.6223 | 15.9% |
+| mean_reversion_sell | prob | 4323 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4323 | 0.0385 | 0.0705 | 0.1263 | 0.198 | 0.5289 |  |
+| counter_trend_buy | raw | 1011 | 0.1389 | 0.2884 | 0.4206 | 0.5559 | 0.8129 | 21.0% |
+| counter_trend_buy | prob | 1011 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 1011 | 0.1319 | 0.2739 | 0.3995 | 0.5281 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 146 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.8% |
+| breakout_sell | prob | 146 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 146 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.7% |
+| breakout_reversal_buy | prob | 75 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 11:26 (ทุก 1 นาทีเช็ค, records=37691)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4323 | 0.2877 | 0.3944 | 0.496 | 0.6155 | 0.8372 | 0.0% |
+| trend_buy | prob | 4323 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4323 | 0.2445 | 0.3352 | 0.4216 | 0.5231 | 0.7117 |  |
+| trend_sell | raw | 4323 | 0.2726 | 0.3677 | 0.6696 | 0.8469 | 0.9735 | 0.0% |
+| trend_sell | prob | 4323 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4323 | 0.2317 | 0.3125 | 0.5692 | 0.7199 | 0.8275 |  |
+| range_buy | raw | 4323 | 0.0854 | 0.161 | 0.2451 | 0.3357 | 0.7125 | 10.4% |
+| range_buy | prob | 4323 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4323 | 0.0983 | 0.1851 | 0.2819 | 0.3861 | 0.8194 |  |
+| range_sell | raw | 4323 | 0.081 | 0.1603 | 0.2279 | 0.3107 | 0.7635 | 9.8% |
+| range_sell | prob | 4323 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4323 | 0.0932 | 0.1843 | 0.2621 | 0.3574 | 0.878 |  |
+| mean_reversion_buy | raw | 4323 | 0.0529 | 0.0897 | 0.1619 | 0.2729 | 0.6027 | 13.7% |
+| mean_reversion_buy | prob | 4323 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4323 | 0.045 | 0.0762 | 0.1376 | 0.232 | 0.5123 |  |
+| mean_reversion_sell | raw | 4323 | 0.0453 | 0.083 | 0.1486 | 0.2329 | 0.6223 | 15.9% |
+| mean_reversion_sell | prob | 4323 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4323 | 0.0385 | 0.0705 | 0.1263 | 0.198 | 0.5289 |  |
+| counter_trend_buy | raw | 1011 | 0.1389 | 0.2884 | 0.4206 | 0.5559 | 0.8129 | 21.0% |
+| counter_trend_buy | prob | 1011 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 1011 | 0.1319 | 0.2739 | 0.3995 | 0.5281 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 146 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.8% |
+| breakout_sell | prob | 146 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 146 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.7% |
+| breakout_reversal_buy | prob | 75 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 11:39 (ทุก 1 นาทีเช็ค, records=37759)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4329 | 0.2871 | 0.3941 | 0.4958 | 0.6155 | 0.8372 | 0.0% |
+| trend_buy | prob | 4329 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4329 | 0.244 | 0.335 | 0.4215 | 0.5231 | 0.7117 |  |
+| trend_sell | raw | 4329 | 0.2726 | 0.3673 | 0.6696 | 0.8469 | 0.9735 | 0.0% |
+| trend_sell | prob | 4329 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4329 | 0.2317 | 0.3122 | 0.5692 | 0.7199 | 0.8275 |  |
+| range_buy | raw | 4329 | 0.0854 | 0.161 | 0.2455 | 0.3381 | 0.7125 | 10.4% |
+| range_buy | prob | 4329 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4329 | 0.0983 | 0.1851 | 0.2824 | 0.3889 | 0.8194 |  |
+| range_sell | raw | 4329 | 0.0807 | 0.16 | 0.2272 | 0.3107 | 0.7635 | 9.8% |
+| range_sell | prob | 4329 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4329 | 0.0929 | 0.184 | 0.2612 | 0.3574 | 0.878 |  |
+| mean_reversion_buy | raw | 4329 | 0.0529 | 0.0897 | 0.1624 | 0.2755 | 0.6027 | 13.7% |
+| mean_reversion_buy | prob | 4329 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4329 | 0.045 | 0.0762 | 0.1381 | 0.2342 | 0.5123 |  |
+| mean_reversion_sell | raw | 4329 | 0.0453 | 0.083 | 0.1485 | 0.2329 | 0.6223 | 15.9% |
+| mean_reversion_sell | prob | 4329 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4329 | 0.0385 | 0.0705 | 0.1262 | 0.198 | 0.5289 |  |
+| counter_trend_buy | raw | 1011 | 0.1389 | 0.2884 | 0.4206 | 0.5559 | 0.8129 | 21.0% |
+| counter_trend_buy | prob | 1011 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 1011 | 0.1319 | 0.2739 | 0.3995 | 0.5281 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 146 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.8% |
+| breakout_sell | prob | 146 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 146 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.7% |
+| breakout_reversal_buy | prob | 75 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 11:52 (ทุก 1 นาทีเช็ค, records=37822)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4336 | 0.2869 | 0.3939 | 0.4958 | 0.6142 | 0.8372 | 0.0% |
+| trend_buy | prob | 4336 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4336 | 0.2438 | 0.3348 | 0.4215 | 0.5221 | 0.7117 |  |
+| trend_sell | raw | 4336 | 0.2726 | 0.3673 | 0.6696 | 0.8464 | 0.9735 | 0.0% |
+| trend_sell | prob | 4336 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4336 | 0.2317 | 0.3122 | 0.5692 | 0.7195 | 0.8275 |  |
+| range_buy | raw | 4336 | 0.0855 | 0.1612 | 0.2456 | 0.3408 | 0.7125 | 10.4% |
+| range_buy | prob | 4336 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4336 | 0.0983 | 0.1853 | 0.2824 | 0.3919 | 0.8194 |  |
+| range_sell | raw | 4336 | 0.0805 | 0.16 | 0.2272 | 0.3107 | 0.7635 | 9.8% |
+| range_sell | prob | 4336 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4336 | 0.0926 | 0.184 | 0.2612 | 0.3574 | 0.878 |  |
+| mean_reversion_buy | raw | 4336 | 0.0529 | 0.0897 | 0.1628 | 0.2773 | 0.6027 | 13.7% |
+| mean_reversion_buy | prob | 4336 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4336 | 0.045 | 0.0762 | 0.1384 | 0.2357 | 0.5123 |  |
+| mean_reversion_sell | raw | 4336 | 0.0453 | 0.083 | 0.1485 | 0.2329 | 0.6223 | 15.9% |
+| mean_reversion_sell | prob | 4336 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4336 | 0.0385 | 0.0705 | 0.1262 | 0.198 | 0.5289 |  |
+| counter_trend_buy | raw | 1011 | 0.1389 | 0.2884 | 0.4206 | 0.5559 | 0.8129 | 21.0% |
+| counter_trend_buy | prob | 1011 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 1011 | 0.1319 | 0.2739 | 0.3995 | 0.5281 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 151 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.6% |
+| breakout_sell | prob | 151 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 151 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.7% |
+| breakout_reversal_buy | prob | 75 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 12:05 (ทุก 1 นาทีเช็ค, records=37891)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4336 | 0.2869 | 0.3939 | 0.4958 | 0.6142 | 0.8372 | 0.0% |
+| trend_buy | prob | 4336 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4336 | 0.2438 | 0.3348 | 0.4215 | 0.5221 | 0.7117 |  |
+| trend_sell | raw | 4336 | 0.2726 | 0.3673 | 0.6696 | 0.8464 | 0.9735 | 0.0% |
+| trend_sell | prob | 4336 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4336 | 0.2317 | 0.3122 | 0.5692 | 0.7195 | 0.8275 |  |
+| range_buy | raw | 4336 | 0.0855 | 0.1612 | 0.2456 | 0.3408 | 0.7125 | 10.4% |
+| range_buy | prob | 4336 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4336 | 0.0983 | 0.1853 | 0.2824 | 0.3919 | 0.8194 |  |
+| range_sell | raw | 4336 | 0.0805 | 0.16 | 0.2272 | 0.3107 | 0.7635 | 9.8% |
+| range_sell | prob | 4336 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4336 | 0.0926 | 0.184 | 0.2612 | 0.3574 | 0.878 |  |
+| mean_reversion_buy | raw | 4336 | 0.0529 | 0.0897 | 0.1628 | 0.2773 | 0.6027 | 13.7% |
+| mean_reversion_buy | prob | 4336 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4336 | 0.045 | 0.0762 | 0.1384 | 0.2357 | 0.5123 |  |
+| mean_reversion_sell | raw | 4336 | 0.0453 | 0.083 | 0.1485 | 0.2329 | 0.6223 | 15.9% |
+| mean_reversion_sell | prob | 4336 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4336 | 0.0385 | 0.0705 | 0.1262 | 0.198 | 0.5289 |  |
+| counter_trend_buy | raw | 1011 | 0.1389 | 0.2884 | 0.4206 | 0.5559 | 0.8129 | 21.0% |
+| counter_trend_buy | prob | 1011 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 1011 | 0.1319 | 0.2739 | 0.3995 | 0.5281 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 151 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.6% |
+| breakout_sell | prob | 151 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 151 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.7% |
+| breakout_reversal_buy | prob | 75 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 12:18 (ทุก 1 นาทีเช็ค, records=37966)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4337 | 0.2869 | 0.3939 | 0.4958 | 0.6142 | 0.8372 | 0.0% |
+| trend_buy | prob | 4337 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4337 | 0.2438 | 0.3348 | 0.4215 | 0.5221 | 0.7117 |  |
+| trend_sell | raw | 4337 | 0.2726 | 0.3673 | 0.6696 | 0.8464 | 0.9735 | 0.0% |
+| trend_sell | prob | 4337 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4337 | 0.2317 | 0.3122 | 0.5692 | 0.7195 | 0.8275 |  |
+| range_buy | raw | 4337 | 0.0855 | 0.1612 | 0.2456 | 0.3408 | 0.7125 | 10.4% |
+| range_buy | prob | 4337 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4337 | 0.0983 | 0.1853 | 0.2824 | 0.3919 | 0.8194 |  |
+| range_sell | raw | 4337 | 0.0805 | 0.16 | 0.2272 | 0.3107 | 0.7635 | 9.8% |
+| range_sell | prob | 4337 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4337 | 0.0926 | 0.184 | 0.2612 | 0.3574 | 0.878 |  |
+| mean_reversion_buy | raw | 4337 | 0.053 | 0.0897 | 0.1631 | 0.2773 | 0.6027 | 13.7% |
+| mean_reversion_buy | prob | 4337 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4337 | 0.045 | 0.0763 | 0.1387 | 0.2357 | 0.5123 |  |
+| mean_reversion_sell | raw | 4337 | 0.0453 | 0.083 | 0.1485 | 0.2329 | 0.6223 | 15.9% |
+| mean_reversion_sell | prob | 4337 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4337 | 0.0385 | 0.0705 | 0.1262 | 0.198 | 0.5289 |  |
+| counter_trend_buy | raw | 1011 | 0.1389 | 0.2884 | 0.4206 | 0.5559 | 0.8129 | 21.0% |
+| counter_trend_buy | prob | 1011 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 1011 | 0.1319 | 0.2739 | 0.3995 | 0.5281 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 151 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.6% |
+| breakout_sell | prob | 151 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 151 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.7% |
+| breakout_reversal_buy | prob | 75 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 12:31 (ทุก 1 นาทีเช็ค, records=38035)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4337 | 0.2869 | 0.3939 | 0.4958 | 0.6142 | 0.8372 | 0.0% |
+| trend_buy | prob | 4337 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4337 | 0.2438 | 0.3348 | 0.4215 | 0.5221 | 0.7117 |  |
+| trend_sell | raw | 4337 | 0.2726 | 0.3673 | 0.6696 | 0.8464 | 0.9735 | 0.0% |
+| trend_sell | prob | 4337 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4337 | 0.2317 | 0.3122 | 0.5692 | 0.7195 | 0.8275 |  |
+| range_buy | raw | 4337 | 0.0855 | 0.1612 | 0.2456 | 0.3408 | 0.7125 | 10.4% |
+| range_buy | prob | 4337 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4337 | 0.0983 | 0.1853 | 0.2824 | 0.3919 | 0.8194 |  |
+| range_sell | raw | 4337 | 0.0805 | 0.16 | 0.2272 | 0.3107 | 0.7635 | 9.8% |
+| range_sell | prob | 4337 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4337 | 0.0926 | 0.184 | 0.2612 | 0.3574 | 0.878 |  |
+| mean_reversion_buy | raw | 4337 | 0.053 | 0.0897 | 0.1631 | 0.2773 | 0.6027 | 13.7% |
+| mean_reversion_buy | prob | 4337 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4337 | 0.045 | 0.0763 | 0.1387 | 0.2357 | 0.5123 |  |
+| mean_reversion_sell | raw | 4337 | 0.0453 | 0.083 | 0.1485 | 0.2329 | 0.6223 | 15.9% |
+| mean_reversion_sell | prob | 4337 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4337 | 0.0385 | 0.0705 | 0.1262 | 0.198 | 0.5289 |  |
+| counter_trend_buy | raw | 1011 | 0.1389 | 0.2884 | 0.4206 | 0.5559 | 0.8129 | 21.0% |
+| counter_trend_buy | prob | 1011 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 1011 | 0.1319 | 0.2739 | 0.3995 | 0.5281 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 151 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.6% |
+| breakout_sell | prob | 151 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 151 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.7% |
+| breakout_reversal_buy | prob | 75 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 12:45 (ทุก 1 นาทีเช็ค, records=38117)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4342 | 0.2869 | 0.3939 | 0.4958 | 0.6142 | 0.8372 | 0.0% |
+| trend_buy | prob | 4342 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4342 | 0.2438 | 0.3348 | 0.4215 | 0.5221 | 0.7117 |  |
+| trend_sell | raw | 4342 | 0.2729 | 0.3673 | 0.6696 | 0.8464 | 0.9735 | 0.0% |
+| trend_sell | prob | 4342 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4342 | 0.2319 | 0.3122 | 0.5692 | 0.7195 | 0.8275 |  |
+| range_buy | raw | 4342 | 0.0855 | 0.1612 | 0.2456 | 0.3415 | 0.7125 | 10.4% |
+| range_buy | prob | 4342 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4342 | 0.0983 | 0.1853 | 0.2824 | 0.3927 | 0.8194 |  |
+| range_sell | raw | 4342 | 0.0807 | 0.16 | 0.2272 | 0.3107 | 0.7635 | 9.8% |
+| range_sell | prob | 4342 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4342 | 0.0929 | 0.184 | 0.2612 | 0.3574 | 0.878 |  |
+| mean_reversion_buy | raw | 4342 | 0.053 | 0.0897 | 0.1631 | 0.2773 | 0.6027 | 13.7% |
+| mean_reversion_buy | prob | 4342 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4342 | 0.045 | 0.0763 | 0.1387 | 0.2357 | 0.5123 |  |
+| mean_reversion_sell | raw | 4342 | 0.0453 | 0.083 | 0.1485 | 0.2329 | 0.6223 | 15.9% |
+| mean_reversion_sell | prob | 4342 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4342 | 0.0385 | 0.0705 | 0.1262 | 0.198 | 0.5289 |  |
+| counter_trend_buy | raw | 1013 | 0.1389 | 0.2884 | 0.4206 | 0.5559 | 0.8129 | 21.1% |
+| counter_trend_buy | prob | 1013 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 1013 | 0.1319 | 0.2739 | 0.3995 | 0.5281 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 137 | 0.9178 | 0.957 | 0.9826 | 0.9945 | 0.9988 | 13.1% |
+| breakout_buy | prob | 137 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 137 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 151 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.6% |
+| breakout_sell | prob | 151 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 151 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.7% |
+| breakout_reversal_buy | prob | 75 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 12:58 (ทุก 1 นาทีเช็ค, records=38187)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4355 | 0.2871 | 0.3944 | 0.4957 | 0.6142 | 0.8372 | 0.0% |
+| trend_buy | prob | 4355 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4355 | 0.244 | 0.3352 | 0.4213 | 0.5221 | 0.7117 |  |
+| trend_sell | raw | 4355 | 0.2729 | 0.3677 | 0.6686 | 0.8464 | 0.9735 | 0.0% |
+| trend_sell | prob | 4355 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4355 | 0.2319 | 0.3125 | 0.5683 | 0.7195 | 0.8275 |  |
+| range_buy | raw | 4355 | 0.0854 | 0.161 | 0.2456 | 0.3408 | 0.7125 | 10.4% |
+| range_buy | prob | 4355 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4355 | 0.0983 | 0.1851 | 0.2824 | 0.3919 | 0.8194 |  |
+| range_sell | raw | 4355 | 0.0807 | 0.1603 | 0.2279 | 0.3143 | 0.7635 | 9.7% |
+| range_sell | prob | 4355 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4355 | 0.0929 | 0.1843 | 0.2621 | 0.3614 | 0.878 |  |
+| mean_reversion_buy | raw | 4355 | 0.053 | 0.0897 | 0.1628 | 0.2773 | 0.6027 | 13.7% |
+| mean_reversion_buy | prob | 4355 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4355 | 0.045 | 0.0762 | 0.1384 | 0.2357 | 0.5123 |  |
+| mean_reversion_sell | raw | 4355 | 0.0453 | 0.083 | 0.149 | 0.2366 | 0.6223 | 15.8% |
+| mean_reversion_sell | prob | 4355 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4355 | 0.0385 | 0.0705 | 0.1266 | 0.2011 | 0.5289 |  |
+| counter_trend_buy | raw | 1013 | 0.1389 | 0.2884 | 0.4206 | 0.5559 | 0.8129 | 21.1% |
+| counter_trend_buy | prob | 1013 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 1013 | 0.1319 | 0.2739 | 0.3995 | 0.5281 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 142 | 0.9178 | 0.9543 | 0.9826 | 0.9877 | 0.9988 | 12.7% |
+| breakout_buy | prob | 142 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 142 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 151 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.6% |
+| breakout_sell | prob | 151 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 151 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.7% |
+| breakout_reversal_buy | prob | 75 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 | 94.1% |
+| breakout_reversal_sell | prob | 68 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 68 | 0.7634 | 0.7962 | 0.8141 | 0.8893 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-29 13:11 (ทุก 1 นาทีเช็ค, records=38307)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4368 | 0.2872 | 0.3946 | 0.4958 | 0.6142 | 0.8372 | 0.0% |
+| trend_buy | prob | 4368 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4368 | 0.2442 | 0.3354 | 0.4215 | 0.5221 | 0.7117 |  |
+| trend_sell | raw | 4368 | 0.2729 | 0.3673 | 0.6632 | 0.8464 | 0.9735 | 0.0% |
+| trend_sell | prob | 4368 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4368 | 0.2319 | 0.3122 | 0.5637 | 0.7195 | 0.8275 |  |
+| range_buy | raw | 4368 | 0.0854 | 0.1609 | 0.2455 | 0.3408 | 0.7125 | 10.3% |
+| range_buy | prob | 4368 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4368 | 0.0983 | 0.1851 | 0.2824 | 0.3919 | 0.8194 |  |
+| range_sell | raw | 4368 | 0.081 | 0.1605 | 0.2286 | 0.3155 | 0.7635 | 9.7% |
+| range_sell | prob | 4368 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4368 | 0.0932 | 0.1846 | 0.2629 | 0.3629 | 0.878 |  |
+| mean_reversion_buy | raw | 4368 | 0.053 | 0.0893 | 0.1624 | 0.2762 | 0.6027 | 13.6% |
+| mean_reversion_buy | prob | 4368 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4368 | 0.045 | 0.0759 | 0.1381 | 0.2347 | 0.5123 |  |
+| mean_reversion_sell | raw | 4368 | 0.0454 | 0.083 | 0.1495 | 0.2374 | 0.6223 | 15.8% |
+| mean_reversion_sell | prob | 4368 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4368 | 0.0386 | 0.0706 | 0.1271 | 0.2018 | 0.5289 |  |
+| counter_trend_buy | raw | 1013 | 0.1389 | 0.2884 | 0.4206 | 0.5559 | 0.8129 | 21.1% |
+| counter_trend_buy | prob | 1013 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 1013 | 0.1319 | 0.2739 | 0.3995 | 0.5281 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 142 | 0.9178 | 0.9543 | 0.9826 | 0.9877 | 0.9988 | 12.7% |
+| breakout_buy | prob | 142 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 142 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 151 | 0.9236 | 0.9718 | 0.9961 | 0.9979 | 1.0 | 6.6% |
+| breakout_sell | prob | 151 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 151 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.7% |
+| breakout_reversal_buy | prob | 75 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 74 | 0.7634 | 0.7994 | 0.8189 | 0.857 | 0.9189 | 94.6% |
+| breakout_reversal_sell | prob | 74 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 74 | 0.7634 | 0.7994 | 0.8189 | 0.857 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-30 08:28 (ทุก 1 นาทีเช็ค, records=38417)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4381 | 0.2877 | 0.3946 | 0.496 | 0.6141 | 0.8372 | 0.0% |
+| trend_buy | prob | 4381 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4381 | 0.2445 | 0.3354 | 0.4216 | 0.522 | 0.7117 |  |
+| trend_sell | raw | 4381 | 0.2726 | 0.3651 | 0.6619 | 0.8464 | 0.9735 | 0.0% |
+| trend_sell | prob | 4381 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4381 | 0.2317 | 0.3104 | 0.5626 | 0.7195 | 0.8275 |  |
+| range_buy | raw | 4381 | 0.0852 | 0.1608 | 0.2455 | 0.3408 | 0.7125 | 10.3% |
+| range_buy | prob | 4381 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4381 | 0.098 | 0.185 | 0.2824 | 0.3919 | 0.8194 |  |
+| range_sell | raw | 4381 | 0.0811 | 0.1609 | 0.2295 | 0.3155 | 0.7635 | 9.7% |
+| range_sell | prob | 4381 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4381 | 0.0933 | 0.185 | 0.2639 | 0.3629 | 0.878 |  |
+| mean_reversion_buy | raw | 4381 | 0.053 | 0.0886 | 0.1624 | 0.2762 | 0.6027 | 13.6% |
+| mean_reversion_buy | prob | 4381 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4381 | 0.045 | 0.0753 | 0.1381 | 0.2347 | 0.5123 |  |
+| mean_reversion_sell | raw | 4381 | 0.0454 | 0.0843 | 0.1511 | 0.2425 | 0.6223 | 15.8% |
+| mean_reversion_sell | prob | 4381 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4381 | 0.0386 | 0.0717 | 0.1284 | 0.2062 | 0.5289 |  |
+| counter_trend_buy | raw | 1013 | 0.1389 | 0.2884 | 0.4206 | 0.5559 | 0.8129 | 21.1% |
+| counter_trend_buy | prob | 1013 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 1013 | 0.1319 | 0.2739 | 0.3995 | 0.5281 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 142 | 0.9178 | 0.9543 | 0.9826 | 0.9877 | 0.9988 | 12.7% |
+| breakout_buy | prob | 142 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 142 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 152 | 0.9236 | 0.9718 | 0.9961 | 0.9977 | 1.0 | 7.2% |
+| breakout_sell | prob | 152 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 152 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.7% |
+| breakout_reversal_buy | prob | 75 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 75 | 0.7887 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 77 | 0.7634 | 0.7994 | 0.8189 | 0.857 | 0.9189 | 94.8% |
+| breakout_reversal_sell | prob | 77 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 77 | 0.7634 | 0.7994 | 0.8189 | 0.857 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-30 08:41 (ทุก 1 นาทีเช็ค, records=38545)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4382 | 0.2872 | 0.3946 | 0.4958 | 0.6109 | 0.8372 | 0.0% |
+| trend_buy | prob | 4382 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4382 | 0.2442 | 0.3354 | 0.4215 | 0.5193 | 0.7117 |  |
+| trend_sell | raw | 4382 | 0.2726 | 0.3651 | 0.6619 | 0.8463 | 0.9735 | 0.0% |
+| trend_sell | prob | 4382 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4382 | 0.2317 | 0.3104 | 0.5626 | 0.7194 | 0.8275 |  |
+| range_buy | raw | 4382 | 0.0852 | 0.1608 | 0.2455 | 0.3408 | 0.7125 | 10.3% |
+| range_buy | prob | 4382 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4382 | 0.098 | 0.185 | 0.2824 | 0.3919 | 0.8194 |  |
+| range_sell | raw | 4382 | 0.0811 | 0.1609 | 0.2295 | 0.3155 | 0.7635 | 9.7% |
+| range_sell | prob | 4382 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4382 | 0.0933 | 0.185 | 0.2639 | 0.3629 | 0.878 |  |
+| mean_reversion_buy | raw | 4382 | 0.053 | 0.0886 | 0.1624 | 0.2755 | 0.6027 | 13.6% |
+| mean_reversion_buy | prob | 4382 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4382 | 0.045 | 0.0753 | 0.1381 | 0.2342 | 0.5123 |  |
+| mean_reversion_sell | raw | 4382 | 0.0454 | 0.0831 | 0.1505 | 0.2405 | 0.6223 | 15.8% |
+| mean_reversion_sell | prob | 4382 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4382 | 0.0386 | 0.0706 | 0.128 | 0.2044 | 0.5289 |  |
+| counter_trend_buy | raw | 1013 | 0.1389 | 0.2884 | 0.4206 | 0.5559 | 0.8129 | 21.1% |
+| counter_trend_buy | prob | 1013 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 1013 | 0.1319 | 0.2739 | 0.3995 | 0.5281 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 142 | 0.9178 | 0.9543 | 0.9826 | 0.9877 | 0.9988 | 12.7% |
+| breakout_buy | prob | 142 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 142 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 152 | 0.9236 | 0.9718 | 0.9961 | 0.9977 | 1.0 | 7.2% |
+| breakout_sell | prob | 152 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 152 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 76 | 0.7805 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.8% |
+| breakout_reversal_buy | prob | 76 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 76 | 0.7805 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 77 | 0.7634 | 0.7994 | 0.8189 | 0.857 | 0.9189 | 94.8% |
+| breakout_reversal_sell | prob | 77 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 77 | 0.7634 | 0.7994 | 0.8189 | 0.857 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-30 09:00 (ทุก 1 นาทีเช็ค, records=38650)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4382 | 0.2872 | 0.3946 | 0.4958 | 0.6109 | 0.8372 | 0.0% |
+| trend_buy | prob | 4382 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4382 | 0.2442 | 0.3354 | 0.4215 | 0.5193 | 0.7117 |  |
+| trend_sell | raw | 4382 | 0.2726 | 0.3651 | 0.6619 | 0.8463 | 0.9735 | 0.0% |
+| trend_sell | prob | 4382 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4382 | 0.2317 | 0.3104 | 0.5626 | 0.7194 | 0.8275 |  |
+| range_buy | raw | 4382 | 0.0852 | 0.1608 | 0.2455 | 0.3408 | 0.7125 | 10.3% |
+| range_buy | prob | 4382 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4382 | 0.098 | 0.185 | 0.2824 | 0.3919 | 0.8194 |  |
+| range_sell | raw | 4382 | 0.0811 | 0.1609 | 0.2295 | 0.3155 | 0.7635 | 9.7% |
+| range_sell | prob | 4382 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4382 | 0.0933 | 0.185 | 0.2639 | 0.3629 | 0.878 |  |
+| mean_reversion_buy | raw | 4382 | 0.053 | 0.0886 | 0.1624 | 0.2755 | 0.6027 | 13.6% |
+| mean_reversion_buy | prob | 4382 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4382 | 0.045 | 0.0753 | 0.1381 | 0.2342 | 0.5123 |  |
+| mean_reversion_sell | raw | 4382 | 0.0454 | 0.0831 | 0.1505 | 0.2405 | 0.6223 | 15.8% |
+| mean_reversion_sell | prob | 4382 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4382 | 0.0386 | 0.0706 | 0.128 | 0.2044 | 0.5289 |  |
+| counter_trend_buy | raw | 1013 | 0.1389 | 0.2884 | 0.4206 | 0.5559 | 0.8129 | 21.1% |
+| counter_trend_buy | prob | 1013 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 1013 | 0.1319 | 0.2739 | 0.3995 | 0.5281 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 142 | 0.9178 | 0.9543 | 0.9826 | 0.9877 | 0.9988 | 12.7% |
+| breakout_buy | prob | 142 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 142 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 152 | 0.9236 | 0.9718 | 0.9961 | 0.9977 | 1.0 | 7.2% |
+| breakout_sell | prob | 152 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 152 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 76 | 0.7805 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.8% |
+| breakout_reversal_buy | prob | 76 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 76 | 0.7805 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 77 | 0.7634 | 0.7994 | 0.8189 | 0.857 | 0.9189 | 94.8% |
+| breakout_reversal_sell | prob | 77 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 77 | 0.7634 | 0.7994 | 0.8189 | 0.857 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-30 09:13 (ทุก 1 นาทีเช็ค, records=38758)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4390 | 0.2881 | 0.3946 | 0.4958 | 0.6109 | 0.8372 | 0.0% |
+| trend_buy | prob | 4390 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4390 | 0.2448 | 0.3354 | 0.4215 | 0.5193 | 0.7117 |  |
+| trend_sell | raw | 4390 | 0.2726 | 0.3649 | 0.6593 | 0.8463 | 0.9735 | 0.0% |
+| trend_sell | prob | 4390 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4390 | 0.2317 | 0.3101 | 0.5604 | 0.7194 | 0.8275 |  |
+| range_buy | raw | 4390 | 0.0852 | 0.1608 | 0.2455 | 0.3408 | 0.7125 | 10.3% |
+| range_buy | prob | 4390 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4390 | 0.098 | 0.185 | 0.2824 | 0.3919 | 0.8194 |  |
+| range_sell | raw | 4390 | 0.0811 | 0.1609 | 0.2295 | 0.3155 | 0.7635 | 9.7% |
+| range_sell | prob | 4390 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4390 | 0.0933 | 0.185 | 0.2639 | 0.3629 | 0.878 |  |
+| mean_reversion_buy | raw | 4390 | 0.053 | 0.0886 | 0.1624 | 0.2755 | 0.6027 | 13.6% |
+| mean_reversion_buy | prob | 4390 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4390 | 0.045 | 0.0753 | 0.1381 | 0.2342 | 0.5123 |  |
+| mean_reversion_sell | raw | 4390 | 0.0456 | 0.0831 | 0.1511 | 0.2405 | 0.6223 | 15.9% |
+| mean_reversion_sell | prob | 4390 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4390 | 0.0388 | 0.0706 | 0.1284 | 0.2044 | 0.5289 |  |
+| counter_trend_buy | raw | 1013 | 0.1389 | 0.2884 | 0.4206 | 0.5559 | 0.8129 | 21.1% |
+| counter_trend_buy | prob | 1013 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 1013 | 0.1319 | 0.2739 | 0.3995 | 0.5281 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 142 | 0.9178 | 0.9543 | 0.9826 | 0.9877 | 0.9988 | 12.7% |
+| breakout_buy | prob | 142 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 142 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 152 | 0.9236 | 0.9718 | 0.9961 | 0.9977 | 1.0 | 7.2% |
+| breakout_sell | prob | 152 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 152 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 76 | 0.7805 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.8% |
+| breakout_reversal_buy | prob | 76 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 76 | 0.7805 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 77 | 0.7634 | 0.7994 | 0.8189 | 0.857 | 0.9189 | 94.8% |
+| breakout_reversal_sell | prob | 77 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 77 | 0.7634 | 0.7994 | 0.8189 | 0.857 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-30 09:26 (ทุก 1 นาทีเช็ค, records=38876)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4392 | 0.2881 | 0.3946 | 0.4958 | 0.6109 | 0.8372 | 0.0% |
+| trend_buy | prob | 4392 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4392 | 0.2448 | 0.3354 | 0.4215 | 0.5193 | 0.7117 |  |
+| trend_sell | raw | 4392 | 0.2726 | 0.3649 | 0.6593 | 0.8463 | 0.9735 | 0.0% |
+| trend_sell | prob | 4392 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4392 | 0.2317 | 0.3101 | 0.5604 | 0.7194 | 0.8275 |  |
+| range_buy | raw | 4392 | 0.0852 | 0.1609 | 0.2455 | 0.3408 | 0.7125 | 10.3% |
+| range_buy | prob | 4392 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4392 | 0.098 | 0.1851 | 0.2824 | 0.3919 | 0.8194 |  |
+| range_sell | raw | 4392 | 0.0811 | 0.1609 | 0.2295 | 0.3155 | 0.7635 | 9.7% |
+| range_sell | prob | 4392 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4392 | 0.0933 | 0.185 | 0.2639 | 0.3629 | 0.878 |  |
+| mean_reversion_buy | raw | 4392 | 0.053 | 0.0885 | 0.1624 | 0.2755 | 0.6027 | 13.6% |
+| mean_reversion_buy | prob | 4392 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4392 | 0.045 | 0.0752 | 0.1381 | 0.2342 | 0.5123 |  |
+| mean_reversion_sell | raw | 4392 | 0.0456 | 0.0843 | 0.1511 | 0.2384 | 0.6223 | 15.9% |
+| mean_reversion_sell | prob | 4392 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4392 | 0.0388 | 0.0717 | 0.1284 | 0.2027 | 0.5289 |  |
+| counter_trend_buy | raw | 1013 | 0.1389 | 0.2884 | 0.4206 | 0.5559 | 0.8129 | 21.1% |
+| counter_trend_buy | prob | 1013 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 1013 | 0.1319 | 0.2739 | 0.3995 | 0.5281 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 142 | 0.9178 | 0.9543 | 0.9826 | 0.9877 | 0.9988 | 12.7% |
+| breakout_buy | prob | 142 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 142 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 152 | 0.9236 | 0.9718 | 0.9961 | 0.9977 | 1.0 | 7.2% |
+| breakout_sell | prob | 152 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 152 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 76 | 0.7805 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.8% |
+| breakout_reversal_buy | prob | 76 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 76 | 0.7805 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 77 | 0.7634 | 0.7994 | 0.8189 | 0.857 | 0.9189 | 94.8% |
+| breakout_reversal_sell | prob | 77 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 77 | 0.7634 | 0.7994 | 0.8189 | 0.857 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-30 09:32 (ทุก 1 นาทีเช็ค, records=38942)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4394 | 0.2882 | 0.3946 | 0.4958 | 0.6109 | 0.8372 | 0.0% |
+| trend_buy | prob | 4394 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4394 | 0.2449 | 0.3354 | 0.4215 | 0.5193 | 0.7117 |  |
+| trend_sell | raw | 4394 | 0.2726 | 0.3649 | 0.6572 | 0.8463 | 0.9735 | 0.0% |
+| trend_sell | prob | 4394 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4394 | 0.2317 | 0.3101 | 0.5586 | 0.7194 | 0.8275 |  |
+| range_buy | raw | 4394 | 0.0852 | 0.1608 | 0.2451 | 0.3408 | 0.7125 | 10.3% |
+| range_buy | prob | 4394 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4394 | 0.098 | 0.185 | 0.2819 | 0.3919 | 0.8194 |  |
+| range_sell | raw | 4394 | 0.0811 | 0.1609 | 0.2293 | 0.3155 | 0.7635 | 9.7% |
+| range_sell | prob | 4394 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4394 | 0.0933 | 0.185 | 0.2637 | 0.3629 | 0.878 |  |
+| mean_reversion_buy | raw | 4394 | 0.053 | 0.0885 | 0.1619 | 0.2755 | 0.6027 | 13.6% |
+| mean_reversion_buy | prob | 4394 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4394 | 0.045 | 0.0752 | 0.1376 | 0.2342 | 0.5123 |  |
+| mean_reversion_sell | raw | 4394 | 0.0456 | 0.0843 | 0.1511 | 0.2384 | 0.6223 | 16.0% |
+| mean_reversion_sell | prob | 4394 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4394 | 0.0388 | 0.0717 | 0.1284 | 0.2027 | 0.5289 |  |
+| counter_trend_buy | raw | 1013 | 0.1389 | 0.2884 | 0.4206 | 0.5559 | 0.8129 | 21.1% |
+| counter_trend_buy | prob | 1013 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 1013 | 0.1319 | 0.2739 | 0.3995 | 0.5281 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 142 | 0.9178 | 0.9543 | 0.9826 | 0.9877 | 0.9988 | 12.7% |
+| breakout_buy | prob | 142 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 142 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 152 | 0.9236 | 0.9718 | 0.9961 | 0.9977 | 1.0 | 7.2% |
+| breakout_sell | prob | 152 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 152 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 76 | 0.7805 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.8% |
+| breakout_reversal_buy | prob | 76 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 76 | 0.7805 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 77 | 0.7634 | 0.7994 | 0.8189 | 0.857 | 0.9189 | 94.8% |
+| breakout_reversal_sell | prob | 77 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 77 | 0.7634 | 0.7994 | 0.8189 | 0.857 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-30 09:39 (ทุก 1 นาทีเช็ค, records=38999)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4401 | 0.2882 | 0.3946 | 0.496 | 0.6109 | 0.8372 | 0.0% |
+| trend_buy | prob | 4401 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4401 | 0.2449 | 0.3354 | 0.4216 | 0.5193 | 0.7117 |  |
+| trend_sell | raw | 4401 | 0.2729 | 0.3649 | 0.6572 | 0.8463 | 0.9735 | 0.0% |
+| trend_sell | prob | 4401 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4401 | 0.2319 | 0.3101 | 0.5586 | 0.7194 | 0.8275 |  |
+| range_buy | raw | 4401 | 0.0854 | 0.1609 | 0.2451 | 0.3408 | 0.7125 | 10.2% |
+| range_buy | prob | 4401 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4401 | 0.0983 | 0.1851 | 0.2819 | 0.3919 | 0.8194 |  |
+| range_sell | raw | 4401 | 0.0819 | 0.1609 | 0.2293 | 0.3155 | 0.7635 | 9.7% |
+| range_sell | prob | 4401 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4401 | 0.0942 | 0.185 | 0.2637 | 0.3629 | 0.878 |  |
+| mean_reversion_buy | raw | 4401 | 0.0531 | 0.0885 | 0.1619 | 0.2755 | 0.6027 | 13.5% |
+| mean_reversion_buy | prob | 4401 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4401 | 0.0451 | 0.0752 | 0.1376 | 0.2342 | 0.5123 |  |
+| mean_reversion_sell | raw | 4401 | 0.0456 | 0.0843 | 0.1511 | 0.2384 | 0.6223 | 16.0% |
+| mean_reversion_sell | prob | 4401 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4401 | 0.0388 | 0.0717 | 0.1284 | 0.2027 | 0.5289 |  |
+| counter_trend_buy | raw | 1013 | 0.1389 | 0.2884 | 0.4206 | 0.5559 | 0.8129 | 21.1% |
+| counter_trend_buy | prob | 1013 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 1013 | 0.1319 | 0.2739 | 0.3995 | 0.5281 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 142 | 0.9178 | 0.9543 | 0.9826 | 0.9877 | 0.9988 | 12.7% |
+| breakout_buy | prob | 142 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 142 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 152 | 0.9236 | 0.9718 | 0.9961 | 0.9977 | 1.0 | 7.2% |
+| breakout_sell | prob | 152 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 152 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 76 | 0.7805 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.8% |
+| breakout_reversal_buy | prob | 76 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 76 | 0.7805 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 77 | 0.7634 | 0.7994 | 0.8189 | 0.857 | 0.9189 | 94.8% |
+| breakout_reversal_sell | prob | 77 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 77 | 0.7634 | 0.7994 | 0.8189 | 0.857 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-30 09:39 (ทุก 1 นาทีเช็ค, records=38999)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4401 | 0.2882 | 0.3946 | 0.496 | 0.6109 | 0.8372 | 0.0% |
+| trend_buy | prob | 4401 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4401 | 0.2449 | 0.3354 | 0.4216 | 0.5193 | 0.7117 |  |
+| trend_sell | raw | 4401 | 0.2729 | 0.3649 | 0.6572 | 0.8463 | 0.9735 | 0.0% |
+| trend_sell | prob | 4401 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4401 | 0.2319 | 0.3101 | 0.5586 | 0.7194 | 0.8275 |  |
+| range_buy | raw | 4401 | 0.0854 | 0.1609 | 0.2451 | 0.3408 | 0.7125 | 10.2% |
+| range_buy | prob | 4401 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4401 | 0.0983 | 0.1851 | 0.2819 | 0.3919 | 0.8194 |  |
+| range_sell | raw | 4401 | 0.0819 | 0.1609 | 0.2293 | 0.3155 | 0.7635 | 9.7% |
+| range_sell | prob | 4401 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4401 | 0.0942 | 0.185 | 0.2637 | 0.3629 | 0.878 |  |
+| mean_reversion_buy | raw | 4401 | 0.0531 | 0.0885 | 0.1619 | 0.2755 | 0.6027 | 13.5% |
+| mean_reversion_buy | prob | 4401 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4401 | 0.0451 | 0.0752 | 0.1376 | 0.2342 | 0.5123 |  |
+| mean_reversion_sell | raw | 4401 | 0.0456 | 0.0843 | 0.1511 | 0.2384 | 0.6223 | 16.0% |
+| mean_reversion_sell | prob | 4401 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4401 | 0.0388 | 0.0717 | 0.1284 | 0.2027 | 0.5289 |  |
+| counter_trend_buy | raw | 1013 | 0.1389 | 0.2884 | 0.4206 | 0.5559 | 0.8129 | 21.1% |
+| counter_trend_buy | prob | 1013 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 1013 | 0.1319 | 0.2739 | 0.3995 | 0.5281 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 142 | 0.9178 | 0.9543 | 0.9826 | 0.9877 | 0.9988 | 12.7% |
+| breakout_buy | prob | 142 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 142 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 152 | 0.9236 | 0.9718 | 0.9961 | 0.9977 | 1.0 | 7.2% |
+| breakout_sell | prob | 152 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 152 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 76 | 0.7805 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.8% |
+| breakout_reversal_buy | prob | 76 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 76 | 0.7805 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 77 | 0.7634 | 0.7994 | 0.8189 | 0.857 | 0.9189 | 94.8% |
+| breakout_reversal_sell | prob | 77 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 77 | 0.7634 | 0.7994 | 0.8189 | 0.857 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-30 09:53 (ทุก 1 นาทีเช็ค, records=39121)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4410 | 0.2882 | 0.3947 | 0.4961 | 0.6109 | 0.8372 | 0.0% |
+| trend_buy | prob | 4410 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4410 | 0.2449 | 0.3355 | 0.4217 | 0.5193 | 0.7117 |  |
+| trend_sell | raw | 4410 | 0.2729 | 0.3643 | 0.6572 | 0.8463 | 0.9735 | 0.0% |
+| trend_sell | prob | 4410 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4410 | 0.2319 | 0.3097 | 0.5586 | 0.7194 | 0.8275 |  |
+| range_buy | raw | 4410 | 0.0854 | 0.1608 | 0.2446 | 0.3408 | 0.7125 | 10.2% |
+| range_buy | prob | 4410 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4410 | 0.0983 | 0.185 | 0.2813 | 0.3919 | 0.8194 |  |
+| range_sell | raw | 4410 | 0.0819 | 0.1616 | 0.2295 | 0.3155 | 0.7635 | 9.9% |
+| range_sell | prob | 4410 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4410 | 0.0942 | 0.1858 | 0.2639 | 0.3629 | 0.878 |  |
+| mean_reversion_buy | raw | 4410 | 0.0532 | 0.0883 | 0.1619 | 0.2755 | 0.6027 | 13.5% |
+| mean_reversion_buy | prob | 4410 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4410 | 0.0452 | 0.075 | 0.1376 | 0.2342 | 0.5123 |  |
+| mean_reversion_sell | raw | 4410 | 0.0459 | 0.0843 | 0.1512 | 0.2446 | 0.6223 | 15.9% |
+| mean_reversion_sell | prob | 4410 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4410 | 0.039 | 0.0717 | 0.1285 | 0.2079 | 0.5289 |  |
+| counter_trend_buy | raw | 1013 | 0.1389 | 0.2884 | 0.4206 | 0.5559 | 0.8129 | 21.1% |
+| counter_trend_buy | prob | 1013 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 1013 | 0.1319 | 0.2739 | 0.3995 | 0.5281 | 0.7722 |  |
+| counter_trend_sell | raw | 578 | 0.1872 | 0.3025 | 0.4498 | 0.5153 | 0.6391 | 33.0% |
+| counter_trend_sell | prob | 578 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 578 | 0.1778 | 0.2874 | 0.4273 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 142 | 0.9178 | 0.9543 | 0.9826 | 0.9877 | 0.9988 | 12.7% |
+| breakout_buy | prob | 142 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 142 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 152 | 0.9236 | 0.9718 | 0.9961 | 0.9977 | 1.0 | 7.2% |
+| breakout_sell | prob | 152 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 152 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 76 | 0.7805 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.8% |
+| breakout_reversal_buy | prob | 76 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 76 | 0.7805 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 77 | 0.7634 | 0.7994 | 0.8189 | 0.857 | 0.9189 | 94.8% |
+| breakout_reversal_sell | prob | 77 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 77 | 0.7634 | 0.7994 | 0.8189 | 0.857 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-30 10:06 (ทุก 1 นาทีเช็ค, records=39237)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4419 | 0.2887 | 0.3951 | 0.4966 | 0.6155 | 0.8372 | 0.0% |
+| trend_buy | prob | 4419 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4419 | 0.2454 | 0.3358 | 0.4221 | 0.5231 | 0.7117 |  |
+| trend_sell | raw | 4419 | 0.2729 | 0.3642 | 0.653 | 0.8463 | 0.9735 | 0.0% |
+| trend_sell | prob | 4419 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4419 | 0.2319 | 0.3096 | 0.5551 | 0.7194 | 0.8275 |  |
+| range_buy | raw | 4419 | 0.0854 | 0.1607 | 0.2445 | 0.3385 | 0.7125 | 10.2% |
+| range_buy | prob | 4419 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4419 | 0.0983 | 0.1848 | 0.2811 | 0.3893 | 0.8194 |  |
+| range_sell | raw | 4419 | 0.082 | 0.1625 | 0.2295 | 0.3155 | 0.7635 | 9.9% |
+| range_sell | prob | 4419 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4419 | 0.0943 | 0.1869 | 0.2639 | 0.3629 | 0.878 |  |
+| mean_reversion_buy | raw | 4419 | 0.053 | 0.0882 | 0.1612 | 0.2755 | 0.6027 | 13.5% |
+| mean_reversion_buy | prob | 4419 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4419 | 0.045 | 0.0749 | 0.137 | 0.2342 | 0.5123 |  |
+| mean_reversion_sell | raw | 4419 | 0.0459 | 0.0849 | 0.1515 | 0.2446 | 0.6223 | 16.1% |
+| mean_reversion_sell | prob | 4419 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4419 | 0.039 | 0.0722 | 0.1288 | 0.2079 | 0.5289 |  |
+| counter_trend_buy | raw | 1013 | 0.1389 | 0.2884 | 0.4206 | 0.5559 | 0.8129 | 21.1% |
+| counter_trend_buy | prob | 1013 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 1013 | 0.1319 | 0.2739 | 0.3995 | 0.5281 | 0.7722 |  |
+| counter_trend_sell | raw | 587 | 0.1877 | 0.3025 | 0.4491 | 0.5153 | 0.6391 | 32.5% |
+| counter_trend_sell | prob | 587 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 587 | 0.1783 | 0.2874 | 0.4267 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 144 | 0.9178 | 0.9561 | 0.9826 | 0.9877 | 0.9988 | 12.5% |
+| breakout_buy | prob | 144 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 144 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 152 | 0.9236 | 0.9718 | 0.9961 | 0.9977 | 1.0 | 7.2% |
+| breakout_sell | prob | 152 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 152 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 76 | 0.7805 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.8% |
+| breakout_reversal_buy | prob | 76 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 76 | 0.7805 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 77 | 0.7634 | 0.7994 | 0.8189 | 0.857 | 0.9189 | 94.8% |
+| breakout_reversal_sell | prob | 77 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 77 | 0.7634 | 0.7994 | 0.8189 | 0.857 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-30 10:19 (ทุก 1 นาทีเช็ค, records=39348)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4429 | 0.2887 | 0.3952 | 0.4978 | 0.6182 | 0.8372 | 0.0% |
+| trend_buy | prob | 4429 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4429 | 0.2454 | 0.3359 | 0.4231 | 0.5255 | 0.7117 |  |
+| trend_sell | raw | 4429 | 0.273 | 0.3635 | 0.653 | 0.8463 | 0.9735 | 0.0% |
+| trend_sell | prob | 4429 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4429 | 0.232 | 0.309 | 0.5551 | 0.7194 | 0.8275 |  |
+| range_buy | raw | 4429 | 0.0855 | 0.1603 | 0.2444 | 0.3381 | 0.7125 | 10.2% |
+| range_buy | prob | 4429 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4429 | 0.0983 | 0.1844 | 0.281 | 0.3889 | 0.8194 |  |
+| range_sell | raw | 4429 | 0.082 | 0.1627 | 0.2301 | 0.3151 | 0.7635 | 10.0% |
+| range_sell | prob | 4429 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4429 | 0.0943 | 0.1871 | 0.2646 | 0.3624 | 0.878 |  |
+| mean_reversion_buy | raw | 4429 | 0.0531 | 0.0878 | 0.1609 | 0.2755 | 0.6027 | 13.5% |
+| mean_reversion_buy | prob | 4429 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4429 | 0.0451 | 0.0746 | 0.1368 | 0.2342 | 0.5123 |  |
+| mean_reversion_sell | raw | 4429 | 0.046 | 0.0851 | 0.1519 | 0.2446 | 0.6223 | 16.2% |
+| mean_reversion_sell | prob | 4429 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4429 | 0.0391 | 0.0723 | 0.1291 | 0.2079 | 0.5289 |  |
+| counter_trend_buy | raw | 1013 | 0.1389 | 0.2884 | 0.4206 | 0.5559 | 0.8129 | 21.1% |
+| counter_trend_buy | prob | 1013 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 1013 | 0.1319 | 0.2739 | 0.3995 | 0.5281 | 0.7722 |  |
+| counter_trend_sell | raw | 595 | 0.1877 | 0.3011 | 0.4491 | 0.5153 | 0.6391 | 32.1% |
+| counter_trend_sell | prob | 595 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 595 | 0.1783 | 0.2861 | 0.4267 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 144 | 0.9178 | 0.9561 | 0.9826 | 0.9877 | 0.9988 | 12.5% |
+| breakout_buy | prob | 144 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 144 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 152 | 0.9236 | 0.9718 | 0.9961 | 0.9977 | 1.0 | 7.2% |
+| breakout_sell | prob | 152 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 152 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 76 | 0.7805 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.8% |
+| breakout_reversal_buy | prob | 76 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 76 | 0.7805 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 77 | 0.7634 | 0.7994 | 0.8189 | 0.857 | 0.9189 | 94.8% |
+| breakout_reversal_sell | prob | 77 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 77 | 0.7634 | 0.7994 | 0.8189 | 0.857 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-30 10:32 (ทุก 1 นาทีเช็ค, records=39466)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4429 | 0.2887 | 0.3952 | 0.4978 | 0.6182 | 0.8372 | 0.0% |
+| trend_buy | prob | 4429 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4429 | 0.2454 | 0.3359 | 0.4231 | 0.5255 | 0.7117 |  |
+| trend_sell | raw | 4429 | 0.273 | 0.3635 | 0.653 | 0.8463 | 0.9735 | 0.0% |
+| trend_sell | prob | 4429 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4429 | 0.232 | 0.309 | 0.5551 | 0.7194 | 0.8275 |  |
+| range_buy | raw | 4429 | 0.0855 | 0.1603 | 0.2444 | 0.3381 | 0.7125 | 10.2% |
+| range_buy | prob | 4429 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4429 | 0.0983 | 0.1844 | 0.281 | 0.3889 | 0.8194 |  |
+| range_sell | raw | 4429 | 0.082 | 0.1627 | 0.2301 | 0.3151 | 0.7635 | 10.0% |
+| range_sell | prob | 4429 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4429 | 0.0943 | 0.1871 | 0.2646 | 0.3624 | 0.878 |  |
+| mean_reversion_buy | raw | 4429 | 0.0531 | 0.0878 | 0.1609 | 0.2755 | 0.6027 | 13.5% |
+| mean_reversion_buy | prob | 4429 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4429 | 0.0451 | 0.0746 | 0.1368 | 0.2342 | 0.5123 |  |
+| mean_reversion_sell | raw | 4429 | 0.046 | 0.0851 | 0.1519 | 0.2446 | 0.6223 | 16.2% |
+| mean_reversion_sell | prob | 4429 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4429 | 0.0391 | 0.0723 | 0.1291 | 0.2079 | 0.5289 |  |
+| counter_trend_buy | raw | 1013 | 0.1389 | 0.2884 | 0.4206 | 0.5559 | 0.8129 | 21.1% |
+| counter_trend_buy | prob | 1013 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 1013 | 0.1319 | 0.2739 | 0.3995 | 0.5281 | 0.7722 |  |
+| counter_trend_sell | raw | 595 | 0.1877 | 0.3011 | 0.4491 | 0.5153 | 0.6391 | 32.1% |
+| counter_trend_sell | prob | 595 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 595 | 0.1783 | 0.2861 | 0.4267 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 144 | 0.9178 | 0.9561 | 0.9826 | 0.9877 | 0.9988 | 12.5% |
+| breakout_buy | prob | 144 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 144 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 152 | 0.9236 | 0.9718 | 0.9961 | 0.9977 | 1.0 | 7.2% |
+| breakout_sell | prob | 152 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 152 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 76 | 0.7805 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.8% |
+| breakout_reversal_buy | prob | 76 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 76 | 0.7805 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 77 | 0.7634 | 0.7994 | 0.8189 | 0.857 | 0.9189 | 94.8% |
+| breakout_reversal_sell | prob | 77 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 77 | 0.7634 | 0.7994 | 0.8189 | 0.857 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-30 10:45 (ทุก 1 นาทีเช็ค, records=39578)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4430 | 0.2887 | 0.3952 | 0.4978 | 0.6182 | 0.8372 | 0.0% |
+| trend_buy | prob | 4430 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4430 | 0.2454 | 0.3359 | 0.4231 | 0.5255 | 0.7117 |  |
+| trend_sell | raw | 4430 | 0.273 | 0.3635 | 0.6525 | 0.8463 | 0.9735 | 0.0% |
+| trend_sell | prob | 4430 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4430 | 0.232 | 0.309 | 0.5546 | 0.7194 | 0.8275 |  |
+| range_buy | raw | 4430 | 0.0855 | 0.1603 | 0.2444 | 0.3381 | 0.7125 | 10.2% |
+| range_buy | prob | 4430 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4430 | 0.0983 | 0.1844 | 0.281 | 0.3889 | 0.8194 |  |
+| range_sell | raw | 4430 | 0.082 | 0.1627 | 0.2301 | 0.3151 | 0.7635 | 10.0% |
+| range_sell | prob | 4430 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4430 | 0.0943 | 0.1871 | 0.2646 | 0.3624 | 0.878 |  |
+| mean_reversion_buy | raw | 4430 | 0.0531 | 0.0878 | 0.1609 | 0.2755 | 0.6027 | 13.5% |
+| mean_reversion_buy | prob | 4430 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4430 | 0.0451 | 0.0746 | 0.1368 | 0.2342 | 0.5123 |  |
+| mean_reversion_sell | raw | 4430 | 0.046 | 0.0851 | 0.1519 | 0.2446 | 0.6223 | 16.2% |
+| mean_reversion_sell | prob | 4430 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4430 | 0.0391 | 0.0723 | 0.1291 | 0.2079 | 0.5289 |  |
+| counter_trend_buy | raw | 1013 | 0.1389 | 0.2884 | 0.4206 | 0.5559 | 0.8129 | 21.1% |
+| counter_trend_buy | prob | 1013 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 1013 | 0.1319 | 0.2739 | 0.3995 | 0.5281 | 0.7722 |  |
+| counter_trend_sell | raw | 595 | 0.1877 | 0.3011 | 0.4491 | 0.5153 | 0.6391 | 32.1% |
+| counter_trend_sell | prob | 595 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 595 | 0.1783 | 0.2861 | 0.4267 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 144 | 0.9178 | 0.9561 | 0.9826 | 0.9877 | 0.9988 | 12.5% |
+| breakout_buy | prob | 144 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 144 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 152 | 0.9236 | 0.9718 | 0.9961 | 0.9977 | 1.0 | 7.2% |
+| breakout_sell | prob | 152 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 152 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 76 | 0.7805 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.8% |
+| breakout_reversal_buy | prob | 76 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 76 | 0.7805 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 77 | 0.7634 | 0.7994 | 0.8189 | 0.857 | 0.9189 | 94.8% |
+| breakout_reversal_sell | prob | 77 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 77 | 0.7634 | 0.7994 | 0.8189 | 0.857 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-30 10:58 (ทุก 1 นาทีเช็ค, records=39674)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4430 | 0.2887 | 0.3952 | 0.4978 | 0.6182 | 0.8372 | 0.0% |
+| trend_buy | prob | 4430 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4430 | 0.2454 | 0.3359 | 0.4231 | 0.5255 | 0.7117 |  |
+| trend_sell | raw | 4430 | 0.273 | 0.3635 | 0.6525 | 0.8463 | 0.9735 | 0.0% |
+| trend_sell | prob | 4430 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4430 | 0.232 | 0.309 | 0.5546 | 0.7194 | 0.8275 |  |
+| range_buy | raw | 4430 | 0.0855 | 0.1603 | 0.2444 | 0.3381 | 0.7125 | 10.2% |
+| range_buy | prob | 4430 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4430 | 0.0983 | 0.1844 | 0.281 | 0.3889 | 0.8194 |  |
+| range_sell | raw | 4430 | 0.082 | 0.1627 | 0.2301 | 0.3151 | 0.7635 | 10.0% |
+| range_sell | prob | 4430 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4430 | 0.0943 | 0.1871 | 0.2646 | 0.3624 | 0.878 |  |
+| mean_reversion_buy | raw | 4430 | 0.0531 | 0.0878 | 0.1609 | 0.2755 | 0.6027 | 13.5% |
+| mean_reversion_buy | prob | 4430 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4430 | 0.0451 | 0.0746 | 0.1368 | 0.2342 | 0.5123 |  |
+| mean_reversion_sell | raw | 4430 | 0.046 | 0.0851 | 0.1519 | 0.2446 | 0.6223 | 16.2% |
+| mean_reversion_sell | prob | 4430 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4430 | 0.0391 | 0.0723 | 0.1291 | 0.2079 | 0.5289 |  |
+| counter_trend_buy | raw | 1013 | 0.1389 | 0.2884 | 0.4206 | 0.5559 | 0.8129 | 21.1% |
+| counter_trend_buy | prob | 1013 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 1013 | 0.1319 | 0.2739 | 0.3995 | 0.5281 | 0.7722 |  |
+| counter_trend_sell | raw | 595 | 0.1877 | 0.3011 | 0.4491 | 0.5153 | 0.6391 | 32.1% |
+| counter_trend_sell | prob | 595 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 595 | 0.1783 | 0.2861 | 0.4267 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 144 | 0.9178 | 0.9561 | 0.9826 | 0.9877 | 0.9988 | 12.5% |
+| breakout_buy | prob | 144 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 144 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 152 | 0.9236 | 0.9718 | 0.9961 | 0.9977 | 1.0 | 7.2% |
+| breakout_sell | prob | 152 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 152 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 76 | 0.7805 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.8% |
+| breakout_reversal_buy | prob | 76 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 76 | 0.7805 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 77 | 0.7634 | 0.7994 | 0.8189 | 0.857 | 0.9189 | 94.8% |
+| breakout_reversal_sell | prob | 77 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 77 | 0.7634 | 0.7994 | 0.8189 | 0.857 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-30 11:11 (ทุก 1 นาทีเช็ค, records=39784)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4430 | 0.2887 | 0.3952 | 0.4978 | 0.6182 | 0.8372 | 0.0% |
+| trend_buy | prob | 4430 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4430 | 0.2454 | 0.3359 | 0.4231 | 0.5255 | 0.7117 |  |
+| trend_sell | raw | 4430 | 0.273 | 0.3635 | 0.6525 | 0.8463 | 0.9735 | 0.0% |
+| trend_sell | prob | 4430 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4430 | 0.232 | 0.309 | 0.5546 | 0.7194 | 0.8275 |  |
+| range_buy | raw | 4430 | 0.0855 | 0.1603 | 0.2444 | 0.3381 | 0.7125 | 10.2% |
+| range_buy | prob | 4430 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4430 | 0.0983 | 0.1844 | 0.281 | 0.3889 | 0.8194 |  |
+| range_sell | raw | 4430 | 0.082 | 0.1627 | 0.2301 | 0.3151 | 0.7635 | 10.0% |
+| range_sell | prob | 4430 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4430 | 0.0943 | 0.1871 | 0.2646 | 0.3624 | 0.878 |  |
+| mean_reversion_buy | raw | 4430 | 0.0531 | 0.0878 | 0.1609 | 0.2755 | 0.6027 | 13.5% |
+| mean_reversion_buy | prob | 4430 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4430 | 0.0451 | 0.0746 | 0.1368 | 0.2342 | 0.5123 |  |
+| mean_reversion_sell | raw | 4430 | 0.046 | 0.0851 | 0.1519 | 0.2446 | 0.6223 | 16.2% |
+| mean_reversion_sell | prob | 4430 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4430 | 0.0391 | 0.0723 | 0.1291 | 0.2079 | 0.5289 |  |
+| counter_trend_buy | raw | 1013 | 0.1389 | 0.2884 | 0.4206 | 0.5559 | 0.8129 | 21.1% |
+| counter_trend_buy | prob | 1013 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 1013 | 0.1319 | 0.2739 | 0.3995 | 0.5281 | 0.7722 |  |
+| counter_trend_sell | raw | 595 | 0.1877 | 0.3011 | 0.4491 | 0.5153 | 0.6391 | 32.1% |
+| counter_trend_sell | prob | 595 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 595 | 0.1783 | 0.2861 | 0.4267 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 144 | 0.9178 | 0.9561 | 0.9826 | 0.9877 | 0.9988 | 12.5% |
+| breakout_buy | prob | 144 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 144 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 152 | 0.9236 | 0.9718 | 0.9961 | 0.9977 | 1.0 | 7.2% |
+| breakout_sell | prob | 152 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 152 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 76 | 0.7805 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.8% |
+| breakout_reversal_buy | prob | 76 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 76 | 0.7805 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 77 | 0.7634 | 0.7994 | 0.8189 | 0.857 | 0.9189 | 94.8% |
+| breakout_reversal_sell | prob | 77 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 77 | 0.7634 | 0.7994 | 0.8189 | 0.857 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-30 11:27 (ทุก 1 นาทีเช็ค, records=39943)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4438 | 0.2882 | 0.3951 | 0.4969 | 0.6182 | 0.8372 | 0.0% |
+| trend_buy | prob | 4438 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4438 | 0.2449 | 0.3358 | 0.4224 | 0.5255 | 0.7117 |  |
+| trend_sell | raw | 4438 | 0.273 | 0.3635 | 0.6525 | 0.844 | 0.9735 | 0.0% |
+| trend_sell | prob | 4438 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4438 | 0.232 | 0.309 | 0.5546 | 0.7174 | 0.8275 |  |
+| range_buy | raw | 4438 | 0.0856 | 0.1607 | 0.2446 | 0.3408 | 0.7125 | 10.2% |
+| range_buy | prob | 4438 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4438 | 0.0984 | 0.1848 | 0.2813 | 0.3919 | 0.8194 |  |
+| range_sell | raw | 4438 | 0.0822 | 0.1627 | 0.2301 | 0.3151 | 0.7635 | 10.0% |
+| range_sell | prob | 4438 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4438 | 0.0946 | 0.1871 | 0.2646 | 0.3624 | 0.878 |  |
+| mean_reversion_buy | raw | 4438 | 0.0532 | 0.0882 | 0.1612 | 0.2755 | 0.6027 | 13.4% |
+| mean_reversion_buy | prob | 4438 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4438 | 0.0452 | 0.0749 | 0.137 | 0.2342 | 0.5123 |  |
+| mean_reversion_sell | raw | 4438 | 0.046 | 0.0853 | 0.1519 | 0.2425 | 0.6223 | 16.2% |
+| mean_reversion_sell | prob | 4438 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4438 | 0.0391 | 0.0725 | 0.1291 | 0.2062 | 0.5289 |  |
+| counter_trend_buy | raw | 1013 | 0.1389 | 0.2884 | 0.4206 | 0.5559 | 0.8129 | 21.1% |
+| counter_trend_buy | prob | 1013 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 1013 | 0.1319 | 0.2739 | 0.3995 | 0.5281 | 0.7722 |  |
+| counter_trend_sell | raw | 595 | 0.1877 | 0.3011 | 0.4491 | 0.5153 | 0.6391 | 32.1% |
+| counter_trend_sell | prob | 595 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 595 | 0.1783 | 0.2861 | 0.4267 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 144 | 0.9178 | 0.9561 | 0.9826 | 0.9877 | 0.9988 | 12.5% |
+| breakout_buy | prob | 144 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 144 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 152 | 0.9236 | 0.9718 | 0.9961 | 0.9977 | 1.0 | 7.2% |
+| breakout_sell | prob | 152 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 152 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 76 | 0.7805 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.8% |
+| breakout_reversal_buy | prob | 76 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 76 | 0.7805 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 77 | 0.7634 | 0.7994 | 0.8189 | 0.857 | 0.9189 | 94.8% |
+| breakout_reversal_sell | prob | 77 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 77 | 0.7634 | 0.7994 | 0.8189 | 0.857 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-30 11:40 (ทุก 1 นาทีเช็ค, records=40075)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4444 | 0.2882 | 0.3952 | 0.4978 | 0.6182 | 0.8372 | 0.0% |
+| trend_buy | prob | 4444 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4444 | 0.2449 | 0.3359 | 0.4231 | 0.5255 | 0.7117 |  |
+| trend_sell | raw | 4444 | 0.273 | 0.3634 | 0.6525 | 0.844 | 0.9735 | 0.0% |
+| trend_sell | prob | 4444 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4444 | 0.232 | 0.3089 | 0.5546 | 0.7174 | 0.8275 |  |
+| range_buy | raw | 4444 | 0.0856 | 0.1607 | 0.2455 | 0.3408 | 0.7125 | 10.3% |
+| range_buy | prob | 4444 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4444 | 0.0984 | 0.1848 | 0.2824 | 0.3919 | 0.8194 |  |
+| range_sell | raw | 4444 | 0.0827 | 0.1627 | 0.2309 | 0.3151 | 0.7635 | 10.0% |
+| range_sell | prob | 4444 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4444 | 0.0951 | 0.1871 | 0.2655 | 0.3624 | 0.878 |  |
+| mean_reversion_buy | raw | 4444 | 0.0532 | 0.0882 | 0.1611 | 0.2755 | 0.6027 | 13.4% |
+| mean_reversion_buy | prob | 4444 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4444 | 0.0452 | 0.0749 | 0.1369 | 0.2342 | 0.5123 |  |
+| mean_reversion_sell | raw | 4444 | 0.046 | 0.0853 | 0.1519 | 0.2425 | 0.6223 | 16.2% |
+| mean_reversion_sell | prob | 4444 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4444 | 0.0391 | 0.0725 | 0.1291 | 0.2062 | 0.5289 |  |
+| counter_trend_buy | raw | 1013 | 0.1389 | 0.2884 | 0.4206 | 0.5559 | 0.8129 | 21.1% |
+| counter_trend_buy | prob | 1013 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 1013 | 0.1319 | 0.2739 | 0.3995 | 0.5281 | 0.7722 |  |
+| counter_trend_sell | raw | 601 | 0.1877 | 0.3011 | 0.4491 | 0.5153 | 0.6391 | 31.8% |
+| counter_trend_sell | prob | 601 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 601 | 0.1783 | 0.2861 | 0.4267 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 144 | 0.9178 | 0.9561 | 0.9826 | 0.9877 | 0.9988 | 12.5% |
+| breakout_buy | prob | 144 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 144 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 152 | 0.9236 | 0.9718 | 0.9961 | 0.9977 | 1.0 | 7.2% |
+| breakout_sell | prob | 152 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 152 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 76 | 0.7805 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.8% |
+| breakout_reversal_buy | prob | 76 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 76 | 0.7805 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 77 | 0.7634 | 0.7994 | 0.8189 | 0.857 | 0.9189 | 94.8% |
+| breakout_reversal_sell | prob | 77 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 77 | 0.7634 | 0.7994 | 0.8189 | 0.857 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-30 11:53 (ทุก 1 นาทีเช็ค, records=40206)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4447 | 0.2887 | 0.3952 | 0.4979 | 0.6182 | 0.8372 | 0.0% |
+| trend_buy | prob | 4447 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4447 | 0.2454 | 0.3359 | 0.4232 | 0.5255 | 0.7117 |  |
+| trend_sell | raw | 4447 | 0.2729 | 0.3634 | 0.6525 | 0.844 | 0.9735 | 0.0% |
+| trend_sell | prob | 4447 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4447 | 0.2319 | 0.3089 | 0.5546 | 0.7174 | 0.8275 |  |
+| range_buy | raw | 4447 | 0.0859 | 0.1607 | 0.2455 | 0.3408 | 0.7125 | 10.3% |
+| range_buy | prob | 4447 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4447 | 0.0988 | 0.1848 | 0.2824 | 0.3919 | 0.8194 |  |
+| range_sell | raw | 4447 | 0.0827 | 0.163 | 0.2309 | 0.3151 | 0.7635 | 10.0% |
+| range_sell | prob | 4447 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4447 | 0.0951 | 0.1874 | 0.2655 | 0.3624 | 0.878 |  |
+| mean_reversion_buy | raw | 4447 | 0.0532 | 0.0882 | 0.1609 | 0.2755 | 0.6027 | 13.4% |
+| mean_reversion_buy | prob | 4447 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4447 | 0.0452 | 0.0749 | 0.1368 | 0.2342 | 0.5123 |  |
+| mean_reversion_sell | raw | 4447 | 0.0462 | 0.0855 | 0.1519 | 0.2446 | 0.6223 | 16.2% |
+| mean_reversion_sell | prob | 4447 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4447 | 0.0393 | 0.0727 | 0.1291 | 0.2079 | 0.5289 |  |
+| counter_trend_buy | raw | 1013 | 0.1389 | 0.2884 | 0.4206 | 0.5559 | 0.8129 | 21.1% |
+| counter_trend_buy | prob | 1013 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 1013 | 0.1319 | 0.2739 | 0.3995 | 0.5281 | 0.7722 |  |
+| counter_trend_sell | raw | 604 | 0.1872 | 0.2979 | 0.448 | 0.5153 | 0.6391 | 31.6% |
+| counter_trend_sell | prob | 604 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 604 | 0.1778 | 0.283 | 0.4256 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 144 | 0.9178 | 0.9561 | 0.9826 | 0.9877 | 0.9988 | 12.5% |
+| breakout_buy | prob | 144 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 144 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 152 | 0.9236 | 0.9718 | 0.9961 | 0.9977 | 1.0 | 7.2% |
+| breakout_sell | prob | 152 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 152 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 76 | 0.7805 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.8% |
+| breakout_reversal_buy | prob | 76 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 76 | 0.7805 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 79 | 0.7634 | 0.7994 | 0.8189 | 0.857 | 0.9189 | 94.9% |
+| breakout_reversal_sell | prob | 79 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 79 | 0.7634 | 0.7994 | 0.8189 | 0.857 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-30 12:06 (ทุก 1 นาทีเช็ค, records=40370)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4449 | 0.2887 | 0.3952 | 0.4979 | 0.6182 | 0.8372 | 0.0% |
+| trend_buy | prob | 4449 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4449 | 0.2454 | 0.3359 | 0.4232 | 0.5255 | 0.7117 |  |
+| trend_sell | raw | 4449 | 0.273 | 0.3634 | 0.6525 | 0.844 | 0.9735 | 0.0% |
+| trend_sell | prob | 4449 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4449 | 0.232 | 0.3089 | 0.5546 | 0.7174 | 0.8275 |  |
+| range_buy | raw | 4449 | 0.0859 | 0.1607 | 0.2455 | 0.3408 | 0.7125 | 10.3% |
+| range_buy | prob | 4449 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4449 | 0.0988 | 0.1848 | 0.2824 | 0.3919 | 0.8194 |  |
+| range_sell | raw | 4449 | 0.0827 | 0.163 | 0.2309 | 0.3151 | 0.7635 | 10.0% |
+| range_sell | prob | 4449 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4449 | 0.0951 | 0.1874 | 0.2655 | 0.3624 | 0.878 |  |
+| mean_reversion_buy | raw | 4449 | 0.0532 | 0.0882 | 0.1609 | 0.2755 | 0.6027 | 13.4% |
+| mean_reversion_buy | prob | 4449 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4449 | 0.0452 | 0.0749 | 0.1368 | 0.2342 | 0.5123 |  |
+| mean_reversion_sell | raw | 4449 | 0.0462 | 0.0855 | 0.1519 | 0.2446 | 0.6223 | 16.2% |
+| mean_reversion_sell | prob | 4449 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4449 | 0.0393 | 0.0727 | 0.1291 | 0.2079 | 0.5289 |  |
+| counter_trend_buy | raw | 1013 | 0.1389 | 0.2884 | 0.4206 | 0.5559 | 0.8129 | 21.1% |
+| counter_trend_buy | prob | 1013 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 1013 | 0.1319 | 0.2739 | 0.3995 | 0.5281 | 0.7722 |  |
+| counter_trend_sell | raw | 606 | 0.1847 | 0.2979 | 0.448 | 0.5153 | 0.6391 | 31.5% |
+| counter_trend_sell | prob | 606 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 606 | 0.1755 | 0.283 | 0.4256 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 144 | 0.9178 | 0.9561 | 0.9826 | 0.9877 | 0.9988 | 12.5% |
+| breakout_buy | prob | 144 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 144 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 152 | 0.9236 | 0.9718 | 0.9961 | 0.9977 | 1.0 | 7.2% |
+| breakout_sell | prob | 152 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 152 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 76 | 0.7805 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.8% |
+| breakout_reversal_buy | prob | 76 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 76 | 0.7805 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 79 | 0.7634 | 0.7994 | 0.8189 | 0.857 | 0.9189 | 94.9% |
+| breakout_reversal_sell | prob | 79 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 79 | 0.7634 | 0.7994 | 0.8189 | 0.857 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-30 12:19 (ทุก 1 นาทีเช็ค, records=40482)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4460 | 0.2882 | 0.3952 | 0.4979 | 0.6182 | 0.8372 | 0.0% |
+| trend_buy | prob | 4460 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4460 | 0.2449 | 0.3359 | 0.4232 | 0.5255 | 0.7117 |  |
+| trend_sell | raw | 4460 | 0.2729 | 0.3628 | 0.6498 | 0.844 | 0.9735 | 0.0% |
+| trend_sell | prob | 4460 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4460 | 0.2319 | 0.3084 | 0.5523 | 0.7174 | 0.8275 |  |
+| range_buy | raw | 4460 | 0.0859 | 0.1608 | 0.2455 | 0.3408 | 0.7125 | 10.4% |
+| range_buy | prob | 4460 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4460 | 0.0988 | 0.185 | 0.2824 | 0.3919 | 0.8194 |  |
+| range_sell | raw | 4460 | 0.0827 | 0.1627 | 0.2308 | 0.3151 | 0.7635 | 9.9% |
+| range_sell | prob | 4460 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4460 | 0.0951 | 0.1871 | 0.2654 | 0.3624 | 0.878 |  |
+| mean_reversion_buy | raw | 4460 | 0.0532 | 0.0883 | 0.1611 | 0.2762 | 0.6027 | 13.4% |
+| mean_reversion_buy | prob | 4460 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4460 | 0.0452 | 0.075 | 0.1369 | 0.2347 | 0.5123 |  |
+| mean_reversion_sell | raw | 4460 | 0.0462 | 0.0853 | 0.1519 | 0.2446 | 0.6223 | 16.2% |
+| mean_reversion_sell | prob | 4460 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4460 | 0.0393 | 0.0725 | 0.1291 | 0.2079 | 0.5289 |  |
+| counter_trend_buy | raw | 1013 | 0.1389 | 0.2884 | 0.4206 | 0.5559 | 0.8129 | 21.1% |
+| counter_trend_buy | prob | 1013 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 1013 | 0.1319 | 0.2739 | 0.3995 | 0.5281 | 0.7722 |  |
+| counter_trend_sell | raw | 608 | 0.1847 | 0.2979 | 0.448 | 0.5153 | 0.6391 | 31.4% |
+| counter_trend_sell | prob | 608 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 608 | 0.1755 | 0.283 | 0.4256 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 144 | 0.9178 | 0.9561 | 0.9826 | 0.9877 | 0.9988 | 12.5% |
+| breakout_buy | prob | 144 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 144 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 152 | 0.9236 | 0.9718 | 0.9961 | 0.9977 | 1.0 | 7.2% |
+| breakout_sell | prob | 152 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 152 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 76 | 0.7805 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.8% |
+| breakout_reversal_buy | prob | 76 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 76 | 0.7805 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 79 | 0.7634 | 0.7994 | 0.8189 | 0.857 | 0.9189 | 94.9% |
+| breakout_reversal_sell | prob | 79 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 79 | 0.7634 | 0.7994 | 0.8189 | 0.857 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-30 12:32 (ทุก 1 นาทีเช็ค, records=40609)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4466 | 0.2882 | 0.3952 | 0.4978 | 0.6182 | 0.8372 | 0.0% |
+| trend_buy | prob | 4466 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4466 | 0.2449 | 0.3359 | 0.4231 | 0.5255 | 0.7117 |  |
+| trend_sell | raw | 4466 | 0.2729 | 0.3628 | 0.6498 | 0.844 | 0.9735 | 0.0% |
+| trend_sell | prob | 4466 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4466 | 0.2319 | 0.3084 | 0.5523 | 0.7174 | 0.8275 |  |
+| range_buy | raw | 4466 | 0.0863 | 0.1608 | 0.2456 | 0.3429 | 0.7125 | 10.4% |
+| range_buy | prob | 4466 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4466 | 0.0993 | 0.185 | 0.2824 | 0.3943 | 0.8194 |  |
+| range_sell | raw | 4466 | 0.0827 | 0.1627 | 0.2308 | 0.3143 | 0.7635 | 9.9% |
+| range_sell | prob | 4466 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4466 | 0.0951 | 0.1871 | 0.2654 | 0.3614 | 0.878 |  |
+| mean_reversion_buy | raw | 4466 | 0.0532 | 0.0883 | 0.1619 | 0.2773 | 0.6027 | 13.3% |
+| mean_reversion_buy | prob | 4466 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4466 | 0.0452 | 0.075 | 0.1376 | 0.2357 | 0.5123 |  |
+| mean_reversion_sell | raw | 4466 | 0.0462 | 0.0853 | 0.1519 | 0.2425 | 0.6223 | 16.2% |
+| mean_reversion_sell | prob | 4466 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4466 | 0.0393 | 0.0725 | 0.1291 | 0.2062 | 0.5289 |  |
+| counter_trend_buy | raw | 1013 | 0.1389 | 0.2884 | 0.4206 | 0.5559 | 0.8129 | 21.1% |
+| counter_trend_buy | prob | 1013 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 1013 | 0.1319 | 0.2739 | 0.3995 | 0.5281 | 0.7722 |  |
+| counter_trend_sell | raw | 608 | 0.1847 | 0.2979 | 0.448 | 0.5153 | 0.6391 | 31.4% |
+| counter_trend_sell | prob | 608 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 608 | 0.1755 | 0.283 | 0.4256 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 144 | 0.9178 | 0.9561 | 0.9826 | 0.9877 | 0.9988 | 12.5% |
+| breakout_buy | prob | 144 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 144 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 153 | 0.9236 | 0.9718 | 0.9961 | 0.9977 | 1.0 | 7.2% |
+| breakout_sell | prob | 153 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 153 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 76 | 0.7805 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.8% |
+| breakout_reversal_buy | prob | 76 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 76 | 0.7805 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 79 | 0.7634 | 0.7994 | 0.8189 | 0.857 | 0.9189 | 94.9% |
+| breakout_reversal_sell | prob | 79 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 79 | 0.7634 | 0.7994 | 0.8189 | 0.857 | 0.9189 |  |
+
+### Auto-Threshold Snapshot 2026-09-30 12:45 (ทุก 1 นาทีเช็ค, records=40707)
+| strategy_side | metric | n | p25 | p50 | p75 | p90 | max | pass% |
+|---|---|---|---|---|---|---|---|---|
+| trend_buy | raw | 4476 | 0.2871 | 0.3951 | 0.4978 | 0.6169 | 0.8372 | 0.0% |
+| trend_buy | prob | 4476 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_buy | weighted | 4476 | 0.244 | 0.3358 | 0.4231 | 0.5244 | 0.7117 |  |
+| trend_sell | raw | 4476 | 0.2726 | 0.3627 | 0.6482 | 0.844 | 0.9735 | 0.0% |
+| trend_sell | prob | 4476 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| trend_sell | weighted | 4476 | 0.2317 | 0.3083 | 0.5509 | 0.7174 | 0.8275 |  |
+| range_buy | raw | 4476 | 0.0863 | 0.1609 | 0.2456 | 0.3415 | 0.7125 | 10.4% |
+| range_buy | prob | 4476 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_buy | weighted | 4476 | 0.0993 | 0.1851 | 0.2824 | 0.3927 | 0.8194 |  |
+| range_sell | raw | 4476 | 0.0827 | 0.163 | 0.2309 | 0.3143 | 0.7635 | 10.0% |
+| range_sell | prob | 4476 | 0.53 | 0.53 | 0.53 | 0.53 | 0.53 |  |
+| range_sell | weighted | 4476 | 0.0951 | 0.1874 | 0.2655 | 0.3614 | 0.878 |  |
+| mean_reversion_buy | raw | 4476 | 0.0532 | 0.0883 | 0.1612 | 0.2773 | 0.6027 | 13.3% |
+| mean_reversion_buy | prob | 4476 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_buy | weighted | 4476 | 0.0452 | 0.075 | 0.137 | 0.2357 | 0.5123 |  |
+| mean_reversion_sell | raw | 4476 | 0.0462 | 0.0853 | 0.1519 | 0.2425 | 0.6223 | 16.2% |
+| mean_reversion_sell | prob | 4476 | 0.56 | 0.56 | 0.56 | 0.56 | 0.56 |  |
+| mean_reversion_sell | weighted | 4476 | 0.0393 | 0.0725 | 0.1291 | 0.2062 | 0.5289 |  |
+| counter_trend_buy | raw | 1013 | 0.1389 | 0.2884 | 0.4206 | 0.5559 | 0.8129 | 21.1% |
+| counter_trend_buy | prob | 1013 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_buy | weighted | 1013 | 0.1319 | 0.2739 | 0.3995 | 0.5281 | 0.7722 |  |
+| counter_trend_sell | raw | 608 | 0.1847 | 0.2979 | 0.448 | 0.5153 | 0.6391 | 31.4% |
+| counter_trend_sell | prob | 608 | 0.58 | 0.58 | 0.58 | 0.58 | 0.58 |  |
+| counter_trend_sell | weighted | 608 | 0.1755 | 0.283 | 0.4256 | 0.4895 | 0.6071 |  |
+| breakout_buy | raw | 144 | 0.9178 | 0.9561 | 0.9826 | 0.9877 | 0.9988 | 12.5% |
+| breakout_buy | prob | 144 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_buy | weighted | 144 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_sell | raw | 153 | 0.9236 | 0.9718 | 0.9961 | 0.9977 | 1.0 | 7.2% |
+| breakout_sell | prob | 153 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_sell | weighted | 153 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |  |
+| breakout_reversal_buy | raw | 76 | 0.7805 | 0.8214 | 0.8268 | 0.8584 | 0.9435 | 90.8% |
+| breakout_reversal_buy | prob | 76 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_buy | weighted | 76 | 0.7805 | 0.8214 | 0.8268 | 0.8584 | 0.9435 |  |
+| breakout_reversal_sell | raw | 79 | 0.7634 | 0.7994 | 0.8189 | 0.857 | 0.9189 | 94.9% |
+| breakout_reversal_sell | prob | 79 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |  |
+| breakout_reversal_sell | weighted | 79 | 0.7634 | 0.7994 | 0.8189 | 0.857 | 0.9189 |  |

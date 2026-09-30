@@ -51,6 +51,7 @@ def jobs():
     except Exception as exc:
         return f"อ่านตารางงานไม่ได้ ({exc})"
     lines = []
+    display_jobs = set(JOBS) | {'credit-guard-openrouter'}
     cur = None; state = None
     for ln in out.splitlines():
         s = ln.strip()
@@ -58,13 +59,16 @@ def jobs():
             state = s[s.index('[') + 1:s.index(']')]
         elif s.startswith('Name:'):
             cur = s.split(':', 1)[1].strip()
-            if cur in JOBS:
+            if cur in display_jobs:
                 label = {RESEARCH_JOB: 'AI Signal Bot (10 นาที)',
                          ADMIN_JOB: 'AI Admin Bot (30 นาที)',
-                         BRAIN_CONSULT_JOB: 'AI Brain Consult (30 นาที)',
+                         BRAIN_CONSULT_JOB: 'AI Brain Consult (60 นาที)',
+                         'brain-consult-alert': 'AI Brain Consult · แจ้งเตือน (60 นาที)',
                          'llm-recommendation-consumer': 'ตัวรับคำแนะนำ Python/AI (5 นาที)',
                          'trading-daily-research-log': 'Python บันทึกงานวิจัยรายวัน',
-                         'trading-analytics': 'Python วิเคราะห์/วิจัยภายใน (10 นาที)'}[cur]
+                         'trading-analytics': 'Python วิเคราะห์/วิจัยภายใน (10 นาที)',
+                         'question-board-scanner': 'Python สแกนกระดานคำถาม (10 นาที)',
+                         'credit-guard-openrouter': 'Python เฝ้าเครดิต AI (60 นาที)'}.get(cur, cur)
                 mark = '🟢 ทำงาน' if state == 'active' else '⏸️ หยุด'
                 lines.append(f"    {label:<32} {mark}")
             cur = None; state = None

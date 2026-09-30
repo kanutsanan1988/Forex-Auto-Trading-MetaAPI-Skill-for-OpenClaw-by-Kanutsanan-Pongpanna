@@ -12,7 +12,7 @@ Project identity: **Settrade e-Open Account · MTS Gold Futures + MT5** · [Sett
 
 ## ขอบเขตและค่าเริ่มต้นความปลอดภัยของชุดแจกจ่าย
 
-- แพ็กเกจนี้สร้างจาก source tree วันที่ **2026-09-28**: ระบบ Python/MT5, agents, docs, factory snapshot และ research archive ครบตามรายการที่รวมใน ZIP
+- แพ็กเกจนี้สร้างจาก source tree วันที่ **2026-09-30**: ระบบ Python/MT5, agents, docs, factory snapshot และ research archive ครบตามรายการที่รวมใน ZIP
 - **ชุดแจกจ่ายเริ่มหยุดอยู่:** `work/AUTO_TRADER_STOP` มีอยู่ และ `live_enabled=false` ใน runtime และไฟล์ factory สำหรับการ restore
 - โหมดเริ่มต้น `internal_llm_join` — **เทรดร่วมสัญญาณ AI** อนุญาตเฉพาะ AI integrations ที่ผู้ใช้ตั้งค่าและเปิดเอง; ไม่เปิด Live และไม่ลบ STOP
 - OpenRouter, Jev และ OpenRouter credit guard ปิดไว้ในชุดแจกจ่ายจนกว่าผู้ใช้จะตั้งค่า credential/provider เอง; ไม่มี `.env`, DPAPI หรือ token รวมอยู่
@@ -55,22 +55,24 @@ MT5 quotes / bars
 | `trading-daily-research-log` | every day at 23:50 | True |
 | `trading-research-bot (10 นาที · บอทดูแล LLM)` | every 10m | True |
 | `trading-admin-bot (30 นาที)` | every 30m | True |
-| `brain-consult` | every 30m | True |
-| `brain-consult-alert` | every 30m | True |
-| `credit-guard-openrouter` | every 1m | True |
+| `brain-consult` | every 60m | True |
+| `brain-consult-alert` | every 60m | True |
+| `credit-guard-openrouter` | every 60m | True |
+| `question-board-scanner` | every 10m | True |
+| `human-behavior-research` | every 60m | True |
 
 กำหนดการใน snapshot เป็นเจตนาการตั้งงานของเครื่องต้นทาง; ต้องติดตั้ง/แปลง adapter scheduler ให้เหมาะกับแพลตฟอร์มปลายทาง ไม่ได้ถ่ายโอน task ที่รันอยู่ให้โดยอัตโนมัติ
 
-## Factory baseline จาก source snapshot (2026-09-28)
+## Factory baseline จาก source snapshot (2026-09-30)
 
 ค่าต่อไปนี้อ่านจาก `work/factory/config/auto_config.factory.json` และ configuration ที่เกี่ยวข้อง ส่วนไฟล์นั้นในแพ็กเกจถูกตั้งค่า safety overlay แล้ว; รายละเอียดเต็มทุกคีย์อยู่ใน JSON ที่แนบมา:
 
-- Factory capture time: `2026-09-28`; see `work/factory/FACTORY_INFO.json` and full safe copy `work/factory/config/auto_config.factory.json`.
+- Factory capture time: `2026-09-30`; see `work/factory/FACTORY_INFO.json` and full safe copy `work/factory/config/auto_config.factory.json`.
 - `live_enabled`: source `True` → release **`false`**; `work/AUTO_TRADER_STOP` is present.
 - `symbol` `XAUUSD.sml` · `volume` `0.001` · `magic` `8252026`.
 - `poll_seconds` / `position_monitor_seconds`: `60` / `60`; cycle interval in seconds.
 - `max_risk_pct` `8.0` · `daily_loss_limit_pct` `20.0` · `max_consecutive_losses` `0`.
-- `min_reward_risk` `1.3` · `atr_stop_multiplier` `1.2` · `max_spread` `0.6` · `cooldown_minutes` `0`.
+- `min_reward_risk` `1.2` · `atr_stop_multiplier` `1.5` · `max_spread` `0.6` · `cooldown_minutes` `5`.
 - `enforce_equal_tp_sl`: `False` · `profit_exit`: `{"enabled":true,"minimum_profit_usd":0.0,"no_signal_tp_fraction":0.8,"note":"ปิดกำไรเมื่อไม่มีสัญญาณทางเดียวกันที่ 80% ของระยะ TP (เจ้าของระบบกำหนด 15 ก.ย. 2026)"}`.
 - Bounded governance: enabled `True`; source `owner_approved` `True` → release `false`; structural mode `diagnostic_only`.
 - `agent_score_thresholds` (fallback when bounded-live is off): `{"trend":0.55,"range":0.3,"mean_reversion":0.25,"breakout":0.7,"counter_trend":0.35,"breakout_reversal":0.6}`.
@@ -78,10 +80,10 @@ MT5 quotes / bars
 - `directional_probabilities`: `{"trend_buy":0.58,"trend_sell":0.58,"range_buy":0.53,"range_sell":0.53,"mean_reversion_buy":0.56,"mean_reversion_sell":0.56,"counter_trend_buy":0.58,"counter_trend_sell":0.58,"breakout_buy":0.6,"breakout_sell":0.6,"breakout_reversal_buy":0.6,"breakout_reversal_sell":0.6}`; full side-specific gates are below. Scores/probabilities are system metrics, not automatically calibrated real-world probabilities.
 - `auto_threshold`: enabled `True`, mode `hybrid`, window `180` rounds, percentiles `60/90`, minimum samples `30`, minimum apply change `0.02`.
 - `side_net_gate`: `{"enabled":true,"lookback_trades":3,"threshold":0.0,"min_samples":2,"note":"ด่านเน็ตดูเฉพาะไม้ที่ปิดภายใน 12 ชม. (ประเมินจากข้อมูลจริง 19 ก.ย. 2026)","max_age_hours":12}`.
-- `early_cut`: `{"enabled":true,"only_losing":true,"note":"ตัดขาดทุนทันทีเมื่อไม้เดิมขาดทุน + สัญญาณใหม่สวนทาง (ผลจำลอง +2.39 ต่อ 6 วัน)"}`; `revenge_guard`: `{"enabled":true,"cooldown_minutes":15,"score_margin":0.05,"note":"กันการแก้แค้น: ไม้ขาดทุนฝั่งไหน ห้ามเข้าซ้ำภายใน 15 นาที เว้นแต่คะแนนแรงกว่าเดิม +0.05"}`.
+- `early_cut`: `{"enabled":true,"only_losing":true,"note":"ตัดขาดทุนทันทีเมื่อไม้เดิมขาดทุน + ฝั่งตรงข้าม (สัญญาณเต็มรูป หรือ 'ทิศเอนของตลาด' จาก regime_scores/ผู้สมัครสัญญาณ) — ตัดได้ทุกระยะ ไม่จำกัดระยะถึง SL (เจ้าของระบบกำหนด 30 ก.ย. 2026) · ผลจำลองเดิม 6 วัน +2.39","use_lean":true,"lean_min_margin":0.1}`; `revenge_guard`: `{"enabled":true,"cooldown_minutes":15,"score_margin":0.05,"note":"กันการแก้แค้น: ไม้ขาดทุนฝั่งไหน ห้ามเข้าซ้ำภายใน 15 นาที เว้นแต่คะแนนแรงกว่าเดิม +0.05"}`.
 - `stage3`: `{"enabled":true,"mode":"two_sides_compare","compare":"probability_and_weighted_score","min_history":2,"require_positive_net":true,"on_unqualified_opposite":"abstain","note":"ด่าน 3 (เจ้าของระบบ): เทียบสองฝั่งของกลยุทธ์ที่ผ่านด่าน 1+2 · ฝั่งตรงข้ามน่าสนใจกว่า+ผ่านเงื่อนไข = พลิกเทรด · ไม่ผ่าน = ไม่เทรด"}`.
 - OpenRouter source enabled `False` → release disabled. Jev source factory is optional → disabled until configured. `credit_guard` source enabled `True` → release disabled until the user configures their own provider credentials; thresholds `1.0` / `1.2` USD; monitor job is in the schedule table.
-- Current source research copied: **576 files**. The full archive is in `research/`.
+- Current source research copied: **618 files**. The full archive is in `research/`.
 
 ### 36 ค่า governance แยกทิศทาง
 
@@ -89,14 +91,14 @@ MT5 quotes / bars
 
 | Agent direction | Raw score | Probability | Weighted score |
 |---|---:|---:|---:|
-| Trend Buy | `[0.180, 0.870]` | `[0.580, 0.850]` | `[0.473, 0.692]` |
-| Trend Sell | `[0.180, 0.870]` | `[0.580, 0.850]` | `[0.290, 0.757]` |
-| Range Buy | `[0.180, 0.870]` | `[0.530, 0.750]` | `[0.240, 0.396]` |
-| Range Sell | `[0.180, 0.870]` | `[0.530, 0.750]` | `[0.266, 0.465]` |
-| Mean Reversion Buy | `[0.180, 0.870]` | `[0.560, 0.750]` | `[0.088, 0.236]` |
-| Mean Reversion Sell | `[0.180, 0.870]` | `[0.560, 0.750]` | `[0.113, 0.296]` |
-| Counter Trend Buy | `[0.180, 0.870]` | `[0.580, 0.780]` | `[0.552, 0.652]` |
-| Counter Trend Sell | `[0.180, 0.870]` | `[0.580, 0.780]` | `[0.485, 0.604]` |
+| Trend Buy | `[0.486, 0.586]` | `[0.580, 0.850]` | `[0.416, 0.516]` |
+| Trend Sell | `[0.403, 0.503]` | `[0.580, 0.850]` | `[0.325, 0.425]` |
+| Range Buy | `[0.174, 0.389]` | `[0.530, 0.750]` | `[0.200, 0.444]` |
+| Range Sell | `[0.374, 0.651]` | `[0.530, 0.750]` | `[0.430, 0.758]` |
+| Mean Reversion Buy | `[0.149, 0.372]` | `[0.560, 0.750]` | `[0.119, 0.316]` |
+| Mean Reversion Sell | `[0.302, 0.468]` | `[0.560, 0.750]` | `[0.257, 0.414]` |
+| Counter Trend Buy | `[0.346, 0.457]` | `[0.580, 0.780]` | `[0.322, 0.434]` |
+| Counter Trend Sell | `[0.511, 0.636]` | `[0.580, 0.780]` | `[0.485, 0.604]` |
 | Breakout Buy | `[0.440, 0.540]` | `[0.600, 0.880]` | `[0.440, 0.540]` |
 | Breakout Sell | `[0.440, 0.540]` | `[0.600, 0.880]` | `[0.440, 0.540]` |
 | Breakout Reversal Buy | `[0.430, 0.530]` | `[0.600, 0.850]` | `[0.430, 0.530]` |
@@ -106,7 +108,7 @@ MT5 quotes / bars
 
 ## งานวิจัยและข้อจำกัด
 
-โฟลเดอร์ `research/` บรรจุ **576 ไฟล์จาก source snapshot ล่าสุด** ทั้งบันทึกวิจัย ประวัติผล/ข้อเสนอ และข้อมูลประกอบระบบที่เก็บไว้ ผู้สร้างขอให้รวมประวัติไว้ด้วย; package pass จะตัด secret, machine paths, credential/account IDs และ runtime state ที่ไม่จำเป็น แต่คงข้อมูลวิจัยที่เหลือ ตรวจสิทธิ์แหล่งข่าวและความเป็นส่วนตัวก่อนเผยแพร่ต่อสาธารณะ
+โฟลเดอร์ `research/` บรรจุ **618 ไฟล์จาก source snapshot ล่าสุด** ทั้งบันทึกวิจัย ประวัติผล/ข้อเสนอ และข้อมูลประกอบระบบที่เก็บไว้ ผู้สร้างขอให้รวมประวัติไว้ด้วย; package pass จะตัด secret, machine paths, credential/account IDs และ runtime state ที่ไม่จำเป็น แต่คงข้อมูลวิจัยที่เหลือ ตรวจสิทธิ์แหล่งข่าวและความเป็นส่วนตัวก่อนเผยแพร่ต่อสาธารณะ
 
 รายงาน review ใน `docs/ARCHIVED-SYSTEM-REVIEW-2026-09-24.md` เป็นหลักฐานการตรวจวันที่ระบุ ไม่ใช่การ audit อิสระของโค้ดที่เปลี่ยนวันที่ 28 ก.ย. 2026; ตรวจ source ปัจจุบันก่อนตัดสินใจเสมอ การเชื่อมต่ออ่านข้อมูล MetaAPI (หากใช้ชุด MetaAPI แยก) ไม่ใช่หลักฐานว่า Live order/position reconciliation ใช้ได้
 

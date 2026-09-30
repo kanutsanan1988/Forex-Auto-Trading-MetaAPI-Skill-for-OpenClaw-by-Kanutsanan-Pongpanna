@@ -942,3 +942,192 @@
 - **❌ ขาดทุน** 2026-09-16T05:54:51 | unknown None | net=$-0.47 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
 - **❌ ขาดทุน** 2026-09-16T05:54:51 | unknown None | net=$-0.49 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
 สรุป: win=4 loss=5 net_total=$-1.3300 | net เฉลี่ย $-0.1478/trade ★ | winrate=44.4% (รายงานเท่านั้น)
+
+## 2026-09-28 10:14 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=1 | errors=0
+- **✅ กำไร** 2026-09-28T10:08:44 | trend sell | net=$0.77 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=1 loss=0 net_total=$0.7700 | net เฉลี่ย $0.7700/trade ★ | winrate=100.0% (รายงานเท่านั้น)
+
+## 2026-09-28 11:26 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=0 | errors=0
+- **✅ กำไร** 2026-09-28T11:23:47 | trend sell | net=$0.83 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=1 loss=0 net_total=$0.8300 | net เฉลี่ย $0.8300/trade ★ | winrate=100.0% (รายงานเท่านั้น)
+
+## 2026-09-28 12:33 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=2 | errors=0
+- **❌ ขาดทุน** 2026-09-28T12:24:17 | trend sell | net=$-0.72 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=0 loss=1 net_total=$-0.7200 | net เฉลี่ย $-0.7200/trade ★ | winrate=0.0% (รายงานเท่านั้น)
+
+## 2026-09-28 12:55 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=0 | errors=0
+- **❌ ขาดทุน** 2026-09-28T12:48:39 | trend sell | net=$-0.67 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=0 loss=1 net_total=$-0.6700 | net เฉลี่ย $-0.6700/trade ★ | winrate=0.0% (รายงานเท่านั้น)
+
+## 2026-09-28 14:02 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=0 | errors=0
+- **❌ ขาดทุน** 2026-09-28T14:00:12 | trend sell | net=$-0.62 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=0 loss=1 net_total=$-0.6200 | net เฉลี่ย $-0.6200/trade ★ | winrate=0.0% (รายงานเท่านั้น)
+
+## 2026-09-28 14:13 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=1 | errors=0
+- **✅ กำไร** 2026-09-28T14:13:32 | trend sell | net=$0.67 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=1 loss=0 net_total=$0.6700 | net เฉลี่ย $0.6700/trade ★ | winrate=100.0% (รายงานเท่านั้น)
+
+## 2026-09-28 15:08 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=0 | errors=0
+- **✅ กำไร** 2026-09-28T15:02:43 | trend sell | net=$0.65 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=1 loss=0 net_total=$0.6500 | net เฉลี่ย $0.6500/trade ★ | winrate=100.0% (รายงานเท่านั้น)
+
+## 2026-09-28 15:30 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=2 | opened(10m)=0 | errors=0
+- **❌ ขาดทุน** 2026-09-28T15:20:54 | trend sell | net=$-0.62 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+- **✅ กำไร** 2026-09-28T15:24:57 | trend sell | net=$0.83 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=1 loss=1 net_total=$0.2100 | net เฉลี่ย $0.1050/trade ★ | winrate=50.0% (รายงานเท่านั้น)
+
+## 2026-09-28 16:31 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=2 | errors=0
+- **✅ กำไร** 2026-09-28T16:30:40 | trend sell | net=$0.95 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=1 loss=0 net_total=$0.9500 | net เฉลี่ย $0.9500/trade ★ | winrate=100.0% (รายงานเท่านั้น)
+
+## 2026-09-28 16:57 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=0 | errors=0
+- **❌ ขาดทุน** 2026-09-28T16:49:53 | trend sell | net=$-0.78 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=0 loss=1 net_total=$-0.7800 | net เฉลี่ย $-0.7800/trade ★ | winrate=0.0% (รายงานเท่านั้น)
+
+## 2026-09-28 17:10 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=0 | errors=0
+- **✅ กำไร** 2026-09-28T17:04:10 | trend sell | net=$1.13 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=1 loss=0 net_total=$1.1300 | net เฉลี่ย $1.1300/trade ★ | winrate=100.0% (รายงานเท่านั้น)
+
+## 2026-09-28 17:23 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=0 | errors=0
+- **✅ กำไร** 2026-09-28T17:20:21 | trend sell | net=$0.87 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=1 loss=0 net_total=$0.8700 | net เฉลี่ย $0.8700/trade ★ | winrate=100.0% (รายงานเท่านั้น)
+
+## 2026-09-28 19:33 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=2 | opened(10m)=0 | errors=0
+- **❌ ขาดทุน** 2026-09-28T19:25:47 | trend sell | net=$-0.72 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+- **❌ ขาดทุน** 2026-09-28T19:26:48 | trend sell | net=$-0.84 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=0 loss=2 net_total=$-1.5600 | net เฉลี่ย $-0.7800/trade ★ | winrate=0.0% (รายงานเท่านั้น)
+
+## 2026-09-28 20:12 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=0 | errors=0
+- **❌ ขาดทุน** 2026-09-28T20:12:20 | trend sell | net=$-0.86 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=0 loss=1 net_total=$-0.8600 | net เฉลี่ย $-0.8600/trade ★ | winrate=0.0% (รายงานเท่านั้น)
+
+## 2026-09-28 22:09 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=2 | opened(10m)=1 | errors=0
+- **✅ กำไร** 2026-09-28T22:05:02 | trend sell | net=$0.95 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+- **❌ ขาดทุน** 2026-09-28T22:05:02 | trend sell | net=$-0.56 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=1 loss=1 net_total=$0.3900 | net เฉลี่ย $0.1950/trade ★ | winrate=50.0% (รายงานเท่านั้น)
+
+## 2026-09-28 22:35 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=0 | errors=0
+- **✅ กำไร** 2026-09-28T22:34:24 | trend sell | net=$0.69 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=1 loss=0 net_total=$0.6900 | net เฉลี่ย $0.6900/trade ★ | winrate=100.0% (รายงานเท่านั้น)
+
+## 2026-09-28 23:53 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=1 | errors=0
+- **✅ กำไร** 2026-09-28T23:48:18 | trend sell | net=$0.64 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=1 loss=0 net_total=$0.6400 | net เฉลี่ย $0.6400/trade ★ | winrate=100.0% (รายงานเท่านั้น)
+
+## 2026-09-29 00:06 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=1 | errors=0
+- **❌ ขาดทุน** 2026-09-28T23:59:26 | trend sell | net=$-0.35 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=0 loss=1 net_total=$-0.3500 | net เฉลี่ย $-0.3500/trade ★ | winrate=0.0% (รายงานเท่านั้น)
+
+## 2026-09-29 01:11 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=2 | errors=0
+- **❌ ขาดทุน** 2026-09-29T01:05:27 | trend sell | net=$-0.62 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=0 loss=1 net_total=$-0.6200 | net เฉลี่ย $-0.6200/trade ★ | winrate=0.0% (รายงานเท่านั้น)
+
+## 2026-09-29 01:24 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=1 | errors=0
+- **❌ ขาดทุน** 2026-09-29T01:21:44 | trend sell | net=$-0.36 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=0 loss=1 net_total=$-0.3600 | net เฉลี่ย $-0.3600/trade ★ | winrate=0.0% (รายงานเท่านั้น)
+
+## 2026-09-29 02:29 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=1 | errors=0
+- **❌ ขาดทุน** 2026-09-29T02:26:40 | trend sell | net=$-0.43 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=0 loss=1 net_total=$-0.4300 | net เฉลี่ย $-0.4300/trade ★ | winrate=0.0% (รายงานเท่านั้น)
+
+## 2026-09-29 02:48 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=0 | errors=0
+- **✅ กำไร** 2026-09-29T02:46:56 | trend sell | net=$0.46 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=1 loss=0 net_total=$0.4600 | net เฉลี่ย $0.4600/trade ★ | winrate=100.0% (รายงานเท่านั้น)
+
+## 2026-09-29 03:21 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=4 | opened(10m)=1 | errors=0
+- **✅ กำไร** 2026-09-29T03:16:59 | trend sell | net=$0.12 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+- **✅ กำไร** 2026-09-29T03:17:59 | trend sell | net=$0.32 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+- **✅ กำไร** 2026-09-29T03:19:00 | trend sell | net=$0.06 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+- **❌ ขาดทุน** 2026-09-29T03:20:01 | trend sell | net=$-0.31 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=3 loss=1 net_total=$0.1900 | net เฉลี่ย $0.0475/trade ★ | winrate=75.0% (รายงานเท่านั้น)
+
+## 2026-09-29 03:34 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=0 | errors=0
+- **❌ ขาดทุน** 2026-09-29T03:29:00 | trend sell | net=$-0.38 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=0 loss=1 net_total=$-0.3800 | net เฉลี่ย $-0.3800/trade ★ | winrate=0.0% (รายงานเท่านั้น)
+
+## 2026-09-29 03:47 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=2 | opened(10m)=0 | errors=0
+- **✅ กำไร** 2026-09-29T03:40:09 | trend sell | net=$0.23 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+- **✅ กำไร** 2026-09-29T03:44:12 | trend sell | net=$0.05 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=2 loss=0 net_total=$0.2800 | net เฉลี่ย $0.1400/trade ★ | winrate=100.0% (รายงานเท่านั้น)
+
+## 2026-09-29 04:15 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=2 | opened(10m)=0 | errors=0
+- **✅ กำไร** 2026-09-29T04:11:35 | trend sell | net=$0.21 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+- **❌ ขาดทุน** 2026-09-29T04:13:36 | trend sell | net=$-0.49 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=1 loss=1 net_total=$-0.2800 | net เฉลี่ย $-0.1400/trade ★ | winrate=50.0% (รายงานเท่านั้น)
+
+## 2026-09-29 04:28 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=0 | errors=0
+- **❌ ขาดทุน** 2026-09-29T04:24:45 | trend sell | net=$-0.71 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=0 loss=1 net_total=$-0.7100 | net เฉลี่ย $-0.7100/trade ★ | winrate=0.0% (รายงานเท่านั้น)
+
+## 2026-09-29 05:20 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=0 | errors=0
+- **❌ ขาดทุน** 2026-09-29T05:15:50 | trend sell | net=$-0.17 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=0 loss=1 net_total=$-0.1700 | net เฉลี่ย $-0.1700/trade ★ | winrate=0.0% (รายงานเท่านั้น)
+
+## 2026-09-29 05:34 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=1 | errors=0
+- **✅ กำไร** 2026-09-29T05:27:11 | mean_reversion buy | net=$0.01 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=1 loss=0 net_total=$0.0100 | net เฉลี่ย $0.0100/trade ★ | winrate=100.0% (รายงานเท่านั้น)
+
+## 2026-09-30 02:35 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=0 | errors=0
+- **❌ ขาดทุน** 2026-09-30T02:32:12 | trend buy | net=$-0.42 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=0 loss=1 net_total=$-0.4200 | net เฉลี่ย $-0.4200/trade ★ | winrate=0.0% (รายงานเท่านั้น)
+
+## 2026-09-30 03:09 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=0 | errors=0
+- **❌ ขาดทุน** 2026-09-30T02:59:19 | trend buy | net=$-0.48 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=0 loss=1 net_total=$-0.4800 | net เฉลี่ย $-0.4800/trade ★ | winrate=0.0% (รายงานเท่านั้น)
+
+## 2026-09-30 03:22 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=2 | errors=0
+- **✅ กำไร** 2026-09-30T03:19:19 | trend buy | net=$0.11 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=1 loss=0 net_total=$0.1100 | net เฉลี่ย $0.1100/trade ★ | winrate=100.0% (รายงานเท่านั้น)
+
+## 2026-09-30 04:43 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=1 | errors=0
+- **✅ กำไร** 2026-09-30T04:41:15 | range sell | net=$0.05 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=1 loss=0 net_total=$0.0500 | net เฉลี่ย $0.0500/trade ★ | winrate=100.0% (รายงานเท่านั้น)
+
+## 2026-09-30 04:56 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=2 | errors=0
+- **✅ กำไร** 2026-09-30T04:54:28 | trend buy | net=$0.07 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=1 loss=0 net_total=$0.0700 | net เฉลี่ย $0.0700/trade ★ | winrate=100.0% (รายงานเท่านั้น)
+
+## 2026-09-30 05:09 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=1 | opened(10m)=1 | errors=0
+- **✅ กำไร** 2026-09-30T05:00:34 | trend buy | net=$0.1 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=1 loss=0 net_total=$0.1000 | net เฉลี่ย $0.1000/trade ★ | winrate=100.0% (รายงานเท่านั้น)
+
+## 2026-09-30 05:35 UTC — P/L Attribution (10 นาทีล่าสุด)
+ตัวเลข: closed=2 | opened(10m)=2 | errors=0
+- **✅ กำไร** 2026-09-30T05:30:18 | range buy | net=$0.39 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+- **✅ กำไร** 2026-09-30T05:32:21 | mean_reversion buy | net=$0.37 | R=None | exit=unknown | entry=None sl=None tp=None | bars=None conf=None loss_to_sl=None tp_prog=None spread=None
+สรุป: win=2 loss=0 net_total=$0.7600 | net เฉลี่ย $0.3800/trade ★ | winrate=100.0% (รายงานเท่านั้น)

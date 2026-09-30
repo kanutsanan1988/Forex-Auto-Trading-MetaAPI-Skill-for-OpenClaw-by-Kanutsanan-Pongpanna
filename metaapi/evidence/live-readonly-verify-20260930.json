@@ -1,0 +1,54 @@
+{
+  "_creator": "Kanutsanan Pongpanna",
+  "date": "2026-09-30",
+  "sdk": "metaapi-cloud-sdk 29.1.1",
+  "validation_scope": "read-only connection and Python engine data path",
+  "connection": {
+    "status": "connected_read_only",
+    "read_only": true,
+    "account_state_deployed": true,
+    "rpc_synchronized": true,
+    "account_information_read": true,
+    "positions_read": true,
+    "pending_orders_read": true,
+    "symbol": "XAUUSD.sml",
+    "symbol_specification_read": true,
+    "historical_bars_per_timeframe": 320,
+    "timeframes": [
+      "1m",
+      "5m",
+      "15m",
+      "1h"
+    ],
+    "transient_subscription_timeouts_recovered": true,
+    "order_rpc_calls": 0,
+    "deploy_calls": 0,
+    "undeploy_calls": 0
+  },
+  "engine_smoke": {
+    "status": "engine_ok_read_only",
+    "initial_attempt": {
+      "status": "timeout",
+      "stage": "initialize"
+    },
+    "successful_retry_count": 1,
+    "frames": [
+      "H1",
+      "M1",
+      "M15",
+      "M5"
+    ],
+    "bars_per_frame": 261,
+    "decision_evaluated": true,
+    "candidates_scored": 6,
+    "package_live_enabled": false,
+    "shim_read_only": true,
+    "local_order_send_probe_blocked": true,
+    "broker_order_rpc_calls": 0
+  },
+  "limits": [
+    "No live order lifecycle, fill, SL/TP execution, or close-confirmation test was performed.",
+    "No account UUID, broker login, credentials, balances, equity, quotes, or raw candle prices are stored.",
+    "No Linux/Cowork/OpenClaw/Hermes/ClawHub/Manus clean-install certification is implied."
+  ]
+}

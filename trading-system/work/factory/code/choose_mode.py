@@ -19,12 +19,13 @@ TITLES = MODE_TITLES
 PYTHON_JOBS = (
     'trading-analytics',
     'llm-recommendation-consumer',
+    'question-board-scanner',
     'trading-daily-research-log',
 )
 RESEARCH_JOB = 'trading-research-bot (10 นาที · บอทดูแล LLM)'
 ADMIN_JOB = 'trading-admin-bot (30 นาที)'
 BRAIN_CONSULT_JOB = 'brain-consult'
-AI_JOBS = (RESEARCH_JOB, ADMIN_JOB, BRAIN_CONSULT_JOB)
+AI_JOBS = (RESEARCH_JOB, ADMIN_JOB, BRAIN_CONSULT_JOB, 'brain-consult-alert')
 JOBS = PYTHON_JOBS + AI_JOBS
 
 def hermes_executable():

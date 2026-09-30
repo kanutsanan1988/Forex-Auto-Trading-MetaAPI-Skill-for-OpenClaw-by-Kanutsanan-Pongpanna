@@ -1,4 +1,8 @@
 # Python Qaunt Trading + AI(LLM) Live Research
+# ★★ หลักการถาวร (เจ้าของระบบ 29 ก.ย. 2026): "ตัวเทรดไม่จำเป็นต้องมี AI" ★★
+#   ตัวเทรด/โมดูลตัดสินใจ = Python ล้วน · ชั้น LLM เป็น "ตัวเลือก" (try/except + fallback เสมอ)
+#   ห้ามทำให้ตัวเทรดสตาร์ทไม่ขึ้น/ตัดสินใจไม่ได้เมื่อไม่มีชั้น LLM — มีด่านทดสอบบังคับที่
+#   tests/test_trader_no_ai_dependency.py และข้อตรวจ q_no_ai ใน tools/system_qc.py
 # อัพเดทใหญ่เพิ่มความฉลาดและความรอบคอบเข้าสู่ระดับผู้ทรงภูมิปัญญา
 # เทรดในไทยมีกฎหมายรองรับ 100%
 # Settrade e-Open Account · MTS Gold Futures + MT5
@@ -42,6 +46,7 @@ if hasattr(sys.stderr, "reconfigure"):
 import MetaTrader5 as mt5  # noqa: E402
 from market_analyzer import market_frames  # noqa: E402
 from strategy_engine import decide_market  # noqa: E402
+from trader_ai import run_trader_ai  # ★ ชั้น AI ของตัวเทรด = Jev เท่านั้น (เจ้าของระบบ 29 ก.ย. 2026 · ปิดไว้โดยปริยาย · เปิด/ปิดเป็นอำนาจเจ้าของระบบ)
 # ★ แยกชั้น LLM (เจ้าของระบบกำหนด): เทรดคอร์ทำงานได้แม้ไม่มีโมดูล LLM
 try:
     from openrouter_agents import MODEL as OPENROUTER_MODEL, run_dual_agents  # noqa: E402
@@ -314,7 +319,12 @@ def connect(symbol_name: str):
 
 def refresh_closed_trade_state(state: dict, config: dict) -> None:
     start = bangkok_day_start_utc()
-    deals = mt5.history_deals_get(start, datetime.now(timezone.utc)) or ()
+    # ★★ แก้บั๊ก 29 ก.ย. 2026 (ที่ปรึกษา): MT5 ตีความ datetime ที่ส่งไปเป็น "เวลาเซิร์ฟเวอร์"
+    #    (OANDA เร็วกว่า UTC จริง +3 ชม.) → ขอบสิ้นสุด datetime.now(utc) = มองเห็นแค่ถึง "อดีต 3 ชม."
+    #    ผลจริง: ไม้ที่ปิดถูกประมวลผลช้า ~3 ชม. ทุกไม้ → กันแก้แค้นติดอาวุธช้า 3 ชม. ตามไปด้วย
+    #    หลักฐาน: end=now เห็นไม้ถึงแค่ 09:48 (ทั้งที่ปิดจริง 12:44) · end=now+12h เห็นถึง 12:44 ครบ
+    #    แก้: เผื่อขอบสิ้นสุด +12 ชม. (ปลอดภัย: มีการกรอง symbol/magic + ticket watermark อยู่แล้ว)
+    deals = mt5.history_deals_get(start, datetime.now(timezone.utc) + timedelta(hours=12)) or ()
     exits = [
         deal for deal in deals
         if deal.symbol == config["symbol"]
@@ -345,18 +355,25 @@ def refresh_closed_trade_state(state: dict, config: dict) -> None:
               consecutive_losses=state["consecutive_losses"], strategy=strategy,
               side=(side or None), position_id=int(getattr(deal, "position_id", 0) or 0))
         # ★ ระบบกันการแก้แค้น: ไม้ที่เพิ่งปิด "ขาดทุน" → ตั้งเวลาห้ามเข้าฝั่งเดิมซ้ำ
-        last_entry = state.get("last_entry") or {}
-        if net < 0 and int(last_entry.get("position_id") or 0) == int(getattr(deal, "position_id", 0) or 0):
+        # ★★ แก้บั๊ก (29 ก.ย. 2026): เดิมเทียบ position_id ของ last_entry กับไม้ที่ปิด
+        #    แต่ตอนบันทึกเก็บ "เลข order" ลงช่อง position_id -> ไม่เคยตรงกัน
+        #    ผลจริง: ติดอาวุธ 0 ครั้งในบันทึก 100+ MB ขณะที่เข้าไม้ใหม่ทันทีหลังขาดทุน 13/15 ครั้ง
+        #    แก้เป็น: ติดอาวุธจาก "ฝั่งของไม้ที่เพิ่งปิดขาดทุน" (เชื่อถือได้ + ตรงเจตนาระบบกันแก้แค้น)
+        _closed_side = str(side or "").lower()
+        if net < 0 and _closed_side in ("buy", "sell"):
             rg = config.get("revenge_guard") or {}
             if rg.get("enabled", True):
                 mins = float(rg.get("cooldown_minutes") or 15)
-                state.setdefault("revenge", {})[str(last_entry.get("side"))] = {
+                last_entry = state.get("last_entry") or {}
+                base_score = (float(last_entry.get("score") or 0.0)
+                              if str(last_entry.get("side") or "").lower() == _closed_side else 0.0)
+                state.setdefault("revenge", {})[_closed_side] = {
                     "until": time.time() + mins * 60.0,
-                    "score": float(last_entry.get("score") or 0.0),
+                    "score": base_score,
                     "reason": "loss close",
                 }
-                audit("revenge_armed", side=last_entry.get("side"), minutes=mins,
-                      score=float(last_entry.get("score") or 0.0))
+                audit("revenge_armed", side=_closed_side, minutes=mins,
+                      score=base_score, by="closed_side_fix")
 
 
 def apply_adaptive_gates(config: dict, state: dict) -> dict:
@@ -499,7 +516,9 @@ def analyze(config: dict, state: dict, account, symbol) -> dict:
     technical_decision = decision
     # Group 2 + final judge. The returned decision is fail-closed and contains
     # no order parameters; Python continues to calculate all execution values.
-    dual_agents = run_dual_agents(config, frames, technical_decision)
+    # ★ ชั้น AI ของตัวเทรด = Jev เท่านั้น (ไม่เรียก OpenRouter dual agents อีก)
+    #   ปิดไว้เป็นค่าเริ่มต้น · เปิด/ปิดเป็นอำนาจเจ้าของระบบเท่านั้น · ผลลัพธ์ fail-closed
+    dual_agents = run_trader_ai(config, frames, technical_decision)
     decision = dual_agents["trade_decision"]
     side = decision["side"]
     spread = float(tick.ask - tick.bid)
@@ -589,6 +608,47 @@ def compact_decision(decision: dict) -> dict:
     }
 
 
+def _m1_shadow(analysis: dict) -> dict:
+    """★ โหมดเงา M1 (เจ้าของระบบ 29 ก.ย. 2026): บันทึกบริบท M1 + สัญญาณ 'ลากกินรวบ'
+    คำนวณและบันทึกเท่านั้น — ไม่มีผลต่อการเทรด จนกว่าจะพิสูจน์ด้วยข้อมูลจริง
+    ปลอดภัย: ผิดพลาดแล้วคืนค่า ไม่ทำให้ตัวเทรดหยุด · มีแคช 2 วินาทีกันดึงซ้ำ"""
+    try:
+        import io as _io
+        import json as _json
+        import os as _os
+        import sys as _sys
+        import time as _time
+
+        _here = _os.path.dirname(_os.path.abspath(__file__))
+        _tools = _os.path.join(_here, "tools")
+        if _tools not in _sys.path:
+            _sys.path.insert(0, _tools)
+        import m1_sweep as _m1s
+
+        _memo = _m1_shadow.__dict__
+        _now = _time.time()
+        if _memo.get("_t", 0) > _now - 2.0:
+            return _memo["_v"]
+
+        _cfg = {}
+        try:
+            _cfg = _json.loads(_io.open(_os.path.join(_here, "auto_config.json"), encoding="utf-8").read())
+        except Exception:
+            _cfg = {}
+        _sym = str(_cfg.get("symbol") or "XAUUSD")
+        _bars = int((_cfg.get("m1_sweep") or {}).get("bars", 60))
+        _rates = _m1s.load_m1(_sym, _bars)
+        _val = {
+            "sweep": _m1s.detect(_sym, _cfg, rates=_rates),
+            "snapshot": _m1s.snapshot(_sym, _cfg, rates=_rates),
+        }
+        _memo["_t"] = _now
+        _memo["_v"] = _val
+        return _val
+    except Exception as _e:
+        return {"ok": False, "error": str(_e)}
+
+
 def compact_analysis(analysis: dict) -> dict:
     technical = analysis["technical_decision"]
     return {
@@ -601,6 +661,7 @@ def compact_analysis(analysis: dict) -> dict:
         "risk_pct": analysis["risk_pct"],
         "strategy": analysis["strategy"],
         "market_regime": analysis["market_regime"],
+        "m1_shadow": _m1_shadow(analysis),
         "router_decision": compact_decision(analysis["decision"]),
         "dual_agents": {
             "status": analysis["dual_agents"].get("status"),
@@ -673,18 +734,40 @@ def risk_gate(config: dict, state: dict, account, analysis: dict) -> tuple[bool,
 
 
 def _best_side_score(analysis: dict, side: str) -> float:
-    """คะแนนสูงสุดของฝั่งที่กำลังพิจารณา (ใช้กับระบบกันการแก้แค้น)"""
+    """คะแนนสูงสุดของฝั่งที่กำลังพิจารณา (ใช้กับระบบกันการแก้แค้น)
+
+    ★★ แก้ 29 ก.ย. 2026: เดิมเทียบฝั่งแบบตรงตัวอักษร (str(x["side"]) == str(side))
+       แต่ฝั่งเก็บได้ทั้ง "SELL"/"sell" → เทียบไม่ตรง → คืน 0.0 เสมอ
+       ผลคือเกณฑ์กันแก้แค้นใช้ฐาน 0 (ต้องได้คะแนน >= 0.05 = อ่อนเกินไป ไม่กันจริง)
+       แก้เป็น: เทียบแบบไม่สนตัวพิมพ์ + มีตัวสำรองจากคีย์คะแนนอื่นของ analysis
+    """
     try:
+        _s = str(side or "").strip().lower()
         tf = analysis.get("probability_top_four") or []
-        vals = [float(x.get("score") or 0.0) for x in tf if str(x.get("side")) == str(side)]
+        vals = [float(x.get("score") or 0.0) for x in tf
+                if str(x.get("side") or "").strip().lower() == _s]
         if vals:
             return max(vals)
     except Exception:
         pass
+    # ★★ แก้ 29 ก.ย. 2026 (ที่ปรึกษา): ฐานคะแนนกันแก้แค้นยังเป็น 0.0 เพราะ analysis จริง
+    #    ไม่มีคีย์คะแนนชั้นบน (ค่าที่ถูกต้อง = confidence ของสัญญาณที่เลือก = best_score)
+    #    และบางเส้นทางใช้ router_decision.confidence → เติม fallback ให้ครบก่อนคืน 0.0
+    _rd = analysis.get("router_decision") or {}
     try:
-        return float(analysis.get("score") or 0.0)
+        _v = float(_rd.get("confidence") or 0.0)
+        if _v > 0:
+            return _v
     except Exception:
-        return 0.0
+        pass
+    for _k in ("confidence", "score", "agent_score", "best_score", "net_score", "weighted", "raw"):
+        try:
+            _v = float(analysis.get(_k) or 0.0)
+            if _v > 0:
+                return _v
+        except Exception:
+            continue
+    return 0.0
 
 
 def revenge_guard(config: dict, state: dict, analysis: dict):
@@ -758,6 +841,89 @@ def evaluate_same_direction_cut_loss(position, analysis: dict | None) -> dict:
     }
 
 
+def _directional_lean(analysis: dict, min_margin: float = 0.10):
+    """ทิศเอนของตลาด เมื่อประตูเข้าไม่อนุญาตให้มีสัญญาณเต็มรูป (side = None)
+
+    ★ เจ้าของระบบกำหนด 30 ก.ย. 2026: "SL ตัดขาดทุนได้ทุกระยะนะครับ ถ้ามีสัญญาณสวนทางครับ"
+      ปัญหาจริงที่พบ: 1,092 จาก 1,333 รอบ ประตูเข้าไม่อนุญาต → ไม่มีฝั่งสัญญาณ → ตัวตัดขาดทุนไม่รู้ว่าตลาดสวนทาง
+      จึงใช้ "ทิศเอน" จาก regime_scores ก่อน แล้วจึงผู้สมัครสัญญาณ (ต้องมีส่วนต่าง ≥ min_margin กันสัญญาณรบกวน;
+      ค่ามาตรฐานความกว้างขั้นต่ำของระบบ = 0.10)
+    คืน (side, detail) โดย side เป็น 'buy' / 'sell' / None
+    """
+    rd = analysis.get("router_decision") or {}
+    rs = rd.get("regime_scores") or {}
+    regime = str(rd.get("regime") or analysis.get("market_regime") or "")
+    if regime in ("trend", "range", "breakout"):
+        b = float(rs.get(regime + "_buy") or 0.0)
+        s = float(rs.get(regime + "_sell") or 0.0)
+        if abs(b - s) >= min_margin:
+            return ("buy" if b > s else "sell"), {"src": "regime", "regime": regime,
+                                                  "buy": round(b, 3), "sell": round(s, 3)}
+    best = None
+    for c in (analysis.get("technical_candidates") or []):
+        if not isinstance(c, dict):
+            continue
+        b = float(c.get("buy_score") or 0.0)
+        s = float(c.get("sell_score") or 0.0)
+        if abs(b - s) >= min_margin:
+            cand = ("buy" if b > s else "sell", abs(b - s), c.get("strategy"),
+                    round(b, 3), round(s, 3))
+            if best is None or cand[1] > best[1]:
+                best = cand
+    if best:
+        return best[0], {"src": "candidate", "strategy": best[2], "buy": best[3],
+                         "sell": best[4], "margin": round(best[1], 3)}
+    return None, {"src": "none"}
+
+
+def log_position_verdicts(config: dict, analysis: dict) -> int:
+    """★ 30 ก.ย. 2026 (เจ้าของระบบ): "เวลาเช็คเทรดทุกครั้ง ต้องเช็คว่าถ้ามี position ค้างอยู่
+    ควรปิดกำไรหรือควรตัดขาดทุนหรือไม่ ในทุกครั้งของการเช็คเทรด"
+
+    บันทึกคำตอบทั้ง 2 คำถามของทุกไม้ที่ค้างอยู่ ลงบันทึก (ไม่แก้ค่าใด ๆ · อ่านเท่านั้น)
+    พร้อมตัวเลขจริง: กำไรลอย · ความคืบหน้าถึง TP · ระยะที่ลากไปถึง SL · ทิศเอนของตลาด
+    """
+    lean, detail = _directional_lean(analysis)
+    n = 0
+    try:
+        positions = checked_positions(config["symbol"])
+    except Exception:
+        return 0
+    for position in positions:
+        try:
+            if int(position.magic) != int(config["magic"]):
+                continue
+            is_buy = position.type == mt5.POSITION_TYPE_BUY
+            pos_side = "buy" if is_buy else "sell"
+            entry = float(getattr(position, "price_open", 0) or 0)
+            cur = float(getattr(position, "price_current", 0) or 0)
+            tpv = float(getattr(position, "tp", 0) or 0)
+            slv = float(getattr(position, "sl", 0) or 0)
+            tp_d = abs(tpv - entry) if (tpv and entry) else 0.0
+            sl_d = abs(entry - slv) if (slv and entry) else 0.0
+            mv = (((cur - entry) if is_buy else (entry - cur))
+                  if (entry and cur) else 0.0)
+            tp_prog = round(mv / tp_d, 3) if tp_d else None
+            l2sl = round(-mv / sl_d, 3) if sl_d else None
+            profit = float(getattr(position, "profit", 0.0) or 0.0)
+            audit("mgmt_verdict",
+                  ticket=int(position.ticket), position_side=pos_side,
+                  profit=round(profit, 3),
+                  # ★ 30 ก.ย. 2026 (กติกาถาวรเจ้าของระบบ: มีการขาดทุน → ดู TP/SL ก่อนเป็นอันดับแรก)
+                  #   บันทึกค่า TP/SL จริงทุกรอบ เพื่อให้ตรวจย้อนหลังได้ว่า SL ถูกเขี่ย/TP แคบเกินหรือไม่
+                  price=round(cur, 3), sl=round(slv, 3), tp=round(tpv, 3),
+                  sl_distance=round(sl_d, 3), tp_distance=round(tp_d, 3),
+                  breakeven_ready=bool(tp_prog is not None and tp_prog >= 0.50),
+                  tp_progress=tp_prog, loss_to_sl=l2sl,
+                  lean_side=lean, lean_src=detail.get("src"),
+                  ask_take_profit=bool(tp_prog is not None and tp_prog >= 0.50),
+                  ask_cut_loss=bool(profit < 0 and lean is not None and lean != pos_side))
+            n += 1
+        except Exception as exc:
+            audit("mgmt_verdict_error", ticket=getattr(position, "ticket", None), error=str(exc))
+    return n
+
+
 def early_cut_losing_positions(config: dict, terminal, account, analysis: dict, live: bool) -> int:
     """★ ระบบตัดขาดทุนแบบใหม่ (เจ้าของระบบกำหนด 19 ก.ย. 2026):
     ไม้เดิม "กำลังขาดทุน" + สัญญาณใหม่ชี้สวนทางไม้เดิม (ทิศที่ไม้เดิมขาดทุนเพิ่ม)
@@ -767,6 +933,14 @@ def early_cut_losing_positions(config: dict, terminal, account, analysis: dict, 
     if not ec.get("enabled", True):
         return 0
     side = str(analysis.get("side") or "")
+    lean_used = False
+    lean_detail = None
+    if side not in ("buy", "sell"):
+        # ★ 30 ก.ย. 2026 (เจ้าของระบบ): "SL ตัดขาดทุนได้ทุกระยะ ถ้ามีสัญญาณสวนทาง"
+        #   ประตูเข้าไม่อนุญาตเกือบทุกรอบ → ใช้ทิศเอนของตลาดเป็นตัวชี้ทิศสวนทางแทน (ปิดได้เองด้วย use_lean)
+        if ec.get("use_lean", True):
+            side, lean_detail = _directional_lean(analysis, float(ec.get("lean_min_margin", 0.10)))
+            lean_used = bool(side)
     if side not in ("buy", "sell"):
         return 0
     opp = "sell" if side == "buy" else "buy"
@@ -812,6 +986,7 @@ def early_cut_losing_positions(config: dict, terminal, account, analysis: dict, 
             result = mt5.order_send(request)
             ok = result is not None and result.retcode in (mt5.TRADE_RETCODE_DONE, mt5.TRADE_RETCODE_DONE_PARTIAL)
             audit("early_cut", ticket=position.ticket, position_side=pos_side, signal_side=side,
+                  from_lean=lean_used, lean_detail=lean_detail,
                   profit=float(position.profit), ok=ok, result=(result._asdict() if result else None))
             if ok:
                 closed += 1
@@ -880,8 +1055,11 @@ def manage_profitable_positions(
         # second (hedged) position instead of closing. Losing positions are
         # still closed + replaced to avoid double-down risk.
         total_positions = len(positions)
+        # ★ 30 ก.ย. 2026 (เจ้าของระบบ): สัญญาณสวนทาง → ปิดไม้ทันทีทั้งที่กำไรและขาดทุน
+        #   โมเดลเดิม (กันไว้ + เปิดไม้ hedge) จึงปิดเป็นค่าเริ่มต้น — เปิดคืนได้ด้วยค่า hedge_on_opposite_signal
         can_hedge = (
-            opposite_signal
+            bool(config.get("hedge_on_opposite_signal", False))
+            and opposite_signal
             and total_positions < 2
             and floating_profit > 0.0
         )
@@ -894,7 +1072,13 @@ def manage_profitable_positions(
         if (not opposite_signal and not same_direction_cut and not transition_same_direction_exit
                 and (not profit_exit_enabled or floating_profit <= threshold)):
             continue
-        no_signal = desired_side is None
+        # ★ 30 ก.ย. 2026 (เจ้าของระบบชี้แจง): "เงื่อนไข 80% ของ TP ใช้เฉพาะมีสัญญาณในทิศเดียวกัน
+        #   แต่สัญญาณไม่ผ่านประตูต่างๆ หรือตอนที่ไม่มีสัญญาณที่ชัดเจนด้วย"
+        #   ⇒ ตัดสินจาก 'สัญญาณที่ผ่านประตูแล้ว' (analysis["side"]) เท่านั้น
+        #     - ไม่มีสัญญาณที่ชัดเจน (side = None)            → ใช้เงื่อนไข 80% ✓
+        #     - มีทิศเอนทิศเดียวกันแต่ไม่ผ่านประตู            → ใช้เงื่อนไข 80% ✓ (desired_side เป็นเพียงทิศเอน)
+        #     - มีสัญญาณผ่านประตูทิศเดียวกัน (ยืนยันแล้ว)      → ไม่ใช้เงื่อนไข 80% (ปล่อยวิ่งต่อถึง TP)
+        no_signal = (analysis or {}).get("side") is None
         tp_progress = 0.0
         if no_signal and float(position.tp) > 0.0:
             tick_for_progress = mt5.symbol_info_tick(position.symbol)
@@ -1003,6 +1187,21 @@ def process_bar(config: dict, state: dict, live: bool) -> None:
     if STOP_FILE.exists():
         raise RuntimeError(f"Kill switch present: {STOP_FILE}")
     analysis = analyze(cycle_config, state, account, symbol)
+    # ★ 30 ก.ย. 2026: บันทึกคำตอบ 2 คำถามของทุกไม้ค้าง — ทุกครั้งที่เช็คเทรด (เจ้าของระบบสั่ง)
+    try:
+        log_position_verdicts(cycle_config, analysis)
+    except Exception as _mv_exc:
+        audit("mgmt_verdict_error", error=str(_mv_exc))
+    # ★ 30 ก.ย. 2026 (เจ้าของระบบสั่ง): ไม้ที่มนุษย์กดเทรดเองมัก "ไม่มี TP/SL"
+    #   → ทุกครั้งที่เช็คเทรด ต้องตรวจและใส่ TP/SL ให้ไม้ที่ยังไม่มี (ทำก่อนตรรกะปิดไม้)
+    try:
+        import position_protection as _pp
+        _atr_m5 = ((analysis.get("frames") or {}).get("M5") or {}).get("atr14")
+        for _r in _pp.scan(mt5, cycle_config["symbol"], cycle_config,
+                           dry_run=not live, atr=_atr_m5):
+            audit("position_protection", **_r)
+    except Exception as _pp_exc:
+        audit("position_protection_error", error=str(_pp_exc)[:160])
     # ★ ตัดขาดทุนไม้ที่สวนสัญญาณใหม่ทันที (ก่อนจัดการไม้ทำกำไร) — เจ้าของระบบกำหนด
     try:
         _n = early_cut_losing_positions(cycle_config, terminal, account, analysis, live)
@@ -1023,9 +1222,21 @@ def process_bar(config: dict, state: dict, live: bool) -> None:
     # analyze first, then decide whether a profitable position should be held
     # (same direction), closed (opposite direction), or exited when no trade
     # signal is available.
+    # ★ 30 ก.ย. 2026 (เจ้าของระบบ): "TP ก็เช่นเดียวกัน ถ้าสัญญาณสวนทาง ก็ปิดกำไรได้เลย ในลักษณะเดียวกัน"
+    #   "SL ตัดขาดทุนได้ทุกระยะ ถ้ามีสัญญาณสวนทาง" → ประตูเข้าไม่อนุญาตเกือบทุกรอบ (side = None)
+    #   จึงใช้ 'ทิศเอนของตลาด' เป็นตัวชี้ฝั่งสวนทาง ทั้งไม้กำไร (ปิดเก็บกำไร) และไม้ขาดทุน (early_cut)
+    manage_eff_side = analysis["side"]
+    manage_lean_detail = None
+    if manage_eff_side not in ("buy", "sell"):
+        _ec_cfg = cycle_config.get("early_cut") or {}
+        if _ec_cfg.get("use_lean", True):
+            manage_eff_side, manage_lean_detail = _directional_lean(
+                analysis, float(_ec_cfg.get("lean_min_margin", 0.10)))
+            if manage_eff_side:
+                audit("manage_lean_used", side=manage_eff_side, detail=manage_lean_detail)
     closed_tickets, suppress_replacement = manage_profitable_positions(
         cycle_config, live=live, terminal=terminal, account=account,
-        desired_side=analysis["side"], analysis=analysis,
+        desired_side=manage_eff_side, analysis=analysis,
         signal_reliable=analysis["dual_agents"].get("status") != "error",
     )
     positions_after_management = wait_for_closed_positions(config, closed_tickets)
@@ -1041,20 +1252,46 @@ def process_bar(config: dict, state: dict, live: bool) -> None:
     open_side = None
     if existing_magic:
         open_side = "buy" if existing_magic[0].type == mt5.POSITION_TYPE_BUY else "sell"
-    allow_second_hedge = (
+    # ★ 30 ก.ย. 2026 (เจ้าของระบบอนุมัติจากผลจำลองในงานวิจัย ตอนที่ 15):
+    #   จำลอง 96 ชม. 115 ข้อเสนอ → "ซ้อนทิศทางเดียวกัน" ชนะ "ซ้อนสองทิศ" ทั้งกำไรและความเสี่ยง
+    #     ทิศเดียว 2 ไม้ = +5.4R/DD -5.7  ·  สองทิศ 2 ไม้ = +1.1R/DD -9.1  ·  ของเดิม 1 ไม้ = +1.9R/DD -3.5
+    #   ⇒ อนุญาตไม้ที่ 2 เฉพาะ "ทิศทางเดียวกัน" และ "ห้ามถือสองทิศพร้อมกัน" (การ hedge คือตัวทำลายผลลัพธ์)
+    #   ⇒ ไม่ใช้เงื่อนไข "ไม้เดิมต้องกำไรก่อน" เพราะการจำลองพบว่าแย่กว่าแบบปล่อยปกติ
+    allow_second_same_dir = (
         analysis["side"] is not None
         and open_side is not None
-        and open_side != analysis["side"]
+        and open_side == analysis["side"]
         and len(existing_magic) < 2
         and len(positions_after_management) < 2
-        and all(float(p.profit) + float(p.swap) > 0 for p in existing_magic)
     )
-    if positions_after_management and not allow_second_hedge:
+    if positions_after_management and not allow_second_same_dir:
         audit(
-            "skip", reason="position already open" if not allow_second_hedge else "max 2 positions",
+            "skip",
+            reason="max 2 positions (same direction only)" if open_side == analysis.get("side")
+            else "position already open (opposite direction blocked)",
             router_decision=compact_decision(analysis["router_decision"]),
         )
         return
+    # ★ 30 ก.ย. 2026 (เจ้าของระบบสั่ง: "ทำไมยิงพร้อมกัน 2 position"):
+    #   ต้นเหตุจริง = ตัว "ticker ปิดไม้" (close_ticker) เรียก process_bar รอบที่ 2 ในวินาทีเดียวกัน
+    #   → ยิงไม้ที่ 2 ภายใน 1 วินาที (พบจริง 11:25:52 + 11:25:53 · 11:26:54 + 11:26:55)
+    #   ⇒ บังคับด่านช่วงเว้นขั้นต่ำ "ก่อน" ทุกเส้นทางที่อาจเปิดไม้ (กันทุกกรณี ไม่พึ่งด่านอื่น)
+    try:
+        _cd_min = config.get("cooldown_minutes")
+        if not _cd_min:      # สำรอง: อ่านค่าจากไฟล์ตรง ๆ (กัน cycle_config ถูกรีเซ็ตระหว่างทาง)
+            try:
+                import json as _json
+                _cd_min = _json.loads(io.open(CONFIG_FILE, encoding="utf-8").read()).get("cooldown_minutes", 0)
+            except Exception:
+                _cd_min = 0
+        _cd_sec = float(_cd_min or 0) * 60.0
+        _since = time.time() - float(state.get("last_trade_time") or 0)
+        if _cd_sec > 0 and _since < _cd_sec:
+            audit("skip", reason="cooldown active — entry too soon (%.1f/%.1f min)" % (
+                _since / 60.0, _cd_sec / 60.0))
+            return
+    except Exception as _cd_exc:
+        audit("cooldown_check_error", error=str(_cd_exc)[:120])
     allowed, reason = risk_gate(cycle_config, state, account, analysis)
     compact = compact_analysis(analysis)
     if not allowed:

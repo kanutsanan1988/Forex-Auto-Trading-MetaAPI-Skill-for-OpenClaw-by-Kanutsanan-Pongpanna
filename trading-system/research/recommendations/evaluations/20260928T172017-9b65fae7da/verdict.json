@@ -1,0 +1,29 @@
+{
+  "status": "failed",
+  "reason": "same-snapshot bar simulation comparison",
+  "base": {
+    "trades": 80,
+    "wins": 31,
+    "losses": 49,
+    "win_rate_pct": 38.75,
+    "total_r": -8.692207074037013,
+    "average_r": -0.10865258842546266,
+    "profit_factor": 0.8169914868537402,
+    "max_drawdown_r": 20.59618979249468
+  },
+  "proposed": {
+    "trades": 76,
+    "wins": 29,
+    "losses": 47,
+    "win_rate_pct": 38.1578947368421,
+    "total_r": -11.235620826382783,
+    "average_r": -0.14783711613661557,
+    "profit_factor": 0.7529879254340889,
+    "max_drawdown_r": 21.686119843039265
+  },
+  "improved": false,
+  "limitations": "Approximate M5 simulation; not a full M1/position lifecycle replay or a guarantee of future profit",
+  "stage": "performance",
+  "rec_hash": "65136cb2da1bacb8e86967acbf3f6702522ab1c92e132ebbb177c4b76df6fa37",
+  "config_hash": "94951ab5de18751488751064e3b96db2decd4610678e9bc90989718886a2596e"
+}

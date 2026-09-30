@@ -6,5 +6,6 @@
   "resume_usd": 1.2,
   "manage_trader_ai": false,
   "max_consecutive_failures": 3,
-  "notify_telegram": true
+  "notify_telegram": true,
+  "note_trader_ai": "AI ของตัวเทรดเป็นอำนาจเจ้าของระบบเท่านั้น — ตัวเฝ้าเครดิตห้ามแตะ (29 ก.ย. 2026)"
 }
